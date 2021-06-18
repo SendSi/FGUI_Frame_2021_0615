@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1900594862
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc14105b64a34436d380bedad499b152
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Examples/Resources/Icons/i8.png
+Dependencies: []

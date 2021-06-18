@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1131417106
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a16b09badb8eadfb1cb2c4cbdfeed6c3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Examples/Resources/UI/Basics_atlas0.png
+Dependencies: []
