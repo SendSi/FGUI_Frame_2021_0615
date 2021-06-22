@@ -159,7 +159,6 @@ namespace LuaInterface
             {
                 string path = FindFile(fileName);
                 byte[] str = null;
-                Debug.Log("zsx 5 " + path);
                 if (!string.IsNullOrEmpty(path) && File.Exists(path))
                 {
 #if !UNITY_WEBPLAYER
@@ -167,8 +166,7 @@ namespace LuaInterface
 #else
                     throw new LuaException("can't run in web platform, please switch to other platform");
 #endif
-                }
-                Debug.Log("zsx 6 " + str);
+                }           
                 return str;
             }
             else
@@ -226,7 +224,6 @@ namespace LuaInterface
             AssetBundle zipFile = null;
             byte[] buffer = null;
             string zipName = null;
-            Debug.Log("zsx 7 " + fileName);
             using (CString.Block())
             {
                 CString sb = CString.Alloc(256);

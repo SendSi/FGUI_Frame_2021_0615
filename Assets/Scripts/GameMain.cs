@@ -11,66 +11,67 @@ public class GameMain : MonoBehaviour
         this.gameObject.AddComponent<AssetLoader>();
         this.gameObject.AddComponent<LuaMgr>();
     }
-    GComponent _mainView;
-    public void OnGUI()
-    {
-        if (GUILayout.Button("<size=45>  bag  </size>"))
-        {
-            AssetLoader.Instance.AddPackage("bag", () =>
-            {
-            });
-        }    
 
-        if (GUILayout.Button("<size=44> 222 </size>"))
-        {
-            StartCoroutine(LoadUIPackage());
-        }
 
-    }
+//    GComponent _mainView;
+//    public void OnGUI()
+//    {
+//        if (GUILayout.Button("<size=45>  bag  </size>"))
+//        {
+//            AssetLoader.Instance.AddPackage("bag", () =>
+//            {
+//            });
+//        }
 
-    IEnumerator LoadUIPackage()
-    {
-        string url = Application.streamingAssetsPath.Replace("\\", "/") + "/fairygui-examples/bundleusage.ab";
-        if (Application.platform != RuntimePlatform.Android)
-            url = "file:///" + url;
+//        if (GUILayout.Button("<size=44> 222 </size>"))
+//        {
+//            StartCoroutine(LoadUIPackage());
+//        }
+//    }
 
-#if UNITY_2017_2_OR_NEWER
-#if UNITY_2018_1_OR_NEWER
-        UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(url);
-#else
-        UnityWebRequest www = UnityWebRequest.GetAssetBundle(url);
-#endif
-        yield return www.SendWebRequest();
+//    IEnumerator LoadUIPackage()
+//    {
+//        string url = Application.streamingAssetsPath.Replace("\\", "/") + "/fairygui-examples/bundleusage.ab";
+//        if (Application.platform != RuntimePlatform.Android)
+//            url = "file:///" + url;
 
-        if (!www.isNetworkError && !www.isHttpError)
-        {
-            AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
-#else
-        WWW www = new WWW(url);
-        yield return www;
+//#if UNITY_2017_2_OR_NEWER
+//#if UNITY_2018_1_OR_NEWER
+//        UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(url);
+//#else
+//        UnityWebRequest www = UnityWebRequest.GetAssetBundle(url);
+//#endif
+//        yield return www.SendWebRequest();
 
-        if (string.IsNullOrEmpty(www.error))
-        {
-            AssetBundle bundle = www.assetBundle;
-#endif
-            if (bundle == null)
-            {
-                Debug.LogWarning("Run Window->Build FairyGUI example Bundles first.");
-                yield return 0;
-            }
-            UIPackage.AddPackage(bundle);
+//        if (!www.isNetworkError && !www.isHttpError)
+//        {
+//            AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
+//#else
+//        WWW www = new WWW(url);
+//        yield return www;
 
-            _mainView = UIPackage.CreateObject("BundleUsage", "Main").asCom;
-            _mainView.fairyBatching = true;
-            _mainView.SetSize(GRoot.inst.width, GRoot.inst.height);
-            _mainView.AddRelation(GRoot.inst, RelationType.Size);
+//        if (string.IsNullOrEmpty(www.error))
+//        {
+//            AssetBundle bundle = www.assetBundle;
+//#endif
+//            if (bundle == null)
+//            {
+//                Debug.LogWarning("Run Window->Build FairyGUI example Bundles first.");
+//                yield return 0;
+//            }
+//            UIPackage.AddPackage(bundle);
 
-            GRoot.inst.AddChild(_mainView);
-            _mainView.GetTransition("t0").Play();
-        }
-        else
-            Debug.LogError(www.error);
-    }
+//            _mainView = UIPackage.CreateObject("BundleUsage", "Main").asCom;
+//            _mainView.fairyBatching = true;
+//            _mainView.SetSize(GRoot.inst.width, GRoot.inst.height);
+//            _mainView.AddRelation(GRoot.inst, RelationType.Size);
+
+//            GRoot.inst.AddChild(_mainView);
+//            _mainView.GetTransition("t0").Play();
+//        }
+//        else
+//            Debug.LogError(www.error);
+//    }
 
 }
 public class BaseInstance<T> where T : new()

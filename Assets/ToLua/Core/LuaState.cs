@@ -614,7 +614,6 @@ namespace LuaInterface
             }
 #endif
             byte[] buffer = LuaFileUtils.Instance.ReadFile(fileName);
-            Debug.Log("zsx 1 " + fileName);
             if (buffer == null)
             {
                 string error = string.Format("打不开1 cannot open {0}: No such file or directory", fileName);

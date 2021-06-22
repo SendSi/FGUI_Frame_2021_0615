@@ -606,7 +606,7 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   scriptingDefineSymbols:
-    1: FAIRYGUI_TOLUA
+    1: FAIRYGUI_TOLUA;AB_MODE
     7: FAIRYGUI_TOLUA
   platformArchitecture: {}
   scriptingBackend: {}

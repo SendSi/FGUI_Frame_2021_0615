@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1778410797
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7b8cb3f5e367137d2a0f3b8b79b113a7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8a96719d08deabf26c5f3587f61f3745
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/abm2/Example/AssetBundles/Particle.prefab
+Dependencies: []

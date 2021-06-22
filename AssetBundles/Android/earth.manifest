@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 1794035636
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8864bfcb8bb47461448ecdaca3c383d1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 861cdcfbe6f9320e53c8e964d50f1b6e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/abm2/Example/AssetBundles/Earth/Earth.prefab
+- Assets/abm2/Example/AssetBundles/Earth/Animations/Rotation.anim
+- Assets/abm2/Example/AssetBundles/Earth/EarthFbx.fbx
+- Assets/abm2/Example/AssetBundles/Earth/Materials/M_Earth.mat
+- Assets/abm2/Example/AssetBundles/Earth/Textures/T_Earth.tga
+- Assets/abm2/Example/AssetBundles/Earth/Animations/Rotation.controller
+Dependencies: []

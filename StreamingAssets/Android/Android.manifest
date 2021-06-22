@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 3418705522
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: bag.ab
+      Dependencies: {}
+    Info_1:
+      Name: basics.ab
+      Dependencies: {}

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 117483889
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 81811ebb0e3a0072b3e9f57535b8ab7c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2fb5e9d95943c36c35f2f3afcdcb21e6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Res/UI/Basics_atlas0.png
+- Assets/_Res/UI/Basics_o4lt7w.wav
+- Assets/_Res/UI/Basics_fui.bytes
+- Assets/_Res/UI/Basics_gojg7u.wav
+Dependencies: []

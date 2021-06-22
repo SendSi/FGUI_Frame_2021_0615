@@ -8,20 +8,39 @@ using UnityEngine;
 public class CreateAssetBundles
 {
 
-    [MenuItem("Assets/标记AB包 %#&B", false, 80)]
+    [MenuItem("Assets/标记AB包(下划线分隔) %#&B", false, 80)]
     public static void ShowRightMouse()
     {
+        AssetDatabase.RemoveUnusedAssetBundleNames();//清空未使用
         var tSelects = Selection.objects;
         if (tSelects.Length > 0)
         {
             for (int i = 0; i < tSelects.Length; i++)
             {
                 var tSelect = tSelects[i];
-                var tPath = AssetDatabase.GetAssetPath(tSelect);
-                var tAsset = AssetImporter.GetAtPath(tPath);
-                var tName = (Regex.Split(tSelect.name, "_"));
-                tAsset.assetBundleName = tName + ".ab"; //设置Bundle文件的名称    
-                tAsset.SaveAndReimport();
+                if (tSelect is DefaultAsset)
+                {
+                    string path = AssetDatabase.GetAssetPath(tSelect);
+                    var ret1 = AssetDatabase.FindAssets(null, new string[] { path });
+                    for (int j = 0; j < ret1.Length; j++)
+                    {
+                        var tPath = AssetDatabase.GUIDToAssetPath(ret1[j]);
+                        var tAsset = AssetImporter.GetAtPath(tPath);
+
+                        var tName = Path.GetFileNameWithoutExtension(tPath);
+                        var tNameFirst = (Regex.Split(tName, "_"));
+                        tAsset.assetBundleName = tNameFirst[0] + ".ab"; //设置Bundle文件的名称    
+                        tAsset.SaveAndReimport();
+                    }
+                }
+                else
+                {
+                    var tPath = AssetDatabase.GetAssetPath(tSelect);
+                    var tAsset = AssetImporter.GetAtPath(tPath);
+                    var tName = (Regex.Split(tSelect.name, "_"));
+                    tAsset.assetBundleName = tName[0] + ".ab"; //设置Bundle文件的名称    
+                    tAsset.SaveAndReimport();
+                }
             }
         }
         else
