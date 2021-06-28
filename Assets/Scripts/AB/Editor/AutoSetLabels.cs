@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class AutoSetLabels
 {
-    [MenuItem("AssetBundleTools/Set AB Label")]
+    [MenuItem("FW/Set AB Label")]
     public static void SetAbLabel()
     {
         string strRoot = string.Empty;
@@ -94,4 +94,43 @@ public class AutoSetLabels
         }
         return strABName;
     }
+}
+
+public class BuildAssetBundleFW
+{
+    [MenuItem("FW/BuildAllAssetBundle_windows64")]
+    public static void BuildAllAB()
+    {
+        string str = PathTools.GetABOutPath();
+        if (!Directory.Exists(str))
+        {
+            Directory.CreateDirectory(str);
+        }
+        BuildPipeline.BuildAssetBundles(str, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
+    }
+    [MenuItem("FW/BuildAllAssetBundle_android")]
+    public static void BuildAllAB_Android()
+    {
+        string str = PathTools.GetABOutPath();
+        if (!Directory.Exists(str))
+        {
+            Directory.CreateDirectory(str);
+        }
+        BuildPipeline.BuildAssetBundles(str, BuildAssetBundleOptions.None, BuildTarget.Android);
+    }
+}
+public class DeleteAssetBundleFW
+{
+    [MenuItem("FW/DeleteAllAssetBundles")]
+    public static void DeleteAllBundle()
+    {
+        string str = PathTools.GetABOutPath();
+        if (string.IsNullOrEmpty(str) == false && Directory.Exists(str))//不空&&有这目录
+        {
+            Directory.Delete(str);
+            File.Delete(str + ".meta");
+            AssetDatabase.Refresh();
+        }
+    }
+
 }

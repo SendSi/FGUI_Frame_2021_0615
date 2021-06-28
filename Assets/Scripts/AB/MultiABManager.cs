@@ -61,12 +61,9 @@ public class MultiABManager
         }
     }
 
-
     /// <summary>
     /// 加载 AB 包（包括依赖项）
     /// </summary>
-    /// <param name="abName"></param>
-    /// <returns></returns>
     public IEnumerator LoadAssetBundle(string abName)
     {
 
@@ -111,7 +108,6 @@ public class MultiABManager
     /// <returns></returns>
     private IEnumerator LoadReference(string abName, string refABName)
     {
-
         // AB 包已经加载了
         if (_DicABRelation.ContainsKey(abName))
         {
@@ -137,7 +133,6 @@ public class MultiABManager
     /// <param name="abName">Asset Bundle 资源包名</param>
     /// <param name="assetName">包中具体资源名称</param>
     /// <param name="isCache">是否缓存</param>
-    /// <returns></returns>
     public UnityEngine.Object LoadAsset(string abName, string assetName, bool isCache)
     {
         foreach (string item_abName in _DicSingleABLoaderCache.Keys)

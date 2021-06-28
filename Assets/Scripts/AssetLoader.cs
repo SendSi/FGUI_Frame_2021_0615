@@ -3,18 +3,38 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
+using static FairyGUI.UIPackage;
 
 public class AssetLoader : MonoBehaviour
 {
+    public const string editorBundle = "editorBundle";
+
+    private bool mIsLoadBundle;
+    public void InitIsLoadBundle()
+    {
+        mIsLoadBundle = PlayerPrefs.GetInt(editorBundle) == 1;
+    }
+
     public static AssetLoader Instance;
     void Awake()
     {
+        InitIsLoadBundle();
         Instance = this;
     }
 
+
+
     public void AddPackage(string package, Action load)
     {
-        StartCoroutine(LoadUIPackage(package, load));
+        if (mIsLoadBundle)
+        {
+            StartCoroutine(LoadUIPackage(package.ToLower(), load));
+        }
+        else
+        {
+            UIPackage.AddPackage("Assets/_Res/UI/" + package);
+            load?.Invoke();
+        }
     }
 
     public IEnumerator LoadUIPackage(string package, Action load)
@@ -24,37 +44,24 @@ public class AssetLoader : MonoBehaviour
         if (Application.platform != RuntimePlatform.Android)
             url = "file:///" + url;
 
-#if UNITY_2017_2_OR_NEWER
-#if UNITY_2018_1_OR_NEWER
         UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(url);
-#else
-        UnityWebRequest www = UnityWebRequest.GetAssetBundle(url);
-#endif
         yield return www.SendWebRequest();
 
         if (!www.isNetworkError && !www.isHttpError)
         {
             AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
-#else
-        WWW www = new WWW(url);
-        yield return www;
 
-        if (string.IsNullOrEmpty(www.error))
-        {
-            AssetBundle bundle = www.assetBundle;
-#endif
             if (bundle == null)
             {
                 Debug.LogWarning("没有生成bundles, Window->Build FairyGUI example .");
                 yield return 0;
             }
             UIPackage.AddPackage(bundle);
-            Debug.LogError("加载成功 回调去");
+            Debug.LogError("使用 AssetLoader 加载成功 ");
             load?.Invoke();
         }
         else
             Debug.LogError(www.error);
     }
 
-    GComponent _mainView;
 }
