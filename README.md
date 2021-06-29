@@ -16,7 +16,7 @@ https://github.com/fairygui/FairyGUI-unity 去下载代码 看LuaSupport文件�
 建立_Res目录,把FGUIProject导出到此目录
 
 看Editor/ToLua/Custom/CustomSettings.cs增加自己要编译的 fgui脚本,另加上自己写的        _GT(typeof(AssetLoader)),重新Lua/Generate All
-新建Lua逻辑代码目录(我建的是LuaScripts),看LuaConst.cs要对应上luaDir字段  
+新建Lua逻辑代码目录(我建的是Lua),看LuaConst.cs要对应上luaDir字段  
 把LuaSupport文件下的FairyGUI.lua拖入到Lua/UI/FairyGUI.lua
 建立主入口Main.lua
 ```
