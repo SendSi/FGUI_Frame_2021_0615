@@ -1,7 +1,7 @@
 # FGUI_Frame_2021_0615
 搭toLua+FairyGUI
 
-
+```
 看此文章.https://www.jianshu.com/p/045f667d05c9
 提取对自己有用的  (吃亏折腾的.传入package名要小写,LuaResLoader折腾)
 https://github.com/topameng/tolua 去下载代码
@@ -19,6 +19,7 @@ https://github.com/fairygui/FairyGUI-unity 去下载代码 看LuaSupport文件�
 新建Lua逻辑代码目录(我建的是LuaScripts),看LuaConst.cs要对应上luaDir字段  
 把LuaSupport文件下的FairyGUI.lua拖入到Lua/UI/FairyGUI.lua
 建立主入口Main.lua
+```
 ```
 function Main()
     print("Main.lua 开始")
