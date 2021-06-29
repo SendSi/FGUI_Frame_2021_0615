@@ -12,7 +12,14 @@ public class AssetLoader : MonoBehaviour
     private bool mIsLoadBundle;
     public void InitIsLoadBundle()
     {
-        mIsLoadBundle = PlayerPrefs.GetInt(editorBundle) == 1;
+        if (PlayerPrefs.HasKey(editorBundle))
+        {
+            mIsLoadBundle = PlayerPrefs.GetInt(editorBundle) == 1;
+        }
+        else
+        {
+            mIsLoadBundle = true;//
+        }
     }
 
     public static AssetLoader Instance;
@@ -21,8 +28,6 @@ public class AssetLoader : MonoBehaviour
         InitIsLoadBundle();
         Instance = this;
     }
-
-
 
     public void AddPackage(string package, Action load)
     {

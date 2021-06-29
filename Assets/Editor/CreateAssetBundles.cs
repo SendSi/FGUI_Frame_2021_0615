@@ -125,7 +125,14 @@ public class UsingEidtorBundle
     public const string editorBundle = "editorBundle";
     public static bool GetEidtorBundle()
     {
-        return PlayerPrefs.GetInt(editorBundle) == 1;
+        if (PlayerPrefs.HasKey(editorBundle))
+        {
+            return PlayerPrefs.GetInt(editorBundle) == 1;
+        }
+        else
+        {
+            return true;
+        }
     }
     public static void SaveEditorBundle(bool pBundle)
     {

@@ -83,6 +83,7 @@ public static class LuaBinder
 		L.BeginModule("UnityEngine");
 		UnityEngine_ComponentWrap.Register(L);
 		UnityEngine_TransformWrap.Register(L);
+		UnityEngine_DebugWrap.Register(L);
 		UnityEngine_MaterialWrap.Register(L);
 		UnityEngine_LightWrap.Register(L);
 		UnityEngine_CameraWrap.Register(L);

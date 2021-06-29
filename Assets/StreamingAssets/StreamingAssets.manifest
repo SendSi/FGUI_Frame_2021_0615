@@ -1,43 +1,46 @@
 ManifestFileVersion: 0
-CRC: 2721693778
+CRC: 172882986
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: bag.ab
-      Dependencies: {}
-    Info_1:
-      Name: basics.ab
-      Dependencies: {}
-    Info_2:
       Name: fairygui-examples/i0.ab
       Dependencies: {}
-    Info_3:
+    Info_1:
       Name: fairygui-examples/i1.ab
       Dependencies: {}
-    Info_4:
+    Info_2:
       Name: fairygui-examples/i2.ab
       Dependencies: {}
-    Info_5:
+    Info_3:
       Name: fairygui-examples/i3.ab
       Dependencies: {}
-    Info_6:
+    Info_4:
       Name: fairygui-examples/i4.ab
       Dependencies: {}
-    Info_7:
+    Info_5:
       Name: fairygui-examples/i5.ab
       Dependencies: {}
-    Info_8:
+    Info_6:
       Name: fairygui-examples/i6.ab
       Dependencies: {}
-    Info_9:
+    Info_7:
       Name: fairygui-examples/i7.ab
       Dependencies: {}
-    Info_10:
+    Info_8:
       Name: fairygui-examples/i8.ab
       Dependencies: {}
-    Info_11:
+    Info_9:
       Name: fairygui-examples/i9.ab
       Dependencies: {}
-    Info_12:
+    Info_10:
       Name: fairygui-examples/bundleusage.ab
+      Dependencies: {}
+    Info_11:
+      Name: bag.ab
+      Dependencies: {}
+    Info_12:
+      Name: basics.ab
+      Dependencies: {}
+    Info_13:
+      Name: canvas.ab
       Dependencies: {}

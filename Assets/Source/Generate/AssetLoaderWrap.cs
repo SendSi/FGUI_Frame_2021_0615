@@ -7,12 +7,30 @@ public class AssetLoaderWrap
 	public static void Register(LuaState L)
 	{
 		L.BeginClass(typeof(AssetLoader), typeof(UnityEngine.MonoBehaviour));
+		L.RegFunction("InitIsLoadBundle", InitIsLoadBundle);
 		L.RegFunction("AddPackage", AddPackage);
 		L.RegFunction("LoadUIPackage", LoadUIPackage);
 		L.RegFunction("__eq", op_Equality);
 		L.RegFunction("__tostring", ToLua.op_ToString);
+		L.RegVar("editorBundle", get_editorBundle, null);
 		L.RegVar("Instance", get_Instance, set_Instance);
 		L.EndClass();
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int InitIsLoadBundle(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 1);
+			AssetLoader obj = (AssetLoader)ToLua.CheckObject<AssetLoader>(L, 1);
+			obj.InitIsLoadBundle();
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
@@ -62,6 +80,20 @@ public class AssetLoaderWrap
 			UnityEngine.Object arg1 = (UnityEngine.Object)ToLua.ToObject(L, 2);
 			bool o = arg0 == arg1;
 			LuaDLL.lua_pushboolean(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_editorBundle(IntPtr L)
+	{
+		try
+		{
+			LuaDLL.lua_pushstring(L, AssetLoader.editorBundle);
 			return 1;
 		}
 		catch (Exception e)
