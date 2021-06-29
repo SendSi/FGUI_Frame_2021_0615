@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 172882986
+CRC: 813563721
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -43,4 +43,10 @@ AssetBundleManifest:
       Dependencies: {}
     Info_13:
       Name: canvas.ab
+      Dependencies: {}
+    Info_14:
+      Name: emoji.ab
+      Dependencies: {}
+    Info_15:
+      Name: filter.ab
       Dependencies: {}

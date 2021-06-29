@@ -9,10 +9,12 @@ public class AssetLoaderWrap
 		L.BeginClass(typeof(AssetLoader), typeof(UnityEngine.MonoBehaviour));
 		L.RegFunction("InitIsLoadBundle", InitIsLoadBundle);
 		L.RegFunction("AddPackage", AddPackage);
+		L.RegFunction("LoadDependencies", LoadDependencies);
 		L.RegFunction("LoadUIPackage", LoadUIPackage);
 		L.RegFunction("__eq", op_Equality);
 		L.RegFunction("__tostring", ToLua.op_ToString);
 		L.RegVar("editorBundle", get_editorBundle, null);
+		L.RegVar("editorPath", get_editorPath, null);
 		L.RegVar("Instance", get_Instance, set_Instance);
 		L.EndClass();
 	}
@@ -41,8 +43,26 @@ public class AssetLoaderWrap
 			ToLua.CheckArgsCount(L, 3);
 			AssetLoader obj = (AssetLoader)ToLua.CheckObject<AssetLoader>(L, 1);
 			string arg0 = ToLua.CheckString(L, 2);
-			System.Action arg1 = (System.Action)ToLua.CheckDelegate<System.Action>(L, 3);
+			System.Action<System.Collections.Generic.List<string>> arg1 = (System.Action<System.Collections.Generic.List<string>>)ToLua.CheckDelegate<System.Action<System.Collections.Generic.List<string>>>(L, 3);
 			obj.AddPackage(arg0, arg1);
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int LoadDependencies(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 3);
+			AssetLoader obj = (AssetLoader)ToLua.CheckObject<AssetLoader>(L, 1);
+			System.Collections.Generic.List<string> arg0 = (System.Collections.Generic.List<string>)ToLua.CheckObject(L, 2, typeof(System.Collections.Generic.List<string>));
+			System.Action<System.Collections.Generic.List<string>> arg1 = (System.Action<System.Collections.Generic.List<string>>)ToLua.CheckDelegate<System.Action<System.Collections.Generic.List<string>>>(L, 3);
+			obj.LoadDependencies(arg0, arg1);
 			return 0;
 		}
 		catch (Exception e)
@@ -59,7 +79,7 @@ public class AssetLoaderWrap
 			ToLua.CheckArgsCount(L, 3);
 			AssetLoader obj = (AssetLoader)ToLua.CheckObject<AssetLoader>(L, 1);
 			string arg0 = ToLua.CheckString(L, 2);
-			System.Action arg1 = (System.Action)ToLua.CheckDelegate<System.Action>(L, 3);
+			System.Action<System.Collections.Generic.List<string>> arg1 = (System.Action<System.Collections.Generic.List<string>>)ToLua.CheckDelegate<System.Action<System.Collections.Generic.List<string>>>(L, 3);
 			System.Collections.IEnumerator o = obj.LoadUIPackage(arg0, arg1);
 			ToLua.Push(L, o);
 			return 1;
@@ -94,6 +114,20 @@ public class AssetLoaderWrap
 		try
 		{
 			LuaDLL.lua_pushstring(L, AssetLoader.editorBundle);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_editorPath(IntPtr L)
+	{
+		try
+		{
+			LuaDLL.lua_pushstring(L, AssetLoader.editorPath);
 			return 1;
 		}
 		catch (Exception e)

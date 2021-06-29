@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 337019578
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 000e8d1dd4e511719072e09d16c0c5cf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8cfd36d84ed37a63bcb3c7ce96d93f72
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Res/UI/Bag_atlas0.png
+- Assets/_Res/UI/Bag_fui.bytes
+Dependencies: []

@@ -39,6 +39,7 @@ public class DelegateFactory
 		dict.Add(typeof(FairyGUI.GTweenCallback1), factory.FairyGUI_GTweenCallback1);
 		dict.Add(typeof(FairyGUI.UIObjectFactory.GComponentCreator), factory.FairyGUI_UIObjectFactory_GComponentCreator);
 		dict.Add(typeof(FairyGUI.UIObjectFactory.GLoaderCreator), factory.FairyGUI_UIObjectFactory_GLoaderCreator);
+		dict.Add(typeof(System.Action<System.Collections.Generic.List<string>>), factory.System_Action_System_Collections_Generic_List_string);
 		dict.Add(typeof(UnityEngine.Camera.CameraCallback), factory.UnityEngine_Camera_CameraCallback);
 		dict.Add(typeof(UnityEngine.Application.AdvertisingIdentifierCallback), factory.UnityEngine_Application_AdvertisingIdentifierCallback);
 		dict.Add(typeof(UnityEngine.Application.LowMemoryCallback), factory.UnityEngine_Application_LowMemoryCallback);
@@ -71,6 +72,7 @@ public class DelegateFactory
 		DelegateTraits<FairyGUI.GTweenCallback1>.Init(factory.FairyGUI_GTweenCallback1);
 		DelegateTraits<FairyGUI.UIObjectFactory.GComponentCreator>.Init(factory.FairyGUI_UIObjectFactory_GComponentCreator);
 		DelegateTraits<FairyGUI.UIObjectFactory.GLoaderCreator>.Init(factory.FairyGUI_UIObjectFactory_GLoaderCreator);
+		DelegateTraits<System.Action<System.Collections.Generic.List<string>>>.Init(factory.System_Action_System_Collections_Generic_List_string);
 		DelegateTraits<UnityEngine.Camera.CameraCallback>.Init(factory.UnityEngine_Camera_CameraCallback);
 		DelegateTraits<UnityEngine.Application.AdvertisingIdentifierCallback>.Init(factory.UnityEngine_Application_AdvertisingIdentifierCallback);
 		DelegateTraits<UnityEngine.Application.LowMemoryCallback>.Init(factory.UnityEngine_Application_LowMemoryCallback);
@@ -103,6 +105,7 @@ public class DelegateFactory
 		TypeTraits<FairyGUI.GTweenCallback1>.Init(factory.Check_FairyGUI_GTweenCallback1);
 		TypeTraits<FairyGUI.UIObjectFactory.GComponentCreator>.Init(factory.Check_FairyGUI_UIObjectFactory_GComponentCreator);
 		TypeTraits<FairyGUI.UIObjectFactory.GLoaderCreator>.Init(factory.Check_FairyGUI_UIObjectFactory_GLoaderCreator);
+		TypeTraits<System.Action<System.Collections.Generic.List<string>>>.Init(factory.Check_System_Action_System_Collections_Generic_List_string);
 		TypeTraits<UnityEngine.Camera.CameraCallback>.Init(factory.Check_UnityEngine_Camera_CameraCallback);
 		TypeTraits<UnityEngine.Application.AdvertisingIdentifierCallback>.Init(factory.Check_UnityEngine_Application_AdvertisingIdentifierCallback);
 		TypeTraits<UnityEngine.Application.LowMemoryCallback>.Init(factory.Check_UnityEngine_Application_LowMemoryCallback);
@@ -135,6 +138,7 @@ public class DelegateFactory
 		StackTraits<FairyGUI.GTweenCallback1>.Push = factory.Push_FairyGUI_GTweenCallback1;
 		StackTraits<FairyGUI.UIObjectFactory.GComponentCreator>.Push = factory.Push_FairyGUI_UIObjectFactory_GComponentCreator;
 		StackTraits<FairyGUI.UIObjectFactory.GLoaderCreator>.Push = factory.Push_FairyGUI_UIObjectFactory_GLoaderCreator;
+		StackTraits<System.Action<System.Collections.Generic.List<string>>>.Push = factory.Push_System_Action_System_Collections_Generic_List_string;
 		StackTraits<UnityEngine.Camera.CameraCallback>.Push = factory.Push_UnityEngine_Camera_CameraCallback;
 		StackTraits<UnityEngine.Application.AdvertisingIdentifierCallback>.Push = factory.Push_UnityEngine_Application_AdvertisingIdentifierCallback;
 		StackTraits<UnityEngine.Application.LowMemoryCallback>.Push = factory.Push_UnityEngine_Application_LowMemoryCallback;
@@ -1525,6 +1529,63 @@ public class DelegateFactory
 	}
 
 	void Push_FairyGUI_UIObjectFactory_GLoaderCreator(IntPtr L, FairyGUI.UIObjectFactory.GLoaderCreator o)
+	{
+		ToLua.Push(L, o);
+	}
+
+	class System_Action_System_Collections_Generic_List_string_Event : LuaDelegate
+	{
+		public System_Action_System_Collections_Generic_List_string_Event(LuaFunction func) : base(func) { }
+		public System_Action_System_Collections_Generic_List_string_Event(LuaFunction func, LuaTable self) : base(func, self) { }
+
+		public void Call(System.Collections.Generic.List<string> param0)
+		{
+			func.BeginPCall();
+			func.PushSealed(param0);
+			func.PCall();
+			func.EndPCall();
+		}
+
+		public void CallWithSelf(System.Collections.Generic.List<string> param0)
+		{
+			func.BeginPCall();
+			func.Push(self);
+			func.PushSealed(param0);
+			func.PCall();
+			func.EndPCall();
+		}
+	}
+
+	public System.Action<System.Collections.Generic.List<string>> System_Action_System_Collections_Generic_List_string(LuaFunction func, LuaTable self, bool flag)
+	{
+		if (func == null)
+		{
+			System.Action<System.Collections.Generic.List<string>> fn = delegate(System.Collections.Generic.List<string> param0) { };
+			return fn;
+		}
+
+		if(!flag)
+		{
+			System_Action_System_Collections_Generic_List_string_Event target = new System_Action_System_Collections_Generic_List_string_Event(func);
+			System.Action<System.Collections.Generic.List<string>> d = target.Call;
+			target.method = d.Method;
+			return d;
+		}
+		else
+		{
+			System_Action_System_Collections_Generic_List_string_Event target = new System_Action_System_Collections_Generic_List_string_Event(func, self);
+			System.Action<System.Collections.Generic.List<string>> d = target.CallWithSelf;
+			target.method = d.Method;
+			return d;
+		}
+	}
+
+	bool Check_System_Action_System_Collections_Generic_List_string(IntPtr L, int pos)
+	{
+		return TypeChecker.CheckDelegateType(typeof(System.Action<System.Collections.Generic.List<string>>), L, pos);
+	}
+
+	void Push_System_Action_System_Collections_Generic_List_string(IntPtr L, System.Action<System.Collections.Generic.List<string>> o)
 	{
 		ToLua.Push(L, o);
 	}

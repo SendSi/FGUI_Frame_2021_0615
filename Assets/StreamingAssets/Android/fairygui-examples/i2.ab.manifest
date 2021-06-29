@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 34968301
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 10d0e5bf2670e7d15be597e0660e66f6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Examples/Resources/Icons/i2.png
+Dependencies: []

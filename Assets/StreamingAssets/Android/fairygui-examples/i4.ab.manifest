@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1486704016
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: da3d059f3b3ace6a37cdebcac311ab30
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Examples/Resources/Icons/i4.png
+Dependencies: []

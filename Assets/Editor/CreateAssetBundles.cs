@@ -104,8 +104,8 @@ public class CreateAssetBundles
     }
 
 
-    [MenuItem("ZSX/打包已设置的Label")]
-    static void BuildAllAssetBundles()
+    [MenuItem("ZSX/打包已设置的Label/Android")]
+    static void BuildAllAssetBundles_android()
     {
         //要创建的目录
         string assetBundleDirectory = "Assets/AssetBundles";
@@ -115,6 +115,18 @@ public class CreateAssetBundles
         }
         //三个参数：第一个是创建的目录位置，第二个是AssetBundle的压缩方式，第三个是创建的平台。
         BuildPipeline.BuildAssetBundles(Application.streamingAssetsPath, BuildAssetBundleOptions.None, BuildTarget.Android);
+    }
+    [MenuItem("ZSX/打包已设置的Label/StandaloneWindows64")]
+    static void BuildAllAssetBundles_window()
+    {
+        //要创建的目录
+        string assetBundleDirectory = "Assets/AssetBundles";
+        if (!Directory.Exists(assetBundleDirectory))
+        {
+            Directory.CreateDirectory(assetBundleDirectory);
+        }
+        //三个参数：第一个是创建的目录位置，第二个是AssetBundle的压缩方式，第三个是创建的平台。
+        BuildPipeline.BuildAssetBundles(Application.streamingAssetsPath, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
     }
 
 }

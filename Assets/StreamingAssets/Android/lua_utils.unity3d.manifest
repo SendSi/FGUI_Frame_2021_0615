@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 67866975
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7e98ce85263fb1c6b05aebc73baf07d6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/temp/Lua/Utils/debug_util.lua.bytes
+- Assets/temp/Lua/Utils/platform_adapter.lua.bytes
+- Assets/temp/Lua/Utils/cookie_util.lua.bytes
+- Assets/temp/Lua/Utils/StringUtil.lua.bytes
+- Assets/temp/Lua/Utils/prettyprint.lua.bytes
+- Assets/temp/Lua/Utils/md5.lua.bytes
+- Assets/temp/Lua/Utils/UnitsInit.lua.bytes
+- Assets/temp/Lua/Utils/CountDownTime.lua.bytes
+- Assets/temp/Lua/Utils/game_util.lua.bytes
+- Assets/temp/Lua/Utils/ShaderUtil.lua.bytes
+- Assets/temp/Lua/Utils/dkjson.lua.bytes
+- Assets/temp/Lua/Utils/cFunction.lua.bytes
+- Assets/temp/Lua/Utils/timemanager.lua.bytes
+- Assets/temp/Lua/Utils/utils.lua.bytes
+- Assets/temp/Lua/Utils/TimeUtil.lua.bytes
+- Assets/temp/Lua/Utils/md5_util.lua.bytes
+- Assets/temp/Lua/Utils/json_util.lua.bytes
+- Assets/temp/Lua/Utils/HierarchyUtils.lua.bytes
+- Assets/temp/Lua/Utils/OpenViewUtils.lua.bytes
+- Assets/temp/Lua/Utils/NumberUtil.lua.bytes
+- Assets/temp/Lua/Utils/EmojiColorUtil.lua.bytes
+- Assets/temp/Lua/Utils/ConfigCheck.lua.bytes
+- Assets/temp/Lua/Utils/tween.lua.bytes
+Dependencies: []
