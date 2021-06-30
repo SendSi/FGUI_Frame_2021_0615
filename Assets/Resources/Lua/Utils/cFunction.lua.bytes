@@ -76,7 +76,7 @@ function ShowAccountInfo()
     if DEBUG and roleId then
         local LoginManager = require("Core.Login.LoginManager")
         local roleName = require("MainRole.MainRoleInfo"):GetName()  --"%m/%d %H:%M"
-        local openTime = os.date("%Y%m%d %H:%M",require("MainRole.MainRoleInfo"):GetOpenServerTime()*0.001)
+        local openTime = os.date("%Y%m%d %H:%M", require("MainRole.MainRoleInfo"):GetOpenServerTime() * 0.001)
         local srv_id = LoginManager.GetInstance().serverID
         local srv_name
         local serverInfo = LoginManager.GetInstance().serverInfo
@@ -102,12 +102,14 @@ end
 
 function SingleClickButton1()
     loginfo("测试1")
+    require("UI.ProxyUI"):OpenBagMain()
 end
 function SingleClickButton2()
     loginfo("测试2")
-
+    require("UI.ProxyUI"):OpenBagWin()
 end
 function SingleClickButton3()
+    require("Core.DataCacheMgr"):TryAddPackage("Bag", nil)
     loginfo("测试3")
 end
 function SingleClickButton4()

@@ -2,8 +2,8 @@
 
 public static class LuaConst
 {
-    public static string luaDir = Application.dataPath + "/Lua";                //lua逻辑代码目录
-    public static string toluaDir = Application.dataPath + "/ToLua/Lua";        //tolua lua文件目录
+    public static string luaDir = Application.dataPath + "/LuaScripts";                //lua逻辑代码目录
+    public static string toluaDir = Application.dataPath + "/LuaScripts/ToLua/Lua";        //tolua lua文件目录
 
 #if UNITY_STANDALONE
     public static string osDir = "Win";
@@ -15,7 +15,7 @@ public static class LuaConst
     public static string osDir = "";        
 #endif
 
-    public static string luaResDir = string.Format("{0}/{1}/Lua", Application.persistentDataPath, osDir);      //手机运行时lua文件下载目录    
+    public static string luaResDir = string.Format("{0}/{1}/LuaScripts", Application.persistentDataPath, osDir);      //手机运行时lua文件下载目录    
 
 #if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN    
     public static string zbsDir = "D:/ZeroBraneStudio/lualibs/mobdebug";        //ZeroBraneStudio目录       

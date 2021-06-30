@@ -1,0 +1,7 @@
+Assets/LuaScripts/ToLua/Core/
+Assets/LuaScripts/ToLua/Injection/
+Assets/LuaScripts/ToLua/Misc/
+Assets/LuaScripts/ToLua/Reflection/
+Assets/Plugins/
+Assets/LuaScripts/ToLua/BaseType/
+Assets/Source/Generate/
