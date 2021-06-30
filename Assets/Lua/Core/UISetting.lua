@@ -1,9 +1,14 @@
 local uiSetting = {
-    BagWindow = {
-        className = "UI.BagWindow",
+    BagMain = {
+        className = "UI.BagMain",
         packageName = "Bag",
         viewName = "Main"
-    }
+    },
+    BagWin = {
+        className = "UI.BagWin",
+        packageName = "Bag",
+        viewName = "BagWin"
+    },
 }
 
 return uiSetting

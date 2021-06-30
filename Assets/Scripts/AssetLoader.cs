@@ -150,7 +150,6 @@ public class AssetLoader : MonoBehaviour
                 UIPackage.AddPackage(editorPath + depPackageName);
                 if (i + 1 == num)
                     load.Invoke(names);
-
             }
         }
         else

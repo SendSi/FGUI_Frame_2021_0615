@@ -2,6 +2,7 @@ local UIMgr = {}
 
 local AssetLoaderInstance = AssetLoader.Instance
 local UISetting = require("Core.UISetting")
+local DataCacheMgr = require("Core.DataCacheMgr")
 local mUIWindows = {}
 
 function UIMgr:OpenWindow(uiSetting, callBack)
@@ -9,13 +10,10 @@ function UIMgr:OpenWindow(uiSetting, callBack)
     local tWindow = mUIWindows[className]
     if tWindow then
         tWindow:Show()
-        if callBack then
-            callBack(tWindow)
-        end
+        return callBack and callBack(tWindow)
     end
-    local package = uiSetting.packageName
 
-
+    return self:InstanceWindow(uiSetting, callBack)
 end
 
 
@@ -23,10 +21,11 @@ end
 function UIMgr:InstanceWindow(uiSetting, callBack)
     local package = uiSetting.packageName
     local className = uiSetting.className
-    AssetLoaderInstance:AddPackage(package, function(depPack)
-        loggZSXWarning(tostring(depPack))
-        --local cls = require(className).New(uiSetting)
-        --cls:Show()
+    DataCacheMgr:TryAddPackage(package, function()
+        local uiWin = require(className).New(uiSetting)
+        uiWin:Show()
+        mUIWindows[className] = uiWin
+        callBack(uiWin)
     end)
 end
 

@@ -22,7 +22,7 @@ function Main()
     --    local win = require("UI.MyWinClass").New()
     --    win:Show()
     --end)
-    require("UI.ProxyUI"):OpenBagWindow()
+    require("UI.ProxyUI"):OpenBagMain()
 end
 
 function OnLevelWasLoaded(level)

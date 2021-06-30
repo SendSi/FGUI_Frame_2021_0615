@@ -1,20 +1,20 @@
 local ProxyUI = {}
-local AssetLoaderInstance = AssetLoader.Instance
 local UISetting = require("Core.UISetting")
+local UIMgr = require("Core.UIMgr")
 
-function ProxyUI:OpenWindow(uiConfig)
-    local package = uiConfig.packageName
-    local className = uiConfig.className
-    AssetLoaderInstance:AddPackage(package, function(depPack)
-        loggZSXWarning(tostring(depPack))
-        local cls = require(className).New(uiConfig)
-        cls:Show()
+
+function ProxyUI:OpenBagMain()
+    local uiset = UISetting.BagMain
+    UIMgr:OpenWindow(uiset, function(uiWin)
+        --uiWin:SetData("我的数据")
     end)
 end
 
-function ProxyUI:OpenBagWindow()
-    local uiset = UISetting.BagWindow
-    self:OpenWindow(uiset)
+function ProxyUI:OpenBagWin()
+    local uiset = UISetting.BagWin
+    UIMgr:OpenWindow(uiset, function(uiWin)
+        uiWin:SetData("我的数据")
+    end)
 end
 
 return ProxyUI
