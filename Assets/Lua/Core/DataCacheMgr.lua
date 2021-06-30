@@ -26,4 +26,9 @@ function DataCacheMgr:RemovePackage(packageName)
     end
 end
 
+function DataCacheMgr:TryRemovePackage(package)
+    loggZSXWarning("尝试移除")
+    self:RemovePackage(package)
+end
+
 return DataCacheMgr
