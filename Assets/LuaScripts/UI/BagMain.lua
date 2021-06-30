@@ -8,12 +8,11 @@ function BagMain:LoadComponent()
         self.uiComs.m_n2.text = "使用背包"
         require("UI.ProxyUI"):OpenBagWin()
     end)
-
+    local tim = 1
     Timer      .New(function()
-        loggZSXWarning("TTT")
+        tim = tim + 1
+        self.uiComs.m_n2.text = "使用~~~~背包" .. tim
     end, 1, 10):Start()
-
-    --Timer
 end
 
 return BagMain
