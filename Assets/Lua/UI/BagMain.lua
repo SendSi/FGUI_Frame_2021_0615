@@ -2,10 +2,9 @@ local UIWindow = require('Core.UIWindow')
 local BagMain = fgui.window_class(UIWindow)
 
 function BagMain:LoadComponent()
-    self.bagBtn = self.contentPane:GetChild("bagBtn")
-    self.n4=self.contentPane:GetChild("n4")
-    self.bagBtn.onClick:Add(function()
-        self.n4.text="1021313"
+    self.uiComs = require('ToolGen.Bag.Main'):OnConstruct(self.contentPane)
+    self.uiComs.m_bagBtn.onClick:Add(function()
+        self.uiComs.m_n2.text = "使用背包"
         require("UI.ProxyUI"):OpenBagWin()
     end)
 end

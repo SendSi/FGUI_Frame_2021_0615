@@ -109,6 +109,7 @@ function SingleClickButton2()
     require("UI.ProxyUI"):OpenBagWin()
 end
 function SingleClickButton3()
+    require("Core.DataCacheMgr"):TryAddPackage("Bag", nil)
     loginfo("测试3")
 end
 function SingleClickButton4()

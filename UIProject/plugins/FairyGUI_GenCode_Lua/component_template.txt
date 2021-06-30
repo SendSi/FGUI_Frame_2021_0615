@@ -1,0 +1,14 @@
+---@class $className : $superClassName
+$classFieldAnnotation
+local $className = {};
+
+$className.URL = $urlValue;
+
+function $className:OnConstruct(windowCom)
+	local tb = {
+$classFieldInstantiation
+	}
+	return tb
+end
+
+return $className;

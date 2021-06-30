@@ -1,0 +1,8 @@
+local $binderClassName = $binderClassName or {}
+$requireStatement
+
+function $binderClassName:BindAll()
+$bindStatement
+end
+
+return $binderClassName;

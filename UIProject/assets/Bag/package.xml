@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="rbw1tv9t" jpegQuality="80" compressPNG="true">
+<packageDescription id="rbw1tv9t">
   <resources>
     <component id="kcy10" name="BagWin.xml" path="/" exported="true"/>
     <image id="dwwc2" name="5.png" path="/images/" scale="9grid" scale9grid="88,78,441,243"/>
@@ -19,7 +19,7 @@
     <movieclip id="thi7j" name="quan.jta" path="/images/"/>
     <component id="osdok" name="dot.xml" path="/"/>
   </resources>
-  <publish name="Bag">
+  <publish name="Bag" genCode="true">
     <atlas name="Default" index="0"/>
   </publish>
 </packageDescription>

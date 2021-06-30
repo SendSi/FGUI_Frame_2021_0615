@@ -9,7 +9,7 @@ function DataCacheMgr:TryAddPackage(package, act)
         act()
     else
         AssetLoaderInstance:AddPackage(package, function(depPack)
-            local num = depPack.Count--依赖包
+            local num = depPack and depPack.Count or 0--依赖包
             for i = 0, num - 1 do
                 mPackage[depPack[i]] = true
             end
