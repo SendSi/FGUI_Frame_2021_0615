@@ -6,8 +6,13 @@ function BagMain:LoadComponent()
     self.uiComs = require('ToolGen.Bag.Main'):OnConstruct(self.contentPane)
     self.uiComs.m_bagBtn.onClick:Add(function()
         self.uiComs.m_n2.text = "使用背包"
-        require("UI.ProxyUI"):OpenBagWin()
+        require("UI.Bag.ProxyBagModule"):OpenBagWin()
     end)
+
+    self.uiComs.m_bagBtn2.onClick:Add(function()
+        require("UI.Emoji.ProxyEmojiModule"):OpenEmojiMain()
+    end)
+
     local tim = 1
     Timer      .New(function()
         tim = tim + 1

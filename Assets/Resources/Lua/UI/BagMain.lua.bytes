@@ -15,4 +15,13 @@ function BagMain:LoadComponent()
     end, 1, 10):Start()
 end
 
+function BagMain:BindRegisterEvent()
+
+end
+
+function BagMain:OnHide()
+    UIWindow:OnHide()
+
+end
+
 return BagMain

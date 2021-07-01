@@ -11,6 +11,8 @@
 ---@field public m_n12 CS.FairyGUI.GTextField
 ---@field public m_n13 CS.FairyGUI.GTextField
 ---@field public m_n25 CS.FairyGUI.GList
+---@field public m_btn1 BagButton
+---@field public m_btn2 CloseButton
 local BagWin = {};
 
 BagWin.URL = "ui://rbw1tv9tnil";
@@ -26,6 +28,8 @@ function BagWin:OnConstruct(windowCom)
 	m_n12 = windowCom:GetChild("n12"),
 	m_n13 = windowCom:GetChild("n13"),
 	m_n25 = windowCom:GetChild("n25"),
+	m_btn1 = windowCom:GetChild("btn1"),
+	m_btn2 = windowCom:GetChild("btn2"),
 	}
 	return tb
 end

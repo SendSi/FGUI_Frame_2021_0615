@@ -102,11 +102,11 @@ end
 
 function SingleClickButton1()
     loginfo("测试1")
-    require("UI.ProxyUI"):OpenBagMain()
+
 end
 function SingleClickButton2()
     loginfo("测试2")
-    require("UI.ProxyUI"):OpenBagWin()
+
 end
 function SingleClickButton3()
     require("Core.DataCacheMgr"):TryAddPackage("Bag", nil)

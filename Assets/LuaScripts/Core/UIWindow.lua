@@ -2,16 +2,16 @@ local UIWindow = fgui.window_class()
 local UIPackage = FairyGUI.UIPackage
 local DataCacheMgr = require("Core.DataCacheMgr")
 
-function UIWindow:ctor(uiSetting)
-    local view = uiSetting.viewName
-    local package = uiSetting.packageName
+function UIWindow:ctor(uiConfig)
+    local view = uiConfig.viewName
+    local package = uiConfig.packageName
     self.contentPane = UIPackage.CreateObject(package, view)
     self.isActive = true --是否在使用中
     self.name = package .. "_" .. view
     self:Center()
     self:LoadComponent()
     self:BindRegisterEvent()
-    self.uiSetting = uiSetting
+    self.uiConfig = uiConfig
 end
 
 function UIWindow:LoadComponent()
@@ -20,8 +20,8 @@ function UIWindow:BindRegisterEvent()
 end
 
 function UIWindow:CloseWindow()
-    if self.uiSetting then
-        require("Core.UIMgr"):CloseWindow(self.uiSetting)
+    if self.uiConfig then
+        require("Core.UIMgr"):CloseWindow(self.uiConfig)
     end
 end
 
@@ -29,25 +29,26 @@ function UIWindow:Destroy()
     self:OnHide()
     self:UnRegisterEvent()
     self:ReleaseUIObject()
+    self:ReleasePackage()
 end
 
 function UIWindow:UnRegisterEvent()
 end
-
+--移除本包
 function UIWindow:ReleasePackage()
-    if self.uiSetting then
-        local package = self.uiSetting.packageName
+    if self.uiConfig then
+        local package = self.uiConfig.packageName
         DataCacheMgr:TryRemovePackage(package)
     end
 end
-
+--移除本页面
 function UIWindow:ReleaseUIObject()
     if self.contentPane then
         self.contentPane:Dispose()
     end
     self.contentPane = nil
     self:Dispose()
-    self.uiConfig = nil
+    self.uiConfig = false
 end
 
 --C#

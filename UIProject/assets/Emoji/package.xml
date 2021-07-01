@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="y768eypa" jpegQuality="80" compressPNG="true">
+<packageDescription id="y768eypa">
   <resources>
     <component id="fvaib" name="Main.xml" path="/" exported="true"/>
     <image id="fymi17" name="3.png" path="/images/" scale="9grid" scale9grid="10,15,28,32"/>
@@ -75,7 +75,7 @@
     <image id="mwdy36" name="1f627.png" path="/emoji_ios/" exported="true"/>
     <component id="mwdy37" name="EmojiSelectUI_ios.xml" path="/" exported="true"/>
   </resources>
-  <publish name="Emoji">
+  <publish name="Emoji" genCode="true">
     <atlas name="默认" index="0"/>
   </publish>
 </packageDescription>
