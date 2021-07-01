@@ -1,5 +1,6 @@
 local GlobalEvent = {}
-local mEventList = {}
+local mEventFunc = {}--key=eventId,value={key=uid,value=func}
+local mUIdList = {}--key=uid,value=eventId
 local uId = 1000
 
 function GlobalEvent:AddListener(eventId, func)
@@ -8,30 +9,37 @@ function GlobalEvent:AddListener(eventId, func)
         return
     end
     uId = uId + 1
-    if not mEventList[eventId] then
-        mEventList[eventId] = {}
+    if not mEventFunc[eventId] then
+        mEventFunc[eventId] = {}
     end
-    if mEventList[eventId][uId] then
+    if mEventFunc[eventId][uId] then
         logerror("重复监听了~" .. eventId)
         return
     end
-    mEventList[eventId][uId] = func
+    mEventFunc[eventId][uId] = func
+    mUIdList[uId] = eventId
     return uId
 end
 
-function GlobalEvent:RemoveListener(eventId, uId)
-    if not eventId or not mEventList[eventId] or not mEventList[eventId][uId] then
+function GlobalEvent:RemoveListener(uId)
+    if not mUIdList[uId] then
+        logerror("UId列表并没有")
+        return
+    end
+    local eventId = mUIdList[uId]
+    if not mEventFunc[eventId] or not mEventFunc[eventId][uId] then
         logerror("移除事件失败,是否重复移除了")
         return
     end
-    mEventList[eventId][uId] = nil
+    mUIdList[uId] = nil
+    mEventFunc[eventId][uId] = nil
 end
 
 function GlobalEvent:Fire(eventId, ...)
     if not eventId then
         return
     end
-    local tEvent = mEventList[eventId]
+    local tEvent = mEventFunc[eventId]
     if tEvent then
         for _, v in pairs(tEvent) do
             v(...)

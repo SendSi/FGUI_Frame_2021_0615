@@ -6,7 +6,7 @@ end
 
 local EventName = {
     TestEvent = GetNewEventId(),
-    TestEvent2 = GetNewEventId(),
+    TestOnClick = GetNewEventId(),
 }
 
 return EventName

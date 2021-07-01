@@ -10,18 +10,32 @@ function BagWin:LoadComponent()
     self.uiComs.m_n11.icon = "ui://Bag/4"
 end
 
-local mEventUId
+local mEventUIds
+
+local function tEventTest(data, value)
+    loggZSXWarning(data.key)
+    loggZSXWarning(value)
+end
+local function tEventClick()
+    loggZSXWarning("onClick")
+end
 
 function BagWin:BindRegisterEvent()
     self.closeBtn.onClick:Add(function()
-        GlobalEvent:Fire(EventName.TestEvent, { key = "a", value = true })
         self:CloseWindow()--父类
     end)
 
-    loggZSXWarning("register")
-    mEventUId = GlobalEvent:AddListener(EventName.TestEvent, function(data)
-        loggZSXWarning("key=" .. data.key)
+    self.uiComs.m_btn1.onClick:Add(function()
+        GlobalEvent:Fire(EventName.TestEvent, { key = "a", value = true }, "参数我")
     end)
+    self.uiComs.m_btn2.onClick:Add(function()
+        GlobalEvent:Fire(EventName.TestOnClick)
+    end)
+
+    mEventUIds = {
+        GlobalEvent:AddListener(EventName.TestEvent, tEventTest),
+        GlobalEvent:AddListener(EventName.TestOnClick, tEventClick)
+    }
 end
 
 function BagWin:SetData(str)
@@ -30,9 +44,11 @@ end
 
 function BagWin:OnHide()
     UIWindow.OnHide(self)
-    if mEventUId then
-        GlobalEvent:RemoveListener(EventName.TestEvent, mEventUId)
-        mEventUId = nil
+    if mEventUIds and #mEventUIds > 0 then
+        for i = 1, #mEventUIds do
+            GlobalEvent:RemoveListener(mEventUIds[i])
+        end
+        mEventUIds = nil
     end
 end
 

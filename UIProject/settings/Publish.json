@@ -9,7 +9,7 @@
   "compressPNG": false,
   "codeGeneration": {
     "allowGenCode": true,
-    "codePath": "../Assets/Lua/ToolGen",
+    "codePath": "../Assets/LuaScripts/ToolGen",
     "classNamePrefix": "",
     "memberNamePrefix": "m_",
     "packageName": "",

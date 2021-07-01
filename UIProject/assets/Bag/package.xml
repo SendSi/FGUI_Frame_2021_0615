@@ -12,7 +12,7 @@
     <image id="jlmg9" name="3.png" path="/images/"/>
     <image id="jlmga" name="2.png" path="/images/" scale="9grid" scale9grid="17,16,74,73"/>
     <component id="fvaib" name="Main.xml" path="/" exported="true"/>
-    <component id="thi7c" name="BagButton.xml" path="/"/>
+    <component id="thi7c" name="BagButton.xml" path="/" exported="true"/>
     <image id="thi7d" name="btnimage.png" path="/images/"/>
     <image id="thi7g" name="7.png" path="/images/" scale="9grid" scale9grid="83,1,166,2"/>
     <image id="thi7h" name="8.png" path="/images/" scale="9grid" scale9grid="31,26,62,52"/>
