@@ -13,7 +13,11 @@ function EmojiMain:BindRegisterEvent()
 end
 
 function EmojiMain:OnHide()
-    UIWindow:OnHide()
+    UIWindow.OnHide(self)
+end
+
+function EmojiMain:Destroy()
+    UIWindow.Destroy(self)
 end
 
 function EmojiMain:SetData(data)

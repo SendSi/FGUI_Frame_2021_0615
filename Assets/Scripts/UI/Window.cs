@@ -424,6 +424,7 @@ namespace FairyGUI
         virtual protected void OnHide()
         {
 #if FAIRYGUI_TOLUA
+            Debug.LogError("onHide");
             CallLua("OnHide");
 #endif
 #if FAIRYGUI_PUERTS
@@ -431,6 +432,15 @@ namespace FairyGUI
                 __onHide();
 #endif
         }
+        public void Destroy()
+        {
+            Debug.Log("Destroy");
+        }
+        public void OnDestroy()
+        {
+            Debug.Log("OnDestroy");
+        }
+
 
         /// <summary>
         /// 
@@ -493,6 +503,7 @@ namespace FairyGUI
 
         override public void Dispose()
         {
+            Debug.Log("调用 了..........................Dispose");
             if (_modalWaitPane != null && _modalWaitPane.parent == null)
                 _modalWaitPane.Dispose();
 
@@ -505,7 +516,7 @@ namespace FairyGUI
                     _uiSources[i].Cancel();
                 }
             }
-            
+
 
 #if FAIRYGUI_PUERTS
             __onInit = null;

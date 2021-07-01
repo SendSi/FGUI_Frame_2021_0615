@@ -24,9 +24,8 @@ function UIWindow:CloseWindow()
         require("Core.UIMgr"):CloseWindow(self.uiConfig)
     end
 end
-
+---先distroy  再 onHide
 function UIWindow:Destroy()
-    self:OnHide()
     self:UnRegisterEvent()
     self:ReleaseUIObject()
     self:ReleasePackage()
@@ -59,7 +58,7 @@ end
 function UIWindow:OnShown()
     loginfo('Window-onShown')
 end
---C#
+--C#  onRemovedFromStage才触发
 function UIWindow:OnHide()
     self.isActive = false
     loginfo('Window-OnHide')

@@ -25,8 +25,7 @@ function BagMain:BindRegisterEvent()
 end
 
 function BagMain:OnHide()
-    UIWindow:OnHide()
-
+    UIWindow.OnHide(self)
 end
 
 return BagMain
