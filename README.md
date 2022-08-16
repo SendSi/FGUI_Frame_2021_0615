@@ -1,6 +1,7 @@
 # FGUI_Frame_2021_0615
 搭toLua+FairyGUI
 
+菜单栏zsx/BundleEditor/Using ***
 ```
 看此文章.https://www.jianshu.com/p/045f667d05c9
 提取对自己有用的  (吃亏折腾的.传入package名要小写,LuaResLoader折腾)

@@ -4,15 +4,18 @@
   "doc.openedDocs": [
     "ui://rbw1tv9tfvaib",
     "ui://rbw1tv9tkcy10",
+    "ui://y768eypafvaib",
     "ui://rbw1tv9tdwwc3"
   ],
   "auxline1": true,
   "canvasColor": 10066329,
   "auxline2": true,
-  "doc.activeDoc": "ui://rbw1tv9tdwwc3",
+  "doc.activeDoc": "ui://rbw1tv9tfvaib",
   "libview.twoColumn": false,
   "libview.expandedNodes": [
     "rbw1tv9t",
+    "/",
+    "y768eypa",
     "/"
   ],
   "snapToGrid": true,

@@ -10,7 +10,7 @@ using System.Linq;
 using System.Reflection;
 using Assets.AssetBundles_Browser.Editor.Tests.Util;
 using Assets.Editor.Tests.Util;
-using Boo.Lang.Runtime;
+//using Boo.Lang.Runtime;
 using AssetBundleBrowser.AssetBundleModel;
 using UnityEngine.SceneManagement;
 

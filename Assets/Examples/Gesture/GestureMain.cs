@@ -21,19 +21,19 @@ public class GestureMain : MonoBehaviour
 
         _ball = GameObject.Find("Globe").transform;
 
-        SwipeGesture gesture1 = new SwipeGesture(holder);
-        gesture1.onMove.Add(OnSwipeMove);
-        gesture1.onEnd.Add(OnSwipeEnd);
+        //SwipeGesture gesture1 = new SwipeGesture(holder);
+        //gesture1.onMove.Add(OnSwipeMove);
+        //gesture1.onEnd.Add(OnSwipeEnd);
 
         LongPressGesture gesture2 = new LongPressGesture(holder);
         gesture2.once = false;
         gesture2.onAction.Add(OnHold);
 
-        PinchGesture gesture3 = new PinchGesture(holder);
-        gesture3.onAction.Add(OnPinch);
+        //PinchGesture gesture3 = new PinchGesture(holder);
+        //gesture3.onAction.Add(OnPinch);
 
-        RotationGesture gesture4 = new RotationGesture(holder);
-        gesture4.onAction.Add(OnRotate);
+        //RotationGesture gesture4 = new RotationGesture(holder);
+        //gesture4.onAction.Add(OnRotate);
     }
 
     void OnSwipeMove(EventContext context)

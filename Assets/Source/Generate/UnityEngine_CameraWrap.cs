@@ -643,8 +643,8 @@ public class UnityEngine_CameraWrap
 			ToLua.CheckArgsCount(L, 2);
 			float arg0 = (float)LuaDLL.luaL_checknumber(L, 1);
 			float arg1 = (float)LuaDLL.luaL_checknumber(L, 2);
-			float o = UnityEngine.Camera.FocalLengthToFOV(arg0, arg1);
-			LuaDLL.lua_pushnumber(L, o);
+			//float o = UnityEngine.Camera.FocalLengthToFOV(arg0, arg1);
+		//	LuaDLL.lua_pushnumber(L, o);
 			return 1;
 		}
 		catch (Exception e)
@@ -661,8 +661,8 @@ public class UnityEngine_CameraWrap
 			ToLua.CheckArgsCount(L, 2);
 			float arg0 = (float)LuaDLL.luaL_checknumber(L, 1);
 			float arg1 = (float)LuaDLL.luaL_checknumber(L, 2);
-			float o = UnityEngine.Camera.FOVToFocalLength(arg0, arg1);
-			LuaDLL.lua_pushnumber(L, o);
+			////float o = UnityEngine.Camera.FOVToFocalLength(arg0, arg1);
+			//LuaDLL.lua_pushnumber(L, o);
 			return 1;
 		}
 		catch (Exception e)
