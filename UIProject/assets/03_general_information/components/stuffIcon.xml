@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="79,79" extention="Button">
+  <controller name="state" pages="3,weared,1,synthesis,2,canWear,4,none" selected="0">
+    <remark page="0" value="已穿戴"/>
+    <remark page="1" value="可合成"/>
+    <remark page="2" value="可穿戴"/>
+    <remark page="3" value="未拥有"/>
+  </controller>
+  <displayList>
+    <loader id="n2_wp0j" name="icon" xy="0,0" pivot="0.5,0.5" size="79,79" aspect="true" url="ui://tsbe09ddryh2w" fill="scale">
+      <gearDisplay controller="state" pages="3,2,4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

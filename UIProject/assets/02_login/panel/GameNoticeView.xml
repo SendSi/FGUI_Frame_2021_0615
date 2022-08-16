@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <displayList>
+    <component id="n5_7oiz" name="bg_01" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n4_7oiz" name="bg_02" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="111,38" group="n34_110xn"/>
+    <component id="n1_7oiz" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1152,42" group="n34_110xn"/>
+    <component id="n7_7oiz" name="btnSure" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="609,583" size="202,68" group="n34_110xn">
+      <Button title="确定" titleColor="#ffffff" titleFontSize="28"/>
+    </component>
+    <list id="n8_7oiz" name="list" xy="42,135" size="194,496" group="n34_110xn" overflow="scroll" lineGap="10" defaultItem="ui://2r331opvprcz1qp8vfc">
+      <item controllers="display,1,state,0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n0_7oiz" name="title" xy="403,70" pivot="0.5,0.5" size="594,46" group="n34_110xn" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="2,2" singleLine="true" text="游戏公告"/>
+    <component id="n36_qidv" name="content" src="efn9y" fileName="components/title_notice.xml" xy="249,310" size="907,261" group="n34_110xn"/>
+    <loader id="n37_mpc8" name="n37" xy="242,160" size="920,149" group="n34_110xn" url="ui://byy9k3ghmpc835"/>
+    <group id="n34_110xn" name="n34" xy="42,38" size="1249,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="409,168" overflow="hidden" designImageOffsetX="-867" designImageOffsetY="-409">
+  <controller name="switch" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_s135" name="n0" src="s1351iy5b9a" fileName="images/images_new/com_title_line01.png" xy="245,8"/>
+    <image id="n1_s135" name="n1" src="s1351iy5b9a" fileName="images/images_new/com_title_line01.png" xy="57,8" flip="hz"/>
+    <text id="n2_s135" name="title" xy="160,1" size="84,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#74d0ff" autoClearText="true" text="套装属性"/>
+    <component id="n3_s135" name="attribute" src="s1351iy5b9f" fileName="components/general_new/equip_suitAtt_0.xml" xy="2,31" size="402,135">
+      <gearSize controller="switch" pages="1" values="402,0,1,1" default="402,135,1,1" tween="true"/>
+    </component>
+    <component id="n8_s135" name="btn" src="s1351iy5b9e" fileName="components/components_new/com_cbtn_icon.xml" xy="350,-6">
+      <Button controller="switch" page="1"/>
+    </component>
+  </displayList>
+  <relation target="n3_s135" sidePair="bottomext-bottom"/>
+</component>

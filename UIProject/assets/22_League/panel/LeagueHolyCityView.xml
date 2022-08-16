@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="1" value="无"/>
+  </controller>
+  <displayList>
+    <component id="n6_w84w" name="n6" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n67_g6ic" name="n67" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n101_n6uq"/>
+    <text id="n82_ebe4" name="title" xy="631,70" pivot="0.5,0.5" size="72,46" group="n101_n6uq" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="圣城"/>
+    <component id="n81_o7ws" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n101_n6uq">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <list id="n96_n6uq" name="cityList" xy="200,212" size="937,435" group="n101_n6uq" layout="flow_hz" overflow="scroll" lineGap="8" colGap="17" defaultItem="ui://lp3m5cuhn6uqhz9d6s" align="center" autoClearItems="true">
+      <gearDisplay controller="state" pages="0"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6r" title="1级圣城"/>
+      <item title="1级圣城"/>
+      <item title="1级圣城"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6r" title="2级圣城"/>
+      <item title="2级圣城"/>
+      <item title="2级圣城"/>
+    </list>
+    <text id="n98_n6uq" name="hasLbl" xy="580,168" size="238,36" group="n101_n6uq" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#50382e" autoSize="none" autoClearText="true" text="已占领圣城：500"/>
+    <text id="n99_n6uq" name="conquestValue" xy="827,169" size="235,34" group="n101_n6uq" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" autoSize="none" autoClearText="true" text="征服值:11"/>
+    <component id="n100_n6uq" name="sighBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="1067,147" size="75,76" group="n101_n6uq"/>
+    <image id="n107_kadl" name="n107" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="564,292" group="n101_n6uq" alpha="0.1" color="#97794f">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <text id="n102_kha9" name="nullTxt" xy="562,377" pivot="0.5,0.5" size="214,42" group="n101_n6uq" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" align="center" text="无占领任何圣城">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <list id="n106_d7a6" name="typeList" xy="210,160" size="327,53" group="n101_n6uq" layout="row" overflow="scroll" colGap="5" defaultItem="ui://lp3m5cuhd7a61ygcfkj">
+      <item title="全服" icon="ui://4ni413laxoe1nm"/>
+      <item title="联盟" icon="ui://4ni413laxoe1nn"/>
+    </list>
+    <group id="n101_n6uq" name="windows" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

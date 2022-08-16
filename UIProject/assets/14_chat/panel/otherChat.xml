@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="620,151">
+  <controller name="chaType" pages="0,text,1,voice,4,troopShare,5,,6," selected="4">
+    <remark page="3" value="世界首领使用"/>
+    <remark page="4" value="红包专属"/>
+  </controller>
+  <controller name="skin" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <component id="n9_wkc0" name="Head" src="j3xs9pm" fileName="components/components_new/btn_head4.xml" pkg="2r331opv" xy="0,0" scale="0.46,0.46"/>
+    <list id="n71_wkc0" name="titleList" xy="98,0" size="521,35" layout="row" colGap="4" defaultItem="ui://62wjs2s2wkc02d">
+      <item title="幽州"/>
+      <item title="[abcd]玩家名字六个"/>
+    </list>
+    <text id="n17_wkc0" name="Time" xy="99,121" size="137,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#818181" autoClearText="true" text="11-18  10:17:17">
+      <gearXY controller="chaType" pages="0,1,4,5,6" values="99,88|99,126|99,228|98,115|99,121"/>
+      <relation target="n72_wkc0" sidePair="bottom-bottom"/>
+      <relation target="n87_axd5" sidePair="bottom-bottom"/>
+    </text>
+    <loader id="n72_wkc0" name="icon_01" xy="72,23" size="379,76" group="n18_wkc0" url="ui://62wjs2s2g01id" fill="scaleFree">
+      <gearIcon controller="skin" pages="1,2,3" values="ui://62wjs2s2scu21ygcfh8|ui://62wjs2s2scu21ygcfha|ui://62wjs2s2scu21ygcfhc" default="ui://62wjs2s2g01id"/>
+      <relation target="n15_wkc0" sidePair="width-width,height-height"/>
+    </loader>
+    <richtext id="n15_wkc0" name="Content" xy="111,46" size="290,32" restrictSize="0,370,0,0" group="n18_wkc0" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" leading="0" ubb="true" autoClearText="true" text="我们的爱不明白，师父来救好">
+      <gearColor controller="skin" pages="1,2,3" values="#347922,#000000|#af6015,#000000|#1f76b9,#000000" default="#50382e,#000000"/>
+    </richtext>
+    <group id="n18_wkc0" name="otherText" xy="72,23" size="379,76" advanced="true">
+      <gearDisplay controller="chaType" pages="0"/>
+    </group>
+    <loader id="n80_wkc0" name="icon_02" xy="72,21" size="351,116" group="n79_wkc0" url="ui://62wjs2s2g01id" fill="scaleFree">
+      <gearIcon controller="skin" pages="1,2,3" values="ui://62wjs2s2scu21ygcfh8|ui://62wjs2s2scu21ygcfha|ui://62wjs2s2scu21ygcfhc" default="ui://62wjs2s2g01id"/>
+      <relation target="n77_wkc0" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n76_wkc0" name="Translate" xy="199,87" size="124,29" group="n79_wkc0" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoClearText="true" text="没有翻译结果">
+      <gearColor controller="skin" pages="1,2,3" values="#347922,#000000|#af6015,#000000|#1f76b9,#000000" default="#50382e,#000000"/>
+      <relation target="n80_wkc0" sidePair="center-center,bottom-bottom,bottom-middle"/>
+    </text>
+    <component id="n77_wkc0" name="Button_voice" src="rg9r1d" fileName="components/Button_voice_01.xml" xy="134,49" size="237,39" group="n79_wkc0">
+      <Button title="50秒"/>
+    </component>
+    <component id="n78_wkc0" name="n78" src="rg9r1f" fileName="components/play.xml" xy="129,79" group="n79_wkc0" rotation="180"/>
+    <group id="n79_wkc0" name="otherVoice" xy="72,21" size="351,116" advanced="true">
+      <gearDisplay controller="chaType" pages="1"/>
+    </group>
+    <loader id="n84_dtk1" name="icon_03" xy="85,33" size="444,183" group="n86_dtk1" url="ui://62wjs2s2g01id" fill="scaleFree">
+      <relation target="n15_wkc0" sidePair="width-width,height-height"/>
+    </loader>
+    <list id="n85_dtk1" name="troopShareList" xy="102,45" size="418,158" group="n86_dtk1" layout="flow_hz" overflow="scroll" defaultItem="ui://62wjs2s2rqm62n">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n86_dtk1" name="troopShare" xy="85,33" size="444,183" advanced="true">
+      <gearDisplay controller="chaType" pages="4"/>
+    </group>
+    <loader id="n87_axd5" name="icon_04" xy="72,24" size="369,102" group="n89_axd5" url="ui://62wjs2s2pkul3a" fill="scaleFree">
+      <relation target="n88_axd5" sidePair="width-width,height-height"/>
+    </loader>
+    <richtext id="n88_axd5" name="wordlbl" xy="113,47" size="268,32" restrictSize="0,370,0,0" group="n89_axd5" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" leading="0" ubb="true" autoClearText="true" text="测试测试测试测试测试测试"/>
+    <component id="n90_axd5" name="leave" src="axd539" fileName="components/goToBtn.xml" xy="229,78" pivot="1,0" size="165,29" group="n89_axd5">
+      <relation target="n88_axd5" sidePair="bottom-bottom"/>
+      <relation target="n87_axd5" sidePair="left-right"/>
+      <Button title="点击此条消息前往"/>
+    </component>
+    <group id="n89_axd5" name="worldLeaders" xy="72,24" size="369,102" advanced="true">
+      <gearDisplay controller="chaType" pages="5"/>
+    </group>
+    <component id="n96_rqbb" name="redpaBtn" src="uf4p1ygcfk9" fileName="panel/redpacketChatother.xml" xy="72,23">
+      <gearDisplay controller="chaType" pages="6"/>
+      <Button controller="chaType" page="6"/>
+    </component>
+  </displayList>
+  <relation target="n17_wkc0" sidePair="bottomext-bottom"/>
+</component>

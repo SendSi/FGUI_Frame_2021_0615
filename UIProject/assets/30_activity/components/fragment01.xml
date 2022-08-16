@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="197,126" overflow="hidden">
+  <controller name="state" pages="1,,2,,3,,4,,5,,6,,7,,8,,9," selected="8"/>
+  <displayList>
+    <loader id="n0_rr0d" name="item_map0" xy="-12,-27" size="96,96" url="ui://tsbe09ddrr0dhz9d1p">
+      <gearIcon controller="state" pages="1,2,3,4,5,7,8,9" values="ui://tsbe09ddrr0dhz9czp|ui://tsbe09ddrr0dhz9czy|ui://tsbe09ddrr0dhz9d07|ui://tsbe09ddrr0dhz9d0g|ui://tsbe09ddrr0dhz9d0p|ui://tsbe09ddrr0dhz9d17|ui://tsbe09ddrr0dhz9d1g|ui://tsbe09ddrr0dhz9d1p" default="ui://tsbe09ddrr0dhz9d0y"/>
+    </loader>
+    <loader id="n1_rr0d" name="item_map1" xy="50,-24" size="96,96" url="ui://tsbe09ddrr0dhz9d1q">
+      <gearIcon controller="state" pages="1,2,3,4,5,7,8,9" values="ui://tsbe09ddrr0dhz9czq|ui://tsbe09ddrr0dhz9czz|ui://tsbe09ddrr0dhz9d08|ui://tsbe09ddrr0dhz9d0h|ui://tsbe09ddrr0dhz9d0q|ui://tsbe09ddrr0dhz9d18|ui://tsbe09ddrr0dhz9d1h|ui://tsbe09ddrr0dhz9d1q" default="ui://tsbe09ddrr0dhz9d0z"/>
+    </loader>
+    <loader id="n2_rr0d" name="item_map2" xy="112,-24" size="96,96" url="ui://tsbe09ddrr0dhz9d1r">
+      <gearIcon controller="state" pages="1,2,3,4,6,7,8,9" values="ui://tsbe09ddrr0dhz9czr|ui://tsbe09ddrr0dhz9d00|ui://tsbe09ddrr0dhz9d09|ui://tsbe09ddrr0dhz9d0i|ui://tsbe09ddrr0dhz9d10|ui://tsbe09ddrr0dhz9d19|ui://tsbe09ddrr0dhz9d1i|ui://tsbe09ddrr0dhz9d1r" default="ui://tsbe09ddrr0dhz9d0r"/>
+    </loader>
+    <loader id="n3_rr0d" name="item_map3" xy="-12,11" size="96,96" url="ui://tsbe09ddrr0dhz9d1s">
+      <gearIcon controller="state" pages="1,2,3,4,6,7,8,9" values="ui://tsbe09ddrr0dhz9czs|ui://tsbe09ddrr0dhz9d01|ui://tsbe09ddrr0dhz9d0a|ui://tsbe09ddrr0dhz9d0j|ui://tsbe09ddrr0dhz9d11|ui://tsbe09ddrr0dhz9d1a|ui://tsbe09ddrr0dhz9d1j|ui://tsbe09ddrr0dhz9d1s" default="ui://tsbe09ddrr0dhz9d0s"/>
+    </loader>
+    <loader id="n4_rr0d" name="item_map4" xy="53,17" size="96,96" url="ui://tsbe09ddrr0dhz9d1t">
+      <gearIcon controller="state" pages="1,2,3,4,6,7,8,9" values="ui://tsbe09ddrr0dhz9czt|ui://tsbe09ddrr0dhz9d02|ui://tsbe09ddrr0dhz9d0b|ui://tsbe09ddrr0dhz9d0k|ui://tsbe09ddrr0dhz9d12|ui://tsbe09ddrr0dhz9d1b|ui://tsbe09ddrr0dhz9d1k|ui://tsbe09ddrr0dhz9d1t" default="ui://tsbe09ddrr0dhz9d0t"/>
+    </loader>
+    <loader id="n5_rr0d" name="item_map5" xy="115,17" size="96,96" url="ui://tsbe09ddrr0dhz9d1u">
+      <gearIcon controller="state" pages="1,2,3,4,6,7,8,9" values="ui://tsbe09ddrr0dhz9czu|ui://tsbe09ddrr0dhz9d03|ui://tsbe09ddrr0dhz9d0c|ui://tsbe09ddrr0dhz9d0l|ui://tsbe09ddrr0dhz9d13|ui://tsbe09ddrr0dhz9d1c|ui://tsbe09ddrr0dhz9d1l|ui://tsbe09ddrr0dhz9d1u" default="ui://tsbe09ddrr0dhz9d0u"/>
+    </loader>
+    <loader id="n6_rr0d" name="item_map6" xy="-15,52" size="96,96" url="ui://tsbe09ddrr0dhz9d1v">
+      <gearIcon controller="state" pages="1,2,3,4,6,7,8,9" values="ui://tsbe09ddrr0dhz9czv|ui://tsbe09ddrr0dhz9d04|ui://tsbe09ddrr0dhz9d0d|ui://tsbe09ddrr0dhz9d0m|ui://tsbe09ddrr0dhz9d14|ui://tsbe09ddrr0dhz9d1d|ui://tsbe09ddrr0dhz9d1m|ui://tsbe09ddrr0dhz9d1v" default="ui://tsbe09ddrr0dhz9d0v"/>
+    </loader>
+    <loader id="n7_rr0d" name="item_map7" xy="47,55" size="96,96" url="ui://tsbe09ddrr0dhz9d1w">
+      <gearIcon controller="state" pages="1,2,3,4,6,7,8,9" values="ui://tsbe09ddrr0dhz9czw|ui://tsbe09ddrr0dhz9d05|ui://tsbe09ddrr0dhz9d0e|ui://tsbe09ddrr0dhz9d0n|ui://tsbe09ddrr0dhz9d15|ui://tsbe09ddrr0dhz9d1e|ui://tsbe09ddrr0dhz9d1n|ui://tsbe09ddrr0dhz9d1w" default="ui://tsbe09ddrr0dhz9d0w"/>
+    </loader>
+    <loader id="n8_rr0d" name="item_map8" xy="112,55" size="96,96" url="ui://tsbe09ddrr0dhz9d1x">
+      <gearIcon controller="state" pages="1,2,3,4,6,7,8,9" values="ui://tsbe09ddrr0dhz9czx|ui://tsbe09ddrr0dhz9d06|ui://tsbe09ddrr0dhz9d0f|ui://tsbe09ddrr0dhz9d0o|ui://tsbe09ddrr0dhz9d16|ui://tsbe09ddrr0dhz9d1f|ui://tsbe09ddrr0dhz9d1o|ui://tsbe09ddrr0dhz9d1x" default="ui://tsbe09ddrr0dhz9d0x"/>
+    </loader>
+    <graph id="n9_rr0d" name="balck" xy="-1,-1" size="199,127" alpha="0.6" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <loader id="n19_rr0d" name="item_map_1_1" xy="-12,-27" size="96,96" url="ui://tsbe09ddrr0dhz9d1p">
+      <gearIcon controller="state" pages="2,3,4,5,6,7,8,9" values="ui://tsbe09ddrr0dhz9czy|ui://tsbe09ddrr0dhz9d07|ui://tsbe09ddrr0dhz9d0g|ui://tsbe09ddrr0dhz9d0p|ui://tsbe09ddrr0dhz9d0y|ui://tsbe09ddrr0dhz9d17|ui://tsbe09ddrr0dhz9d1g|ui://tsbe09ddrr0dhz9d1p" default="ui://tsbe09ddrr0dhz9czp"/>
+    </loader>
+    <loader id="n20_rr0d" name="item_map_1_2" xy="50,-24" size="96,96" url="ui://tsbe09ddrr0dhz9d1q">
+      <gearIcon controller="state" pages="2,3,4,5,6,7,8,9" values="ui://tsbe09ddrr0dhz9czz|ui://tsbe09ddrr0dhz9d08|ui://tsbe09ddrr0dhz9d0h|ui://tsbe09ddrr0dhz9d0q|ui://tsbe09ddrr0dhz9d0z|ui://tsbe09ddrr0dhz9d18|ui://tsbe09ddrr0dhz9d1h|ui://tsbe09ddrr0dhz9d1q" default="ui://tsbe09ddrr0dhz9czq"/>
+    </loader>
+    <loader id="n21_rr0d" name="item_map_1_3" xy="112,-24" size="96,96" url="ui://tsbe09ddrr0dhz9d1r">
+      <gearIcon controller="state" pages="2,3,4,5,6,7,8,9" values="ui://tsbe09ddrr0dhz9d00|ui://tsbe09ddrr0dhz9d09|ui://tsbe09ddrr0dhz9d0i|ui://tsbe09ddrr0dhz9d0r|ui://tsbe09ddrr0dhz9d10|ui://tsbe09ddrr0dhz9d19|ui://tsbe09ddrr0dhz9d1i|ui://tsbe09ddrr0dhz9d1r" default="ui://tsbe09ddrr0dhz9czr"/>
+    </loader>
+    <loader id="n22_rr0d" name="item_map_1_4" xy="-12,11" size="96,96" url="ui://tsbe09ddrr0dhz9d1s">
+      <gearIcon controller="state" pages="2,3,4,5,6,7,8,9" values="ui://tsbe09ddrr0dhz9d01|ui://tsbe09ddrr0dhz9d0a|ui://tsbe09ddrr0dhz9d0j|ui://tsbe09ddrr0dhz9d0s|ui://tsbe09ddrr0dhz9d11|ui://tsbe09ddrr0dhz9d1a|ui://tsbe09ddrr0dhz9d1j|ui://tsbe09ddrr0dhz9d1s" default="ui://tsbe09ddrr0dhz9czs"/>
+    </loader>
+    <loader id="n23_rr0d" name="item_map_1_5" xy="53,17" size="96,96" url="ui://tsbe09ddrr0dhz9d1t">
+      <gearIcon controller="state" pages="2,3,4,5,6,7,8,9" values="ui://tsbe09ddrr0dhz9d02|ui://tsbe09ddrr0dhz9d0b|ui://tsbe09ddrr0dhz9d0k|ui://tsbe09ddrr0dhz9d0t|ui://tsbe09ddrr0dhz9d12|ui://tsbe09ddrr0dhz9d1b|ui://tsbe09ddrr0dhz9d1k|ui://tsbe09ddrr0dhz9d1t" default="ui://tsbe09ddrr0dhz9czt"/>
+    </loader>
+    <loader id="n24_rr0d" name="item_map_1_6" xy="115,17" size="96,96" url="ui://tsbe09ddrr0dhz9d1u">
+      <gearIcon controller="state" pages="2,3,4,5,6,7,8,9" values="ui://tsbe09ddrr0dhz9d03|ui://tsbe09ddrr0dhz9d0c|ui://tsbe09ddrr0dhz9d0l|ui://tsbe09ddrr0dhz9d0u|ui://tsbe09ddrr0dhz9d13|ui://tsbe09ddrr0dhz9d1c|ui://tsbe09ddrr0dhz9d1l|ui://tsbe09ddrr0dhz9d1u" default="ui://tsbe09ddrr0dhz9czu"/>
+    </loader>
+    <loader id="n25_rr0d" name="item_map_1_7" xy="-15,52" size="96,96" url="ui://tsbe09ddrr0dhz9d1v">
+      <gearIcon controller="state" pages="2,3,4,5,6,7,8,9" values="ui://tsbe09ddrr0dhz9d04|ui://tsbe09ddrr0dhz9d0d|ui://tsbe09ddrr0dhz9d0m|ui://tsbe09ddrr0dhz9d0v|ui://tsbe09ddrr0dhz9d14|ui://tsbe09ddrr0dhz9d1d|ui://tsbe09ddrr0dhz9d1m|ui://tsbe09ddrr0dhz9d1v" default="ui://tsbe09ddrr0dhz9czv"/>
+    </loader>
+    <loader id="n26_rr0d" name="item_map_1_8" xy="47,55" size="96,96" url="ui://tsbe09ddrr0dhz9d1w">
+      <gearIcon controller="state" pages="2,3,4,5,6,7,8,9" values="ui://tsbe09ddrr0dhz9d05|ui://tsbe09ddrr0dhz9d0e|ui://tsbe09ddrr0dhz9d0n|ui://tsbe09ddrr0dhz9d0w|ui://tsbe09ddrr0dhz9d15|ui://tsbe09ddrr0dhz9d1e|ui://tsbe09ddrr0dhz9d1n|ui://tsbe09ddrr0dhz9d1w" default="ui://tsbe09ddrr0dhz9czw"/>
+    </loader>
+    <loader id="n27_rr0d" name="item_map_1_9" xy="112,55" size="96,96" url="ui://tsbe09ddrr0dhz9d1x">
+      <gearIcon controller="state" pages="2,3,4,5,6,7,8,9" values="ui://tsbe09ddrr0dhz9d06|ui://tsbe09ddrr0dhz9d0f|ui://tsbe09ddrr0dhz9d0o|ui://tsbe09ddrr0dhz9d0x|ui://tsbe09ddrr0dhz9d16|ui://tsbe09ddrr0dhz9d1f|ui://tsbe09ddrr0dhz9d1o|ui://tsbe09ddrr0dhz9d1x" default="ui://tsbe09ddrr0dhz9czx"/>
+    </loader>
+  </displayList>
+</component>

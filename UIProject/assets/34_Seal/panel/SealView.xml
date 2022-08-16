@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://45o8gpfbaklwp" designImageOffsetX="-165">
+  <controller name="ctr" pages="0,新星,1,逐势,2,命运,3,荣耀" selected="0"/>
+  <controller name="tip" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n126_foes" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_aklw" name="win" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n132_m1hb"/>
+    <image id="n79_l638" name="n79" src="fk1q1qp8vdi" fileName="images/images_new/windowBg_new/com_bg_popup01.png" pkg="2r331opv" xy="580,127" group="n132_m1hb"/>
+    <component id="n55_rv2y" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n132_m1hb"/>
+    <text id="n78_ey1w" name="title" xy="393,65" pivot="0.5,0.5" size="542,54" group="n132_m1hb" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" singleLine="true" text="圣火"/>
+    <list id="n101_a4b9" name="tab" xy="9,142" size="166,418" group="n132_m1hb" pageController="ctr" overflow="scroll" lineGap="10" defaultItem="ui://2r331opvebe41qp8vcw" selectionController="ctr">
+      <item title="新星圣火" name="新星圣火"/>
+      <item title="逐势圣火"/>
+      <item title="命运圣火"/>
+      <item title="荣耀圣火"/>
+    </list>
+    <component id="n56_rv2y" name="dontMove" src="d4gi9cij" fileName="components/components_new/Component_blank.xml" pkg="2r331opv" xy="183,78" size="1080,608" group="n119_h0dy" visible="false"/>
+    <image id="n11_aklw" name="n11" src="klrg1qp8vd2" fileName="images/images_new/common_lines_1.png" pkg="2r331opv" xy="703,227" size="426,1" group="n49_i8bs" alpha="0.2" color="#000000"/>
+    <text id="n13_aklw" name="name" xy="702,148" size="155,34" group="n49_i8bs" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" singleLine="true" autoClearText="true" text="Lv.1 审判之剑"/>
+    <text id="n17_aklw" name="attr" xy="703,188" pivot="0.5,0.5" size="100,34" group="n49_i8bs" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" singleLine="true" text="属性加成"/>
+    <list id="n83_h0om" name="attr_list" xy="713,237" size="412,168" group="n49_i8bs" overflow="scroll" defaultItem="ui://d7wfhq42t4up1ygcfe4">
+      <item/>
+      <item url="ui://d7wfhq42h0om1ygcffn"/>
+      <item/>
+      <item url="ui://d7wfhq42h0om1ygcffn"/>
+    </list>
+    <image id="n92_h0om" name="n92" src="klrg1qp8vd2" fileName="images/images_new/common_lines_1.png" pkg="2r331opv" xy="701,462" size="426,1" group="n90_h0om" alpha="0.2" color="#000000"/>
+    <text id="n84_h0om" name="torchname" xy="703,426" size="60,34" group="n90_h0om" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" text="圣火:"/>
+    <list id="n131_vaql" name="fire_list" xy="715,466" size="507,146" group="n90_h0om" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="8" defaultItem="ui://2r331opvj842hz9cyi">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n90_h0om" name="text" xy="701,426" size="521,186" group="n49_i8bs"/>
+    <text id="n133_lra8" name="attrname" xy="819,604" pivot="0.5,0.5" size="194,29" group="n49_i8bs" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" ubb="true" singleLine="true" text="当前使用圣火：[color=#ff0000]XXXX[/color]"/>
+    <group id="n49_i8bs" name="right" xy="701,148" size="521,485" group="n119_h0dy" advanced="true"/>
+    <image id="n80_l638" name="n80" src="lfqnhz9d6w" fileName="images/images_new/com_bg_popup02.png" pkg="2r331opv" xy="202,148" size="396,468" group="n96_h0om" alpha="0.6"/>
+    <text id="n122_h0dy" name="currentNum" xy="444,148" size="84,34" group="n96_h0om" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" ubb="true" autoClearText="true" text="[color=#ff0000]12/100[/color]"/>
+    <text id="n7_aklw" name="current" xy="276,148" pivot="0.5,0.5" size="251,34" group="n96_h0om" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" ubb="true" text="[color=#97794f]当前联盟征服值:[/color][color=#ff0000]12345[/color]"/>
+    <component id="n93_h0om" name="hide" src="h0om1ygcffi" fileName="components/torchBtn_hide.xml" xy="494,622" size="118,36" group="n96_h0om"/>
+    <component id="n94_h0om" name="expla" src="h0om1ygcffj" fileName="components/torchBtn_tip.xml" xy="193,625" size="294,29" group="n96_h0om"/>
+    <loader id="n127_sogo" name="cityLod" xy="298,290" size="233,204" group="n96_h0om"/>
+    <loader id="n128_sogo" name="effModelLod" xy="308,381" size="140,106" group="n96_h0om" url="ui://tvbfx6zpeaah5" align="center" vAlign="middle"/>
+    <list id="n129_vaql" name="current_List" xy="207,533" pivot="0.5,0.5" size="386,33" group="n96_h0om" layout="row" overflow="scroll" colGap="12" defaultItem="ui://d7wfhq42vaql1ygcffq" align="center" vAlign="middle">
+      <item/>
+    </list>
+    <component id="n57_ojpg" name="infoBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="588,148" group="n96_h0om">
+      <Button icon="ui://2r331opvr616z9cpc" controller="tip" page="1"/>
+    </component>
+    <group id="n96_h0om" name="left" xy="193,148" size="436,510" group="n119_h0dy" advanced="true"/>
+    <group id="n119_h0dy" name="show" xy="183,78" size="1080,608" group="n132_m1hb" advanced="true"/>
+    <group id="n132_m1hb" name="windows" xy="9,38" size="1254,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n130_vaql" name="mask1" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" group="n118_h0dy">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n105_h0dy" name="win2" src="hdmy1iy5b95" fileName="components/components_new/Popup_bg2.xml" pkg="2r331opv" xy="267,151" group="n118_h0dy">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n106_h0dy" name="closeButton1" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="968,138" group="n118_h0dy" scale="0.8,0.8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button controller="tip" page="0"/>
+    </component>
+    <text id="n107_h0dy" name="title1" xy="606,164" pivot="0.5,0.5" size="140,46" group="n118_h0dy" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" singleLine="true" text="圣火加成">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n108_h0dy" name="desc" xy="360,264" size="631,53" group="n110_h0dy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" leading="0" autoSize="none" autoClearText="true" text="占领中立城可以获得对应数量的联盟征服值，达到对应巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉"/>
+    <text id="n109_h0dy" name="rule" xy="347,228" size="100,34" group="n110_h0dy" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" singleLine="true" text="激活规则"/>
+    <group id="n110_h0dy" name="n110" xy="347,228" size="644,89" group="n118_h0dy" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n111_h0dy" name="n111" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="412,383" pivot="0.5,0" size="511,183" group="n117_h0dy"/>
+    <image id="n112_h0dy" name="n112" src="a4b91qp8veo" fileName="images/images_new/com_change010.png" pkg="2r331opv" xy="417,389" pivot="0.5,0.5" size="501,34" group="n117_h0dy" alpha="0.1"/>
+    <text id="n113_h0dy" name="addition" xy="473,392" size="84,29" group="n117_h0dy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="圣火加成"/>
+    <text id="n114_h0dy" name="alliance" xy="686,393" size="84,29" group="n117_h0dy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="联盟职位"/>
+    <list id="n115_h0dy" name="attr_listtip" xy="473,426" size="400,128" group="n117_h0dy" selectionMode="none" overflow="hidden" defaultItem="ui://d7wfhq42tv5r1ygcffp">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n116_h0dy" name="positio2" xy="347,346" size="148,34" group="n117_h0dy" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="职位对应规则"/>
+    <group id="n117_h0dy" name="n117" xy="347,346" size="576,220" group="n118_h0dy" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <group id="n118_h0dy" name="tip" xy="-165,0" size="1665,750" advanced="true">
+      <gearDisplay controller="tip" pages="1"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlayRepeat="-1">
+    <item time="0" type="Visible" target="n128_sogo" value="true"/>
+    <item time="0" type="XY" target="n128_sogo" tween="true" startValue="259,395" endValue="473.25,395" duration="12"/>
+    <item time="12" type="XY" target="n128_sogo" tween="true" startValue="473.25,395" endValue="449.25,395" duration="3"/>
+    <item time="15" type="Visible" target="n128_sogo" value="false"/>
+    <item time="15" type="XY" target="n128_sogo" tween="true" startValue="449.25,395" endValue="281,395" duration="10"/>
+    <item time="25" type="Visible" target="n128_sogo" value="true"/>
+    <item time="25" type="XY" target="n128_sogo" tween="true" startValue="281,395" endValue="259,395" duration="4"/>
+  </transition>
+</component>

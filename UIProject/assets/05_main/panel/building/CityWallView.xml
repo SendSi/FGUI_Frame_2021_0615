@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://4ni413lag9nyhz9ctx">
+  <controller name="state" pages="0,,1,,2," selected="2">
+    <remark page="1" value="可维修"/>
+    <remark page="2" value="维修中"/>
+  </controller>
+  <controller name="tab" pages="0,,1," selected="1">
+    <remark page="1" value="感叹号详情"/>
+  </controller>
+  <displayList>
+    <component id="n0_hlig" name="com_mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_hlig" name="com_window" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n13_teiy"/>
+    <text id="n21_g9ny" name="title" xy="374,70" pivot="0.5,0.5" size="590,46" group="n13_teiy" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" autoClearText="true" text="城墙"/>
+    <image id="n23_g9ny" name="n23" src="klrg1qp8vd3" fileName="images/images_new/common_lines_9.png" pkg="2r331opv" xy="202,338" pivot="0.5,0.5" size="923,13" group="n13_teiy" alpha="0.2" color="#000000"/>
+    <image id="n56_klt5" name="n56" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="205,148" size="918,36" group="n45_ok6z"/>
+    <image id="n24_g9ny" name="n24" src="lfqnhz9d79" fileName="images/images_new/attribute_icon01.png" pkg="2r331opv" xy="204,146" group="n45_ok6z"/>
+    <text id="n52_hdmy" name="lbl_04" xy="242,152" size="114,32" group="n45_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" text="守军战力："/>
+    <text id="n26_g9ny" name="teamPower" xy="354,152" size="136,32" group="n45_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" autoSize="none" singleLine="true" autoClearText="true" text="40,900"/>
+    <component id="n33_ok6z" name="general01" src="g9nyhz9ctz" fileName="components/components_new/main/wallTeamItem.xml" xy="207,197" group="n45_ok6z"/>
+    <component id="n53_95a1" name="general02" src="g9nyhz9ctz" fileName="components/components_new/main/wallTeamItem.xml" xy="645,198" group="n45_ok6z"/>
+    <component id="n50_h00f" name="settingBtn" src="krfh1iy5b91" fileName="components/components_new/com_btn_setting.xml" pkg="2r331opv" xy="1062,126" size="79,81" group="n45_ok6z" aspect="true" scale="0.56,0.56">
+      <Button icon="ui://2r331opvx4z51ygcfne"/>
+    </component>
+    <group id="n45_ok6z" name="n45" xy="204,126" size="938,199" group="n13_teiy"/>
+    <loader id="n11_hlig" name="icon_wall" xy="130,299" pivot="0.5,0.5" size="468,402" group="n46_ok6z" url="ui://2r331opvlwxi1ygcfkd" align="center" vAlign="middle" fill="scale"/>
+    <text id="n4_hlig" name="lbl_01" xy="535,367" size="100,34" group="n46_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="墙体耐久"/>
+    <text id="n5_hlig" name="lbl_02" xy="535,399" size="593,29" group="n46_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" letterSpacing="-2" autoSize="none" singleLine="true" autoClearText="true" text="Please rest assured that your city is very safe at present."/>
+    <component id="n10_hlig" name="strip_wall" src="g9nyhz9cty" fileName="components/components_new/main/wallPbr.xml" xy="537,432" size="592,38" group="n46_ok6z">
+      <gearDisplay controller="state" pages="0,1"/>
+      <ProgressBar value="61" max="100" min="8"/>
+    </component>
+    <component id="n22_g9ny" name="explainBtn" src="krfh1iy5b94" fileName="components/components_new/com_btn_explain1.xml" pkg="2r331opv" xy="642,372" size="28,28" group="n46_ok6z" aspect="true">
+      <relation target="n4_hlig" sidePair="right-right"/>
+      <Button icon="ui://2r331opvkrfh1iy5b94" controller="tab" page="1"/>
+    </component>
+    <group id="n46_ok6z" name="n46" xy="130,299" size="999,402" group="n13_teiy"/>
+    <list id="n55_jeas" name="consumeList" xy="568,526" pivot="0.5,0.5" size="498,44" group="n38_ok6z" scale="0.8,0.8" layout="row" colGap="23" defaultItem="ui://fq4ln9nvh55md" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n54_jeas" name="repairBtn" src="l6381qp8veh" fileName="components/components_new/com_btn_buy6.xml" pkg="2r331opv" xy="698,575" size="233,74" group="n38_ok6z">
+      <Button title="维修" titleFontSize="26"/>
+    </component>
+    <group id="n38_ok6z" name="state1" xy="568,526" size="498,123" group="n13_teiy" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <component id="n42_ok6z" name="repairPbr" src="ok6zhz9cu2" fileName="components/components_new/main/wallPbr2.xml" xy="568,432" size="561,38" group="n44_ok6z">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n40_ok6z" name="n40" src="ok6zhz9cu3" fileName="images/images_new/com_arms_bg.png" pkg="2r331opv" xy="535,429" group="n44_ok6z"/>
+    <image id="n41_ok6z" name="n41" src="ok6zhz9cu4" fileName="images/images_new/com_arms_icon00.png" pkg="2r331opv" xy="535,430" group="n44_ok6z"/>
+    <text id="n43_ok6z" name="lbl_07" xy="740,438" size="76,29" group="n44_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="right" autoSize="none" strokeColor="#000000" autoClearText="true" text="维修中："/>
+    <text id="n57_g6i7" name="numbel" xy="1032,468" pivot="1,0" size="94,29" group="n44_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="right" vAlign="middle" autoClearText="true" text="150/1550">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n58_g6i7" name="bg01" src="aibbax" fileName="images/icon_wall.png" xy="1014,472" size="12,20" group="n44_ok6z" aspect="true" color="#edb471">
+      <relation target="n57_g6i7" sidePair="right-left"/>
+    </image>
+    <text id="n59_g6i7" name="citywall" xy="538,468" size="104,29" group="n44_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="城墙状态："/>
+    <text id="n60_g6i7" name="intact" xy="634,468" size="44,29" group="n44_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="完好">
+      <relation target="n59_g6i7" sidePair="left-right"/>
+    </text>
+    <group id="n44_ok6z" name="state2" xy="535,429" size="594,68" group="n13_teiy" advanced="true">
+      <gearDisplay controller="state" pages="2"/>
+    </group>
+    <component id="n20_g9ny" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n13_teiy"/>
+    <group id="n13_teiy" name="tip" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n49_skl3" name="backBtn" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0" size="1334,750">
+      <gearDisplay controller="tab" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button controller="tab" page="0"/>
+    </component>
+    <component id="n47_ok6z" name="wallInfor" src="ok6zhz9cu3" fileName="components/components_new/building/wallInfor.xml" xy="0,0">
+      <gearDisplay controller="tab" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

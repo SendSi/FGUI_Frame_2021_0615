@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" designImageAlpha="20" designImageLayer="1">
+  <controller name="tab" pages="0,,1," selected="1">
+    <remark page="0" value="主城"/>
+    <remark page="1" value="部队"/>
+  </controller>
+  <controller name="state" pages="1,,0," selected="0">
+    <remark page="0" value="未激活"/>
+    <remark page="1" value="已激活"/>
+  </controller>
+  <controller name="city" pages="0,,1,,4,,5," selected="0">
+    <remark page="0" value="主城皮肤"/>
+    <remark page="1" value="铭牌"/>
+    <remark page="2" value="称号"/>
+    <remark page="3" value="聊天框"/>
+  </controller>
+  <controller name="haveAtt" pages="0,,1," selected="0">
+    <remark page="0" value="有属性"/>
+    <remark page="1" value="无属性"/>
+  </controller>
+  <controller name="tip" pages="0,,1," selected="0"/>
+  <controller name="troo" pages="1,,0,,2,,3," selected="0">
+    <remark page="0" value="播报"/>
+    <remark page="1" value="拖尾"/>
+    <remark page="2" value="击败特效"/>
+    <remark page="3" value="部队称号"/>
+  </controller>
+  <controller name="itemShowCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="道具显示"/>
+    <remark page="1" value="不显示"/>
+  </controller>
+  <displayList>
+    <image id="n46_h0dy" name="bg" src="pepa1ygcfnf" fileName="images/bg_new/bg9.jpg" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_qx30" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0"/>
+    <component id="n23_mgry" name="btnUse" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="566,618" size="202,78">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="使用" titleFontSize="30"/>
+    </component>
+    <component id="n48_mdcg" name="btnCitySkin" src="mgry1qp8vef" fileName="components/components_new/main/skin_tab.xml" xy="554,22" group="n53_mdcg">
+      <Button icon="ui://4ni413lacwtb1ygcffi" controller="tab" page="0"/>
+    </component>
+    <component id="n20_mgry" name="btnTroopSkin" src="mgry1qp8vef" fileName="components/components_new/main/skin_tab.xml" xy="681,22" group="n53_mdcg">
+      <Button checked="true" icon="ui://4ni413lacwtb1ygcffe" selectedTitle="部队" controller="tab" page="1"/>
+    </component>
+    <group id="n53_mdcg" name="iconBtn" xy="554,22" size="225,104" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <image id="n11_qx30" name="n11" src="gad31iy5bf7" fileName="images/images_new/windowBg_new/bg031.png" pkg="2r331opv" xy="8,108" size="276,603" group="n16_qx30" alpha="0.9"/>
+    <image id="n57_mtwh" name="n57" src="f7na1ygcfnd" fileName="images/images_new/windowBg_new/bg032.png" pkg="2r331opv" xy="14,114" size="264,58" group="n16_qx30" alpha="0.4"/>
+    <loader id="n47_cwtb" name="icon1" xy="27,124" size="34,34" group="n16_qx30" url="ui://4ni413lacwtb1ygcffn" autoSize="true"/>
+    <list id="n39_h0dy" name="listTab" xy="295,135" size="66,541" group="n29_mgry" overflow="hidden" lineGap="23" defaultItem="ui://4ni413lacwtb1ygcfgc" align="right" selectionController="city">
+      <item title="主城皮肤" icon="ui://4ni413lacwtb1ygcffj"/>
+      <item title="铭牌" icon="ui://4ni413lacwtb1ygcffg"/>
+      <item title="称号" icon="ui://4ni413lacwtb1ygcfg8"/>
+      <item title="聊天" icon="ui://4ni413lacwtb1ygcfg5"/>
+    </list>
+    <text id="n12_qx30" name="hadNum" xy="60,125" size="79,34" group="n29_mgry" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" autoClearText="true" text="18/60"/>
+    <component id="n13_qx30" name="cbox" src="cwtb1ygcfg9" fileName="components/components_new/main/cityskinCbox.xml" xy="142,122" size="121,41" group="n29_mgry">
+      <ComboBox title="所有" visibleItemCount="5">
+        <item title="所有" value="1"/>
+        <item title="品质" value="2"/>
+        <item title="已拥有" value="3"/>
+        <item title="可使用" value="4"/>
+      </ComboBox>
+    </component>
+    <list id="n14_qx30" name="listSkin" xy="11,168" size="277,537" group="n29_mgry" layout="flow_hz" overflow="scroll" scrollBarFlags="1024" margin="0,0,-10,0" colGap="-35" defaultItem="ui://4ni413lamgry1qp8vgh" autoItemSize="true" align="center">
+      <gearDisplay controller="city" pages="0"/>
+      <item/>
+      <item icon="ui://4ni413lamtwh1ygcfgi"/>
+      <item/>
+      <item icon="ui://4ni413lamtwh1ygcfgi"/>
+      <item icon="ui://4ni413lamtwh1ygcfgi"/>
+      <item icon="ui://4ni413lamtwh1ygcfgi"/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n24_mgry" name="listName" xy="13,172" size="286,591" group="n29_mgry" scale="0.9,0.9" overflow="scroll" scrollBarFlags="1024" lineGap="10" colGap="-32" defaultItem="ui://4ni413lamgry1qp8vgl">
+      <gearDisplay controller="city" pages="1"/>
+      <item icon="ui://4ni413la9zwe1ygcfl1"/>
+      <item icon="ui://4ni413lacwtb1ygcffu"/>
+      <item icon="ui://4ni413lacwtb1ygcffv"/>
+      <item icon="ui://4ni413lawpdk1ygcfky"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n54_mtwh" name="listTitle" xy="25,172" size="274,590" group="n29_mgry" scale="0.9,0.9" overflow="scroll" scrollBarFlags="1024" margin="0,0,8,0" lineGap="10" colGap="-32" defaultItem="ui://4ni413lamtwh1ygcfgd" align="center">
+      <gearDisplay controller="city" pages="4"/>
+      <item/>
+      <item url="ui://4ni413lawpdk1ygcfkz"/>
+      <item url="ui://4ni413lawpdk1ygcfl0"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n55_mtwh" name="listChat" xy="17,172" size="267,533" group="n29_mgry" overflow="scroll" scrollBarFlags="1024" margin="0,0,26,0" lineGap="10" colGap="-32" defaultItem="ui://4ni413lamtwh1ygcfgg" align="center">
+      <gearDisplay controller="city" pages="5"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n29_mgry" name="tab0" xy="11,122" size="350,641" group="n16_qx30" advanced="true">
+      <gearDisplay controller="tab" pages="0"/>
+    </group>
+    <list id="n38_h0dy" name="listTab2" xy="295,135" size="66,541" group="n27_mgry" overflow="hidden" lineGap="17" defaultItem="ui://4ni413lacwtb1ygcfgc" align="center" selectionController="troo">
+      <item title="部队拖尾"/>
+    </list>
+    <list id="n58_mtwh" name="listBroadcast" xy="22,172" size="305,667" group="n27_mgry" scale="0.796,0.796" overflow="scroll" scrollBarFlags="1024" lineGap="26" colGap="-20" defaultItem="ui://4ni413laal8r1ygcfkh" align="center">
+      <gearDisplay controller="troo" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n56_mtwh" name="listTailing" xy="12,173" size="305,590" group="n27_mgry" scale="0.9,0.9" overflow="scroll" scrollBarFlags="1024" lineGap="10" colGap="-32" defaultItem="ui://4ni413lamgry1qp8vgl">
+      <gearDisplay controller="troo" pages="0"/>
+      <item/>
+      <item icon="ui://4ni413lacwtb1ygcffu"/>
+      <item icon="ui://4ni413lacwtb1ygcffv"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n59_mtwh" name="listBeat" xy="12,173" size="286,591" group="n27_mgry" scale="0.9,0.9" overflow="scroll" scrollBarFlags="1024" lineGap="10" colGap="-32" defaultItem="ui://4ni413lamgry1qp8vgl">
+      <gearDisplay controller="troo" pages="2"/>
+      <item/>
+      <item icon="ui://4ni413lacwtb1ygcffu"/>
+      <item icon="ui://4ni413lacwtb1ygcffv"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n60_mtwh" name="listArmy" xy="12,173" size="304,591" group="n27_mgry" scale="0.9,0.9" overflow="scroll" scrollBarFlags="1024" lineGap="10" colGap="-32" defaultItem="ui://4ni413lamgry1qp8vgl">
+      <gearDisplay controller="troo" pages="3"/>
+      <item/>
+      <item icon="ui://4ni413lacwtb1ygcffu"/>
+      <item icon="ui://4ni413lacwtb1ygcffv"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n25_mgry" name="cbox2" src="cwtb1ygcfg9" fileName="components/components_new/main/cityskinCbox.xml" xy="142,122" size="121,41" group="n27_mgry">
+      <ComboBox title="所有" visibleItemCount="5">
+        <item title="所有" value="1"/>
+        <item title="品质" value="2"/>
+        <item title="已拥有" value="3"/>
+        <item title="可使用" value="4"/>
+      </ComboBox>
+    </component>
+    <text id="n26_mgry" name="hadNum2" xy="60,125" size="79,34" group="n27_mgry" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" autoClearText="true" text="18/60"/>
+    <group id="n27_mgry" name="tab1" xy="12,122" size="349,717" group="n16_qx30" advanced="true">
+      <gearDisplay controller="tab" pages="1"/>
+    </group>
+    <group id="n16_qx30" name="left" xy="8,108" size="353,731" advanced="true">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </group>
+    <image id="n50_mdcg" name="n50" src="gad31iy5bf7" fileName="images/images_new/windowBg_new/bg031.png" pkg="2r331opv" xy="974,400" size="342,311" group="n18_mgry">
+      <gearDisplay controller="itemShowCtrl" pages="0"/>
+    </image>
+    <image id="n80_f7na" name="n80" src="gad31iy5bf7" fileName="images/images_new/windowBg_new/bg031.png" pkg="2r331opv" xy="974,241" size="342,128" group="n18_mgry"/>
+    <component id="n2_qx30" name="btnSwitch" src="qx30hz9d6i" fileName="components/components_new/main/skin_cbtnDay.xml" xy="1195,28" group="n18_mgry">
+      <gearDisplay controller="tab" pages="0"/>
+    </component>
+    <text id="n3_qx30" name="Title" xy="976,142" size="297,62" group="n18_mgry" font="ui://2r331opvno3vhz9d63" fontSize="46" color="#ffffff" autoSize="none" autoClearText="true" text="春之城"/>
+    <component id="n4_qx30" name="btnExplain" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="1270,154" group="n18_mgry" alpha="0.7">
+      <Button controller="tip" page="1"/>
+    </component>
+    <image id="n79_f7na" name="n79" src="f7na1ygcfms" fileName="images/cityskin/com_bg_cityskinicon3.png" xy="967,216" group="n18_mgry"/>
+    <component id="n6_qx30" name="qualitySkin" src="qx301qp8vgc" fileName="components/components_new/main/skin_quality.xml" xy="979,116" group="n18_mgry"/>
+    <text id="n5_qx30" name="titleAtt" xy="1027,229" size="52,34" group="n18_mgry" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" shadowColor="#0f2c54" shadowOffset="1,2" text="属性"/>
+    <list id="n7_qx30" name="listAtt" xy="1001,271" size="294,90" group="n18_mgry" overflow="scroll" lineGap="-4" defaultItem="ui://4ni413laqx301qp8vee" autoClearItems="true">
+      <gearDisplay controller="haveAtt" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n40_h0dy" name="n40" xy="1001,271" size="68,90" group="n18_mgry" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="无">
+      <gearDisplay controller="haveAtt" pages="1"/>
+    </text>
+    <image id="n51_mdcg" name="n51" src="f7na1ygcfmt" fileName="images/cityskin/com_bg_cityskinicon4.png" xy="967,384" group="n18_mgry">
+      <gearDisplay controller="itemShowCtrl" pages="0"/>
+    </image>
+    <text id="n8_qx30" name="titleCost" xy="1027,391" size="52,34" group="n18_mgry" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" shadowColor="#0f2c54" shadowOffset="1,2" singleLine="true" text="道具">
+      <gearDisplay controller="itemShowCtrl" pages="0"/>
+    </text>
+    <list id="n10_qx30" name="listCost" xy="991,439" size="316,261" group="n18_mgry" overflow="scroll" lineGap="8" defaultItem="ui://4ni413laqx301qp8vgd" autoClearItems="true">
+      <gearDisplay controller="itemShowCtrl" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n18_mgry" name="right" xy="967,28" size="349,683" advanced="true">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </group>
+    <loader id="n37_l1sb" name="lodCity" xy="515,211" size="308,270" group="n76_al8r" url="ui://tsbe09ddix8ty" align="center" vAlign="middle">
+      <gearDisplay controller="city" pages="0,1,4,5"/>
+    </loader>
+    <loader id="n68_h0dy" name="lodName" xy="537,496" size="252,61" group="n66_mtwh" url="ui://05_main/com_cityskinicon_name1" fill="scaleFree">
+      <relation target="n63_mtwh" sidePair="rightext-right,leftext-left"/>
+    </loader>
+    <text id="n63_mtwh" name="name" xy="572,511" pivot="0.5,0.5" size="178,34" group="n66_mtwh" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#94e957" singleLine="true" text="[GZ55]暮色三千"/>
+    <image id="n65_mtwh" name="n65" src="cwtb1ygcfff" fileName="images/cityskin/com_cityskinbg_level.png" xy="619,554" group="n66_mtwh" color="#cccccc"/>
+    <text id="n64_mtwh" name="level" xy="649,561" pivot="0.5,0.5" size="32,34" group="n66_mtwh" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" leading="0" strokeColor="#322b64" shadowColor="#322b64" shadowOffset="2,2" singleLine="true" text="14"/>
+    <group id="n66_mtwh" name="player" xy="537,496" size="252,106" group="n76_al8r" advanced="true">
+      <gearDisplay controller="city" pages="0,1,4"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <loader id="n41_h0dy" name="lodDesignation" xy="502,110" pivot="0.5,0.5" size="333,137" group="n76_al8r" url="ui://4ni413lacwtb1ygcfg7" align="center" vAlign="middle">
+      <gearDisplay controller="city" pages="4"/>
+    </loader>
+    <text id="n72_l0ga" name="n72" xy="682,698" size="113,40" group="n76_al8r" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" text="后失效">
+      <relation target="n73_l0ga" sidePair="right-right"/>
+    </text>
+    <text id="n73_l0ga" name="leftTimeTxt" xy="498,698" size="184,40" group="n76_al8r" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="right" vAlign="middle" autoSize="none" autoClearText="true" text="xx分xx秒"/>
+    <loader id="n69_w2v3" name="lodChat" xy="498,139" pivot="0.5,0.5" size="341,99" group="n71_w2v3" url="ui://4ni413lacwtb1ygcffk" align="center" vAlign="middle"/>
+    <text id="n70_w2v3" name="n70" xy="565,151" pivot="0.5,0.5" size="199,73" group="n71_w2v3" font="ui://2r331opvno3vhz9d63" fontSize="20" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="你好啊！"/>
+    <group id="n71_w2v3" name="chat" xy="498,139" size="341,99" group="n76_al8r" advanced="true">
+      <gearDisplay controller="city" pages="5"/>
+    </group>
+    <group id="n76_al8r" name="city" xy="498,110" size="341,628" advanced="true">
+      <gearDisplay controller="tab" pages="0"/>
+    </group>
+    <component id="n77_al8r" name="broadcast" src="svpo1ygcfke" fileName="components/components_new/Broadcast.xml" xy="661,324" size="392,147" group="n78_al8r" touchable="false">
+      <gearDisplay controller="troo" pages="1"/>
+    </component>
+    <group id="n78_al8r" name="troop" xy="465,250" size="392,147" advanced="true">
+      <gearDisplay controller="tab" pages="1"/>
+    </group>
+    <component id="n75_l0ga" name="n75" src="h0dy1ygcffd" fileName="components/CityView/closeButton.xml" xy="0,0" size="1334,750" group="n44_h0dy">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button controller="tip" page="0"/>
+    </component>
+    <image id="n42_h0dy" name="n42" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="971,55" size="347,151" group="n44_h0dy" flip="vt"/>
+    <text id="n43_h0dy" name="txtTip" xy="989,75" size="309,114" group="n44_h0dy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#845744" align="center" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="这里是文字描述巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉">
+      <relation target="n42_h0dy" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n44_h0dy" name="tip" xy="0,0" size="1334,750" advanced="true">
+      <gearDisplay controller="tip" pages="1"/>
+    </group>
+  </displayList>
+</component>

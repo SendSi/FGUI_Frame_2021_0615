@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="33,55">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="1" value="亮"/>
+  </controller>
+  <displayList>
+    <image id="n14_mj6j" name="n14" src="mj6j1ygcff4" fileName="images/line02.png" xy="-96,-75">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <image id="n15_mj6j" name="n15" src="mj6j1ygcff8" fileName="images/line06.png" xy="-103,-81">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="height-height"/>
+    </image>
+  </displayList>
+</component>

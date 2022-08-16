@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="954,504" overflow="hidden" designImageOffsetX="-92" designImageOffsetY="-150">
+  <controller name="flag" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n2_d8di" name="line0" src="d8dihz9d08" fileName="components/talentBtn_line.xml" xy="105,325" size="208,27" rotation="-37"/>
+    <component id="n4_d8di" name="line1" src="d8dihz9d08" fileName="components/talentBtn_line.xml" xy="287,195" size="274,27" rotation="-9"/>
+    <component id="n6_d8di" name="line2" src="d8dihz9d08" fileName="components/talentBtn_line.xml" xy="564,152" size="276,27" rotation="28"/>
+    <component id="n8_d8di" name="line3" src="d8dihz9d08" fileName="components/talentBtn_line.xml" xy="786,272" size="213,27" rotation="18">
+      <gearDisplay controller="flag" pages="0"/>
+    </component>
+    <component id="n1_d8di" name="item0" src="d8dihz9d04" fileName="components/talentBtn.xml" xy="43,276"/>
+    <component id="n3_d8di" name="item1" src="d8dihz9d04" fileName="components/talentBtn.xml" xy="225,146"/>
+    <component id="n5_d8di" name="item2" src="d8dihz9d04" fileName="components/talentBtn.xml" xy="496,105"/>
+    <component id="n7_d8di" name="item3" src="d8dihz9d04" fileName="components/talentBtn.xml" xy="713,219"/>
+  </displayList>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="254,375" opaque="false">
+  <controller name="state" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_qok1" name="n0" src="ukvb1ygcg93" fileName="images4/mainhud_progress012.png" xy="0,0" size="254,375" alpha="0.9" flip="both">
+      <gearSize controller="state" pages="0,1" values="254,375,1,1|254,303,1,1"/>
+    </image>
+    <image id="n1_qok1" name="n1" src="lumy1qp8vdl" fileName="images4/main_bg04.png" xy="10,264" size="234,34" color="#000000"/>
+    <text id="n11_ta9j" name="textlbl" xy="11,266" size="232,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" autoSize="shrink" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="我的排名:1"/>
+    <text id="n3_qok1" name="namelbl" xy="9,9" size="86,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffe765" autoSize="none" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="伤害排名"/>
+    <text id="n10_ta9j" name="namelbl01" xy="88,11" size="146,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ff4343" autoSize="none" shadowColor="#902222" shadowOffset="1,1" singleLine="true" text="(第一名三倍奖励)"/>
+    <image id="n12_ta9j" name="rankinglbl" src="klrg1qp8vd3" fileName="images/images_new/common_lines_9.png" pkg="2r331opv" xy="13,38" size="228,7" visible="false" alpha="0.4" color="#ffe765"/>
+    <list id="n14_ta9j" name="ranking_list" xy="10,44" size="234,216" overflow="scroll" lineGap="2" defaultItem="ui://4ni413lapu9rhz9d16" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item title="2"/>
+      <item title="3"/>
+      <item title="4"/>
+      <item title="5"/>
+      <item title="6"/>
+      <item title="7"/>
+      <item/>
+    </list>
+    <component id="n16_wvyx" name="help_btn" src="dfgw1ygcfmd" fileName="components/components_new/com_btn_0002.xml" pkg="2r331opv" xy="15,310">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="请求帮助" titleFontSize="20"/>
+    </component>
+    <component id="n17_wvyx" name="focus_btn" src="dfgw1ygcfme" fileName="components/components_new/com_btn_0003.xml" pkg="2r331opv" xy="128,310">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="退出挑战" titleFontSize="20"/>
+    </component>
+  </displayList>
+  <relation target="n0_qok1" sidePair="bottomext-bottom"/>
+</component>

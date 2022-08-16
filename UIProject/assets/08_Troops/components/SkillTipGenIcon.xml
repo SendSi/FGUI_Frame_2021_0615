@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="86,86" extention="Button" designImageOffsetX="-225" designImageOffsetY="-556">
+  <controller name="quality" pages="0,,1,,2,,3,,4," selected="0">
+    <remark page="0" value="绿"/>
+    <remark page="1" value="蓝"/>
+    <remark page="2" value="紫"/>
+    <remark page="3" value="金"/>
+    <remark page="4" value="红"/>
+  </controller>
+  <controller name="button" pages="0,up,1,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n26_9232" name="bg_quality00" xy="0,0" size="86,86" aspect="true" url="ui://2r331opv94956" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="quality" pages="0,1,2,3,4" values="ui://2r331opv94956|ui://2r331opv94957|ui://2r331opv94958|ui://2r331opv94959|ui://2r331opv9495a"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n41_ln1d" name="icon_people" src="f4o9z9cnw" fileName="components/general_new/troopGeneralIcon.xml" pkg="2r331opv" xy="4,5" size="74,74" aspect="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n59_o6sy" name="Arms" src="o6syz9cqs" fileName="components/ArmsIcon.xml" xy="66,1">
+      <relation target="" sidePair="left-right,top-top"/>
+    </component>
+    <graph id="n61_frs0" name="n61" xy="-10,-40" size="106,30" group="n62_frs0" alpha="0" type="rect" lineColor="#cc000000" fillColor="#66000000" corner="6">
+      <gearLook controller="button" pages="0,1,4,5" values="0,0,0,1|1,0,0,1|0,0,0,1|0,0,0,1" tween="true" duration=".2"/>
+      <relation target="n60_frs0" sidePair="width-width"/>
+    </graph>
+    <text id="n60_frs0" name="name" xy="43,-25" pivot="0.5,0.5" anchor="true" size="84,29" group="n62_frs0" alpha="0" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoClearText="true" text="武将名字">
+      <gearLook controller="button" pages="0,1,4,5" values="0,0,0,0|1,0,0,0|0,0,0,0|0,0,0,0" tween="true" duration=".2"/>
+    </text>
+    <group id="n62_frs0" name="n62" xy="-10,-40" size="106,30"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="94,160" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="red" pages="0,,1," selected="0">
+    <remark page="0" value="红点"/>
+    <remark page="1" value="没有红点"/>
+  </controller>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="没有锄头"/>
+    <remark page="1" value="有锄头"/>
+  </controller>
+  <displayList>
+    <loader id="n7_ezrq" name="icon" xy="0,0" size="94,94" url="ui://lp3m5cuhjp2t1ygcffk" fill="scale" autoSize="true"/>
+    <image id="n5_ezrq" name="n5" src="q5gk1ygcfld" fileName="images/league_btn3.png" xy="0,74">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n8_q5gk" name="title" xy="18,75" size="52,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" strokeColor="#50382e" shadowColor="#50382e" shadowOffset="2,2" text="领土"/>
+    <image id="n9_q5gk" name="n9" src="vb7khz9czp" fileName="images/images_new/com_build_icon.png" pkg="2r331opv" xy="10,7">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <component id="n10_q5gk" name="redElement" src="pyiyhz9d6l" fileName="components/components_new/redPoint.xml" pkg="2r331opv" xy="77,19" aspect="true">
+      <gearDisplay controller="red" pages="0"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

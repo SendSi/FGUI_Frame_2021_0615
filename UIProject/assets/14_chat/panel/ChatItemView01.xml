@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="620,86">
+  <displayList>
+    <image id="n95_e7jj" name="n95" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="202,14" pivot="0.5,0.5" size="216,36">
+      <relation target="n94_e7jj" sidePair="width-width"/>
+    </image>
+    <richtext id="n94_e7jj" name="nameLbl" xy="206,16" pivot="0.5,0.5" size="207,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" align="center" autoClearText="true" text="墨色三千 加入了群聊"/>
+    <text id="n97_e7jj" name="TimeLbl" xy="241,52" pivot="0.5,0.5" size="137,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#818181" align="center" autoClearText="true" text="11-18  10:17:17"/>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="69,77" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_k4g9" name="n0" pkg="4ni413la" src="xoe1ms" fileName="images2/main_btn_06.png" xy="9,13" size="50,50">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_k4g9" name="title" xy="-14,49" size="99,29" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#101c20" singleLine="true" autoClearText="true" text="立即撤退">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n2_k4g9" name="icon" xy="9,13" size="50,50" aspect="true" url="ui://4ni413lak4g9oj" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n3_k4g9" name="price" xy="40,35" size="10,26" fontSize="18" color="#ffffff" strokeColor="#000000" autoClearText="true" text=""/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" extention="Label" initName="frame" designImageAlpha="45">
+  <controller name="tab" pages="0,,1,,2,,3,,4," selected="2">
+    <remark page="0" value="升级"/>
+    <remark page="1" value="突破"/>
+    <remark page="2" value="升星"/>
+    <remark page="3" value="装备"/>
+    <remark page="4" value="技能"/>
+  </controller>
+  <controller name="cultivate" pages="0,,1," selected="0">
+    <remark page="0" value="列表"/>
+    <remark page="1" value="养成"/>
+    <action type="play_transition" fromPage="0" toPage="1" transition="hero_list" stopOnExit="true"/>
+    <action type="play_transition" fromPage="0" toPage="1" transition="cultivate" delay=".5" stopOnExit="true"/>
+    <action type="play_transition" fromPage="1" toPage="0" transition="cultivate01" stopOnExit="true"/>
+    <action type="play_transition" fromPage="0" toPage="1" transition="leftin" stopOnExit="true"/>
+    <action type="play_transition" fromPage="1" toPage="0" transition="leftout" stopOnExit="true"/>
+  </controller>
+  <controller name="pop" pages="0,,1," selected="0">
+    <remark page="0" value="normal"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <component id="n2_oxy0" name="hero_bg01" src="kvv41iy5bdz" fileName="components/general_new/hero_bg02.xml" pkg="2r331opv" xy="0,0" pivot="0.5,0.5" size="1334,750">
+      <relation target="" sidePair="width-width,height-height,center-center"/>
+    </component>
+    <image id="n110_slj1" name="site" src="slj11iy5bfh" fileName="images/hero_bg_site.png" xy="593,727" pivot="0.5,0.5" anchor="true" scale="0.9,0.9">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n104_hgf6" name="planeAvatar" xy="0,0" size="1334,750" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <loader id="n69_sgc4" name="bg" xy="0,0" pivot="0.5,0.5" size="1334,750" alpha="0" url="ui://2r331opveaahz9co7" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n95_qat3" name="EffectRoot_DiTai01" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="571,597" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n52_ix15" name="avatar" xy="0,0" size="1334,750" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <loader3D id="n11_oxy0" name="3d_general" xy="524,564" size="100,100" align="center" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center%"/>
+    </loader3D>
+    <image id="n64_sgc4" name="n64" src="hxd7hz9d7j" fileName="images/images_new/title_bg01.png" pkg="2r331opv" xy="95,0" size="361,62" group="n93_sgc4" alpha="0.8"/>
+    <text id="n16_oxy0" name="title" xy="138,5" size="84,54" group="n93_sgc4" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#ffffff" vAlign="bottom" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="4,4" singleLine="true" text="英雄"/>
+    <component id="n3_oxy0" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0" group="n93_sgc4"/>
+    <group id="n93_sgc4" name="upper" xy="0,0" size="456,68" advanced="true">
+      <gearDisplay controller="cultivate" pages="0,1"/>
+    </group>
+    <image id="n5_oxy0" name="n5" src="xjmv1qp8vf8" fileName="images/images_new/com_bg_tips02_mask4.png" pkg="2r331opv" xy="16,82" size="277,640" group="n9_oxy0"/>
+    <image id="n109_f7na" name="n109" src="lavj1ygcff7" fileName="images/images_new/negative04.png" pkg="2r331opv" xy="22,88" size="265,58" group="n9_oxy0"/>
+    <text id="n6_oxy0" name="hadNum" xy="66,93" size="94,42" group="n9_oxy0" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffffff" autoSize="none" strokeColor="#322b63" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="18/60"/>
+    <component id="n7_oxy0" name="cbox" src="oxy0hz9czj" fileName="components/generalCbox.xml" xy="160,96" size="115,38" group="n9_oxy0">
+      <ComboBox visibleItemCount="10">
+        <item title="品质"/>
+        <item title="等级"/>
+        <item title="星级"/>
+        <item title="战力"/>
+      </ComboBox>
+    </component>
+    <list id="n8_oxy0" name="generalList" xy="14,143" size="290,569" group="n9_oxy0" layout="flow_hz" overflow="scroll" scrollBarFlags="1024" lineGap="-1" colGap="-54" defaultItem="ui://2r331opvhxd7hz9d7l" autoItemSize="true" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item url="ui://4hio38umcl07hz9d0p"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n40_hxd7" name="n40" src="hxd7hz9d78" fileName="images/hero_icon01.png" xy="31,97" group="n9_oxy0"/>
+    <group id="n9_oxy0" name="left_list" xy="14,82" size="290,640" advanced="true"/>
+    <component id="n12_oxy0" name="power" src="xz10z9crr" fileName="components/levelupPower.xml" xy="343,651">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n100_8z99" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n55_sgc4" name="EffectHandle_BiaoQianYan_01" src="ayljdv" fileName="components/EffectHandle.xml" pkg="2r331opv" xy="-368,459" group="n61_sgc4" customData="63"/>
+    <component id="n56_sgc4" name="btn_tab0" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="-491,75" group="n61_sgc4">
+      <Button title="升级" icon="ui://4hio38umxz10z9cra" selectedIcon="ui://4hio38umxz10z9cr5" controller="tab" page="0"/>
+    </component>
+    <component id="n57_sgc4" name="btn_tab1" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="-491,201" group="n61_sgc4">
+      <Button title="突破" icon="ui://4hio38umxz10z9crb" selectedIcon="ui://4hio38umxz10z9cr6" controller="tab" page="1"/>
+    </component>
+    <component id="n60_sgc4" name="btn_tab4" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="-491,327" group="n61_sgc4">
+      <Button checked="true" title="升星" icon="ui://4hio38umxz10z9crc" selectedIcon="ui://4hio38umxz10z9cr7" controller="tab" page="2"/>
+    </component>
+    <component id="n59_sgc4" name="btn_tab3" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="-491,453" group="n61_sgc4">
+      <Button title="装备" icon="ui://4hio38umxz10z9crd" selectedIcon="ui://4hio38umxz10z9cr8" controller="tab" page="3"/>
+    </component>
+    <component id="n58_sgc4" name="btn_tab2" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="-491,579" group="n61_sgc4">
+      <Button title="技能" icon="ui://4hio38umxz10z9cr4" selectedIcon="ui://4hio38umxz10z9cr9" controller="tab" page="4"/>
+    </component>
+    <group id="n61_sgc4" name="leftBtn" xy="-491,75" size="173,622" group="n63_sgc4" advanced="true"/>
+    <component id="n70_sgc4" name="armBtn" src="xz10z9crp" fileName="components/inforBtn.xml" xy="-328,177" group="n63_sgc4">
+      <gearDisplay controller="tab" pages="0"/>
+      <Button title="天赋" icon="ui://4hio38umxz10z9crn"/>
+    </component>
+    <component id="n71_sgc4" name="fetterBtn" src="xz10z9crp" fileName="components/inforBtn.xml" xy="-328,100" size="131,54" group="n63_sgc4">
+      <gearDisplay controller="tab" pages="0,4"/>
+      <Button title="羁绊" icon="ui://4hio38umxz10z9cro"/>
+    </component>
+    <component id="n62_sgc4" name="btn_cut_left" src="k7pz1v" fileName="components/components_new/Button_cut.xml" pkg="2r331opv" xy="-344,344" group="n63_sgc4">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n72_sgc4" name="talentBtn2" src="hxd7hz9d74" fileName="components/inforBtn2.xml" xy="-327,100" size="203,54" group="n63_sgc4">
+      <gearDisplay controller="tab" pages="1"/>
+      <Button title="卓越天赋+1" icon="ui://4hio38umdot4hz9czk"/>
+    </component>
+    <component id="n103_jej9" name="wordCheckBtn" src="xz10z9crp" fileName="components/inforBtn.xml" xy="-328,177" size="171,54" group="n63_sgc4">
+      <gearDisplay controller="tab" pages="1"/>
+      <Button title="词条一阅" icon="ui://4hio38umxz10z9cro"/>
+    </component>
+    <group id="n63_sgc4" name="left" xy="-491,75" size="367,622" advanced="true">
+      <gearDisplay controller="cultivate" pages="1"/>
+    </group>
+    <component id="n65_sgc4" name="levelup" src="xw6wz9cqc" fileName="panel/Component_levelup2.xml" xy="1329,0" group="n68_sgc4"/>
+    <component id="n66_sgc4" name="EffectRoot_ZhaoMu_ZhiYin" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="1519,251" group="n68_sgc4" touchable="false" customData="205"/>
+    <component id="n67_sgc4" name="btn_cut_right" src="hxd7hz9d7f" fileName="components/components_new/Button_cut2.xml" pkg="2r331opv" xy="1248,353" group="n68_sgc4" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <group id="n68_sgc4" name="right_cultivate" xy="1248,0" size="612,750" advanced="true">
+      <gearDisplay controller="cultivate" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <image id="n73_sgc4" name="n73" src="p9911iy5bbb" fileName="images/hero_bg021.png" xy="267,449" group="n78_sgc4"/>
+    <component id="n74_sgc4" name="breakItem1" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="344,501" group="n78_sgc4"/>
+    <component id="n75_sgc4" name="breakItem2" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="463,530" group="n78_sgc4"/>
+    <component id="n76_sgc4" name="breakItem3" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="605,529" group="n78_sgc4"/>
+    <component id="n77_sgc4" name="breakItem4" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="725,501" group="n78_sgc4"/>
+    <group id="n78_sgc4" name="breakGroup" xy="267,449" size="624,179" advanced="true">
+      <gearDisplay controller="tab" pages="1"/>
+      <gearDisplay2 controller="cultivate" pages="1" condition="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n94_sgc4" name="right_list" src="sgc41iy5bdt" fileName="panel/right.xml" xy="855,0">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n83_sgc4" name="resetBtn" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="1261,0" size="72,72" group="n92_sgc4" aspect="true" scale="0.6,0.6">
+      <Button icon="ui://2r331opvd8dihz9d0z"/>
+    </component>
+    <image id="n84_sgc4" name="n84" src="no3vhz9d6a" fileName="images/images_new/com_bg_resource.png" pkg="2r331opv" xy="1146,17" pivot="1,0" size="120,39" group="n87_sgc4"/>
+    <richtext id="n85_sgc4" name="skillItem1" xy="1183,20" pivot="1,0" size="87,32" group="n87_sgc4" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" vAlign="middle" ubb="true" vars="true" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="652,33"/>
+    <loader id="n86_sgc4" name="mat1" xy="1146,10" size="114,114" group="n87_sgc4" aspect="true" scale="0.4,0.4" url="ui://tsbe09ddd8di9ck7">
+      <relation target="n84_sgc4" sidePair="left-left"/>
+    </loader>
+    <group id="n87_sgc4" name="n87" xy="1146,10" size="124,114" group="n92_sgc4"/>
+    <image id="n88_sgc4" name="n88" src="no3vhz9d6a" fileName="images/images_new/com_bg_resource.png" pkg="2r331opv" xy="1018,17" pivot="1,0" size="120,39" group="n91_sgc4"/>
+    <richtext id="n89_sgc4" name="skillItem2" xy="1056,21" pivot="1,0" size="83,32" group="n91_sgc4" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" vAlign="middle" ubb="true" vars="true" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="652,33"/>
+    <loader id="n90_sgc4" name="mat2" xy="1019,11" size="113,113" group="n91_sgc4" aspect="true" scale="0.4,0.4" url="ui://tsbe09ddd8di9ck6"/>
+    <group id="n91_sgc4" name="n91" xy="1018,11" size="121,113" group="n92_sgc4" advanced="true">
+      <relation target="n87_sgc4" sidePair="right-left"/>
+    </group>
+    <group id="n92_sgc4" name="skillGroup" xy="1018,0" size="315,124" advanced="true">
+      <gearDisplay controller="tab" pages="4"/>
+      <gearDisplay2 controller="cultivate" pages="1" condition="0"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <component id="n96_u9xj" name="effectRoot" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="563,381" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n105_so71" name="ArmyBtn" src="spxy1ygcflp" fileName="components/components_new/armyAwakeBtn.xml" pkg="2r331opv" xy="338,123" scale="0.7,0.7">
+      <gearDisplay controller="cultivate" pages="0"/>
+      <relation target="n9_oxy0" sidePair="right-right"/>
+    </component>
+    <component id="n98_it7n" name="effectParent" src="u9xj1iy5be3" fileName="components/node.xml" xy="0,0" touchable="false">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n99_it7n" name="offset" src="u9xj1iy5be3" fileName="components/node.xml" xy="0,1" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n111_rxl8" name="expList" xy="291,515" size="722,142" scale="0.8,0.8" layout="row" defaultItem="ui://2r331opvo23t1ygcfn2" align="center" autoClearItems="true">
+      <gearDisplay controller="tab" pages="0"/>
+      <gearDisplay2 controller="cultivate" pages="1" condition="0"/>
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n100_8z99" name="hero_fragment" src="8z991iy5be7" fileName="components/hero_fragment.xml" xy="242,528">
+      <gearDisplay controller="tab" pages="2"/>
+      <gearXY controller="tab" pages="1,2" values="289,510|242,528" default="272,510"/>
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <graph id="n102_p3k8" name="hoverPoint" xy="586,626" pivot="0.5,0.5" size="16,16" visible="false" type="eclipse" lineSize="3" fillColor="#ffff0000">
+      <relation target="" sidePair="left-left%"/>
+    </graph>
+    <graph id="n103_n0ap" name="hoverPoint2" xy="579,369" pivot="0.5,0.5" size="16,16" visible="false" type="eclipse" lineSize="3" fillColor="#ffff0000">
+      <relation target="" sidePair="left-left%"/>
+    </graph>
+    <component id="n107_fccv" name="fetterBtn01" src="fccv1iy5bfe" fileName="components/fetterBtn.xml" xy="201,74" group="n112_sgbi" scale="0.24,0.24">
+      <gearDisplay controller="cultivate" pages="0"/>
+      <relation target="n105_so71" sidePair="right-right"/>
+    </component>
+    <text id="n108_fccv" name="armTitle" xy="347,289" pivot="0.5,0.5" size="44,29" group="n112_sgbi" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" strokeColor="#000000" strokeSize="2" shadowColor="#000000" shadowOffset="1,3" text="羁绊">
+      <gearDisplay controller="cultivate" pages="0"/>
+      <relation target="n107_fccv" sidePair="right-right"/>
+    </text>
+    <group id="n112_sgbi" name="fetter" xy="201,74" size="336,386" advanced="true"/>
+    <component id="n113_kv72" name="skill_tip" src="c4umci3" fileName="panel/skillTipsView.xml" xy="386,32">
+      <gearDisplay controller="pop" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <transition name="hero_list" options="1">
+    <item time="0" type="XY" target="n94_sgc4" tween="true" startValue="855,0" endValue="824,0" duration="6"/>
+    <item time="0" type="XY" target="n9_oxy0" tween="true" startValue="14,82" endValue="31,82" duration="6"/>
+    <item time="6" type="XY" target="n93_sgc4" tween="true" startValue="0,0" endValue="-554,0" duration="5"/>
+    <item time="6" type="XY" target="n94_sgc4" tween="true" startValue="824,0" endValue="1349,0" duration="5"/>
+    <item time="6" type="XY" target="n9_oxy0" tween="true" startValue="31,82" endValue="-396,82" duration="5"/>
+  </transition>
+  <transition name="cultivate">
+    <item time="0" type="Alpha" target="n100_8z99" tween="true" startValue="1" endValue="1" duration="22"/>
+    <item time="0" type="Alpha" target="n69_sgc4" tween="true" startValue="0" endValue="0.97" duration="12"/>
+    <item time="0" type="Alpha" target="n78_sgc4" value="0"/>
+    <item time="0" type="Alpha" target="n92_sgc4" tween="true" startValue="0" endValue="0" duration="10"/>
+    <item time="0" type="XY" target="n68_sgc4" tween="true" startValue="1340,0" endValue="750,0" duration="7" ease="Quad.In"/>
+    <item time="0" type="XY" target="n78_sgc4" tween="true" startValue="242,780" endValue="242,449" duration="4"/>
+    <item time="0" type="XY" target="n93_sgc4" tween="true" startValue="-581,0" endValue="27,0" duration="4"/>
+    <item time="4" type="XY" target="n93_sgc4" tween="true" startValue="27,0" endValue="0,0" duration="3"/>
+    <item time="7" type="XY" target="n68_sgc4" tween="true" startValue="750,0" endValue="770,0" duration="2" ease="Quad.InOut"/>
+    <item time="10" type="Alpha" target="n78_sgc4" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="10" type="Alpha" target="n92_sgc4" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="cultivate01">
+    <item time="0" type="Alpha" target="n100_8z99" tween="true" startValue="1" endValue="0" duration="9"/>
+    <item time="0" type="Alpha" target="n69_sgc4" tween="true" startValue="1" endValue="0" duration="9" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n92_sgc4" tween="true" startValue="1" endValue="0" duration="9"/>
+    <item time="0" type="XY" target="n63_sgc4" tween="true" startValue="0,86" endValue="-374,86" duration="9" ease="Quad.In"/>
+    <item time="0" type="XY" target="n68_sgc4" tween="true" startValue="753,0" endValue="1341,0" duration="9" ease="Quad.In"/>
+    <item time="0" type="XY" target="n78_sgc4" tween="true" startValue="242,449" endValue="193,782" duration="9"/>
+    <item time="0" type="XY" target="n93_sgc4" tween="true" startValue="-550,0" endValue="18,0" duration="7" ease="Quad.In"/>
+    <item time="0" type="XY" target="n94_sgc4" tween="true" startValue="1351,0" endValue="824,0" duration="7" ease="Quad.In"/>
+    <item time="0" type="XY" target="n9_oxy0" tween="true" startValue="-310,82" endValue="34,82" duration="7" ease="Quad.In"/>
+    <item time="7" type="XY" target="n93_sgc4" tween="true" startValue="18,0" endValue="0,0" duration="2"/>
+    <item time="7" type="XY" target="n94_sgc4" tween="true" startValue="824,0" endValue="855,0" duration="2"/>
+    <item time="7" type="XY" target="n9_oxy0" tween="true" startValue="34,82" endValue="14,82" duration="2"/>
+  </transition>
+  <transition name="leftin">
+    <item time="2" type="XY" target="n103_jej9" tween="true" startValue="-211,188" endValue="188,188" duration="10" ease="Quad.In"/>
+    <item time="2" type="XY" target="n70_sgc4" tween="true" startValue="-211,188" endValue="188,188" duration="10" ease="Quad.In"/>
+    <item time="2" type="XY" target="n71_sgc4" tween="true" startValue="-211,111" endValue="188,111" duration="10" ease="Quad.In"/>
+    <item time="2" type="XY" target="n72_sgc4" tween="true" startValue="-210,111" endValue="188,111" duration="10" ease="Quad.In"/>
+    <item time="6" type="XY" target="n56_sgc4" tween="true" startValue="-374,86" endValue="50,86" duration="10" ease="Quad.In"/>
+    <item time="8" type="XY" target="n57_sgc4" tween="true" startValue="-374,212" endValue="50,212" duration="10" ease="Quad.In"/>
+    <item time="8" type="XY" target="n62_sgc4" tween="true" startValue="163,355" endValue="201,348" duration="7"/>
+    <item time="9" type="XY" target="n60_sgc4" tween="true" startValue="-374,338" endValue="50,338" duration="10" ease="Quad.In"/>
+    <item time="11" type="XY" target="n59_sgc4" tween="true" startValue="-374,464" endValue="50,464" duration="10" ease="Quad.In"/>
+    <item time="13" type="XY" target="n58_sgc4" tween="true" startValue="-374,590" endValue="50,590" duration="10" ease="Quad.In"/>
+    <item time="16" type="XY" target="n56_sgc4" tween="true" startValue="50,86" endValue="0,86" duration="3"/>
+    <item time="18" type="XY" target="n57_sgc4" tween="true" startValue="50,212" endValue="0,212" duration="3"/>
+    <item time="19" type="XY" target="n60_sgc4" tween="true" startValue="50,338" endValue="0,338" duration="3"/>
+    <item time="21" type="XY" target="n59_sgc4" tween="true" startValue="50,464" endValue="0,464" duration="3"/>
+    <item time="23" type="XY" target="n58_sgc4" tween="true" startValue="50,590" endValue="0,590" duration="3"/>
+  </transition>
+  <transition name="leftout">
+    <item time="0" type="XY" target="n103_jej9" tween="true" startValue="188,188" endValue="-211,188" duration="7"/>
+    <item time="0" type="XY" target="n58_sgc4" tween="true" startValue="0,590" endValue="22,590" duration="3"/>
+    <item time="0" type="XY" target="n62_sgc4" tween="true" startValue="270,355" endValue="-193,355" duration="7"/>
+    <item time="0" type="XY" target="n70_sgc4" tween="true" startValue="188,111" endValue="-211,111" duration="7"/>
+    <item time="0" type="XY" target="n71_sgc4" tween="true" startValue="188,188" endValue="-211,188" duration="7"/>
+    <item time="0" type="XY" target="n72_sgc4" tween="true" startValue="188,111" endValue="-210,111" duration="7"/>
+    <item time="2" type="XY" target="n59_sgc4" tween="true" startValue="0,464" endValue="22,464" duration="3"/>
+    <item time="3" type="XY" target="n58_sgc4" tween="true" startValue="22,590" endValue="-374,590" duration="8"/>
+    <item time="4" type="XY" target="n60_sgc4" tween="true" startValue="0,338" endValue="22,338" duration="3"/>
+    <item time="5" type="XY" target="n59_sgc4" tween="true" startValue="22,464" endValue="-374,464" duration="8"/>
+    <item time="6" type="XY" target="n57_sgc4" tween="true" startValue="0,212" endValue="22,212" duration="3"/>
+    <item time="7" type="XY" target="n60_sgc4" tween="true" startValue="22,338" endValue="-374,338" duration="8"/>
+    <item time="8" type="XY" target="n56_sgc4" tween="true" startValue="0,86" endValue="22,86" duration="3"/>
+    <item time="9" type="XY" target="n57_sgc4" tween="true" startValue="22,212" endValue="-374,212" duration="8"/>
+    <item time="11" type="XY" target="n56_sgc4" tween="true" startValue="22,86" endValue="-374,86" duration="8"/>
+  </transition>
+  <transition name="leftin_tab4">
+    <item time="2" type="XY" target="n103_jej9" tween="true" startValue="-211,188" endValue="188,188" duration="10" ease="Quad.In"/>
+    <item time="2" type="XY" target="n56_sgc4" tween="true" startValue="-374,86" endValue="50,86" duration="10" ease="Quad.In"/>
+    <item time="2" type="XY" target="n70_sgc4" tween="true" startValue="-211,111" endValue="188,111" duration="10" ease="Quad.In"/>
+    <item time="2" type="XY" target="n71_sgc4" tween="true" startValue="-211,111" endValue="188,111" duration="10" ease="Quad.In"/>
+    <item time="2" type="XY" target="n72_sgc4" tween="true" startValue="-210,111" endValue="188,111" duration="10" ease="Quad.In"/>
+    <item time="8" type="XY" target="n57_sgc4" tween="true" startValue="-374,212" endValue="50,212" duration="10" ease="Quad.In"/>
+    <item time="8" type="XY" target="n62_sgc4" tween="true" startValue="163,355" endValue="270,355" duration="7"/>
+    <item time="9" type="XY" target="n60_sgc4" tween="true" startValue="-374,338" endValue="50,338" duration="10" ease="Quad.In"/>
+    <item time="11" type="XY" target="n59_sgc4" tween="true" startValue="-374,464" endValue="50,464" duration="10" ease="Quad.In"/>
+    <item time="12" type="XY" target="n56_sgc4" tween="true" startValue="50,86" endValue="0,86" duration="3"/>
+    <item time="13" type="XY" target="n58_sgc4" tween="true" startValue="-374,590" endValue="50,590" duration="10" ease="Quad.In"/>
+    <item time="18" type="XY" target="n57_sgc4" tween="true" startValue="50,212" endValue="0,212" duration="3"/>
+    <item time="19" type="XY" target="n60_sgc4" tween="true" startValue="50,338" endValue="0,338" duration="3"/>
+    <item time="21" type="XY" target="n59_sgc4" tween="true" startValue="50,464" endValue="0,464" duration="3"/>
+    <item time="23" type="XY" target="n58_sgc4" tween="true" startValue="50,590" endValue="0,590" duration="3"/>
+  </transition>
+  <transition name="leftout_tab4">
+    <item time="0" type="XY" target="n58_sgc4" tween="true" startValue="0,590" endValue="22,590" duration="3"/>
+    <item time="0" type="XY" target="n62_sgc4" tween="true" startValue="270,355" endValue="-193,355" duration="7"/>
+    <item time="0" type="XY" target="n70_sgc4" tween="true" startValue="188,111" endValue="-211,111" duration="7"/>
+    <item time="0" type="XY" target="n71_sgc4" tween="true" startValue="188,111" endValue="-211,111" duration="7"/>
+    <item time="0" type="XY" target="n72_sgc4" tween="true" startValue="188,111" endValue="-210,111" duration="7"/>
+    <item time="2" type="XY" target="n59_sgc4" tween="true" startValue="0,464" endValue="22,464" duration="3"/>
+    <item time="3" type="XY" target="n58_sgc4" tween="true" startValue="22,590" endValue="-374,590" duration="8"/>
+    <item time="4" type="XY" target="n60_sgc4" tween="true" startValue="0,338" endValue="22,338" duration="3"/>
+    <item time="5" type="XY" target="n59_sgc4" tween="true" startValue="22,464" endValue="-374,464" duration="8"/>
+    <item time="6" type="XY" target="n57_sgc4" tween="true" startValue="0,212" endValue="22,212" duration="3"/>
+    <item time="7" type="XY" target="n60_sgc4" tween="true" startValue="22,338" endValue="-374,338" duration="8"/>
+    <item time="8" type="XY" target="n56_sgc4" tween="true" startValue="0,86" endValue="22,86" duration="3"/>
+    <item time="9" type="XY" target="n57_sgc4" tween="true" startValue="22,212" endValue="-374,212" duration="8"/>
+    <item time="11" type="XY" target="n56_sgc4" tween="true" startValue="22,86" endValue="-374,86" duration="8"/>
+  </transition>
+</component>

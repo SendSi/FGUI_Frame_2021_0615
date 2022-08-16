@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qm5fpil4">
+  <resources>
+    <image id="aguo0" name="notice_bg_black.png" path="/images/" exported="true" scale="9grid" scale9grid="40,57,17,36"/>
+    <image id="aguo1" name="notice_bg0.png" path="/images/" exported="true" scale="9grid" scale9grid="91,72,5,6"/>
+    <image id="aguo2" name="notice_bg4.png" path="/images/" exported="true"/>
+    <image id="aguo3" name="notice_bg4_s.png" path="/images/" exported="true"/>
+    <image id="aguo4" name="notice_bg6.png" path="/images/" exported="true"/>
+    <image id="aguo5" name="notice_bg6_s.png" path="/images/" exported="true"/>
+    <image id="aguo6" name="notice_bg7.png" path="/images/" exported="true"/>
+    <image id="aguo7" name="notice_bg7_s.png" path="/images/" exported="true"/>
+    <component id="aguo1ygcfoc" name="ForecastMainView.xml" path="/panel/" exported="true"/>
+    <component id="aguo1iy5bgp" name="notice_Btn1.xml" path="/components/" exported="true"/>
+    <component id="aguo8" name="notice_description.xml" path="/components/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

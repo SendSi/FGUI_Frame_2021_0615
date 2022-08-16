@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <controller name="first" pages="0,,1," selected="0">
+    <remark page="0" value="首通奖励"/>
+    <remark page="1" value="无首通奖励"/>
+  </controller>
+  <controller name="KillOrSarch" pages="0,,1," selected="0">
+    <remark page="0" value="可挑战"/>
+    <remark page="1" value="不可挑战"/>
+  </controller>
+  <displayList>
+    <component id="n33_yhld" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n32_yhld" name="dontmove" src="d4gi9cij" fileName="components/components_new/Component_blank.xml" pkg="2r331opv" xy="596,144" size="542,446" group="n31_yhld"/>
+    <image id="n2_yhld" name="n2" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="595,142" size="551,455" group="n31_yhld"/>
+    <image id="n42_pzyo" name="n42" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="596,329" size="61,46" group="n31_yhld" rotation="90"/>
+    <image id="n3_yhld" name="n3" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="607,152" size="128,31" group="n6_yhld" color="#000000">
+      <relation target="n5_yhld" sidePair="rightext-right"/>
+    </image>
+    <loader id="n4_yhld" name="iconTitle" xy="605,147" size="40,40" group="n6_yhld" aspect="true" url="ui://2f980fe2yhlda" align="center" vAlign="middle" fill="scale"/>
+    <text id="n5_yhld" name="title" xy="643,154" size="85,26" group="n6_yhld" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#58adcc" text="TitleTitle"/>
+    <group id="n6_yhld" name="titleBg" xy="605,147" size="130,40" group="n31_yhld"/>
+    <text id="n8_yhld" name="name" xy="686,165" pivot="0.5,0.5" size="374,42" group="n31_yhld" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#845744" align="center" autoSize="none" autoClearText="true" text="1级配表配表"/>
+    <image id="n9_yhld" name="n9" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="616,236" size="510,231" group="n31_yhld" alpha="0.2" color="#97794f"/>
+    <component id="n41_vpos" name="legionIcon" src="vposm" fileName="components/legionIcon.xml" xy="629,255" size="175,182" group="n31_yhld"/>
+    <component id="n13_yhld" name="timeBtn" src="yhldf" fileName="components/timeBtn.xml" xy="994,193" size="129,40" group="n31_yhld"/>
+    <image id="n46_oy35" name="n46" src="bumchz9d7p" fileName="images/images_new/windowBg_new/negative_bg03.png" pkg="2r331opv" xy="633,426" size="156,34" group="n31_yhld"/>
+    <text id="n7_yhld" name="coordinateTitle" xy="654,429" pivot="0.5,0.5" size="114,29" group="n31_yhld" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoClearText="true" text="X:126   Y:89"/>
+    <text id="n14_yhld" name="inforTitle0" xy="819,253" size="109,29" group="n31_yhld" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" autoClearText="true" text="军团战力 ："/>
+    <text id="n15_yhld" name="inforTitle1" xy="819,295" size="109,29" group="n31_yhld" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" autoClearText="true" text="军团战力 ："/>
+    <text id="n16_yhld" name="inforTitle2" xy="819,337" size="109,29" group="n31_yhld" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" autoClearText="true" text="军团战力 ："/>
+    <text id="n17_yhld" name="inforTitle3" xy="819,379" size="109,29" group="n31_yhld" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" autoClearText="true" text="军团战力 ："/>
+    <image id="n20_yhld" name="n20" src="yhldh" fileName="images/icon_05.png" xy="933,247" size="40,40" group="n31_yhld"/>
+    <component id="n44_mao3" name="btnPhy" src="mao3n" fileName="components/showIcon.xml" xy="937,291" size="38,38" group="n31_yhld">
+      <Button icon="ui://2f980fe2yhldg"/>
+    </component>
+    <text id="n22_yhld" name="inforNum0" xy="970,250" size="156,34" group="n31_yhld" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="10000"/>
+    <text id="n23_yhld" name="inforNum1" xy="970,292" size="156,34" group="n31_yhld" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="10000"/>
+    <list id="n24_yhld" name="armyList" xy="941,331" size="186,41" group="n31_yhld" layout="row" overflow="scroll" scrollBarFlags="32" colGap="5" defaultItem="ui://2f980fe2yhldj">
+      <item icon="ui://2r331opvkn291"/>
+      <item icon="ui://2r331opvkn293"/>
+      <item icon="ui://2r331opvkn292"/>
+    </list>
+    <list id="n25_yhld" name="mybeList" xy="939,373" size="191,40" group="n31_yhld" layout="row" overflow="scroll" scrollBarFlags="32" margin="0,0,3,0" colGap="10" defaultItem="ui://2r331opvyhldk">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n18_yhld" name="inforTitle4" xy="819,421" size="109,29" group="n34_yhld" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" autoClearText="true" text="军团战力 ："/>
+    <list id="n26_yhld" name="rewardList" xy="939,417" size="191,40" group="n34_yhld" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,3,0" colGap="10" defaultItem="ui://2r331opvyhldk">
+      <item icon="ui://2r331opvkn291"/>
+      <item icon="ui://2r331opvkn293"/>
+      <item icon="ui://2r331opvkn292"/>
+    </list>
+    <group id="n34_yhld" name="firstReward" xy="819,417" size="311,40" group="n31_yhld" advanced="true">
+      <gearDisplay controller="first" pages="0"/>
+    </group>
+    <component id="n45_khxe" name="shareBtn" src="7so91qp8vi9" fileName="components/cornerBtn.xml" pkg="2r331opv" xy="605,126" size="70,88" group="n31_yhld" scale="0.8,0.8">
+      <Button icon="ui://2r331opvnvnv1qp8vi2"/>
+    </component>
+    <component id="n27_yhld" name="attackBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="666,484" group="n35_yhld">
+      <Button title="攻击"/>
+    </component>
+    <component id="n29_yhld" name="fireBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="912,484" group="n35_yhld">
+      <Button title="集火"/>
+    </component>
+    <text id="n39_j4kd" name="tips" xy="760,549" pivot="0.5,0.5" size="220,34" group="n35_yhld" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#f44747" text="敌强我弱，实力悬殊"/>
+    <group id="n35_yhld" name="btn0" xy="666,484" size="407,99" group="n31_yhld" advanced="true">
+      <gearDisplay controller="KillOrSarch" pages="0"/>
+    </group>
+    <text id="n36_yhld" name="tipsLbl" xy="763,478" pivot="0.5,0.5" size="233,34" group="n38_yhld" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" strokeColor="#000000" autoClearText="true" text="请先击败x级泰坦军团"/>
+    <component id="n37_yhld" name="searchBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="800,513" group="n38_yhld">
+      <Button title="搜索" titleFontSize="30"/>
+    </component>
+    <group id="n38_yhld" name="btn1" xy="763,478" size="233,97" group="n31_yhld" advanced="true">
+      <gearDisplay controller="KillOrSarch" pages="1"/>
+    </group>
+    <group id="n31_yhld" name="window" xy="595,126" size="551,471" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

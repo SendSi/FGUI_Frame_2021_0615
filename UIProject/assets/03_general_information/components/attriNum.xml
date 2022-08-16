@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="92,36">
+  <controller name="state" pages="0,,1," selected="0"/>
+  <displayList>
+    <text id="n71_xz10" name="attNum0" xy="0,10" pivot="0.5,0.5" size="34,26" fontSize="18" color="#42ffff" text="300"/>
+    <image id="n88_oxy0" name="n88" src="oxy0hz9czm" fileName="images/images_new/hero_bg02.png" pkg="2r331opv" xy="34,0" size="58,30" group="n90_oxy0" alpha="0">
+      <gearLook controller="state" pages="0" values="0,0,0,0" default="1,0,0,0" tween="true"/>
+      <relation target="n89_oxy0" sidePair="rightext-right"/>
+    </image>
+    <text id="n89_oxy0" name="title" xy="39,-2" size="47,24" group="n90_oxy0" alpha="0" font="ui://2r331opvlwft3" fontSize="16" color="#5dff47" text="+100">
+      <gearLook controller="state" pages="0" values="0,0,0,0" default="1,0,0,0" tween="true"/>
+    </text>
+    <group id="n90_oxy0" name="n90" xy="34,-2" size="58,32" advanced="true"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n89_oxy0" tween="true" startValue="1,1" endValue="1.1,1.1" duration="6"/>
+    <item time="6" type="Scale" target="n89_oxy0" tween="true" startValue="1.1,1.1" endValue="1,1" duration="6"/>
+  </transition>
+</component>

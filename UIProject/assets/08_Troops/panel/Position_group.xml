@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="208,292">
+  <controller name="skill" pages="0,,1,,2,,4," selected="0">
+    <remark page="0" value="3"/>
+    <remark page="1" value="2"/>
+    <remark page="2" value="1"/>
+    <remark page="3" value="0"/>
+  </controller>
+  <displayList>
+    <component id="n17_11wz9" name="hero_01" src="hxd7hz9d7l" fileName="components/general_new/generalIcon01.xml" pkg="2r331opv" xy="21,62"/>
+    <component id="n18_11wz9" name="passive_skill01" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="3,228">
+      <gearDisplay controller="skill" pages="0"/>
+    </component>
+    <component id="n19_11wz9" name="passive_skill02" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="72,228">
+      <gearDisplay controller="skill" pages="0,1,2"/>
+      <gearXY controller="skill" pages="1" values="29,228" default="72,228"/>
+    </component>
+    <component id="n20_11wz9" name="passive_skill03" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="141,228">
+      <gearDisplay controller="skill" pages="0,1"/>
+      <gearXY controller="skill" pages="0,1" values="141,228|114,228" default="144,228"/>
+    </component>
+    <text id="n21_11wz9" name="PositionLpl" xy="73,0" pivot="0.5,0.5" size="60,39" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#50382e" align="center" vAlign="middle" autoClearText="true" text="主将"/>
+    <text id="n23_11wz9" name="nameLpl" xy="28,38" pivot="0.5,0.5" size="150,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#b333d9" align="center" vAlign="middle" ubb="true" autoClearText="true" text="[color=#70a33d]Lv.9[/color]破晓法袍"/>
+  </displayList>
+</component>

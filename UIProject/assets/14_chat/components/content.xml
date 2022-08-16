@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="620,33">
+  <displayList>
+    <richtext id="n15_g01i" name="title_content" xy="0,0" size="620,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" ubb="true" autoSize="height" autoClearText="true" text="恭喜 [color=#3991d3]玩家炮兵营[/color]获得武将[color=#845744]【张角】[/color]!若果换行就换行这样子，">
+      <relation target="" sidePair="right-left,top-top"/>
+    </richtext>
+  </displayList>
+  <relation target="n15_g01i" sidePair="bottomext-bottom"/>
+</component>

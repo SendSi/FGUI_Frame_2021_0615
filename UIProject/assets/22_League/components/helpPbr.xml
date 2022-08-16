@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="280,36" extention="ProgressBar" designImageOffsetX="-524" designImageOffsetY="-465">
+  <displayList>
+    <image id="n3_etns" name="n3" src="ceggz9cot" fileName="images/images_new/com_strip_bg03.png" pkg="2r331opv" xy="0,0" size="280,36" alpha="0.6">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5_k0s5" name="bar" src="o5d41qp8ve7" fileName="images/images_new/windowBg_new/negative_strip03.png" pkg="2r331opv" xy="0,2" size="280,32"/>
+    <text id="n2_g9ny" name="title" xy="88,4" pivot="0.5,0.5" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b64" shadowColor="#322b64" shadowOffset="1,1" autoClearText="true" text="150/1550">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,106">
+  <controller name="state" pages="0,normal,1,ing" selected="0"/>
+  <displayList>
+    <image id="n0_aklw" name="n0" src="iyp01ygcfeu" fileName="images/bottomframe_02.png" xy="0,0" size="100,106">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n1_aklw" name="researchIcon" xy="14,20" size="70,70" aspect="true" url="ui://45o8gpfbaklwe" fill="scaleFree">
+      <relation target="n0_aklw" sidePair="width-width%,height-height%,center-center%,middle-middle%"/>
+    </loader>
+    <image id="n3_aklw" name="n3" src="nn2c1ygcfe7" fileName="images/bg_02.png" pkg="45o8gpfb" xy="-7,1" size="113,110">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <component id="n4_f1hb" name="EffectRoot_18_researchicon" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="0,0" size="100,106" touchable="false"/>
+  </displayList>
+</component>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageAlpha="30">
+  <displayList>
+    <loader id="n0_k7pz" name="bg" xy="0,0" size="1334,750" url="ui://2r331opvoqowz9cn4" align="center" vAlign="middle" fill="scaleNoBorder">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </loader>
+    <image id="n135_c4um" name="n135" pkg="2r331opv" src="cxixz9cme" fileName="images/images_new/gen_card_mask.png" xy="-26,-12" size="1386,76" alpha="0.3">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <component id="n97_ob8h" name="effectRoot" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="543,325" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n121_ebe5" name="btn_tab0" src="d4a6ku" fileName="components/components_new/btn_tab.xml" pkg="2r331opv" xy="0,91" size="184,83">
+      <Button checked="true" title="详情配表"/>
+    </component>
+    <loader3D id="n24_d9gi" name="3d_general" xy="494,566" size="100,100" align="center" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <text id="n120_ebe5" name="title" xy="70,4" size="422,55" font="ui://2r331opvlwft3" fontSize="41" color="#ede488" vAlign="bottom" autoSize="none" autoClearText="true" text="图鉴（配表）"/>
+    <component id="n55_wp0j" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="548,7">
+      <relation target="" sidePair="right-right%"/>
+    </component>
+    <component id="n119_ebe5" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="-1,0"/>
+    <component id="n14_k7pz" name="btn_cut_right" src="k7pz1v" fileName="components/components_new/Button_cut.xml" pkg="2r331opv" xy="818,449" group="n117_jvu0" aspect="true" rotation="180">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n15_k7pz" name="btn_cut_left" src="k7pz1v" fileName="components/components_new/Button_cut.xml" pkg="2r331opv" xy="198,449" group="n117_jvu0" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <group id="n117_jvu0" name="cut" xy="198,449" size="710,90" advanced="true">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </group>
+    <component id="n92_ssbd" name="name_camp" src="ssbdchk" fileName="components/general_new/information_name_camp.xml" pkg="2r331opv" xy="375,565">
+      <relation target="" sidePair="center-center%,bottom-bottom%"/>
+    </component>
+    <image id="n127_oqow" name="n127" src="oqowz9cn5" fileName="images/images_new/com_spot.png" pkg="2r331opv" xy="929,102" group="n116_jvu0"/>
+    <image id="n128_oqow" name="n128" src="oqowz9cn5" fileName="images/images_new/com_spot.png" pkg="2r331opv" xy="929,182" group="n116_jvu0"/>
+    <image id="n129_oqow" name="n129" src="oqowz9cn5" fileName="images/images_new/com_spot.png" pkg="2r331opv" xy="929,504" group="n116_jvu0"/>
+    <image id="n124_ebe5" name="n124" src="ebe5z9cn2" fileName="images/images_new/line_01.png" pkg="2r331opv" xy="929,210" size="363,2" group="n116_jvu0"/>
+    <image id="n126_ebe5" name="n126" src="ebe5z9cn2" fileName="images/images_new/line_01.png" pkg="2r331opv" xy="929,531" size="363,2" group="n116_jvu0"/>
+    <text id="n107_jvu0" name="n107" xy="951,93" size="154,35" group="n116_jvu0" font="ui://2r331opvlwft3" fontSize="25" color="#f2dd68" autoClearText="true" text="等级（配表）"/>
+    <text id="n123_ebe5" name="n123" xy="951,174" size="204,35" group="n116_jvu0" font="ui://2r331opvlwft3" fontSize="25" color="#f2dd68" autoClearText="true" text="详细属性（配表）"/>
+    <text id="n112_jvu0" name="n112" xy="952,495" size="138,35" group="n116_jvu0" font="ui://2r331opvlwft3" fontSize="25" color="#f2dd68" align="right" autoClearText="true" text="技能(配表）"/>
+    <text id="n108_jvu0" name="titleLv" xy="1006,87" size="131,42" group="n116_jvu0" visible="false" font="ui://2r331opvlwft3" fontSize="30" color="#ffffff" autoSize="none" autoClearText="true" text="49/50"/>
+    <component id="n122_ebe5" name="levelPbr" src="c4umci2" fileName="components/levelPbr.xml" xy="929,130" size="365,18" group="n116_jvu0">
+      <ProgressBar value="49" max="100"/>
+    </component>
+    <list id="n115_jvu0" name="skillList" xy="922,550" size="382,175" group="n116_jvu0" layout="flow_hz" overflow="scroll" scrollBarFlags="32" colGap="26" defaultItem="ui://4hio38umiiq6a7" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n136_xfvh" name="attributeList" xy="919,233" size="387,190" group="n116_jvu0" overflow="scroll" lineGap="2" defaultItem="ui://2r331opvebe5ci9" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n98_onla" name="EffectRoot_ZhaoMu_ZhiYin" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="1222,672" group="n116_jvu0" touchable="false" customData="205"/>
+    <group id="n116_jvu0" name="levelup" xy="919,87" size="387,638" group="n82_wp0j" advanced="true">
+      <relation target="" sidePair="middle-middle%"/>
+    </group>
+    <image id="n130_oqow" name="n130" pkg="2r331opv" src="cxixz9cmi" fileName="images/images_new/com_bg4.png" xy="806,102" size="70,74" group="n134_oqow" aspect="true"/>
+    <loader id="n131_oqow" name="armyIcon" xy="819,114" size="45,45" group="n134_oqow" aspect="true" url="ui://2r331opvkn291" fill="scale" color="#e7de7b"/>
+    <text id="n132_oqow" name="armyTitle" xy="805,170" pivot="0.5,0.5" size="76,34" group="n134_oqow" font="ui://2r331opvlwft3" fontSize="24" color="#ffffff" singleLine="true" autoClearText="true" text="光剑兵"/>
+    <text id="n133_oqow" name="armyLbl" xy="794,204" pivot="0.5,0.5" size="94,26" group="n134_oqow" fontSize="18" color="#99dad6" singleLine="true" autoClearText="true" text="克制弓兵系"/>
+    <group id="n134_oqow" name="army" xy="794,102" size="94,128" group="n82_wp0j" advanced="true"/>
+    <component id="n59_wp0j" name="btn_lookup" src="9232ex" fileName="components/components_new/common_btn_03.xml" pkg="2r331opv" xy="758,76" size="113,53" group="n80_wp0j">
+      <Button title="查看" titleColor="#83a8bb" icon="ui://4hio38umwp0jcfe"/>
+    </component>
+    <component id="n57_wp0j" name="btn_strategy" src="9232ex" fileName="components/components_new/common_btn_03.xml" pkg="2r331opv" xy="758,192" size="113,53" group="n80_wp0j">
+      <Button title="攻略" titleColor="#83a8bb" icon="ui://4hio38umk7pzh"/>
+    </component>
+    <component id="n58_wp0j" name="btn_fetters" src="9232ex" fileName="components/components_new/common_btn_03.xml" pkg="2r331opv" xy="758,134" group="n80_wp0j">
+      <Button title="羁绊" titleColor="#83a8bb" icon="ui://4hio38umk7pzf"/>
+    </component>
+    <group id="n80_wp0j" name="right1" xy="758,76" size="113,169" group="n82_wp0j" visible="false" advanced="true"/>
+    <group id="n82_wp0j" name="right" xy="758,76" size="548,649" advanced="true">
+      <relation target="" sidePair="right-right%"/>
+    </group>
+    <component id="n99_99di" name="offset" src="o4uyfe" fileName="components/components_new/common_btn_07.xml" pkg="2r331opv" xy="0,0" size="1334,750" touchable="false">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n118_ojpg" name="guideBtn" src="ew0jem" fileName="components/Button_guide_1.xml" pkg="7ttzho3v" xy="530,296">
+      <relation target="n92_ssbd" sidePair="center-center"/>
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+  </displayList>
+</component>

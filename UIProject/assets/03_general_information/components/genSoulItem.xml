@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,144" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <controller name="quality" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <controller name="selected" pages="0,未选中,1,选中" selected="0"/>
+  <displayList>
+    <loader id="n3_ct1e" name="bgFra0" xy="0,0" size="110,112" url="ui://2r331opvh3jujt">
+      <gearIcon controller="quality" pages="1,2,3,4,5" values="ui://2r331opv94956|ui://2r331opv94957|ui://2r331opv94958|ui://2r331opv94959|ui://2r331opv9495a" default="ui://2r331opvh3jujt"/>
+    </loader>
+    <loader id="n6_ct1e" name="bgFra" xy="13,11" pivot="0.5,0.5" size="86,86" url="ui://4557t28km47yf2" fill="scale">
+      <gearIcon controller="quality" pages="0,1,3,4,5" values="ui://4557t28km47yf2|ui://4557t28km47yf3|ui://4557t28km47yf5|ui://4557t28km47yf6|ui://4557t28km47yf0" default="ui://4557t28km47yf4"/>
+    </loader>
+    <component id="n11_ct1e" name="iconFra" src="ct1e1iy5bfu" fileName="components/genStarFragment.xml" xy="13,8"/>
+    <image id="n4_ct1e" name="n4" src="8z99hz9cq6" fileName="fragment/fragment11.png" pkg="4557t28k" xy="12,10"/>
+    <text id="n7_ct1e" name="quantityLbl" xy="4,108" pivot="0.5,0.5" size="102,36" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" singleLine="true" autoClearText="true" text="道具名称">
+      <gearColor controller="quality" pages="1,2,3,4,5" values="#94e957,#000000|#74d0ff,#000000|#db60ff,#000000|#ff9b42,#000000|#ff4343,#000000" default="#ffffff,#000000"/>
+    </text>
+    <image id="n8_ct1e" name="n8" src="h3jujt" fileName="images/images_new/common_frame_quality_0.png" pkg="2r331opv" xy="-1,0" group="n10_ct1e" alpha="0.6" color="#000000"/>
+    <image id="n9_ct1e" name="n9" src="klrg1qp8vd5" fileName="images/images_new/com_btn_correct.png" pkg="2r331opv" xy="14,15" group="n10_ct1e"/>
+    <group id="n10_ct1e" name="selected" xy="-1,0" size="110,112" advanced="true">
+      <gearDisplay controller="selected" pages="1"/>
+    </group>
+    <image id="n12_ct1e" name="n12" src="a4b91qp8veo" fileName="images/images_new/com_change010.png" pkg="2r331opv" xy="7,77" size="100,24" group="n14_ct1e" alpha="0.96"/>
+    <text id="n13_ct1e" name="hadNumFra" xy="6,74" pivot="0.5,0.5" size="102,28" group="n14_ct1e" font="ui://2r331opvno3vhz9d63" fontSize="19" color="#ffffff" align="center" vAlign="bottom" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="2" singleLine="true" text="1/2"/>
+    <group id="n14_ct1e" name="text" xy="6,74" size="102,28" visible="false" advanced="true"/>
+  </displayList>
+  <Button mode="Check"/>
+</component>

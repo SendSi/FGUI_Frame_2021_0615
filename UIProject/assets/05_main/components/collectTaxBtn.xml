@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="211,55" pivot="0.5,0.5" extention="Button" designImage="ui://4ni413laee2ihn" designImageOffsetX="-1002" designImageOffsetY="-659" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ee2i" name="n0" pkg="2r331opv" src="9495z" fileName="images/common_btn_main_1.png" xy="0,0" size="211,55">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_ee2i" name="icon" xy="19,5" size="40,40" url="ui://tsbe09ddmz4wc" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n3_ee2i" name="title" xy="52,10" size="143,34" fontSize="24" color="#ffffff" autoSize="none" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="20 征收(3/3)"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

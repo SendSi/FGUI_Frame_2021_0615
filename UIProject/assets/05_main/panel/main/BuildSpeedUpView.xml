@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://4ni413lah6gkhz9cvl">
+  <controller name="state" pages="0,,1,,4,buyProp" selected="0"/>
+  <controller name="free" pages="0,hasFree,1,noFree" selected="0"/>
+  <displayList>
+    <component id="n2_thpv" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n3_thpv" name="com_window" src="yhldz9coj" fileName="images/images_new/com_bg_tips03.png" pkg="2r331opv" xy="277,103" size="758,541" group="n41_arx1">
+      <gearText controller="state" pages="4" values="购买道具" default="加速"/>
+    </image>
+    <image id="n42_prcz" name="n42" src="kajr1qp8vf5" fileName="images/images_new/windowBg_new/title_bg01.png" pkg="2r331opv" xy="387,92" pivot="0.5,0.5" size="537,85" group="n41_arx1"/>
+    <image id="n4_thpv" name="bg01" src="xjmv1qp8vf8" fileName="images/images_new/com_bg_tips02_mask4.png" pkg="2r331opv" xy="314,245" size="683,282" group="n41_arx1" alpha="0.7">
+      <gearDisplay controller="state" pages="0,1"/>
+    </image>
+    <component id="n39_i8bs" name="backButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="975,79" group="n41_arx1">
+      <gearDisplay controller="state" pages="4"/>
+    </component>
+    <text id="n36_i8bs" name="title" xy="434,115" pivot="0.5,0.5" size="443,42" group="n41_arx1" font="ui://2r331opvlwft3" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#1a316c" strokeSize="2" shadowColor="#1a316c" shadowOffset="3,3" singleLine="true" text="加速">
+      <gearText controller="state" pages="0,1,4" values="加速|加速|购买道具"/>
+    </text>
+    <component id="n12_thpv" name="timePbr" src="ntp0ir" fileName="components/components_new/main/speedupPbr.xml" xy="317,195" size="501,34" group="n34_i8bs">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n11_thpv" name="getBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="834,172" size="161,62" group="n34_i8bs">
+      <Button title="获取" titleFontSize="30" controller="state" page="4"/>
+    </component>
+    <group id="n34_i8bs" name="n34" xy="317,172" size="678,62" group="n41_arx1" advanced="true">
+      <gearDisplay controller="state" pages="0,1"/>
+    </group>
+    <richtext id="n6_thpv" name="levelupTitle" xy="365,498" pivot="0.5,0.5" size="236,72" group="n10_thpv" visible="false" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="图标 161"/>
+    <component id="n8_thpv" name="btn_levelup" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="544,545" size="223,70" group="n10_thpv">
+      <gearLook controller="state" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title="使用" titleFontSize="34"/>
+    </component>
+    <component id="n9_thpv" name="btn_levelup2" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="366,553" size="239,59" group="n10_thpv" visible="false">
+      <Button title="立即加速"/>
+    </component>
+    <group id="n10_thpv" name="button" xy="365,498" size="402,117" group="n41_arx1" advanced="true">
+      <gearDisplay controller="state" pages="0,1"/>
+    </group>
+    <text id="n15_thpv" name="n15" xy="569,257" pivot="0.5,0.5" size="180,32" group="n31_thpv" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#94e957" align="center" vAlign="middle" text="点击使用加速道具"/>
+    <component id="n18_thpv" name="leftBtn" src="k7pz1v" fileName="components/components_new/Button_cut.xml" pkg="2r331opv" xy="321,316" size="72,72" group="n31_thpv" aspect="true"/>
+    <component id="n17_thpv" name="rightBtn" src="k7pz1v" fileName="components/components_new/Button_cut.xml" pkg="2r331opv" xy="921,317" size="72,72" group="n31_thpv" aspect="true" rotation="180"/>
+    <list id="n19_thpv" name="list" xy="384,289" size="539,134" group="n31_thpv" layout="row" selectionMode="multiple" overflow="scroll" scroll="horizontal" colGap="20" defaultItem="ui://2r331opvj842hz9cyi">
+      <gearLook controller="state" pages="1" values="1,0,0,1" default="1,0,0,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n31_thpv" name="propList" xy="321,257" size="672,166" group="n41_arx1" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <component id="n22_thpv" name="slider" src="ntp0it" fileName="components/speedupSlider.xml" xy="413,435" size="395,34" group="n29_thpv">
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n23_thpv" name="cutBtn" src="kwe92x" fileName="components/components_new/com_btn_cut.xml" pkg="2r331opv" xy="345,428" group="n29_thpv"/>
+    <component id="n24_thpv" name="plusBtn" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="825,428" group="n29_thpv" aspect="true"/>
+    <group id="n29_thpv" name="slider1" xy="345,428" size="531,46" group="n41_arx1" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <text id="n25_thpv" name="n25" xy="470,484" size="84,29" group="n30_thpv" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#74d0ff" text="加速时间">
+      <gearDisplay controller="free" pages="0,1"/>
+    </text>
+    <text id="n26_thpv" name="time" xy="554,484" size="88,29" group="n30_thpv" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#94e957" text="04:00:00">
+      <gearDisplay controller="free" pages="0,1"/>
+    </text>
+    <text id="n27_thpv" name="n27" xy="642,484" size="196,29" group="n30_thpv" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#74d0ff" text="（免费时间：5分钟）">
+      <gearDisplay controller="free" pages="0"/>
+    </text>
+    <group id="n30_thpv" name="tips" xy="470,484" size="368,29" group="n41_arx1" advanced="true" layout="hz" excludeInvisibles="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="n3_thpv" sidePair="center-center"/>
+    </group>
+    <text id="n33_gy6n" name="n33" xy="593,358" pivot="0.5,0.5" size="148,34" group="n41_arx1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" text="暂无道具可用">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <list id="n38_i8bs" name="buyList" xy="312,168" size="687,441" group="n41_arx1" overflow="scroll" lineGap="10" defaultItem="ui://4ni413lai8bsj0">
+      <gearDisplay controller="state" pages="4"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n37_i8bs" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="975,79" group="n41_arx1">
+      <gearDisplay controller="state" pages="0,1"/>
+    </component>
+    <group id="n41_arx1" name="n41" xy="277,79" size="778,565" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

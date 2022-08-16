@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="493,27" overflow="hidden">
+  <controller name="state" pages="0,,1,,2," selected="0">
+    <remark page="1" value="未觉醒"/>
+    <remark page="2" value="已觉醒"/>
+  </controller>
+  <displayList>
+    <graph id="n13_gqih" name="n13" xy="0,0" size="410,27" alpha="0" type="rect" lineSize="0">
+      <gearSize controller="state" pages="0,1" values="410,27,1,1|410,52,1,1" default="410,52,1,1"/>
+    </graph>
+    <text id="n12_xz10" name="army_lbl" xy="0,0" size="492,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#868686" autoSize="none" strokeColor="#e0c099" strokeSize="2" singleLine="true" autoClearText="true" text="骑兵：战斗入场即可释放技能">
+      <gearColor controller="state" pages="0,1,2" values="#868686,#e0c099|#50382e,#e0c099|#feff81,#da811f"/>
+    </text>
+    <text id="n14_gqih" name="army_lbl01" xy="47,22" size="457,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#868686" autoSize="none" strokeColor="#000000" strokeSize="2" singleLine="true" autoClearText="true" text="（每次普攻获得5点攻击力加成在加八个字可能吧）">
+      <gearDisplay controller="state" pages="1,2"/>
+      <gearColor controller="state" pages="0,1,2" values="#868686,#000000|#50382e,#e0c099|#feff81,#da811f"/>
+    </text>
+  </displayList>
+  <relation target="n13_gqih" sidePair="width-width,height-height"/>
+</component>

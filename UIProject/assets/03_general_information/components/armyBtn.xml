@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="39,43" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <controller name="colour" pages="0,,1,,2,,3,,4,,5," selected="0">
+    <remark page="0" value="剑士"/>
+    <remark page="1" value="盾兵"/>
+    <remark page="2" value="骑兵"/>
+    <remark page="3" value="弓兵"/>
+    <remark page="4" value="法师"/>
+    <remark page="5" value="刺客"/>
+  </controller>
+  <displayList>
+    <image id="n19_oxy0" name="n19" pkg="4hio38um" src="frte1iy5bds" fileName="images/hero_bg028.png" xy="3,2" size="33,39" group="n22_oxy0" color="#df763d">
+      <gearColor controller="colour" pages="0,1,2,3,4,5" values="#df763d|#3a60ef|#24a8bd|#43a92e|#bb3ddf|#df3d3d"/>
+    </image>
+    <loader id="n20_oxy0" name="armIcon" xy="5,6" pivot="0.5,0.5" size="30,30" group="n22_oxy0" aspect="true" url="ui://2r331opvfrte1qp8vdx" align="center" vAlign="middle" fill="scale" color="#ffe568">
+      <gearColor controller="colour" pages="0,1,2,3,4,5" values="#ffe568|#59cfff|#91ffee|#a0fd63|#ffa3f2|#ffbc76"/>
+      <gearIcon controller="colour" pages="0,2,3,4,5" values="ui://2r331opvfrte1qp8vdx|ui://2r331opvfrte1qp8vdz|ui://2r331opvfrte1qp8ve0|ui://2r331opvfrte1qp8ve1|ui://2r331opvfrte1qp8ve2" default="ui://2r331opvfrte1qp8vdy"/>
+    </loader>
+    <text id="n21_oxy0" name="armTitle" xy="54,2" size="94,39" group="n22_oxy0" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#81e176" autoSize="none" autoClearText="true" text="盾兵"/>
+    <group id="n22_oxy0" name="n22" xy="3,2" size="145,39"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

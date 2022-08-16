@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="564,136" designImageOffsetX="-385" designImageOffsetY="-264">
+  <controller name="state" pages="0,notPass,1,passed" selected="0">
+    <remark page="0" value="未通关"/>
+    <remark page="1" value="已通关"/>
+  </controller>
+  <displayList>
+    <image id="n0_mmv0" name="n0" pkg="2r331opv" src="r616z9cp6" fileName="images/images_new/com_bg_tips02_mask.png" xy="0,0" size="563,136" alpha="0.7">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <text id="n1_mmv0" name="levelsTitle" xy="11,5" size="138,29" fontSize="20" color="#ffffff" autoClearText="true" text="D长安初级特产"/>
+    <text id="n15_d8di" name="levelsTitle2" xy="11,29" size="110,26" fontSize="18" color="#ffffff" ubb="true" singleLine="true" autoClearText="true" text="4-12[color=#61ff5e](passed)[/color]"/>
+    <list id="n4_mmv0" name="rewardList" xy="5,56" size="608,118" scale="0.6,0.6" layout="flow_hz" overflow="scroll" colGap="-5" defaultItem="ui://2r331opvj842hz9cyi" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_mmv0" name="goBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="416,46" size="130,58" group="n5_mmv0">
+      <Button title="Attack" icon="ui://2r331opvw84whz9cx7"/>
+    </component>
+    <group id="n5_mmv0" name="notPass" xy="416,46" size="130,58" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <list id="n7_mmv0" name="starList" xy="207,11" size="200,31" group="n13_mmv0" layout="row" overflow="scroll" scrollBarFlags="32" defaultItem="ui://2r331opvn16mg3" align="right" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_mmv0" name="goBtn2" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="416,46" size="130,58" group="n13_mmv0">
+      <Button title="Go" icon="ui://2r331opvw84whz9cx6"/>
+    </component>
+    <text id="n9_mmv0" name="n9" xy="409,11" size="92,32" group="n13_mmv0" fontSize="22" color="#acc7d5" autoClearText="true" text="剩余次数"/>
+    <text id="n10_mmv0" name="remainingTimes" xy="502,11" size="34,32" group="n13_mmv0" fontSize="22" color="#69df7a" ubb="true" autoClearText="true" text="3/3"/>
+    <component id="n11_mmv0" name="oneTimeBtn" src="94951z" fileName="components/common_btn_main.xml" pkg="2r331opv" xy="214,64" size="162,60" group="n13_mmv0" visible="false">
+      <Button title="扫荡1次" icon="ui://2r331opv9495z"/>
+    </component>
+    <component id="n12_mmv0" name="allBtn" src="94951z" fileName="components/common_btn_main.xml" pkg="2r331opv" xy="394,64" size="162,60" group="n13_mmv0" visible="false">
+      <Button title="扫荡全部" icon="ui://2r331opv9495z"/>
+    </component>
+    <group id="n13_mmv0" name="passed" xy="207,11" size="349,113" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="e1uzapmr">
+  <resources>
+    <image id="bv450" name="glory_bg.jpg" path="/images/" exported="true" atlas="alone"/>
+    <component id="bv451iy5bfy" name="GloryMainView.xml" path="/panel/" exported="true"/>
+    <image id="bv451" name="glory_bg03.png" path="/images/" exported="true"/>
+    <image id="bv455" name="glory_bg02.png" path="/images/" exported="true"/>
+    <component id="bv451iy5bfz" name="glory_Btn1.xml" path="/components/" exported="true"/>
+    <component id="bv456" name="glory_Btn3.xml" path="/components/" exported="true"/>
+    <component id="bv457" name="GloryItem.xml" path="/components/" exported="true"/>
+    <image id="bv459" name="glory_bg04.png" path="/images/" exported="true" scale="9grid" scale9grid="29,25,45,20"/>
+    <component id="ejjd1iy5bg0" name="glory_hero.xml" path="/components/" exported="true"/>
+    <image id="oxoc1iy5bg3" name="glory_btn_bg04.png" path="/images/" exported="true"/>
+    <image id="oxoc1iy5bg4" name="glory_btn_bg05.png" path="/images/" exported="true"/>
+    <image id="oxoc1iy5bg5" name="glory_hero1.png" path="/images/" exported="true" scale="9grid" scale9grid="10,3,2,2"/>
+    <image id="oxoc1iy5bg6" name="glory_btn_bg01.png" path="/images/" exported="true"/>
+    <image id="oxoc1iy5bg7" name="glory_btn_bg02.png" path="/images/" exported="true"/>
+    <image id="oxoc1iy5bg8" name="glory_btn_bg03.png" path="/images/" exported="true"/>
+    <component id="oxoc1iy5bg9" name="glory_Btn2.xml" path="/components/" exported="true"/>
+    <image id="oxoc1iy5bga" name="glory_btn_bg044.png" path="/images/" exported="true"/>
+    <component id="oxoc1iy5bgb" name="glory_Btn5.xml" path="/components/" exported="true"/>
+    <image id="oxoc1iy5bgc" name="glory_arrow.png" path="/images/" exported="true"/>
+    <component id="olsq1iy5bge" name="glory_item1.xml" path="/components/" exported="true"/>
+    <image id="olsq1iy5bgf" name="glory_bg01.png" path="/images/" exported="true"/>
+    <image id="olsq1iy5bgg" name="glory_hero.png" path="/images/" exported="true"/>
+    <image id="olsq1iy5bgh" name="glory_icon01.png" path="/images/" exported="true"/>
+    <component id="ba2s1iy5bgm" name="Slider1_grip.xml" path="/components/" exported="true"/>
+    <component id="ba2s1iy5bgn" name="Slider1.xml" path="/components/" exported="true"/>
+    <image id="s36s1iy5bgp" name="glory_general_035.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bgq" name="glory_general_029.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bgr" name="glory_general_028.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bgs" name="glory_general_027.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bgt" name="glory_general_017.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bgu" name="glory_general_012.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bgv" name="glory_general_011.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bgw" name="glory_general_010.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bgx" name="glory_general_008.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bgy" name="glory_general_007.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bgz" name="glory_general_006.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bh0" name="glory_general_033.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bh1" name="glory_general_004.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bh2" name="glory_general_002.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bh3" name="glory_general_001.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bh4" name="glory_general_050.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bh5" name="glory_general_049.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bh6" name="glory_general_048.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bh7" name="glory_general_047.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bh8" name="glory_general_046.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bh9" name="glory_general_041.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bha" name="glory_general_040.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bhb" name="glory_general_039.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bhc" name="glory_general_003.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bhd" name="glory_general_034.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bhe" name="glory_bg022.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bhf" name="glory_bg_line2.png" path="/images/" exported="true" scale="9grid" scale9grid="4,0,211,12"/>
+    <image id="s36s1iy5bhg" name="glory_bg023.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bhh" name="glory_bg021.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bhi" name="glory_bg024.png" path="/images/" exported="true"/>
+    <image id="s36s1iy5bhj" name="glory_bg025.png" path="/images/" exported="true"/>
+    <image id="h30t1iy5bhk" name="glory_bg_liner.png" path="/images/" exported="true" scale="9grid" scale9grid="5,5,213,10"/>
+    <image id="h30t1iy5bhl" name="glory_bg_linem.png" path="/images/" scale="9grid" scale9grid="6,5,213,10"/>
+    <image id="h30t1iy5bhn" name="glory_bg_linel.png" path="/images/" scale="9grid" scale9grid="5,5,90,10"/>
+    <component id="h30t1iy5bhp" name="Slider0.xml" path="/components/" exported="true"/>
+    <component id="jnjs1iy5bhr" name="Slider3.xml" path="/components/" exported="true"/>
+    <component id="lt801iy5bht" name="glory_Btn4.xml" path="/components/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

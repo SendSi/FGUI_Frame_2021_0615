@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://nf2zagxss5sfgu" designImageLayer="1">
+  <displayList>
+    <component id="n3_9gti" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n35_gww7" name="n35" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n27_kl1d"/>
+    <text id="n34_gww7" name="title" xy="364,70" pivot="0.5,0.5" size="606,46" group="n27_kl1d" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" autoClearText="true" text="奖励预览"/>
+    <image id="n33_jmae" name="n33" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="211,148" size="911,36" group="n26_kl1d"/>
+    <text id="n17_uu6i" name="titleTxt02" xy="222,149" size="100,34" group="n26_kl1d" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" text="道具奖励"/>
+    <list id="n2_lwzz" name="list" xy="211,200" size="922,448" group="n26_kl1d" layout="flow_hz" overflow="scroll" lineGap="-14" colGap="12" defaultItem="ui://2r331opvj842hz9cyi" autoItemSize="true" autoClearItems="true" scrollItemToViewOnClick="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n26_kl1d" name="n26" xy="211,148" size="922,500" group="n27_kl1d" advanced="true"/>
+    <component id="n28_kl1d" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n27_kl1d"/>
+    <group id="n27_kl1d" name="n27" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

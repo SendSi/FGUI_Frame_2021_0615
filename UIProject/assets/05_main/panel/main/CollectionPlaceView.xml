@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <controller name="view" pages="0,,1," selected="1">
+    <remark page="0" value="查看收藏界面"/>
+    <remark page="1" value="收藏界面"/>
+  </controller>
+  <displayList>
+    <component id="n2_xoe1" name="n2" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="0,0" size="1334,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n21_bmed" name="dontMove" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="311,149" pivot="0.5,0.5" size="712,451" alpha="0">
+      <gearSize controller="view" pages="0,1" values="1096,656,1,1|712,451,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_xoe1" name="view1" src="xoe1ni" fileName="components/components_new/main/collectionPlace01.xml" xy="0,0">
+      <gearDisplay controller="view" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n20_xoe1" name="view0" src="w64jnv" fileName="components/components_new/main/collectionCheck02.xml" xy="0,0">
+      <gearDisplay controller="view" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n18_xoe1" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="912,135">
+      <relation target="n21_bmed" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+</component>

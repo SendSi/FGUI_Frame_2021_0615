@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,54">
+  <displayList>
+    <component id="n232_11wz9" name="awaken_skill" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="58,0" size="52,52" aspect="true"/>
+    <component id="n234_pl8o" name="active_skill" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="2,0" size="52,52" aspect="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" scroll="both">
+  <displayList>
+    <component id="n17_h5vy" name="talentTree" src="kh4zhz9d0x" fileName="components/TalentTree.xml" xy="672,325" pivot="0.5,0.5" anchor="true" size="2668,1500" aspect="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n12_kh4z" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0"/>
+    <image id="n19_bumc" name="n19" src="no3vhz9d6a" fileName="images/images_new/com_bg_resource.png" pkg="2r331opv" xy="1018,22" size="285,39" group="n23_bumc"/>
+    <component id="n20_bumc" name="resetBtn" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="1256,5" group="n23_bumc">
+      <Button icon="ui://2r331opvd8dihz9d0z"/>
+    </component>
+    <text id="n21_bumc" name="lbl" xy="1036,25" size="136,32" group="n23_bumc" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" text="剩余天赋点："/>
+    <text id="n22_bumc" name="num" xy="1164,25" size="102,32" group="n23_bumc" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" autoSize="none" autoClearText="true" text="652,3"/>
+    <group id="n23_bumc" name="n23" xy="1018,5" size="310,72"/>
+    <component id="n26_bumc" name="n26" src="bumchz9d8z" fileName="components/TalentTreeList.xml" xy="1156,100"/>
+  </displayList>
+</component>

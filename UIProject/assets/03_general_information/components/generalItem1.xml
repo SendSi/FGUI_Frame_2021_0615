@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="380,34" extention="Button" designImageOffsetX="-497" designImageOffsetY="-206">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="normal"/>
+    <remark page="1" value="未激活"/>
+  </controller>
+  <displayList>
+    <text id="n3_eznb" name="title" xy="0,0" size="211,34" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" autoSize="none" autoClearText="true" text="这里打重击概率">
+      <gearColor controller="state" pages="0,1" values="#50382e,#000000|#9f9898,#000000"/>
+    </text>
+    <text id="n4_eznb" name="num" xy="257,0" pivot="1,0" size="123,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#4c9129" align="right" autoSize="none" autoClearText="true" text="+999%">
+      <gearColor controller="state" pages="1" values="#9f9898,#000000" default="#4c9129,#000000"/>
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

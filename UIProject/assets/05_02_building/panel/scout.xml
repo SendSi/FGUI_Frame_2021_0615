@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label">
+  <displayList>
+    <component id="n2_v1bt" name="com_mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_v1bt" name="com_window" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n22_v1bt" aspect="true"/>
+    <text id="n4_v1bt" name="title" xy="364,70" pivot="0.5,0.5" size="608,46" group="n22_v1bt" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="猎鹰管理"/>
+    <image id="n36_v1bt" name="n36" src="klrg1qp8vd3" fileName="images/images_new/common_lines_9.png" pkg="2r331opv" xy="228,284" size="882,7" group="n22_v1bt" color="#50382e"/>
+    <image id="n31_v1bt" name="n31" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="224,164" pivot="0.5,0.5" size="888,34" group="n22_v1bt"/>
+    <text id="n23_v1bt" name="exploreProgress" xy="228,165" pivot="0.5,0.5" size="877,32" group="n22_v1bt" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="探索进展 11.11%"/>
+    <list id="n47_v1bt" name="listScout" xy="223,304" size="888,349" group="n22_v1bt" overflow="scroll" lineGap="20" defaultItem="ui://fq4ln9nvv1bti" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n33_v1bt" name="describe" xy="223,200" size="887,68" group="n22_v1bt" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" autoSize="none" autoClearText="true" text="信息辛苦经适房的加咖啡了加开放式撒地方示范店发是否撒地方信息辛苦经适房的加咖啡了加开放式撒地方示范店发是否撒地方"/>
+    <component id="n21_v1bt" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" size="80,80" group="n22_v1bt"/>
+    <group id="n22_v1bt" name="tab" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

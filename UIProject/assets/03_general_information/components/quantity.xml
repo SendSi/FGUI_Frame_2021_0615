@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="514,179" designImage="ui://4hio38umeznb1iy5bck" designImageOffsetX="-646" designImageOffsetY="-366" designImageAlpha="0">
+  <controller name="quantity" pages="3,,2,,1,,0," selected="0">
+    <remark page="0" value="1合1"/>
+    <remark page="1" value="2合1"/>
+    <remark page="2" value="3合1"/>
+    <remark page="3" value="4合1"/>
+  </controller>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="满足"/>
+    <remark page="1" value="不满足"/>
+  </controller>
+  <displayList>
+    <image id="n89_hk7y" name="n89" src="d8dihz9d0c" fileName="images/fetters_arrow08.png" xy="250,-14" size="13,91" group="n88_hk7y">
+      <gearSize controller="quantity" pages="3,2,1,0" values="13,91,1,1|13,45,1,1|13,79,1,1|13,46,1,1"/>
+    </image>
+    <image id="n94_hk7y" name="n94" src="d8dihz9d0c" fileName="images/fetters_arrow08.png" xy="317,26" size="13,65" group="n88_hk7y" rotation="90">
+      <gearDisplay controller="quantity" pages="0,1,2"/>
+      <gearXY controller="quantity" pages="1,0" values="369,26|423,26" default="317,26"/>
+      <gearSize controller="quantity" pages="2,1,0" values="13,125,1,1|13,221,1,1|13,330,1,1" default="13,65,1,1"/>
+    </image>
+    <image id="n92_hk7y" name="n92" src="d8dihz9d0c" fileName="images/fetters_arrow08.png" xy="189,31" size="13,65" group="n88_hk7y">
+      <gearDisplay controller="quantity" pages="0,1,2"/>
+      <gearXY controller="quantity" pages="1,0" values="143,31|189,31" default="189,31"/>
+      <gearSize controller="quantity" pages="2,1,0" values="13,48,1,1|13,34,1,1|13,46,1,1" default="13,65,1,1"/>
+    </image>
+    <image id="n93_hk7y" name="n93" src="d8dihz9d0c" fileName="images/fetters_arrow08.png" xy="307,31" size="13,65" group="n88_hk7y">
+      <gearDisplay controller="quantity" pages="0,1,2"/>
+      <gearXY controller="quantity" pages="1,0" values="360,31|307,31" default="307,31"/>
+      <gearSize controller="quantity" pages="2,1,0" values="13,48,1,1|13,34,1,1|13,46,1,1" default="13,65,1,1"/>
+    </image>
+    <image id="n100_hk7y" name="n100" src="d8dihz9d0c" fileName="images/fetters_arrow08.png" xy="189,31" size="13,65" group="n88_hk7y">
+      <gearDisplay controller="quantity" pages="0"/>
+      <gearXY controller="quantity" pages="1,0" values="143,31|88,31" default="189,31"/>
+      <gearSize controller="quantity" pages="2,1,0" values="13,34,1,1|13,34,1,1|13,46,1,1" default="13,65,1,1"/>
+    </image>
+    <image id="n62_t25c" name="n62" src="d8dihz9d0e" fileName="images/fetters_arrow06.png" xy="242,18" group="n88_hk7y"/>
+    <image id="n95_hk7y" name="n95" src="d8dihz9d0e" fileName="images/fetters_arrow06.png" xy="181,18" group="n88_hk7y">
+      <gearDisplay controller="quantity" pages="0,1,2"/>
+      <gearXY controller="quantity" pages="1,0" values="135,18|181,18" default="181,18"/>
+    </image>
+    <image id="n96_hk7y" name="n96" src="d8dihz9d0e" fileName="images/fetters_arrow06.png" xy="299,18" group="n88_hk7y">
+      <gearDisplay controller="quantity" pages="0,1,2"/>
+      <gearXY controller="quantity" pages="1,0" values="352,18|299,18" default="299,18"/>
+    </image>
+    <image id="n101_hk7y" name="n101" src="d8dihz9d0c" fileName="images/fetters_arrow08.png" xy="189,31" size="13,65" group="n88_hk7y">
+      <gearDisplay controller="quantity" pages="0"/>
+      <gearXY controller="quantity" pages="1,0" values="143,31|415,31" default="189,31"/>
+      <gearSize controller="quantity" pages="2,1,0" values="13,34,1,1|13,34,1,1|13,46,1,1" default="13,65,1,1"/>
+    </image>
+    <image id="n102_hk7y" name="n102" src="d8dihz9d0e" fileName="images/fetters_arrow06.png" xy="181,18" group="n88_hk7y">
+      <gearDisplay controller="quantity" pages="0"/>
+      <gearXY controller="quantity" pages="1,0" values="135,18|80,18" default="181,18"/>
+    </image>
+    <image id="n103_hk7y" name="n103" src="d8dihz9d0e" fileName="images/fetters_arrow06.png" xy="181,18" group="n88_hk7y">
+      <gearDisplay controller="quantity" pages="0"/>
+      <gearXY controller="quantity" pages="1,0" values="135,18|407,18" default="181,18"/>
+    </image>
+    <group id="n88_hk7y" name="GreyLine" xy="181,-14" size="149,110"/>
+    <image id="n121_hk7y" name="n121" src="hk7yhz9d0v" fileName="images/fetters_arrow09.png" xy="189,26" size="65,39" group="n123_hk7y">
+      <gearDisplay controller="quantity" pages="0"/>
+      <gearXY controller="quantity" pages="1,0" values="143,26|88,26" default="189,26"/>
+      <gearSize controller="quantity" pages="2,1,0" values="65,48,1,1|111,39,1,1|170,48,1,1" default="65,39,1,1"/>
+    </image>
+    <image id="n122_hk7y" name="n122" src="d8dihz9d0d" fileName="images/fetters_arrow05.png" xy="181,18" group="n123_hk7y">
+      <gearDisplay controller="quantity" pages="0,1,2"/>
+      <gearXY controller="quantity" pages="1,0" values="135,18|80,18" default="181,18"/>
+    </image>
+    <group id="n123_hk7y" name="Left_01" xy="181,18" size="73,47" group="n99_hk7y" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <image id="n104_hk7y" name="n104" src="hk7yhz9d0v" fileName="images/fetters_arrow09.png" xy="189,26" size="65,39" group="n108_hk7y">
+      <gearDisplay controller="quantity" pages="0,1,2"/>
+      <gearXY controller="quantity" pages="1,0" values="143,26|189,26" default="189,26"/>
+      <gearSize controller="quantity" pages="2,1,0" values="65,48,1,1|111,39,1,1|65,46,1,1" default="65,39,1,1"/>
+    </image>
+    <image id="n106_hk7y" name="n106" src="d8dihz9d0d" fileName="images/fetters_arrow05.png" xy="181,18" group="n108_hk7y">
+      <gearDisplay controller="quantity" pages="0,1,2"/>
+      <gearXY controller="quantity" pages="1,0" values="135,18|181,18" default="181,18"/>
+    </image>
+    <group id="n108_hk7y" name="Left" xy="181,18" size="73,47" group="n99_hk7y" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <image id="n124_hk7y" name="n124" src="hk7yhz9d0v" fileName="images/fetters_arrow09.png" xy="255,26" size="65,39" group="n126_hk7y" flip="hz">
+      <gearDisplay controller="quantity" pages="0"/>
+      <gearXY controller="quantity" pages="0" values="255,26" default="255,26"/>
+      <gearSize controller="quantity" pages="2,1,0" values="65,48,1,1|118,39,1,1|173,46,1,1" default="65,39,1,1"/>
+    </image>
+    <image id="n125_hk7y" name="n125" src="d8dihz9d0d" fileName="images/fetters_arrow05.png" xy="299,18" group="n126_hk7y">
+      <gearDisplay controller="quantity" pages="0"/>
+      <gearXY controller="quantity" pages="1,0" values="352,18|407,18" default="299,18"/>
+    </image>
+    <group id="n126_hk7y" name="right_01" xy="255,18" size="73,47" group="n99_hk7y" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <image id="n105_hk7y" name="n105" src="hk7yhz9d0v" fileName="images/fetters_arrow09.png" xy="255,26" size="65,39" group="n111_hk7y" flip="hz">
+      <gearDisplay controller="quantity" pages="0,1,2"/>
+      <gearXY controller="quantity" default="255,26"/>
+      <gearSize controller="quantity" pages="2,1,0" values="65,48,1,1|118,39,1,1|65,46,1,1" default="65,39,1,1"/>
+    </image>
+    <image id="n107_hk7y" name="n107" src="d8dihz9d0d" fileName="images/fetters_arrow05.png" xy="299,18" group="n111_hk7y">
+      <gearDisplay controller="quantity" pages="0,1,2"/>
+      <gearXY controller="quantity" pages="1" values="352,18" default="299,18"/>
+    </image>
+    <group id="n111_hk7y" name="right" xy="255,18" size="73,47" group="n99_hk7y" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <image id="n112_hk7y" name="n112" src="d8dihz9d0f" fileName="images/fetters_arrow07.png" xy="250,31" size="13,65" group="n114_hk7y">
+      <gearSize controller="quantity" pages="2,1,0" values="13,48,1,1|13,35,1,1|13,46,1,1" default="13,65,1,1"/>
+    </image>
+    <group id="n114_hk7y" name="in01" xy="250,31" size="13,65" group="n99_hk7y" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <gearDisplay2 controller="quantity" pages="1" condition="0"/>
+    </group>
+    <image id="n63_t25c" name="n63" src="d8dihz9d0f" fileName="images/fetters_arrow07.png" xy="250,-13" size="13,90" group="n110_hk7y">
+      <gearSize controller="quantity" pages="3,2,1,0" values="13,90,1,1|13,48,1,1|13,48,1,1|13,47,1,1"/>
+    </image>
+    <image id="n64_t25c" name="n64" src="d8dihz9d0d" fileName="images/fetters_arrow05.png" xy="242,18" group="n110_hk7y"/>
+    <group id="n110_hk7y" name="in" xy="242,-13" size="29,90" group="n99_hk7y" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <group id="n99_hk7y" name="BrightLine" xy="181,-13" size="147,109"/>
+    <text id="n29_ee2i" name="needNumber" xy="204,141" pivot="0.5,0.5" size="106,32" group="n66_t25c" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="[color=#ff5757]4[/color]/5"/>
+    <component id="n27_ee2i" name="icon4" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="218,68" size="85,85" group="n66_t25c" scale="0.9,0.9"/>
+    <group id="n66_t25c" name="1" xy="204,68" size="106,105" advanced="true">
+      <gearDisplay controller="quantity" pages="0,1,2,3"/>
+      <gearXY controller="quantity" pages="3,2,1,0" values="204,68|142,68|96,56|41,68"/>
+    </group>
+    <text id="n81_t25c" name="needNumber04" xy="368,141" pivot="0.5,0.5" size="106,32" group="n87_t25c" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="[color=#ff5757]4[/color]/5"/>
+    <group id="n73_t25c" name="2" xy="149,56" size="106,105" advanced="true">
+      <gearDisplay controller="quantity" pages="0,1,2"/>
+      <gearXY controller="quantity" pages="3,2,1,0" values="149,56|260,68|205,56|143,68"/>
+    </group>
+    <group id="n80_t25c" name="3" xy="259,56" size="106,105" advanced="true">
+      <gearDisplay controller="quantity" pages="0,1"/>
+      <gearXY controller="quantity" pages="3,1,0" values="259,56|314,56|261,68" default="259,-2"/>
+    </group>
+    <component id="n75_t25c" name="icon6" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="273,56" size="85,85" group="n80_t25c" scale="0.9,0.9"/>
+    <text id="n74_t25c" name="needNumber03" xy="259,129" pivot="0.5,0.5" size="106,32" group="n80_t25c" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="[color=#ff5757]4[/color]/5"/>
+    <component id="n68_t25c" name="icon5" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="163,56" size="85,85" group="n73_t25c" scale="0.9,0.9"/>
+    <text id="n67_t25c" name="needNumber02" xy="149,129" pivot="0.5,0.5" size="106,32" group="n73_t25c" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="[color=#ff5757]4[/color]/5"/>
+    <component id="n82_t25c" name="icon7" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="382,68" size="85,85" group="n87_t25c" scale="0.9,0.9"/>
+    <group id="n87_t25c" name="4" xy="368,68" size="106,105" advanced="true">
+      <gearDisplay controller="quantity" pages="0"/>
+    </group>
+  </displayList>
+</component>

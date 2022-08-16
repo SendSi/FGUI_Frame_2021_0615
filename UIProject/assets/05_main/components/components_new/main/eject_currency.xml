@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="229,110">
+  <displayList>
+    <image id="n0_t6g9" name="n0" src="xjmv1qp8vf8" fileName="images/images_new/com_bg_tips02_mask4.png" pkg="2r331opv" xy="0,0" size="229,110" flip="vt">
+      <relation target="n3_t6g9" sidePair="bottomext-bottom"/>
+    </image>
+    <list id="n3_t6g9" name="list" xy="12,14" size="200,82" overflow="scroll" defaultItem="ui://utp01xiat6g91ygcfhr" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <image id="n4_csb4" name="n4" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="94,-17" pivot="0.5,0.5" size="40,30" flip="vt"/>
+    <text id="n5_suuv" name="n5" xy="-13,-88" size="320,29" fontSize="20" color="#ffffff" autoClearText="true" text="弃用,看DialogTipsHasCurrencyView"/>
+  </displayList>
+  <relation target="n0_t6g9" sidePair="bottomext-bottom"/>
+</component>

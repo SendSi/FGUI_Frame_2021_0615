@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,20" extention="Slider">
+  <controller name="titleCtrl" pages="1,,0," selected="0">
+    <remark page="0" value="显示"/>
+    <remark page="1" value="隐藏"/>
+  </controller>
+  <displayList>
+    <loader id="n9_h30t" name="bg" xy="0,0" size="100,20" url="ui://e1uzapmrh30t1iy5bhn" fill="scaleFree"/>
+    <graph id="n10_h30t" name="bar" xy="4,4" size="96,12" type="rect" lineSize="0" fillColor="#ffff9b42"/>
+    <component id="n3_ba2s" name="grip" src="ba2s1iy5bgm" fileName="components/Slider1_grip.xml" xy="43,52" pivot="0.5,0" group="n7_ba2s">
+      <relation target="n10_h30t" sidePair="right-right"/>
+    </component>
+    <text id="n2_ba2s" name="title" xy="50,65" pivot="0.5,0.5" size="88,42" group="n7_ba2s" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#50382e" align="center" autoSize="none" text="111">
+      <relation target="n3_ba2s" sidePair="center-center"/>
+    </text>
+    <group id="n7_ba2s" name="n7" xy="43,52" size="99,62" advanced="true">
+      <gearDisplay controller="titleCtrl" pages="1"/>
+    </group>
+  </displayList>
+  <Slider titleType="value" wholeNumbers="true" changeOnClick="false"/>
+</component>

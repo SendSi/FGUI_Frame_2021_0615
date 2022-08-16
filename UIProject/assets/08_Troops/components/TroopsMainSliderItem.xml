@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="325,116" opaque="false" designImage="ui://jqem9egto283z9cnk" designImageOffsetX="-964" designImageOffsetY="-370" designImageAlpha="44">
+  <displayList>
+    <loader id="n34_kn9h" name="armIcon" xy="0,0" pivot="0.5,0.5" size="115,115" aspect="true" url="ui://2r331opvxbfy1ygcgmb" align="center" vAlign="middle" fill="scale"/>
+    <component id="n46_jzi1" name="sliderNums" src="o5d41qp8vcj" fileName="components/TroopsSbr.xml" xy="115,59" size="286,38" scale="0.7,0.7">
+      <Slider value="20" max="100"/>
+    </component>
+    <image id="n43_tc03" name="armTitle" src="oxy0jx" fileName="images/images_new/hero_btn01.png" pkg="2r331opv" xy="241,20" pivot="1,1" size="74,28" group="n44_a9mm" alpha="0.5" color="#81ddf1">
+      <relation target="n40_xae7" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n40_xae7" name="armSum" xy="241,18" size="75,34" group="n44_a9mm" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="82500"/>
+    <group id="n44_a9mm" name="n44" xy="241,18" size="75,34" visible="false" advanced="true"/>
+    <graph id="n48_o5d4" name="n48" xy="119,20" size="58,28" type="rect" lineSize="0" fillColor="#ff2f6ab7" corner="5">
+      <relation target="n45_a9mm" sidePair="rightext-right"/>
+    </graph>
+    <text id="n45_a9mm" name="className" xy="125,20" size="44,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#74d0ff" autoSize="none" singleLine="true" autoClearText="true" text="兵种"/>
+    <image id="n49_isps" name="curve" src="jqbn1ygcgm8" fileName="images/images_new/windowBg_new/welfare_btn_bg16.png" pkg="2r331opv" xy="6,111" size="313,1" alpha="0.7"/>
+  </displayList>
+</component>

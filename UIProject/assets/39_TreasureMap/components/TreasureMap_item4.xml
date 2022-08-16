@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="299,388" extention="Button">
+  <displayList>
+    <image id="n0_rrq3" name="n0" src="olpd1ygcfss" fileName="images/TreasureMap_bg61.png" xy="0,0"/>
+  </displayList>
+  <Button/>
+</component>

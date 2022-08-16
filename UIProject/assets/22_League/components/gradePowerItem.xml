@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="892,75">
+  <displayList>
+    <image id="n20_xm3w" name="n20" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="892,73" alpha="0.3" color="#50382e"/>
+    <image id="n12_spur" name="power1" src="klrg1qp8vd5" fileName="images/images_new/com_btn_correct.png" pkg="2r331opv" xy="289,19" aspect="true" scale="0.5,0.5"/>
+    <image id="n13_spur" name="power2" src="klrg1qp8vd5" fileName="images/images_new/com_btn_correct.png" pkg="2r331opv" xy="467,19" aspect="true" scale="0.5,0.5"/>
+    <image id="n15_spur" name="power4" src="klrg1qp8vd5" fileName="images/images_new/com_btn_correct.png" pkg="2r331opv" xy="648,19" aspect="true" scale="0.5,0.5"/>
+    <image id="n16_spur" name="power5" src="klrg1qp8vd5" fileName="images/images_new/com_btn_correct.png" pkg="2r331opv" xy="826,19" aspect="true" scale="0.5,0.5"/>
+    <text id="n18_spur" name="contextLbl" xy="11,20" size="228,35" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" autoClearText="true" text="头部信息"/>
+  </displayList>
+</component>

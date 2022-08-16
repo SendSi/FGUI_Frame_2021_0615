@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="299,190">
+  <displayList>
+    <image id="n0_oxy0" name="n0" src="d2lk1iy5bfq" fileName="images/arms_bg004.png" xy="147,96" pivot="0.5,0.5" anchor="true" size="134,128"/>
+    <text id="n1_oxy0" name="title1" xy="112,0" size="76,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#868686" text="技能伤害"/>
+    <text id="n2_d2lk" name="title2" xy="220,69" size="76,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#868686" text="普攻伤害"/>
+    <text id="n5_d2lk" name="title3" xy="170,163" size="76,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#868686" text="攻击范围"/>
+    <text id="n4_d2lk" name="title4" xy="44,163" size="76,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#868686" text="移动速度"/>
+    <text id="n3_d2lk" name="title5" xy="0,69" size="76,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#868686" text="防御能力"/>
+    <image id="n6_d2lk" name="point1" src="d2lk1iy5bfr" fileName="images/arms_bg005.png" xy="147,83" pivot="0.5,0.5" anchor="true"/>
+    <image id="n7_d2lk" name="point2" src="d2lk1iy5bfr" fileName="images/arms_bg005.png" xy="212,81" pivot="0.5,0.5" anchor="true"/>
+    <image id="n8_d2lk" name="point3" src="d2lk1iy5bfr" fileName="images/arms_bg005.png" xy="136,95" pivot="0.5,0.5" anchor="true"/>
+    <image id="n9_d2lk" name="point4" src="d2lk1iy5bfr" fileName="images/arms_bg005.png" xy="147,33" pivot="0.5,0.5" anchor="true"/>
+    <image id="n10_d2lk" name="point5" src="d2lk1iy5bfr" fileName="images/arms_bg005.png" xy="186,157" pivot="0.5,0.5" anchor="true"/>
+    <graph id="n11_d2lk" name="line" xy="0,0" size="211,158" type="polygon" lineColor="#ffffc467" fillColor="#00ffffff" points="148,33,147.4799,85.02261,135,96,187,158,211,81"/>
+  </displayList>
+</component>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="state" pages="0,normal,1,addresseeTips,2,emojiTips,4,coordinateTips,3,previewTips" selected="4">
+    <action type="play_transition" fromPage="" toPage="1" transition="t0"/>
+    <action type="play_transition" fromPage="" toPage="2" transition="state2"/>
+    <action type="play_transition" fromPage="3" toPage="0" transition="t4"/>
+  </controller>
+  <controller name="state2" pages="0,,1,,2," selected="2">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="无盟友"/>
+    <remark page="2" value="无收藏坐标"/>
+  </controller>
+  <displayList>
+    <component id="n2_l5s1" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n67_wi2c" name="dontMove" src="d4gi9cij" fileName="components/components_new/Component_blank.xml" pkg="2r331opv" xy="321,130" size="807,507" group="n89_v4nb">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_l5s1" name="window" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" pivot="0.5,0.5" group="n89_v4nb"/>
+    <image id="n79_r1km" name="n79" src="lfqnhz9d6w" fileName="images/images_new/com_bg_popup02.png" pkg="2r331opv" xy="216,155" size="907,495" group="n89_v4nb"/>
+    <image id="n7_l5s1" name="n7" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="342,174" size="676,40" group="n89_v4nb" alpha="0.7"/>
+    <image id="n9_l5s1" name="n9" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="342,230" size="676,40" group="n89_v4nb" alpha="0.7"/>
+    <image id="n10_l5s1" name="n10" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="342,288" size="676,243" group="n89_v4nb" alpha="0.7"/>
+    <component id="n73_oktn" name="btnSendOut" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="818,551" size="202,78" group="n89_v4nb">
+      <Button title="发送" titleFontSize="32"/>
+    </component>
+    <component id="n90_g8xw" name="btnComeSend" src="d5so1ygcfk6" fileName="components/components_new/com_btn_buy1.xml" pkg="2r331opv" xy="818,551" size="202,78" group="n89_v4nb"/>
+    <text id="n4_l5s1" name="n4" xy="243,177" size="96,36" group="n89_v4nb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="right" autoSize="none" text="收件人:"/>
+    <text id="n5_l5s1" name="n5" xy="265,233" size="74,36" group="n89_v4nb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="right" autoSize="none" text="标题:"/>
+    <text id="n55_uxiw" name="title" xy="372,70" pivot="0.5,0.5" size="592,46" group="n89_v4nb" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="发送邮件"/>
+    <text id="n13_l5s1" name="addresseeName" xy="346,177" size="667,34" group="n89_v4nb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="联盟全体"/>
+    <text id="n12_l5s1" name="inputMailTitle" xy="345,234" size="665,34" group="n89_v4nb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" ubb="true" autoSize="none" text="" input="true" prompt="[color=#97794f]请输入标题,最多10个字[/color]" maxLength="10"/>
+    <text id="n14_l5s1" name="inputMailContent" xy="349,294" size="662,229" group="n89_v4nb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" ubb="true" autoSize="none" text="" input="true" prompt="[color=#97794f]在此输入内容……[/color]"/>
+    <component id="n15_l5s1" name="btnAddressee" src="676jcht" fileName="components/sendMailBtn.xml" xy="1027,169" group="n89_v4nb">
+      <Button icon="ui://2r331opvr1km1ygcfha" controller="state" page="1"/>
+    </component>
+    <component id="n16_l5s1" name="btnEmoji" src="676jcht" fileName="components/sendMailBtn.xml" xy="1027,288" group="n89_v4nb">
+      <Button icon="ui://2r331opvr1km1ygcfhb" controller="state" page="2"/>
+    </component>
+    <component id="n17_l5s1" name="btnCoordinate" src="676jcht" fileName="components/sendMailBtn.xml" xy="1027,364" group="n89_v4nb">
+      <Button icon="ui://2r331opvr1km1ygcfhc" controller="state" page="4"/>
+    </component>
+    <component id="n18_l5s1" name="btnPreview" src="676jcht" fileName="components/sendMailBtn.xml" xy="1027,440" group="n89_v4nb">
+      <Button checked="true" icon="ui://2r331opvr1km1ygcfhd" controller="state" page="3"/>
+    </component>
+    <component id="n71_j9d9" name="btnComePos" src="j9d9hz9cze" fileName="components/switchBtn.xml" xy="342,571" group="n89_v4nb"/>
+    <component id="n74_oktn" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n89_v4nb"/>
+    <group id="n89_v4nb" name="windows" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n88_v4nb" name="btnNext" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="-165,0" size="1665,750" group="n87_v4nb">
+      <Button controller="state" page="0"/>
+    </component>
+    <image id="n22_l5s1" name="n22" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="330,143" size="693,445" group="n87_v4nb">
+      <gearDisplay controller="state" pages="1,2,4,3"/>
+    </image>
+    <image id="n93_rb01" name="n93" src="za6y1ygcgmn" fileName="images/images_new/windowBg_new/welfare_btn_bg23.png" pkg="2r331opv" xy="455,164" pivot="0.5,0.5" size="442,39" group="n87_v4nb" alpha="0.9">
+      <gearDisplay controller="state" pages="1,3"/>
+    </image>
+    <text id="n63_676j" name="n63" xy="614,164" size="116,39" group="n87_v4nb" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#845744" autoSize="none" autoClearText="true" text="邮件预览">
+      <gearDisplay controller="state" pages="1,3"/>
+      <gearText controller="state" pages="3" values="邮件预览" default="联盟成员"/>
+    </text>
+    <group id="n87_v4nb" name="n87" xy="-165,0" size="1665,750" advanced="true">
+      <gearDisplay controller="state" pages="1,2,4,3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <list id="n26_l5s1" name="addresseeList" xy="382,214" size="587,263" group="n27_l5s1" layout="flow_hz" overflow="scroll" scrollBarFlags="80" scrollBar="hidden" lineGap="2" defaultItem="ui://ufsajnnzq3nwhz9czo" treeView="true" indent="2" clickToExpand="1">
+      <gearDisplay controller="state2" pages="0,2"/>
+      <item url="ui://ufsajnnzq3nwhz9czp" level="0"/>
+      <item url="ui://ufsajnnz676jchx" level="1"/>
+      <item url="ui://ufsajnnz676jchx" level="1"/>
+      <item url="ui://ufsajnnzq3nwhz9czp" level="0"/>
+      <item url="ui://ufsajnnz676jchx" level="1"/>
+      <item url="ui://ufsajnnz676jchx" level="1"/>
+    </list>
+    <component id="n64_676j" name="besureBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="596,497" group="n27_l5s1">
+      <gearDisplay controller="state2" pages="0,2"/>
+      <Button title="确定" controller="state" page="0"/>
+    </component>
+    <text id="n65_676j" name="tips" xy="603,357" size="184,26" group="n27_l5s1" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" text="暂无联盟成员">
+      <gearDisplay controller="state2" pages="1"/>
+    </text>
+    <group id="n27_l5s1" name="addresseeTips" xy="382,214" size="587,345" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <list id="n75_wapy" name="content" xy="367,181" size="625,356" group="n31_l5s1" layout="flow_hz" overflow="scroll" lineGap="22" colGap="27" defaultItem="ui://2r331opvdslz1l">
+      <item title="88" icon="ui://lh4qx1m6ieip1x"/>
+      <item title="am" icon="ui://lh4qx1m6ieip1y"/>
+      <item title="bs" icon="ui://lh4qx1m6ieip1z"/>
+      <item title="bz" icon="ui://lh4qx1m6ieip20"/>
+      <item title="ch" icon="ui://lh4qx1m6ieip21"/>
+      <item title="ku" icon="ui://lh4qx1m6ieip22"/>
+      <item title="dh" icon="ui://lh4qx1m6ieip23"/>
+      <item title="dn" icon="ui://lh4qx1m6ieip24"/>
+      <item title="fd" icon="ui://lh4qx1m6ieip25"/>
+      <item title="gz" icon="ui://lh4qx1m6ieip26"/>
+      <item title="hn" icon="ui://lh4qx1m6ieip27"/>
+      <item title="ht" icon="ui://lh4qx1m6ieip28"/>
+      <item title="hx" icon="ui://lh4qx1m6ieip29"/>
+      <item title="hz" icon="ui://lh4qx1m6ieip2a"/>
+    </list>
+    <group id="n31_l5s1" name="emojiTips" xy="367,181" size="625,356" advanced="true">
+      <gearDisplay controller="state" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <list id="n50_l5s1" name="btnCoordinateList" xy="381,184" size="588,351" group="n51_l5s1" overflow="scroll" lineGap="2" defaultItem="ui://ufsajnnzl5s1n">
+      <gearDisplay controller="state2" pages="0,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n66_676j" name="tips2" xy="425,331" pivot="0.5,0.5" size="501,42" group="n51_l5s1" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" align="center" autoSize="none" text="暂无收藏坐标">
+      <gearDisplay controller="state2" pages="2"/>
+    </text>
+    <group id="n51_l5s1" name="coordinateTips" xy="381,184" size="588,351" advanced="true">
+      <gearDisplay controller="state" pages="4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n77_prcz" name="bg012" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="363,275" size="627,239" group="n44_l5s1" alpha="0.3" color="#97794f"/>
+    <image id="n36_l5s1" name="bg011" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="363,215" size="627,42" group="n44_l5s1" alpha="0.3" color="#97794f"/>
+    <richtext id="n45_l5s1" name="txtMailTitlePre" xy="368,217" size="615,39" group="n44_l5s1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="什么名字"/>
+    <richtext id="n47_l5s1" name="txtMailContentPre" xy="370,284" size="612,224" group="n44_l5s1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" ubb="true" autoSize="none" autoClearText="true" text="通知通知通知计划集合"/>
+    <group id="n44_l5s1" name="previewTips" xy="363,215" size="627,299" advanced="true">
+      <gearDisplay controller="state" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n92_y65p" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="626,5" size="700,40">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

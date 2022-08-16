@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="756,126" designImageOffsetX="-454" designImageOffsetY="-211" designImageLayer="1">
+  <controller name="state" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_bnhn" name="n0" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="756,126">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <component id="n1_9yrd" name="icon" src="b6o0cho" fileName="components/components_new/btn_head.xml" pkg="2r331opv" xy="10,6" size="113,113" touchable="false"/>
+    <component id="n4_9yrd" name="leagueName" src="9yrdle" fileName="components/com_leagueName.xml" pkg="2r331opv" xy="15,14" touchable="false">
+      <Button title="萌" icon="ui://2r331opv8z4119"/>
+    </component>
+    <text id="n5_9yrd" name="playName" xy="123,15" size="251,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" autoSize="none" autoClearText="true" text="[14655]许仙"/>
+    <text id="n6_9yrd" name="n5" xy="123,41" size="94,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#d93a3a" autoSize="none" autoClearText="true" text="战斗力："/>
+    <text id="n7_9yrd" name="powerNumber" xy="206,41" size="167,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#d93a3a" autoSize="none" autoClearText="true" text="14910"/>
+    <component id="n8_9yrd" name="n8" src="9yrdk2" fileName="components/aid/aidItemPbr.xml" xy="125,72" size="274,34">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n9_9yrd" name="withdrawBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="579,36">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="撤回"/>
+    </component>
+    <component id="n10_9yrd" name="checkBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="579,36">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+      <Button title="查看"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,110" pivot="0.5,0.5" extention="Button">
+  <controller name="state" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="未领取"/>
+    <remark page="1" value="已领取"/>
+  </controller>
+  <displayList>
+    <image id="n8_x7d5" name="n8" src="x7d51ygcfjs" fileName="images/wartoken_bg11.png" xy="11,0"/>
+    <loader id="n9_x7d5" name="icon" xy="21,10" size="94,94" aspect="true" scale="0.7,0.7" url="ui://2iylmg0sx7d51ygcfjq" autoSize="true">
+      <gearIcon controller="state" pages="1" values="ui://2iylmg0spepa1ygcfni" default="ui://2iylmg0sx7d51ygcfjq"/>
+    </loader>
+    <image id="n7_x7d5" name="n7" src="x7d51ygcfjr" fileName="images/wartoken_bg10.png" xy="0,77"/>
+    <text id="n6_x7d5" name="n6" xy="11,78" size="84,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="每周签到"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

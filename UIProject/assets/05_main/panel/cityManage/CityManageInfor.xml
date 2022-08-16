@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://4ni413lac1q9hz9cum" designImageOffsetX="-76" designImageOffsetY="-47" designImageLayer="1">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="未激活"/>
+    <remark page="1" value="激活"/>
+  </controller>
+  <displayList>
+    <component id="n0_c1q9" name="n0" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38"/>
+    <text id="n1_c1q9" name="title" xy="408,70" pivot="0.5,0.5" size="517,46" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="城市管理（配表"/>
+    <text id="n2_c1q9" name="n2" xy="223,152" size="892,132" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" ubb="true" autoSize="none" text="主动开展军事行动，将立即激活[color=#E77917][战争狂热][/color]状态。主动开展军事行动，将立即激活[color=#E77917][战争狂热][/color]状态。主动开展军事行动，将立即激活[color=#E77917][战争狂热][/color]状态。主动开展军事行动，将立即激活[color=#E77917][战争狂热][/color]状态。"/>
+    <image id="n3_c1q9" name="n3" src="j9d91qp8vcm" fileName="images/images_new/windowBg_new/negative_bg09.png" pkg="2r331opv" xy="835,253" size="280,24"/>
+    <image id="n4_c1q9" name="n4" src="j9d91qp8vcm" fileName="images/images_new/windowBg_new/negative_bg09.png" pkg="2r331opv" xy="223,253" size="280,24" flip="hz"/>
+    <text id="n5_c1q9" name="title2" xy="532,242" size="274,42" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#50382e" align="center" vAlign="middle" ubb="true" text="战争狂热[color=#D93A3A]（未激活）[/color]">
+      <gearColor controller="state" pages="0,1" values="#50382e,#000000|#50382e,#000000"/>
+      <gearText controller="state" pages="0,1" values="战争狂热[color=#D93A3A]（未激活）[/color]|战争狂热[color=#599E27]（已激活）[/color]"/>
+    </text>
+    <text id="n7_c1q9" name="title3" xy="223,287" size="166,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" ubb="true" singleLine="true" text="部队攻击力 +3%"/>
+    <image id="n8_c1q9" name="n8" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="222,340" size="894,43"/>
+    <text id="n9_c1q9" name="titleLv" xy="215,344" pivot="0.5,0.5" size="322,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" autoSize="none" text="市政厅等级"/>
+    <text id="n10_c1q9" name="titleTime" xy="806,344" pivot="0.5,0.5" size="298,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" autoSize="none" text="持续时间"/>
+    <list id="n12_c1q9" name="inforList" xy="222,399" size="894,237" overflow="scroll" lineGap="-4" defaultItem="ui://4ni413lac1q9hz9cun" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

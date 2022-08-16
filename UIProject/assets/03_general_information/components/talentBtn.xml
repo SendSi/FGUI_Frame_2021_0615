@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="128,145" pivot="0.5,0.5" extention="Button" designImageOffsetX="-300" designImageOffsetY="-201">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1,,2," selected="0">
+    <remark page="1" value="可"/>
+    <remark page="2" value="灰"/>
+  </controller>
+  <controller name="size" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_d8di" name="n1" src="d8dihz9d03" fileName="images/hero_talentpoints03.png" xy="-1,-2" size="128,128" group="n6_d8di" visible="false">
+      <gearXY controller="size" pages="0,1" values="-1,-2|0,-8"/>
+    </image>
+    <image id="n3_d8di" name="n3" src="d8dihz9d0y" fileName="images/images_new/com_guide_arrow.png" pkg="2r331opv" xy="13,-101" size="100,120" group="n6_d8di" visible="false"/>
+    <text id="n4_d8di" name="tips" xy="35,127" pivot="0.5,0.5" size="58,26" group="n6_d8di" font="ui://2r331opvno3vhz9d62" fontSize="18" color="#3cff3c" align="center" vAlign="middle" singleLine="true" autoClearText="true" text="可激活"/>
+    <group id="n6_d8di" name="n6" xy="-1,-101" size="128,254" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <image id="n9_poaz" name="n9" src="poaz1iy5bd5" fileName="images/hero_talentpoints05.png" xy="29,20" group="n11_poaz">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <image id="n10_poaz" name="n10" src="poaz1iy5bd4" fileName="images/hero_talentpoints06.png" xy="29,20" group="n11_poaz">
+      <gearDisplay controller="state" pages="1,2"/>
+    </image>
+    <group id="n11_poaz" name="n11" xy="29,20" size="69,69" advanced="true">
+      <gearDisplay controller="size" pages="1"/>
+    </group>
+    <image id="n0_d8di" name="n0" src="oxy0z9cs6" fileName="images/hero_talentpoints01.png" xy="40,40" pivot="0.5,0.5" size="45,45" group="n12_poaz">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <image id="n2_d8di" name="n2" src="oxy0z9cs7" fileName="images/hero_talentpoints02.png" xy="40,40" pivot="0.5,0.5" size="45,45" group="n12_poaz">
+      <gearDisplay controller="state" pages="1,2"/>
+    </image>
+    <group id="n12_poaz" name="n12" xy="40,40" size="45,45" advanced="true">
+      <gearDisplay controller="size" pages="0"/>
+    </group>
+    <text id="n7_d8di" name="title" xy="64,100" pivot="0.5,0.5" anchor="true" size="149,26" font="ui://2r331opvno3vhz9d62" fontSize="18" color="#ffffff" align="center" vAlign="middle" singleLine="true" autoClearText="true" text="Attack power +20">
+      <gearXY controller="state" pages="0,1,2" values="64,100|64,114|64,100"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

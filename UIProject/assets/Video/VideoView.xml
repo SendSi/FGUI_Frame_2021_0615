@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label">
+  <displayList>
+    <graph id="n2_tx65" name="mask" xy="0,0" size="1334,750" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n1_tx65" name="view" xy="0,0" size="1334,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n3_r821" name="closeButton" src="b9bj5m" fileName="components/components_new/intoBtn.xml" pkg="2r331opv" xy="996,7" pivot="1,0.5" scale="0.7,0.7">
+      <relation target="" sidePair="left-right"/>
+    </component>
+  </displayList>
+</component>

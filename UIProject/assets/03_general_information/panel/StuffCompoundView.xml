@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://4hio38umeznb1iy5bck" designImageAlpha="27">
+  <controller name="view" pages="0,,1," selected="0"/>
+  <controller name="button" pages="0,get,1,cancompound,2,wear" selected="1"/>
+  <displayList>
+    <component id="n2_ee2i" name="n2" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n77_eznb" name="n77" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n83_eznb"/>
+    <image id="n84_in8y" name="n84" src="fk1q1qp8vdi" fileName="images/images_new/windowBg_new/com_bg_popup01.png" pkg="2r331opv" xy="580,127" group="n83_eznb"/>
+    <image id="n78_eznb" name="n78" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="213,286" size="401,36" group="n18_ee2i"/>
+    <image id="n79_eznb" name="n79" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="213,426" size="401,36" group="n18_ee2i"/>
+    <text id="n34_ee2i" name="title0" xy="357,70" pivot="0.5,0.5" size="616,46" group="n18_ee2i" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="4,4" autoClearText="true" text="获取途径"/>
+    <component id="n4_ee2i" name="icon" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="208,159" size="100,100" group="n18_ee2i" scale="1.1,1.1"/>
+    <text id="n5_ee2i" name="title" xy="327,163" size="124,42" group="n18_ee2i" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b333d9" ubb="true" singleLine="true" autoClearText="true" text="信物名字"/>
+    <text id="n6_ee2i" name="txt" xy="324,208" size="134,36" group="n18_ee2i" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#50382e" text="拥有数量："/>
+    <text id="n7_ee2i" name="number" xy="451,211" size="199,34" group="n18_ee2i" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" autoSize="none" autoClearText="true" text="0">
+      <relation target="n6_ee2i" sidePair="left-right"/>
+    </text>
+    <text id="n10_ee2i" name="txt2" xy="222,286" size="52,34" group="n18_ee2i" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" ubb="true" text="属性"/>
+    <list id="n11_ee2i" name="attributeList" xy="231,329" size="372,88" group="n18_ee2i" overflow="scroll" scrollBarFlags="32" lineGap="-4" defaultItem="ui://4hio38umm8lfz9cqu" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <text id="n13_ee2i" name="txt3" xy="221,428" size="52,34" group="n18_ee2i" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" ubb="true" text="说明"/>
+    <text id="n14_ee2i" name="introduceTitle" xy="231,470" size="366,129" group="n18_ee2i" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" leading="-6" ubb="true" autoSize="none" autoClearText="true" text="Hero Breakthrough material can be used for hero from [color=#74FF71]breakthrough +2[/color] to [color=#74FF71]breakthrough +3[/color]"/>
+    <component id="n17_ee2i" name="btnget" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="326,594" size="162,60" group="n18_ee2i">
+      <gearDisplay controller="button" pages="0"/>
+      <Button title="获取"/>
+    </component>
+    <component id="n42_ee2i" name="btnget2" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="326,594" size="162,60" group="n18_ee2i">
+      <gearDisplay controller="button" pages="1"/>
+      <Button title="合成"/>
+    </component>
+    <component id="n43_ee2i" name="btnWear" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="326,594" size="162,60" group="n18_ee2i">
+      <gearDisplay controller="button" pages="2"/>
+      <Button title="穿戴"/>
+    </component>
+    <group id="n18_ee2i" name="informationView" xy="208,70" size="765,584" group="n83_eznb" advanced="true"/>
+    <image id="n80_eznb" name="n80" src="j9d91qp8vcm" fileName="images/images_new/windowBg_new/negative_bg09.png" pkg="2r331opv" xy="969,159" group="n75_k0lx"/>
+    <image id="n62_k0lx" name="n112" src="j9d91qp8vcm" fileName="images/images_new/windowBg_new/negative_bg09.png" pkg="2r331opv" xy="703,160" group="n75_k0lx" flip="hz"/>
+    <text id="n64_k0lx" name="title03" xy="857,148" pivot="0.5,0.5" size="108,36" group="n75_k0lx" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#97794f" leading="0" text="获取位置"/>
+    <list id="n76_k0lx" name="cropList" xy="699,198" size="420,457" group="n75_k0lx" overflow="scroll" lineGap="20" defaultItem="ui://4hio38umk0lxhz9d62" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n75_k0lx" name="cropsView" xy="699,148" size="420,507" group="n83_eznb" advanced="true">
+      <gearDisplay controller="view" pages="0"/>
+    </group>
+    <image id="n82_eznb" name="n82" src="lfqnhz9d6w" fileName="images/images_new/com_bg_popup02.png" pkg="2r331opv" xy="696,156" size="433,417" group="n33_ee2i"/>
+    <image id="n81_eznb" name="n81" src="eznb1iy5bcn" fileName="images/bg07.png" xy="730,152" group="n33_ee2i"/>
+    <text id="n35_ee2i" name="title00" xy="856,119" size="138,39" group="n33_ee2i" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#ffffff" leading="0" autoSize="none" autoClearText="true" text="Synthesis"/>
+    <component id="n20_ee2i" name="icon2" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="850,148" size="100,100" group="n33_ee2i" scale="1.2,1.2"/>
+    <component id="n28_ee2i" name="quantity" src="t25chz9d0u" fileName="components/quantity.xml" xy="652,377" group="n33_ee2i"/>
+    <image id="n47_g0j6" name="n47" src="eznb1iy5bcl" fileName="images/fetters_arrow010.png" xy="882,255" group="n33_ee2i"/>
+    <text id="n25_ee2i" name="title2" xy="855,296" pivot="0.5,0.5" size="139,29" group="n33_ee2i" fontSize="20" color="#8cd9ea" align="center" vAlign="middle" autoSize="height" autoClearText="true" text="name"/>
+    <component id="n26_ee2i" name="icon3" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="871,292" size="85,85" group="n33_ee2i" scale="0.9,0.9"/>
+    <text id="n30_ee2i" name="n30" xy="702,613" size="104,29" group="n33_ee2i" fontSize="20" color="#97794f" align="center" leading="0" text="合成消耗："/>
+    <richtext id="n31_ee2i" name="consumeNumber" xy="799,610" size="131,34" group="n33_ee2i" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="500 图标"/>
+    <component id="n32_ee2i" name="btnCompound" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="942,595" size="160,60" group="n33_ee2i">
+      <Button title="合成"/>
+    </component>
+    <group id="n33_ee2i" name="compoundView" xy="652,119" size="514,536" group="n83_eznb" advanced="true">
+      <gearDisplay controller="view" pages="1"/>
+    </group>
+    <component id="n39_ee2i" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n83_eznb"/>
+    <group id="n83_eznb" name="n83" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

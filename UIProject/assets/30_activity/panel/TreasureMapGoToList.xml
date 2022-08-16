@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="636,238" mask="n29_d9dy">
+  <displayList>
+    <graph id="n29_d9dy" name="n29" xy="0,0" size="636,238" type="rect"/>
+    <list id="n28_rr0d" name="go_to" xy="0,0" pivot="0.5,0.5" size="636,238" layout="row" overflow="scroll" scroll="horizontal" clipSoftness="132,0" colGap="8" defaultItem="ui://sinorujtrr0d1ygcffv" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

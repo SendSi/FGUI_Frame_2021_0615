@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="86,86" extention="Button" designImageOffsetX="-225" designImageOffsetY="-556">
+  <controller name="select" pages="0,,1," selected="0"/>
+  <controller name="quality" pages="0,,1,,2,,3,,4," selected="0">
+    <remark page="0" value="绿"/>
+    <remark page="1" value="蓝"/>
+    <remark page="2" value="紫"/>
+    <remark page="3" value="金"/>
+    <remark page="4" value="红"/>
+  </controller>
+  <controller name="gray" pages="0,,1,灰色" selected="0"/>
+  <controller name="inTroops" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n26_9232" name="bg_quality00" xy="0,0" size="86,86" aspect="true" url="ui://2r331opv94956" align="center" vAlign="middle" fill="scaleFree">
+      <gearLook controller="gray" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearIcon controller="quality" pages="0,1,2,3,4" values="ui://2r331opv94956|ui://2r331opv94957|ui://2r331opv94958|ui://2r331opv94959|ui://2r331opv9495a"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n41_ln1d" name="icon_people" src="f4o9z9cnw" fileName="components/general_new/troopGeneralIcon.xml" pkg="2r331opv" xy="4,5" size="74,74" aspect="true">
+      <gearLook controller="gray" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n52_o283" name="down" src="o283z9cnt" fileName="images/images_new/com_select_00.png" pkg="2r331opv" xy="-8,-8" size="102,102" aspect="true">
+      <gearDisplay controller="select" pages="1,3"/>
+    </image>
+    <graph id="n54_o6sy" name="n54" xy="8,65" size="72,14" group="n57_o6sy" alpha="0.7" type="rect" lineSize="0" fillColor="#ff204352">
+      <gearLook controller="gray" pages="0" values="0.7,0,0,1" default="0.7,0,1,1"/>
+    </graph>
+    <list id="n56_o6sy" name="starlist" xy="8,65" size="71,16" group="n57_o6sy" layout="row" selectionMode="none" overflow="hidden" defaultItem="ui://jqem9egto6syz9cqr" align="center" vAlign="middle">
+      <gearLook controller="gray" pages="0" values="1,0,0,1" default="1,0,1,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n57_o6sy" name="star" xy="8,65" size="72,16" advanced="true"/>
+    <component id="n59_o6sy" name="Arms" src="o6syz9cqs" fileName="components/ArmsIcon.xml" xy="66,1">
+      <gearLook controller="gray" pages="0" values="1,0,0,1" default="1,0,1,1"/>
+    </component>
+    <component id="n60_o6sy" name="Level" src="o6syz9cqt" fileName="components/grade.xml" xy="4,4" size="30,16"/>
+    <graph id="n61_frs0" name="n61" xy="0,29" size="86,30" group="n62_frs0" type="rect" lineSize="0" fillColor="#99000000">
+      <gearDisplay controller="inTroops" pages="1"/>
+      <relation target="" sidePair="width-width,top-top"/>
+    </graph>
+    <text id="n64_frs0" name="pos" xy="0,29" size="86,30" group="n62_frs0" fontSize="20" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="部队一">
+      <gearDisplay controller="inTroops" pages="1"/>
+      <relation target="n61_frs0" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n62_frs0" name="n62" xy="0,29" size="86,30"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

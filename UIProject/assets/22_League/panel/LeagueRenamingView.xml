@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <displayList>
+    <component id="n10_m79t" name="bg1" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n102_rb1r" name="n102" src="hdmy1iy5b95" fileName="components/components_new/Popup_bg2.xml" pkg="2r331opv" xy="267,151" group="n116_y4ip"/>
+    <image id="n111_y4ip" name="n111" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="359,306" size="612,39" group="n116_y4ip"/>
+    <text id="n109_y4ip" name="title" xy="563,163" pivot="0.5,0.5" size="208,46" group="n116_y4ip" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="更改联盟名称"/>
+    <text id="n101_rt06" name="txtInput" xy="365,305" size="567,41" group="n116_y4ip" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" autoSize="none" text="" input="true" prompt="[color=#50382E]点击输入，最多输入30字……[/color]" maxLength="16"/>
+    <component id="n114_y4ip" name="resultBtn" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="936,311" size="26,26" group="n116_y4ip" aspect="true">
+      <Button icon="ui://2r331opvvb7khz9czs"/>
+    </component>
+    <text id="n112_y4ip" name="limitLbl" xy="367,272" size="564,32" group="n116_y4ip" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" ubb="true" autoSize="none" singleLine="true" text="您可以输入10个字符"/>
+    <component id="n79_m79t" name="btnSure" src="nnlhhz9d15" fileName="components/components_new/com_btn_buy2.xml" pkg="2r331opv" xy="566,478" size="202,78" group="n116_y4ip">
+      <Button title="创建" titleFontSize="30"/>
+    </component>
+    <text id="n118_dmmm" name="usedLbl" xy="585,354" pivot="0.5,0.5" size="164,29" group="n116_y4ip" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ff4343" text="这个名字已被使用"/>
+    <text id="n119_dmmm" name="tips" xy="385,412" pivot="0.5,0.5" size="563,29" group="n116_y4ip" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#b16d33" align="center" vAlign="middle" autoSize="none" text="名称必须包含 3-4 个字符"/>
+    <component id="n103_rb1r" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="968,138" group="n116_y4ip" scale="0.8,0.8"/>
+    <group id="n116_y4ip" name="n116" xy="267,138" size="800,473" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

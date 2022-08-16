@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="894,106" designImageOffsetX="-876" designImageOffsetY="-90" designImageLayer="1">
+  <controller name="state" pages="3,comp,1,goto,4,doing,0,canReward" selected="1">
+    <remark page="0" value="完成了"/>
+    <remark page="1" value="前往"/>
+    <remark page="2" value="未知"/>
+    <remark page="3" value="可领取"/>
+  </controller>
+  <displayList>
+    <image id="n0_eh0p" name="n0" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="894,106">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <image id="n24_htmu" name="n24" src="htmuhz9cyl" fileName="images/task_bg5.png" xy="9,5" alpha="0.8" color="#97794f"/>
+    <text id="n1_eh0p" name="taskInfor" xy="110,12" size="148,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" leading="0" ubb="true" text="骑兵营升至10级"/>
+    <text id="n4_eh0p" name="txtProgress" xy="255,12" pivot="0,0.5" size="57,29" font="ui://2r331opvlwft3" fontSize="20" color="#50382e" vAlign="middle" ubb="true" text="(8/10)">
+      <relation target="n1_eh0p" sidePair="left-right"/>
+    </text>
+    <list id="n18_nsww" name="resuitList" xy="110,38" size="827,110" scale="0.5,0.5" layout="row" selectionMode="none" overflow="hidden" scroll="horizontal" defaultItem="ui://2r331opvee2ik0" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n10_nrgr" name="Effect_ui_17_TaskItem" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="258,53" touchable="false"/>
+    <component id="n16_z04p" name="typeIcon" src="z04phz9cxi" fileName="components/taskTypeIcon.xml" xy="15,12" scale="0.8,0.8"/>
+    <component id="n19_lcq7" name="btnGoto" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="716,22">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+      <Button title="前往"/>
+    </component>
+    <component id="n20_lcq7" name="complete" src="lcq71qp8vfa" fileName="components/components_new/completedBtn.xml" pkg="2r331opv" xy="760,11">
+      <gearDisplay controller="state" pages="3"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n21_lcq7" name="btnCanReward" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="716,22">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+      <Button title="领取"/>
+    </component>
+    <text id="n23_ptr5" name="progress" xy="748,36" size="99,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#70a33d" text="进行中...">
+      <gearDisplay controller="state" pages="4"/>
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

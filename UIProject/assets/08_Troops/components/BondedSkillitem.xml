@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_o6sy" name="n3" src="h3jujt" fileName="images/images_new/common_frame_quality_0.png" pkg="2r331opv" xy="0,0" size="60,60" aspect="true"/>
+    <loader id="n4_o6sy" name="icon" xy="0,0" pivot="0.5,0.5" size="60,60" rotation="45" url="ui://tvbfx6zpmfnd2" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <graph id="n5_o6sy" name="n5" xy="7,8" size="46,44" alpha="0.2" type="rect" fillColor="#ff000000"/>
+  </displayList>
+  <Button/>
+</component>

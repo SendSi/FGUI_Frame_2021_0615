@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageAlpha="30">
+  <controller name="tab" pages="0,main,1,branch,4," selected="2">
+    <remark page="2" value="每日"/>
+  </controller>
+  <controller name="chapter" pages="0,normal,4,nothing" selected="0"/>
+  <displayList>
+    <component id="n89_lcq7" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_wyws" name="bg" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,56" group="n125_tpy7"/>
+    <component id="n90_lcq7" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1111,60" group="n125_tpy7">
+      <relation target="n2_wyws" sidePair="right-right,top-top"/>
+    </component>
+    <text id="n42_eaah" name="title" xy="379,88" pivot="0.5,0.5" size="583,46" group="n125_tpy7" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="任务"/>
+    <list id="n91_lcq7" name="tab_list" xy="8,160" size="166,360" group="n125_tpy7" lineGap="10" defaultItem="ui://2r331opvebe41qp8vcw" selectionController="tab">
+      <relation target="n2_wyws" sidePair="right-right,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n92_lcq7" name="n92" xy="177,137" size="357,547" group="n63_z04p" url="ui://zezobey9htmuhz9cym" fill="scale" autoSize="true"/>
+    <image id="n62_z04p" name="n62" src="lcq7hz9cxt" fileName="images/task__bg_chapter.png" xy="300,585" group="n63_z04p"/>
+    <text id="n95_lcq7" name="chapterTitle" xy="316,555" size="88,39" group="n63_z04p" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#ffffff" align="center" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="第一章"/>
+    <text id="n17_n1mw" name="taskInfor" xy="299,596" pivot="0.5,0.5" size="124,42" group="n63_z04p" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffe765" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="章节标题"/>
+    <component id="n96_lcq7" name="expla" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="471,177" group="n63_z04p" visible="false"/>
+    <text id="n72_z04p" name="tipsLbl" xy="659,168" pivot="0.5,0.5" size="350,29" group="n88_z04p" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#844d30" align="right" vars="true" singleLine="true" text="完成章节所有任务可领取章节奖励({current=1}/{max=5})"/>
+    <list id="n26_eh0p" name="taskList" xy="550,200" size="574,367" group="n88_z04p" overflow="scroll" lineGap="4" defaultItem="ui://zezobey9z04phz9cxh" autoClearItems="true">
+      <gearDisplay controller="tab" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n88_z04p" name="n88" xy="550,168" size="574,399" group="n63_z04p" advanced="true">
+      <gearDisplay controller="chapter" pages="0"/>
+    </group>
+    <image id="n98_lcq7" name="n98" src="m1hb1ygcgm2" fileName="images/images_new/windowBg_new/negative_bg081.png" pkg="2r331opv" xy="550,572" size="575,108" group="n129_htmu" color="#fff3e0"/>
+    <image id="n130_htmu" name="n130" src="htmuhz9cyn" fileName="images/task_bg6.png" xy="561,568" size="95,119" group="n129_htmu"/>
+    <text id="n97_lcq7" name="award" xy="582,589" pivot="0.5,0.5" size="52,63" group="n129_htmu" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#732b15" leading="0" text="章节&#xA;奖励"/>
+    <list id="n99_lcq7" name="resuitList" xy="655,596" size="492,98" group="n129_htmu" scale="0.6,0.6" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" margin="-8,0,0,0" colGap="1" defaultItem="ui://2r331opvee2ik0" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n101_lcq7" name="complet" xy="972,184" size="95,29" group="n129_htmu" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" strokeColor="#322b64" shadowColor="#322b64" shadowOffset="1,2" text="已完成1/5"/>
+    <component id="n100_lcq7" name="receiveBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="985,597" size="122,52" group="n129_htmu">
+      <Button title="领取" titleFontSize="24"/>
+    </component>
+    <group id="n129_htmu" name="award1" xy="550,184" size="597,510" group="n63_z04p" advanced="true">
+      <gearDisplay controller="chapter" pages="0"/>
+    </group>
+    <group id="n63_z04p" name="tab0" xy="177,137" size="970,557" group="n125_tpy7" advanced="true">
+      <gearDisplay controller="tab" pages="0"/>
+    </group>
+    <image id="n136_rifu" name="n136" src="rifu1ygcfol" fileName="panel/task_bg7.png" xy="269,629" group="n117_lcq7" alpha="0.5"/>
+    <loader3D id="n65_z04p" name="show" xy="292,588" size="100,100" group="n117_lcq7" scale="0.8,0.8" animation="" skin="" loop="true"/>
+    <component id="n118_lcq7" name="taskTip" src="sz9l1ygcfmq" fileName="components/taskBubbling02.xml" xy="255,429" pivot="0.5,0.5" group="n117_lcq7"/>
+    <list id="n104_lcq7" name="taskList2" xy="550,176" size="575,499" group="n117_lcq7" overflow="scroll" lineGap="4" defaultItem="ui://zezobey9z04phz9cxh" autoClearItems="true">
+      <gearDisplay controller="tab" pages="1"/>
+      <gearDisplay2 controller="chapter" pages="0" condition="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n117_lcq7" name="tab1" xy="255,176" size="870,512" group="n125_tpy7" advanced="true">
+      <gearDisplay controller="tab" pages="1"/>
+    </group>
+    <component id="n40_nrgr" name="Effect_ui_17_TaskMainview" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="1273,626" group="n125_tpy7" touchable="false"/>
+    <component id="n51_eaah" name="target" src="eaah6" fileName="components/targetCom.xml" xy="269,213" group="n52_eaah"/>
+    <image id="n121_lcq7" name="n121" src="htmuhz9cyd" fileName="images/task_bg3.png" xy="218,191" group="n128_htmu"/>
+    <text id="n82_z04p" name="dateTitle" xy="235,209" pivot="0.5,0.5" size="84,29" group="n128_htmu" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#60e7ff" vAlign="middle" leading="0" text="当前积分"/>
+    <text id="n83_z04p" name="date" xy="245,228" pivot="0.5,0.5" size="63,66" group="n128_htmu" font="ui://2r331opvno3vhz9d63" fontSize="50" color="#ffffff" align="center" vAlign="middle" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="45"/>
+    <loader id="n122_lcq7" name="icon2" xy="228,184" size="48,48" group="n128_htmu" aspect="true" visible="false" url="ui://tsbe09ddlcq7hz9czn" fill="scale"/>
+    <group id="n128_htmu" name="n128" xy="218,184" size="116,135" group="n52_eaah" advanced="true"/>
+    <image id="n123_lcq7" name="n123" src="bumchz9d7x" fileName="images/images_new/windowBg_new/negative_bg01.png" pkg="2r331opv" xy="943,173" size="161,32" group="n86_z04p"/>
+    <text id="n84_z04p" name="countDown" xy="982,171" size="105,34" group="n86_z04p" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="07:22:15"/>
+    <image id="n85_z04p" name="n85" src="thpvkq" fileName="images/images_new/com_clock.png" pkg="2r331opv" xy="950,175" group="n86_z04p" aspect="true"/>
+    <group id="n86_z04p" name="time" xy="943,171" size="161,34" group="n52_eaah" advanced="true"/>
+    <image id="n127_fwxr" name="n127" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="208,366" size="913,311" group="n52_eaah" alpha="0.2" color="#97794f"/>
+    <list id="n50_eaah" name="targetList" xy="221,380" size="888,293" group="n52_eaah" overflow="scroll" lineGap="4" defaultItem="ui://zezobey9lcq7hz9cxv" autoClearItems="true">
+      <gearDisplay controller="chapter" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n52_eaah" name="tab2" xy="208,171" size="975,506" group="n125_tpy7" advanced="true">
+      <gearDisplay controller="tab" pages="4"/>
+    </group>
+    <image id="n132_n1oz" name="n132" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="721,305" group="n37_gyfa" alpha="0.3" color="#97794f"/>
+    <text id="n34_gyfa" name="tips" xy="611,366" pivot="0.5,0.5" size="446,82" group="n37_gyfa" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" align="center" vAlign="middle" autoSize="height" text="这里打字巴拉玛卡巴卡这里打字巴拉玛卡巴卡这里打字"/>
+    <group id="n37_gyfa" name="nothing" xy="611,305" size="446,222" group="n125_tpy7" advanced="true">
+      <gearDisplay controller="chapter" pages="4"/>
+      <gearDisplay2 controller="tab" pages="0,1" condition="0"/>
+    </group>
+    <image id="n133_hr0y" name="n133" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="556,414" group="n135_hr0y" alpha="0.3" color="#97794f"/>
+    <text id="n134_hr0y" name="tips2" xy="306,497" pivot="0.5,0.5" size="722,42" group="n135_hr0y" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" align="center" vAlign="middle" autoSize="height" text="No task"/>
+    <group id="n135_hr0y" name="nothing2" xy="306,414" size="722,222" group="n125_tpy7" advanced="true">
+      <gearDisplay controller="chapter" pages="4"/>
+      <gearDisplay2 controller="tab" pages="4" condition="0"/>
+    </group>
+    <group id="n125_tpy7" name="window" xy="8,56" size="1315,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n126_r41z" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="598,7">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <transition name="tipUpdate">
+    <item time="0" type="Scale" target="n118_lcq7" tween="true" startValue="1.2,1.2" endValue="1,1" duration="12" ease="Back.Out"/>
+  </transition>
+</component>

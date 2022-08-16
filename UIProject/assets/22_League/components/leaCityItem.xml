@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="293,178" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="stateCtrl" pages="0,,1,,2,,3,,5," selected="0">
+    <remark page="0" value="可攻打"/>
+    <remark page="1" value="xx已占领"/>
+    <remark page="2" value="xx级开启"/>
+    <remark page="3" value="已任命"/>
+    <remark page="4" value="未任命"/>
+  </controller>
+  <controller name="new" pages="0,,1," selected="0">
+    <remark page="0" value="显示"/>
+    <remark page="1" value="不显示"/>
+  </controller>
+  <displayList>
+    <image id="n0_n6uq" name="n0" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="293,178" alpha="0.7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5_n6uq" name="n5" src="bumchz9d7r" fileName="images/images_new/windowBg_new/negative_bg05.png" pkg="2r331opv" xy="12,112" size="268,4" alpha="0.6"/>
+    <loader id="n2_n6uq" name="icon" xy="12,6" size="107,107" aspect="true" url="ui://lp3m5cuhn6uqhz9d6u" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_n6uq" name="title" xy="122,15" size="151,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="1级圣城">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n3_n6uq" name="stateLbl" xy="122,74" size="44,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" vAlign="middle" singleLine="true" text="正常">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n4_n6uq" name="coordinateBtn" src="n6uqhz9d6t" fileName="components/coordinateBtn.xml" xy="122,42"/>
+    <text id="n9_seg5" name="descTxt" xy="12,118" size="264,52" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" autoClearText="true" text="XXXX盟占领">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </text>
+    <text id="n19_l3cb" name="descTxt2" xy="12,118" size="264,52" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" autoClearText="true" text="满足xxx条件">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </text>
+    <component id="n13_d7a6" name="canAttBtn" src="itkw1ygcfkf" fileName="components/components_new/com_btn_00_redPoint.xml" pkg="2r331opv" xy="66,112" scale="0.8,0.8">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="可攻打"/>
+    </component>
+    <component id="n14_d7a6" name="startBtn" src="itkw1ygcfkf" fileName="components/components_new/com_btn_00_redPoint.xml" pkg="2r331opv" xy="66,112" scale="0.8,0.8">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+      <Button title="X级开启"/>
+    </component>
+    <component id="n15_d7a6" name="appiontBtn1" src="itkw1ygcfkf" fileName="components/components_new/com_btn_00_redPoint.xml" pkg="2r331opv" xy="66,112" scale="0.8,0.8">
+      <gearDisplay controller="stateCtrl" pages="5"/>
+      <Button title="任命"/>
+    </component>
+    <text id="n16_d7a6" name="castellanTxt" xy="12,118" size="264,52" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" vAlign="middle" ubb="true" vars="true" autoSize="none" autoClearText="true" text="城主：12345">
+      <gearDisplay controller="stateCtrl" pages="3"/>
+    </text>
+    <text id="n17_d7a6" name="attValueTxt" xy="168,74" size="115,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="征服值:1100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n18_gl2b" name="n18" src="fx9i1ygcfgj" fileName="images/images_new/windowBg_new/new_bg05.png" pkg="2r331opv" xy="228,-2">
+      <gearDisplay controller="new" pages="0"/>
+    </image>
+    <component id="n21_l3cb" name="appiontBtn2" src="itkw1ygcfkf" fileName="components/components_new/com_btn_00_redPoint.xml" pkg="2r331opv" xy="176,118" size="121,52" scale="0.8,0.8">
+      <gearDisplay controller="stateCtrl" pages="3"/>
+      <Button title="更换"/>
+    </component>
+  </displayList>
+  <Button/>
+</component>

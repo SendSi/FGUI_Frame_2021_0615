@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="243,177" pivot="0,0.5" extention="Button" designImage="ui://2r331opvcxixz9cm6" designImageOffsetY="-91">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="redCtrl" pages="0,,1," selected="0"/>
+  <controller name="qualityCtrl" pages="2,,1,,0," selected="0">
+    <remark page="0" value="无"/>
+    <remark page="1" value="SSR"/>
+    <remark page="2" value="UR"/>
+  </controller>
+  <controller name="timeCtrl" pages="1,,0," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <loader id="n3_gww7" name="icon" xy="0,0" size="210,152" aspect="true" url="ui://nf2zagxsgww7hs" fill="scale" color="#b8b8b8">
+      <gearSize controller="button" pages="0,1,2,3" values="210,152,1,1|243,177,1,1|210,152,1,1|243,177,1,1"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#b8b8b8|#ffffff|#b8b8b8|#ffffff"/>
+    </loader>
+    <loader id="n4_gww7" name="head" xy="13,-32" size="188,156" aspect="true" url="ui://nf2zagxsgww7hv" fill="scale" color="#b8b8b8">
+      <gearXY controller="button" pages="0,2" values="13,-32|13,-32" default="14,-38"/>
+      <gearSize controller="button" pages="0,2" values="188,156,1,1|188,156,1,1" default="220,183,1,1"/>
+      <gearColor controller="button" pages="0,2" values="#b8b8b8|#b8b8b8" default="#ffffff"/>
+    </loader>
+    <loader id="n6_v4nb" name="quality" xy="101,76" size="111,50" aspect="true" fill="scale" color="#cccccc">
+      <gearXY controller="button" pages="0,1,2,3" values="101,76|114,86|101,76|114,86"/>
+      <gearSize controller="button" pages="1,3" values="133,60,1,1|133,60,1,1" default="111,50,1,1"/>
+      <gearColor controller="button" pages="0,2" values="#cccccc|#cccccc" default="#ffffff"/>
+      <gearIcon controller="qualityCtrl" pages="2,1" values="|ui://2r331opvgww71qp8ve8" default="ui://2r331opvgww71qp8ve9"/>
+    </loader>
+    <component id="n2_eaah" name="red" src="dix6fm" fileName="components/components_new/red_dot.xml" pkg="2r331opv" xy="187,23">
+      <gearDisplay controller="redCtrl" pages="1"/>
+      <relation target="n3_gww7" sidePair="right-right"/>
+    </component>
+    <image id="n7_v4nb" name="n7" src="a4b91qp8veo" fileName="images/images_new/com_change010.png" pkg="2r331opv" xy="14,102" size="181,23" group="n10_v4nb" alpha="0.7">
+      <gearXY controller="button" pages="1,3" values="14,116|14,116" default="14,102"/>
+      <gearSize controller="button" pages="1,3" values="212,29,1,1|212,29,1,1" default="181,23,1,1"/>
+    </image>
+    <text id="n9_v4nb" name="title" xy="16,97" pivot="0.5,0.5" size="177,34" group="n10_v4nb" font="ui://2r331opvno3vhz9d63" fontSize="17" color="#ff8170" align="center" vAlign="middle" autoSize="none" strokeColor="#390000" strokeSize="2" singleLine="true" autoClearText="true" text="剩余时间：14:25:52">
+      <gearXY controller="button" pages="0,1,2,3" values="16,97|16,114|16,97|16,114"/>
+      <gearSize controller="button" pages="1,3" values="211,34,1,1|211,34,1,1" default="177,34,1,1"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ff8170,#390000|#ff7e7e,#390000|#ff8170,#390000|#ff7e7e,#390000"/>
+      <gearFontSize controller="button" pages="0,2" values="17|17" default="20"/>
+    </text>
+    <group id="n10_v4nb" name="n10" xy="14,97" size="181,34" advanced="true">
+      <gearDisplay controller="timeCtrl" pages="0"/>
+    </group>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

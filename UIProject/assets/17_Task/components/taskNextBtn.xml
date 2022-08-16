@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="146,148">
+  <controller name="chapter" pages="0,pbrIng,1,finishAll" selected="1"/>
+  <displayList>
+    <graph id="n39_plmm" name="n39" xy="30,31" pivot="0.5,0.5" size="84,84" aspect="true" alpha="0.4" rotation="45" type="rect" fillColor="#ff000000">
+      <gearDisplay controller="chapter" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </graph>
+    <component id="n19_n1mw" name="taskBtn" src="n1mwt" fileName="components/components_new/com_btn_square.xml" pkg="2r331opv" xy="0,0">
+      <gearDisplay controller="chapter" pages="0,1"/>
+      <gearLook controller="chapter" pages="0" values="1,0,1,0" default="1,0,0,1"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <text id="n48_eaah" name="titlePbr" xy="23,106" size="102,34" font="ui://2r331opvlwft3" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="11/11"/>
+  </displayList>
+</component>

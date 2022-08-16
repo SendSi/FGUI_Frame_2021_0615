@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="457,68">
+  <displayList>
+    <image id="n283_c68p" name="n283" src="c68p1ygcgms" fileName="images/images_new/com_change015.png" pkg="2r331opv" xy="95,0" size="361,68" group="n287_c68p" alpha="0.8"/>
+    <text id="n284_c68p" name="title" xy="140,4" size="317,54" group="n287_c68p" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" singleLine="true" text="部队配置"/>
+    <component id="n285_c68p" name="explainBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="312,9" size="46,46" group="n287_c68p" aspect="true"/>
+    <component id="n286_c68p" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0" size="135,68" group="n287_c68p"/>
+    <group id="n287_c68p" name="retu" xy="0,0" size="457,68" advanced="true"/>
+  </displayList>
+</component>

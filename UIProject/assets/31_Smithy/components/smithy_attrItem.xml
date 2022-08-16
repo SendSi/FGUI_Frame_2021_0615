@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="430,34" overflow="hidden">
+  <displayList>
+    <text id="n1_b2gg" name="attrname" xy="1,0" size="52,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" ubb="true" autoClearText="true" text="攻击"/>
+    <text id="n2_b2gg" name="number" xy="327,0" pivot="1,0" size="104,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#70a33d" align="right" ubb="true" autoSize="none" autoClearText="true" text="+100"/>
+  </displayList>
+</component>

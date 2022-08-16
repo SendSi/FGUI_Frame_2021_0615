@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="401,105" designImageOffsetX="-869" designImageOffsetY="-99">
+  <displayList>
+    <text id="n71_t4b3" name="skillName" xy="81,6" size="170,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="技能名称"/>
+    <text id="n78_d8di" name="costNum" xy="81,32" size="218,61" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#74d0ff" leading="-2" ubb="true" autoSize="none" autoClearText="true" text="消耗：&#xA;紫色通用雕像（2000/2000）&#xA;神器（2000/2000）"/>
+    <component id="n73_t4b3" name="n73" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="289,24" size="104,44">
+      <Button title="强化" titleFontSize="24"/>
+    </component>
+    <component id="n74_d8di" name="icon" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="13,5"/>
+    <image id="n80_hxd7" name="n80" src="fz63hz9cnk" fileName="images/images_new/line_00.png" pkg="2r331opv" xy="11,92" size="378,4" alpha="0.6"/>
+  </displayList>
+</component>

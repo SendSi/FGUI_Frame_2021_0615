@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="321,90" mask="n0_ijrt">
+  <displayList>
+    <graph id="n0_ijrt" name="n0" xy="0,0" size="321,96" type="rect"/>
+    <image id="n1_ijrt" name="n1" src="aibb2o" fileName="images/common_lines_2(1).png" pkg="2r331opv" xy="143,-34" alpha="0.25" grayed="true"/>
+  </displayList>
+</component>

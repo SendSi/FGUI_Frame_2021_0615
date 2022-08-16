@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="119,76" extention="Button">
+  <controller name="hide" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n2_692j" name="icon" xy="0,0" size="119,76" url="ui://340eighf8klu1ygcffg" autoSize="true">
+      <gearDisplay controller="hide" pages="0"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

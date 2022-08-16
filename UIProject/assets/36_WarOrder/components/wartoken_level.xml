@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="153,142" extention="Button">
+  <displayList>
+    <image id="n0_ld4m" name="bg" src="g4yj1ygcfho" fileName="images/com_icon_token.png" xy="0,0"/>
+    <text id="n1_ld4m" name="title" xy="43,58" pivot="0.5,0.5" size="46,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="2,2" autoClearText="true" text="999"/>
+  </displayList>
+  <Button/>
+</component>

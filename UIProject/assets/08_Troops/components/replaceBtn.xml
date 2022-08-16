@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="42,252" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_q4hl" name="n6" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="-1,-1" size="43,254">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4_q4hl" name="n4" src="jmaehz9cuv" fileName="images/images_new/com_btn_arrow02.png" pkg="2r331opv" xy="31,110" rotation="90">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n5_q4hl" name="n5" src="jmaehz9cuv" fileName="images/images_new/com_btn_arrow02.png" pkg="2r331opv" xy="8,143" rotation="-90">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

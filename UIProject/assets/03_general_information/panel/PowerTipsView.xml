@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <displayList>
+    <component id="n2_eznb" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_eznb" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n4_eznb" name="n4" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="449,112" size="435,531" group="n9_eznb"/>
+    <image id="n5_eznb" name="n5" src="za6y1ygcgmn" fileName="images/images_new/windowBg_new/welfare_btn_bg23.png" pkg="2r331opv" xy="522,137" pivot="0.5,0.5" size="290,39" group="n9_eznb" alpha="0.9"/>
+    <text id="n7_eznb" name="title" xy="581,137" pivot="0.5,0.5" size="172,39" group="n9_eznb" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#845744" leading="2" text="当前属性一阅"/>
+    <list id="n8_eznb" name="lsit" xy="485,191" size="364,418" group="n9_eznb" overflow="scroll" lineGap="9" defaultItem="ui://4hio38umeznb1iy5bbh" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n9_eznb" name="n9" xy="449,112" size="435,531" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

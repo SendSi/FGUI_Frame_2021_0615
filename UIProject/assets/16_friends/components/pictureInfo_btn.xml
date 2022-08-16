@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,50" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_lhad" name="n0" src="9495z" fileName="images/common_btn_main_1.png" pkg="2r331opv" xy="0,0" size="170,50">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_lhad" name="title" xy="0,0" size="170,50" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

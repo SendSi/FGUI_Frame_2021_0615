@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="850,550">
+  <displayList>
+    <image id="n3_9232" name="window" src="wgale" fileName="images/LimitGift_bg.png" xy="0,21" group="n27_pgai"/>
+    <text id="n23_wgal" name="orderTxt" xy="136,54" size="287,93" group="n27_pgai" font="ui://jylg23gnq0t11ygcgni" fontSize="20" color="#ffffff" leading="0" text="700%"/>
+    <text id="n5_9232" name="descTxt" xy="49,162" size="431,84" group="n27_pgai" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" leading="-5" ubb="true" autoSize="none" text="恭喜主城等级达到6级，我们为您准备了超值礼包，帮助您快速升级城内建筑~"/>
+    <list id="n14_9232" name="list" xy="45,285" size="701,145" group="n27_pgai" scale="0.7,0.7" layout="row" overflow="scroll" scroll="horizontal" colGap="8" defaultItem="ui://2r331opvj842hz9cyi" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n13_9232" name="lbl" xy="49,260" size="224,29" group="n27_pgai" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" ubb="true" text="购买限时礼包可立即获得"/>
+    <text id="n20_p1pr" name="timeTxt" xy="155,387" pivot="0.5,0.5" size="188,29" group="n27_pgai" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" ubb="true" shadowColor="#000000" shadowOffset="1,1" text="01:00:00后礼包消失"/>
+    <component id="n28_pgai" name="btnYes" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="335,441" group="n27_pgai">
+      <Button title="30元" titleFontSize="36"/>
+    </component>
+    <image id="n22_wgal" name="n22" src="wgald" fileName="images/LimitGift_light.png" xy="79,0" group="n27_pgai"/>
+    <group id="n27_pgai" name="n27" xy="0,0" size="851,551" advanced="true"/>
+  </displayList>
+</component>

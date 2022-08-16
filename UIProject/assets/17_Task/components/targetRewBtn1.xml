@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" pivot="0.5,0.5" extention="Button" designImage="ui://zezobey9z04phz9cxk" designImageOffsetX="-445" designImageOffsetY="-585">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <controller name="canPick" pages="0,,1," selected="0">
+    <remark page="0" value="不"/>
+    <remark page="1" value="可"/>
+  </controller>
+  <displayList>
+    <image id="n9_htmu" name="n9" src="htmuhz9cye" fileName="images/task_bg2_sel.png" xy="1,1" size="75,75" aspect="true">
+      <gearDisplay controller="button" pages="1,3"/>
+      <gearDisplay2 controller="canPick" pages="1" condition="1"/>
+    </image>
+    <image id="n8_fwxr" name="n8" src="fwxrhz9cyb" fileName="images/task_bg2.png" xy="13,13"/>
+    <loader id="n4_eaah" name="icon" xy="20,19" size="72,72" aspect="true" scale="0.6,0.6" url="ui://tsbe09ddlcfj11" align="center" vAlign="middle" fill="scale"/>
+    <text id="n10_htmu" name="title" xy="44,44" size="25,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="10"/>
+  </displayList>
+  <Button/>
+</component>

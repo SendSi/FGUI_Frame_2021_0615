@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="179,143" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n3_rr0d" name="icon" xy="0,0" size="179,143" aspect="true" url="ui://sinorujtm0zo1ygcfse" align="center" vAlign="middle" fill="scale" autoSize="true">
+      <gearIcon controller="state" pages="0,1,2" values="ui://sinorujtm0zo1ygcfse|ui://340eighf8klu1ygcffq|ui://340eighf8klu1ygcffr"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

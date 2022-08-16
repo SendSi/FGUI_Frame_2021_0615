@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="203,87">
+  <displayList>
+    <text id="n162_riwy" name="title" xy="0,0" size="40,26" group="n168_riwy" fontSize="18" color="#ffffff" autoClearText="true" text="主将"/>
+    <list id="n153_a9mm" name="passive1" xy="2,23" size="201,64" group="n168_riwy" layout="row" scroll="horizontal" colGap="5" defaultItem="ui://jqem9egtouggz9crz" foldInvisibleItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n168_riwy" name="zhu" xy="0,0" size="203,87" advanced="true"/>
+  </displayList>
+  <relation target="n153_a9mm" sidePair="rightext-right"/>
+</component>

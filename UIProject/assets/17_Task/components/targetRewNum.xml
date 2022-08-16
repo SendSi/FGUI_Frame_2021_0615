@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="48,30" designImageOffsetX="-449" designImageOffsetY="-283">
+  <controller name="picked" pages="0,,1," selected="0">
+    <remark page="0" value="未领取"/>
+    <remark page="1" value="已领取"/>
+  </controller>
+  <displayList>
+    <loader id="n2_eaah" name="icon" xy="0,6" size="48,24" aspect="true" url="ui://zezobey9htmuhz9cyh" align="center" vAlign="middle" fill="scale" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n3_eaah" name="title" xy="1,4" pivot="0.5,0.5" size="48,30" font="ui://2r331opvno3vhz9d63" fontSize="19" color="#a25d1b" align="center" autoSize="none" text="20">
+      <gearDisplay controller="picked" pages="0"/>
+    </text>
+    <image id="n0_eaah" name="n0" src="klrg1qp8vd5" fileName="images/images_new/com_btn_correct.png" pkg="2r331opv" xy="9,-2" scale="0.4,0.4">
+      <gearDisplay controller="picked" pages="1"/>
+    </image>
+  </displayList>
+</component>

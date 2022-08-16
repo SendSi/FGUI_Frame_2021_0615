@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="142,90" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="1,,2," selected="0">
+    <remark page="0" value="左"/>
+    <remark page="1" value="右"/>
+  </controller>
+  <controller name="prop" pages="1,,0," selected="1">
+    <remark page="0" value="道具"/>
+    <remark page="1" value="英雄"/>
+  </controller>
+  <displayList>
+    <loader id="n5_bv45" name="bg" xy="26,0" size="90,90" url="ui://e1uzapmrbv451" fill="scaleMatchWidth" autoSize="true"/>
+    <image id="n7_oxoc" name="arrow" src="oxoc1iy5bgc" fileName="images/glory_arrow.png" xy="105,19">
+      <gearDisplay controller="state" pages="2"/>
+    </image>
+    <component id="n6_ejjd" name="iconT" src="ejjd1iy5bg0" fileName="components/glory_hero.xml" xy="35,9">
+      <gearDisplay controller="prop" pages="0"/>
+    </component>
+    <image id="n11_clbo" name="n11" src="olsq1iy5bgh" fileName="images/glory_icon01.png" xy="42,14">
+      <gearDisplay controller="prop" pages="1"/>
+    </image>
+    <image id="n9_olsq" name="arrow_left" src="oxoc1iy5bgc" fileName="images/glory_arrow.png" xy="0,19" flip="hz">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".96"/>
+</component>

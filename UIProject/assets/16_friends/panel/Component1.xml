@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,58">
+  <displayList>
+    <component id="n53_lhtp" name="n53" src="94951z" fileName="components/common_btn_main.xml" pkg="2r331opv" xy="0,0" size="170,58">
+      <Button title="申请列表"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="564,345" opaque="false" extention="Label" initName="frame" designImageOffsetX="-386" designImageOffsetY="-210" designImageAlpha="39">
+  <displayList>
+    <image id="n93_ine1" name="arrow" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="19,169" pivot="0.5,0.5" anchor="true" rotation="90"/>
+    <image id="n2_r616" name="n2" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="30,46" size="503,250" group="n23_r616"/>
+    <text id="n5_r616" name="resLandName" xy="116,76" pivot="0.5,0.5" size="331,42" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#845744" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="[12345]这里"/>
+    <component id="n53_khxe" name="shareBtn" src="7so91qp8vi9" fileName="components/cornerBtn.xml" pkg="2r331opv" xy="97,21" size="70,100" group="n23_r616" scale="0.8,0.8">
+      <Button icon="ui://2r331opvnvnv1qp8vi2"/>
+    </component>
+    <component id="n54_khxe" name="collectionBtn" src="7so91qp8vi9" fileName="components/cornerBtn.xml" pkg="2r331opv" xy="43,21" size="70,100" group="n23_r616" scale="0.8,0.8"/>
+    <image id="n9_r616" name="n9" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" xy="53,131" size="458,53" group="n23_r616" alpha="0.3" color="#97794f"/>
+    <component id="n31_qmkc" name="backBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="201,204" group="n23_r616">
+      <Button title="前往"/>
+    </component>
+    <text id="n6_r616" name="coordTitle" xy="97,139" size="402,36" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#97794f" autoSize="none" autoClearText="true" text="X:129 Y:93"/>
+    <loader id="n91_ine1" name="icon_map" xy="67,143" size="40,40" group="n23_r616" scale="0.7,0.7" url="ui://ufsajnnzihid1ygcfmt" autoSize="true" color="#97794f"/>
+    <group id="n23_r616" name="n23" xy="30,21" size="503,275"/>
+  </displayList>
+  <relation target="n2_r616" sidePair="height-height"/>
+</component>

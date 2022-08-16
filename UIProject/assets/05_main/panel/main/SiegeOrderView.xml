@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="386,464" opaque="false" extention="Label" initName="frame">
+  <displayList>
+    <image id="n25_p9k9" name="n25" src="hxd7hz9d7g" fileName="images/images_new/com_bg_tips00.png" pkg="2r331opv" xy="0,0" size="386,464"/>
+    <image id="n27_p9k9" name="n27" src="p9k91ygcfkt" fileName="images4/mainhud_bg_hw1.png" xy="25,13"/>
+    <text id="n26_p9k9" name="title" xy="62,13" size="262,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="攻城令"/>
+    <loader id="n28_p9k9" name="icon" xy="146,73" size="94,94" url="ui://tsbe09ddmz4w8" autoSize="true"/>
+    <text id="n29_p9k9" name="current" xy="111,176" size="164,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="当前拥有：[color=#ff4343]0/10[/color]"/>
+    <text id="n30_p9k9" name="restore" xy="93,200" size="199,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#94e957" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="10:10后恢复1点"/>
+    <graph id="n31_p9k9" name="n31" xy="26,237" size="334,200" alpha="0.4" type="rect" lineSize="2" lineColor="#ff49515b" fillColor="#ff000000"/>
+    <text id="n32_p9k9" name="brief" xy="31,241" size="36,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#9f9898" align="center" vAlign="middle" text="简介"/>
+    <text id="n33_p9k9" name="durable" xy="179,241" size="175,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#9f9898" align="right" vAlign="middle" ubb="true" vars="true" autoSize="none" autoClearText="true" text="已打下耐久度：[color=#ff4343]{count=0}[/color]"/>
+    <component id="n41_pb7c" name="describeTxt1" src="pb7c1ygcfky" fileName="panel/panel_new/component/SiegeOrderViewDescText.xml" xy="30,265"/>
+    <text id="n35_p9k9" name="way" xy="31,325" size="68,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#9f9898" align="center" vAlign="middle" text="获取途径"/>
+    <text id="n36_p9k9" name="describeTxt2" xy="31,345" size="324,69" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" autoSize="none" autoClearText="true" text="每日5点重置，购买的攻城令不会被重置， 攻城令上限和主城等级有关 每日可免费领取1次攻城令"/>
+    <component id="n39_p9k9" name="wayBtn" src="p9k91ygcfll" fileName="components/components_new/com_btn_lbl_lines2.xml" pkg="2r331opv" xy="284,407" size="71,25">
+      <Button title="前往途径" titleColor="#b16d33" titleFontSize="16"/>
+    </component>
+  </displayList>
+</component>

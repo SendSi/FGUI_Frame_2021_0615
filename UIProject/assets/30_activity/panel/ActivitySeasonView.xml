@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="活动时间内"/>
+    <remark page="1" value="下一赛季"/>
+  </controller>
+  <controller name="draw" pages="0,,1," selected="0">
+    <remark page="0" value="可领取"/>
+    <remark page="1" value="不可领取"/>
+  </controller>
+  <displayList>
+    <component id="n6_w84w" name="n6" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n105_g6ic" name="preview" src="pdfthz9cyr" fileName="images/new/activity_bg_strife.jpg" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n134_cchf" name="n134" src="hxd7hz9d7j" fileName="images/images_new/title_bg01.png" pkg="2r331opv" xy="95,0" size="361,62" alpha="0.8"/>
+    <list id="n76_g6ic" name="icon_list" xy="42,143" size="95,369" selectionMode="none" overflow="scroll" lineGap="20" defaultItem="ui://sinorujtp9k91ygcflm" align="center">
+      <gearDisplay controller="state" pages="0"/>
+      <item/>
+      <item title="天下局势" icon="ui://sinorujtp9k91ygcfjb"/>
+      <item title="赛季说明" icon="ui://sinorujths5t1ygcfmk"/>
+    </list>
+    <text id="n108_swun" name="title" xy="146,6" size="84,54" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#ffffff" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="3,3" text="赛季"/>
+    <component id="n111_p9k9" name="closeBtn" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0"/>
+    <component id="n112_p9k9" name="explainBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="240,4" size="81,58" scale="0.8,0.8"/>
+    <list id="n117_p9k9" name="customs_list" xy="0,586" size="1334,126" layout="row" overflow="scroll" scroll="horizontal" colGap="-50" defaultItem="ui://sinorujtp9k91ygcfjg" autoClearItems="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="width-width"/>
+      <item title="招兵买马"/>
+      <item title="烽火四起"/>
+      <item title="血月召唤"/>
+      <item title="重返荣光"/>
+      <item title="同心协力"/>
+      <item title="浴血奋战"/>
+      <item title="全军出击"/>
+      <item title="战无不胜"/>
+      <item/>
+    </list>
+    <image id="n114_p9k9" name="n114" src="p9k91ygcfj9" fileName="images/new/activity_bg1.png" xy="336,333" pivot="0.5,0.5" size="731,112" group="n119_p9k9" alpha="0.5" color="#000000"/>
+    <text id="n115_p9k9" name="overTxt" xy="534,341" size="334,42" group="n119_p9k9" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffffff" align="center" text="当前赛季全部阶段已结束"/>
+    <text id="n116_p9k9" name="nexttime" xy="515,389" pivot="0.5,0.5" size="377,34" group="n119_p9k9" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="下一赛季倒计时：01:55:59"/>
+    <group id="n119_p9k9" name="state1" xy="336,333" size="731,112" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <image id="n120_p9k9" name="n120" src="hxd7hz9d7i" fileName="images/images_new/com_bg_tips02_mask2.png" pkg="2r331opv" xy="865,279" size="450,134" group="n130_p9k9"/>
+    <text id="n121_p9k9" name="present" xy="877,295" size="220,34" group="n130_p9k9" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoClearText="true" text="当前阶段：血月召唤"/>
+    <text id="n122_p9k9" name="remainingtime" xy="1129,300" size="151,24" group="n130_p9k9" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" autoClearText="true" text="剩余时间：10:11:22">
+      <relation target="n121_p9k9" sidePair=""/>
+    </text>
+    <image id="n124_p9k9" name="n124" src="bumchz9d7r" fileName="images/images_new/windowBg_new/negative_bg05.png" pkg="2r331opv" xy="880,330" size="418,4" group="n130_p9k9" color="#6794d0"/>
+    <text id="n123_p9k9" name="describeTxt" xy="877,339" size="424,49" group="n130_p9k9" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" autoSize="none" autoClearText="true" text="内容描述，最多两行，内容描述，最多两行， 内容描述，最多两行，内容描述，最多两行，">
+      <relation target="n121_p9k9" sidePair=""/>
+    </text>
+    <image id="n125_p9k9" name="n125" src="hxd7hz9d7i" fileName="images/images_new/com_bg_tips02_mask2.png" pkg="2r331opv" xy="866,432" size="450,134" group="n130_p9k9"/>
+    <text id="n126_p9k9" name="target" xy="877,448" size="76,34" group="n130_p9k9" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" text="目标："/>
+    <text id="n127_p9k9" name="occupy" xy="940,450" size="350,29" group="n130_p9k9" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" ubb="true" autoSize="none" autoClearText="true" text="结束时联盟占领任意4级城市[color=#ff4343]0[/color]/1"/>
+    <list id="n128_p9k9" name="award_list" xy="883,482" size="476,118" group="n130_p9k9" scale="0.6,0.6" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://2r331opvee2ik0" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n129_p9k9" name="receiveBtn" src="e9mlkf" fileName="components/components_new/com_btn_buy.xml" pkg="2r331opv" xy="1178,491" size="121,52" group="n130_p9k9">
+      <gearLook controller="draw" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title="领取" titleFontSize="20"/>
+    </component>
+    <group id="n130_p9k9" name="state0" xy="865,279" size="494,321" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <component id="n106_ir0w" name="effectHolder" src="ir0whz9czf" fileName="components/EffectHolder.xml" xy="639,187"/>
+    <graph id="n110_7t2q" name="mask" xy="0,0" size="1334,750" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n113_p9k9" name="n113" src="hqarz9co6" fileName="images/images_new/com_change08.png" pkg="2r331opv" xy="551,210" size="297,28" group="n133_oe5u" alpha="0.7" color="#000000"/>
+    <text id="n109_swun" name="time" xy="618,212" size="163,24" group="n133_oe5u" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoClearText="true" text="2021.10.1-2022.10.1"/>
+    <group id="n133_oe5u" name="time1" xy="551,210" size="297,28" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

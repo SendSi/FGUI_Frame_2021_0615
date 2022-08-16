@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600">
+  <displayList>
+    <loader3D id="n69_ob8p" name="n69" xy="-670,-769" size="1445,1485" url="ui://dhoj786wob8pks" animation="" skin="" loop="true"/>
+    <loader3D id="n70_ob8p" name="n70" xy="120,-196" size="958,800" url="ui://dhoj786wob8pkl" animation="" skin="" loop="true"/>
+    <loader3D id="n71_ob8p" name="n71" xy="-576,-823" size="1445,1485" url="ui://dhoj786wob8pkv" animation="" skin="" loop="true"/>
+    <loader3D id="n72_ob8p" name="n72" xy="-149,-179" size="664,683" url="ui://dhoj786wob8pkz" animation="" skin="" loop="true"/>
+    <loader3D id="n73_ob8p" name="n73" xy="-164,-153" size="664,683" url="ui://dhoj786wob8pl3" animation="" skin="" loop="true"/>
+    <loader3D id="n74_ob8p" name="n74" xy="143,-304" size="639,864" url="ui://dhoj786wob8pl9" animation="" skin="" loop="true"/>
+    <loader3D id="n75_ob8p" name="n75" xy="-156,-222" size="754,719" url="ui://dhoj786wob8pl6" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

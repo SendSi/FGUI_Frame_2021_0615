@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="124,33" pivot="0.89,0.5" anchor="true" extention="Button" designImage="ui://lp3m5cuhgzju9cik" designImageOffsetX="-975" designImageOffsetY="-483">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_gzju" name="n0" src="12fw9chx" fileName="images/league_writel.png" xy="95,2"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="tab" pages="0,,2,,1," selected="0"/>
+  <displayList>
+    <image id="n0_g6y7" name="bg" src="c92hhz9cum" fileName="images/bg_new/bg6.jpg" pkg="2r331opv" xy="-168,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n1_g6y7" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="8,9" visible="false">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </component>
+    <component id="n10_g6y7" name="tab02" src="g6y72c" fileName="components/plate03.xml" xy="92,234" group="n12_g6y7">
+      <Button sound="ui://2r331opvu9ouh7" controller="tab" page="2"/>
+    </component>
+    <component id="n9_g6y7" name="tab03" src="g6y72b" fileName="components/plate02.xml" xy="608,223" size="595,398" group="n12_g6y7">
+      <Button sound="ui://2r331opvu9ouh7" controller="tab" page="1"/>
+    </component>
+    <component id="n8_g6y7" name="tab01" src="g6y72a" fileName="components/plate01.xml" xy="312,124" group="n12_g6y7">
+      <Button checked="true" sound="ui://2r331opvu9ouh7" controller="tab" page="0"/>
+    </component>
+    <component id="n31_qqk5" name="tab04" src="g6y72d" fileName="components/plate04.xml" xy="423,285" group="n12_g6y7"/>
+    <group id="n12_g6y7" name="n12" xy="92,124" size="1111,497" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <text id="n18_c92h" name="title_2" xy="406,647" size="190,92" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffd76c" autoSize="none" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="木材产量  +10%">
+      <gearText controller="tab" pages="0,2,1" values="木材产量  +10%|木材产量  +10%|木材产量  +10%"/>
+    </text>
+    <richtext id="n21_c92h" name="title_3" xy="794,647" size="190,32" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffd76c" autoSize="none" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="图标  1000">
+      <gearIcon controller="tab" default=""/>
+    </richtext>
+    <text id="n22_c92h" name="title_4" xy="301,645" size="192,34" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoSize="none" shadowColor="#000000" shadowOffset="1,2" singleLine="true" text="属性加成"/>
+    <text id="n23_c92h" name="title_5" xy="662,644" size="192,34" visible="false" font="ui://2r331opvlwft3" fontSize="24" color="#ffffff" autoSize="none" shadowColor="#000000" shadowOffset="1,2" singleLine="true" text="推荐州奖励"/>
+    <image id="n29_nfva" name="n29" src="nfva3b" fileName="images/icon_001.png" xy="261,640" visible="false"/>
+    <image id="n30_nfva" name="n30" src="nfva3c" fileName="images/icon_002.png" xy="608,640" visible="false"/>
+    <component id="n25_c92h" name="enter" src="b9bj5m" fileName="components/intoBtn.xml" xy="942,640" group="n27_ilfe" pkg="2r331opv">
+      <relation target="" sidePair="right-right"/>
+      <Button title="进入" titleFontSize="40" sound="ui://2r331opvu9ouhn" volume="40"/>
+    </component>
+    <component id="n26_ilfe" name="EffectRoot_01" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="1172,650" group="n27_ilfe" touchable="false">
+      <relation target="n25_c92h" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n27_ilfe" name="n27" xy="942,640" size="318,85"/>
+    <image id="n16_c92h" name="bg_02" src="b9bj5l" fileName="images/land_bg.png" xy="0,9" group="n32_b9bj"/>
+    <loader id="n14_c92h" name="title_bg" xy="92,20" size="211,63" group="n32_b9bj" url="ui://byy9k3ghc92h2j">
+      <gearIcon controller="tab" pages="0,2,1" values="ui://byy9k3ghc92h2j|ui://byy9k3ghc92h2i|ui://byy9k3ghc92h2h"/>
+    </loader>
+    <text id="n15_c92h" name="title_1" xy="93,97" size="392,93" group="n32_b9bj" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffd76c" leading="0" autoSize="none" shadowColor="#000000" shadowOffset="1,2" text="黎明海岸描述：里住着一些神秘的精灵族">
+      <gearText controller="tab" pages="0,2,1" values="黎明海岸描述：里住着一些神秘的精灵族|神罚森林描述：这里住着一些神秘的精灵族|澜川平原描述：这里住着一些神秘的精灵族"/>
+    </text>
+    <group id="n32_b9bj" name="n32" xy="0,9" size="485,181" advanced="true"/>
+  </displayList>
+  <transition name="t2" autoPlay="true">
+    <item time="0" type="XY" target="n25_c92h" tween="true" startValue="942,777" endValue="942,640" duration="6" ease="Back.Out"/>
+    <item time="0" type="XY" target="n32_b9bj" value="-1,-168"/>
+    <item time="0" type="XY" target="n32_b9bj" tween="true" startValue="0,-168" endValue="-1,27" duration="6" path="2,0,0,1,75,2,270,1,2,-1,195,-8.074339,18.14153,0,0,1"/>
+  </transition>
+</component>

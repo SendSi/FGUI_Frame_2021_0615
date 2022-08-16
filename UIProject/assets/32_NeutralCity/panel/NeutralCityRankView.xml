@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="tab2" pages="0,,1," selected="1">
+    <remark page="0" value="攻城奖励"/>
+    <remark page="1" value="攻城排行榜"/>
+  </controller>
+  <displayList>
+    <component id="n6_w84w" name="n6" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n67_g6ic" name="n67" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="111,38" group="n8_w84w"/>
+    <component id="n81_o7ws" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1152,42" size="80,80" group="n8_w84w"/>
+    <text id="n82_ebe4" name="title" xy="396,70" pivot="0.5,0.5" size="596,46" group="n8_w84w" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="攻城排行榜"/>
+    <loader id="n84_ebe4" name="bg" xy="214,133" size="964,510" group="n8_w84w" url="ui://qnrrapjrsvx3hz9d6j"/>
+    <loader3D id="n119_p7it" name="role02" xy="377,538" pivot="0.5,0.5" size="183,117" group="n8_w84w" scale="0.75,0.75" url="ui://SpinePackage/general_006" animation="" skin=""/>
+    <image id="n121_p7it" name="n121" src="s3vb1ygcfe6" fileName="images/bg23.png" xy="694,143" size="474,492" group="n116_p7it" alpha="0.5">
+      <gearDisplay controller="tab2" pages="1"/>
+    </image>
+    <image id="n122_p7it" name="n122" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="708,154" size="448,33" group="n116_p7it" color="#000000">
+      <gearDisplay controller="tab2" pages="1"/>
+    </image>
+    <image id="n118_p7it" name="n118" src="svx3hz9d6t" fileName="images/mvp_bg.png" xy="553,153" size="127,83" group="n116_p7it" aspect="true"/>
+    <image id="n114_p7it" name="n114" src="bumchz9d7t" fileName="images/images_new/windowBg_new/negative_bg07.png" pkg="2r331opv" xy="309,573" size="281,50" group="n116_p7it" alpha="0.8"/>
+    <text id="n115_p7it" name="nameLbl01" xy="351,581" pivot="0.5,0.5" size="196,34" group="n116_p7it" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" strokeColor="#ad855b" strokeSize="2" autoClearText="true" text="玩家名字有八个字"/>
+    <list id="n120_p7it" name="SiegeReward_list" xy="690,153" size="463,483" group="n116_p7it" overflow="scroll" lineGap="9" defaultItem="ui://qnrrapjrp7it1ygcfep">
+      <gearDisplay controller="tab2" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n123_p7it" name="rankinglist" xy="704,189" size="454,444" group="n116_p7it" overflow="scroll" defaultItem="ui://qnrrapjrp7it1ygcfer">
+      <gearDisplay controller="tab2" pages="1"/>
+      <item icon="ui://2r331opvsvx3hz9d75"/>
+      <item icon="ui://2r331opvsvx3hz9d76"/>
+      <item icon="ui://2r331opvsvx3hz9d77"/>
+      <item title="4"/>
+      <item title="5"/>
+      <item title="6"/>
+      <item title="7"/>
+      <item title="8"/>
+      <item title="9"/>
+      <item title="10"/>
+      <item title="11"/>
+      <item title="12"/>
+    </list>
+    <text id="n124_p7it" name="describeLbl02" xy="730,155" size="380,32" group="n116_p7it" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#8ef3ff" align="center" text="排名                  执政官                      攻城值">
+      <gearDisplay controller="tab2" pages="1"/>
+    </text>
+    <group id="n116_p7it" name="tab2" xy="309,143" size="859,493" group="n8_w84w" advanced="true"/>
+    <list id="n112_p7it" name="tab_list2" xy="42,135" size="166,360" group="n8_w84w" overflow="hidden" lineGap="10" defaultItem="ui://2r331opvebe41qp8vcw" selectionController="tab2">
+      <item title="攻城奖励" name="联盟奖励"/>
+      <item title="攻城排行榜"/>
+    </list>
+    <group id="n8_w84w" name="activity" xy="42,38" size="1249,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

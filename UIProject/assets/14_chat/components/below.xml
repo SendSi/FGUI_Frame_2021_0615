@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="656,87">
+  <controller name="switch" pages="0,,1," selected="0"/>
+  <controller name="expression" pages="0,,1," selected="0"/>
+  <controller name="tab" pages="0,system,1,world,2,state,3,ally,4,friend,5,battle" selected="0"/>
+  <displayList>
+    <component id="n18_rbib" name="Button_switch" src="rbib12" fileName="components/Button_switch.xml" xy="-6,13">
+      <gearIcon controller="switch" pages="0,1" values="ui://62wjs2s2g01im|ui://62wjs2s2g01io"/>
+      <Button icon="ui://62wjs2s2g01im" controller="switch" page="1"/>
+    </component>
+    <component id="n29_gu0z" name="Button_voice" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="106,7" size="529,73">
+      <gearDisplay controller="switch" pages="1"/>
+      <Button title="按住说话" titleFontSize="28"/>
+    </component>
+    <image id="n19_rbib" name="n19" src="r9f635" fileName="images/chat_btn02.png" xy="68,-1" size="308,88" group="n26_gu0z" color="#a4d2ff"/>
+    <component id="n20_rbib" name="Button_speak" src="rbib13" fileName="components/Button_expression.xml" xy="354,14" group="n26_gu0z">
+      <Button controller="expression" page="1"/>
+    </component>
+    <component id="n22_rbib" name="Button_prop" src="rbib14" fileName="components/Button_prop.xml" xy="84,24" group="n26_gu0z">
+      <gearDisplay controller="tab" pages="0,1"/>
+    </component>
+    <component id="n36_n7us" name="Button_hair" src="e7jj1ygcfh5" fileName="components/sendOutBtn.xml" xy="438,5" size="201,73" group="n26_gu0z">
+      <Button title="发送" titleFontSize="28"/>
+    </component>
+    <text id="n25_gu0z" name="title_input" xy="136,14" size="225,60" group="n26_gu0z" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#a0d8f0" leading="0" autoSize="none" text="" input="true" prompt="点击输入文字...（最多30个文字）">
+      <gearXY controller="tab" pages="0,1,2,3,4" values="136,14|136,14|89,13|89,13|89,13" default="136,14"/>
+      <gearSize controller="tab" pages="0,1,2,3,4" values="225,60,1,1|225,60,1,1|267,62,1,1|267,62,1,1|267,62,1,1" default="225,60,1,1"/>
+    </text>
+    <group id="n26_gu0z" name="input" xy="68,-1" size="571,88" advanced="true">
+      <gearDisplay controller="switch" pages="0"/>
+    </group>
+    <component id="n30_dslz" name="n30" src="dslz1h" fileName="components/voice_wavelength.xml" xy="234,-414">
+      <gearDisplay controller="switch" pages="1"/>
+    </component>
+    <component id="n33_dslz" name="Button" src="g01iq" fileName="components/components_new/Button_chose.xml" pkg="2r331opv" xy="467,-368" pivot="0.007,0.5" group="n35_dslz" aspect="true" rotation="-90">
+      <relation target="" sidePair="right-right"/>
+      <Button controller="expression" page="0"/>
+    </component>
+    <image id="n32_dslz" name="bg" src="yhldz9coj" fileName="images/images_new/com_bg_tips03.png" pkg="2r331opv" xy="48,-297" size="527,299" group="n35_dslz">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n34_dslz" name="content" xy="84,-265" size="455,238" group="n35_dslz" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://2r331opvdslz1l">
+      <item title="88" icon="ui://lh4qx1m6ieip1x"/>
+      <item title="am" icon="ui://lh4qx1m6ieip1y"/>
+      <item title="bs" icon="ui://lh4qx1m6ieip1z"/>
+      <item title="bz" icon="ui://lh4qx1m6ieip20"/>
+      <item title="ch" icon="ui://lh4qx1m6ieip21"/>
+      <item title="ku" icon="ui://lh4qx1m6ieip22"/>
+      <item title="dh" icon="ui://lh4qx1m6ieip23"/>
+      <item title="dn" icon="ui://lh4qx1m6ieip24"/>
+      <item title="fd" icon="ui://lh4qx1m6ieip25"/>
+      <item title="gz" icon="ui://lh4qx1m6ieip26"/>
+      <item title="hn" icon="ui://lh4qx1m6ieip27"/>
+      <item title="ht" icon="ui://lh4qx1m6ieip28"/>
+      <item title="hx" icon="ui://lh4qx1m6ieip29"/>
+      <item title="hz" icon="ui://lh4qx1m6ieip2a"/>
+    </list>
+    <group id="n35_dslz" name="n35" xy="48,-368" size="527,370" advanced="true">
+      <gearDisplay controller="expression" pages="1"/>
+    </group>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n35_dslz" tween="true" startValue="5,-314" endValue="5,-11" duration="18"/>
+  </transition>
+  <transition name="t1" options="1">
+    <item time="0" type="XY" target="n35_dslz" tween="true" startValue="5,-11" endValue="5,-314" duration="18"/>
+  </transition>
+</component>

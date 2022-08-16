@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n8_t4b3" name="n8" src="wp0jcfi" fileName="images/bg04.png" pkg="2r331opv" xy="0,0" size="100,100"/>
+    <loader id="n5_t4b3" name="quality" xy="0,0" size="100,100"/>
+    <loader id="n4_t4b3" name="icon" xy="0,0" size="100,100" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n3_t4b3" name="title" xy="0,0" size="100,100" fontSize="20" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n6_t4b3" name="add" xy="25,25" size="50,50" url="ui://2r331opv94955" fill="scale"/>
+  </displayList>
+  <Button/>
+</component>

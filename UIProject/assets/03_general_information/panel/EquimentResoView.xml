@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="hasData" pages="0,,1," selected="1">
+    <remark page="0" value="无数据"/>
+    <remark page="1" value="有数据"/>
+  </controller>
+  <controller name="switch" pages="0,,1," selected="1"/>
+  <controller name="quality" pages="0,,1,,2,,3,,4," selected="0">
+    <remark page="0" value="绿"/>
+    <remark page="1" value="蓝"/>
+    <remark page="2" value="紫"/>
+    <remark page="3" value="金"/>
+    <remark page="4" value="红"/>
+  </controller>
+  <displayList>
+    <image id="n2_vwm9" name="bg" src="e2ps1iy5b98" fileName="images/bg_new/bg8.jpg" pkg="2r331opv" xy="-168,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n32_b9bj" name="n32" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="859,65" size="450,663" alpha="0.7">
+      <gearDisplay controller="hasData" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n3_vwm9" name="n3" src="hxd7hz9d7j" fileName="images/images_new/title_bg01.png" pkg="2r331opv" xy="0,0" size="549,65" alpha="0.3"/>
+    <text id="n4_vwm9" name="title_advanced" xy="152,4" size="131,55" font="ui://2r331opvno3vhz9d63" fontSize="41" color="#ffffff" vAlign="bottom" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="4,4" text="分解"/>
+    <component id="n5_vwm9" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0"/>
+    <text id="n7_vwm9" name="nothingLbl" xy="510,342" size="342,66" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#5e3d3d" shadowColor="#5e3d3d" shadowOffset="1,2" text="您暂无装备可分解">
+      <gearDisplay controller="hasData" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n9_vwm9" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="598,12" size="692,40">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <loader id="n33_lhgb" name="bg01" xy="869,75" size="430,97" group="n30_vwm9" url="ui://4hio38ums1351iy5bav">
+      <gearIcon controller="quality" pages="1,2,3,4" values="ui://4hio38ums1351iy5baw|ui://4hio38ums1351iy5bax|ui://4hio38ums1351iy5bay|ui://4hio38ums1351iy5baz" default="ui://4hio38ums1351iy5bav"/>
+      <relation target="" sidePair="right-right"/>
+    </loader>
+    <list id="n6_vwm9" name="equiList" xy="31,74" pivot="1,0" size="849,610" group="n30_vwm9" layout="flow_hz" overflow="scroll" lineGap="-12" colGap="-5" defaultItem="ui://2r331opvklrg1qp8vd0">
+      <relation target="" sidePair="rightext-right,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n8_vwm9" name="equiTips" xy="297,707" size="310,26" group="n30_vwm9" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" ubb="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="一键分解将会分解所有[color=#db60ff]史诗品质[/color]的装备"/>
+    <component id="n10_vwm9" name="propTitle" src="poazl1" fileName="components/general_new/equiTitle.xml" pkg="2r331opv" xy="976,96" size="100,34" group="n27_vwm9"/>
+    <component id="n11_vwm9" name="equiIcon" src="mmv0cgy" fileName="components/general_new/equipmentIcon2.xml" pkg="2r331opv" xy="880,81" group="n27_vwm9" scale="0.8,0.8"/>
+    <image id="n12_vwm9" name="n12" src="b9bj1ygcgmh" fileName="images/images_new/windowBg_new/welfare_btn_bg18.png" pkg="2r331opv" xy="1199,92" group="n27_vwm9"/>
+    <text id="n13_vwm9" name="equiTxt" xy="977,123" size="104,29" group="n27_vwm9" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ff9b42" autoSize="none" autoClearText="true" text="装备战力："/>
+    <text id="n14_vwm9" name="num" xy="1076,124" size="51,29" group="n27_vwm9" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ff9b42" autoClearText="true" text="6666">
+      <relation target="n13_vwm9" sidePair="left-right"/>
+    </text>
+    <text id="n15_vwm9" name="equip" xy="1216,93" pivot="1,0" size="44,29" group="n27_vwm9" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="武器"/>
+    <text id="n16_vwm9" name="equipNum" xy="1258,93" size="36,29" group="n27_vwm9" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="1转"/>
+    <component id="n17_vwm9" name="equiAtt" src="s1351iy5b96" fileName="components/general_new/equip_suitAtt1.xml" pkg="2r331opv" xy="866,162" group="n27_vwm9"/>
+    <component id="n25_vwm9" name="resolveBtn" src="dfgw1ygcfmg" fileName="components/components_new/com_btn_0001.xml" pkg="2r331opv" xy="1104,660" group="n27_vwm9">
+      <Button title="分解"/>
+    </component>
+    <component id="n26_vwm9" name="resolveBtn0" src="dfgw1ygcfmd" fileName="components/components_new/com_btn_0002.xml" pkg="2r331opv" xy="946,660" group="n27_vwm9">
+      <Button title="一键分解" titleFontSize="22"/>
+    </component>
+    <image id="n18_vwm9" name="n18" src="b9bj1ygcgmg" fileName="images/images_new/windowBg_new/welfare_btn_bg17.png" pkg="2r331opv" xy="869,410" size="430,27" group="n31_nw2g" alpha="0.7"/>
+    <component id="n20_vwm9" name="btnSwitch" src="s1351iy5b9e" fileName="components/components_new/com_cbtn_icon.xml" pkg="2r331opv" xy="1219,390" size="103,67" group="n31_nw2g" scale="0.7,0.7">
+      <Button checked="true" controller="switch" page="1"/>
+    </component>
+    <text id="n21_vwm9" name="suitTxt" xy="886,409" size="84,29" group="n31_nw2g" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#845744" text="套装属性"/>
+    <component id="n22_vwm9" name="equiAtt2" src="s1351iy5b9f" fileName="components/general_new/equip_suitAtt_0.xml" pkg="2r331opv" xy="872,439" size="423,0" group="n31_nw2g">
+      <gearSize controller="switch" pages="0,1" values="423,145,1,1|423,0,1,1" tween="true"/>
+    </component>
+    <list id="n23_vwm9" name="suitList" xy="885,437" size="387,221" group="n31_nw2g" overflow="scroll" lineGap="-6" defaultItem="ui://2r331opvs1351iy5b9d">
+      <relation target="n22_vwm9" sidePair="topext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n31_nw2g" name="suit" xy="869,390" size="453,268" group="n27_vwm9" advanced="true"/>
+    <group id="n27_vwm9" name="n27" xy="866,81" size="456,631" group="n30_vwm9" advanced="true">
+      <gearDisplay controller="hasData" pages=""/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <group id="n30_vwm9" name="n30" xy="31,74" size="1291,659" advanced="true">
+      <gearDisplay controller="hasData" pages="1"/>
+    </group>
+  </displayList>
+</component>

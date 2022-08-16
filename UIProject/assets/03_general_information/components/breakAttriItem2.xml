@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="201,29">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="有icon"/>
+    <remark page="1" value="无icon"/>
+  </controller>
+  <displayList>
+    <loader id="n67_d8di" name="icon" xy="0,3" size="27,27" aspect="true" url="ui://4hio38umoxy0z9cs6" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="n68_d8di" sidePair="right-left"/>
+    </loader>
+    <text id="n68_d8di" name="otherTitle" xy="30,1" size="169,29" font="ui://2r331opvno3vhz9d62" fontSize="20" color="#ffffff" vAlign="middle" ubb="true" vars="true" singleLine="true" autoClearText="true" text="生命上限加成 [color=#8bff3d]+2%[/color]">
+      <gearXY controller="state" pages="0,1" values="30,1|15,0"/>
+    </text>
+  </displayList>
+  <relation target="n68_d8di" sidePair="width-width"/>
+</component>

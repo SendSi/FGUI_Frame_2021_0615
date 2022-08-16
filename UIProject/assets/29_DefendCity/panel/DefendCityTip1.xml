@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageOffsetX="-24" designImageOffsetY="-4">
+  <displayList>
+    <component id="n2_xse5" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n17_kfrl" name="bg" src="hdmy1iy5b95" fileName="components/components_new/Popup_bg2.xml" pkg="2r331opv" xy="267,145" group="n18_arx1"/>
+    <text id="n19_c1q9" name="titleTxt" xy="597,158" pivot="0.5,0.5" size="140,46" group="n18_arx1" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="3,3" singleLine="true" text="挂机奖励"/>
+    <image id="n34_oorv" name="n34" src="dfgw1ygcfmf" fileName="images/images_new/com_change04.png" pkg="2r331opv" xy="487,219" pivot="0.5,0.5" size="368,36" group="n18_arx1" alpha="0.3"/>
+    <richtext id="n32_oorv" name="hang" xy="610,223" pivot="0.5,0.5" size="122,34" group="n18_arx1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" ubb="true" autoSize="none" text="挂机时间"/>
+    <component id="n31_oorv" name="receiveBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="586,505" group="n18_arx1" scale="0.8,0.8">
+      <Button title="领取"/>
+    </component>
+    <component id="n22_jg06" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="968,127" group="n18_arx1" scale="0.8,0.8"/>
+    <richtext id="n26_fawx" name="time" xy="594,255" pivot="0.5,0.5" size="146,46" group="n18_arx1" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#50382e" align="center" vAlign="middle" ubb="true" autoClearText="true" text="99:99:99"/>
+    <richtext id="n27_fawx" name="num" xy="631,344" pivot="0.5,0.5" size="108,34" group="n18_arx1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" ubb="true" autoClearText="true" text="+1212/分"/>
+    <loader id="n29_oorv" name="icon" xy="594,342" size="94,94" group="n18_arx1" scale="0.4,0.4" url="ui://tsbe09ddspsrci1" fill="scale" autoSize="true">
+      <relation target="n27_fawx" sidePair="right-left"/>
+    </loader>
+    <component id="n33_oorv" name="icon1" src="j842hz9cyi" fileName="components/components_new/comItem.xml" pkg="2r331opv" xy="619,382" group="n18_arx1" scale="0.8,0.8"/>
+    <image id="n30_oorv" name="n30" src="dfgw1ygcfmf" fileName="images/images_new/com_change04.png" pkg="2r331opv" xy="485,305" pivot="0.5,0.5" size="368,36" group="n18_arx1" alpha="0.3"/>
+    <richtext id="n25_fawx" name="contentTxt" xy="619,307" pivot="0.5,0.5" size="100,34" group="n18_arx1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" ubb="true" text="挂机奖励"/>
+    <group id="n18_arx1" name="window" xy="267,127" size="800,478" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

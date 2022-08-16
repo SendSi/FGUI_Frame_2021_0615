@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="3dqb8xio">
+  <resources>
+    <component id="lp551ygcfer" name="PlotMainView.xml" path="/panel/" exported="true"/>
+    <image id="lp550" name="Checkpoint_bg.png" path="/images/" exported="true" atlas="alone"/>
+    <image id="lp551" name="Checkpoint_bg_light.png" path="/images/" exported="true"/>
+    <image id="lp552" name="Checkpoint_icon_city1.png" path="/images/" exported="true"/>
+    <image id="lp553" name="Checkpoint_icon_city2.png" path="/images/" exported="true"/>
+    <image id="lp554" name="Checkpoint_icon_city3.png" path="/images/" exported="true"/>
+    <image id="lp556" name="Checkpoint_icon_lattice1.png" path="/images/" exported="true"/>
+    <image id="lp557" name="Checkpoint_icon_lattice2.png" path="/images/" exported="true"/>
+    <component id="lp558" name="CheckpointBtn1.xml" path="/components/" exported="true"/>
+    <component id="lp559" name="CheckpointIcon.xml" path="/components/" exported="true"/>
+    <component id="lp55a" name="CheckpointBtn2.xml" path="/components/" exported="true"/>
+    <movieclip id="lp55b" name="Checkpoint_mov_fighting.jta" path="/components/" exported="true"/>
+    <component id="lp55c" name="Checkpointdown.xml" path="/components/" exported="true"/>
+    <image id="m4lu1ygcfes" name="Checkpoint_icon_creeps2.png" path="/images/" exported="true"/>
+    <image id="m4lu1ygcfet" name="Checkpoint_icon_creeps1.png" path="/images/" exported="true"/>
+    <image id="m4lu1ygcfeu" name="Checkpoint_icon_creepsbg1.png" path="/images/" exported="true"/>
+    <image id="m4lu1ygcfev" name="Checkpoint_icon_creepsbg2.png" path="/images/" exported="true"/>
+    <component id="m4lu1ygcfew" name="CheckcreepsBtn.xml" path="/components/" exported="true"/>
+    <component id="lc8g1ygcfex" name="PlotMainView01.xml" path="/panel/" exported="true"/>
+    <image id="lc8g1ygcfey" name="checkpoints_bg01.jpg" path="/images/" exported="true" atlas="alone"/>
+    <image id="lc8g1ygcfez" name="z_10.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcff0" name="z_09.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcff1" name="z_08.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcff2" name="z_07.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcff3" name="z_06.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcff4" name="z_05.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcff5" name="z_04.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcff6" name="z_03.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcff7" name="z_02.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcff8" name="z_01.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcff9" name="tab_bg02.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffa" name="tab_bg01.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffb" name="d_006.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffc" name="d_005.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffd" name="d_004.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffe" name="d_003.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcfff" name="d_002.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffg" name="d_001.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffh" name="closebtn.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffi" name="checkpoints_bg07.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffj" name="checkpoints_bg06.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffk" name="checkpoints_bg05.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffl" name="checkpoints_bg04.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffm" name="checkpoints_bg03.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffn" name="checkpoints_bg02.png" path="/images/" exported="true" scale="9grid" scale9grid="11,1,22,2"/>
+    <image id="lc8g1ygcffo" name="z_11.png" path="/images/" exported="true"/>
+    <image id="lc8g1ygcffp" name="z_12.png" path="/images/" exported="true"/>
+    <component id="lc8g1ygcffq" name="closeButton05.xml" path="/components/" exported="true"/>
+    <component id="lc8g1ygcffr" name="tab.xml" path="/components/" exported="true"/>
+    <component id="lc8g1ygcffs" name="operation.xml" path="/components/" exported="true"/>
+    <component id="uckw1ygcfft" name="CheckpointsBtn.xml" path="/components/" exported="true"/>
+    <component id="uckw1ygcffu" name="Line.xml" path="/components/" exported="true"/>
+    <image id="9kzd1ygcffv" name="checkpoints_bg08.png" path="/images/"/>
+    <image id="9kzd1ygcffw" name="checkpoints_bg09.png" path="/images/"/>
+    <image id="n9h91ygcffx" name="checkpoints_bg10.png" path="/images/" exported="true" scale="9grid" scale9grid="33,29,2,4"/>
+    <component id="n9h91ygcffy" name="operationbox.xml" path="/components/" exported="true"/>
+    <component id="n9h91ygcfn7" name="CheckpointPbr.xml" path="/components/" exported="true"/>
+    <component id="n9h91ygcffz" name="CheckpointBtn3.xml" path="/components/" exported="true"/>
+    <image id="n9h91ygcfg0" name="checkpoints_bg11.png" path="/images/" exported="true"/>
+    <component id="me4z1ygcfn8" name="plotmainTip.xml" path="/components/" exported="true"/>
+    <component id="me4z1ygcfn9" name="plotmainitem1.xml" path="/components/" exported="true"/>
+    <image id="kxfy1ygcfna" name="Checkpoint_bg.jpg" path="/images/"/>
+    <image id="qajo1ygcfnb" name="checkpoints_bg12.png" path="/images/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="502,256" extention="ProgressBar" designImageOffsetX="-868" designImageOffsetY="-329" designImageLayer="1">
+  <displayList>
+    <image id="n0_xz10" name="n0" src="xz10z9crg" fileName="images/hero_strip01.png" xy="5,6" color="#73aaff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n12_xr2k" name="bar" src="xz10z9crh" fileName="images/hero_strip02.png" xy="0,0" fillMethod="radial180" fillClockwise="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n3_xz10" name="dot0" src="xz10z9crm" fileName="components/curpbr_dot.xml" xy="94,122" visible="false"/>
+    <component id="n2_xz10" name="dot1" src="xz10z9crm" fileName="components/curpbr_dot.xml" xy="57,67" visible="false"/>
+    <component id="n4_xz10" name="dot2" src="xz10z9crm" fileName="components/curpbr_dot.xml" xy="153,164" visible="false"/>
+    <component id="n5_xz10" name="dot3" src="xz10z9crm" fileName="components/curpbr_dot.xml" xy="226,182" visible="false"/>
+    <component id="n6_xz10" name="dot4" src="xz10z9crm" fileName="components/curpbr_dot.xml" xy="302,164" visible="false"/>
+    <component id="n7_xz10" name="dot5" src="xz10z9crm" fileName="components/curpbr_dot.xml" xy="361,122" visible="false"/>
+    <component id="n8_xz10" name="dot6" src="xz10z9crm" fileName="components/curpbr_dot.xml" xy="397,67" visible="false"/>
+  </displayList>
+  <ProgressBar/>
+</component>

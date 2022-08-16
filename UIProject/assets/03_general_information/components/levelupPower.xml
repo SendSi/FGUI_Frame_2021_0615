@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="526,79" pivot="0.5,0.5" designImageOffsetX="-303" designImageOffsetY="-626">
+  <controller name="state" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_xz10" name="n0" src="xz10hz9cz9" fileName="images/images_new/com_warbg01.png" pkg="2r331opv" xy="21,7" pivot="0.5,0.5" size="464,66" alpha="0.9">
+      <relation target="n1_xz10" sidePair="width-width"/>
+    </image>
+    <text id="n1_xz10" name="title" xy="219,13" pivot="0.5,0.5" size="122,54" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#ffffff" align="center" vAlign="middle" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="4,4" autoClearText="true" text="64,000"/>
+    <image id="n2_xz10" name="n2" src="aibb2e" fileName="images/images_new/common_arrow_4.png" pkg="2r331opv" xy="350,0" size="40,50" group="n4_oxy0"/>
+    <text id="n3_xz10" name="title2" xy="382,12" size="75,42" group="n4_oxy0" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#53eb29" strokeColor="#133c10" strokeSize="2" autoClearText="true" text="+197"/>
+    <group id="n4_oxy0" name="n4" xy="350,0" size="107,54" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="n1_xz10" sidePair="right-right"/>
+    </group>
+    <text id="n5_hxd7" name="title0" xy="109,13" size="124,54" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#ffffff" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="4,4" text="战力：">
+      <relation target="n1_xz10" sidePair="left-left"/>
+    </text>
+    <component id="n6_hxd7" name="n6" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="-5,-2" size="78,42" scale="0.8,0.8">
+      <relation target="n0_xz10" sidePair="left-left"/>
+    </component>
+  </displayList>
+</component>

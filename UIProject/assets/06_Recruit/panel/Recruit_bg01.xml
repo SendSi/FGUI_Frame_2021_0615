@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1670,750">
+  <controller name="tab" pages="0,,1,,2," selected="0">
+    <action type="play_transition" fromPage="" toPage="2" transition="t2" stopOnExit="true"/>
+  </controller>
+  <displayList>
+    <image id="n14_k0cc" name="pointTop" src="k0cc1qp8vfc" fileName="image/bg/recruit_bg03.png" xy="449,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n13_y6f5" name="bg" xy="94,0" pivot="0.5,0.5" size="1625,750" url="ui://nf2zagxsk0cc1qp8vfb" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="tab" pages="0,1,2" values="ui://nf2zagxsk0cc1qp8vfb|ui://nf2zagxsn7ai1qp8veo|ui://nf2zagxsgww7i4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n22_x3en" name="n22" src="x3en1ygcfjl" fileName="image/bg/recruit_bg00.jpg" xy="-241,0">
+      <relation target="n13_y6f5" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n15_k0cc" name="pointBottom" src="k0cc1qp8vfa" fileName="image/bg/recruit_bg01.png" xy="534,474">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n21_kgtm" name="cupAwardBtn" src="kgtm1ygcfh5" fileName="components/icon_btn.xml" xy="668,180" size="467,451" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://nf2zagxsk0cc1qp8vf9"/>
+    </component>
+    <component id="n18_112xe" name="leftFireBtn" src="gww71qp8vea" fileName="components/LongpressBtn.xml" xy="551,392" size="251,204">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n19_112xe" name="rightFireBtn" src="gww71qp8vea" fileName="components/LongpressBtn.xml" xy="1000,392" size="251,204">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <transition name="tShake" autoPlayRepeat="-1">
+    <item time="0" type="Shake" target="n21_kgtm" label="shake" value="0.8,60"/>
+  </transition>
+</component>

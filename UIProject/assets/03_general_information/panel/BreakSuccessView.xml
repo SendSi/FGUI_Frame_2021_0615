@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <controller name="tab" pages="1,starup,0,break" selected="0">
+    <remark page="0" value="升星成功"/>
+    <remark page="1" value="突破成功"/>
+    <action type="play_transition" fromPage="" toPage="0" transition="t0"/>
+  </controller>
+  <displayList>
+    <component id="n60_d8di" name="n60" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n97_osur" name="bg001" src="osur1ygcfn3" fileName="components/components_new/settlement_com_001.xml" pkg="2r331opv" xy="309,-31" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://2r331opv10473hz9cyo"/>
+    </component>
+    <image id="n72_d8di" name="n72" src="10473hz9cyh" fileName="images/images_new/settlement2/settlement_bg05.png" pkg="2r331opv" xy="0,287" size="1334,493" group="n77_d8di" alpha="0.8"/>
+    <image id="n86_10473" name="n86" src="10473hz9cyg" fileName="images/images_new/settlement2/settlement_bg04.png" pkg="2r331opv" xy="459,266" pivot="0.5,0.5" size="415,29" group="n77_d8di" alpha="0.8"/>
+    <loader3D id="n59_c4um" name="3d_general" xy="285,458" size="100,100" group="n77_d8di" visible="false" url="ui://dhoj786we2v59f" animation="idle" skin="" loop="true"/>
+    <component id="n73_d8di" name="beforIcon" src="hxd7hz9d7l" fileName="components/general_new/generalIcon01.xml" pkg="2r331opv" xy="473,305" size="167,151" group="n78_d8di"/>
+    <component id="n74_d8di" name="afterIcon" src="hxd7hz9d7l" fileName="components/general_new/generalIcon01.xml" pkg="2r331opv" xy="709,304" size="167,151" group="n78_d8di"/>
+    <image id="n75_d8di" name="n75" src="aibb2e" fileName="images/images_new/common_arrow_4.png" pkg="2r331opv" xy="708,360" group="n78_d8di" rotation="90"/>
+    <list id="n76_d8di" name="starAttriList" xy="508,466" size="420,230" group="n78_d8di" lineGap="-7" defaultItem="ui://4hio38umwp0jcfu">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n78_d8di" name="n78" xy="473,304" size="455,392" group="n77_d8di" advanced="true"/>
+    <text id="n87_10473" name="tips1" xy="573,715" size="188,34" group="n77_d8di" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" text="-  点击空白关闭  -"/>
+    <text id="n88_10473" name="tips0" xy="567,262" pivot="0.5,0.5" size="200,39" group="n77_d8di" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#fae66c" shadowColor="#773a00" shadowOffset="2,3" text="恭喜你升星成功"/>
+    <group id="n77_d8di" name="star" xy="0,262" size="1334,518" advanced="true">
+      <gearDisplay controller="tab" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n81_d8di" name="window" src="10473hz9cyf" fileName="images/images_new/settlement2/settlement_bg03.png" pkg="2r331opv" xy="0,286" size="1334,299" group="n71_d8di" alpha="0.8"/>
+    <image id="n90_10473" name="n90" src="10473hz9cyg" fileName="images/images_new/settlement2/settlement_bg04.png" pkg="2r331opv" xy="459,266" pivot="0.5,0.5" size="415,29" group="n71_d8di" alpha="0.8"/>
+    <image id="n63_d8di" name="n63" src="10473hz9cyj" fileName="images/images_new/settlement2/settlement_bg07.png" pkg="2r331opv" xy="511,455" size="312,36" group="n71_d8di" flip="hz"/>
+    <text id="n65_d8di" name="breakTips" xy="593,457" pivot="0.5,0.5" size="148,34" group="n71_d8di" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#74d0ff" text="额外获得属性"/>
+    <text id="n80_d8di" name="tips2" xy="573,715" size="188,34" group="n71_d8di" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" text="-  点击空白关闭  -"/>
+    <text id="n93_10473" name="tips3" xy="567,262" pivot="0.5,0.5" size="200,39" group="n71_d8di" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#fae66c" shadowColor="#773a00" shadowOffset="2,3" text="恭喜你突破成功"/>
+    <list id="n91_10473" name="breakList" xy="367,501" size="600,34" group="n71_d8di" layout="flow_vt" overflow="scroll" defaultItem="ui://4hio38um10473hz9d96" align="center">
+      <item/>
+    </list>
+    <list id="n92_10473" name="breakAttriList" xy="537,310" size="368,137" group="n71_d8di" layout="flow_vt" overflow="scroll" lineGap="-10" colGap="87" defaultItem="ui://4hio38umdot4hz9czw" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n96_g6q9" name="tips4" xy="577,539" pivot="0.5,0.5" size="180,32" group="n71_d8di" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffae4b" text="恭喜获得卓越天赋"/>
+    <group id="n71_d8di" name="break" xy="0,262" size="1334,486" advanced="true">
+      <gearDisplay controller="tab" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n49_c4um" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,1" size="1334,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

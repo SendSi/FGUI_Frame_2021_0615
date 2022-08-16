@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="928,65" designImageOffsetX="-205" designImageOffsetY="-420" designImageAlpha="0">
+  <controller name="state" homePageType="specific" homePage="1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n10_f6no" name="n10" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="25,9" size="890,48">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <loader id="n11_f6no" name="iconBg" xy="4,3" size="52,58" group="n13_f6no" url="ui://4ni413laf6nohz9ct4" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n12_f6no" name="icon" xy="7,6" size="46,52" group="n13_f6no" url="ui://4ni413laf6nohz9ct8" align="center" vAlign="middle" fill="scale"/>
+    <group id="n13_f6no" name="n13" xy="4,3" size="52,58"/>
+    <list id="n9_f6no" name="list" xy="5,58" size="910,0" defaultItem="ui://4ni413laf6nohz9ctk" align="center" autoClearItems="true">
+      <gearDisplay controller="state" pages="1"/>
+      <gearSize controller="state" pages="0,1" values="910,0,1,1|907,38,1,1"/>
+      <relation target="" sidePair="width-width"/>
+      <item/>
+    </list>
+    <text id="n14_f6no" name="title" xy="64,17" size="100,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" autoClearText="true" text="建造能力"/>
+    <text id="n15_f6no" name="num" xy="810,17" pivot="1,0" size="70,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#599e27" singleLine="true" autoClearText="true" text="+10%&#xA;">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+  <relation target="n9_f6no" sidePair="height-height"/>
+</component>

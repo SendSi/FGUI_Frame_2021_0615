@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,125" opaque="false">
+  <displayList>
+    <image id="n80_j4kd" name="n80" src="lumy1qp8vdo" fileName="images4/mainhud_bg_headbg00.png" xy="47,14"/>
+    <component id="n35_b6o0" name="button_head" src="j3xs9pm" fileName="components/components_new/btn_head4.xml" pkg="2r331opv" xy="0,-1" aspect="true" scale="0.57,0.57"/>
+    <text id="n37_b6o0" name="fightPowerNum" xy="127,42" size="135,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#0f376c" vAlign="middle" letterSpacing="-1" autoSize="none" singleLine="true" autoClearText="true" text="3,765,133"/>
+    <component id="n40_b6o0" name="actPbr" src="j4kdhz9cl4" fileName="components/components_new/main/headPbr.xml" xy="21,93">
+      <ProgressBar value="70" max="100"/>
+    </component>
+    <component id="n79_b6o0" name="vipBtn" src="b6o0mj" fileName="components/components_new/main/main_btn_vip.xml" xy="178,52" visible="false"/>
+    <component id="n86_fa12" name="siegeBtn" src="aklwkc" fileName="components/common_btn_siege.xml" pkg="2r331opv" xy="112,49" visible="false"/>
+    <component id="n83_j4kd" name="toneUpBtn" src="aklwkc" fileName="components/common_btn_siege.xml" pkg="2r331opv" xy="290,72">
+      <relation target="n85_i3zn" sidePair="left-right"/>
+      <Button icon="ui://2r331opvlumy1qp8vdp"/>
+    </component>
+    <component id="n87_8rmp" name="cityManageBtn" src="j4kdhz9cli" fileName="components/components_new/main/main_btn_cityManage.xml" xy="231,54" visible="false"/>
+    <component id="n88_g4fb" name="collectManageBtn" src="g4fb1ygcfn9" fileName="components/components_new/main/main_btn_collectManage.xml" xy="283,57" visible="false"/>
+    <list id="n85_i3zn" name="buffList" xy="106,72" size="186,52" layout="row" colGap="-7" defaultItem="ui://4ni413lag4fb1ygcfn9" autoClearItems="true" foldInvisibleItems="true">
+      <item url="ui://2r331opvaklwkc"/>
+      <item url="ui://4ni413lab6o0mj"/>
+      <item url="ui://4ni413laj4kdhz9cli"/>
+      <item/>
+    </list>
+    <component id="n89_m3dm" name="buff" src="m3dm1ygcg8j" fileName="components/components_new/main/main_buff_item2.xml" xy="335,72">
+      <relation target="n83_j4kd" sidePair="left-right"/>
+    </component>
+    <text id="n90_ukvb" name="nameLbl" xy="148,16" size="100,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="我的名字六字">
+      <relation target="n91_ukvb" sidePair="right-right"/>
+    </text>
+    <text id="n91_ukvb" name="LvLbl" xy="111,16" size="39,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="50级"/>
+  </displayList>
+</component>

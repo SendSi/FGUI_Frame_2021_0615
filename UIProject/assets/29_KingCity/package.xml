@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="pvaep77a">
+  <resources>
+    <image id="ebe41" name="kingcity_bg.png" path="/images/" exported="true"/>
+    <image id="ebe42" name="kingcity_bg001.png" path="/images/" exported="true"/>
+    <image id="ebe43" name="kingcity_bg002.png" path="/images/" exported="true"/>
+    <image id="ebe44" name="kingcity_bg003.png" path="/images/" exported="true"/>
+    <image id="ebe46" name="kingcity_icon001.png" path="/images/" exported="true"/>
+    <image id="ebe47" name="kingcity_icon002.png" path="/images/" exported="true"/>
+    <image id="ebe48" name="kingcity_icon003.png" path="/images/" exported="true"/>
+    <image id="ebe45" name="kingcity_icon_city.png" path="/images/" exported="true"/>
+    <component id="ebe41ygcfe5" name="kingcityItem.xml" path="/components/" exported="true"/>
+    <component id="ebe40" name="kingcityTip.xml" path="/panel/" exported="true"/>
+    <component id="ebe49" name="kingcityActivity.xml" path="/panel/" exported="true"/>
+    <component id="n6021ygcfe4" name="kingcitybtn01.xml" path="/components/" exported="true"/>
+    <component id="n6021ygcfeb" name="kingcitybtn02.xml" path="/components/" exported="true"/>
+    <component id="n6021ygcfec" name="kingcityItem2.xml" path="/components/" exported="true"/>
+    <component id="n6021ygcfed" name="kingcitybtn03.xml" path="/components/"/>
+    <component id="n6021ygcfeg" name="kingcityview.xml" path="/panel/" exported="true"/>
+    <component id="n6021ygcfeh" name="kingcityTip2.xml" path="/panel/" exported="true"/>
+    <component id="n6021ygcfek" name="kingcityFighting.xml" path="/panel/" exported="true"/>
+    <component id="n6021ygcfel" name="kingcityItem3.xml" path="/components/" exported="true"/>
+    <component id="pr4c1iy5bdg" name="kingcitySuccessView.xml" path="/panel/" exported="true"/>
+    <component id="95a11ygcfem" name="kingcityviewright.xml" path="/panel/"/>
+    <component id="95a11ygcfen" name="kingSuccessView.xml" path="/panel/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

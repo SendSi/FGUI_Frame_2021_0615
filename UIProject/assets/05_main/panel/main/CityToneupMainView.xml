@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label">
+  <controller name="tab" pages="0,,1," selected="1">
+    <remark page="0" value="经济"/>
+    <remark page="1" value="军事"/>
+  </controller>
+  <displayList>
+    <component id="n16_f6no" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_ixho" name="n1" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="111,38" group="n17_f6no"/>
+    <component id="n4_ixho" name="tab0" src="prcz1qp8vfc" fileName="components/components_new/com_btn_tab04.xml" pkg="2r331opv" xy="42,135" group="n8_ixho">
+      <Button title="经济" titleFontSize="30" icon="ui://4ni413laixhohz9ct1" selectedIcon="ui://4ni413laixhohz9csy" controller="tab" page="0"/>
+    </component>
+    <component id="n5_ixho" name="tab1" src="prcz1qp8vfc" fileName="components/components_new/com_btn_tab04.xml" pkg="2r331opv" xy="42,245" group="n8_ixho">
+      <Button checked="true" title="军事" titleFontSize="30" icon="ui://4ni413laixhohz9csz" selectedIcon="ui://4ni413laixhohz9ct0" controller="tab" page="1"/>
+    </component>
+    <text id="n15_f6no" name="title" xy="405,70" pivot="0.5,0.5" size="599,49" group="n8_ixho" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="这是标题">
+      <gearText controller="tab" pages="0,1" values="这是标题|这是标题"/>
+    </text>
+    <group id="n8_ixho" name="btnTab" xy="42,70" size="962,280" group="n17_f6no"/>
+    <image id="n2_ixho" name="n2" src="xjmv1qp8vf4" fileName="images/images_new/windowBg_new/negative_bg10.png" pkg="2r331opv" xy="255,160" size="894,244" group="n17_f6no" alpha="0.2"/>
+    <text id="n11_f6no" name="tips" xy="273,172" size="650,34" group="n12_f6no" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="驻防统率配置配置配置配置"/>
+    <group id="n12_f6no" name="Tips" xy="273,172" size="650,34" group="n17_f6no" advanced="true"/>
+    <list id="n13_f6no" name="lsit" xy="269,217" size="861,422" group="n17_f6no" overflow="scroll" lineGap="9" defaultItem="ui://4ni413laf6nohz9ct2">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n9_ixho" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1152,42" group="n17_f6no"/>
+    <group id="n17_f6no" name="window" xy="42,38" size="1249,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

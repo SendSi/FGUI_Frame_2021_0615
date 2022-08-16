@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="159,23" designImageOffsetX="-523" designImageOffsetY="-480" designImageLayer="1">
+  <controller name="state" pages="0,,1,,2,,3,,15,,16," selected="0">
+    <remark page="0" value="建筑升级"/>
+    <remark page="1" value="征兵"/>
+    <remark page="2" value="技能名字"/>
+    <remark page="3" value="治疗"/>
+    <remark page="4" value="建筑升级"/>
+    <remark page="5" value="采集"/>
+  </controller>
+  <displayList>
+    <component id="n114_kwe9" name="strip" src="qdf6hz9cuh" fileName="components/components_new/building/buildingPbr.xml" xy="20,0" size="154,26" scale="0.9,0.9" touchable="false">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <image id="n118_qdf6" name="n118" src="qdf6hz9cud" fileName="images/images_new/building_bg_levelup02.png" pkg="2r331opv" xy="0,-2" scale="0.6,0.6">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <image id="n119_qdf6" name="n119" src="ok6zhz9cu3" fileName="images/images_new/com_arms_bg.png" pkg="2r331opv" xy="-5,-8" pivot="0.5,0.5" size="38,38" group="n120_qdf6" aspect="true" scale="0.7,0.7"/>
+    <loader id="n113_781c" name="icon" xy="-3,-6" pivot="0.5,0.5" size="35,39" group="n120_qdf6" aspect="true" scale="0.7,0.7" touchable="false" url="ui://2r331opvqdf6hz9cub" fill="scale"/>
+    <group id="n120_qdf6" name="n120" xy="-5,-8" size="38,41" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <image id="n136_phj4" name="n136" src="ufp91ygcflk" fileName="images/images_new/com_arms_bg01.png" pkg="2r331opv" xy="1,-2" size="38,38" group="n127_d3m9" aspect="true" scale="0.7,0.7">
+      <gearDisplay controller="state" pages="2"/>
+    </image>
+    <loader id="n125_d3m9" name="icon01" xy="-4,-8" pivot="0.5,0.5" size="38,38" group="n127_d3m9" aspect="true" scale="0.5,0.5" touchable="false" url="ui://madu8sceiusrz9cm5" fill="scale">
+      <gearDisplay controller="state" pages="2"/>
+    </loader>
+    <group id="n127_d3m9" name="n127" xy="-4,-8" size="43,44" advanced="true">
+      <gearDisplay controller="state" pages="2"/>
+    </group>
+    <text id="n128_hwi3" name="title_0" xy="42,0" pivot="0.5,0.5" size="92,24" aspect="true" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,2" autoClearText="true" text="04:09:01">
+      <gearDisplay controller="state" pages="0,1,3"/>
+    </text>
+    <text id="n129_hwi3" name="title_1" xy="40,0" pivot="0.5,0.5" size="97,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#333333" shadowColor="#000000" shadowOffset="0,2" autoClearText="true" text="预备兵×100">
+      <gearDisplay controller="state" pages="1,3"/>
+    </text>
+    <text id="n130_hwi3" name="title_2" xy="44,0" pivot="0.5,0.5" size="94,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,2" autoClearText="true" text="技能名字">
+      <gearDisplay controller="state" pages="2,16"/>
+      <gearText controller="state" pages="16" values="采集中..." default="技能名字"/>
+    </text>
+    <text id="n137_l7h1" name="title_4" xy="41,0" size="95,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,2" autoClearText="true" text="00:02:01">
+      <gearDisplay controller="state" pages="15"/>
+    </text>
+    <loader id="n133_e1qh" name="treatment" xy="-6,-7" pivot="0.5,0.5" size="40,40" aspect="true" scale="0.7,0.7" touchable="false" url="ui://2r331opvceggz9cop" fill="scale">
+      <gearDisplay controller="state" pages="3"/>
+    </loader>
+    <image id="n134_ufp9" name="n134" src="ufp91ygcflk" fileName="images/images_new/com_arms_bg01.png" pkg="2r331opv" xy="-5,-8" pivot="0.5,0.5" size="38,38" aspect="true" scale="0.7,0.7">
+      <gearDisplay controller="state" pages="15"/>
+    </image>
+    <image id="n135_8lkd" name="n135" src="8lkd1ygcfm4" fileName="images/images_new/com_arms_bg02.png" pkg="2r331opv" xy="-5,-8" pivot="0.5,0.5" size="38,38" aspect="true" scale="0.7,0.7">
+      <gearDisplay controller="state" pages="16"/>
+    </image>
+  </displayList>
+  <transition name="tweenText" options="4" autoPlayRepeat="-1" frameRate="30">
+    <item time="0" type="Alpha" target="n128_hwi3" tween="true" startValue="0" endValue="1" duration="30"/>
+    <item time="0" type="Alpha" target="n129_hwi3" value="0"/>
+    <item time="150" type="Alpha" target="n128_hwi3" tween="true" startValue="1" endValue="0" duration="30"/>
+    <item time="180" type="Alpha" target="n129_hwi3" tween="true" startValue="0" endValue="1" duration="30"/>
+    <item time="331" type="Alpha" target="n129_hwi3" tween="true" startValue="1" endValue="0" duration="29"/>
+  </transition>
+</component>

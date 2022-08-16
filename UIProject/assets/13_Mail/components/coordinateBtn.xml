@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="92,26" extention="Button">
+  <displayList>
+    <text id="n10_yh9p" name="title" xy="0,0" pivot="0.5,0.5" size="92,26" font="ui://2r331opvno3vhz9d62" fontSize="18" color="#57f580" ubb="true" underline="true" singleLine="true" autoClearText="true" text="X:117  Y:90"/>
+  </displayList>
+  <Button/>
+</component>

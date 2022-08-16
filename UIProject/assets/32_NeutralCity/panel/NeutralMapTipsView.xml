@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" extention="Label" initName="frame" designImage="ui://lp3m5cuhvqdvhz9d2g" designImageOffsetX="270" designImageOffsetY="-8" designImageAlpha="0">
+  <controller name="stateCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="时间"/>
+    <remark page="1" value="可攻城"/>
+  </controller>
+  <controller name="nameCtrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="暂无"/>
+    <remark page="1" value="绿名"/>
+    <remark page="2" value="白名"/>
+  </controller>
+  <displayList>
+    <component id="n46_svx3" name="n46" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="0,0" size="1334,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n34_ara1" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0" size="1334,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <text id="n51_sn9v" name="lbl" xy="516,704" size="234,42" font="ui://2r331opvlwft2" fontSize="30" color="#ffffff" text="-点击空白处关闭-">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <image id="n53_nvzr" name="n53" src="svx3hz9d7c" fileName="images/bg13.png" xy="167,41">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n52_nvzr" name="nullBtn" src="nvzr1ygcff2" fileName="components/nullBtn.xml" xy="167,41" size="1127,621" group="n54_ne9j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n5_r616" name="title" xy="899,271" size="204,54" group="n54_ne9j" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#ffffff" strokeColor="#2679c6" shadowColor="#2679c6" shadowOffset="2,4" singleLine="true" text="中立城名字"/>
+    <text id="n6_r616" name="coordTitle" xy="590,533" pivot="0.5,0.5" size="97,29" group="n54_ne9j" font="ui://2r331opvno3vhz9d62" fontSize="20" color="#64ccff" shadowColor="#000000" shadowOffset="1,1" text="X:129 Y:93"/>
+    <component id="n7_r616" name="shareBtn" src="sn9v1ygcff0" fileName="components/cityBtn00.xml" xy="1090,367" size="97,108" group="n54_ne9j">
+      <Button icon="ui://qnrrapjrsvx3hz9d7i"/>
+    </component>
+    <component id="n8_r616" name="collectionBtn" src="svx31ygcfe3" fileName="components/cityBtn01.xml" xy="1094,267" size="97,108" group="n54_ne9j"/>
+    <text id="n12_r616" name="infoKey0" xy="830,398" size="108,34" group="n54_ne9j" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#57baff" text="占领增益:"/>
+    <text id="n13_r616" name="infoKey1" xy="830,473" size="108,34" group="n54_ne9j" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#57baff" text="占领联盟:"/>
+    <text id="n15_r616" name="infoValue0" xy="856,436" pivot="1,0" size="223,33" group="n54_ne9j" font="ui://2r331opvno3vhz9d63" fontSize="12" color="#a0ff5c" leading="0" autoSize="shrink" text="所有英雄攻击+1000&#xA;所有英雄攻击+1000"/>
+    <text id="n16_r616" name="infoValue1" xy="856,508" pivot="1,0" size="223,32" group="n54_ne9j" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" autoSize="none" singleLine="true" text="暂无">
+      <gearColor controller="nameCtrl" pages="0,1" values="#ffffff,#000000|#a0ff5c,#000000" default="#ffffff,#000000"/>
+      <gearText controller="nameCtrl" pages="0,1,2" values="暂无|[wet]他的名|[wet]他的名"/>
+    </text>
+    <component id="n33_ara1" name="attackBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="541,593" size="200,64" group="n54_ne9j">
+      <gearDisplay controller="nameCtrl" pages="0,2"/>
+      <Button title="攻城"/>
+    </component>
+    <component id="n49_s3vb" name="reinforceBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="541,593" size="200,64" group="n54_ne9j">
+      <gearDisplay controller="nameCtrl" pages="1"/>
+      <Button title="增援"/>
+    </component>
+    <component id="n40_k1nx" name="cityTime" src="svx3hz9d7n" fileName="components/cityStateBtn.xml" xy="532,554" size="213,32" group="n54_ne9j">
+      <gearColor controller="stateCtrl" pages="1" values="#ff5454" default="#ffffff"/>
+      <gearText controller="stateCtrl" pages="0,1" values="1天16:30:20|可攻城"/>
+      <gearIcon controller="stateCtrl" pages="1" values="ui://2r331opvsvx3hz9d7e" default="ui://2r331opvsvx3hz9d7d"/>
+      <Button title="1天16:30:20" titleColor="#ffffff" icon="ui://2r331opvsvx3hz9d7d"/>
+    </component>
+    <component id="n42_k1nx" name="tipSliderGreen" src="k1nxhz9d6f" fileName="components/tipSlider1.xml" xy="866,346" size="221,23" group="n54_ne9j">
+      <gearDisplay controller="nameCtrl" pages="1"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n43_svx3" name="tipSliderRed" src="svx3hz9d7b" fileName="components/tipSlider2.xml" xy="866,346" size="221,24" group="n54_ne9j">
+      <gearDisplay controller="nameCtrl" pages="0,2"/>
+      <ProgressBar value="500000" max="1000000"/>
+    </component>
+    <component id="n44_svx3" name="rewardBtn" src="svx3hz9d7m" fileName="components/cityBtn.xml" xy="217,263" size="85,85" group="n54_ne9j">
+      <Button title="首占奖励"/>
+    </component>
+    <component id="n45_svx3" name="explainBtn" src="svx3hz9d7m" fileName="components/cityBtn.xml" xy="284,447" size="85,85" group="n54_ne9j">
+      <Button title="说明" icon="ui://qnrrapjrsvx3hz9d7l"/>
+    </component>
+    <text id="n48_svx3" name="gradeLvTxt" xy="834,271" size="68,54" group="n54_ne9j" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#ffec4d" align="right" strokeColor="#985921" shadowColor="#ae6e35" shadowOffset="2,4" singleLine="true" text="5级">
+      <relation target="n5_r616" sidePair="right-left"/>
+    </text>
+    <group id="n54_ne9j" name="comGroup" xy="167,41" size="1127,621" advanced="true">
+      <relation target="n53_nvzr" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

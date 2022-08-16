@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" pivot="0.5,0.89" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n6_gww7" name="title" xy="396,632" pivot="0.5,0.5" size="551,65" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#35393c" strokeSize="2" shadowColor="#000000" shadowOffset="3,3" text="长按屏幕   开始召唤">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

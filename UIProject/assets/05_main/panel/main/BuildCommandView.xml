@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="291,100">
+  <displayList>
+    <image id="n152_1025j" name="n152" src="mouz1qp8vfl" fileName="images/images_new/com_bg_tips03_3.png" pkg="2r331opv" xy="0,-1" size="295,105"/>
+    <component id="n162_1025j" name="queue1" src="1025jhz9d4a" fileName="panel/panel_new/main/BuildCommandItem.xml" xy="19,-2"/>
+    <component id="n163_1025j" name="queue2" src="1025jhz9d4a" fileName="panel/panel_new/main/BuildCommandItem.xml" xy="19,46"/>
+  </displayList>
+</component>

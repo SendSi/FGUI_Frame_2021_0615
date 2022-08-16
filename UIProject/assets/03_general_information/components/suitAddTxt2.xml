@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="457,32">
+  <controller name="color" pages="0,,1," selected="0">
+    <remark page="1" value="灰"/>
+  </controller>
+  <displayList>
+    <text id="n0_p991" name="title" xy="0,1" size="455,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" autoSize="none" autoClearText="true" text="一件套装效果二件套装效果三件套装效果四件套装效果">
+      <gearColor controller="color" pages="0,1" values="#97794f,#000000|#919191,#000000"/>
+      <relation target="n1_p991" sidePair="left-right"/>
+    </text>
+    <graph id="n1_p991" name="indent" xy="0,-25" size="0,82" alpha="0" type="rect"/>
+  </displayList>
+</component>

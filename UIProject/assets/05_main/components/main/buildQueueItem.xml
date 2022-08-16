@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="302,60">
+  <controller name="state" pages="0,,1,,2," selected="2">
+    <remark page="0" value="空闲中"/>
+    <remark page="1" value="建造中"/>
+    <remark page="2" value="未解锁"/>
+  </controller>
+  <displayList>
+    <image id="n167_edaq" name="n167" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="-5,1" size="312,58" alpha="0.4"/>
+    <text id="n162_sfim" name="timeCount" xy="56,18" size="64,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#d93a3a" vAlign="middle" leading="0" autoClearText="true" text="我惹000">
+      <gearDisplay controller="state" pages="0,1"/>
+      <relation target="n154_1025j" sidePair="left-right"/>
+    </text>
+    <text id="n154_1025j" name="title" xy="2,15" size="56,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#845744" autoClearText="true" text="队列1">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <text id="n155_1025j" name="lockLbl" xy="55,18" size="64,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#d93a3a" text="(未解锁)">
+      <gearDisplay controller="state" pages="2"/>
+      <relation target="n154_1025j" sidePair="left-right"/>
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <text id="n156_1025j" name="noBusy" xy="212,4" size="84,29" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#8bff3d" text="前往升级">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+    <text id="n160_1025j" name="timeLbl" xy="225,17" pivot="1,0" size="71,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#50382e" align="right" vAlign="middle" text="00:00:04">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <component id="n165_rxdm" name="upgradeBtn" src="dfgw1ygcfmd" fileName="components/components_new/com_btn_0002.xml" pkg="2r331opv" xy="177,4" size="120,52">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="middle-middle"/>
+      <Button title="前往升级" titleFontSize="22"/>
+    </component>
+    <component id="n166_rxdm" name="buyBtn" src="dfgw1ygcfmg" fileName="components/components_new/com_btn_0001.xml" pkg="2r331opv" xy="177,4" size="120,52">
+      <gearDisplay controller="state" pages="2"/>
+      <Button title="前往购买" titleFontSize="22"/>
+    </component>
+  </displayList>
+</component>

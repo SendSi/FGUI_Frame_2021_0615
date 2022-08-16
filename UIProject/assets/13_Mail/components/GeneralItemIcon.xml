@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="99,103" extention="Button" designImageOffsetX="-736" designImageOffsetY="-384">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="quailty" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10," selected="0">
+    <remark page="0" value="蓝"/>
+    <remark page="1" value="蓝+1"/>
+    <remark page="2" value="紫"/>
+    <remark page="3" value="紫+1"/>
+    <remark page="4" value="橙"/>
+    <remark page="5" value="橙+1"/>
+    <remark page="6" value="金"/>
+    <remark page="7" value="金+1"/>
+    <remark page="8" value="红"/>
+    <remark page="9" value="红+1"/>
+    <remark page="10" value="钻"/>
+  </controller>
+  <controller name="state" pages="0,normal,1,blank" selected="0"/>
+  <displayList>
+    <loader id="n41_ln1d" name="icon_people" xy="2,8" size="91,91" url="ui://4557t28kcn125z" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n43_uxiw" name="n43" src="itz02a" fileName="images/images_new/com_bg_mask.png" pkg="2r331opv" xy="2,75" size="87,21" alpha="0.8">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n33_9232" name="list_star" xy="6,77" size="82,16" layout="row" overflow="scroll" lineGap="-7" colGap="-14" defaultItem="ui://2r331opvn16mg3">
+      <relation target="" sidePair="width-width,height-height,center-center,bottom-bottom"/>
+      <item icon="ui://2r331opvkn299"/>
+      <item icon="ui://2r331opvkn299"/>
+      <item icon="ui://2r331opvkn299"/>
+      <item icon="ui://2r331opvkn299"/>
+      <item icon="ui://2r331opvkn29b"/>
+    </list>
+    <loader id="n28_9232" name="bg_quality01" xy="0,6" size="95,95" url="ui://4557t28kcn12dy" fill="scale">
+      <gearDisplay controller="quailty" pages="0,2,4,6,8,10"/>
+      <gearIcon controller="quailty" pages="2,4,6,8,10" values="ui://4557t28kcn12e0|ui://4557t28kcn12e2|ui://4557t28kcn12e4|ui://4557t28kcn12e6|ui://4557t28kcn12e8" default="ui://4557t28kcn12dy"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n32_9232" name="icon_topright" xy="0,6" size="95,95" url="ui://4557t28kcn12dz" align="right" fill="scale">
+      <gearDisplay controller="quailty" pages="1,3,5,7,9"/>
+      <gearIcon controller="quailty" pages="3,5,7,9" values="ui://4557t28kcn12e1|ui://4557t28kcn12e3|ui://4557t28kcn12e5|ui://4557t28kcn12e7" default="ui://4557t28kcn12dz"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n37_9232" name="bg_camp" xy="59,0" size="44,47" url="ui://2r331opvgmukch5" fill="scale">
+      <relation target="" sidePair="width-width,height-height,right-right,top-top"/>
+    </loader>
+    <loader id="n31_9232" name="icon_camp" xy="62,5" size="36,36" aspect="true" url="ui://61bunt4fkn29y" vAlign="bottom" fill="scale">
+      <relation target="" sidePair="width-width,height-height,right-right,top-top"/>
+    </loader>
+    <image id="n48_uxiw" name="n48" pkg="jqem9egt" src="m79t9" fileName="images/troops_head_bg_01.png" xy="1,7" size="92,92" group="n50_uxiw"/>
+    <image id="n49_uxiw" name="n49" pkg="2r331opv" src="m79ta" fileName="images/troops_head_bg_02.png" xy="1,7" size="92,92" group="n50_uxiw" alpha="0.5"/>
+    <text id="n51_uxiw" name="n51" xy="5,41" size="83,29" group="n50_uxiw" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="未上阵"/>
+    <group id="n50_uxiw" name="blank" xy="1,7" size="92,92" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+  </displayList>
+  <Button/>
+</component>

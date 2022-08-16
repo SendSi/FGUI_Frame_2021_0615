@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,36" extention="ProgressBar" designImageOffsetX="-415" designImageOffsetY="-224" designImageLayer="1">
+  <controller name="color" pages="0,,1,,2,,3,,4," selected="0">
+    <remark page="0" value="green"/>
+    <remark page="1" value="blue"/>
+    <remark page="2" value="puple"/>
+    <remark page="3" value="yellow"/>
+    <remark page="4" value="red"/>
+  </controller>
+  <displayList>
+    <image id="n4_ld4m" name="bg2" src="svx3hz9d78" fileName="images/images_new/windowBg_new/strip00.png" pkg="2r331opv" xy="-5,-4" size="550,42">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_rq70" name="bar" src="svx3hz9d79" fileName="images/images_new/windowBg_new/strip01.png" pkg="2r331opv" xy="0,1" size="540,32">
+      <gearDisplay controller="color" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5_x7d5" name="bar3" src="o5d41qp8ve9" fileName="images/images_new/windowBg_new/negative_strip05.png" pkg="2r331opv" xy="0,1" size="540,32">
+      <gearDisplay controller="color" pages="3"/>
+    </image>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="40,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="quality" pages="5,,0,,1,,2,,3,,4," selected="0">
+    <remark page="0" value="白"/>
+    <remark page="1" value="绿"/>
+    <remark page="2" value="蓝"/>
+    <remark page="3" value="紫"/>
+    <remark page="4" value="金"/>
+    <remark page="5" value="红"/>
+  </controller>
+  <displayList>
+    <loader id="n3_yhld" name="icon" xy="0,0" size="40,40" url="ui://tsbe09ddmz4w0" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

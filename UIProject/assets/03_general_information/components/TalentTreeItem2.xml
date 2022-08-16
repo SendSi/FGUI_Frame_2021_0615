@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="95,96" extention="Button">
+  <controller name="state" pages="0,,1," selected="0"/>
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_bumc" name="icon" xy="4,3" size="87,87" aspect="true" url="ui://4hio38umbumchz9d8t" align="center" vAlign="middle">
+      <gearIcon controller="state" pages="0" values="ui://4hio38umbumchz9d8t" default="ui://4hio38umbumchz9d8v"/>
+    </loader>
+    <image id="n4_bumc" name="n4" src="bumchz9d8u" fileName="images/talent_bg03.png" xy="-10,-8">
+      <gearDisplay controller="button" pages="3,5"/>
+    </image>
+    <text id="n5_bumc" name="num0" xy="34,5" pivot="0.5,0.5" size="28,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoClearText="true" text="99"/>
+    <text id="n6_bumc" name="num1" xy="9,47" pivot="0.5,0.5" size="28,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoClearText="true" text="99"/>
+    <text id="n7_bumc" name="num2" xy="59,48" pivot="0.5,0.5" size="28,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoClearText="true" text="99"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

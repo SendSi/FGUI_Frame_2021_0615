@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="322,35" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n42_hxd7" name="icon" xy="0,0" size="322,48" visible="false" url="ui://4hio38umhxd7hz9d7d" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <image id="n44_pgg4" name="n44" src="qajo1ygcgm4" fileName="images/images_new/windowBg_new/welfare_btn_bg12.png" pkg="2r331opv" xy="0,0" size="321,35">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n43_tkgc" name="n43" src="tkgc1iy5bek" fileName="images/hero_btn_arrow.png" xy="76,8" visible="false"/>
+    <text id="n25_oxy0" name="title" xy="13,0" size="300,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="收发"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

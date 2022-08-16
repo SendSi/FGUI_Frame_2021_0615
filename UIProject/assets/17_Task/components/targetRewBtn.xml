@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,116" pivot="0.5,0.5" extention="Button" designImage="ui://zezobey9z04phz9cxk" designImageOffsetX="-445" designImageOffsetY="-585">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="small" pages="0,,1," selected="0">
+    <remark page="0" value="显示"/>
+    <remark page="1" value="不显示"/>
+  </controller>
+  <controller name="canPick" pages="0,,1," selected="0">
+    <remark page="0" value="不"/>
+    <remark page="1" value="可"/>
+  </controller>
+  <displayList>
+    <component id="n13_htmu" name="smallBtn" src="htmuhz9cyk" fileName="components/targetRewBtn1.xml" xy="70,0">
+      <gearDisplay controller="small" pages="0"/>
+    </component>
+    <image id="n8_fwxr" name="n8" src="fwxrhz9cya" fileName="images/task_bg1.png" xy="13,13"/>
+    <image id="n9_htmu" name="n9" src="htmuhz9cyg" fileName="images/task_bg1_sel.png" xy="10,10" aspect="true">
+      <gearDisplay controller="button" pages="1,3"/>
+      <gearDisplay2 controller="canPick" pages="1" condition="1"/>
+    </image>
+    <loader id="n4_eaah" name="icon" xy="19,17" size="72,72" aspect="true" url="ui://tsbe09ddlcfjz" align="center" vAlign="middle" fill="scale"/>
+    <text id="n6_w7qq" name="state" xy="7,23" size="18,29" visible="false" fontSize="20" align="center" vAlign="middle" autoSize="none" text=""/>
+    <component id="n7_s3m1" name="red" src="dix6fm" fileName="components/components_new/red_dot.xml" pkg="2r331opv" xy="81,24">
+      <gearDisplay controller="canPick" pages="1"/>
+    </component>
+    <text id="n10_htmu" name="title" xy="41,73" pivot="0.5,0.5" size="28,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="10"/>
+  </displayList>
+  <Button/>
+</component>

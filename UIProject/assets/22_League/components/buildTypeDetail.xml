@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="894,119" extention="Button">
+  <controller name="button" pages="1,up,0,down" selected="1"/>
+  <displayList>
+    <graph id="n14_w7az" name="n14" xy="0,83" pivot="0.5,0" size="940,39" alpha="0" type="rect" lineSize="0">
+      <gearSize controller="button" pages="1,0" values="940,-20,1,1|940,39,1,1"/>
+      <relation target="n13_w7az" sidePair="height-height"/>
+    </graph>
+    <image id="n3_cv2m" name="n3" src="b1o21ygcfnq" fileName="images/images_new/windowBg_new/negative_bg26.png" pkg="2r331opv" xy="0,0" size="894,78" alpha="0.4">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <image id="n4_cv2m" name="n4" src="b1o21ygcfnq" fileName="images/images_new/windowBg_new/negative_bg26.png" pkg="2r331opv" xy="0,0" size="894,78">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <text id="n5_cv2m" name="nameTitle" xy="104,13" size="387,52" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="领土建筑"/>
+    <loader id="n6_cv2m" name="icon" xy="1,-7" size="96,96" url="ui://lp3m5cuhfmrz1ygcfni" align="center" vAlign="middle" fill="scale" autoSize="true"/>
+    <text id="n7_cv2m" name="progressTxt" xy="726,18" size="92,39" group="n9_cv2m" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#97794f" align="right" autoSize="none" autoClearText="true" text="5/9"/>
+    <image id="n11_p11n" name="n11" src="p11n1qp8vfe" fileName="images/images_new/com_arrow017.png" pkg="2r331opv" xy="830,28" size="39,32" group="n9_cv2m" aspect="true" scale="0.7,0.7">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n12_p11n" name="n12" src="p11n1qp8vfd" fileName="images/images_new/com_arrow018.png" pkg="2r331opv" xy="830,28" size="39,32" group="n9_cv2m" aspect="true" scale="0.7,0.7">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <group id="n9_cv2m" name="n9" xy="726,18" size="143,42" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <text id="n13_w7az" name="desTitle" xy="7,86" size="879,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#50382e" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="这是文字描述说明巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉">
+      <gearDisplay controller="button" pages="0,2"/>
+    </text>
+  </displayList>
+  <Button mode="Check"/>
+  <relation target="n14_w7az" sidePair="bottomext-bottom"/>
+</component>

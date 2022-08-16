@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="254,24" extention="ProgressBar">
+  <displayList>
+    <image id="n14_hk7t" name="n14" src="i69g1ygcflh" fileName="images/images_new/windowBg_new/negative_strip012.png" pkg="2r331opv" xy="2,0" size="252,24">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n12_hk7t" name="bar" src="i69g1ygcflg" fileName="images/images_new/windowBg_new/negative_strip011.png" pkg="2r331opv" xy="0,0" size="254,24">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n8_o8cy" name="title1" xy="2,1" size="64,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" vAlign="middle" autoClearText="true" text="等级: 10"/>
+    <text id="n16_hk7t" name="title2" xy="187,1" pivot="1,0" size="64,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" align="right" vAlign="middle" autoClearText="true" text="等级: 10">
+      <relation target="n14_hk7t" sidePair="right-right"/>
+    </text>
+  </displayList>
+  <ProgressBar/>
+</component>

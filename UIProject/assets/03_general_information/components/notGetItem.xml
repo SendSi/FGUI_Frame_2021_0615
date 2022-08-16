@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="265,42" designImageOffsetX="-28" designImageOffsetY="-458">
+  <displayList>
+    <graph id="n5_oxy0" name="n5" xy="8,5" size="265,42" alpha="0.4" type="rect" lineSize="0" lineColor="#05000000" fillColor="#ff000000"/>
+    <text id="n3_oxy0" name="title" xy="20,9" size="242,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#9f9898" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" autoClearText="true" text="未招募"/>
+  </displayList>
+  <relation target="n5_oxy0" sidePair="width-width,height-height"/>
+</component>

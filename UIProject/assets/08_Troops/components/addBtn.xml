@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,29" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n5_j495" name="n5" xy="0,0" size="102,29" type="rect" lineSize="0" fillColor="#ff4c9129" corner="3">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n4_n6zb" name="title" xy="4,1" size="76,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" align="center" vAlign="middle" singleLine="true" autoClearText="true" text="兵力加成">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n6_j495" name="n6" src="aibb2e" fileName="images/images_new/common_arrow_4.png" pkg="2r331opv" xy="80,2" size="49,60" scale="0.4,0.4">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="91,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_iqhi" name="n0" src="qdf6hz9cud" fileName="images/buliding/building_bg_bubble02.png" xy="0,24" size="90,52" aspect="true" alpha="0.7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5_not4" name="title" xy="20,27" size="48,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" autoClearText="true" text="招募"/>
+    <component id="n4_dmq8" name="Effect_ui_button_tips_produce" src="ayljdv" fileName="components/EffectHandle.xml" pkg="2r331opv" xy="12,7" size="66,65" touchable="false" customData="73"/>
+  </displayList>
+  <Button/>
+</component>

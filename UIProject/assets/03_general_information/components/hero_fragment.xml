@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="582,114">
+  <displayList>
+    <image id="n0_8z99" name="n0" src="a4b91qp8veo" fileName="images/images_new/com_change010.png" pkg="2r331opv" xy="0,0" pivot="0.5,0.5" size="582,114" alpha="0.6" color="#000000" fillMethod="vt"/>
+    <list id="n1_8z99" name="skill_list" xy="0,10" size="582,68" layout="row" colGap="16" defaultItem="ui://4hio38umct1e1iy5bfs" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n2_lvki" name="n2" xy="129,78" pivot="0.5,0.5" size="324,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" shadowColor="#000000" shadowOffset="1,1" text="满怒释放技能，按部队位置顺序释放"/>
+  </displayList>
+</component>

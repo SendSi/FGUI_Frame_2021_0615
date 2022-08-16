@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="111,127">
+  <displayList>
+    <component id="n0_bumc" name="n0" src="bumchz9d8r" fileName="components/TalentTreeItem2.xml" xy="8,31"/>
+    <component id="n1_bumc" name="n1" src="bumchz9d8w" fileName="components/TalentTreeBtn.xml" xy="5,1"/>
+  </displayList>
+</component>

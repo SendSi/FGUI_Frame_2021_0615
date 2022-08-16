@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="930,80" designImageOffsetX="-126" designImageOffsetY="-202">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="常见"/>
+    <remark page="1" value="置顶变黄"/>
+  </controller>
+  <displayList>
+    <image id="n0_i5fm" name="n17" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="930,80" alpha="0.5">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <image id="n18_k0s5" name="n18" src="k0s51qp8vfm" fileName="images/images_new/windowBg_new/negative_bg02_2.png" pkg="2r331opv" xy="0,0" size="930,80" alpha="0.5" color="#ff9b42">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <text id="n2_i5fm" name="txtName" xy="97,13" size="268,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" autoClearText="true" text="玩家名字"/>
+    <text id="n4_i5fm" name="txtDesc" xy="97,40" size="128,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" autoClearText="true" text="11级主将名称"/>
+    <component id="n13_spur" name="proPbr" src="spurhz9cxb" fileName="components/helpPbr.xml" xy="636,22">
+      <relation target="" sidePair="right-right"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n15_etns" name="icon" src="ho0c1ygcgnt" fileName="components/components_new/btn_head6.xml" pkg="2r331opv" xy="12,-2" aspect="true" scale="0.4,0.4"/>
+    <component id="n19_y65p" name="txtGoBtn" src="jvu0ci2" fileName="components/components_new/com_btn_lbl_lines.xml" pkg="2r331opv" xy="514,9" size="119,61">
+      <relation target="" sidePair="right-right"/>
+      <Button title="前往" titleFontSize="20"/>
+    </component>
+  </displayList>
+</component>

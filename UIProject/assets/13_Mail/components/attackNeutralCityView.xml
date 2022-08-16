@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="733,410" pivot="1,1" overflow="scroll" designImageOffsetX="-580" designImageOffsetY="-2">
+  <displayList>
+    <image id="n21_mloz" name="n21" src="mlozhz9czu" fileName="images/bg_06.png" xy="0,157" size="733,40" alpha="0.3">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <text id="n0_uxiw" name="lbl" xy="26,1" size="707,77" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" leading="6" ubb="true" autoSize="none" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="太好了！通过大家共同的努力，我们联盟终于成功占领了[color=#ff5a5a]{SA-4}花飞漫地[/color]的城市，获取了以下重要情报重要情报重要情报重要情报重要情报">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <text id="n2_uxiw" name="playerName" xy="25,160" size="218,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffb361" leading="6" ubb="true" autoSize="none" shadowColor="#000000" shadowOffset="0,1" singleLine="true" autoClearText="true" text="占领收益："/>
+    <component id="n1_uxiw" name="headIcon" src="j3xs9pm" fileName="components/components_new/btn_head4.xml" pkg="2r331opv" xy="12,199" group="n18_vidf" aspect="true" scale="0.7,0.7" touchable="false"/>
+    <component id="n3_uxiw" name="coordinateTitle" src="jvu0ci2" fileName="components/components_new/com_btn_lbl_lines.xml" pkg="2r331opv" xy="174,286" size="151,35" group="n18_vidf">
+      <Button title="X:135  Y:541" titleColor="#8bff3d" titleFontSize="24"/>
+    </component>
+    <text id="n4_uxiw" name="wallDurabilityLbl" xy="175,222" size="205,60" group="n18_vidf" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" leading="1" ubb="true" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="集结部队攻击力+5%&#xA;采集速度+20%"/>
+    <loader id="n19_quts" name="icon1" xy="304,217" size="40,40" group="n18_vidf" aspect="true" visible="false" url="ui://2r331opvlfqnhz9d79" autoSize="true"/>
+    <loader id="n20_quts" name="icon2" xy="304,253" size="40,40" group="n18_vidf" aspect="true" visible="false" url="ui://2r331opvlfqnhz9d79" autoSize="true"/>
+    <group id="n18_vidf" name="com0" xy="12,199" size="368,210" advanced="true">
+      <relation target="" sidePair=""/>
+    </group>
+  </displayList>
+</component>

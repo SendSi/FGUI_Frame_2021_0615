@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageOffsetX="-165" designImageAlpha="29" designImageLayer="1">
+  <controller name="popup" pages="0,clothes,2,notice" selected="0"/>
+  <displayList>
+    <loader id="n25_p781" name="bg" xy="-170,0" size="1675,750" url="ui://2r331opvc92hhz9cuk" fill="scaleFree">
+      <relation target="" sidePair="height-height,center-center"/>
+    </loader>
+    <loader id="n35_njj7" name="view" xy="0,0" size="1334,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n12_7oiz" name="button_notice" src="7oizh" fileName="components/interactive.xml" xy="18,23" size="98,98" group="n22_qbmb">
+      <Button title="公告" icon="ui://byy9k3gh7oiz9"/>
+    </component>
+    <component id="n9_7oiz" name="button_ number" src="7oizh" fileName="components/interactive.xml" xy="18,123" size="98,98" group="n22_qbmb">
+      <Button title="账号" icon="ui://byy9k3gh7oiz7"/>
+    </component>
+    <component id="n11_7oiz" name="button_sweep" src="7oizh" fileName="components/interactive.xml" xy="18,223" size="98,98" group="n22_qbmb">
+      <Button title="扫码" icon="ui://byy9k3gh7oiza"/>
+    </component>
+    <component id="n32_mpc8" name="button_service" src="7oizh" fileName="components/interactive.xml" xy="18,323" size="98,98" group="n22_qbmb">
+      <Button title="客服" icon="ui://byy9k3ghmpc836"/>
+    </component>
+    <group id="n22_qbmb" name="n22" xy="18,23" size="98,398" advanced="true">
+      <relation target="" sidePair="left-left"/>
+    </group>
+    <loader id="n24_o1ro" name="icon_logo" xy="281,73" pivot="0.5,0.5" size="768,279" url="ui://byy9k3ghv4de32" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n8_7oiz" name="button_game_start" src="p78115" fileName="components/button_game_start.xml" xy="490,517" group="n21_gaz3">
+      <Button title="开始游戏" titleColor="#ffffff" icon="ui://byy9k3gh7oizb" sound="ui://2r331opvu9ouhn" volume="50"/>
+    </component>
+    <component id="n20_q8mh" name="button_choose" src="q8mhz" fileName="components/clothes_btn_02.xml" xy="418,443" group="n21_gaz3">
+      <Button sound="ui://2r331opvu9ouh4"/>
+    </component>
+    <group id="n21_gaz3" name="n21" xy="418,443" size="501,152" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n31_p781" name="n31" src="c1q9hz9cug" fileName="components/components_new/com_btn_check4.xml" pkg="2r331opv" xy="384,600" size="81,81" group="n30_p781">
+      <relation target="n26_p781" sidePair="left-left"/>
+    </component>
+    <text id="n26_p781" name="title_01" xy="443,622" size="220,34" group="n30_p781" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="我已详细阅读并同意">
+      <relation target="n28_p781" sidePair="left-left"/>
+    </text>
+    <text id="n33_mpc8" name="title_02" xy="814,622" size="28,34" group="n30_p781" font="ui://2r331opvno3vhz9d62" fontSize="24" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="及">
+      <relation target="n28_p781" sidePair="right-right"/>
+    </text>
+    <component id="n28_p781" name="title_btn01" src="p78117" fileName="components/title_btn01.xml" xy="666,621" size="148,34" group="n30_p781">
+      <Button title="游戏服务协议"/>
+    </component>
+    <component id="n29_p781" name="title_btn02" src="p78117" fileName="components/title_btn01.xml" xy="841,621" size="100,34" group="n30_p781">
+      <relation target="n33_mpc8" sidePair="right-right"/>
+      <Button title="隐私协议"/>
+    </component>
+    <group id="n30_p781" name="n30" xy="384,600" size="557,81" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n34_ib2q" name="btnTestLog" src="sfia1ygcfhf" fileName="components/components_new/com_btn_null.xml" pkg="2r331opv" xy="1004,0" size="316,242">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+</component>

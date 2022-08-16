@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="304,26" designImageOffsetX="-518" designImageOffsetY="-441">
+  <displayList>
+    <text id="n0_10473" name="title" xy="-1,-1" size="44,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#b333d9" ubb="true" autoClearText="true" text="攻击"/>
+    <text id="n1_10473" name="num" xy="251,-1" pivot="1,0" size="51,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#8bff3d" align="right" autoClearText="true" text="+100"/>
+  </displayList>
+</component>

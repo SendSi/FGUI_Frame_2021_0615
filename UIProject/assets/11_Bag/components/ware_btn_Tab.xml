@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,82" extention="Button" designImageOffsetX="-68" designImageOffsetY="-201" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_gp9p" name="n0" src="gp9phz9cno" fileName="images/images_new/com_btn_bg06.png" pkg="2r331opv" xy="10,0" size="98,82">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_gp9p" name="n1" src="gp9phz9cnp" fileName="images/images_new/com_btn_bg05.png" pkg="2r331opv" xy="0,0" size="126,82">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_gp9p" name="icon" xy="16,0" size="98,82" url="ui://b7676vbqgp9pkg" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

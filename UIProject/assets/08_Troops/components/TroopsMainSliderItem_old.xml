@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="310,64" designImage="ui://jqem9egto283z9cnk" designImageOffsetX="-964" designImageOffsetY="-370" designImageAlpha="44">
+  <controller name="full" pages="0,no,1,yes" selected="0"/>
+  <displayList>
+    <image id="n39_o283" name="n39" pkg="2r331opv" src="o283z9co0" fileName="images/images_new/com_bg_mask4.png" xy="74,1" size="154,35" group="n18_m79t" alpha="0.8"/>
+    <component id="n1_m79t" name="btnCut" src="kwe92x" fileName="components/components_new/com_btn_cut.xml" pkg="2r331opv" xy="-5,3" group="n18_m79t" aspect="true">
+      <gearLook controller="full" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+    </component>
+    <component id="n2_m79t" name="btnMax" src="kwe92w" fileName="components/components_new/com_btn_max.xml" pkg="2r331opv" xy="250,3" group="n18_m79t" aspect="true">
+      <gearLook controller="full" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+    </component>
+    <loader id="n34_kn9h" name="armIcon" xy="115,3" size="29,29" group="n18_m79t" aspect="true" url="ui://2r331opvkn293" align="center" vAlign="middle" fill="scale">
+      <gearLook controller="full" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+    </loader>
+    <text id="n40_xae7" name="armSum" xy="75,63" pivot="0.5,0.5" size="220,34" group="n18_m79t" font="ui://2r331opvlwft3" fontSize="24" color="#80efff" align="center" vAlign="middle" autoClearText="true" text="825000/800000"/>
+    <component id="n19_d7y8" name="sliderNums" src="o283z9cmk" fileName="components/armsPbr.xml" xy="62,36" group="n42_ilfe">
+      <gearLook controller="full" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+      <Slider max="100"/>
+    </component>
+    <component id="n41_ilfe" name="EffectRoot_01" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="127,36" size="50,10" group="n42_ilfe" touchable="false">
+      <relation target="n19_d7y8" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n42_ilfe" name="n42" xy="62,36" size="182,11" group="n18_m79t"/>
+    <text id="n43_tc03" name="armTitle" xy="6,66" pivot="1,1" size="67,30" group="n18_m79t" fontSize="21" color="#e5ce8e" align="right" autoClearText="true" text="预备兵">
+      <relation target="n40_xae7" sidePair="left-left"/>
+    </text>
+    <group id="n18_m79t" name="normal" xy="-5,1" size="315,96" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,58" pivot="0.5,0.5" extention="Button" designImageOffsetX="-19" designImageOffsetY="-572">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="color" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n5_j3xs" name="n5" xy="0,0" size="400,58" group="n6_o4to" url="ui://2r331opvsnu3hz9d3l" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n8_tc73" name="icon" xy="13,13" size="50,50" group="n6_o4to" scale="0.7,0.7" url="ui://2r331opvkhxe1qp8vhw" align="right" vAlign="middle" fill="scale"/>
+    <text id="n3_j3xs" name="title" xy="49,8" size="338,42" group="n6_o4to" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="选项A：0字吗这里十一行最多20字吗这里十">
+      <gearColor controller="color" pages="1" values="#fffc8c,#000000" default="#ffffff,#000000"/>
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <group id="n6_o4to" name="n6" xy="0,0" size="400,63" advanced="true"/>
+  </displayList>
+  <Button mode="Radio" downEffect="scale" downEffectValue=".99"/>
+  <transition name="Fade in">
+    <item time="0" type="Alpha" target="n6_o4to" tween="true" startValue="0" endValue="0" duration="7"/>
+    <item time="7" type="Alpha" target="n6_o4to" tween="true" startValue="0" endValue="1" duration="29"/>
+  </transition>
+  <transition name="Fade out">
+    <item time="0" type="Alpha" target="n6_o4to" tween="true" startValue="1" endValue="1" duration="8"/>
+    <item time="8" type="Alpha" target="n6_o4to" tween="true" startValue="1" endValue="0" duration="28"/>
+  </transition>
+</component>

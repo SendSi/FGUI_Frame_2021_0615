@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <controller name="state" pages="0,,1,,4,,5,,6,,7,,8," selected="6">
+    <remark page="0" value="可捐献"/>
+    <remark page="1" value="已满级"/>
+    <remark page="2" value="不可捐献"/>
+    <remark page="3" value="科技研究_按钮"/>
+    <remark page="4" value="科技研究_进度条"/>
+    <remark page="5" value="使用"/>
+    <remark page="6" value="未解锁"/>
+  </controller>
+  <controller name="critCtrl" pages="0,,1," selected="1">
+    <remark page="0" value="无暴击"/>
+    <remark page="1" value="有暴击"/>
+    <action type="play_transition" fromPage="" toPage="1" transition="t1"/>
+  </controller>
+  <controller name="donateCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不捐献"/>
+    <remark page="1" value="捐献"/>
+  </controller>
+  <controller name="st3" pages="0,,1," selected="0">
+    <remark page="0" value="状态3不显示价格"/>
+    <remark page="1" value="显示价格"/>
+  </controller>
+  <displayList>
+    <component id="n2_n6cz" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_n6cz" name="window" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n35_n6cz"/>
+    <text id="n4_n6cz" name="title" xy="371,70" pivot="0.5,0.5" size="602,46" group="n35_n6cz" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="科技捐献"/>
+    <component id="n5_n6cz" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n35_n6cz"/>
+    <image id="n6_n6cz" name="n6" src="b3skhz9cxp" fileName="images/league_kraftpaper.png" xy="208,158" size="352,488" group="n31_n6cz" color="#ffd55b"/>
+    <image id="n67_d03f" name="n67" src="jnfz1ygcgnq" fileName="images/images_new/windowBg_new/welfare_btn_bg26.png" pkg="2r331opv" xy="276,201" pivot="0.5,0.5" size="212,212" group="n31_n6cz" aspect="true" alpha="0.2" color="#d88f26"/>
+    <component id="n37_to9j" name="btnRecommend" src="to9jhz9d4x" fileName="components/LeagueBtn08.xml" xy="240,189" group="n31_n6cz"/>
+    <component id="n26_n6cz" name="icon" src="k06chz9d3r" fileName="components/ScienceIcon.xml" xy="337,262" group="n31_n6cz"/>
+    <component id="n27_n6cz" name="explainBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="494,185" size="40,38" group="n31_n6cz">
+      <Button icon="ui://2r331opvvb7khz9czn"/>
+    </component>
+    <image id="n28_n6cz" name="n28" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="248,407" size="268,195" group="n31_n6cz" alpha="0.6"/>
+    <text id="n29_n6cz" name="inforTxt" xy="257,420" size="249,108" group="n31_n6cz" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" leading="0" autoSize="none" autoClearText="true" text="这是描述巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉"/>
+    <component id="n30_n6cz" name="levelProgress" src="hevfhz9d4w" fileName="components/dissolvePbrTitle.xml" xy="280,556" size="203,30" group="n31_n6cz">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <group id="n31_n6cz" name="n31" xy="208,158" size="352,488" group="n35_n6cz"/>
+    <text id="n7_n6cz" name="lvTitle" xy="569,168" size="78,39" group="n35_n6cz" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#97794f" text="Level"/>
+    <text id="n8_n6cz" name="lvBefor" xy="662,157" size="28,54" group="n35_n6cz" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#4c9129" autoClearText="true" text="2">
+      <relation target="n7_n6cz" sidePair="left-right"/>
+    </text>
+    <list id="n13_n6cz" name="inforList" xy="569,212" size="558,89" group="n35_n6cz" overflow="scroll" lineGap="2" defaultItem="ui://lp3m5cuhn6czhz9d4r">
+      <item/>
+      <item/>
+    </list>
+    <image id="n9_n6cz" name="n9" src="aibb2e" fileName="images/images_new/common_arrow_4.png" pkg="2r331opv" xy="749,165" size="42,50" group="n32_n6cz" aspect="true" rotation="90">
+      <relation target="n8_n6cz" sidePair="left-right"/>
+    </image>
+    <text id="n10_n6cz" name="lvAfter" xy="761,157" size="82,54" group="n32_n6cz" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#4c9129" autoSize="none" autoClearText="true" text="3">
+      <relation target="n9_n6cz" sidePair="left-right"/>
+    </text>
+    <image id="n12_n6cz" name="n12" src="8rmp1ygcfmx" fileName="images/images_new/com_bg_strip001.png" pkg="2r331opv" xy="568,329" size="561,159" group="n32_n6cz" alpha="0.5"/>
+    <component id="n14_n6cz" name="numProgress" src="hevfhz9d4w" fileName="components/dissolvePbrTitle.xml" xy="623,357" size="432,30" group="n32_n6cz">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n15_n6cz" name="iconPbr" src="lccxhz9d6a" fileName="components/science_iconPbr.xml" xy="599,346" size="53,53" group="n32_n6cz" aspect="true"/>
+    <text id="n16_n6cz" name="n16" xy="792,399" pivot="0.5,0.5" size="112,29" group="n32_n6cz" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" autoSize="none" text="捐献后获得"/>
+    <list id="n17_n6cz" name="getList" xy="587,425" size="522,44" group="n32_n6cz" layout="row" overflow="scroll" scroll="horizontal" colGap="60" defaultItem="ui://2r331opvjs41hz9cw1" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_n6cz" name="explainBtn2" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="1058,344" size="56,56" group="n32_n6cz" aspect="true">
+      <Button icon="ui://2r331opvvb7khz9czo"/>
+    </component>
+    <text id="n19_n6cz" name="times" xy="914,515" pivot="0.5,0.5" size="158,29" group="n32_n6cz" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="捐献机会：0/20"/>
+    <component id="n20_n6cz" name="donateBtn1" src="d5so1ygcfk6" fileName="components/components_new/com_btn_buy1.xml" pkg="2r331opv" xy="597,548" group="n32_n6cz">
+      <Button title="捐献"/>
+    </component>
+    <component id="n21_n6cz" name="donateBtn2" src="d5so1ygcfk6" fileName="components/components_new/com_btn_buy1.xml" pkg="2r331opv" xy="912,548" group="n32_n6cz">
+      <gearLook controller="state" pages="4" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title="捐献"/>
+    </component>
+    <text id="n34_n6cz" name="chanceTips" xy="857,616" pivot="1,0" size="272,29" group="n32_n6cz" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoClearText="true" text="00:51:20 后获得一次捐献机会"/>
+    <component id="n38_to9j" name="crit" src="to9jhz9d5l" fileName="components/LeagueCrit.xml" xy="749,183" pivot="0.5,0.5" size="166,120" group="n32_n6cz">
+      <gearDisplay controller="critCtrl" pages="1"/>
+    </component>
+    <component id="n39_to9j" name="donatenum" src="to9jhz9d5m" fileName="components/Leaguedonatenum.xml" xy="753,278" pivot="0.5,0.5" group="n32_n6cz">
+      <gearDisplay controller="donateCtrl" pages="1"/>
+    </component>
+    <text id="n64_ozxs" name="chanceT" xy="619,616" pivot="1,0" size="116,29" group="n32_n6cz" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="2倍个人积分"/>
+    <group id="n32_n6cz" name="state0" xy="568,157" size="561,488" group="n35_n6cz" advanced="true">
+      <gearDisplay controller="state" pages="0,4"/>
+    </group>
+    <text id="n33_n6cz" name="fullTips" xy="822,425" size="94,42" group="n35_n6cz" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" text="已满级">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <image id="n40_to9j" name="n40" src="aibb2e" fileName="images/images_new/common_arrow_4.png" pkg="2r331opv" xy="749,165" size="42,50" group="n54_to9j" aspect="true" rotation="90">
+      <relation target="n8_n6cz" sidePair="left-right"/>
+    </image>
+    <text id="n41_to9j" name="lvAfter1" xy="761,157" size="120,54" group="n54_to9j" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#4c9129" autoSize="none" autoClearText="true" text="3">
+      <relation target="n40_to9j" sidePair="left-right"/>
+    </text>
+    <image id="n42_to9j" name="n42" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="569,314" size="561,52" group="n54_to9j" visible="false"/>
+    <list id="n46_to9j" name="getList1" xy="547,320" size="605,40" group="n54_to9j" visible="false" layout="row" overflow="scroll" colGap="150" defaultItem="ui://2r331opvjs41hz9cw1" align="center" vAlign="middle">
+      <item/>
+      <item/>
+    </list>
+    <component id="n66_g8xw" name="donateBtn3" src="d5so1ygcfk6" fileName="components/components_new/com_btn_buy1.xml" pkg="2r331opv" xy="753,540" size="202,78" group="n54_to9j">
+      <gearDisplay controller="state" pages="5"/>
+      <Button title="捐献" titleFontSize="30"/>
+    </component>
+    <component id="n58_b2gg" name="uesBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="753,540" size="202,78" group="n54_to9j">
+      <gearDisplay controller="state" pages="7"/>
+      <Button title="使用" titleFontSize="30"/>
+    </component>
+    <component id="n55_gqc5" name="numProgress4" src="etnshz9d3a" fileName="components/dissolvePbrTime.xml" xy="641,533" size="441,30" group="n57_gqc5">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n56_gqc5" name="iconPbr4" xy="611,522" size="52,52" group="n57_gqc5" aspect="true" url="ui://tsbe09ddmz4w3" align="center" vAlign="middle" fill="scale"/>
+    <group id="n57_gqc5" name="state4" xy="611,522" size="471,52" group="n54_to9j" advanced="true">
+      <gearDisplay controller="state" pages="6"/>
+    </group>
+    <group id="n54_to9j" name="state345" xy="547,157" size="605,461" group="n35_n6cz" advanced="true">
+      <gearDisplay controller="state" pages="5,6,7"/>
+    </group>
+    <image id="n61_b2gg" name="n61" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="566,379" size="566,244" group="n62_b2gg" visible="false"/>
+    <image id="n59_b2gg" name="n59" src="aibb2e" fileName="images/images_new/common_arrow_4.png" pkg="2r331opv" xy="749,165" size="42,50" group="n62_b2gg" aspect="true" rotation="90">
+      <relation target="n8_n6cz" sidePair="left-right"/>
+    </image>
+    <text id="n60_b2gg" name="lvAfter6" xy="761,168" size="20,42" group="n62_b2gg" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#4c9129" autoSize="none" autoClearText="true" text="3">
+      <relation target="n59_b2gg" sidePair="left-right"/>
+    </text>
+    <list id="n63_mbbx" name="state6_list" xy="569,401" size="560,215" group="n62_b2gg" layout="row" overflow="scroll" scroll="horizontal" colGap="26" defaultItem="ui://lp3m5cuhb2gghz9d69" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n62_b2gg" name="state6" xy="566,165" size="566,458" group="n35_n6cz" advanced="true">
+      <gearDisplay controller="state" pages="8"/>
+    </group>
+    <group id="n35_n6cz" name="n35" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n65_z593" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="634,0" size="700,40">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <transition name="tDonateTime">
+    <item time="0" type="Alpha" target="n39_to9j" tween="true" startValue="0.4" endValue="1" duration="4"/>
+    <item time="0" type="Scale" target="n39_to9j" tween="true" startValue="2,2" endValue="1,1" duration="4"/>
+    <item time="10" type="Alpha" target="n39_to9j" tween="true" startValue="1" endValue="0.5" duration="9"/>
+    <item time="10" type="XY" target="n39_to9j" tween="true" startValue="778,286" endValue="778,266" duration="13"/>
+    <item time="19" type="Alpha" target="n39_to9j" tween="true" startValue="0.5" endValue="0" duration="4"/>
+  </transition>
+  <transition name="tCritTime" autoPlay="true">
+    <item time="0" type="Alpha" target="n38_to9j" value="1"/>
+    <item time="0" type="Scale" target="n38_to9j" tween="true" startValue="2,2" endValue="0.9,0.9" duration="3"/>
+    <item time="3" type="Scale" target="n38_to9j" tween="true" startValue="0.9,0.9" endValue="1,1" duration="3"/>
+    <item time="6" type="Alpha" target="n38_to9j" value="1"/>
+    <item time="6" type="XY" target="n38_to9j" value="774,185"/>
+    <item time="10" type="Alpha" target="n38_to9j" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="10" type="XY" target="n38_to9j" tween="true" startValue="774,185" endValue="774,165" duration="12"/>
+  </transition>
+</component>

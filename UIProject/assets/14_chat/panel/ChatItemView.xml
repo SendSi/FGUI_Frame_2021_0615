@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="620,111">
+  <controller name="isSelf" pages="4,true,5,false,6," selected="0">
+    <remark page="2" value="加入或退出联盟聊天"/>
+  </controller>
+  <displayList>
+    <graph id="n96_e7jj" name="n96" xy="0,0" size="620,111" alpha="0" type="rect">
+      <gearSize controller="isSelf" pages="6" values="620,86,1,1" default="620,111,1,1"/>
+      <relation target="n93_pa9w" sidePair="width-width,height-height"/>
+      <relation target="n9_wkc0" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n93_pa9w" name="selfHead" src="pa9w2h" fileName="panel/selfChat.xml" xy="0,0" size="620,111">
+      <gearDisplay controller="isSelf" pages="4"/>
+    </component>
+    <component id="n9_wkc0" name="otherHead" src="pa9w2g" fileName="panel/otherChat.xml" xy="0,0">
+      <gearDisplay controller="isSelf" pages="5"/>
+    </component>
+    <image id="n95_e7jj" name="n95" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="202,14" pivot="0.5,0.5" size="216,36" group="n98_e7jj">
+      <relation target="n94_e7jj" sidePair="width-width"/>
+    </image>
+    <text id="n94_e7jj" name="nameLbl" xy="206,16" pivot="0.5,0.5" size="207,32" group="n98_e7jj" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" align="center" autoClearText="true" text="墨色三千 加入了群聊"/>
+    <text id="n97_e7jj" name="TimeLbl" xy="241,52" pivot="0.5,0.5" size="137,26" group="n98_e7jj" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#818181" align="center" autoClearText="true" text="11-18  10:17:17"/>
+    <group id="n98_e7jj" name="n98" xy="202,14" size="216,64" advanced="true">
+      <gearDisplay controller="isSelf" pages="6"/>
+    </group>
+  </displayList>
+  <relation target="n93_pa9w" sidePair="bottomext-bottom"/>
+  <relation target="n9_wkc0" sidePair="bottomext-bottom"/>
+  <relation target="n96_e7jj" sidePair="height-height"/>
+</component>

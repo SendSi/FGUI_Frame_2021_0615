@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,223">
+  <controller name="active" pages="0,未激活,1,已激活" selected="0"/>
+  <displayList>
+    <graph id="n11_nuo6" name="mask" xy="0,0" size="100,100" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <graph id="n9_frs0" name="bg" xy="0,0" size="500,223" type="rect" lineSize="2" lineColor="#ff003366" fillColor="#b2cccccc" corner="5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n5_frs0" name="title" xy="10,16" size="202,33" fontSize="22" color="#009900" autoSize="none" autoClearText="true" text="觉醒技：技能名 lv1"/>
+    <text id="n10_nuo6" name="level" xy="145,70" size="68,33" fontSize="22" color="#009900" align="right" autoSize="none" autoClearText="true" text="lv999"/>
+    <text id="n4_frs0" name="state" xy="17,73" size="64,29" fontSize="20" color="#ff0000" text="未激活">
+      <gearColor controller="active" pages="1" values="#009900,#000000" default="#ff0000,#000000"/>
+      <gearText controller="active" pages="1" values="已激活" default="未激活"/>
+    </text>
+    <graph id="n3_frs0" name="n3" xy="306,104" size="158,29" group="n8_frs0" type="rect" fillColor="#b2000000"/>
+    <text id="n2_frs0" name="n2" xy="346,106" size="68,24" group="n8_frs0" fontSize="16" color="#ffffff" autoClearText="true" text="羁绊武将"/>
+    <group id="n8_frs0" name="g1" xy="306,104" size="158,29"/>
+    <graph id="n6_frs0" name="line" xy="0,136" size="500,2" type="rect" lineSize="0" fillColor="#ff333333"/>
+    <text id="n7_frs0" name="desc" xy="22,148" size="457,62" fontSize="22" color="#009900" ubb="true" autoSize="height" autoClearText="true" text="技能描述[color=#ff0000]红色[/color]&#xA;[color=#00ffff]青色[/color]"/>
+    <list id="n12_nuo6" name="genList" xy="297,11" size="174,86" layout="row" defaultItem="ui://jqem9egtfrs0z9cqx">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n7_frs0" sidePair="bottomext-bottom"/>
+</component>

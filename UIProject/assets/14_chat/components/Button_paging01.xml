@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="165,99" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2_r9f6" name="bg_02" src="r9f635" fileName="images/chat_btn02.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n0_7oiz" name="bg_01" src="r9f634" fileName="images/chat_btn01.png" xy="4,3">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <text id="n1_7oiz" name="title" xy="54,31" pivot="0.5,0.5" size="56,36" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#588cb4" align="center" vAlign="middle" singleLine="true" text="系统">
+      <gearXY controller="button" pages="0,1,2,3" values="54,31|54,31|54,31|54,31"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#588cb4,#162a39|#50382e,#1d626d|#588cb4,#162a39|#50382e,#1d626d"/>
+      <gearFontSize controller="button" pages="0,1,2,3" values="26|26|26|26"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

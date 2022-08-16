@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="990,567" designImageOffsetX="-128">
+  <displayList>
+    <loader id="n122_udrc" name="bg" xy="0,0" size="990,567" url="ui://lp3m5cuhudrc1ygcflg" autoSize="true"/>
+    <component id="n117_mw3o" name="scienceBtn" src="itkw1ygcfkf" fileName="components/components_new/com_btn_00_redPoint.xml" pkg="2r331opv" xy="349,487">
+      <Button title="联盟科技"/>
+    </component>
+    <component id="n118_mw3o" name="helpBtn" src="itkw1ygcfkf" fileName="components/components_new/com_btn_00_redPoint.xml" pkg="2r331opv" xy="775,255">
+      <Button title="联盟帮助"/>
+    </component>
+    <component id="n119_mw3o" name="allyBtn" src="itkw1ygcfkf" fileName="components/components_new/com_btn_00_redPoint.xml" pkg="2r331opv" xy="298,225">
+      <Button title="联盟外交"/>
+    </component>
+    <component id="n120_mw3o" name="quitBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="830,467">
+      <Button title="  退出联盟" icon="ui://lp3m5cuhudrc1ygcfli"/>
+    </component>
+    <component id="n123_wczn" name="settingBtn" src="itkw1ygcfkf" fileName="components/components_new/com_btn_00_redPoint.xml" pkg="2r331opv" xy="87,349">
+      <Button title="设置"/>
+    </component>
+  </displayList>
+</component>

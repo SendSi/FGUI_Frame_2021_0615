@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="383,146" extention="Label">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n9_v3cc" name="n9" src="cmbv1ygcfl0" fileName="images/images_new/com_change07_1.png" pkg="2r331opv" xy="108,32" size="275,80" alpha="0.7" color="#000000"/>
+    <richtext id="n6_cbn7" name="skillDes" xy="148,40" size="175,64" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" ubb="true" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="全体部队加速&#xA;冷却[color=#fdbf40]3s[/color]"/>
+    <component id="n8_v3cc" name="skillBtn" src="cbn71ygcflv" fileName="components/plot/plotSkillBtn.xml" xy="0,0"/>
+  </displayList>
+</component>

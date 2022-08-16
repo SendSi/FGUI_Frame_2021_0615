@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="53,30" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="nor"/>
+    <remark page="1" value="灰板"/>
+  </controller>
+  <controller name="select" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n16_lp55" name="n16" src="lp556" fileName="images/Checkpoint_icon_lattice1.png" xy="0,0">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <image id="n15_lp55" name="n15" src="lp557" fileName="images/Checkpoint_icon_lattice2.png" xy="0,0">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <image id="n17_gr26" name="n17" src="lp551" fileName="images/Checkpoint_bg_light.png" xy="-12,-69" size="80,111">
+      <gearDisplay controller="select" pages="1"/>
+    </image>
+    <text id="n12_lp55" name="title" xy="14,-19" pivot="0.5,0.5" size="32,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" strokeColor="#000000" strokeSize="2" shadowColor="#000000" shadowOffset="1,2" text="99">
+      <gearColor controller="state" pages="1" values="#c8c8c8,#000000" default="#ffffff,#000000"/>
+    </text>
+    <movieclip id="n14_lp55" name="movi" src="lp55b" fileName="components/Checkpoint_mov_fighting.jta" xy="-10,-124">
+      <gearDisplay controller="select" pages="1"/>
+    </movieclip>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="578,36" extention="Button" designImage="ui://lp3m5cuhnnlhhz9d1o" designImageOffsetX="-149" designImageOffsetY="-100">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_vqdv" name="n0" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="578,36">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n3_vqdv" name="icon" xy="552,9" size="18,18" aspect="true" url="ui://2r331opvgpdyhz9d61" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n5_gjb0" name="title" xy="4,4" size="534,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" ubb="true" autoSize="none" text="" input="true" prompt="[color=#50382E]这里打字[/color]"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

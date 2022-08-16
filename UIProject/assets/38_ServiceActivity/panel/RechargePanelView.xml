@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" extention="Label" initName="frame">
+  <controller name="state" pages="2,,0,,1," selected="0">
+    <remark page="0" value="未开启"/>
+    <remark page="1" value="领取"/>
+    <remark page="2" value="已领取"/>
+  </controller>
+  <displayList>
+    <loader id="n72_qx1k" name="bg" xy="307,213" size="972,515" group="n74_dfim" url="ui://e290e74sqx1k1ygcfnc"/>
+    <image id="n59_ho40" name="n59" src="qx1k1ygcfnb" fileName="images/new/carnival_bg10.png" xy="909,75" group="n74_dfim"/>
+    <list id="n64_ho40" name="icon_list" xy="339,244" size="697,372" group="n74_dfim" layout="row" lineGap="6" colGap="6" defaultItem="ui://e290e74sho401ygcfka">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n69_ho40" name="n69" src="qx1k1ygcfn9" fileName="images/new/carnival_bg12.png" xy="357,650" pivot="0.5,0.5" size="32,32" group="n74_dfim"/>
+    <image id="n70_ho40" name="n70" src="qx1k1ygcfna" fileName="images/new/carnival_bg11.png" xy="321,103" group="n74_dfim"/>
+    <component id="n71_ho40" name="receiveBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="825,632" size="180,68" group="n74_dfim">
+      <gearLook controller="state" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearText controller="state" pages="2,1" values="充值领奖|次日领取" default="领取"/>
+      <Button title="充值领奖"/>
+    </component>
+    <text id="n66_ho40" name="title2" xy="396,641" size="435,26" group="n73_ncsc" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffe066" vAlign="middle" autoSize="none" singleLine="true" text="30分钟内获得首冲奖励新区优势大幅提升！"/>
+    <text id="n68_ho40" name="time" xy="395,660" size="436,32" group="n73_ncsc" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="活动剩余时间：00:00:00"/>
+    <group id="n73_ncsc" name="n73" xy="395,641" size="436,51" group="n74_dfim" advanced="true"/>
+    <graph id="n77_t7yt" name="boosbg" xy="1046,575" size="266,44" group="n79_t7yt" alpha="0.7" type="rect" lineSize="0" fillColor="#ff540f09" corner="5"/>
+    <text id="n75_t7yt" name="smash" xy="1072,538" size="214,34" group="n79_t7yt" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffe765" shadowColor="#50382e" shadowOffset="2,4" text="击碎护盾 | 武器附魔"/>
+    <text id="n76_t7yt" name="boss" xy="1078,576" size="220,42" group="n79_t7yt" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffffff" text="个人首领轻松3S"/>
+    <image id="n78_t7yt" name="n78" src="t7yt1ygcfpi" fileName="images/new/carnival_bg23.png" xy="1059,587" group="n79_t7yt" scale="0.5,0.5"/>
+    <group id="n79_t7yt" name="n79" xy="1046,538" size="266,88" group="n74_dfim" advanced="true"/>
+    <group id="n74_dfim" name="n74" xy="307,75" size="1085,653" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n69_ho40" tween="true" startValue="0" endValue="360" duration="49"/>
+    <item time="49" type="Rotation" target="n69_ho40" tween="true" startValue="360" endValue="360" duration="35"/>
+  </transition>
+</component>

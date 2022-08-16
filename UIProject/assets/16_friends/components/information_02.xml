@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="914,100">
+  <controller name="type" pages="0,add,1,apply,2,black" selected="0"/>
+  <displayList>
+    <image id="n42_lhtp" name="bg" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="914,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n38_lhtp" name="n38" src="j3xs9pm" fileName="components/components_new/btn_head4.xml" pkg="2r331opv" xy="6,7" aspect="true" scale="0.4,0.4"/>
+    <text id="n43_lhtp" name="title_01" xy="93,33" size="154,36" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="名字六个字吧">
+      <relation target="" sidePair=""/>
+    </text>
+    <text id="n44_lhtp" name="title_02" xy="282,33" size="155,36" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="联盟名六字吧">
+      <relation target="" sidePair=""/>
+    </text>
+    <text id="n45_lhtp" name="title_03" xy="461,33" size="133,36" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="5452000">
+      <relation target="" sidePair=""/>
+    </text>
+    <text id="n47_lhtp" name="title_05" xy="618,33" size="113,36" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="扬州三月">
+      <relation target="" sidePair=""/>
+    </text>
+    <component id="n48_8dzs" name="n48" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="754,22" size="137,56">
+      <gearDisplay controller="type" pages="0"/>
+      <Button title="申请"/>
+    </component>
+    <component id="n49_oat1" name="accept" src="qy501qp8vdu" fileName="components/components_new/com_btn_icon1.xml" pkg="2r331opv" xy="830,21" size="60,60">
+      <gearDisplay controller="type" pages="1"/>
+      <Button icon="ui://2r331opvbumchz9d83"/>
+    </component>
+    <component id="n50_oat1" name="refuse" src="qy501qp8vdu" fileName="components/components_new/com_btn_icon1.xml" pkg="2r331opv" xy="751,21" size="60,60">
+      <gearDisplay controller="type" pages="1"/>
+      <Button icon="ui://2r331opvp11n1qp8vfb"/>
+    </component>
+    <component id="n51_oat1" name="n51" src="qy501qp8vdu" fileName="components/components_new/com_btn_icon1.xml" pkg="2r331opv" xy="797,26" size="48,48" aspect="true">
+      <gearDisplay controller="type" pages="2"/>
+      <Button icon="ui://2r331opv9495y"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" extention="Label" initName="frame">
+  <controller name="state" pages="0,,1,gray" selected="0"/>
+  <controller name="subtitle" pages="0,,1," selected="1">
+    <remark page="0" value="显示"/>
+    <remark page="1" value="不显示"/>
+  </controller>
+  <displayList>
+    <image id="n16_rjgu" name="n16" src="u6yzhz9cq5" fileName="images/map/main_bg_04.png" xy="416,566" pivot="0.5,0.5" size="501,148" group="n12_n5g2" visible="false" alpha="0.8"/>
+    <image id="n5_plmm" name="bg_1" src="oy351ygcfmw" fileName="images/images_new/com_bg_tips02_mask5.png" pkg="2r331opv" xy="412,568" size="510,135" group="n12_n5g2"/>
+    <component id="n6_plmm" name="closeButton" src="u6yzhz9cq9" fileName="components/components_new/map/chequer_btn.xml" xy="483,586" group="n12_n5g2">
+      <Button title="取消" icon="ui://4ni413laildy1ygcfiz"/>
+    </component>
+    <component id="n7_plmm" name="button_buld_2" src="u6yzhz9cq9" fileName="components/components_new/map/chequer_btn.xml" xy="614,586" group="n12_n5g2">
+      <Button title="还原" icon="ui://4ni413laildy1ygcfi6"/>
+    </component>
+    <component id="n8_plmm" name="button_buld_3" src="u6yzhz9cq9" fileName="components/components_new/map/chequer_btn.xml" xy="743,586" group="n12_n5g2">
+      <gearLook controller="state" pages="0,1" values="1,0,0,1|1,0,1,1"/>
+      <Button title="确定" icon="ui://4ni413laildy1ygcfj1"/>
+    </component>
+    <image id="n10_plmm" name="n10" src="fz63hz9crj" fileName="images/map/mainhud_bg_title1.png" xy="446,62" pivot="0.5,0.5" size="441,94" group="n12_n5g2" scale="0.7,1">
+      <relation target="n11_plmm" sidePair="rightext-right,leftext-left"/>
+    </image>
+    <text id="n11_plmm" name="mainTitle" xy="609,72" pivot="0.5,0.5" size="116,39" group="n12_n5g2" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#ffffff" align="center" vAlign="middle" strokeColor="#322b63" shadowColor="#322b63" shadowOffset="1,3" text="编辑模式"/>
+    <image id="n14_oy35" name="vicebg" src="dfgw1ygcfmf" fileName="images/images_new/com_change04.png" pkg="2r331opv" xy="551,36" pivot="0.5,0.5" size="232,30" group="n12_n5g2" alpha="0.9" color="#000000">
+      <gearDisplay controller="subtitle" pages="0"/>
+      <relation target="n13_gw15" sidePair="rightext-right,leftext-left"/>
+    </image>
+    <image id="n15_oy35" name="n15" src="oy351ygcfmv" fileName="images/images_new/com_icon_tip.png" pkg="2r331opv" xy="567,41" size="24,24" group="n12_n5g2" aspect="true">
+      <gearDisplay controller="subtitle" pages="0"/>
+      <relation target="n13_gw15" sidePair="right-left"/>
+    </image>
+    <text id="n13_gw15" name="viceTitle" xy="596,39" pivot="0.5,0.5" size="148,26" group="n12_n5g2" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ec9553" align="center" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="提示：这里打字这">
+      <gearDisplay controller="subtitle" pages="0"/>
+    </text>
+    <group id="n12_n5g2" name="window" xy="412,36" size="510,678" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

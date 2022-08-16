@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="930,92" designImage="ui://lp3m5cuhvqdvhz9d2h" designImageOffsetX="-125" designImageOffsetY="-391" designImageAlpha="0">
+  <controller name="state" pages="1,,0," selected="0">
+    <remark page="0" value="信息"/>
+    <remark page="1" value="加入"/>
+  </controller>
+  <displayList>
+    <image id="n0_i5fm" name="n0" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="930,92" alpha="0.6">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <image id="n18_vqdv" name="n18" src="k0s51qp8vfm" fileName="images/images_new/windowBg_new/negative_bg02_2.png" pkg="2r331opv" xy="0,0" size="930,92" alpha="0.6" color="#97794f">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <component id="n12_vqdv" name="playerHead" src="ho0c1ygcgnt" fileName="components/components_new/btn_head6.xml" pkg="2r331opv" xy="5,4" group="n7_i5fm" aspect="true" scale="0.4,0.4"/>
+    <text id="n2_i5fm" name="nameTitle" xy="95,10" size="134,34" group="n7_i5fm" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" autoClearText="true" text="AbabName"/>
+    <text id="n3_i5fm" name="txtTroops" xy="590,13" size="162,34" group="n7_i5fm" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="right" autoSize="none" autoClearText="true" text="部队:666">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n4_i5fm" name="txtDesc" xy="229,50" size="48,29" group="n7_i5fm" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoClearText="true" text="30级"/>
+    <image id="n16_vqdv" name="n16" src="vqdvhz9d2v" fileName="images/images_new/league_icon_map.png" pkg="2r331opv" xy="674,57" size="18,18" group="n7_i5fm" aspect="true" color="#4c9129">
+      <relation target="n5_i5fm" sidePair="right-left"/>
+    </image>
+    <text id="n5_i5fm" name="txtState" xy="693,50" pivot="1,0" size="59,29" group="n7_i5fm" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#4c9129" align="right" ubb="true" singleLine="true" autoClearText="true" text="10km">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <component id="n19_9bv6" name="btnWithdraw" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="757,15" group="n7_i5fm">
+      <relation target="" sidePair="right-right"/>
+      <Button title="召回"/>
+    </component>
+    <text id="n13_vqdv" name="time" xy="386,14" size="142,29" group="n7_i5fm" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" autoClearText="true" text="已维修耐久度:0">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <richtext id="n14_vqdv" name="awardNum" xy="455,52" size="39,29" group="n7_i5fm" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" autoClearText="true" text="100">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <loader id="n15_vqdv" name="awardIcon" xy="415,48" size="37,37" group="n7_i5fm" aspect="true" visible="false" url="ui://tsbe09ddmz4w1" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="right-right"/>
+    </loader>
+    <list id="n17_vqdv" name="generalList" xy="95,43" size="477,154" group="n7_i5fm" scale="0.27,0.27" layout="flow_hz" overflow="scroll" scrollBarFlags="32" colGap="-19" defaultItem="ui://2r331opvhxd7hz9d7b" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n7_i5fm" name="n7" xy="5,4" size="913,210" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <component id="n10_i5fm" name="btnAdd" src="vqdvhz9d2w" fileName="components/btn07.xml" xy="0,0" size="930,86">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="点击加入" titleFontSize="25" icon="ui://2r331opvnnlhhz9d17"/>
+    </component>
+  </displayList>
+</component>

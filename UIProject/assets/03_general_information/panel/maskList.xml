@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="964,483" mask="n28_uj9w">
+  <displayList>
+    <graph id="n28_uj9w" name="mask" xy="0,0" size="964,483" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n27_t1gs" name="talentList" xy="1,0" size="962,483" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="128" clipSoftness="10,50" colGap="-95" defaultItem="ui://4hio38umd8dihz9d02" scrollItemToViewOnClick="false">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

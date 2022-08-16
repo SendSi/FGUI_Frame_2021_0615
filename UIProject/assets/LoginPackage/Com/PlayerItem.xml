@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,100">
+  <controller name="select" pages="0,,1," selected="0"/>
+  <displayList>
+    <text id="n1_yput" name="name" xy="32,11" size="342,78" fontSize="38" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="测试1服">
+      <relation target="" sidePair="rightext-right,leftext-left"/>
+    </text>
+    <graph id="n2_yput" name="n2" xy="0,85" size="400,8" type="rect" fillColor="#ff009900">
+      <gearDisplay controller="select" pages="1"/>
+    </graph>
+  </displayList>
+</component>

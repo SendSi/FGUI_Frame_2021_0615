@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="379,110" extention="Button">
+  <controller name="state" pages="0,,1," selected="1">
+    <remark page="1" value="已领取半透明"/>
+  </controller>
+  <displayList>
+    <image id="n93_rqbb" name="n93" src="g01id" fileName="images/dialogue/dialogue_01_01.png" xy="0,0" size="379,110" group="n92_rqbb" alpha="0.5">
+      <gearLook controller="state" pages="1" values="0.5,0,0,0" default="1,0,0,0"/>
+    </image>
+    <loader id="n91_rqbb" name="redpacket" xy="28,23" pivot="0.5,0.5" size="66,66" group="n92_rqbb" alpha="0.5" url="ui://4ni413lans8m1ygcfkg" autoSize="true">
+      <gearLook controller="state" pages="1" values="0.5,0,0,1" default="1,0,0,1"/>
+    </loader>
+    <richtext id="n94_rqbb" name="Content" xy="92,26" size="202,32" restrictSize="0,370,0,0" group="n92_rqbb" alpha="0.5" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" leading="0" ubb="true" autoClearText="true" text="好运速来，笑口常开">
+      <gearLook controller="state" pages="1" values="0.5,0,0,1" default="1,0,0,1"/>
+    </richtext>
+    <richtext id="n95_rqbb" name="Content0" xy="92,55" size="114,32" restrictSize="0,370,0,0" group="n92_rqbb" alpha="0.5" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#d93a3a" leading="0" ubb="true" text="红包已领完">
+      <gearLook controller="state" pages="1" values="0.5,0,0,1" default="1,0,0,1"/>
+      <gearText controller="state" pages="1" values="红包已领完" default="点击领取"/>
+    </richtext>
+    <group id="n92_rqbb" name="other" xy="0,0" size="379,110" advanced="true"/>
+  </displayList>
+  <Button/>
+  <transition name="sel"/>
+  <transition name="oth">
+    <item time="0" type="Rotation" target="n91_rqbb" tween="true" startValue="0" endValue="5" duration="1"/>
+    <item time="1" type="Rotation" target="n91_rqbb" tween="true" startValue="5" endValue="-5" duration="1"/>
+    <item time="2" type="Rotation" target="n91_rqbb" tween="true" startValue="-5" endValue="0" duration="1"/>
+    <item time="3" type="Rotation" target="n91_rqbb" tween="true" startValue="0" endValue="8" duration="2"/>
+    <item time="5" type="Rotation" target="n91_rqbb" tween="true" startValue="8" endValue="-8" duration="2"/>
+    <item time="7" type="Rotation" target="n91_rqbb" tween="true" startValue="-8" endValue="0" duration="2"/>
+  </transition>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="358,822" overflow="hidden">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n10_dslz" name="n10" xy="0,0" size="358,822">
+      <gearSize controller="c1" pages="0,1" values="358,822,1,1|358,49,1,1"/>
+    </graph>
+    <component id="n7_dslz" name="contacts" src="dslz1t" fileName="components/contacts.xml" xy="3,56"/>
+    <component id="n9_dslz" name="n9" src="dslz1m" fileName="components/Button_contacts.xml" xy="6,0">
+      <Button controller="c1" page="1"/>
+    </component>
+  </displayList>
+  <relation target="n10_dslz" sidePair="width-width,height-height"/>
+</component>

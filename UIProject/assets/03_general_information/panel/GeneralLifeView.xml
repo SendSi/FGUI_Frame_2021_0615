@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <displayList>
+    <component id="n2_eznb" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_eznb" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n10_klt5" name="icon" xy="270,24" size="805,715" group="n9_eznb" url="ui://4hio38umklt51iy5be9"/>
+    <component id="n11_klt5" name="hero" src="qy501qp8vdt" fileName="components/general_new/generalIcon1.xml" pkg="2r331opv" xy="441,88" group="n9_eznb"/>
+    <component id="n12_klt5" name="describe" src="klt51iy5bea" fileName="panel/describeLbl.xml" xy="470,223" group="n9_eznb"/>
+    <text id="n7_eznb" name="title" xy="610,139" size="172,39" group="n9_eznb" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#a65200" leading="2" singleLine="true" autoClearText="true" text="这是他的名字"/>
+    <text id="n13_klt5" name="ordinaryLbl" xy="583,715" size="168,29" group="n9_eznb" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#95becb" align="center" leading="2" singleLine="true" text="- 点击空白处关闭 -"/>
+    <group id="n9_eznb" name="n9" xy="270,24" size="805,720" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

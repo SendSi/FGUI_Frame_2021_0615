@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <displayList>
+    <component id="n10_10473" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n25_osur" name="n25" src="osur1ygcfn3" fileName="components/components_new/settlement_com_001.xml" pkg="2r331opv" xy="309,-52" group="n16_10473">
+      <Button icon="ui://2r331opv10473hz9cyo"/>
+    </component>
+    <image id="n26_osur" name="n26" src="10473hz9cyh" fileName="images/images_new/settlement2/settlement_bg05.png" pkg="2r331opv" xy="0,258" size="1334,493" group="n16_10473" alpha="0.8"/>
+    <image id="n27_osur" name="n27" src="10473hz9cyg" fileName="images/images_new/settlement2/settlement_bg04.png" pkg="2r331opv" xy="459,238" pivot="0.5,0.5" size="415,29" group="n16_10473" alpha="0.8"/>
+    <component id="n17_10473" name="icon" src="mmv0cgy" fileName="components/general_new/equipmentIcon2.xml" pkg="2r331opv" xy="603,281" group="n16_10473" scale="1.1,1.1"/>
+    <text id="n18_10473" name="title" xy="557,400" pivot="0.5,0.5" size="202,42" group="n16_10473" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#db60ff" ubb="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="2转·幸运手套"/>
+    <image id="n7_10473" name="n7" src="10473hz9cyj" fileName="images/images_new/settlement2/settlement_bg07.png" pkg="2r331opv" xy="512,443" size="309,36" group="n16_10473"/>
+    <text id="n9_10473" name="title2" xy="617,444" pivot="0.5,0.5" size="100,34" group="n16_10473" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#74d0ff" text="装备词条"/>
+    <list id="n14_10473" name="equList" xy="515,484" size="304,161" group="n16_10473" overflow="scroll" defaultItem="ui://ewxwa3m810473xhghd5" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n15_10473" name="lable" xy="547,714" size="239,35" group="n16_10473" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="-  点击空白关闭  -"/>
+    <component id="n20_s135" name="wearBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="586,650" group="n16_10473">
+      <Button title="前往穿戴"/>
+    </component>
+    <component id="n23_o0fi" name="EffectRoot_01" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="661,142" pivot="0.5,0.5" anchor="true" size="1,1" group="n16_10473" touchable="false" customData="3027"/>
+    <component id="n24_o0fi" name="EffectRoot_02" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="664,341" pivot="0.5,0.5" anchor="true" size="1,1" group="n16_10473" touchable="false" customData="3028">
+      <relation target="n17_10473" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n16_10473" name="n16" xy="0,-52" size="1334,803" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <text id="n28_x5vt" name="tips" xy="469,721" pivot="0.5,0.5" size="396,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" autoSize="none" text="-  点击空白关闭   -">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

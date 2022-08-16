@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,52" extention="Button" designImage="ui://xig4tp5gcxixci6" designImageOffsetX="-273" designImageOffsetY="-81">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n0_cxix" name="n0" src="lumy1qp8vdl" fileName="images4/main_bg04.png" pkg="4ni413la" xy="0,0" pivot="0.5,0.5" size="218,52" alpha="0.3" color="#5e9dff">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_cxix" name="title" xy="0,0" size="218,52" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#cf9223" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="按等级排序">
+      <gearColor controller="button" pages="0,1,2,3" values="#cf9223,#000000|#cf9223,#000000|#ffffff,#000000|#cf9223,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="81,73" pivot="0.5,1.4" anchor="true" opaque="false" designImageOffsetX="-445" designImageOffsetY="-258">
+  <controller name="selected" pages="0,,1,,5," selected="0"/>
+  <controller name="hp" pages="0,,1," selected="0"/>
+  <controller name="color" pages="0,绿色,1,蓝色,2,红色,3,白色" selected="0"/>
+  <displayList>
+    <image id="n14_guxw" name="n14" src="yhldz9coj" fileName="images/images_new/com_bg_tips03.png" pkg="2r331opv" xy="48,81" pivot="0.5,0.5" anchor="true" size="58,24" group="n15_guxw">
+      <relation target="n12_guxw" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n12_guxw" name="name2" xy="48,80" pivot="0.5,0.5" anchor="true" size="52,19" group="n15_guxw" font="ui://2r331opvlwft2" fontSize="12" color="#77ee8a" singleLine="true" autoClearText="true" text="角色名字">
+      <gearColor controller="color" pages="0,1,2,3" values="#77ee8a,#000000|#80f8ff,#000000|#ff5353,#000000|#ffffff,#000000"/>
+    </text>
+    <group id="n15_guxw" name="n15" xy="19,69" size="58,24" advanced="true">
+      <gearDisplay controller="selected" pages="5"/>
+    </group>
+    <image id="n3_ex0k" name="n3" pkg="2r331opv" src="k06chz9d3e" fileName="images/images_new/fight_bg_name.png" xy="54,9" size="100,59" group="n8_ejj4">
+      <relation target="n6_ejj4" sidePair="width-width"/>
+    </image>
+    <text id="n6_ejj4" name="name" xy="89,12" size="52,26" group="n8_ejj4" fontSize="18" color="#77ee8a" singleLine="true" autoClearText="true" text="Name">
+      <gearColor controller="color" pages="0,1,2,3" values="#77ee8a,#000000|#80f8ff,#000000|#ff5353,#000000|#ffffff,#000000"/>
+    </text>
+    <text id="n7_ejj4" name="power" xy="88,33" size="44,26" group="n8_ejj4" fontSize="18" color="#77ee8a" singleLine="true" autoClearText="true" text="5600">
+      <gearColor controller="color" pages="0,1,2,3" values="#77ee8a,#000000|#80f8ff,#000000|#ff5353,#000000|#ffffff,#000000"/>
+    </text>
+    <text id="n17_f3dx" name="gather" xy="65,-15" size="89,24" group="n8_ejj4" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoClearText="true" text="gather:9999"/>
+    <group id="n8_ejj4" name="selected" xy="54,-15" size="105,83" advanced="true">
+      <gearDisplay controller="selected" pages="1"/>
+    </group>
+    <component id="n11_hizo" name="EffectHandle_01" src="ayljdv" fileName="components/EffectHandle.xml" pkg="2r331opv" xy="15,13">
+      <gearXY controller="selected" pages="0,1,5" values="15,13|24,13|25,13"/>
+    </component>
+    <component id="n2_ex0k" name="icon" src="g9nyhz9cu0" fileName="components/general_new/generalIcon.xml" pkg="2r331opv" xy="0,-4" pivot="0.5,0.5">
+      <gearXY controller="selected" pages="0,5" values="0,-4|9,-4" default="9,-4"/>
+    </component>
+    <graph id="n9_ejj4" name="n9" xy="0,0" size="80,73">
+      <gearSize controller="selected" pages="0,1,5" values="80,73,1,1|163,73,1,1|90,90,1,1"/>
+    </graph>
+    <component id="n5_ejj4" name="anger" src="ex0khz9cu3" fileName="components/components_new/main/anger_pbr.xml" xy="8,60" size="43,13" group="n10_znr5" rotation="-90">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n4_ex0k" name="armSum" src="oepthz9cp5" fileName="components/components_new/main/main_teamPbr.xml" xy="82,59" size="46,6" group="n10_znr5" rotation="-90">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <group id="n10_znr5" name="n10" xy="8,59" size="120,14" advanced="true">
+      <gearDisplay controller="hp" pages="1"/>
+    </group>
+    <component id="n18_s19v" name="icon2" src="g9nyhz9cu0" fileName="components/general_new/generalIcon.xml" pkg="2r331opv" xy="74,1" pivot="0.5,0.5" scale="0.8,0.8" visible="false"/>
+  </displayList>
+  <relation target="n9_ejj4" sidePair="width-width,height-height"/>
+  <transition name="t0">
+    <item time="0" type="ColorFilter" target="n2_ex0k" tween="true" startValue="0,0,0,0" endValue="0.28,0,0,0" duration="2"/>
+    <item time="0" type="Scale" target="n2_ex0k" tween="true" startValue="1,1" endValue="0.9,0.9" duration="3"/>
+    <item time="0" type="XY" target="n2_ex0k" tween="true" startValue="9,-4" endValue="9,0" duration="3"/>
+    <item time="2" type="ColorFilter" target="n2_ex0k" tween="true" startValue="0.28,0,0,0" endValue="0,0,0,0" duration="3"/>
+    <item time="3" type="Scale" target="n2_ex0k" tween="true" startValue="0.9,0.9" endValue="1,1" duration="2"/>
+    <item time="3" type="XY" target="n2_ex0k" tween="true" startValue="9,0" endValue="9,-4" duration="2"/>
+  </transition>
+  <transition name="showIcon">
+    <item time="0" type="Alpha" target="n18_s19v" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Scale" target="n18_s19v" tween="true" startValue="0,0" endValue="0.8,0.8" duration="6"/>
+    <item time="0" type="Visible" target="n18_s19v" value="true"/>
+    <item time="6" type="Visible" target="n18_s19v" value="true"/>
+  </transition>
+  <transition name="hideIcon">
+    <item time="0" type="Alpha" target="n18_s19v" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Scale" target="n18_s19v" tween="true" startValue="0.8,0.8" endValue="0,0" duration="6"/>
+    <item time="0" type="Visible" target="n18_s19v" value="true"/>
+    <item time="6" type="Visible" target="n18_s19v" value="false"/>
+  </transition>
+</component>

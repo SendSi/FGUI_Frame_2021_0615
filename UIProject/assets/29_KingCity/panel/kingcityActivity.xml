@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="state" pages="0,,1,,2," selected="0">
+    <remark page="0" value="守卫王城"/>
+    <remark page="1" value="日历"/>
+    <remark page="2" value="个人首领"/>
+  </controller>
+  <displayList>
+    <component id="n6_w84w" name="n6" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n67_g6ic" name="n67" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="42,35" group="n8_w84w"/>
+    <loader id="n84_ebe4" name="n84" xy="185,143" size="964,510" group="n8_w84w" url="ui://pvaep77aebe41"/>
+    <list id="n86_ebe4" name="icon_list" xy="939,435" size="285,105" group="n8_w84w" scale="0.7,0.7" layout="row" selectionMode="none" overflow="hidden" colGap="7" defaultItem="ui://2r331opvee2ik0" align="right" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n82_ebe4" name="title" xy="597,72" size="140,46" group="n8_w84w" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="守卫王城"/>
+    <component id="n83_ebe4" name="expla" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="1084,164" group="n8_w84w"/>
+    <component id="n81_o7ws" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1108,40" group="n8_w84w">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n85_ebe4" name="battlefieldBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="942,539" group="n8_w84w">
+      <Button title="前往战场"/>
+    </component>
+    <list id="n76_g6ic" name="tab_list" xy="10,141" size="166,360" group="n8_w84w" overflow="hidden" lineGap="20" defaultItem="ui://2r331opvebe41qp8vcw" selectionController="state">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n87_ebe4" name="mainreward" xy="1038,396" size="100,34" group="n8_w84w" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="right" strokeColor="#9f9898" text="主要奖励"/>
+    <group id="n8_w84w" name="activity" xy="10,35" size="1282,680" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

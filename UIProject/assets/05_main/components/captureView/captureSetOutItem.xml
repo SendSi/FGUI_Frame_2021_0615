@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="265,63" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,outside,1,incity" selected="0"/>
+  <displayList>
+    <image id="n3_o4uy" name="n3" pkg="2r331opv" src="b6o0chm" fileName="images/com_bg_tips.png" xy="0,0" size="265,63">
+      <gearSize controller="state" pages="1" values="265,87,1,1" default="265,63,1,1"/>
+    </image>
+    <component id="n4_o4uy" name="icongeneral" src="xse5dy" fileName="components/captureView/capture_icon.xml" xy="7,8" group="n8_o4uy"/>
+    <text id="n5_o4uy" name="n5" xy="65,31" size="64,29" group="n8_o4uy" fontSize="20" color="#ffecd0" align="center" autoClearText="true" text="距离："/>
+    <text id="n6_o4uy" name="generalName" xy="58,2" size="60,32" group="n8_o4uy" fontSize="22" color="#ded296" align="center" autoSize="none" autoClearText="true" text="赵云"/>
+    <text id="n7_o4uy" name="distanceNumber" xy="119,31" size="63,29" group="n8_o4uy" fontSize="20" color="#ffecd0" vAlign="middle" autoSize="none" autoClearText="true" text="10"/>
+    <component id="n15_o4uy" name="state" src="xse5e2" fileName="components/captureView/capture_state.xml" xy="190,17" group="n8_o4uy"/>
+    <group id="n8_o4uy" name="outside" xy="7,2" size="243,58" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <image id="n9_o4uy" name="n9" pkg="4ni413la" src="8z41da" fileName="images/capture/bg_4.png" xy="3,4" group="n14_o4uy"/>
+    <text id="n10_o4uy" name="n10" xy="182,2" size="44,29" group="n14_o4uy" fontSize="20" color="#ffecd0" align="center" autoClearText="true" text="距离"/>
+    <text id="n11_o4uy" name="playerName" xy="31,1" size="158,32" group="n14_o4uy" fontSize="22" color="#ded296" vAlign="middle" autoSize="none" autoClearText="true" text="我的角色名字"/>
+    <text id="n12_o4uy" name="distanceNumber2" xy="227,1" size="63,29" group="n14_o4uy" fontSize="20" color="#ffecd0" vAlign="middle" autoSize="none" autoClearText="true" text="10"/>
+    <list id="n13_o4uy" name="list" xy="5,34" size="256,50" group="n14_o4uy" layout="row" overflow="scroll" scroll="horizontal" colGap="5" defaultItem="ui://4ni413laxse5dy" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n14_o4uy" name="city" xy="3,1" size="287,83" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+  <relation target="n3_o4uy" sidePair="height-height"/>
+</component>

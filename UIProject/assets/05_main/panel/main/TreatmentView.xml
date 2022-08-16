@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label">
+  <controller name="page" pages="0,,1,,2," selected="2">
+    <remark page="0" value="未治疗"/>
+    <remark page="1" value="治疗中"/>
+    <remark page="2" value="无伤兵"/>
+  </controller>
+  <displayList>
+    <component id="n2_kwe9" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,-1" size="1665,752">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n83_f6no" name="n83" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n60_xx14"/>
+    <text id="n84_f6no" name="title" xy="360,70" pivot="0.5,0.5" size="620,46" group="n60_xx14" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="治疗伤员"/>
+    <image id="n85_f6no" name="n85" src="f6nohz9cto" fileName="images/bg/Conscription_bg.jpg" xy="203,143" size="937,514" group="n60_xx14"/>
+    <loader id="n95_g9ny" name="icon" xy="254,210" size="459,414" group="n60_xx14" align="center" vAlign="middle" fill="scale"/>
+    <image id="n89_f6no" name="n89" pkg="2r331opv" src="cxixz9cmi" fileName="images/images_new/com_bg4.png" xy="727,208" pivot="0.5,0.5" size="59,62" group="n80_vey3" aspect="true"/>
+    <loader id="n90_f6no" name="armIcon" xy="739,221" pivot="0.5,0.5" size="38,38" group="n80_vey3" aspect="true" url="ui://2r331opvceggz9cop" align="center" vAlign="middle" fill="scaleFree" color="#fefbb9"/>
+    <text id="n66_v96q" name="capacityLbl" xy="788,223" size="100,34" group="n80_vey3" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoClearText="true" text="重伤单位"/>
+    <text id="n67_v96q" name="capacityCount" xy="981,223" pivot="1,0" size="141,34" group="n80_vey3" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoClearText="true" text="19k/600000">
+      <relation target="n66_v96q" sidePair="middle-middle"/>
+    </text>
+    <group id="n80_vey3" name="n80" xy="727,208" size="394,62" group="n60_xx14" advanced="true"/>
+    <image id="n104_prcz" name="n104" src="cmlrhz9cym" fileName="images/images_new/com_bg_tips01.png" pkg="2r331opv" xy="725,300" size="405,181" group="n97_g9ny" alpha="0.6"/>
+    <component id="n53_ms13" name="slider" src="v96qhz9ck2" fileName="components/components_new/main/functionSdr.xml" xy="591,325" group="n97_g9ny">
+      <gearDisplay controller="page" pages="0"/>
+      <ProgressBar max="100"/>
+    </component>
+    <text id="n59_ln1d" name="noneTips" xy="827,369" pivot="0.5,0.5" size="196,38" group="n97_g9ny" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#74d0ff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="暂无受伤部队">
+      <gearDisplay controller="page" pages="2"/>
+    </text>
+    <list id="n87_f6no" name="consumeList" xy="749,394" pivot="0.5,0.5" size="363,46" group="n97_g9ny" layout="row" overflow="scroll" scroll="horizontal" colGap="-10" defaultItem="ui://2r331opvf6nohz9cnx" align="center" vAlign="middle" autoClearItems="true">
+      <gearDisplay controller="page" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n47_hlig" name="pbr" src="vey3hz9ck6" fileName="components/components_new/main/functionPbr.xml" xy="784,325" size="263,34" group="n52_hlig">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n99_qdf6" name="n99" src="ok6zhz9cu3" fileName="images/images_new/com_arms_bg.png" pkg="2r331opv" xy="748,320" group="n52_hlig"/>
+    <text id="n45_hlig" name="sumNum" xy="1051,325" pivot="0.5,0.5" size="61,34" group="n52_hlig" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" singleLine="true" autoClearText="true" text="8000"/>
+    <text id="n92_g9ny" name="doneLbl" xy="833,397" size="149,34" group="n52_hlig" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#74d0ff" autoSize="none" autoClearText="true" text="已完成数量："/>
+    <text id="n93_g9ny" name="doneNum" xy="968,397" size="61,34" group="n52_hlig" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#74d0ff" autoClearText="true" text="6000"/>
+    <image id="n100_qdf6" name="n100" src="qdf6hz9cub" fileName="images/images_new/com_arms_icon05.png" pkg="2r331opv" xy="748,320" group="n52_hlig"/>
+    <group id="n52_hlig" name="page1" xy="748,320" size="364,111" group="n97_g9ny" advanced="true">
+      <gearDisplay controller="page" pages="1"/>
+    </group>
+    <group id="n97_g9ny" name="n97" xy="591,300" size="542,181" group="n60_xx14"/>
+    <richtext id="n72_v96q" name="atoncePrice" xy="776,508" pivot="0.5,0.5" size="79,32" group="n60_xx14" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#e5ce8e" align="center" vAlign="middle" autoClearText="true" text="图标 15">
+      <gearDisplay controller="page" pages="0"/>
+    </richtext>
+    <richtext id="n101_lwba" name="atOncePrice" xy="776,508" pivot="0.5,0.5" size="79,32" group="n60_xx14" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#e5ce8e" align="center" vAlign="middle" autoClearText="true" text="图标 15">
+      <gearDisplay controller="page" pages="1"/>
+    </richtext>
+    <component id="n36_kwe9" name="startBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="951,548" size="180,62" group="n60_xx14">
+      <gearDisplay controller="page" pages="0"/>
+      <Button title="治疗" sound="ui://2r331opvlwft0"/>
+    </component>
+    <component id="n71_v96q" name="atonceBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="728,548" size="180,62" group="n60_xx14">
+      <gearDisplay controller="page" pages="0"/>
+      <Button title="立即治疗" icon="ui://2r331opveaahz9co9" sound="ui://2r331opvlwft0"/>
+    </component>
+    <component id="n102_lwba" name="atOnceBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="728,548" size="180,62" group="n60_xx14">
+      <gearDisplay controller="page" pages="1"/>
+      <Button title="立即治疗" icon="ui://2r331opveaahz9co9" sound="ui://2r331opvlwft0"/>
+    </component>
+    <component id="n94_g9ny" name="speedUpBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="951,548" size="180,62" group="n60_xx14">
+      <gearDisplay controller="page" pages="1"/>
+      <Button title="加速"/>
+    </component>
+    <component id="n86_f6no" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n60_xx14"/>
+    <group id="n60_xx14" name="win" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

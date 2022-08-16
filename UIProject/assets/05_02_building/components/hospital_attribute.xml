@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="477,34">
+  <displayList>
+    <text id="n87_tcmd" name="attrName" xy="0,0" size="331,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" autoSize="none" singleLine="true" text="出身州战损"/>
+    <text id="n88_tcmd" name="rateNum" xy="345,0" pivot="1,0" size="132,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#d93a3a" align="right" autoSize="none" singleLine="true" text="20%">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

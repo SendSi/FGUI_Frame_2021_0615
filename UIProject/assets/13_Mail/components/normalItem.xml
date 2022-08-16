@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="733,511" pivot="1,1" designImageOffsetX="-580" designImageOffsetY="-2">
+  <controller name="state" pages="0,文本,1,待领取,2,已领取" selected="1"/>
+  <displayList>
+    <richtext id="n26_ewho" name="contentTxt" xy="27,0" size="706,219" group="n30_ewho" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" ubb="true" autoSize="none" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="感谢各位主公巴拉巴拉巴拉啦啦啦"/>
+    <list id="n27_ewho" name="rewardList" xy="-159,298" pivot="1,0" size="891,123" group="n30_ewho" scale="0.8,0.8" layout="flow_vt" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="16" defaultItem="ui://2r331opvj842hz9cyi" autoItemSize="true">
+      <gearDisplay controller="state" pages="1,2"/>
+      <gearSize controller="state" pages="2" values="691,123,0.8,0.8" default="891,123,0.8,0.8"/>
+      <relation target="" sidePair="bottom-bottom,rightext-right"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n28_ewho" name="btnReceived" src="9itdci2" fileName="components/btnReceived.xml" xy="23,305" group="n30_ewho" touchable="false">
+      <gearDisplay controller="state" pages="2"/>
+      <Button title="已领"/>
+    </component>
+    <component id="n29_ewho" name="btnCanReceive" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="266,433" size="201,78" group="n30_ewho">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="领取"/>
+    </component>
+    <component id="n31_ewho" name="btnDelete" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="266,433" size="201,78" group="n30_ewho">
+      <gearDisplay controller="state" pages="0,2"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="删除" titleColor="#ffffff"/>
+    </component>
+    <image id="n32_mloz" name="n32" src="mlozhz9czu" fileName="images/bg_06.png" xy="0,248" size="733,40" group="n30_ewho" alpha="0.3">
+      <gearDisplay controller="state" pages="1,2"/>
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <text id="n33_mloz" name="playerName" xy="25,251" size="218,34" group="n30_ewho" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffb361" leading="6" ubb="true" autoSize="none" shadowColor="#000000" shadowOffset="0,1" singleLine="true" text="您的奖励：">
+      <gearDisplay controller="state" pages="1,2"/>
+    </text>
+    <group id="n30_ewho" name="infos" xy="-159,0" size="892,511" advanced="true"/>
+  </displayList>
+</component>

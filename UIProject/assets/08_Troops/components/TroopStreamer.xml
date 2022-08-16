@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="434,46" opaque="false">
+  <displayList>
+    <image id="n2_tj0x" name="bg" src="dfgw1ygcfmf" fileName="images/images_new/com_change04.png" pkg="2r331opv" xy="0,1" pivot="0.5,0.5" size="434,44" alpha="0.8" color="#061324"/>
+    <text id="n1_tj0x" name="title" xy="112,6" pivot="0.5,0.5" size="210,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" vars="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" text="激活：神光降临{count=1}/{max=3}"/>
+    <image id="n3_tj0x" name="n3" src="tj0x1ygcfnj" fileName="images/images_new/com_bg_aborn.png" pkg="2r331opv" xy="24,11" alpha="0.7"/>
+    <image id="n4_tj0x" name="n4" src="tj0x1ygcfnj" fileName="images/images_new/com_bg_aborn.png" pkg="2r331opv" xy="386,11" alpha="0.7" flip="hz"/>
+  </displayList>
+  <transition name="appear" autoPlay="true">
+    <item time="0" type="Alpha" target="n1_tj0x" value="0"/>
+    <item time="0" type="Alpha" target="n2_tj0x" value="0.8"/>
+    <item time="0" type="Alpha" target="n3_tj0x" value="0.7"/>
+    <item time="0" type="Alpha" target="n4_tj0x" value="0.7"/>
+    <item time="0" type="Scale" target="n2_tj0x" value="0.16,1"/>
+    <item time="0" type="XY" target="n3_tj0x" value="163,11"/>
+    <item time="0" type="XY" target="n4_tj0x" value="238,11"/>
+    <item time="2" type="Alpha" target="n1_tj0x" tween="true" startValue="0" endValue="1" duration="8"/>
+    <item time="2" type="Scale" target="n2_tj0x" tween="true" startValue="0.16,1" endValue="1,1" duration="8"/>
+    <item time="2" type="XY" target="n3_tj0x" tween="true" startValue="163,11" endValue="24,11" duration="8"/>
+    <item time="2" type="XY" target="n4_tj0x" tween="true" startValue="238,11" endValue="386,11" duration="8"/>
+    <item time="30" type="Alpha" target="n1_tj0x" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="30" type="Alpha" target="n2_tj0x" tween="true" startValue="0.8" endValue="0" duration="12"/>
+    <item time="30" type="Alpha" target="n3_tj0x" tween="true" startValue="0.7" endValue="0" duration="12"/>
+    <item time="30" type="Alpha" target="n4_tj0x" tween="true" startValue="0.7" endValue="0" duration="12"/>
+  </transition>
+  <transition name="disapper">
+    <item time="0" type="Alpha" target="n1_tj0x" value="1"/>
+    <item time="0" type="Alpha" target="n2_tj0x" value="0.8"/>
+    <item time="0" type="Alpha" target="n3_tj0x" value="0.7"/>
+    <item time="0" type="Alpha" target="n4_tj0x" value="0.7"/>
+    <item time="18" type="Alpha" target="n1_tj0x" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="18" type="Alpha" target="n2_tj0x" tween="true" startValue="0.8" endValue="0" duration="6"/>
+    <item time="18" type="Alpha" target="n3_tj0x" tween="true" startValue="0.7" endValue="0" duration="6"/>
+    <item time="18" type="Alpha" target="n4_tj0x" tween="true" startValue="0.7" endValue="0" duration="6"/>
+  </transition>
+</component>

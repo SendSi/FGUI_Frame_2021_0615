@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="25,15">
+  <displayList>
+    <image id="n35_dslz" name="n35" src="g01i6" fileName="images/voice_02.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n36_dslz" name="n36" src="g01i5" fileName="images/voice_01.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <displayList>
+    <loader id="n117_n602" name="bgleft" xy="-1334,0" size="1334,750" group="n120_n602" url="ui://2r331opve2ps1iy5b98" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n118_n602" name="effectHolderleft" src="ir0wxhghd0" fileName="components/effectHolder.xml" pkg="ewxwa3m8" xy="-726,424" group="n120_n602"/>
+    <loader3D id="n119_n602" name="modelleft" xy="-969,96" size="530,520" group="n120_n602" animation="" skin="" loop="true" clearOnPublish="true"/>
+    <group id="n120_n602" name="bgdynamicleft" xy="-1334,0" size="1334,750" advanced="true"/>
+    <loader id="n121_n602" name="bgright" xy="1334,0" size="1334,750" group="n124_n602" url="ui://2r331opve2ps1iy5b98" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n122_n602" name="effectHolderright" src="ir0wxhghd0" fileName="components/effectHolder.xml" pkg="ewxwa3m8" xy="1942,424" group="n124_n602"/>
+    <loader3D id="n123_n602" name="modelright" xy="1699,96" size="530,520" group="n124_n602" animation="" skin="" loop="true" clearOnPublish="true"/>
+    <group id="n124_n602" name="bgdynamicright" xy="1334,0" size="1334,750" advanced="true"/>
+    <loader id="n7_w84w" name="bg" xy="0,0" size="1334,750" group="n116_n602" url="ui://2r331opve2ps1iy5b98" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n96_ir0w" name="effectHolder" src="ir0wxhghd0" fileName="components/effectHolder.xml" pkg="ewxwa3m8" xy="608,424" group="n116_n602"/>
+    <loader3D id="n97_n602" name="model" xy="365,96" size="530,520" group="n116_n602" animation="" skin="" loop="true" clearOnPublish="true"/>
+    <group id="n116_n602" name="bgdynamic" xy="0,0" size="1334,750" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n54_b2gg" name="n54" src="hxd7hz9d7i" fileName="images/images_new/com_bg_tips02_mask2.png" pkg="2r331opv" xy="1402,102" size="398,612" group="n19_s9vk" alpha="0.3"/>
+    <list id="n59_b2gg" name="challenge_list" xy="1529,463" size="200,43" group="n104_n602" layout="row" selectionMode="none" overflow="hidden" defaultItem="ui://2r331opvn16mg3">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n57_b2gg" name="challengetitle" xy="1417,467" size="100,34" group="n104_n602" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" vAlign="middle" singleLine="true" text="挑战记录"/>
+    <group id="n104_n602" name="challenge" xy="1417,463" size="312,43" group="n19_s9vk"/>
+    <list id="n105_n602" name="award_list" xy="1417,342" size="368,102" group="n107_n602" layout="row" selectionMode="none" overflow="hidden" colGap="10" defaultItem="ui://2r331opvee2ik0">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n106_n602" name="awardtitle" xy="1417,302" size="100,34" group="n107_n602" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" vAlign="middle" singleLine="true" text="推荐奖励"/>
+    <group id="n107_n602" name="award" xy="1417,302" size="368,142" group="n19_s9vk"/>
+    <list id="n108_n602" name="introduction_list" xy="1417,182" size="368,99" group="n110_n602" selectionMode="none" overflow="hidden" defaultItem="ui://pvaep77an6021ygcfec">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n109_n602" name="introductiontitle" xy="1417,142" size="100,34" group="n110_n602" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" vAlign="middle" singleLine="true" text="玩法介绍"/>
+    <group id="n110_n602" name="introduction" xy="1417,142" size="368,139" group="n19_s9vk"/>
+    <component id="n43_b2gg" name="explainbtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="1350,102" group="n19_s9vk"/>
+    <component id="n111_n602" name="challengeBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="1520,602" group="n114_n602">
+      <Button title="开始挑战"/>
+    </component>
+    <component id="n112_n602" name="consume" src="n6021qp8vcx" fileName="components/components_new/consumeItem.xml" pkg="2r331opv" xy="1525,555" size="140,44" group="n114_n602"/>
+    <text id="n113_n602" name="recommended" xy="1514,668" size="181,34" group="n114_n602" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#d93a3a" text="推荐战力：6666"/>
+    <group id="n114_n602" name="btn1" xy="1514,555" size="181,147" group="n19_s9vk"/>
+    <group id="n19_s9vk" name="right" xy="1350,102" size="450,612" advanced="true">
+      <relation target="" sidePair="middle-middle,left-right"/>
+    </group>
+    <image id="n28_no3v" name="n28" src="g6ichz9cz8" fileName="images/new/com_bg_tips02_mask.png" pkg="sinorujt" xy="-311,102" size="276,606" group="n20_s9vk" alpha="0.3"/>
+    <list id="n32_v8po" name="suit_list" xy="-302,111" size="258,588" group="n20_s9vk" layout="flow_hz" overflow="scroll" lineGap="2" defaultItem="ui://pvaep77an6021ygcfe4" treeView="true" indent="27" clickToExpand="1">
+      <item level="0"/>
+      <item level="0"/>
+      <item url="ui://pvaep77an6021ygcfeb" level="1"/>
+      <item url="ui://pvaep77an6021ygcfeb" level="1"/>
+      <item level="0"/>
+      <item level="0"/>
+      <item url="ui://pvaep77an6021ygcfeb" level="1"/>
+      <item level="0"/>
+      <item url="ui://pvaep77an6021ygcfeb" level="1"/>
+      <item url="ui://pvaep77an6021ygcfeb" level="1"/>
+      <item url="ui://pvaep77an6021ygcfeb" level="1"/>
+    </list>
+    <group id="n20_s9vk" name="Left" xy="-311,102" size="276,606" advanced="true">
+      <relation target="" sidePair="middle-middle,right-left"/>
+    </group>
+    <list id="n98_n602" name="star_list" xy="374,573" size="309,52" group="n100_n602" scale="1.5,1.5" layout="row" overflow="hidden" colGap="10" defaultItem="ui://2r331opvn16mg3" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n115_n602" name="n115" src="j4kdhz9clf" fileName="images/main/mainhud_bg03.png" pkg="4ni413la" xy="396,648" size="434,77" group="n100_n602"/>
+    <text id="n99_n602" name="name" xy="523,660" size="164,54" group="n100_n602" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#b333d9" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" singleLine="true" text="怪物名字"/>
+    <group id="n100_n602" name="middle" xy="374,573" size="456,152" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n3_w84w" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0" size="135,68"/>
+    <component id="n35_b2gg" name="propTopList" src="ykwwkx" fileName="components/components_new/propTopList.xml" pkg="2r331opv" xy="680,-60" size="644,40">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n100_n602" tween="true" startValue="0" endValue="0.7" duration="6"/>
+    <item time="0" type="XY" target="n100_n602" tween="true" startValue="374,559.5" endValue="374,539" duration="6"/>
+    <item time="0" type="XY" target="n19_s9vk" tween="true" startValue="1432,100" endValue="829,100" duration="7" ease="Back.Out"/>
+    <item time="0" type="XY" target="n20_s9vk" tween="true" startValue="-461,96" endValue="0,96" duration="11" ease="Back.Out"/>
+    <item time="0" type="XY" target="n35_b2gg" tween="true" startValue="1442,0" endValue="660,0" duration="7"/>
+    <item time="0" type="XY" target="n3_w84w" tween="true" startValue="-314,0" endValue="20,0" duration="7"/>
+    <item time="6" type="Alpha" target="n100_n602" tween="true" startValue="0.7" endValue="1" duration="5"/>
+    <item time="6" type="XY" target="n100_n602" tween="true" startValue="374,539" endValue="374,550" duration="5"/>
+    <item time="7" type="XY" target="n19_s9vk" tween="true" startValue="829,100" endValue="876,100" duration="9" ease="Back.Out"/>
+    <item time="7" type="XY" target="n35_b2gg" tween="true" startValue="660,0" endValue="680,0" duration="4"/>
+    <item time="7" type="XY" target="n3_w84w" tween="true" startValue="20,0" endValue="0,0" duration="4"/>
+  </transition>
+  <transition name="left">
+    <item time="0" type="XY" target="n116_n602" tween="true" startValue="0,0" endValue="1335,0,1.001,0" duration="13"/>
+    <item time="0" type="XY" target="n120_n602" tween="true" startValue="-1334,0" endValue="0,0,0,0" duration="13"/>
+  </transition>
+  <transition name="right">
+    <item time="0" type="XY" target="n116_n602" tween="true" startValue="0,0" endValue="-1334,0,-1,0" duration="13"/>
+    <item time="0" type="XY" target="n124_n602" tween="true" startValue="1334,0" endValue="0,0,0,0" duration="13"/>
+  </transition>
+</component>

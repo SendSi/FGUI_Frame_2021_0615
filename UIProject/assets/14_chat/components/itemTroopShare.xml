@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="136,156">
+  <controller name="c1" pages="0,normal,1,brank" selected="0"/>
+  <displayList>
+    <text id="n1_rqm6" name="title" xy="22,0" size="95,32" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="左翼"/>
+    <component id="n2_dtk1" name="generalIcon" src="ms13cb" fileName="components/general/ExchangeGeneralItemIcon.xml" pkg="2r331opv" xy="7,34">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n3_dtk1" name="bg8" pkg="2r331opv" src="l8n91b" fileName="images/common_bg_1.png" xy="8,30" size="124,123" group="n6_dtk1"/>
+    <image id="n5_dtk1" name="n5" src="m79tb" fileName="images/troops_head_bg_03.png" pkg="2r331opv" xy="13,61" size="116,90" group="n6_dtk1"/>
+    <group id="n6_dtk1" name="brank" xy="8,30" size="124,123" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

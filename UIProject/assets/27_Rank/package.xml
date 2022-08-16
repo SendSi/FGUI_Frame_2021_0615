@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="33emk8k2">
+  <resources>
+    <component id="enlz3" name="RankMainView.xml" path="/panel/" exported="true"/>
+    <component id="enlz9" name="rankItem.xml" path="/components/" exported="true"/>
+    <image id="qta0a" name="ranking01.png" path="/images/"/>
+    <image id="qta0b" name="ranking02.png" path="/images/"/>
+    <image id="qta0c" name="ranking03.png" path="/images/"/>
+    <image id="6kgtd" name="bg_001.png" path="/images/" scale="9grid" scale9grid="6,27,4,8"/>
+    <image id="6kgte" name="bg_002.png" path="/images/" scale="9grid" scale9grid="81,0,3,85"/>
+    <image id="6kgtf" name="bg_003.png" path="/images/" scale="9grid" scale9grid="46,47,3,5"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

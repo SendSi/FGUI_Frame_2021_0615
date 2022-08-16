@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="542,550" designImageOffsetX="-393" designImageOffsetY="-105" designImageAlpha="45">
+  <controller name="state" pages="2,,3," selected="0"/>
+  <displayList>
+    <image id="n1_nsww" name="n1" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="0,0" size="541,463" group="n8_nsww"/>
+    <image id="n25_prcz" name="n25" src="za6y1ygcgmn" fileName="images/images_new/windowBg_new/welfare_btn_bg23.png" pkg="2r331opv" xy="70,24" pivot="0.5,0.5" size="402,39" group="n8_nsww" alpha="0.9"/>
+    <image id="n22_eznb" name="n22" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="26,262" size="490,36" group="n8_nsww" alpha="0.5" color="#97794f"/>
+    <text id="n7_nsww" name="bounsTitle" xy="32,263" size="124,34" group="n8_nsww" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#845744" align="center" singleLine="true" text="升级加成："/>
+    <text id="n3_nsww" name="title" xy="176,25" pivot="0.5,0.5" size="189,39" group="n8_nsww" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#845744" ubb="true" singleLine="true" autoClearText="true" text="技能三（3级）"/>
+    <text id="n5_nsww" name="inforLbl" xy="33,123" size="476,127" group="n8_nsww" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" ubb="true" vars="true" autoSize="none" autoClearText="true" text="召唤巨龙攻击全体敌人，造成 [color=#ff9b42]285%[/color] 伤害"/>
+    <list id="n19_nsww" name="lvList" xy="27,309" size="489,39" group="n8_nsww" overflow="scroll" lineGap="-1" defaultItem="ui://4hio38umc4umci6">
+      <item/>
+    </list>
+    <image id="n27_rb01" name="n27" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="27,83" size="490,36" group="n8_nsww" alpha="0.5" color="#97794f"/>
+    <text id="n28_rb01" name="bounsTitle01" xy="33,84" size="124,34" group="n8_nsww" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#845744" align="center" singleLine="true" text="技能属性："/>
+    <component id="n29_kv72" name="upgradeBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="190,371" group="n8_nsww">
+      <Button title="升级技能"/>
+    </component>
+    <group id="n8_nsww" name="state0" xy="0,0" size="541,463" advanced="true">
+      <gearDisplay controller="state" pages="2"/>
+    </group>
+    <image id="n23_eznb" name="n23" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="0,0" size="541,550" group="n17_nsww"/>
+    <image id="n26_ojww" name="n26" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="80,30" size="112,112" group="n17_nsww" aspect="true" alpha="0.5" color="#ceaf6e"/>
+    <component id="n9_nsww" name="icon" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="102,54" group="n17_nsww"/>
+    <text id="n10_nsww" name="awakeSkil" xy="195,69" size="258,36" group="n17_nsww" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#50382e" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="卓越技能名字"/>
+    <image id="n11_nsww" name="n11" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="26,149" size="490,36" group="n17_nsww" alpha="0.5" color="#97794f"/>
+    <text id="n12_nsww" name="awakeTxt" xy="34,151" size="172,34" group="n17_nsww" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#845744" autoClearText="true" text="技能觉醒效果："/>
+    <text id="n13_nsww" name="inforTxt" xy="28,190" size="486,73" group="n17_nsww" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" leading="2" ubb="true" vars="true" autoSize="none" autoClearText="true" text="Awakening effectAwakening 造成[color=#ff9b42]285%[/color]伤害"/>
+    <image id="n24_eznb" name="n24" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="26,272" size="490,36" group="n16_nsww" alpha="0.5" color="#97794f"/>
+    <text id="n14_nsww" name="heroTxt" xy="34,274" size="124,34" group="n16_nsww" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#845744" leading="2" autoClearText="true" text="激活英雄："/>
+    <text id="n30_kv72" name="inforTxt2" xy="28,310" size="264,29" group="n16_nsww" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" leading="2" ubb="true" vars="true" autoClearText="true" text="与以下英雄同时上阵一支部队"/>
+    <list id="n15_nsww" name="heroList" xy="26,361" size="489,175" group="n16_nsww" touchable="false" layout="row" overflow="scroll" scrollBarFlags="32" colGap="-9" defaultItem="ui://2r331opvhxd7hz9d7l">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n16_nsww" name="n16" xy="26,272" size="490,264" group="n17_nsww" advanced="true"/>
+    <group id="n17_nsww" name="state1" xy="0,0" size="541,550" advanced="true">
+      <gearDisplay controller="state" pages="3"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,56" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_n7ai" name="n3" src="clbo1xvobdu" fileName="images/commandhall_btn_break3.png" xy="0,0" size="150,56">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n4_n7ai" name="n4" src="clbo1xvobdv" fileName="images/commandhall_btn_break4.png" xy="0,0" size="150,56">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <text id="n5_n7ai" name="title" xy="49,10" size="52,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#b4e0ff" align="center" text="重置">
+      <gearColor controller="button" pages="0,1,2,3" values="#b4e0ff,#000000|#7d3800,#000000|#b4e0ff,#000000|#7d3800,#000000"/>
+    </text>
+  </displayList>
+  <Button mode="Radio" downEffect="scale" downEffectValue=".95"/>
+</component>

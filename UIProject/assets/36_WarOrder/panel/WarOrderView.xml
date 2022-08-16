@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://2iylmg0sqajo1ygcfo5" designImageAlpha="30">
+  <controller name="tab" pages="0,,1," selected="0">
+    <remark page="0" value="奖励"/>
+    <remark page="1" value="任务"/>
+  </controller>
+  <displayList>
+    <image id="n89_z593" name="bg" src="z5931ygcfjf" fileName="images/wartoken_bg3.jpg" xy="-168,0" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n102_qajo" name="n102" src="kxfy1ygcfo2" fileName="images/wartoken_bg3.png" xy="27,45">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n104_feo2" name="n104" src="qajo1ygcfo7" fileName="images/wartoken_bg4.png" xy="122,471" alpha="0.2" color="#ba8233">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n106_crb1" name="n106" src="x7d51ygcfjk" fileName="images/wartoken_bg6.png" xy="264,290" size="963,376" alpha="0.8">
+      <gearDisplay controller="tab" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n105_feo2" name="n105" src="x7d51ygcfjk" fileName="images/wartoken_bg6.png" xy="109,290" size="1118,376" alpha="0.8">
+      <gearDisplay controller="tab" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n103_feo2" name="n103" src="qajo1ygcfo7" fileName="images/wartoken_bg4.png" xy="122,307" alpha="0.2" color="#ba8233">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n71_ld4m" name="level" src="ld4m1ygcfhk" fileName="components/wartoken_level.xml" xy="253,165">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n67_ld4m" name="elite" src="g4yja" fileName="components/wartoken__btn5.xml" xy="139,330" size="89,123" group="n20_s9vk"/>
+    <component id="n68_ld4m" name="collection" src="g4yja" fileName="components/wartoken__btn5.xml" xy="139,495" size="89,123" group="n20_s9vk" controller="state,1"/>
+    <component id="n70_ld4m" name="lockBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="129,620" size="113,47" group="n20_s9vk">
+      <Button title="解锁" titleFontSize="24"/>
+    </component>
+    <component id="n69_ld4m" name="arro" src="g4yj4" fileName="components/wartoken__btn1.xml" xy="273,289" size="36,377" group="n20_s9vk"/>
+    <list id="n39_ts2v" name="award_list1" xy="310,290" size="800,385" group="n20_s9vk" layout="row" overflow="scroll" scroll="horizontal" colGap="-5" defaultItem="ui://2iylmg0sv8di1ygcfhr">
+      <item/>
+      <item title="等级2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n95_x7d5" name="special" src="x7d51ygcfjm" fileName="components/wartoken_item6.xml" xy="1115,288" group="n20_s9vk"/>
+    <text id="n73_ld4m" name="name" xy="401,184" size="127,39" group="n20_s9vk" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#8c4c32" autoClearText="true" text="S123赛季"/>
+    <component id="n75_ld4m" name="explainBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="501,162" size="87,80" group="n20_s9vk" scale="0.8,0.8" alpha="0.4">
+      <Button icon="ui://2r331opvcmlrhz9cyn"/>
+    </component>
+    <text id="n78_ld4m" name="time" xy="555,120" pivot="0.5,0.5" size="217,29" group="n20_s9vk" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#d28044" align="center" vAlign="middle" autoClearText="true" text="本期剩余时间  22:11:01"/>
+    <component id="n79_ld4m" name="progres" src="nmhb1ygcfje" fileName="components/expBar.xml" xy="402,250" size="652,30" group="n20_s9vk">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n91_x7d5" name="expNum1" xy="400,220" size="195,29" group="n20_s9vk" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoClearText="true" text="战令经验  1766/2000"/>
+    <text id="n92_x7d5" name="expNum2" xy="797,224" pivot="1,0" size="259,26" group="n20_s9vk" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#4b2414" align="right" autoClearText="true" text="本周任务经验上限  1766/10000"/>
+    <component id="n81_ld4m" name="expPlusBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="1069,218" group="n20_s9vk">
+      <Button title="购买等级"/>
+    </component>
+    <component id="n97_x7d5" name="receiveBtn" src="qajo1ygcfo8" fileName="components/receiveBtn.xml" xy="249,662" group="n20_s9vk">
+      <Button title="一键领取" titleFontSize="24"/>
+    </component>
+    <group id="n20_s9vk" name="stat1" xy="129,120" size="1101,627" advanced="true">
+      <gearDisplay controller="tab" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n98_x7d5" name="progres2" src="nmhb1ygcfje" fileName="components/expBar.xml" xy="401,225" size="811,30" group="n86_v8di">
+      <ProgressBar value="60" max="100" volume="60"/>
+    </component>
+    <text id="n99_x7d5" name="title_name" xy="399,195" size="195,29" group="n86_v8di" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoClearText="true" text="战令经验  1766/2000"/>
+    <text id="n100_x7d5" name="expNum23" xy="954,197" pivot="1,0" size="259,26" group="n86_v8di" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#4b2414" align="right" autoClearText="true" text="本周任务经验上限  1766/10000"/>
+    <text id="n107_vjlv" name="tip" xy="435,160" pivot="0.5,0.5" size="464,42" group="n86_v8di" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ea2828" align="center" vAlign="middle" autoSize="none" shadowColor="#c9b58c" shadowOffset="0,1" autoClearText="true" text="本周任务经验已达上限，下周再来"/>
+    <list id="n33_n41a" name="reward_list" xy="121,297" size="1095,361" group="n86_v8di" overflow="scroll" margin="5,0,0,0" lineGap="4" defaultItem="ui://2iylmg0sv8di1ygcfhl">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n101_x7d5" name="checkBtn" src="x7d51ygcfjp" fileName="components/wartoken__btn6.xml" xy="1162,612" group="n86_v8di" scale="0.8,0.8"/>
+    <group id="n86_v8di" name="state2" xy="121,160" size="1147,562" advanced="true">
+      <gearDisplay controller="tab" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n42_gr02" name="n42" src="o283z9cnq" fileName="images/images_new/com_change07.png" pkg="2r331opv" xy="102,0" size="330,62" alpha="0.8"/>
+    <text id="n84_v8di" name="time2" xy="593,120" pivot="1,0" size="148,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#d28044" align="center" vAlign="middle" autoClearText="true" text="22:11:01后结束">
+      <gearDisplay controller="tab" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n1_w84w" name="title" xy="147,-3" size="256,66" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="2,4" singleLine="true" text="战令"/>
+    <component id="n3_w84w" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0"/>
+    <image id="n57_g4yj" name="n57" src="x7d51ygcfng" fileName="images/wartoken_btn_bg02.png" xy="471,59" size="391,62" group="n59_g4yj"/>
+    <component id="n55_g4yj" name="btnAward" src="g4yj1ygcffj" fileName="components/wartoken__btn2.xml" xy="471,58" group="n59_g4yj">
+      <Button checked="true" title="奖励" controller="tab" page="0"/>
+    </component>
+    <component id="n56_g4yj" name="btnTask" src="g4yj1ygcffj" fileName="components/wartoken__btn2.xml" xy="659,58" group="n59_g4yj">
+      <Button title="任务" controller="tab" page="1"/>
+    </component>
+    <group id="n59_g4yj" name="Btn12" xy="471,58" size="391,63" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <component id="n96_x7d5" name="n96" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="620,15">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

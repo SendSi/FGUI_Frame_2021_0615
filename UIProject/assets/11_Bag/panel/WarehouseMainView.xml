@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://b7676vbqe9mlkc">
+  <controller name="tab" pages="0,,1,,2,,3," selected="0"/>
+  <controller name="pbr" pages="0,,1," selected="0">
+    <remark page="0" value="无进度条"/>
+    <remark page="1" value="有进度"/>
+  </controller>
+  <displayList>
+    <component id="n39_gp9p" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n31_gp9p" name="n31" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="111,38" group="n34_gp9p"/>
+    <text id="n29_gp9p" name="title" xy="400,70" pivot="0.5,0.5" size="605,46" group="n34_gp9p" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="补充资源（配表"/>
+    <component id="n7_pz0v" name="tab0" src="prcz1qp8vfc" fileName="components/components_new/com_btn_tab04.xml" pkg="2r331opv" xy="42,135" size="193,105" group="n12_pz0v">
+      <Button checked="true" title="粮草" icon="ui://b7676vbqgp9pkg" selectedIcon="ui://b7676vbqgp9pkh" controller="tab" page="0"/>
+    </component>
+    <component id="n8_pz0v" name="tab1" src="prcz1qp8vfc" fileName="components/components_new/com_btn_tab04.xml" pkg="2r331opv" xy="42,250" size="193,105" group="n12_pz0v">
+      <Button title="木材" icon="ui://b7676vbqgp9pki" selectedIcon="ui://b7676vbqgp9pkj" controller="tab" page="1"/>
+    </component>
+    <component id="n9_pz0v" name="tab2" src="prcz1qp8vfc" fileName="components/components_new/com_btn_tab04.xml" pkg="2r331opv" xy="42,365" size="193,105" group="n12_pz0v">
+      <Button title="铁矿" icon="ui://b7676vbqgp9pkk" selectedIcon="ui://b7676vbqgp9pkl" controller="tab" page="2"/>
+    </component>
+    <component id="n10_pz0v" name="tab3" src="prcz1qp8vfc" fileName="components/components_new/com_btn_tab04.xml" pkg="2r331opv" xy="42,480" size="193,105" group="n12_pz0v">
+      <Button title="金币" icon="ui://b7676vbqgp9pkm" selectedIcon="ui://b7676vbqgp9pkn" controller="tab" page="3"/>
+    </component>
+    <group id="n12_pz0v" name="btnTab" xy="42,135" size="193,450" group="n34_gp9p"/>
+    <image id="n45_prcz" name="n45" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="250,156" size="912,36" group="n34_gp9p">
+      <gearDisplay controller="pbr" pages="0"/>
+    </image>
+    <component id="n17_pz0v" name="explainBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="1126,154" size="40,40" group="n34_gp9p" aspect="true">
+      <gearDisplay controller="pbr" pages="0"/>
+    </component>
+    <text id="n15_pz0v" name="materialTitle" xy="259,157" size="58,34" group="n22_pz0v" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" vAlign="middle" autoSize="none" text="总量："/>
+    <text id="n16_pz0v" name="materialNum" xy="317,157" size="153,34" group="n22_pz0v" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" vAlign="middle" autoSize="none" autoClearText="true" text="154万"/>
+    <text id="n18_pz0v" name="protectTitle" xy="515,157" size="104,34" group="n22_pz0v" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" vAlign="middle" autoSize="none" text="保护资源："/>
+    <text id="n19_pz0v" name="protectNum" xy="616,157" size="172,34" group="n22_pz0v" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" vAlign="middle" autoSize="none" autoClearText="true" text="15.1万/15.1万"/>
+    <text id="n20_pz0v" name="notProTitle" xy="821,157" size="124,34" group="n22_pz0v" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" vAlign="middle" autoSize="none" text="非保护资源："/>
+    <text id="n21_pz0v" name="notProNum" xy="942,157" size="153,34" group="n22_pz0v" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" vAlign="middle" autoSize="none" autoClearText="true" text="203.1万"/>
+    <group id="n22_pz0v" name="tab012" xy="259,157" size="836,34" group="n34_gp9p" advanced="true">
+      <gearDisplay controller="tab" pages="0,1,2"/>
+      <gearDisplay2 controller="pbr" pages="0" condition="0"/>
+    </group>
+    <text id="n35_gp9p" name="goldTips" xy="476,158" pivot="0.5,0.5" size="460,32" group="n37_gp9p" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#e77917" align="center" vAlign="middle" autoSize="none" singleLine="true" text="金币是安全资源，不可被掠夺"/>
+    <group id="n37_gp9p" name="tab3Tips" xy="476,158" size="460,32" group="n34_gp9p" advanced="true">
+      <gearDisplay controller="tab" pages="3"/>
+      <gearDisplay2 controller="pbr" pages="0" condition="0"/>
+    </group>
+    <list id="n24_pz0v" name="list" xy="252,208" pivot="1,1" size="900,440" group="n34_gp9p" overflow="scroll" lineGap="3" defaultItem="ui://b7676vbqpz0vka" autoClearItems="true">
+      <gearSize controller="pbr" pages="0,1" values="900,440,1,1|900,411,1,1"/>
+      <item/>
+      <item url="ui://utp01xia10xg71iy5bbt"/>
+      <item url="ui://utp01xia10xg71iy5bbt"/>
+    </list>
+    <image id="n40_gp9p" name="n40" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="379,154" size="654,57" group="n43_ixho"/>
+    <component id="n42_ixho" name="Pbr" src="ixhoko" fileName="components/warePbr.xml" xy="436,166" group="n43_ixho">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n41_gp9p" name="icon" xy="406,156" size="52,52" group="n43_ixho" url="ui://tsbe09ddmz4w1" align="center" vAlign="middle" fill="scale"/>
+    <group id="n43_ixho" name="pbr1" xy="379,154" size="654,57" group="n34_gp9p" advanced="true">
+      <gearDisplay controller="pbr" pages="1"/>
+    </group>
+    <component id="n30_gp9p" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1152,42" group="n34_gp9p"/>
+    <group id="n34_gp9p" name="window" xy="42,38" size="1249,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n13_pz0v" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="623,7" size="700,40">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,226" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1," selected="1">
+    <remark page="0" value="前往"/>
+    <remark page="1" value="采集"/>
+  </controller>
+  <displayList>
+    <image id="n3_w3nl" name="n3" src="b1o21ygcfnq" fileName="images/images_new/windowBg_new/negative_bg26.png" pkg="2r331opv" xy="0,0" size="300,226"/>
+    <text id="n1_tg9h" name="title" xy="69,8" pivot="0.5,0.5" size="162,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" singleLine="true" autoClearText="true" text="1级牧场资源点">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n4_w3nl" name="n4" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" xy="18,41" size="264,122" alpha="0.3" color="#97794f"/>
+    <component id="n5_w3nl" name="goBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="93,168" size="114,44">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="前往" titleFontSize="24"/>
+    </component>
+    <component id="n19_pxz3" name="dispatchBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="93,168" size="114,44">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="派遣" titleFontSize="24"/>
+    </component>
+    <text id="n7_w3nl" name="n7" xy="126,100" size="124,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="当前采集人数"/>
+    <text id="n8_w3nl" name="occupyNum" xy="126,125" size="64,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" strokeColor="#000000" autoClearText="true" text="11/100"/>
+    <text id="n11_w3nl" name="n11" xy="127,48" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="归属权剩余"/>
+    <text id="n12_w3nl" name="remainTime" xy="127,72" size="79,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" strokeColor="#000000" autoClearText="true" text="00:11:11"/>
+    <component id="n14_w3nl" name="resourceIcon" src="dxyz1ygcfmi" fileName="components/components_new/btn_head5.xml" pkg="2r331opv" xy="32,51" scale="0.6,0.6"/>
+    <image id="n17_w3nl" name="n17" src="bumchz9d7p" fileName="images/images_new/windowBg_new/negative_bg03.png" pkg="2r331opv" xy="23,130" size="95,27"/>
+    <text id="n18_w3nl" name="coordTitle" xy="24,132" pivot="0.5,0.5" size="94,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" autoClearText="true" text="X:129 Y:931"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="273,34" designImageOffsetX="-955" designImageOffsetY="-387">
+  <displayList>
+    <richtext id="n0_rfbh" name="name" xy="12,3" size="126,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#6ed5f4" ubb="true" autoSize="none" shadowColor="#000000" shadowOffset="1,1" singleLine="true" autoClearText="true" text="Attack"/>
+    <richtext id="n2_rfbh" name="value" xy="171,2" size="100,35" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" align="right" autoSize="none" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="+10000&#xA;">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+  </displayList>
+</component>

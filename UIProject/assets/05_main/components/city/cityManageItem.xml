@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="953,146" designImage="ui://4ni413lavposhz9cn1" designImageOffsetX="-189" designImageOffsetY="-192" designImageLayer="1">
+  <controller name="type" pages="0,,1,,2," selected="0">
+    <remark page="0" value="迁城"/>
+    <remark page="1" value="有进度"/>
+    <remark page="2" value="无进度"/>
+  </controller>
+  <displayList>
+    <image id="n0_vpos" name="n0" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="953,146" alpha="0.7"/>
+    <image id="n1_vpos" name="n1" pkg="2r331opv" src="vposz9cpe" fileName="images/images_new/mainhud_bg12.png" xy="18,4"/>
+    <text id="n2_vpos" name="title2" xy="30,0" size="50,33" fontSize="23" color="#99dad6" autoClearText="true" text="迁城"/>
+    <image id="n3_vpos" name="n3" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="13,31" size="929,112"/>
+    <text id="n4_vpos" name="title" xy="129,38" size="108,36" font="ui://2r331opvlwft3" fontSize="26" color="#f2dd68" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="城市配表"/>
+    <text id="n5_vpos" name="inforLbl" xy="129,72" size="633,29" fontSize="20" color="#eabe73" autoSize="none" autoClearText="true" text="将您的城市迁移至地图的其他区域。"/>
+    <component id="n6_vpos" name="moveBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="764,61" size="164,60">
+      <gearDisplay controller="type" pages="0"/>
+      <Button title="迁城" titleFontSize="32"/>
+    </component>
+  </displayList>
+</component>

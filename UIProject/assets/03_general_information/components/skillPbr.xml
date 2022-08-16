@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="299,41" extention="ProgressBar" designImageOffsetX="-1006" designImageOffsetY="-307" designImageAlpha="43">
+  <displayList>
+    <image id="n3_hxd7" name="n3" src="lfqnhz9d72" fileName="images/images_new/com_strip011.png" pkg="2r331opv" xy="2,6" size="284,30" alpha="0.3">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n4_hxd7" name="bar" src="fccv1ygcfnb" fileName="images/images_new/com_strip009.png" pkg="2r331opv" xy="2,1" size="289,39">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <text id="n5_hxd7" name="title" xy="153,-27" size="135,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="right" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" text="45/60">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n6_gad3" name="n1" xy="11,-23" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" singleLine="true" text="角色等级："/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

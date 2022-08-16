@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="481,30" designImageOffsetX="-440" designImageOffsetY="-370" designImageAlpha="21">
+  <controller name="color" pages="1,,0,,2," selected="0">
+    <remark page="0" value="黄"/>
+    <remark page="1" value="蓝"/>
+    <remark page="2" value="灰"/>
+  </controller>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="1" value="灰"/>
+  </controller>
+  <displayList>
+    <text id="n6_c4um" name="title" xy="29,0" size="345,29" restrictSize="0,360,0,0" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" ubb="true" vars="true" singleLine="true" autoClearText="true" text="2级：造成[color=#ff9b42]285%[/color]（灰色用这个[color=#919191]285%[/color]）">
+      <gearColor controller="state" pages="0,1" values="#97794f,#000000|#919191,#000000"/>
+    </text>
+    <image id="n9_d8di" name="n9" src="d8dihz9d11" fileName="images/images_new/com_spot01.png" pkg="2r331opv" xy="9,7" group="n12_d8di">
+      <gearDisplay controller="color" pages="0"/>
+    </image>
+    <image id="n10_d8di" name="n10" src="d8dihz9d12" fileName="images/images_new/com_spot02.png" pkg="2r331opv" xy="9,7" group="n12_d8di">
+      <gearDisplay controller="color" pages="1"/>
+    </image>
+    <image id="n11_d8di" name="n11" src="d8dihz9d13" fileName="images/images_new/com_spot03.png" pkg="2r331opv" xy="9,7" group="n12_d8di">
+      <gearDisplay controller="color" pages="2"/>
+    </image>
+    <group id="n12_d8di" name="color" xy="9,7" size="15,15" advanced="true"/>
+  </displayList>
+  <relation target="n6_c4um" sidePair="bottomext-bottom"/>
+</component>

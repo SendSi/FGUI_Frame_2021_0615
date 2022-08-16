@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,10" extention="Slider">
+  <displayList>
+    <graph id="n0_edl2" name="n0" xy="0,0" size="50,10" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_edl2" name="bar" xy="5,3" size="40,4" type="rect" lineSize="0" fillColor="#ff3399ff"/>
+    <text id="n2_edl2" name="titleValue" xy="-66,-40" size="186,29" fontSize="20" align="center" autoSize="none" text="0">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <component id="n3_edl2" name="grip" src="edl2cho" fileName="Slider1_grip.xml" xy="40,-5">
+      <relation target="n1_edl2" sidePair="right-right"/>
+    </component>
+    <text id="n4_edl2" name="lbl" xy="-111,22" size="270,29" fontSize="15" align="center" autoSize="none" text="lightControl的TimeOfDayRular值">
+      <relation target="" sidePair="width-width"/>
+    </text>
+  </displayList>
+  <Slider titleType="valueAndmax"/>
+</component>

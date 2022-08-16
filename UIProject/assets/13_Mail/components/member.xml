@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="447,72">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="范围内"/>
+    <remark page="1" value="范围外"/>
+  </controller>
+  <displayList>
+    <image id="n31_ku7p" name="bg" src="bumchz9d7p" fileName="images/images_new/windowBg_new/negative_bg03.png" pkg="2r331opv" xy="38,11" size="404,50">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <component id="n29_ku7p" name="head" src="j3xs9pm" fileName="components/components_new/btn_head4.xml" pkg="2r331opv" xy="-65,-67" pivot="0.5,0.5" aspect="true" scale="0.36,0.36"/>
+    <text id="n32_ku7p" name="titleLbl_01" xy="80,19" pivot="0.5,0.5" size="214,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#845744" align="center" autoClearText="true" text="[联盟简称]成员名字"/>
+    <image id="n33_ku7p" name="range01" src="klrg1qp8vd5" fileName="images/images_new/com_btn_correct.png" pkg="2r331opv" xy="397,16" size="41,41" aspect="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n34_ku7p" name="range02" src="9495y" fileName="images/images_new/com_btn_close.png" pkg="2r331opv" xy="393,19" size="35,34" aspect="true">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="326,485">
+  <displayList>
+    <image id="n175_ramg" name="down" src="uf4p1ygcfnk" fileName="images/league_envelope22.png" xy="0,203" pivot="0.5,0.5" group="n182_h30t"/>
+    <image id="n183_h30t" name="up" src="h30t1ygcfod" fileName="images/league_envelope24.png" xy="1,0" pivot="0.5,0.5" group="n182_h30t"/>
+    <component id="n176_ramg" name="openBtn" src="jp2t1ygcffv" fileName="components/LeagueBtn1.xml" xy="114,198" group="n182_h30t">
+      <relation target="n183_h30t" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <group id="n182_h30t" name="send" xy="0,0" size="326,485" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="open">
+    <item time="0" type="Alpha" target="n175_ramg" tween="true" startValue="1" endValue="0.7" duration="3"/>
+    <item time="0" type="Alpha" target="n176_ramg" tween="true" startValue="1" endValue="0.7" duration="3"/>
+    <item time="0" type="Alpha" target="n183_h30t" tween="true" startValue="1" endValue="0.7" duration="3"/>
+    <item time="0" type="XY" target="n175_ramg" tween="true" startValue="0,203" endValue="0,303" duration="6"/>
+    <item time="0" type="XY" target="n183_h30t" tween="true" startValue="1,0" endValue="1,-100" duration="6"/>
+    <item time="3" type="Alpha" target="n175_ramg" tween="true" startValue="0.7" endValue="0" duration="3"/>
+    <item time="3" type="Alpha" target="n176_ramg" tween="true" startValue="0.7" endValue="0" duration="3"/>
+    <item time="3" type="Alpha" target="n183_h30t" tween="true" startValue="0.7" endValue="0" duration="3"/>
+  </transition>
+</component>

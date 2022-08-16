@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="501,48" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="colour" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n3_q8mh" name="bg_01" src="p78116" fileName="images/land_bg02.png" xy="-189,-4" pivot="0.5,0.5" size="878,57"/>
+    <text id="n4_q8mh" name="title_number" xy="39,7" pivot="1,0" size="61,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="right" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="1107">
+      <relation target="n5_q8mh" sidePair="left-left"/>
+    </text>
+    <text id="n5_q8mh" name="title_area" xy="95,7" pivot="0.5,0.5" size="196,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="江东霸主企鹅企鹅"/>
+    <text id="n7_q8mh" name="title_change" xy="359,7" size="100,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#7eff81" align="center" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="点击换服">
+      <relation target="n6_q8mh" sidePair="right-right"/>
+    </text>
+    <text id="n6_q8mh" name="title_hot" xy="297,7" size="52,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ff5959" align="center" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="火爆">
+      <gearColor controller="colour" pages="1,2" values="#7eff81,#000000|#999999,#000000" default="#ff5959,#000000"/>
+      <gearText controller="colour" pages="1,2" values="推荐|维护" default="火爆"/>
+      <relation target="n5_q8mh" sidePair="right-right"/>
+    </text>
+    <text id="n8_mfnd" name="title_recommend" xy="299,7" size="52,34" visible="false" font="ui://2r331opvlwft2" fontSize="24" color="#7eff81" align="center" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="推荐">
+      <gearDisplay controller="colour" pages="1"/>
+      <relation target="n5_q8mh" sidePair="right-right"/>
+    </text>
+    <text id="n9_mfnd" name="title_maintain" xy="299,7" size="52,34" visible="false" font="ui://2r331opvlwft2" fontSize="24" color="#999999" align="center" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="维护">
+      <gearDisplay controller="colour" pages="2"/>
+      <relation target="n5_q8mh" sidePair="right-right"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".97"/>
+</component>

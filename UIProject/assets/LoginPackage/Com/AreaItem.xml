@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="386,80">
+  <controller name="select" pages="0,,1," selected="0"/>
+  <displayList>
+    <text id="n0_yput" name="name" xy="9,13" pivot="0.5,0.5" size="368,54" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="第一大区">
+      <relation target="" sidePair="rightext-right,topext-top,bottomext-bottom,leftext-left"/>
+    </text>
+    <graph id="n1_yput" name="n1" xy="0,0" size="386,80" type="rect" lineSize="8" lineColor="#ff009900" fillColor="#00ffffff">
+      <gearDisplay controller="select" pages="1"/>
+    </graph>
+  </displayList>
+</component>

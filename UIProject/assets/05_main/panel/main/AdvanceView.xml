@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="284,167">
+  <controller name="noIcon" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n152_1025j" name="n152" src="idus1ygcfjy" fileName="images/bg_main05.png" xy="0,-12" size="286,183">
+      <relation target="n172_jlfv" sidePair="bottomext-bottom"/>
+    </image>
+    <text id="n164_ptr5" name="title" xy="10,14" size="84,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" strokeColor="#061324" shadowColor="#061324" shadowOffset="1,2" text="守卫王城"/>
+    <text id="n165_ptr5" name="describe" xy="10,45" size="260,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" autoSize="height" strokeColor="#061324" shadowColor="#061324" shadowOffset="1,1" text="大量恶魔即将来袭，请务必做好准备"/>
+    <image id="n171_ptr5" name="n171" src="klrg1qp8vd2" fileName="images/images_new/common_lines_1.png" pkg="2r331opv" xy="10,71" size="260,1" group="n172_jlfv" alpha="0.1"/>
+    <graph id="n170_ptr5" name="n170" xy="2,142" size="280,24" group="n172_jlfv" alpha="0.5" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <text id="n166_ptr5" name="level" xy="86,142" pivot="0.5,0.5" size="103,24" group="n172_jlfv" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ff4343" align="center" text="20级主城开启"/>
+    <text id="n167_ptr5" name="award" xy="89,80" size="100,24" group="n172_jlfv" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" text="巨额经验奖励">
+      <gearDisplay controller="noIcon" pages="0"/>
+    </text>
+    <text id="n173_cri4" name="awardCenter" xy="139,80" pivot="0.5,0" anchor="true" size="100,24" group="n172_jlfv" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" align="center" autoClearText="true" text="巨额经验奖励">
+      <gearDisplay controller="noIcon" pages="1"/>
+    </text>
+    <component id="n169_ptr5" name="iconBtn" src="ee2ik0" fileName="components/general_new/equipmentIcon.xml" pkg="2r331opv" xy="-4,51" group="n172_jlfv" scale="0.7,0.7">
+      <gearDisplay controller="noIcon" pages="0"/>
+    </component>
+    <group id="n172_jlfv" name="n172" xy="-4,51" size="286,115" advanced="true">
+      <relation target="n165_ptr5" sidePair="top-bottom"/>
+    </group>
+  </displayList>
+</component>

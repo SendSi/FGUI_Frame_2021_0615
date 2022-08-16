@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,144">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="未通关"/>
+    <remark page="1" value="通关"/>
+  </controller>
+  <displayList>
+    <graph id="n1_lp55" name="bg" xy="0,0" size="1334,144" alpha="0.5" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n0_lp55" name="challengeBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="1118,41">
+      <gearXY controller="state" pages="0" values="1118,41" default="1118,12"/>
+      <relation target="" sidePair="left-right"/>
+      <Button title="挑战"/>
+    </component>
+    <text id="n2_lp55" name="current" xy="77,20" size="108,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="当前章节:"/>
+    <text id="n4_lp55" name="title" xy="188,15" size="212,42" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffe765" autoSize="none" strokeColor="#844d30" shadowColor="#844d30" shadowOffset="1,2" autoClearText="true" text="创世纪"/>
+    <text id="n3_lp55" name="num" xy="77,58" size="28,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="第"/>
+    <text id="n5_lp55" name="number" xy="110,53" pivot="0,0.5" size="39,42" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffffff" ubb="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" singleLine="true" autoClearText="true" text="99"/>
+    <text id="n17_ql1u" name="num2" xy="152,58" size="28,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="关">
+      <relation target="n5_lp55" sidePair="left-right"/>
+    </text>
+    <text id="n7_lp55" name="award" xy="554,22" size="148,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="当前关卡奖励"/>
+    <list id="n8_lp55" name="award_list" xy="554,56" size="467,114" scale="0.7,0.7" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://2r331opvee2ik0">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n16_ql1u" name="conLbl" xy="77,96" size="65,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" ubb="true" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="消耗:"/>
+    <text id="n9_hsw9" name="consume" xy="177,95" size="265,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" ubb="true" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="[color=#ff0000]3[/color]/10"/>
+    <loader id="n11_hsw9" name="icon" xy="142,93" size="38,38" aspect="true" url="ui://tsbe09ddeaah9cj7" align="center" vAlign="middle" fill="scale"/>
+    <component id="n12_hsw9" name="sweepBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="1119,76" scale="0.8,0.8">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="left-right"/>
+      <Button title="扫荡1次"/>
+    </component>
+    <component id="n14_hsw9" name="plusBtn" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="1273,84">
+      <gearDisplay controller="state" pages="1"/>
+    </component>
+    <component id="n15_hsw9" name="cutBtn" src="kwe92x" fileName="components/components_new/com_btn_cut.xml" pkg="2r331opv" xy="1077,84">
+      <gearDisplay controller="state" pages="1"/>
+    </component>
+  </displayList>
+</component>

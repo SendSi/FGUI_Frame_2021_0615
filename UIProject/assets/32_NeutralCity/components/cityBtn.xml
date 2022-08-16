@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="85,85" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n2_svx3" name="icon" xy="0,0" size="85,85" url="ui://qnrrapjrsvx3hz9d7k" fill="scale"/>
+    <image id="n3_svx3" name="n3" src="svx3hz9d7j" fileName="images/bg18.png" xy="-7,82" size="98,26"/>
+    <text id="n1_svx3" name="title" xy="0,80" size="85,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="按钮名字">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

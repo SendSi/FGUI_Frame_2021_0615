@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="314,44">
+  <displayList>
+    <loader id="n7_kno1" name="icon" xy="3,4" size="34,34" aspect="true" url="ui://2r331opvlfqnhz9d79" fill="scale"/>
+    <text id="n1_jzi1" name="name" xy="42,7" size="81,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" vAlign="middle" letterSpacing="-1" autoClearText="true" text="攻击距离"/>
+    <image id="n4_jzi1" name="curve" src="jqbn1ygcgm8" fileName="images/images_new/windowBg_new/welfare_btn_bg16.png" pkg="2r331opv" xy="1,37" size="313,1" alpha="0.7"/>
+    <richtext id="n8_k0jo" name="number" xy="135,7" pivot="1,0" size="177,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="right" text="1234567/1111111"/>
+  </displayList>
+</component>

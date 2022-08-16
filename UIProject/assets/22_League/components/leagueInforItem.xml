@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="286,198">
+  <displayList>
+    <image id="n8_nnlh" name="n8" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="286,199" group="n28_nnlh" alpha="0.6">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n29_iyp0" name="n29" src="klrg1qp8vd2" fileName="images/images_new/common_lines_1.png" pkg="2r331opv" xy="16,68" size="254,1" group="n28_nnlh" visible="false" alpha="0.3" color="#50382e"/>
+    <text id="n9_nnlh" name="leagName" xy="13,6" size="102,34" group="n28_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" autoClearText="true" text="[HL]联盟"/>
+    <text id="n10_nnlh" name="txt1" xy="16,40" size="104,29" group="n28_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="联盟战力："/>
+    <text id="n13_nnlh" name="infor1" xy="122,40" size="110,29" group="n28_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoClearText="true" text="123456789">
+      <relation target="n10_nnlh" sidePair="left-right"/>
+    </text>
+    <text id="n12_nnlh" name="txt2" xy="16,69" size="64,29" group="n28_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="盟主："/>
+    <text id="n17_nnlh" name="infor2" xy="81,69" size="110,29" group="n28_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoClearText="true" text="123456789">
+      <relation target="n12_nnlh" sidePair="left-right"/>
+    </text>
+    <text id="n14_nnlh" name="txt3" xy="16,99" size="64,29" group="n28_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="领土："/>
+    <text id="n18_nnlh" name="infor3" xy="81,99" size="110,29" group="n28_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoClearText="true" text="123456789">
+      <relation target="n14_nnlh" sidePair="left-right"/>
+    </text>
+    <text id="n15_nnlh" name="txt4" xy="16,129" size="104,29" group="n28_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="联盟积分："/>
+    <text id="n19_nnlh" name="infor4" xy="121,129" size="110,29" group="n28_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoClearText="true" text="123456789">
+      <relation target="n15_nnlh" sidePair="left-right"/>
+    </text>
+    <text id="n16_nnlh" name="txt5" xy="16,159" size="90,29" group="n28_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="联盟人数:"/>
+    <text id="n20_nnlh" name="infor5" xy="107,159" size="110,29" group="n28_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoClearText="true" text="123456789">
+      <relation target="n16_nnlh" sidePair="left-right"/>
+    </text>
+    <group id="n28_nnlh" name="n28" xy="0,0" size="286,199"/>
+  </displayList>
+</component>

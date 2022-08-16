@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1019,550" overflow="scroll" scroll="horizontal" scrollBarFlags="320" designImage="ui://45o8gpfbdtk11" designImageOffsetX="-165" designImageAlpha="0">
+  <displayList>
+    <component id="n116_mj6j" name="n116" src="jo5i1ygcffj" fileName="components/research_line0.xml" xy="148,239" pivot="0.5,0.5"/>
+    <component id="n123_mj6j" name="n123" src="dellt" fileName="components/research_line2.xml" xy="1164,151" pivot="0.5,0.5" size="33,49"/>
+    <component id="n141_jo5i" name="n141" src="mj6j1ygcffa" fileName="components/research_line3.xml" xy="790,238" pivot="0.5,0.5"/>
+    <component id="n144_jo5i" name="n144" src="jo5i1ygcffj" fileName="components/research_line0.xml" xy="1796,430" size="205,55"/>
+    <component id="n155_jo5i" name="n155" src="jo5i1ygcffj" fileName="components/research_line0.xml" xy="345,239" pivot="0.5,0.5"/>
+    <component id="n156_jo5i" name="n156" src="jo5i1ygcffj" fileName="components/research_line0.xml" xy="539,239" pivot="0.5,0.5"/>
+    <component id="n158_jo5i" name="n158" src="jo5i1ygcffj" fileName="components/research_line0.xml" xy="1031,431" pivot="0.5,0.5" size="187,55"/>
+    <component id="n159_jo5i" name="n159" src="dellt" fileName="components/research_line2.xml" xy="1053,148" pivot="0.5,0.5" size="33,49" rotation="180"/>
+    <component id="n160_jo5i" name="n160" src="dellt" fileName="components/research_line2.xml" xy="1598,156" pivot="0.5,0.5" size="33,49"/>
+    <component id="n161_jo5i" name="n161" src="dellt" fileName="components/research_line2.xml" xy="1394,153" pivot="0.5,0.5" size="33,49" rotation="180"/>
+    <component id="n162_jo5i" name="n162" src="jo5i1ygcffj" fileName="components/research_line0.xml" xy="1359,430" pivot="0.5,0.5" size="82,55"/>
+    <component id="n164_jo5i" name="n164" src="jo5i1ygcffj" fileName="components/research_line0.xml" xy="1538,431" pivot="0.5,0.5" size="154,55"/>
+    <component id="n166_jo5i" name="n166" src="dellt" fileName="components/research_line2.xml" xy="1941,163" pivot="0.5,0.5" size="33,49"/>
+    <component id="n167_jo5i" name="n167" src="dellt" fileName="components/research_line2.xml" xy="1830,160" pivot="0.5,0.5" size="33,49" rotation="180"/>
+    <component id="n172_jo5i" name="n172" src="jo5i1ygcffj" fileName="components/research_line0.xml" xy="2104,429" size="205,55"/>
+    <component id="n48_g6q9" name="1" src="aklwi" fileName="components/researchItem.xml" xy="12,214"/>
+    <component id="n154_jo5i" name="2" src="aklwi" fileName="components/researchItem.xml" xy="208,214"/>
+    <component id="n52_g6q9" name="3" src="aklwi" fileName="components/researchItem.xml" xy="402,214"/>
+    <component id="n157_jo5i" name="4" src="aklwi" fileName="components/researchItem.xml" xy="594,214"/>
+    <component id="n64_g6q9" name="5" src="aklwi" fileName="components/researchItem.xml" xy="903,21"/>
+    <component id="n65_g6q9" name="6" src="aklwi" fileName="components/researchItem.xml" xy="903,214"/>
+    <component id="n66_g6q9" name="7" src="aklwi" fileName="components/researchItem.xml" xy="903,403"/>
+    <component id="n74_g6q9" name="8" src="aklwi" fileName="components/researchItem.xml" xy="1234,25"/>
+    <component id="n75_g6q9" name="9" src="aklwi" fileName="components/researchItem.xml" xy="1234,222"/>
+    <component id="n76_g6q9" name="10" src="aklwi" fileName="components/researchItem.xml" xy="1234,403"/>
+    <component id="n163_jo5i" name="11" src="aklwi" fileName="components/researchItem.xml" xy="1449,403"/>
+    <component id="n87_g6q9" name="12" src="aklwi" fileName="components/researchItem.xml" xy="1672,25"/>
+    <component id="n146_jo5i" name="13" src="aklwi" fileName="components/researchItem.xml" xy="1672,222"/>
+    <component id="n165_jo5i" name="14" src="aklwi" fileName="components/researchItem.xml" xy="1672,403"/>
+    <component id="n168_jo5i" name="15" src="aklwi" fileName="components/researchItem.xml" xy="2015,25"/>
+    <component id="n169_jo5i" name="16" src="aklwi" fileName="components/researchItem.xml" xy="2015,222"/>
+    <component id="n170_jo5i" name="17" src="aklwi" fileName="components/researchItem.xml" xy="2015,403"/>
+    <component id="n171_jo5i" name="18" src="aklwi" fileName="components/researchItem.xml" xy="2287,403"/>
+  </displayList>
+</component>

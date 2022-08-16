@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="588,80" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n7_v4nb" name="n7" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="0,12" size="588,56" alpha="0.2" color="#97794f">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <text id="n5_l5s1" name="title" xy="80,23" size="194,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="right" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="2级木材地">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n8_ihid" name="icon" xy="273,24" size="32,32" aspect="true" url="ui://ufsajnnzihid1ygcfmt" fill="scale" color="#4c9129"/>
+    <text id="n9_ihid" name="map" xy="302,23" size="206,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#4c9129" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="(100,200)">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

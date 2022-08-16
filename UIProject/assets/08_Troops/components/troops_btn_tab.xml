@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,96" overflow="hidden" extention="Button" designImageOffsetY="-98">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_tv1v" name="n0" pkg="2r331opv" src="cxixz9cm5" fileName="images/images_new/btn_bg.png" xy="0,71" size="181,24">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <text id="n1_tv1v" name="title" xy="5,11" size="155,45" font="ui://2r331opvlwft3" fontSize="33" color="#f8ec8a" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="配表">
+      <gearColor controller="button" pages="0,1,2,3" values="#f8ec8a,#000000|#ffffff,#000000|#f8ec8a,#000000|#ffffff,#000000"/>
+    </text>
+    <text id="n2_o283" name="little" xy="5,53" size="155,29" fontSize="20" color="#bb9c59" align="center" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="（罗斯的）"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

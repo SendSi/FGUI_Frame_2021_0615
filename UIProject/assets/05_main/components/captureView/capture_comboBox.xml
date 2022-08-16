@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,51" extention="ComboBox" designImage="ui://4ni413lachl1hz9cl3" designImageOffsetX="-726" designImageOffsetY="-358" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_chl1" name="n0" src="xjmv1qp8vf5" fileName="images/images_new/windowBg_new/negative_bg11.png" pkg="2r331opv" xy="0,0" size="132,51">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_chl1" name="title" xy="20,0" size="62,51" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="right" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="打开">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n2_chl1" name="n2" src="xjmv1qp8vf0" fileName="images/images_new/com_btn_arrow00.png" pkg="2r331opv" xy="81,9" pivot="0.5,0.5">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n3_prcz" name="n3" src="jmaehz9cuv" fileName="images/images_new/com_btn_arrow02.png" pkg="2r331opv" xy="84,14">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+  </displayList>
+  <ComboBox dropdown="ui://4ni413lachl1hz9cl1"/>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="210,156" pivot="0.5,0.5" anchor="true" opaque="false" designImage="ui://4ni413lahqb9z9rb" designImageOffsetX="-131" designImageOffsetY="-324" designImageAlpha="0">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <image id="n61_slj1" name="n61" src="u6yzhz9cq5" fileName="images/map/main_bg_04.png" xy="-50,178">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <component id="n58_l1sb" name="btnReturn" src="l1sb1qp8vhl" fileName="components/components_new/main/ReturnButton.xml" xy="55,203" aspect="true">
+      <gearDisplay controller="state" pages="1"/>
+    </component>
+    <image id="n32_rsq8" name="n32" src="xz10hz9cz9" fileName="images/images_new/com_warbg01.png" pkg="2r331opv" xy="15,6" size="197,63" group="n42_jf52" alpha="0.9">
+      <relation target="n4_8z41" sidePair="rightext-right,leftext-left"/>
+    </image>
+    <text id="n4_8z41" name="toorpsName" xy="67,16" size="126,24" group="n42_jf52" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" vAlign="middle" leading="0" letterSpacing="-1" ubb="true" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="[WWW]传承者123"/>
+    <text id="n63_rwf3" name="toorpsName2" xy="67,38" size="44,24" group="n42_jf52" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" vAlign="middle" leading="0" letterSpacing="-1" ubb="true" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="老鹰A"/>
+    <loader id="n59_l1sb" name="scoutIcon" xy="0,0" size="90,91" group="n42_jf52" aspect="true" scale="0.8,0.8" url="ui://4ni413lamdy2hz9d1g" align="center" vAlign="middle" fill="scaleNoBorder" autoSize="true"/>
+    <group id="n42_jf52" name="n42" xy="0,0" size="212,91" advanced="true"/>
+  </displayList>
+  <transition name="t0"/>
+</component>

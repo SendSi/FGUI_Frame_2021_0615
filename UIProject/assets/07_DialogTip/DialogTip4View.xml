@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <displayList>
+    <component id="n2_eznb" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_eznb" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n4_eznb" name="n4" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="437,250" size="460,250" group="n13_eznb"/>
+    <image id="n14_rb01" name="n14" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="467,276" size="400,112" group="n13_eznb" alpha="0.3" color="#97794f"/>
+    <text id="n6_eznb" name="titleTxt" xy="468,280" pivot="0.5,0.5" size="394,105" group="n13_eznb" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#845744" align="center" vAlign="middle" autoSize="none" text="恭喜获得卓越天赋"/>
+    <component id="n12_eznb" name="btnCenter" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="555,403" size="223,68" group="n13_eznb">
+      <Button title="前往卓越天赋"/>
+    </component>
+    <group id="n13_eznb" name="n13" xy="437,250" size="460,250" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

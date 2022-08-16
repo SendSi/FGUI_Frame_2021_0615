@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="state" pages="0,,1," selected="1">
+    <remark page="0" value="标题已激活"/>
+    <remark page="1" value="标题未激活"/>
+  </controller>
+  <displayList>
+    <component id="n2_zk8y" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_zk8y" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n4_zk8y" name="n4" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="388,167" size="558,416" group="n11_p991"/>
+    <image id="n16_ojww" name="n16" src="za6y1ygcgmn" fileName="images/images_new/windowBg_new/welfare_btn_bg23.png" pkg="2r331opv" xy="491,193" pivot="0.5,0.5" size="352,39" group="n11_p991" alpha="0.9"/>
+    <text id="n6_zk8y" name="title" xy="561,192" size="116,39" group="n11_p991" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#ff4343" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="卓越套装"/>
+    <text id="n7_zk8y" name="title2" xy="672,192" size="88,39" group="n11_p991" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#919191" autoSize="none" text="未激活">
+      <gearColor controller="state" pages="0,1" values="#3991d3,#000000|#919191,#000000"/>
+      <gearText controller="state" pages="1" values="未激活" default="已激活"/>
+      <relation target="n6_zk8y" sidePair="left-right"/>
+    </text>
+    <image id="n5_zk8y" name="n5" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="424,252" size="486,32" group="n11_p991" alpha="0.5" color="#97794f"/>
+    <component id="n12_lkkl" name="suitTip1" src="p9911iy5bbc" fileName="components/suitAddTxt.xml" xy="424,252" group="n11_p991">
+      <Button title="2件套装效果"/>
+    </component>
+    <list id="n9_p991" name="list1" xy="437,289" size="460,83" group="n11_p991" overflow="scroll" lineGap="-5" defaultItem="ui://4hio38ump9911iy5bbd">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n15_ihid" name="n15" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="424,396" size="486,32" group="n11_p991" alpha="0.5" color="#97794f"/>
+    <component id="n13_lkkl" name="suitTip2" src="p9911iy5bbc" fileName="components/suitAddTxt.xml" xy="424,395" group="n11_p991">
+      <Button title="4件套装效果"/>
+    </component>
+    <list id="n14_lkkl" name="list2" xy="437,433" size="460,108" group="n11_p991" overflow="scroll" lineGap="-5" defaultItem="ui://4hio38ump9911iy5bbd">
+      <item/>
+      <item/>
+    </list>
+    <group id="n11_p991" name="n11" xy="388,167" size="558,416" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

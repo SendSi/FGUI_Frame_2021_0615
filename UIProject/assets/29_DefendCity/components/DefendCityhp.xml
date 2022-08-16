@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="580,38" extention="ProgressBar">
+  <controller name="color" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="黄色"/>
+  </controller>
+  <displayList>
+    <image id="n4_iz03" name="n4" src="ebe41qp8vcs" fileName="images/images_new/windowBg_new/negative_strip001.png" pkg="2r331opv" xy="0,0" size="580,38">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5_iz03" name="bar" src="bumchz9d7w" fileName="images/images_new/windowBg_new/negative_strip02.png" pkg="2r331opv" xy="2,3" size="576,32">
+      <gearDisplay controller="color" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n6_iz03" name="bar2" src="o5d41qp8ve9" fileName="images/images_new/windowBg_new/negative_strip05.png" pkg="2r331opv" xy="2,3" size="576,32">
+      <gearDisplay controller="color" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n8_o8cy" name="title" xy="341,3" pivot="0,0.5" size="51,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" vAlign="middle" strokeColor="#000000" strokeSize="2" autoClearText="true" text="56%"/>
+    <text id="n9_hk7t" name="n9" xy="217,3" pivot="0,0.5" size="126,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="部队总血量: "/>
+  </displayList>
+  <ProgressBar/>
+</component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="942,540" overflow="scroll" scroll="horizontal" scrollBarFlags="256" designImage="ui://lp3m5cuhk06chz9d3c" designImageOffsetX="-199" designImageOffsetY="-117" designImageAlpha="0">
+  <displayList>
+    <component id="n48_k06c" name="bgLine1_1" src="k06chz9d3e" fileName="components/line1.xml" xy="116,175" size="114,8"/>
+    <component id="n86_qp9o" name="bgLine1_2" src="k06chz9d3e" fileName="components/line1.xml" xy="121,343" size="114,8"/>
+    <component id="n55_n6cz" name="bgLine2_1" src="k06chz9d3k" fileName="components/line3.xml" xy="299,175" size="96,92"/>
+    <component id="n54_n6cz" name="bgLine2_2" src="k06chz9d3g" fileName="components/line2.xml" xy="299,259" size="96,92"/>
+    <component id="n26_g30w" name="bgLine3_1" src="k06chz9d3g" fileName="components/line2.xml" xy="453,79" size="125,186"/>
+    <component id="n87_qp9o" name="bgLine3_2" src="k06chz9d3e" fileName="components/line1.xml" xy="455,257" size="116,8"/>
+    <component id="n1_g30w" name="bgLine3_3" src="k06chz9d3k" fileName="components/line3.xml" xy="452,257" size="125,191"/>
+    <component id="n58_n6cz" name="bgLine4_1" src="k06chz9d3k" fileName="components/line3.xml" xy="661,79" size="95,105"/>
+    <component id="n57_n6cz" name="bgLine4_2" src="k06chz9d3g" fileName="components/line2.xml" xy="660,177" size="95,87"/>
+    <component id="n59_n6cz" name="bgLine4_3" src="k06chz9d3k" fileName="components/line3.xml" xy="660,256" size="95,93"/>
+    <component id="n56_n6cz" name="bgLine4_4" src="k06chz9d3g" fileName="components/line2.xml" xy="661,341" size="95,107"/>
+    <component id="n60_n6cz" name="bgLine5_1" src="k06chz9d3e" fileName="components/line1.xml" xy="833,177" size="114,8"/>
+    <component id="n88_qp9o" name="bgLine5_2" src="k06chz9d3e" fileName="components/line1.xml" xy="833,341" size="114,8"/>
+    <component id="n76_n6cz" name="bgLine6_1" src="k06chz9d3k" fileName="components/line3.xml" xy="1014,175" size="93,97"/>
+    <component id="n90_qp9o" name="bgLine6_2" src="k06chz9d3g" fileName="components/line2.xml" xy="1014,98" size="93,85"/>
+    <component id="n75_n6cz" name="bgLine6_3" src="k06chz9d3g" fileName="components/line2.xml" xy="1014,264" size="93,85"/>
+    <component id="n89_qp9o" name="bgLine6_4" src="k06chz9d3k" fileName="components/line3.xml" xy="1014,343" size="93,89"/>
+    <component id="n83_n6cz" name="bgLine7_1" src="k06chz9d3k" fileName="components/line3.xml" xy="1184,97" size="113,174" visible="false"/>
+    <component id="n91_qp9o" name="bgLine7_2" src="k06chz9d3e" fileName="components/line1.xml" xy="1193,264" visible="false"/>
+    <component id="n81_n6cz" name="bgLine7_3" src="k06chz9d3g" fileName="components/line2.xml" xy="1184,263" size="113,166" visible="false"/>
+    <component id="n85_n6cz" name="n85" src="k06chz9d3e" fileName="components/line1.xml" xy="1361,263" size="114,8" visible="false"/>
+    <component id="n16_g30w" name="0" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="26,129"/>
+    <component id="n17_g30w" name="1" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="26,295"/>
+    <component id="n21_g30w" name="2" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="204,129"/>
+    <component id="n15_g30w" name="3" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="204,295" size="110,123"/>
+    <component id="n28_g30w" name="4" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="382,212"/>
+    <component id="n29_g30w" name="5" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="560,49"/>
+    <component id="n32_g30w" name="6" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="560,212"/>
+    <component id="n35_k06c" name="7" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="560,375"/>
+    <component id="n37_k06c" name="8" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="738,129"/>
+    <component id="n36_k06c" name="9" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="738,295"/>
+    <component id="n38_k06c" name="10" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="916,129"/>
+    <component id="n39_k06c" name="11" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="916,295"/>
+    <component id="n41_k06c" name="12" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1094,49"/>
+    <component id="n42_k06c" name="13" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1094,212"/>
+    <component id="n44_k06c" name="14" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1094,375"/>
+    <component id="n46_k06c" name="15" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1272,212" visible="false"/>
+    <component id="n47_k06c" name="16" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1450,212" visible="false"/>
+  </displayList>
+</component>

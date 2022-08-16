@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="407,34" extention="Slider" designImageOffsetX="-402" designImageOffsetY="-445" designImageLayer="1">
+  <displayList>
+    <image id="n0_thpv" name="n0" src="svx3hz9d78" fileName="images/images_new/windowBg_new/strip00.png" pkg="2r331opv" xy="-5,-4" size="417,42">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4_prcz" name="n4" src="svx3hz9d78" fileName="images/images_new/windowBg_new/strip00.png" pkg="2r331opv" xy="473,-7" size="103,48">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n1_thpv" name="bar" src="svx3hz9d79" fileName="images/images_new/windowBg_new/strip01.png" pkg="2r331opv" xy="0,1" size="407,32">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_thpv" name="grip" src="g30w7" fileName="components/settingSbr_grip.xml" pkg="dh3hukhz" xy="384,-12">
+      <relation target="n1_thpv" sidePair="right-right"/>
+    </component>
+    <text id="n3_thpv" name="title" xy="484,0" size="82,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" autoClearText="true" text="4">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+  <Slider titleType="value" wholeNumbers="true"/>
+</component>

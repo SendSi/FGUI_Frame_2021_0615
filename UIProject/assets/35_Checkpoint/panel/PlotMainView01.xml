@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="tab" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <loader id="n7_w84w" name="bg" xy="-168,0" size="1670,750" url="ui://3dqb8xiolc8g1ygcfey" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n208_me4z" name="n208" src="lp550" fileName="images/Checkpoint_bg.png" xy="49,27" pivot="0.5,0.5" group="n210_qajo"/>
+    <image id="n198_uckw" name="n198" src="lc8g1ygcffj" fileName="images/checkpoints_bg06.png" xy="174,89" group="n212_f9yi"/>
+    <image id="n199_uckw" name="n199" src="lc8g1ygcffi" fileName="images/checkpoints_bg07.png" xy="354,89" group="n212_f9yi">
+      <relation target="n200_uckw" sidePair="right-right"/>
+    </image>
+    <text id="n200_uckw" name="title" xy="227,75" size="124,54" group="n212_f9yi" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#a17e64" singleLine="true" autoClearText="true" text="创纪元"/>
+    <list id="n135_lc8g" name="tabList" xy="-11,99" size="153,591" group="n212_f9yi" lineGap="-8" defaultItem="ui://3dqb8xiolc8g1ygcffr" selectionController="tab">
+      <item controllers="tab,0"/>
+      <item controllers="tab,1"/>
+      <item controllers="tab,2"/>
+      <item controllers="tab,3"/>
+      <item controllers="tab,4"/>
+      <item controllers="tab,5"/>
+    </list>
+    <component id="n136_lc8g" name="operation" src="lc8g1ygcffs" fileName="components/operation.xml" xy="731,524" group="n212_f9yi"/>
+    <component id="n3_w84w" name="closeButton" src="lc8g1ygcffq" fileName="components/closeButton05.xml" xy="1206,58" group="n212_f9yi"/>
+    <component id="n206_n9h9" name="n206" src="n9h91ygcffy" fileName="components/operationbox.xml" xy="172,556" group="n212_f9yi"/>
+    <component id="n171_uckw" name="n171" src="uckw1ygcffu" fileName="components/Line.xml" xy="305,497" size="151,4" group="n148_uckw" rotation="-81"/>
+    <component id="n172_uckw" name="n172" src="uckw1ygcffu" fileName="components/Line.xml" xy="333,347" size="157,4" group="n148_uckw" rotation="-37"/>
+    <component id="n173_uckw" name="n173" src="uckw1ygcffu" fileName="components/Line.xml" xy="458,253" size="166,4" group="n148_uckw" rotation="-41"/>
+    <component id="n174_uckw" name="n174" src="uckw1ygcffu" fileName="components/Line.xml" xy="584,144" size="191,4" group="n148_uckw" rotation="7"/>
+    <component id="n175_uckw" name="n175" src="uckw1ygcffu" fileName="components/Line.xml" xy="779,169" size="184,4" group="n148_uckw" rotation="2"/>
+    <component id="n176_uckw" name="n176" src="uckw1ygcffu" fileName="components/Line.xml" xy="960,174" size="201,4" group="n148_uckw" rotation="68"/>
+    <component id="n177_uckw" name="n177" src="uckw1ygcffu" fileName="components/Line.xml" xy="1034,359" size="167,4" group="n148_uckw" rotation="173"/>
+    <component id="n178_uckw" name="n178" src="uckw1ygcffu" fileName="components/Line.xml" xy="870,377" size="153,4" group="n148_uckw" rotation="148"/>
+    <component id="n179_uckw" name="n179" src="uckw1ygcffu" fileName="components/Line.xml" xy="740,458" size="153,4" group="n148_uckw" rotation="216"/>
+    <component id="n138_uckw" name="d1" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="277,462" group="n148_uckw"/>
+    <component id="n139_uckw" name="d2" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="301,319" group="n148_uckw"/>
+    <component id="n140_uckw" name="d3" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="428,226" group="n148_uckw"/>
+    <component id="n141_uckw" name="d4" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="551,117" group="n148_uckw"/>
+    <component id="n142_uckw" name="d5" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="749,140" group="n148_uckw"/>
+    <component id="n143_uckw" name="d6" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="931,145" group="n148_uckw"/>
+    <component id="n144_uckw" name="d7" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="1000,326" group="n148_uckw"/>
+    <component id="n145_uckw" name="d8" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="837,346" group="n148_uckw"/>
+    <component id="n146_uckw" name="d9" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="708,422" group="n148_uckw"/>
+    <component id="n147_uckw" name="d10" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="594,338" group="n148_uckw"/>
+    <group id="n148_uckw" name="n148" xy="277,117" size="924,410" group="n203_ncrz" advanced="true">
+      <gearDisplay controller="tab" pages="0,4"/>
+    </group>
+    <component id="n180_uckw" name="n180" src="uckw1ygcffu" fileName="components/Line.xml" xy="380,517" size="162,4" group="n159_uckw" rotation="283"/>
+    <component id="n181_uckw" name="n181" src="uckw1ygcffu" fileName="components/Line.xml" xy="414,363" size="149,4" group="n159_uckw" rotation="222"/>
+    <component id="n182_uckw" name="n182" src="uckw1ygcffu" fileName="components/Line.xml" xy="306,264" size="169,4" group="n159_uckw" rotation="324"/>
+    <component id="n183_uckw" name="n183" src="uckw1ygcffu" fileName="components/Line.xml" xy="442,166" size="154,4" group="n159_uckw" rotation="388"/>
+    <component id="n184_uckw" name="n184" src="uckw1ygcffu" fileName="components/Line.xml" xy="582,239" size="176,4" group="n159_uckw" rotation="377"/>
+    <component id="n185_uckw" name="n185" src="uckw1ygcffu" fileName="components/Line.xml" xy="749,293" size="176,4" group="n159_uckw" rotation="426"/>
+    <component id="n186_uckw" name="n186" src="uckw1ygcffu" fileName="components/Line.xml" xy="820,449" size="191,4" group="n159_uckw" rotation="335"/>
+    <component id="n187_uckw" name="n187" src="uckw1ygcffu" fileName="components/Line.xml" xy="992,369" size="197,4" group="n159_uckw" rotation="279"/>
+    <component id="n188_uckw" name="n188" src="uckw1ygcffu" fileName="components/Line.xml" xy="1022,177" size="179,4" group="n159_uckw" rotation="198"/>
+    <component id="n149_uckw" name="d11" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="350,484" group="n159_uckw"/>
+    <component id="n150_uckw" name="d12" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="386,330" group="n159_uckw"/>
+    <component id="n151_uckw" name="d13" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="276,232" group="n159_uckw"/>
+    <component id="n152_uckw" name="d14" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="413,137" group="n159_uckw"/>
+    <component id="n153_uckw" name="d15" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="550,211" group="n159_uckw"/>
+    <component id="n154_uckw" name="d16" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="719,263" group="n159_uckw"/>
+    <component id="n155_uckw" name="d17" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="786,420" group="n159_uckw"/>
+    <component id="n156_uckw" name="d18" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="962,341" group="n159_uckw"/>
+    <component id="n157_uckw" name="d19" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="993,145" group="n159_uckw"/>
+    <component id="n158_uckw" name="d20" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="823,89" group="n159_uckw"/>
+    <group id="n159_uckw" name="n159" xy="276,89" size="925,460" group="n203_ncrz" advanced="true">
+      <gearDisplay controller="tab" pages="1,3"/>
+    </group>
+    <component id="n189_uckw" name="n189" src="uckw1ygcffu" fileName="components/Line.xml" xy="273,363" size="179,4" group="n170_uckw" rotation="295"/>
+    <component id="n190_uckw" name="n190" src="uckw1ygcffu" fileName="components/Line.xml" xy="347,205" size="179,4" group="n170_uckw" rotation="416"/>
+    <component id="n191_uckw" name="n191" src="uckw1ygcffu" fileName="components/Line.xml" xy="446,351" size="179,4" group="n170_uckw" rotation="424"/>
+    <component id="n192_uckw" name="n192" src="uckw1ygcffu" fileName="components/Line.xml" xy="529,511" size="185,4" group="n170_uckw" rotation="311"/>
+    <component id="n193_uckw" name="n193" src="uckw1ygcffu" fileName="components/Line.xml" xy="650,372" size="138,4" group="n170_uckw" rotation="252"/>
+    <component id="n194_uckw" name="n194" src="uckw1ygcffu" fileName="components/Line.xml" xy="611,245" size="189,4" group="n170_uckw" rotation="372"/>
+    <component id="n195_uckw" name="n195" src="uckw1ygcffu" fileName="components/Line.xml" xy="805,287" size="236,4" group="n170_uckw" rotation="392"/>
+    <component id="n196_uckw" name="n196" src="uckw1ygcffu" fileName="components/Line.xml" xy="999,406" size="156,4" group="n170_uckw" rotation="296"/>
+    <component id="n197_uckw" name="n197" src="uckw1ygcffu" fileName="components/Line.xml" xy="1064,269" size="195,4" group="n170_uckw" rotation="224"/>
+    <component id="n160_uckw" name="d21" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="246,331" group="n170_uckw"/>
+    <component id="n161_uckw" name="d22" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="318,175" group="n170_uckw"/>
+    <component id="n162_uckw" name="d23" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="414,323" group="n170_uckw"/>
+    <component id="n163_uckw" name="d24" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="494,481" group="n170_uckw"/>
+    <component id="n164_uckw" name="d25" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="621,342" group="n170_uckw"/>
+    <component id="n165_uckw" name="d26" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="580,212" group="n170_uckw"/>
+    <component id="n166_uckw" name="d27" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="774,259" group="n170_uckw"/>
+    <component id="n167_uckw" name="d28" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="963,375" group="n170_uckw"/>
+    <component id="n168_uckw" name="d29" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="1036,237" group="n170_uckw"/>
+    <component id="n169_uckw" name="d30" src="uckw1ygcfft" fileName="components/CheckpointsBtn.xml" xy="897,102" group="n170_uckw"/>
+    <group id="n170_uckw" name="n170" xy="246,102" size="1013,444" group="n203_ncrz" advanced="true">
+      <gearDisplay controller="tab" pages="2,5"/>
+    </group>
+    <group id="n203_ncrz" name="n203" xy="246,89" size="1013,460" group="n212_f9yi" advanced="true"/>
+    <component id="n204_skgw" name="speicon" src="mouz1qp8vfm" fileName="components/legionIcon2.xml" pkg="2f980fe2" xy="1072,433" group="n212_f9yi"/>
+    <component id="n209_me4z" name="plottip" src="me4z1ygcfn8" fileName="components/plotmainTip.xml" xy="354,314" group="n212_f9yi" touchable="false"/>
+    <group id="n212_f9yi" name="content" xy="-11,58" size="1334,656" group="n210_qajo" advanced="true"/>
+    <group id="n210_qajo" name="n210" xy="-11,27" size="1334,703" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="dissaper">
+    <item time="0" type="Alpha" target="n198_uckw" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n199_uckw" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n200_uckw" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n203_ncrz" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n209_me4z" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+  <transition name="show">
+    <item time="0" type="Alpha" target="n198_uckw" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n199_uckw" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n200_uckw" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n203_ncrz" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n209_me4z" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="popShow">
+    <item time="0" type="Alpha" target="n209_me4z" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="popdissaper">
+    <item time="0" type="Alpha" target="n209_me4z" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+</component>

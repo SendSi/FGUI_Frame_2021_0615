@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="912,114">
+  <controller name="ctrl" pages="0,,1," selected="1">
+    <remark page="0" value="可找"/>
+    <remark page="1" value="已找回"/>
+  </controller>
+  <displayList>
+    <image id="n47_10d20" name="n47" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="912,114"/>
+    <text id="n32_itho" name="nameTxt" xy="142,9" size="760,94" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="最多打五字最多打五字最多打五字最多打五字最多打五"/>
+    <text id="n53_g6i7" name="title" xy="142,28" size="52,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ff4343" ubb="true" autoClearText="true" text="移动"/>
+    <image id="n51_g6i7" name="n51" src="g6i71ygcfoi" fileName="images/images_new/com_icon_huawen1.png" pkg="2r331opv" xy="23,13" scale="0.9,0.9" alpha="0.2" color="#97794f"/>
+    <loader id="n50_qjil" name="icon" xy="26,16" size="100,105" scale="0.8,0.8" url="ui://4ni413laildy1ygcfi6" align="center" vAlign="middle" fill="scale" autoSize="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64" pivot="0.5,0.5" extention="Button" designImageOffsetX="-415" designImageOffsetY="-407" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="解锁"/>
+    <remark page="1" value="未解锁"/>
+  </controller>
+  <displayList>
+    <image id="n11_ougg" name="n11" src="jdpjz9cqd" fileName="images_new/troops_skil_bottomframe.png" xy="1,1" scale="0.85,0.85"/>
+    <component id="n13_ougg" name="n13" src="ouggz9cry" fileName="components/troopsSkillicon.xml" xy="11,10" scale="0.5,0.5"/>
+    <graph id="n9_c4um" name="n9" xy="9,10" size="46,44" alpha="0.2" type="rect" fillColor="#ff000000">
+      <gearDisplay controller="state" pages="1"/>
+    </graph>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

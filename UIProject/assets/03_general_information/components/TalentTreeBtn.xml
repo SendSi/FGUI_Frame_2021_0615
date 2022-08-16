@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,28" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n5_bumc" name="n5" src="bumchz9d80" fileName="images/images_new/com_bg_tips06.png" pkg="2r331opv" xy="-7,-2" size="114,32"/>
+    <text id="n3_bumc" name="title" xy="0,0" size="82,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#8d8d8d" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="天赋页1"/>
+    <image id="n4_bumc" name="n4" src="bumchz9d8x" fileName="images/talent_btn_modify.png" xy="82,5"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

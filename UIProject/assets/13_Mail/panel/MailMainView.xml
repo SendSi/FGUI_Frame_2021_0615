@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://ufsajnnztauyhz9cw6">
+  <controller name="tab" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="系统"/>
+    <remark page="1" value="联盟"/>
+    <remark page="2" value="收藏"/>
+    <remark page="3" value="报告"/>
+  </controller>
+  <controller name="listCtrl" pages="0,有列表,1,无列表" selected="0"/>
+  <displayList>
+    <image id="n2_kbi5" name="bg" src="e2ps1iy5b98" fileName="images/bg_new/bg8.jpg" pkg="2r331opv" xy="-168,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n76_mloz" name="n76" src="poazl4" fileName="images/images_new/windowBg_new/bag_bg01.png" pkg="2r331opv" xy="554,0" size="780,750" alpha="0.4">
+      <gearDisplay controller="listCtrl" pages="0"/>
+      <relation target="" sidePair="height-height,rightext-right"/>
+    </image>
+    <component id="n73_tauy" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0"/>
+    <text id="n69_9itd" name="title" xy="186,4" size="78,49" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="36" color="#ffffff" singleLine="true" text="Mail"/>
+    <component id="n45_tbod" name="tab_1" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,99">
+      <Button checked="true" title="系统" icon="ui://ufsajnnztauyhz9cw7" selectedIcon="ui://ufsajnnztauyhz9cwb" controller="tab" page="0"/>
+    </component>
+    <component id="n46_tbod" name="tab_2" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,222">
+      <Button title="联盟" icon="ui://ufsajnnztauyhz9cw9" selectedIcon="ui://ufsajnnztauyhz9cwd" controller="tab" page="1"/>
+    </component>
+    <component id="n47_tbod" name="tab_3" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,345" visible="false">
+      <Button title="收藏" icon="ui://ufsajnnztauyhz9cw8" selectedIcon="ui://ufsajnnztauyhz9cwc" controller="tab" page="2"/>
+    </component>
+    <component id="n48_tbod" name="tab_4" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,345">
+      <Button title="报告" icon="ui://ufsajnnztauyhz9cwa" selectedIcon="ui://ufsajnnztauyhz9cwe" controller="tab" page="3"/>
+    </component>
+    <list id="n18_iqhi" name="leftList" xy="168,58" size="385,582" group="n55_lk93" overflow="scroll" clipSoftness="0,5" defaultItem="ui://ufsajnnzkbi5h">
+      <relation target="" sidePair="bottomext-bottom"/>
+      <item title="采集报告" icon="ui://ufsajnnzkbi52"/>
+      <item title="侦查报告" icon="ui://ufsajnnzlk93chc"/>
+      <item title="侦查报告" icon="ui://ufsajnnzlk93chd"/>
+      <item title="战斗失败" icon="ui://ufsajnnzj9d9hz9czb"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n33_l5s1" name="lblTxt" xy="255,20" size="114,32" group="n55_lk93" font="ui://2r331opvno3vhz9d62" fontSize="22" color="#ffffff" shadowColor="#000000" shadowOffset="1,2" text="邮件数量："/>
+    <text id="n34_l5s1" name="mailNumber" xy="358,19" size="149,32" group="n55_lk93" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#89fd6e" vAlign="middle" autoSize="none" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="10/100"/>
+    <component id="n52_rxo0" name="btnOneKeyReceive" src="9itdhz9cw2" fileName="components/mail_btn.xml" xy="175,663" size="164,53" group="n55_lk93">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="一键领取" titleColor="#ffffff" icon="ui://ufsajnnzrxo0cha"/>
+    </component>
+    <component id="n53_rxo0" name="btnOneKeyDelete" src="9itdhz9cw2" fileName="components/mail_btn.xml" xy="362,663" size="164,53" group="n55_lk93">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="删除已读" titleColor="#ffffff" icon="ui://ufsajnnzd4gichr"/>
+    </component>
+    <group id="n55_lk93" name="left" xy="168,19" size="385,697" group="n67_la2b" advanced="true"/>
+    <image id="n75_mv54" name="n75" src="mv54hz9cz4" fileName="images/bg0.png" xy="561,58" group="n29_l5s1">
+      <gearDisplay2 controller="listCtrl" pages="0" condition="0"/>
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <text id="n21_l5s1" name="titleTxt" xy="584,72" size="533,39" group="n29_l5s1" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#50382e" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="邮件的名字"/>
+    <text id="n24_l5s1" name="nameTxt" xy="584,103" size="469,29" group="n29_l5s1" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" autoSize="none" autoClearText="true" text="他的名字"/>
+    <text id="n25_l5s1" name="timeTxt" xy="1030,163" size="247,32" group="n29_l5s1" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="right" vAlign="middle" ubb="true" autoSize="none" strokeColor="#3c5937" strokeSize="2" autoClearText="true" text="2020/12/03   10:23:14">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <component id="n22_l5s1" name="btnCollect" src="iqhig0" fileName="components/components_new/com_btn_collection.xml" pkg="2r331opv" xy="1191,54" group="n29_l5s1" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <group id="n29_l5s1" name="top" xy="561,54" size="730,147" group="n67_la2b" advanced="true"/>
+    <list id="n60_lk93" name="contentList" xy="554,206" size="733,511" group="n67_la2b" overflow="scroll" scrollBarFlags="392" scrollBar="hidden" lineGap="4" defaultItem="ui://ufsajnnzewhohz9czn" autoClearItems="true" scrollItemToViewOnClick="false">
+      <relation target="" sidePair="rightext-right,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n67_la2b" name="content" xy="168,19" size="1123,698" advanced="true">
+      <gearDisplay controller="listCtrl" pages="0"/>
+    </group>
+    <text id="n36_l5s1" name="nothing" xy="519,357" size="322,36" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="当前暂无邮件">
+      <gearDisplay controller="listCtrl" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

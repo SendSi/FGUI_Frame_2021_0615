@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="737,145" pivot="0.5,0.5" extention="Button" designImageOffsetX="-573" designImageOffsetY="-171">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="red" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="红点"/>
+  </controller>
+  <displayList>
+    <image id="n3_lk93" name="n3" src="mlozhz9czv" fileName="images/bg_07.png" xy="9,0" size="729,145" alpha="0.8">
+      <relation target="" sidePair="height-height,rightext-right"/>
+    </image>
+    <text id="n4_lk93" name="title" xy="30,5" size="124,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffb361" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="申请审核："/>
+    <text id="n6_lk93" name="time" xy="586,10" pivot="1,0" size="135,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#8bcadc" align="right" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="3-11 11:33:49">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <component id="n7_lk93" name="redDot" src="dix6fm" fileName="components/components_new/red_dot.xml" pkg="2r331opv" xy="724,14">
+      <gearDisplay controller="red" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <text id="n11_mv54" name="contentLbl" xy="112,58" pivot="1,0" size="438,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" leading="-5" ubb="true" autoSize="none" shadowColor="#000000" shadowOffset="0,1" singleLine="true" autoClearText="true" text="执政官XXXX 申请加入您的联盟[联盟名字]">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <text id="n14_taza" name="powerLbl" xy="112,86" pivot="1,0" size="367,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ff7575" leading="-5" ubb="true" autoSize="none" strokeColor="#501c1c" strokeSize="2" shadowColor="#501c1c" shadowOffset="2,3" singleLine="true" autoClearText="true" text="战力：648779">
+      <relation target="" sidePair=""/>
+    </text>
+    <component id="n12_mv54" name="btnRight" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="556,54">
+      <relation target="" sidePair="right-right"/>
+      <Button title="查看"/>
+    </component>
+    <component id="n13_taza" name="icon" src="j3xs9pm" fileName="components/components_new/btn_head4.xml" pkg="2r331opv" xy="10,36" scale="0.5,0.5"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="116,48" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="红色"/>
+  </controller>
+  <displayList>
+    <image id="n4_tevj" name="n4" src="eaahz9co9" fileName="images/images_new/com_btn_bg00.png" pkg="2r331opv" xy="0,0" size="116,48">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n5_tevj" name="icon" xy="13,6" size="35,35" aspect="true" url="ui://tsbe09ddmz4wb" align="center" vAlign="middle" fill="scale">
+      <relation target="n6_tevj" sidePair="middle-middle,right-left"/>
+      <relation target="n7_g6i7" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n6_tevj" name="title" xy="48,7" pivot="0.5,0.5" size="46,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" ubb="true" strokeColor="#844d30" strokeSize="2" shadowColor="#844d30" shadowOffset="2,3" text="400">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n7_g6i7" name="title1" xy="47,7" pivot="0.5,0.5" size="46,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ff4343" align="center" vAlign="middle" ubb="true" strokeColor="#902222" shadowColor="#902222" shadowOffset="2,2" text="400">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

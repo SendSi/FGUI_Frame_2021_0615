@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="155,54">
+  <displayList>
+    <text id="n3_v8di" name="title" xy="17,0" size="136,53" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" leading="0" autoSize="height" autoClearText="true" text="进攻1级军团进攻1级军团进"/>
+    <image id="n9_v8di" name="n9" src="d8dihz9d12" fileName="images/images_new/com_spot02.png" pkg="2r331opv" xy="0,6" alpha="0.5"/>
+  </displayList>
+  <relation target="n3_v8di" sidePair="bottomext-bottom"/>
+</component>

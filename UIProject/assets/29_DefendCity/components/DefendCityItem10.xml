@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="388,472" pivot="0.5,0.5">
+  <controller name="arrowPos" pages="0,,1,,2,,3,,4," selected="0"/>
+  <controller name="state" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n37_lt80" name="n37" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="-40,385" pivot="0.5,0.5" rotation="90">
+      <gearXY controller="arrowPos" pages="0,1,2,3,4" values="-40,385|-40,316|-40,221|-40,132|-40,132"/>
+    </image>
+    <image id="n35_lt80" name="n35" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="0,0" size="388,472" group="n34_lt80"/>
+    <richtext id="n7_lt80" name="name" xy="34,38" size="270,44" group="n34_lt80" font="ui://2r331opvno3vhz9d63" fontSize="32" color="#50382e" ubb="true" autoClearText="true" text="索塔兰达.死亡骑士"/>
+    <list id="n8_lt80" name="label_list" xy="35,93" size="317,23" group="n34_lt80" layout="row" overflow="scroll" colGap="10" defaultItem="ui://pvaep77am7tg1ygcfey">
+      <item/>
+      <item/>
+    </list>
+    <text id="n9_lt80" name="textPower" xy="34,133" size="124,34" group="n34_lt80" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="推荐兵种："/>
+    <component id="n10_lt80" name="comparePbr1" src="hk7t1ygcfer" fileName="components/ComparePbr.xml" xy="35,226" size="319,24" group="n15_lt80">
+      <ProgressBar value="29" max="100"/>
+    </component>
+    <component id="n11_lt80" name="comparePbr2" src="hk7t1ygcfer" fileName="components/ComparePbr.xml" xy="35,259" size="319,24" group="n15_lt80">
+      <ProgressBar value="80" max="100"/>
+    </component>
+    <text id="n12_lt80" name="ourTxt" xy="34,192" size="44,29" group="n15_lt80" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#3c8df1" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,2" text="我方"/>
+    <image id="n13_lt80" name="n13" src="qajo1ygcg8m" fileName="images/images_new/windowBg_new/activity_icon_attack01.png" pkg="2r331opv" xy="87,184" group="n15_lt80"/>
+    <text id="n14_lt80" name="enemyTxt" xy="310,192" size="44,29" group="n15_lt80" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ed4242" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,2" text="敌方"/>
+    <group id="n15_lt80" name="fight" xy="34,184" size="320,99" group="n34_lt80"/>
+    <component id="n20_lt80" name="challengeBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="113,379" group="n34_lt80">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="前往守卫"/>
+    </component>
+    <component id="n38_le03" name="receiveBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="112,378" group="n34_lt80">
+      <gearDisplay controller="state" pages="1,2"/>
+      <gearLook controller="state" pages="2" values="1,0,1,1" default="1,0,0,1"/>
+      <gearText controller="state" pages="2" values="已领取" default="领取"/>
+      <Button title="领取"/>
+    </component>
+    <list id="n32_lt80" name="label_list2" xy="144,130" size="209,38" group="n34_lt80" layout="row" overflow="scroll" colGap="10" defaultItem="ui://pvaep77am7tg1ygcfez">
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n36_lt80" name="efficiency" xy="143,320" size="94,34" group="n34_lt80" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" ubb="true" autoClearText="true" text="+200/分"/>
+    <loader id="n39_le03" name="icon" xy="107,319" size="94,94" group="n34_lt80" scale="0.4,0.4" url="ui://tsbe09ddspsrci1" fill="scale" autoSize="true"/>
+    <richtext id="n40_le03" name="eff" xy="37,320" size="76,34" group="n34_lt80" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" ubb="true" text="效率："/>
+    <group id="n34_lt80" name="window" xy="0,0" size="388,472" advanced="true">
+      <relation target="" sidePair="middle-middle,left-right"/>
+    </group>
+  </displayList>
+</component>

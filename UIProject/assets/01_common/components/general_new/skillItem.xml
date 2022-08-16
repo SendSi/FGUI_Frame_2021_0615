@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64" pivot="0.5,0.5" extention="Button" designImageOffsetX="-415" designImageOffsetY="-407" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1," selected="1">
+    <remark page="0" value="解锁"/>
+    <remark page="1" value="未解锁"/>
+  </controller>
+  <controller name="grade" pages="0,,1," selected="0">
+    <remark page="0" value="显示"/>
+    <remark page="1" value="不显示"/>
+  </controller>
+  <displayList>
+    <component id="n11_h545" name="EffectRoot_QiangHua" src="is8cg8" fileName="components/EffectRoot.xml" xy="7,7" group="n12_h545" touchable="false"/>
+    <group id="n12_h545" name="n12" xy="7,7" size="50,50"/>
+    <loader id="n5_iiq6" name="icon" xy="-1,-1" pivot="0.5,0.5" size="68,68" aspect="true" grayed="true" url="ui://tvbfx6zpmfnd2" align="center" vAlign="middle" fill="scale">
+      <gearLook controller="state" pages="0,1" values="1,0,0,1|1,0,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n9_c4um" name="n9" src="mfnd2" fileName="images/skill_1.png" pkg="tvbfx6zp" xy="-1,-1" alpha="0.5" color="#000000">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="n5_iiq6" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n13_hxd7" name="lv" xy="5,31" size="54,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="right" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" autoClearText="true" text="2">
+      <gearDisplay controller="state" pages="0"/>
+      <gearDisplay2 controller="grade" pages="0" condition="0"/>
+    </text>
+    <image id="n14_hxd7" name="n14" src="hxd7hz9d7o" fileName="images/images_new/lock_10.png" xy="45,41">
+      <gearDisplay controller="state" pages="1"/>
+      <gearDisplay2 controller="grade" pages="0" condition="0"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

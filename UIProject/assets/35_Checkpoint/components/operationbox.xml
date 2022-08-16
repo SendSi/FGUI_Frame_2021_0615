@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="432,106">
+  <displayList>
+    <component id="n147_n9h9" name="pbr" src="n9h91ygcfn7" fileName="components/CheckpointPbr.xml" xy="53,53" size="366,29">
+      <ProgressBar value="45" max="100"/>
+    </component>
+    <graph id="n148_nsu5" name="line1" xy="155,58" size="4,19" type="rect" lineColor="#ff6a563f" fillColor="#ffb3a181"/>
+    <graph id="n149_nsu5" name="line2" xy="275,58" size="4,19" type="rect" lineColor="#ff6a563f" fillColor="#ffb3a181"/>
+    <list id="n146_lc8g" name="list" xy="122,6" size="310,100" layout="row" colGap="50" defaultItem="ui://3dqb8xion9h91ygcffz">
+      <item title="1-5"/>
+      <item title="2-10"/>
+      <item title="3-8"/>
+    </list>
+    <image id="n150_nsu5" name="n150" src="nsu51ygcfod" fileName="images/wartoken_title.png" pkg="2iylmg0s" xy="0,30" scale="0.8,0.8"/>
+  </displayList>
+</component>

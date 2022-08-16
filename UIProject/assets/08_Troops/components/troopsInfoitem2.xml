@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="476,48">
+  <displayList>
+    <loader id="n4_ptr5" name="icon" xy="1,2" size="40,40" url="ui://2r331opvlfqnhz9d79" autoSize="true"/>
+    <text id="n1_o6sy" name="name" xy="44,6" size="119,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" letterSpacing="-1" autoClearText="true" text="兵种属性克制"/>
+    <image id="n2_o6sy" name="curve" src="bumchz9d7r" fileName="images/images_new/windowBg_new/negative_bg05.png" pkg="2r331opv" xy="3,44" size="470,4" alpha="0.5"/>
+    <richtext id="n5_k0jo" name="number" xy="299,6" pivot="1,1" size="177,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="right" text="1234567/1111111"/>
+  </displayList>
+</component>

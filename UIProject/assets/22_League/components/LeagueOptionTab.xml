@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="920,510" designImageOffsetX="-128">
+  <displayList>
+    <list id="n115_d4gi" name="btnList" xy="0,0" size="920,510" layout="flow_hz" overflow="scroll" lineGap="30" colGap="24" defaultItem="ui://lp3m5cuhmw3o1ygcfla">
+      <item icon="ui://tsbe09ddb3sk9ck9"/>
+      <item icon="ui://tsbe09ddb3sk9cka"/>
+      <item icon="ui://tsbe09ddb3sk9ckb"/>
+      <item icon="ui://tsbe09ddb3sk9ckc"/>
+      <item icon="ui://tsbe09ddb3sk9ckd"/>
+    </list>
+  </displayList>
+</component>

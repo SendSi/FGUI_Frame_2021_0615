@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="407,37" extention="Button" designImageOffsetX="-508" designImageOffsetY="-437">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="level" pages="0,隐藏,1,显示" selected="0"/>
+  <displayList>
+    <loader id="n10_c4um" name="icon" xy="1,6" size="40,40" aspect="true" visible="false" url="ui://2r331opvebe5z9cmy" align="center" vAlign="middle" fill="scale"/>
+    <text id="n11_c4um" name="title" xy="7,7" size="120,29" fontSize="20" color="#74d0ff" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="战力"/>
+    <text id="n12_c4um" name="lbl_numer" xy="127,7" size="83,29" group="n9_wp0j" font="ui://2r331opvno3vhz9d62" fontSize="20" color="#ffffff" letterSpacing="1" autoSize="none" singleLine="true" autoClearText="true" text="500"/>
+    <text id="n13_c4um" name="lbl_grow" xy="280,7" size="102,29" group="n9_wp0j" font="ui://2r331opvno3vhz9d62" fontSize="20" color="#8bff3d" letterSpacing="1" autoSize="none" singleLine="true" autoClearText="true" text="600"/>
+    <image id="n14_c4um" name="n14" src="aibb2d" fileName="images/images_new/common_arrow_3.png" pkg="2r331opv" xy="219,10" group="n9_wp0j" aspect="true"/>
+    <group id="n9_wp0j" name="number" xy="127,7" size="255,29" advanced="true"/>
+    <text id="n15_ct1e" name="tipName" xy="-93,7" size="98,29" fontSize="20" color="#ffcc00" autoSize="none" text="(等级属性)">
+      <gearDisplay controller="level" pages="1"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

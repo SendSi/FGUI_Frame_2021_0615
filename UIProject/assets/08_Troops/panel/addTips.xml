@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="317,94">
+  <displayList>
+    <image id="n0_n6zb" name="n0" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="0,0" size="317,94">
+      <relation target="n1_n6zb" sidePair="height-height"/>
+    </image>
+    <text id="n1_n6zb" name="txt" xy="21,17" size="265,56" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" vAlign="middle" ubb="true" autoSize="height" autoClearText="true" text="伤害加成  [color=#4c9129]+17.00%[/color]&#xA;伤害加成  [color=#4c9129]+17.00%[/color]"/>
+    <image id="n2_j495" name="n2" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="314,67" size="32,24" aspect="true" rotation="-90">
+      <relation target="" sidePair="middle-middle"/>
+    </image>
+  </displayList>
+  <relation target="n0_n6zb" sidePair="height-height"/>
+</component>

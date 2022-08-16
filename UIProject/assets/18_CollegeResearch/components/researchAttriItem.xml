@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="325,62" designImageOffsetX="-538" designImageOffsetY="-325">
+  <displayList>
+    <text id="n0_dot4" name="title" xy="7,9" size="52,42" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffffff" autoClearText="true" text="1级"/>
+    <text id="n2_10473" name="num0" xy="274,9" size="52,42" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffffff" autoClearText="true" text="2级"/>
+    <image id="n3_10473" name="n3" src="aibb2e" fileName="images/images_new/common_arrow_4.png" pkg="2r331opv" xy="209,0" rotation="90"/>
+  </displayList>
+</component>

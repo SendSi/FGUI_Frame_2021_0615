@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="541,542" designImage="ui://4hio38ums1351iy5bb2" designImageOffsetX="-393" designImageOffsetY="-105" designImageLayer="1">
+  <controller name="state" pages="2,,3," selected="0"/>
+  <displayList>
+    <image id="n1_nsww" name="n1" src="yhldz9coj" fileName="images/images_new/com_bg_tips03.png" pkg="2r331opv" xy="2,0" size="541,542">
+      <relation target="n3_nsww" sidePair="topext-top"/>
+    </image>
+    <text id="n3_nsww" name="title" xy="120,10" pivot="0.5,0.5" size="87,26" group="n8_nsww" font="ui://2r331opvlwft2" fontSize="18" color="#ffffff" ubb="true" singleLine="true" autoClearText="true" text="Skill name"/>
+    <text id="n4_nsww" name="title2" xy="210,10" size="108,26" group="n8_nsww" fontSize="18" color="#ffffff" ubb="true" singleLine="true" autoClearText="true" text="[color=#EF7C7C]已觉[/color][color=#ababab]醒[/color](Lvl.3)">
+      <relation target="n3_nsww" sidePair="left-right"/>
+    </text>
+    <text id="n5_nsww" name="inforLbl" xy="50,46" size="339,76" group="n8_nsww" fontSize="18" color="#87cde5" align="center" ubb="true" autoSize="none" autoClearText="true" text="Summon dragon to attack all enemies,causing [color=#ff4d4d]260%[/color] damage."/>
+    <list id="n19_nsww" name="lvList" xy="25,163" size="387,184" group="n8_nsww" overflow="scroll" lineGap="-1" defaultItem="ui://4hio38umc4umci6" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n7_nsww" name="bounsTitle" xy="34,133" size="126,26" group="n8_nsww" fontSize="18" color="#ffffff" align="center" autoClearText="true" text="Level up bonus"/>
+    <group id="n8_nsww" name="n8" xy="25,10" size="387,337" advanced="true">
+      <gearDisplay controller="state" pages="2"/>
+    </group>
+    <component id="n9_nsww" name="icon" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="27,24" size="64,64" group="n17_nsww" scale="1.3,1.3"/>
+    <text id="n10_nsww" name="awakeSkil" xy="107,39" size="304,29" group="n17_nsww" fontSize="20" color="#ffffff" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="Awakening skil name"/>
+    <image id="n11_nsww" name="n11" pkg="2r331opv" src="r616z9cp6" fileName="images/images_new/com_bg_tips02_mask.png" xy="21,104" size="395,252" group="n17_nsww" alpha="0.7"/>
+    <text id="n12_nsww" name="awakeTxt" xy="35,117" size="141,26" group="n17_nsww" fontSize="18" color="#ffffff" autoClearText="true" text="Awakening effect"/>
+    <text id="n13_nsww" name="inforTxt" xy="34,144" size="367,49" group="n17_nsww" fontSize="18" color="#87cde5" leading="2" autoSize="height" autoClearText="true" text="Awakening effectAwakening effectAwakening effectAwakening effect "/>
+    <text id="n14_nsww" name="heroTxt" xy="52,195" size="109,26" group="n16_nsww" fontSize="18" color="#ffffff" leading="2" autoClearText="true" text="Activate hero"/>
+    <list id="n15_nsww" name="heroList" xy="36,206" size="522,201" group="n16_nsww" scale="0.7,0.7" touchable="false" layout="row" overflow="scroll" scrollBarFlags="32" colGap="-17" defaultItem="ui://2r331opvdmmmhz9d2y">
+      <item/>
+      <item/>
+    </list>
+    <group id="n16_nsww" name="n16" xy="36,195" size="522,212" group="n17_nsww" advanced="true">
+      <relation target="n13_nsww" sidePair="top-bottom"/>
+    </group>
+    <group id="n17_nsww" name="n17" xy="21,24" size="537,383" advanced="true">
+      <gearDisplay controller="state" pages="3"/>
+    </group>
+  </displayList>
+</component>

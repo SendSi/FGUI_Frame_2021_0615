@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="216,396" pivot="1,0" opaque="false" designImageOffsetX="-1102" designImageOffsetY="-79">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="普通"/>
+    <remark page="1" value="出征"/>
+  </controller>
+  <controller name="tab" pages="0,,1," selected="0">
+    <remark page="0" value="详情"/>
+    <remark page="1" value="简易"/>
+  </controller>
+  <displayList>
+    <image id="n1_ssbd" name="bg" src="lumy1qp8vdl" fileName="images4/main_bg04.png" xy="0,14" pivot="1,0" size="216,382" alpha="0.6" flip="vt">
+      <gearXY controller="tab" pages="0,1" values="0,14|124,14"/>
+      <gearSize controller="tab" pages="0,1" values="216,382,1,1|92,332,1,1"/>
+      <relation target="n0_ssbd" sidePair="bottomext-bottom"/>
+    </image>
+    <list id="n0_ssbd" name="list" xy="6,58" pivot="1,0" size="204,279" selectionMode="multipleSingleClick" overflow="scroll" lineGap="2" defaultItem="ui://4ni413laoepthz9cpm" autoClearItems="true">
+      <gearXY controller="tab" pages="0,1" values="6,58|133,58"/>
+      <gearSize controller="tab" pages="0,1" values="204,279,1,1|74,329,1,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item url="ui://4ni413lassbdz9qm"/>
+      <item/>
+    </list>
+    <component id="n9_oept" name="tabBtn" src="o4i9z9cjv" fileName="components/components_new/main/main_task_hide.xml" xy="-8,11" pivot="0.5,0.5" size="72,54">
+      <gearXY controller="tab" pages="0,1" values="-8,11|119,11"/>
+      <Button checked="true" controller="tab" page="0"/>
+    </component>
+    <component id="n10_oept" name="explainBtn" src="qy501qp8vdr" fileName="components/components_new/com_btn_explain04.xml" pkg="2r331opv" xy="153,-1" size="77,77" aspect="true" scale="0.7,0.7"/>
+    <text id="n11_oept" name="teamNum" xy="35,23" pivot="0.5,0.5" size="140,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" singleLine="true" autoClearText="true" text="总兵力：9999">
+      <gearDisplay controller="tab" pages="0"/>
+    </text>
+    <component id="n15_dfim" name="sureBtn" src="dfgw1ygcfmg" fileName="components/components_new/com_btn_0001.xml" pkg="2r331opv" xy="51,340" scale="0.8,0.8">
+      <gearDisplay controller="state" pages="1"/>
+      <gearDisplay2 controller="tab" pages="0" condition="0"/>
+      <relation target="n1_ssbd" sidePair="bottom-bottom"/>
+      <Button title="确认"/>
+    </component>
+    <component id="n5_ssbd" name="allSelectBtn" src="dfgw1ygcfmg" fileName="components/components_new/com_btn_0001.xml" pkg="2r331opv" xy="101,340" group="n12_oept" scale="0.8,0.8">
+      <Button title="全选" titleFontSize="24"/>
+    </component>
+    <component id="n8_vpei" name="editorBtn" src="dfgw1ygcfme" fileName="components/components_new/com_btn_0003.xml" pkg="2r331opv" xy="3,340" group="n12_oept" scale="0.8,0.8">
+      <Button title="回城" titleFontSize="24"/>
+    </component>
+    <group id="n12_oept" name="n12" xy="3,340" size="211,52" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <gearDisplay2 controller="tab" pages="0" condition="0"/>
+    </group>
+  </displayList>
+</component>

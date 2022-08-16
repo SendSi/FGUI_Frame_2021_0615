@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,506" pivot="0.5,0.5" anchor="true" extention="Button">
+  <controller name="state" pages="0,显,1,空,2,锁" selected="2"/>
+  <controller name="secletzhu" pages="0,主将,1,副将" selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="dragIn" pages="0,,1," selected="0"/>
+  <controller name="front" pages="0,,1," selected="0">
+    <remark page="0" value="normal"/>
+    <remark page="1" value="只有主将变大"/>
+  </controller>
+  <controller name="legatus" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="副将变暗"/>
+  </controller>
+  <displayList>
+    <image id="n40_ppgm" name="n40" src="vb7khz9d06" fileName="images/images_new/common_select_09.png" pkg="2r331opv" xy="-11,44" size="380,446">
+      <gearDisplay controller="dragIn" pages="1"/>
+    </image>
+    <image id="n43_lavj" name="n43" src="gipz1ygcfg1" fileName="images_new/troops_bg_platform02.png" xy="62,405" pivot="0.5,0.5" size="236,71" aspect="true" alpha="0.7">
+      <gearDisplay controller="secletzhu" pages="0"/>
+      <gearSize controller="front" pages="0" values="236,71,1,1" default="324,87,1,1" tween="true"/>
+      <gearDisplay2 controller="state" pages="0" condition="0"/>
+    </image>
+    <image id="n16_riwy" name="n16" src="gipz1ygcfg1" fileName="images_new/troops_bg_platform02.png" xy="87,412" pivot="0.5,0.5" size="184,55" aspect="true" alpha="0.7">
+      <gearDisplay controller="secletzhu" pages="1"/>
+      <gearColor controller="legatus" pages="1" values="#989898" default="#ffffff" tween="true"/>
+      <gearDisplay2 controller="state" pages="0" condition="0"/>
+    </image>
+    <loader3D id="n18_t5o5" name="generaIcon" xy="132,403" size="100,100" scale="0.45,0.45" touchable="false" url="ui://61bunt4fln1d6i" align="center" vAlign="middle" animation="" skin="">
+      <gearDisplay controller="state" pages="0"/>
+    </loader3D>
+    <graph id="n27_kbse" name="effectRoot" xy="180,447" size="2,2" lineSize="0" fillColor="#ff000000"/>
+    <image id="n15_riwy" name="n15" src="jdpjz9cq3" fileName="images_new/troops_bg_model.png" xy="142,182" pivot="0.5,0.5">
+      <gearDisplay controller="state" pages="1,2"/>
+      <gearColor controller="secletzhu" pages="0" values="#ffffff" default="#ffffff"/>
+    </image>
+    <component id="n22_v5lo" name="btnRemove" src="m7yvz9cnv" fileName="components/removeBtn.xml" xy="162,454" visible="false">
+      <gearDisplay controller="state" pages="0"/>
+    </component>
+    <component id="n21_v5lo" name="btnAdd" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="87,78" size="192,324">
+      <gearDisplay controller="state" pages="1"/>
+    </component>
+    <image id="n41_s275" name="n41" src="qajo1ygcgm5" fileName="images/images_new/windowBg_new/welfare_btn_bg13.png" pkg="2r331opv" xy="104,-43" pivot="0.5,0.5" size="152,34" alpha="0.5">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <text id="n45_j495" name="teamname" xy="169,233" size="22,42" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffe765" strokeColor="#000000" strokeSize="2" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="3">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <text id="n32_n1yc" name="name" xy="138,-41" pivot="0.5,0.5" size="84,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" ubb="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,2" singleLine="true" autoClearText="true" text="武将名字">
+      <gearDisplay controller="state" pages="0"/>
+      <gearColor controller="legatus" pages="1" values="#9f9898,#000000" default="#ffffff,#000000"/>
+    </text>
+    <text id="n42_lavj" name="title" xy="130,-73" pivot="0.5,0.5" size="100,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,2" autoClearText="true" text="主将">
+      <gearDisplay controller="state" pages="0"/>
+      <gearColor controller="legatus" pages="0,1" values="#ffffff,#000000|#c8c8c8,#666666"/>
+    </text>
+    <image id="n46_mbhe" name="lock" src="hxd7hz9d7o" fileName="images/images_new/lock_10.png" pkg="2r331opv" xy="169,239" pivot="0.5,0.5" size="23,28" aspect="true" alpha="0.6">
+      <gearDisplay controller="state" pages="2"/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="224,88" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n3_n7ai" name="n3" src="hae91qp8vei" fileName="images/images_new/com_btn_bg014.png" pkg="2r331opv" xy="0,0"/>
+    <text id="n5_n7ai" name="title" xy="24,21" size="124,42" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffffff" align="center" vAlign="middle" strokeColor="#844d30" shadowColor="#844d30" shadowOffset="1,1" text="英雄商店"/>
+    <image id="n6_hae9" name="n6" src="hae91qp8veh" fileName="images/common_arrow_10.png" pkg="2r331opv" xy="149,27"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

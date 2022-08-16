@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <displayList>
+    <component id="n6_w84w" name="n6" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n67_g6ic" name="n67" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n8_w84w"/>
+    <text id="n107_rtzg" name="title" xy="360,70" pivot="0.5,0.5" size="612,46" group="n8_w84w" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="战令进阶"/>
+    <image id="n117_v8di" name="huawen" src="v8di1ygcfhs" fileName="images/images_new/decorativePattern2.png" pkg="2r331opv" xy="529,221" group="n8_w84w" alpha="0.7"/>
+    <image id="n118_v8di" name="n118" src="lcfjz" fileName="images/item_9999.png" pkg="tsbe09dd" xy="555,246" size="220,220" group="n8_w84w" aspect="true"/>
+    <image id="n109_v8di" name="n109" src="v8di1ygcfhn" fileName="images/wartoken_bg1.png" xy="202,145" size="339,488" group="n8_w84w"/>
+    <image id="n119_v8di" name="n119" src="v8dihz9d25" fileName="images/item_10008.png" pkg="tsbe09dd" xy="278,152" size="128,128" group="n8_w84w" aspect="true" scale="0.4,0.4"/>
+    <text id="n103_g6ic" name="advanced" xy="333,163" size="76,34" group="n8_w84w" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" text="进阶卡"/>
+    <component id="n110_v8di" name="advancedBtn" src="e9mlkf" fileName="components/components_new/com_btn_buy.xml" pkg="2r331opv" xy="315,554" group="n8_w84w">
+      <Button title="购买"/>
+    </component>
+    <list id="n111_v8di" name="left_list" xy="224,210" size="293,334" group="n8_w84w" skew="-7,0" overflow="scroll" lineGap="14" defaultItem="ui://2iylmg0sv8di1ygcfho">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n112_v8di" name="n112" src="v8di1ygcfhn" fileName="images/wartoken_bg1.png" xy="786,145" size="339,488" group="n8_w84w" flip="hz"/>
+    <image id="n120_v8di" name="n120" src="v8dihz9d26" fileName="images/item_10009.png" pkg="tsbe09dd" xy="888,152" group="n8_w84w" aspect="true" scale="0.4,0.4"/>
+    <text id="n113_v8di" name="collection" xy="937,163" size="124,34" group="n8_w84w" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" text="典藏进阶卡"/>
+    <component id="n115_v8di" name="collectionBtn" src="e9mlkf" fileName="components/components_new/com_btn_buy.xml" pkg="2r331opv" xy="861,554" group="n8_w84w">
+      <Button title="购买"/>
+    </component>
+    <list id="n116_v8di" name="right_list" xy="842,210" size="293,334" group="n8_w84w" skew="7,0" overflow="scroll" lineGap="14" defaultItem="ui://2iylmg0sv8di1ygcfho">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n121_v8di" name="n121" xy="471,633" pivot="0.5,0.5" size="392,34" group="n8_w84w" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#d93a3a" align="center" text="以上2种方式只能选择1种进行购买哦"/>
+    <component id="n106_rtzg" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n8_w84w"/>
+    <group id="n8_w84w" name="activity" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

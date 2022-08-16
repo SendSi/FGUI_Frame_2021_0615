@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64" pivot="0.5,0.5" extention="Button" designImageOffsetX="-415" designImageOffsetY="-407" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="解锁"/>
+    <remark page="1" value="未解锁"/>
+  </controller>
+  <displayList>
+    <image id="n14_ougg" name="n14" src="h3jujt" fileName="images/images_new/common_frame_quality_0.png" pkg="2r331opv" xy="0,0" size="64,64" aspect="true"/>
+    <loader id="n17_ougg" name="n17" xy="6,6" size="86,86" aspect="true" scale="0.6,0.6" url="ui://tvbfx6zpmfnd2" fill="scale"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

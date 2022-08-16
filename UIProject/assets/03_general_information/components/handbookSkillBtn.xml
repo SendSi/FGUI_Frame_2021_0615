@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="109,128" pivot="0.5,0.5" extention="Button" designImage="ui://xig4tp5gebe5ci7" designImageOffsetX="-926" designImageOffsetY="-549">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n7_ebe5" name="n7" pkg="2r331opv" src="cxixz9cmi" fileName="images/com_bg4.png" xy="7,7"/>
+    <loader id="n5_iiq6" name="icon" xy="11,9" size="85,89" aspect="true" url="ui://tvbfx6zpmfnd2" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n6_iiq6" name="title" xy="-18,69" size="143,30" font="ui://2r331opvlwft3" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#000000" shadowOffset="1,1" singleLine="true" autoClearText="true" text="3级">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n5_iiq6" sidePair="top-bottom"/>
+    </text>
+    <text id="n8_oqow" name="fullTitle" xy="22,99" size="64,29" fontSize="20" color="#99dad6" autoClearText="true" text="已满级"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

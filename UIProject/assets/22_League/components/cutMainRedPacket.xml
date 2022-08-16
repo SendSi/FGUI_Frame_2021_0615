@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="965,439" mask="n22_oted">
+  <displayList>
+    <graph id="n22_oted" name="n22" xy="0,0" size="965,439" type="rect"/>
+    <list id="n23_wb0l" name="redPacketList" xy="0,0" size="965,439" layout="flow_hz" overflow="scroll" margin="4,0,0,0" lineGap="5" colGap="3" defaultItem="ui://lp3m5cuhjp2t1ygcffw" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

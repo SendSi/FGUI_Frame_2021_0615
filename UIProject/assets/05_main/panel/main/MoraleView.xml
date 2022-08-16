@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label">
+  <displayList>
+    <component id="n2_kwe9" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,-1" size="1665,752">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n113_wnez" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="623,7">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n83_f6no" name="n83" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n60_xx14"/>
+    <text id="n84_f6no" name="title" xy="418,70" pivot="0.5,0.5" size="497,46" group="n60_xx14" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" text="士气营"/>
+    <image id="n85_f6no" name="n85" src="eh1f1ygcg8e" fileName="images/morale/morale_bg.png" xy="183,149" group="n60_xx14"/>
+    <image id="n96_g9ny" name="n96" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" xy="599,440" size="532,204" group="n97_g9ny" alpha="0.2" color="#97794f"/>
+    <image id="n117_s3wz" name="n117" src="dfgw1ygcfmf" fileName="images/images_new/com_change04.png" pkg="2r331opv" xy="651,470" pivot="0.5,0.5" size="417,42" group="n97_g9ny" alpha="0.3" color="#50382e"/>
+    <text id="n59_ln1d" name="fullTips" xy="917,474" pivot="0.5,0.5" size="121,34" group="n97_g9ny" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="士气+5"/>
+    <text id="n115_w3nl" name="n115" xy="718,474" size="76,34" group="n97_g9ny" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" text="消耗："/>
+    <component id="n116_s3wz" name="consume" src="f6nohz9cnx" fileName="components/components_new/tokenItem.xml" pkg="2r331opv" xy="779,472" size="124,36" group="n97_g9ny"/>
+    <component id="n94_g9ny" name="upgradeBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="784,569" group="n97_g9ny">
+      <Button title="提升士气"/>
+    </component>
+    <component id="n118_s3wz" name="checkBtn" src="m79tco" fileName="components/com_btn_check.xml" pkg="2r331opv" xy="998,599" group="n97_g9ny" scale="0.6,0.6" visible="false"/>
+    <text id="n119_s3wz" name="n119" xy="1034,600" size="84,29" group="n97_g9ny" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="自动补充"/>
+    <group id="n97_g9ny" name="n97" xy="599,440" size="532,213" group="n60_xx14" advanced="true"/>
+    <component id="n53_ms13" name="slider" src="v96qhz9ck2" fileName="components/components_new/main/functionSdr.xml" xy="595,239" group="n60_xx14">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <image id="n125_s3wz" name="n125" src="klrg1qp8vd2" fileName="images/images_new/common_lines_1.png" pkg="2r331opv" xy="603,193" size="526,1" group="n60_xx14" alpha="0.5" color="#97794f"/>
+    <text id="n120_s3wz" name="morale" xy="600,155" size="124,34" group="n60_xx14" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="士气阶段："/>
+    <text id="n121_s3wz" name="exalted" xy="714,151" size="64,42" group="n60_xx14" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffffff" ubb="true" text="高昂"/>
+    <text id="n122_s3wz" name="lower" xy="940,158" pivot="1,0" size="191,29" group="n60_xx14" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="(每小时降低2点士气)"/>
+    <text id="n123_s3wz" name="current" xy="600,202" size="174,34" group="n60_xx14" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" ubb="true" text="当前士气值:[color=#50382e]111[/color]"/>
+    <text id="n124_s3wz" name="upper" xy="957,202" pivot="1,0" size="174,34" group="n60_xx14" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" ubb="true" text="士气值上限:[color=#50382e]300[/color]"/>
+    <list id="n126_uf4p" name="list" xy="605,278" size="524,125" group="n60_xx14" overflow="hidden" lineGap="3" defaultItem="ui://4ni413lauf4p1ygcg8l">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n86_f6no" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n60_xx14"/>
+    <group id="n60_xx14" name="win" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

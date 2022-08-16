@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" designImageLayer="1">
+  <displayList>
+    <component id="n12_g9ny" name="n12" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <component id="n1_u6yz" name="n1" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n11_u6yz"/>
+    <text id="n4_u6yz" name="title" xy="369,70" pivot="0.5,0.5" size="596,46" group="n11_u6yz" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="bottom" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="部队一览（配表）"/>
+    <list id="n14_qjil" name="optList" xy="211,159" size="912,491" group="n11_u6yz" layout="flow_hz" overflow="scroll" lineGap="4" defaultItem="ui://4ni413laqjil1ygcfn1">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_u6yz" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n11_u6yz"/>
+    <group id="n11_u6yz" name="n11" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

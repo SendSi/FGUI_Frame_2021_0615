@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="564,455" extention="Label" initName="frame" designImageOffsetX="-386" designImageOffsetY="-210" designImageAlpha="39">
+  <controller name="state" pages="0,,1,,2,,4," selected="1">
+    <remark page="0" value="未被占领：攻击怪物"/>
+    <remark page="1" value="我方占领:：前往采集"/>
+    <remark page="2" value="敌方占领：抢夺"/>
+    <remark page="3" value="我方占领：正在采集"/>
+  </controller>
+  <controller name="tips" pages="0,,1," selected="0"/>
+  <controller name="belong" pages="0,,1,,2," selected="0">
+    <remark page="0" value="无归属"/>
+    <remark page="1" value="个人"/>
+    <remark page="2" value="联盟"/>
+  </controller>
+  <displayList>
+    <image id="n26_m7yv" name="arrow" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="18,220" pivot="0.5,0.5" anchor="true" rotation="90">
+      <relation target="n2_r616" sidePair="middle-middle"/>
+    </image>
+    <image id="n2_r616" name="n2" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="30,31" size="503,393" group="n23_r616"/>
+    <text id="n5_r616" name="resLandName" xy="140,54" pivot="0.5,0.5" size="283,39" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#845744" align="center" autoSize="none" autoClearText="true" text="1级农田资源点"/>
+    <component id="n53_khxe" name="shareBtn" src="7so91qp8vi9" fileName="components/cornerBtn.xml" pkg="2r331opv" xy="101,15" size="70,88" group="n23_r616" scale="0.8,0.8">
+      <Button icon="ui://2r331opvnvnv1qp8vi2"/>
+    </component>
+    <component id="n54_khxe" name="collectionBtn" src="7so91qp8vi9" fileName="components/cornerBtn.xml" pkg="2r331opv" xy="45,15" size="70,88" group="n23_r616" scale="0.8,0.8"/>
+    <image id="n9_r616" name="n9" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" xy="53,106" size="458,219" group="n23_r616" alpha="0.3" color="#97794f"/>
+    <image id="n82_dxyz" name="attack" src="gw9a1ygcfmj" fileName="images4/resourcetip_icon01.png" xy="378,118" size="28,28" group="n38_z3y8" aspect="true">
+      <gearDisplay controller="state" pages="1,4"/>
+    </image>
+    <text id="n12_r616" name="inforTitle0" xy="226,118" size="84,29" group="n38_z3y8" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="占领联盟"/>
+    <text id="n90_opvf" name="inforTime" xy="307,118" size="73,29" group="n38_z3y8" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="(00:01)">
+      <gearDisplay controller="state" pages="1,2,4"/>
+      <relation target="n12_r616" sidePair="left-right"/>
+    </text>
+    <text id="n16_r616" name="leagueName" xy="227,142" size="76,26" group="n38_z3y8" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#50382e" vAlign="middle" autoClearText="true" text="联盟名字"/>
+    <loader id="n84_dxyz" name="typeIcon" xy="226,204" size="28,28" group="n45_z3y8" aspect="true" url="ui://2r331opvkn292" fill="scaleFree">
+      <gearDisplay controller="state" pages="0,2"/>
+    </loader>
+    <text id="n13_r616" name="monsterTitle" xy="226,179" size="84,29" group="n45_z3y8" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="防守怪物"/>
+    <image id="n87_qipg" name="n87" src="j4kdhz9clc" fileName="images/main/mainhud_bg04.png" xy="227,207" size="25,23" group="n45_z3y8" visible="false"/>
+    <text id="n88_qipg" name="monsterPower" xy="255,206" size="46,26" group="n45_z3y8" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#50382e" vAlign="middle" autoClearText="true" text="9999"/>
+    <text id="n89_nvj3" name="recommend" xy="255,206" size="250,26" group="n45_z3y8" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#50382e" vAlign="middle" autoSize="none" autoClearText="true" text="Lv10(推荐进攻人数:99）">
+      <relation target="n88_qipg" sidePair="left-right"/>
+    </text>
+    <text id="n14_r616" name="efficiencyTitle" xy="226,246" size="84,29" group="n45_z3y8" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="采集效率"/>
+    <text id="n85_dxyz" name="efficient" xy="226,272" size="43,26" group="n45_z3y8" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#50382e" vAlign="middle" autoClearText="true" text="+5%"/>
+    <group id="n45_z3y8" name="state02" xy="226,179" size="279,119" group="n38_z3y8" advanced="true">
+      <gearDisplay controller="state" pages="0,2"/>
+    </group>
+    <text id="n60_t2qt" name="heroTitle" xy="226,169" size="150,29" group="n65_t2qt" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" autoSize="none" text="占领功勋"/>
+    <list id="n74_t2qt" name="heroList" xy="227,194" size="272,50" group="n65_t2qt" layout="flow_hz" defaultItem="ui://4ni413ladxyz1ygcfmh" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n61_t2qt" name="inforTitle2" xy="226,244" size="180,29" group="n65_t2qt" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" vars="true" autoSize="none" text="采集者({count=1}/{max=5})"/>
+    <list id="n68_t2qt" name="gatherList" xy="226,269" size="543,106" group="n65_t2qt" scale="0.5,0.5" layout="row" scroll="horizontal" defaultItem="ui://2r331opvb6o0cho" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n65_t2qt" name="state13" xy="226,169" size="543,206" group="n38_z3y8" advanced="true">
+      <gearDisplay controller="state" pages="1,4"/>
+    </group>
+    <group id="n38_z3y8" name="tips0" xy="226,118" size="543,257" group="n23_r616" advanced="true">
+      <gearDisplay controller="tips" pages="0"/>
+    </group>
+    <richtext id="n39_z3y8" name="tipsLbl" xy="65,137" pivot="0.5,0.5" size="431,164" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#50382e" ubb="true" autoSize="none" autoClearText="true" text="资源地介绍文字">
+      <gearDisplay controller="tips" pages="1"/>
+    </richtext>
+    <component id="n22_r616" name="explainBtn" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="459,41" size="62,62" group="n23_r616" aspect="true">
+      <gearDisplay controller="tips" pages="0"/>
+      <Button icon="ui://2r331opvr616z9cpc" controller="tips" page="1"/>
+    </component>
+    <component id="n40_z3y8" name="explainBtn2" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="31,88" size="62,62" group="n23_r616" aspect="true" scale="0.8,0.8">
+      <gearDisplay controller="tips" pages="1"/>
+      <Button icon="ui://2r331opvcmlrhz9cyo" controller="tips" page="0"/>
+    </component>
+    <component id="n28_qmkc" name="attackBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="194,334" size="175,62" group="n23_r616">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="集火"/>
+    </component>
+    <component id="n30_qmkc" name="gatherBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="194,334" size="175,62" group="n23_r616">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="采集"/>
+    </component>
+    <component id="n55_t2qt" name="fightBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="194,334" size="175,62" group="n23_r616">
+      <gearDisplay controller="state" pages="2"/>
+      <Button title="抢夺"/>
+    </component>
+    <component id="n31_qmkc" name="backBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="194,334" size="175,62" group="n23_r616">
+      <gearDisplay controller="state" pages="4"/>
+      <Button title="回城"/>
+    </component>
+    <loader id="n11_r616" name="monsterIcon" xy="58,120" pivot="0.5,0.5" size="150,150" group="n77_hs5t" aspect="true" visible="false" touchable="false" url="ui://4557t28ky6f5hz9cpc" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="belong" pages="0"/>
+    </loader>
+    <component id="n83_dxyz" name="bossIcon" src="dxyz1ygcfmi" fileName="components/components_new/btn_head5.xml" pkg="2r331opv" xy="70,125" group="n77_hs5t">
+      <gearDisplay controller="state" pages="0,2"/>
+      <gearDisplay2 controller="belong" pages="0" condition="0"/>
+    </component>
+    <component id="n76_esfv" name="roleHead" src="g38xhz9czg" fileName="components/headItem.xml" pkg="66sh7tc6" xy="51,109" group="n77_hs5t" scale="0.8,0.8" touchable="false">
+      <gearDisplay controller="belong" pages="1"/>
+    </component>
+    <component id="n75_esfv" name="leagueFlag" src="nnlhhz9d15" fileName="components/flagIcon.xml" pkg="lp3m5cuh" xy="57,123" group="n77_hs5t" scale="0.5,0.5" touchable="false" grayed="true">
+      <gearDisplay controller="belong" pages="2"/>
+      <gearLook controller="belong" pages="0,2" values="1,0,1,0|1,0,0,0" default="1,0,0,0"/>
+    </component>
+    <image id="n78_dxyz" name="n78" src="bumchz9d7p" fileName="images/images_new/windowBg_new/negative_bg03.png" pkg="2r331opv" xy="68,274" size="132,32" group="n77_hs5t" alpha="0.5"/>
+    <text id="n6_r616" name="coordTitle" xy="81,276" size="105,29" group="n77_hs5t" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#845744" autoClearText="true" text="X:129 Y:93"/>
+    <group id="n77_hs5t" name="n77" xy="51,109" size="316,325" group="n23_r616" advanced="true">
+      <gearDisplay controller="tips" pages="0"/>
+    </group>
+    <group id="n23_r616" name="n23" xy="30,15" size="739,419"/>
+  </displayList>
+  <relation target="n2_r616" sidePair="height-height"/>
+</component>

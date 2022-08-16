@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://4ni413lag9nyhz9ctx">
+  <displayList>
+    <component id="n0_hlig" name="com_mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_hlig" name="com_window" src="hdmy1iy5b95" fileName="components/components_new/Popup_bg2.xml" pkg="2r331opv" xy="267,151" group="n66_od41"/>
+    <text id="n21_g9ny" name="title" xy="597,163" pivot="0.5,0.5" size="140,46" group="n66_od41" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="玩法详情"/>
+    <text id="n4_hlig" name="rule" xy="363,300" size="100,34" group="n66_od41" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="奖励规则"/>
+    <image id="n64_fpkn" name="n64" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" xy="369,337" size="596,218" group="n66_od41" alpha="0.2" color="#97794f"/>
+    <text id="n5_hlig" name="online" xy="453,345" size="78,29" group="n66_od41" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" letterSpacing="-2" singleLine="true" text="在线时长"/>
+    <text id="n62_fpkn" name="award" xy="589,345" size="178,29" group="n66_od41" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" letterSpacing="-2" singleLine="true" text="以下奖励随机抽取1种"/>
+    <text id="n61_fpkn" name="textdis" xy="363,225" size="607,64" group="n66_od41" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" leading="0" autoSize="none" text="玩家每天最多可领取7次 在线奖励"/>
+    <component id="n20_g9ny" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="968,138" group="n66_od41" scale="0.8,0.8"/>
+    <list id="n65_fpkn" name="time_list" xy="438,381" size="457,163" group="n66_od41" overflow="scroll" lineGap="5" defaultItem="ui://4ni413lafpkn1ygcg82">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n66_od41" name="window" xy="267,138" size="800,473" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

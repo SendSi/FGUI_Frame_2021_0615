@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,201" pivot="0.5,0.5" extention="Button">
+  <controller name="state" pages="2,,0," selected="0">
+    <remark page="0" value="开启条件"/>
+    <remark page="1" value="等级"/>
+  </controller>
+  <displayList>
+    <loader id="n14_gmyb" name="icon" xy="4,0" size="192,201" url="ui://i3ggfr92gmyb1xvobdz" fill="scale" autoSize="true"/>
+    <image id="n13_clbo" name="lock" src="gmyb1xvobdy" fileName="images/commandhall_bg4.png" xy="0,115" alpha="0.7"/>
+    <loader id="n15_gmyb" name="icon1" xy="104,128" size="96,96" scale="0.3,0.3" url="ui://tsbe09ddmz4wb" fill="scale" autoSize="true">
+      <gearDisplay controller="state" pages="2"/>
+    </loader>
+    <text id="n5_n7ai" name="title" xy="12,128" size="84,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="开启条件">
+      <gearText controller="state" pages="0" values="水晶等级" default="开启条件"/>
+    </text>
+    <text id="n16_gmyb" name="level" xy="111,127" size="73,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="Lv.1">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+    <text id="n17_gmyb" name="num" xy="132,127" size="51,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" vAlign="middle" strokeColor="#000000" strokeSize="2" text="1200">
+      <gearDisplay controller="state" pages="2"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

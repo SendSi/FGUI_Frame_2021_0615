@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,46" pivot="0.5,0.5" extention="Button">
+  <controller name="state" pages="0,,1," selected="1">
+    <remark page="0" value="未购买"/>
+    <remark page="1" value="已购买"/>
+  </controller>
+  <displayList>
+    <image id="n0_g4yj" name="bg0" src="ilfe9cjq" fileName="images/item_30001.png" pkg="tsbe09dd" xy="17,0" size="46,46">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <image id="n4_g4yj" name="bg1" src="ilfe9cjq" fileName="images/item_30001.png" pkg="tsbe09dd" xy="17,0" size="46,46">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <image id="n3_g4yj" name="n3" src="g4yj1ygcfhn" fileName="images/images_new/com_icon_bought.png" pkg="2r331opv" xy="10,-4" size="46,38" aspect="true">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

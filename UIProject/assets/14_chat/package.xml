@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="62wjs2s2">
+  <resources>
+    <image id="g01i0" name="btn_horn.png" path="/images/" exported="true"/>
+    <image id="g01i1" name="btn_horn01.png" path="/images/" exported="true"/>
+    <image id="g01i2" name="btn_spirit.png" path="/images/" exported="true"/>
+    <image id="g01i5" name="voice_01.png" path="/images/" exported="true" scale="9grid" scale9grid="5,3,1,6"/>
+    <image id="g01i6" name="voice_02.png" path="/images/" exported="true" scale="9grid" scale9grid="5,3,1,6"/>
+    <image id="g01i7" name="voice_03.png" path="/images/" exported="true"/>
+    <image id="g01i8" name="voice_bg_1.png" path="/images/" exported="true"/>
+    <image id="g01i9" name="voice_bg_2.png" path="/images/" exported="true"/>
+    <image id="g01ia" name="voice_bg_3.png" path="/images/" exported="true"/>
+    <image id="g01id" name="dialogue_01_01.png" path="/images/dialogue/" exported="true" scale="9grid" scale9grid="46,47,19,5"/>
+    <image id="g01ih" name="btn_chat_delete.png" path="/images/" exported="true"/>
+    <image id="g01ii" name="btn_chat_expression.png" path="/images/" exported="true"/>
+    <image id="g01ik" name="btn_chat_topping.png" path="/images/" exported="true"/>
+    <image id="g01il" name="btn_chat_topping_1.png" path="/images/" exported="true"/>
+    <image id="g01im" name="btn_chat_voice.png" path="/images/" exported="true" scale="9grid" scale9grid="12,12,24,24"/>
+    <image id="g01in" name="btn_chat_voice_1.png" path="/images/" exported="true" scale="9grid" scale9grid="11,5,3,26"/>
+    <image id="g01io" name="btn_chat_word.png" path="/images/" exported="true"/>
+    <component id="g01i10" name="Button_paging01.xml" path="/components/" exported="true"/>
+    <component id="g01ip" name="Chat.xml" path="/panel/" exported="true"/>
+    <component id="g01ir" name="Button_spirit.xml" path="/components/" exported="true"/>
+    <component id="rbib11" name="content.xml" path="/components/" exported="true"/>
+    <component id="rbib12" name="Button_switch.xml" path="/components/" exported="true"/>
+    <component id="rbib13" name="Button_expression.xml" path="/components/" exported="true"/>
+    <component id="rbib14" name="Button_prop.xml" path="/components/" exported="true"/>
+    <component id="gu0z15" name="Button_voice.xml" path="/components/" exported="true"/>
+    <component id="gu0z18" name="below.xml" path="/components/" exported="true"/>
+    <component id="rg9r1d" name="Button_voice_01.xml" path="/components/" exported="true"/>
+    <component id="rg9r1f" name="play.xml" path="/components/" exported="true"/>
+    <component id="dslz1h" name="voice_wavelength.xml" path="/components/" exported="true"/>
+    <component id="dslz1i" name="voice_size.xml" path="/components/" exported="true"/>
+    <component id="dslz1m" name="Button_contacts.xml" path="/components/" exported="true"/>
+    <component id="dslz1o" name="Button_right.xml" path="/components/" exported="true"/>
+    <component id="dslz1p" name="Button_topping.xml" path="/components/" exported="true"/>
+    <component id="dslz1q" name="Button_delete.xml" path="/components/" exported="true"/>
+    <component id="dslz1s" name="Button_select.xml" path="/components/" exported="true"/>
+    <component id="dslz1t" name="contacts.xml" path="/components/" exported="true"/>
+    <component id="dslz1u" name="contacts_01.xml" path="/components/" exported="true"/>
+    <component id="dslz1v" name="Button_game_player.xml" path="/components/" exported="true"/>
+    <component id="dslz1w" name="right.xml" path="/panel/" exported="true"/>
+    <component id="u3yv2b" name="expression.xml" path="/components/"/>
+    <component id="q5r32c" name="ChatItemView.xml" path="/panel/" exported="true"/>
+    <component id="wkc02d" name="title.xml" path="/panel/" exported="true"/>
+    <image id="wkc02e" name="dialogue_00_02.png" path="/images/dialogue/" exported="true" scale="9grid" scale9grid="41,46,2,4"/>
+    <image id="wkc02f" name="dialogue_01_02.png" path="/images/dialogue/" exported="true" scale="9grid" scale9grid="51,47,14,3"/>
+    <component id="pa9w2g" name="otherChat.xml" path="/panel/" exported="true"/>
+    <component id="pa9w2h" name="selfChat.xml" path="/panel/" exported="true"/>
+    <component id="ee2i2l" name="Button_unread.xml" path="/components/" exported="true"/>
+    <component id="rqm62n" name="itemTroopShare.xml" path="/components/"/>
+    <component id="kebx2p" name="HorseMsg.xml" path="/panel/" exported="true"/>
+    <component id="znxl2q" name="horseTitle.xml" path="/panel/" exported="true"/>
+    <image id="jf522r" name="chat_icon03.png" path="/images/" exported="true"/>
+    <image id="jf522s" name="chat_icon01.png" path="/images/" exported="true"/>
+    <image id="jf522t" name="chat_icon02.png" path="/images/" exported="true"/>
+    <image id="qa1u2v" name="btn_chat_hide.png" path="/images/" exported="true"/>
+    <image id="qa1u2w" name="dialogue_bg01.png" path="/images/" exported="true" scale="9grid" scale9grid="3,21,6,706"/>
+    <image id="n8nh2y" name="dialogue_bg02.png" path="/images/" exported="true" scale="9grid" scale9grid="6,16,6,713"/>
+    <image id="r9f630" name="bg_chat_03.png" path="/images/" exported="true" scale="9grid" scale9grid="15,13,12,11"/>
+    <image id="r9f632" name="bg_chat_05.png" path="/images/" exported="true" scale="9grid" scale9grid="5,5,3,4"/>
+    <image id="r9f634" name="chat_btn01.png" path="/images/" exported="true" scale="9grid" scale9grid="21,17,114,62"/>
+    <image id="r9f635" name="chat_btn02.png" path="/images/" exported="true" scale="9grid" scale9grid="41,19,82,62"/>
+    <component id="axd539" name="goToBtn.xml" path="/components/" exported="true"/>
+    <image id="pkul3a" name="dialogue_00_01.png" path="/images/dialogue/" exported="true" scale="9grid" scale9grid="52,45,33,7"/>
+    <image id="pkul3b" name="dialogue_bg03.png" path="/images/" exported="true" scale="9grid" scale9grid="14,18,13,583"/>
+    <component id="e7jj1ygcfh5" name="sendOutBtn.xml" path="/components/" exported="true"/>
+    <image id="scu21ygcfh8" name="dialogue_02_01.png" path="/images/dialogue/" scale="9grid" scale9grid="54,37,43,5"/>
+    <image id="scu21ygcfh9" name="dialogue_02_02.png" path="/images/dialogue/" scale="9grid" scale9grid="63,38,41,4"/>
+    <image id="scu21ygcfha" name="dialogue_03_01.png" path="/images/dialogue/" scale="9grid" scale9grid="51,38,50,2"/>
+    <image id="scu21ygcfhb" name="dialogue_03_02.png" path="/images/dialogue/" scale="9grid" scale9grid="55,38,51,2"/>
+    <image id="scu21ygcfhc" name="dialogue_04_01.png" path="/images/dialogue/" scale="9grid" scale9grid="55,33,33,1"/>
+    <image id="scu21ygcfhd" name="dialogue_04_02.png" path="/images/dialogue/" scale="9grid" scale9grid="70,33,34,0"/>
+    <component id="scu21ygcfhe" name="ChatItemView01.xml" path="/panel/" exported="true"/>
+    <image id="ekmx1ygcfhf" name="bg_chat_1.png" path="/images/" exported="true"/>
+    <image id="ekmx1ygcfhg" name="bg_chat_2.png" path="/images/" exported="true"/>
+    <image id="ekmx1ygcfhh" name="bg_chat_4.png" path="/images/" exported="true"/>
+    <image id="ekmx1ygcfhi" name="bg_chat_5.png" path="/images/" exported="true"/>
+    <component id="lbda1ygcfk6" name="com_btn_05.xml" path="/components/" exported="true"/>
+    <image id="rqbb1ygcfk7" name="dialogue_01_022.png" path="/images/dialogue/" exported="true" scale="9grid" scale9grid="46,47,7,5"/>
+    <component id="rqbb1ygcfk8" name="redpacketChatself.xml" path="/panel/" exported="true"/>
+    <component id="uf4p1ygcfk9" name="redpacketChatother.xml" path="/panel/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

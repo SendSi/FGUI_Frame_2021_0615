@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="190,29">
+  <displayList>
+    <text id="n148_me4z" name="type" xy="0,0" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" ubb="true" text="玩法类型："/>
+    <text id="n149_me4z" name="name" xy="106,0" size="84,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" ubb="true" text="骷髅剑士">
+      <relation target="n148_me4z" sidePair="left-right"/>
+    </text>
+  </displayList>
+  <relation target="n149_me4z" sidePair="rightext-right"/>
+</component>

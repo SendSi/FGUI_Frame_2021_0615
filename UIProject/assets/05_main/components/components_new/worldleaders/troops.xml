@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="396,232">
+  <controller name="troopNum" pages="0,,1,,2,,3,,4," selected="0">
+    <remark page="0" value="一个"/>
+    <remark page="1" value="两个"/>
+    <remark page="2" value="三个"/>
+    <remark page="3" value="四个"/>
+    <remark page="4" value="五个"/>
+  </controller>
+  <displayList>
+    <image id="n3_ta9j" name="bg02" src="ha7x1b" fileName="images/worldleaders01/bg02.png" xy="198,119" pivot="0.5,0.5" anchor="true"/>
+    <component id="n14_pl8o" name="troopBtn01" src="hxd7hz9d7b" fileName="components/general_new/generalIcon2.xml" pkg="2r331opv" xy="157,15" scale="0.5,0.5">
+      <gearXY controller="troopNum" pages="1,3" values="104,26|27,91" default="157,15"/>
+    </component>
+    <component id="n15_pl8o" name="troopBtn02" src="hxd7hz9d7b" fileName="components/general_new/generalIcon2.xml" pkg="2r331opv" xy="157,15" scale="0.5,0.5">
+      <gearDisplay controller="troopNum" pages="1,2,3,4"/>
+      <gearXY controller="troopNum" pages="1,2,3,4" values="210,26|67,48|104,26|67,48" default="157,15"/>
+    </component>
+    <component id="n16_pl8o" name="troopBtn03" src="hxd7hz9d7b" fileName="components/general_new/generalIcon2.xml" pkg="2r331opv" xy="157,15" scale="0.5,0.5">
+      <gearDisplay controller="troopNum" pages="2,3,4"/>
+      <gearXY controller="troopNum" pages="1,2,3,4" values="104,27|247,48|210,26|247,48" default="157,15"/>
+    </component>
+    <component id="n17_pl8o" name="troopBtn04" src="hxd7hz9d7b" fileName="components/general_new/generalIcon2.xml" pkg="2r331opv" xy="157,15" scale="0.5,0.5">
+      <gearDisplay controller="troopNum" pages="3,4"/>
+      <gearXY controller="troopNum" pages="1,3,4" values="102,27|287,91|15,124" default="157,15"/>
+    </component>
+    <component id="n18_pl8o" name="troopBtn05" src="hxd7hz9d7b" fileName="components/general_new/generalIcon2.xml" pkg="2r331opv" xy="157,15" scale="0.5,0.5">
+      <gearDisplay controller="troopNum" pages="4"/>
+      <gearXY controller="troopNum" pages="1,4" values="102,27|299,124" default="157,15"/>
+    </component>
+  </displayList>
+</component>

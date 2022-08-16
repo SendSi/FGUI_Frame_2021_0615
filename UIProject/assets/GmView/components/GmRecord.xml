@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="350,60">
+  <displayList>
+    <graph id="n1_h7e5" name="n1" xy="0,0" size="350,60" type="rect" lineColor="#ff003300" fillColor="#ff336600">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n0_h7e5" name="n0" xy="0,0" size="350,60" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="123412341341234134134">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

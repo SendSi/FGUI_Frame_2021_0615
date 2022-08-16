@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" extention="Label" initName="frame">
+  <displayList>
+    <loader id="n16_g6y7" name="bg" xy="-170,0" size="1675,750" url="ui://2r331opvc92hhz9cuk" fill="scaleFree">
+      <relation target="" sidePair="height-height,center-center"/>
+    </loader>
+    <image id="n4_lw9r" name="bg1" src="p78116" fileName="images/land_bg02.png" xy="228,439" size="878,57" group="n15_jhg1"/>
+    <image id="n19_b9bj" name="n19" src="ntk51ygcfn1" fileName="images/images_new/windowBg_new/attribute_bg001.png" pkg="2r331opv" xy="577,451" size="294,33" group="n15_jhg1" alpha="0.3"/>
+    <text id="n5_lw9r" name="accountInput" xy="585,447" size="273,42" group="n15_jhg1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#feff92" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" singleLine="true" text="" input="true" prompt="请输入帐号..."/>
+    <text id="n13_q5lj" name="n13" xy="461,451" pivot="0.5,0.5" size="124,34" group="n15_jhg1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" singleLine="true" text="账号登录："/>
+    <component id="n11_lw9r" name="loginBtn" src="p78115" fileName="components/button_game_start.xml" xy="490,535" group="n15_jhg1">
+      <Button title="登录游戏" icon="ui://byy9k3gh7oizb" sound="ui://2r331opvfmw6h0"/>
+    </component>
+    <group id="n15_jhg1" name="n15" xy="228,439" size="878,174" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <loader id="n17_b9bj" name="icon_logo" xy="281,73" pivot="0.5,0.5" size="768,279" url="ui://byy9k3ghv4de32" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

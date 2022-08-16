@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="155,50" overflow="hidden">
+  <controller name="hideOpen" pages="0,hide,1,open" selected="0"/>
+  <displayList>
+    <image id="n0_xoe1" name="n0" src="lumy1qp8vdl" fileName="images4/main_bg04.png" xy="0,21" size="222,305" alpha="0.75">
+      <gearSize controller="hideOpen" pages="0,1" values="222,305,1,1|155,50,1,1" tween="true"/>
+      <gearLook controller="hideOpen" pages="1" values="0.3,0,0,0" default="0.75,0,0,0" tween="true"/>
+    </image>
+    <component id="n10_rjev" name="taskBtn" src="rjevhz9d2l" fileName="components/components_new/main/taskBtn.xml" xy="-1,0" size="222,66">
+      <gearSize controller="hideOpen" pages="0,1" values="222,66,1,1|155,50,1,1" tween="true"/>
+      <Button title="Task"/>
+    </component>
+    <component id="n6_o4i9" name="n6" src="qy501qp8vdq" fileName="components/components_new/main/main_task_hide1.xml" xy="170,27">
+      <relation target="" sidePair="right-right"/>
+      <Button controller="hideOpen" page="1"/>
+    </component>
+    <component id="n5_o4i9" name="taskList" src="wi2chz9cks" fileName="components/components_new/mainTaskList.xml" xy="6,67"/>
+    <component id="n7_hizo" name="EffectHandle_01" src="ayljdv" fileName="components/EffectHandle.xml" pkg="2r331opv" xy="70,106" touchable="false"/>
+    <loader id="n11_cv8s" name="n11" xy="2,-11" size="90,100" scale="0.6,0.6" url="ui://4ni413lab6o0kz"/>
+  </displayList>
+  <relation target="n0_xoe1" sidePair="width-width,height-height"/>
+</component>

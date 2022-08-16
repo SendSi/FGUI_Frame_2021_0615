@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://nf2zagxss5sfgu" designImageLayer="1">
+  <displayList>
+    <component id="n3_9gti" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n35_gww7" name="n35" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n27_kl1d"/>
+    <text id="n34_gww7" name="title" xy="366,70" pivot="0.5,0.5" size="602,46" group="n27_kl1d" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" autoClearText="true" text="奖励预览"/>
+    <image id="n33_jmae" name="n33" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="213,151" size="911,36" group="n26_kl1d"/>
+    <text id="n17_uu6i" name="titleTxt02" xy="224,152" size="52,34" group="n26_kl1d" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" text="奖池"/>
+    <list id="n2_lwzz" name="cardList" xy="203,197" size="932,448" group="n26_kl1d" layout="flow_hz" overflow="scroll" lineGap="20" colGap="20" align="center" autoClearItems="true" scrollItemToViewOnClick="false"/>
+    <group id="n26_kl1d" name="n26" xy="203,151" size="932,494" group="n27_kl1d" advanced="true"/>
+    <component id="n28_kl1d" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n27_kl1d"/>
+    <group id="n27_kl1d" name="n27" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

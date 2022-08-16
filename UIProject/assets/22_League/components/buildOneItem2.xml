@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="194,241" designImageOffsetX="-160" designImageOffsetY="-402">
+  <displayList>
+    <image id="n20_mccu" name="n20" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="194,241" alpha="0.8"/>
+    <loader id="n19_b3k6" name="icon" xy="48,71" size="96,96" url="ui://tsbe09ddmz4w0" autoSize="true"/>
+    <graph id="n16_j2a0" name="n16" xy="22,48" size="164,2" alpha="0.3" type="rect" lineSize="0" fillColor="#ff50382e"/>
+    <text id="n2_vqdv" name="title" xy="8,0" pivot="0.5,0.5" size="176,56" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" autoSize="none" singleLine="true" text="联盟食物"/>
+    <text id="n8_vqdv" name="txtLock" xy="8,182" pivot="0.5,0.5" size="176,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" ubb="true" autoSize="none" text="+100/小时"/>
+  </displayList>
+</component>

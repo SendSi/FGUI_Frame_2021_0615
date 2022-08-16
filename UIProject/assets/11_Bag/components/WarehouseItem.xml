@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,141" designImageOffsetX="-198" designImageOffsetY="-267" designImageLayer="1">
+  <controller name="state" pages="0,prop,1,other" selected="0"/>
+  <controller name="operate" pages="0,use,1,buy,6," selected="2">
+    <remark page="2" value="领取"/>
+  </controller>
+  <displayList>
+    <image id="n15_e9ml" name="n15" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,3" size="900,134">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n16_lwba" name="propBg" src="65iwhz9d49" fileName="images/build_icon/citymanage00.png" pkg="tsbe09dd" xy="16,15" group="n18_lwba"/>
+    <loader id="n17_lwba" name="icon" xy="27,25" size="88,88" group="n18_lwba" aspect="true" url="ui://tsbe09ddmz4w4" fill="scale"/>
+    <group id="n18_lwba" name="propIcon" xy="16,15" size="110,110" advanced="true"/>
+    <loader id="n10_pz0v" name="iconOther" xy="21,20" size="96,96" url="ui://tsbe09ddlcfj1t" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="state" pages="1"/>
+    </loader>
+    <text id="n2_d4a6" name="title" xy="130,20" size="378,36" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#50382e" ubb="true" autoSize="none" autoClearText="true" text="名字名字"/>
+    <text id="n3_d4a6" name="introduceLbl" xy="130,52" size="534,36" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#599e27" autoSize="none" autoClearText="true" text="使用8小时免战状态，解释说明解释说明解释说明"/>
+    <component id="n13_e9ml" name="useBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="685,30" size="202,78" group="n9_d4a6">
+      <gearDisplay controller="operate" pages="0"/>
+      <Button title="使用" titleFontSize="34"/>
+    </component>
+    <component id="n14_e9ml" name="buyBtn" src="d5so1ygcfk6" fileName="components/components_new/com_btn_buy1.xml" pkg="2r331opv" xy="685,30" size="202,78" group="n9_d4a6">
+      <gearDisplay controller="operate" pages="1"/>
+    </component>
+    <component id="n19_k06c" name="getBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="685,30" size="202,78" group="n9_d4a6">
+      <gearDisplay controller="operate" pages="6"/>
+      <Button title="领取" titleFontSize="34"/>
+    </component>
+    <group id="n9_d4a6" name="use" xy="685,30" size="202,78" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <text id="n11_e9ml" name="hadLbl" xy="130,84" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="拥有数量："/>
+    <text id="n12_e9ml" name="hadNum" xy="232,84" size="28,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" singleLine="true" autoClearText="true" text="20"/>
+  </displayList>
+</component>

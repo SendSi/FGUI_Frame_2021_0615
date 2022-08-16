@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="575,106" designImageOffsetX="-876" designImageOffsetY="-90" designImageLayer="1">
+  <controller name="state" pages="3,comp,1,goto,5,doing,0,canReward" selected="3">
+    <remark page="0" value="完成了"/>
+    <remark page="1" value="前往"/>
+    <remark page="2" value="未知"/>
+    <remark page="3" value="可领取"/>
+  </controller>
+  <controller name="ShowTip" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+  </controller>
+  <displayList>
+    <image id="n0_eh0p" name="n0" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="575,106">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <image id="n24_htmu" name="n24" src="htmuhz9cyl" fileName="images/task_bg5.png" xy="11,6" alpha="0.8" color="#97794f"/>
+    <text id="n1_eh0p" name="taskInfor" xy="112,16" size="236,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" leading="0" ubb="true" text="商城购买5次道具这是主线">
+      <gearXY controller="ShowTip" pages="0,1" values="112,16|112,4"/>
+    </text>
+    <text id="n4_eh0p" name="txtProgress" xy="343,17" pivot="0,0.5" size="50,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" ubb="true" text="(1/1)">
+      <relation target="n1_eh0p" sidePair="left-right,top-top"/>
+    </text>
+    <list id="n18_nsww" name="resuitList" xy="107,46" size="469,104" scale="0.5,0.5" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" margin="-6,0,0,0" defaultItem="ui://2r331opvee2ik0" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n10_nrgr" name="Effect_ui_17_TaskItem" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="258,53" touchable="false"/>
+    <component id="n16_z04p" name="typeIcon" src="z04phz9cxi" fileName="components/taskTypeIcon.xml" xy="12,6" scale="0.9,0.9"/>
+    <component id="n19_lcq7" name="btnGoto" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="436,27" size="122,52">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+      <Button title="前往" titleFontSize="24"/>
+    </component>
+    <component id="n20_lcq7" name="complete" src="lcq71qp8vfa" fileName="components/components_new/completedBtn.xml" pkg="2r331opv" xy="466,11">
+      <gearDisplay controller="state" pages="3"/>
+      <relation target="n0_eh0p" sidePair="right-right"/>
+    </component>
+    <component id="n21_lcq7" name="btnCanReward" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="436,27" size="122,52">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+      <Button title="领取" titleFontSize="24"/>
+    </component>
+    <text id="n23_ptr5" name="progress" xy="445,36" size="99,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#70a33d" text="进行中...">
+      <gearDisplay controller="state" pages="5"/>
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n26_vr30" name="taskInfor2" xy="112,26" size="189,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#97794f" leading="0" ubb="true" text="商城购买5次道具这是主线">
+      <gearDisplay controller="ShowTip" pages="1"/>
+    </text>
+  </displayList>
+</component>

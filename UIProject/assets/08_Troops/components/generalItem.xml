@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="193,610">
+  <controller name="state" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n200_riwy" name="choosebg" pkg="2r331opv" src="qdf6hz9cuc" fileName="images/images_new/building_bg_levelup01.png" xy="0,30" size="192,578">
+      <relation target="" sidePair="bottomext-bottom"/>
+    </image>
+    <list id="n131_rlhz" name="genList" xy="1,33" size="192,573" layout="flow_hz" overflow="scroll" lineGap="5" colGap="7" defaultItem="ui://jqem9egtrlhzz9cm2" autoItemSize="true" align="center">
+      <gearSize controller="state" pages="0,1" values="192,573,1,1|192,335,1,1"/>
+      <relation target="" sidePair="bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n199_riwy" name="master" xy="5,0" size="183,32" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="Choose master"/>
+    <text id="n201_o6sy" name="generals" xy="20,365" size="159,32" group="n206_o6sy" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="Bonded generals"/>
+    <list id="n202_o6sy" name="BondedList" xy="0,398" size="192,88" group="n206_o6sy" layout="flow_hz" overflow="scroll" lineGap="5" colGap="7" defaultItem="ui://jqem9egtrlhzz9cm2" autoItemSize="true" align="center">
+      <item/>
+      <item/>
+    </list>
+    <text id="n203_o6sy" name="skill" xy="3,487" size="189,32" group="n206_o6sy" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="Bonded skills"/>
+    <list id="n204_o6sy" name="BondedSkillList" xy="2,520" size="186,60" group="n206_o6sy" layout="row" overflow="scroll" lineGap="5" defaultItem="ui://jqem9egto6syz9cqv" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n205_o6sy" name="tips" xy="7,405" size="180,70" group="n206_o6sy" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text=""/>
+    <group id="n206_o6sy" name="bonded" xy="0,365" size="192,215" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="top-bottom"/>
+    </group>
+    <component id="n208_gbsf" name="genListNoneTip" src="odgaez" fileName="components/common_btn_04.xml" pkg="2r331opv" xy="23,205" size="144,152">
+      <gearXY controller="state" pages="0,1" values="23,205|23,107"/>
+      <Button title="[color=#ffffff]暂无可上阵英雄，请[/color][u]前往招募[/u]&#xA;" titleColor="#fff780" titleFontSize="20"/>
+    </component>
+  </displayList>
+</component>

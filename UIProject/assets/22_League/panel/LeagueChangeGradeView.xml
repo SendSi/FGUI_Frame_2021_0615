@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://4ni413lag9nyhz9ctx">
+  <displayList>
+    <component id="n0_hlig" name="com_mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n51_spur" name="n51" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n62_spur"/>
+    <text id="n52_spur" name="title" xy="522,71" pivot="0.5,0.5" size="289,46" group="n62_spur" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="提高/降低成员等级"/>
+    <text id="n59_spur" name="txtDesc" xy="438,178" pivot="0.5,0.5" size="460,34" group="n62_spur" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" text="为联盟成员设置等级,等级越高,权限就会越多"/>
+    <list id="n60_spur" name="gradeList" xy="221,268" size="892,214" group="n62_spur" layout="flow_hz" overflow="scroll" scrollBarFlags="32" margin="0,0,4,0" colGap="24" lineItemCount="5" defaultItem="ui://lp3m5cuhspurhz9cwk" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n63_p11n" name="yesBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="566,567" size="202,78" group="n62_spur">
+      <Button title="确定" titleFontSize="34"/>
+    </component>
+    <component id="n20_g9ny" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n62_spur"/>
+    <group id="n62_spur" name="windows" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qnrrapjr">
+  <resources>
+    <component id="k1nxhz9d6e" name="NeutralMapTipsView.xml" path="/panel/" exported="true"/>
+    <component id="k1nxhz9d6f" name="tipSlider1.xml" path="/components/" exported="true"/>
+    <component id="k1nxhz9d6g" name="tipSliderNum1.xml" path="/components/" exported="true"/>
+    <image id="svx3hz9d6h" name="bg01.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6i" name="bg02.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6j" name="bg03.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6k" name="bg04.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6l" name="bg05.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6m" name="bg06.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6n" name="bg07.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6t" name="mvp_bg.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6u" name="nameplate01.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6v" name="nameplate02.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6w" name="nameplate03.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6x" name="negative01.png" path="/images/" exported="true" scale="9grid" scale9grid="67,13,120,26"/>
+    <image id="svx3hz9d6y" name="negative02.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d6z" name="negative03.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d70" name="R1.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d71" name="R2.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d72" name="R3.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d73" name="R4.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d74" name="R5.png" path="/images/" exported="true"/>
+    <component id="svx3hz9d7b" name="tipSlider2.xml" path="/components/"/>
+    <image id="svx3hz9d7f" name="bg16.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d7g" name="bg17.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d7h" name="collezionebtn.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d7i" name="condivisionebtn.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d7j" name="bg18.png" path="/images/" exported="true" scale="9grid" scale9grid="9,6,1,12"/>
+    <image id="svx3hz9d7k" name="icon_01.png" path="/images/" exported="true"/>
+    <image id="svx3hz9d7l" name="icon_02.png" path="/images/" exported="true"/>
+    <component id="svx3hz9d7m" name="cityBtn.xml" path="/components/" exported="true"/>
+    <component id="svx31ygcfe3" name="cityBtn01.xml" path="/components/" exported="true"/>
+    <component id="svx3hz9d7n" name="cityStateBtn.xml" path="/components/" exported="true"/>
+    <image id="s3vb1ygcfe4" name="bg00.png" path="/images/" exported="true"/>
+    <component id="s3vb1ygcfe5" name="explain.xml" path="/components/" exported="true"/>
+    <image id="s3vb1ygcfe6" name="bg23.png" path="/images/" exported="true" scale="9grid" scale9grid="1,123,5,246"/>
+    <component id="p7it1ygcfep" name="SiegeReward.xml" path="/components/" exported="true"/>
+    <component id="p7it1ygcfer" name="ranking01_reward.xml" path="/components/" exported="true"/>
+    <component id="mo0r1ygcfes" name="position_reward_btn.xml" path="/components/"/>
+    <component id="mo0r1ygcfet" name="ranking_reward_btn.xml" path="/components/"/>
+    <image id="k8iz1ygcfe4" name="bg00.png" path="/images/" exported="true"/>
+    <image id="p8h91ygcfe4" name="bg00.png" path="/images/" exported="true"/>
+    <component id="dvd11ygcfe4" name="NeutralItem1.xml" path="/components/" exported="true"/>
+    <component id="l1vu1ygcfe6" name="explain.xml" path="/components/"/>
+    <component id="l1vu1ygcfe7" name="position_reward_btn.xml" path="/components/"/>
+    <component id="l1vu1ygcfe8" name="ranking01_reward.xml" path="/components/"/>
+    <component id="l1vu1ygcfe9" name="ranking_reward_btn.xml" path="/components/"/>
+    <component id="l1vu1ygcfea" name="SiegeReward.xml" path="/components/"/>
+    <image id="l1vu1ygcfeb" name="bg00.png" path="/images/" exported="true"/>
+    <image id="l1vu1ygcfec" name="bg23.png" path="/images/" exported="true"/>
+    <component id="k8iz1ygcfeu" name="NeutralCityMainView.xml" path="/panel/" exported="true"/>
+    <component id="k8iz1ygcfev" name="NeutralPlayDescView.xml" path="/panel/" exported="true"/>
+    <component id="l1vu1ygcfex" name="cityBtn02.xml" path="/components/" exported="true"/>
+    <component id="pvcv1ygcfey" name="NeutralCityRankView.xml" path="/panel/" exported="true"/>
+    <component id="sn9v1ygcff0" name="cityBtn00.xml" path="/components/" exported="true"/>
+    <image id="sn9v1ygcff1" name="collezionebtn01.png" path="/images/" exported="true"/>
+    <component id="nvzr1ygcff2" name="nullBtn.xml" path="/components/"/>
+    <image id="svx3hz9d7c" name="bg13.png" path="/images/" exported="true" scale="9grid" scale9grid="1,1,1125,619" atlas="alone" duplicatePadding="true" disableTrim="true"/>
+    <image id="tg9h1ygcff7" name="bg08.png" path="/images/"/>
+    <image id="tg9h1ygcff8" name="bg09.png" path="/images/"/>
+    <image id="tg9h1ygcff9" name="bg10.png" path="/images/"/>
+    <image id="tg9h1ygcffa" name="bg11.png" path="/images/"/>
+    <image id="tg9h1ygcffb" name="bg12.png" path="/images/"/>
+    <image id="tg9h1ygcffc" name="ranking01.png" path="/images/"/>
+    <image id="tg9h1ygcffd" name="ranking02.png" path="/images/"/>
+    <image id="tg9h1ygcffe" name="ranking03.png" path="/images/"/>
+    <image id="klt51ygcfff" name="bg1.png" path="/images/"/>
+    <image id="klt51ygcffg" name="bg14.png" path="/images/"/>
+    <image id="klt51ygcffh" name="bg15.png" path="/images/"/>
+    <image id="klt51ygcffi" name="bg2.png" path="/images/"/>
+    <image id="klt51ygcffj" name="bg3.png" path="/images/"/>
+    <component id="klt51iy5bbr" name="MoatPillarTipView.xml" path="/panel/" exported="true"/>
+    <component id="e1m31ygcffk" name="animationMainView.xml" path="/panel/" exported="true"/>
+    <component id="u5y41ygcffl" name="NeuGateTipView.xml" path="/panel/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://2f980fe2tauyhz9d00" designImageLayer="1">
+  <displayList>
+    <component id="n2_tauy" name="n2" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n4_tauy" name="n4" src="tauyhz9czu" fileName="images/Chapter_bg02.png" xy="214,58" group="n8_tauy"/>
+    <image id="n3_tauy" name="n3" src="tauyhz9czv" fileName="images/Chapter_bg03.png" xy="399,208" group="n8_tauy"/>
+    <loader id="n5_tauy" name="icon" xy="433,287" size="460,158" group="n8_tauy" url="ui://2f980fe2tauyhz9czw"/>
+    <image id="n6_tauy" name="n6" src="tauyhz9czt" fileName="images/Chapter_bg01.png" xy="324,70" pivot="0.5,0.5" group="n8_tauy"/>
+    <text id="n7_tauy" name="title" xy="461,120" pivot="0.5,0.5" size="409,34" group="n8_tauy" font="ui://2r331opvlwft3" fontSize="24" color="#fff3a0" text="Dragon action chapter opens"/>
+    <group id="n8_tauy" name="n8" xy="214,58" size="905,619" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n9_edfi" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+  </displayList>
+</component>

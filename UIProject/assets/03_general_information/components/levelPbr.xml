@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="365,18" extention="ProgressBar">
+  <displayList>
+    <image id="n0_ebe5" name="n0" src="ebe5z9cmw" fileName="images/images_new/com_strip_bg01.png" pkg="2r331opv" xy="0,0" size="365,18">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ebe5" name="bar" src="ebe5z9cmx" fileName="images/images_new/com_strip_bg02.png" pkg="2r331opv" xy="2,1" size="361,15">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

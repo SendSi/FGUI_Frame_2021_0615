@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="892,56" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n11_ax40" name="n11" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="892,56" alpha="0.5">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <image id="n12_ax40" name="n12" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="892,56">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <loader id="n6_we80" name="icon" xy="21,11" size="35,35" aspect="true" url="ui://lp3m5cuhvqdvhz9d2r" align="center" vAlign="middle" fill="scale"/>
+    <text id="n7_we80" name="name" xy="64,11" size="248,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" ubb="true" vars="true" autoSize="none" singleLine="true" autoClearText="true" text="等级4(官员)"/>
+    <image id="n10_we80" name="pic" src="vqdvhz9d2u" fileName="images/league_icon_alliancemember.png" xy="717,15" size="30,27" group="n18_ax40" aspect="true" alpha="0.6" color="#97794f"/>
+    <text id="n15_ax40" name="number" xy="749,11" size="76,34" group="n18_ax40" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="right" autoSize="none" autoClearText="true" text="15/90"/>
+    <image id="n16_ax40" name="n16" src="p11n1qp8vfe" fileName="images/images_new/com_arrow017.png" pkg="2r331opv" xy="832,12" pivot="0.5,0.5" size="39,32" group="n18_ax40" aspect="true" scale="0.8,0.8">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n17_ax40" name="n17" src="p11n1qp8vfd" fileName="images/images_new/com_arrow018.png" pkg="2r331opv" xy="832,12" pivot="0.5,0.5" size="39,32" group="n18_ax40" aspect="true" scale="0.8,0.8">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <group id="n18_ax40" name="n18" xy="717,11" size="154,34" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+  </displayList>
+  <Button mode="Check"/>
+</component>

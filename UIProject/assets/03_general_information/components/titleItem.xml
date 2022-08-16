@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,40" pivot="0.5,0.5">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n44_tkgc" name="n44" src="ihid1ygcfmp" fileName="images/images_new/com_change06.png" pkg="2r331opv" xy="0,0" size="400,40" alpha="0.5" color="#000000"/>
+    <loader id="n42_hxd7" name="icon" xy="12,3" size="35,35" url="ui://4hio38umtkgc1iy5ben" align="center" vAlign="middle" fill="scale" autoSize="true"/>
+    <text id="n25_oxy0" name="title" xy="48,3" size="52,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" shadowColor="#000000" shadowOffset="1,2" text="技能"/>
+  </displayList>
+</component>

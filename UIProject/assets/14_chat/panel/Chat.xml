@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" opaque="false" extention="Label" initName="frame">
+  <controller name="paging" pages="0,,1,,2,,3,,4,,5," selected="3">
+    <remark page="3" value="联盟"/>
+    <remark page="5" value="战斗"/>
+  </controller>
+  <controller name="hide" pages="1,,0," selected="1"/>
+  <displayList>
+    <graph id="n50_mmjk" name="mask" xy="0,0" size="1334,750" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="hide" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n35_dslz" name="right" src="dslz1w" fileName="panel/right.xml" xy="992,0">
+      <gearDisplay controller="paging" pages="4"/>
+      <gearXY controller="hide" pages="1,0" values="1345,0|992,0" tween="true"/>
+      <relation target="" sidePair="height-height,right-right"/>
+    </component>
+    <loader id="n0_g01i" name="n0" xy="0,0" size="844,750" group="n40_dslz" url="ui://62wjs2s2qa1u2w" fill="scaleFree">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+    <image id="n51_e7jj" name="n51" src="pkul3b" fileName="images/dialogue_bg03.png" xy="177,26" size="660,630" group="n40_dslz"/>
+    <image id="n46_fz9n" name="n46" src="itz02a" fileName="images/images_new/com_bg_mask.png" pkg="2r331opv" xy="181,609" size="651,43" group="n40_dslz" alpha="0.4" color="#000000">
+      <gearDisplay controller="paging" pages="4"/>
+      <relation target="" sidePair="right-left,bottom-bottom"/>
+    </image>
+    <image id="n48_fz9n" name="n48" src="hns1ga" fileName="images/icon_mail.png" pkg="2r331opv" xy="183,602" group="n40_dslz">
+      <gearDisplay controller="paging" pages="4"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <text id="n1_g01i" name="title_tips" xy="182,667" size="643,67" group="n40_dslz" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#a0d8f0" align="center" vAlign="middle" autoSize="none" singleLine="true" text="请切换至其它频道发言">
+      <gearDisplay controller="paging" pages="0"/>
+      <relation target="" sidePair="right-left,bottom-bottom"/>
+    </text>
+    <component id="n3_g01i" name="closeBtn" src="g01iq" fileName="components/components_new/Button_chose.xml" pkg="2r331opv" xy="844,299" pivot="0,0.5" group="n40_dslz">
+      <relation target="" sidePair="middle-middle,right-left"/>
+      <Button controller="hide" page="1"/>
+    </component>
+    <component id="n8_g01i" name="Button_01" src="g01i10" fileName="components/Button_paging01.xml" xy="11,23" group="n13_g01i">
+      <Button title="系统" controller="paging" page="0"/>
+    </component>
+    <component id="n9_g01i" name="Button_02" src="g01i10" fileName="components/Button_paging01.xml" xy="11,129" group="n13_g01i">
+      <Button title="世界" selectedTitle="世界" controller="paging" page="1"/>
+    </component>
+    <component id="n10_g01i" name="Button_03" src="g01i10" fileName="components/Button_paging01.xml" xy="11,235" group="n13_g01i">
+      <Button title="州府" controller="paging" page="2"/>
+    </component>
+    <component id="n11_g01i" name="Button_04" src="g01i10" fileName="components/Button_paging01.xml" xy="11,341" group="n13_g01i">
+      <Button checked="true" title="联盟" controller="paging" page="3"/>
+    </component>
+    <component id="n12_g01i" name="Button_05" src="g01i10" fileName="components/Button_paging01.xml" xy="11,447" group="n13_g01i">
+      <Button title="好友" controller="paging" page="4"/>
+    </component>
+    <component id="n52_i1n0" name="Button_06" src="g01i10" fileName="components/Button_paging01.xml" xy="11,553" group="n13_g01i">
+      <Button title="战斗" controller="paging" page="5"/>
+    </component>
+    <group id="n13_g01i" name="paging" xy="11,23" size="165,629" group="n40_dslz" advanced="true"/>
+    <component id="n14_g01i" name="Button_spirit" src="g01ir" fileName="components/Button_spirit.xml" xy="52,691" pivot="0.5,0.5" anchor="true" size="44,44" group="n40_dslz" visible="false">
+      <relation target="" sidePair="right-left,bottom-bottom"/>
+    </component>
+    <list id="n17_rbib" name="content" xy="197,46" size="620,590" group="n40_dslz" overflow="scroll" lineGap="6" defaultItem="ui://62wjs2s2rbib11" autoClearItems="true">
+      <gearDisplay controller="paging" pages="0"/>
+      <relation target="" sidePair="right-left,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n32_gu0z" name="content_01" xy="197,46" size="620,590" group="n40_dslz" overflow="scroll" lineGap="10" defaultItem="ui://62wjs2s2pa9w2g" autoClearItems="true">
+      <gearDisplay controller="paging" pages="1,2,3,4,5"/>
+      <gearSize controller="paging" pages="0,1,2,3,4,5" values="506,615,1,1|620,590,1,1|620,590,1,1|620,590,1,1|620,560,1,1|620,615,1,1"/>
+      <relation target="" sidePair="right-left,bottomext-bottom"/>
+      <item/>
+      <item url="ui://62wjs2s2pa9w2h"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n41_ee2i" name="btnUnread" src="ee2i2l" fileName="components/Button_unread.xml" xy="673,606" group="n40_dslz">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <richtext id="n43_ix8t" name="title_tips3" xy="225,310" size="561,67" group="n40_dslz" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#50382e" align="center" vAlign="middle" ubb="true" autoSize="none" underline="true" singleLine="true" text="&lt;a href=&apos;addLeague&apos;&gt;加入联盟&lt;/a&gt;">
+      <gearDisplay controller="paging" pages="3"/>
+      <relation target="" sidePair="middle-middle,right-left"/>
+    </richtext>
+    <text id="n47_fz9n" name="privateChat" xy="317,614" pivot="0.5,0.5" size="149,32" group="n40_dslz" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffe69f" align="center" vAlign="middle" leading="0" ubb="true" singleLine="true" autoClearText="true" text="正在与 [color=#ffffff]xx[/color]&#xA; 对话">
+      <gearDisplay controller="paging" pages="4"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <component id="n28_gu0z" name="below" src="gu0z18" fileName="components/below.xml" xy="182,659" group="n40_dslz">
+      <gearDisplay controller="paging" pages="1,2,3,4"/>
+      <relation target="" sidePair="right-left,bottom-bottom"/>
+    </component>
+    <group id="n40_dslz" name="left" xy="0,0" size="891,750" advanced="true">
+      <gearXY controller="hide" pages="1,0" values="-892,0|0,0" tween="true"/>
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </group>
+  </displayList>
+</component>

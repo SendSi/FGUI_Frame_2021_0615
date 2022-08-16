@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="741,50" designImageOffsetX="-186" designImageOffsetY="-382">
+  <displayList>
+    <image id="n1_b3sk" name="n1" src="o283z9cnq" fileName="images/images_new/com_change07.png" pkg="2r331opv" xy="32,12" size="658,27" alpha="0.1">
+      <relation target="n2_b3sk" sidePair="rightext-right"/>
+    </image>
+    <loader id="n0_b3sk" name="icon" xy="14,4" size="40,40" aspect="true" url="ui://2r331opvcxixz9cmd" align="center" vAlign="middle" fill="scale"/>
+    <text id="n2_b3sk" name="title" xy="55,10" size="589,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoClearText="true" text="Jion the alliance for the first time and you will get 300 gems"/>
+  </displayList>
+</component>

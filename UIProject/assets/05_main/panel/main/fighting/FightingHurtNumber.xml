@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="88,50" pivot="0.5,0.5" anchor="true" opaque="false" designImage="ui://4ni413lalk93kl" designImageOffsetX="-730" designImageOffsetY="-153">
+  <controller name="color" pages="0,,1,,2," selected="0">
+    <remark page="0" value="红色"/>
+    <remark page="1" value="绿色"/>
+    <remark page="2" value="白色"/>
+  </controller>
+  <displayList>
+    <richtext id="n1_lk93" name="number" xy="44,25" pivot="0.5,0.5" anchor="true" size="70,30" touchable="false" font="ui://2r331opvklrg1qp8vd1" fontSize="24" color="#ff5353" align="center" vAlign="middle" letterSpacing="-2" bold="true" autoClearText="true" text="+500">
+      <gearColor controller="color" pages="0,2" values="#ff5353,#1d1c1c|#ffffff,#1d1c1c" default="#5cff5c,#1d1c1c"/>
+    </richtext>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n1_lk93" tween="true" startValue="0.2" endValue="1" duration="6"/>
+    <item time="0" type="Scale" target="n1_lk93" tween="true" startValue="1.8,1.8" endValue="2.2,2.2" duration="2"/>
+    <item time="0" type="XY" target="n1_lk93" tween="true" startValue="45,43" endValue="44,8" duration="6"/>
+    <item time="2" type="Scale" target="n1_lk93" tween="true" startValue="2.2,2.2" endValue="1,1" duration="4"/>
+    <item time="6" type="XY" target="n1_lk93" tween="true" startValue="44,8" endValue="44,8" duration="6"/>
+    <item time="12" type="XY" target="n1_lk93" tween="true" startValue="44,8" endValue="44,0" duration="10"/>
+    <item time="16" type="Alpha" target="n1_lk93" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="22" type="Scale" target="n1_lk93" value="1,1"/>
+  </transition>
+</component>

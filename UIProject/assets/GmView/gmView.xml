@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <graph id="n11_h7e5" name="n11" xy="-1383,0" size="1334,750" group="n12_cu6w" type="rect" lineSize="0" fillColor="#ff003958">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n0_h7e5" name="tabs" xy="-1304,30" size="266,618" group="n12_cu6w" overflow="scroll" defaultItem="ui://21uyefv8e3cq8">
+      <relation target="" sidePair="rightext-right%,bottomext-bottom,leftext-left%"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n2_h7e5" name="btns" xy="-1033,30" size="450,618" group="n12_cu6w" overflow="scroll" lineGap="5" defaultItem="ui://21uyefv8h7e53">
+      <relation target="" sidePair="rightext-right%,bottomext-bottom,leftext-left%"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n3_h7e5" name="records" xy="-579,30" size="450,618" group="n12_cu6w" overflow="scroll" margin="0,0,10,10" lineGap="5" defaultItem="ui://21uyefv8h7e54">
+      <relation target="" sidePair="rightext-right%,bottomext-bottom,leftext-left%"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n6_h7e5" name="inputBg" xy="-1304,658" size="940,72" group="n12_cu6w" type="rect" corner="15">
+      <relation target="" sidePair="bottom-bottom,rightext-right"/>
+    </graph>
+    <text id="n5_h7e5" name="input" xy="-1304,656" size="938,72" group="n12_cu6w" fontSize="26" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="gm gm gm gm " input="true">
+      <relation target="" sidePair="bottom-bottom,rightext-right"/>
+    </text>
+    <component id="n10_h7e5" name="closeBtn" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="-121,0" size="72,72" group="n12_cu6w" aspect="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n12_cu6w" name="n12" xy="-1383,0" size="1334,750" advanced="true">
+      <gearXY controller="c1" pages="0,1" values="0,0,0,-0.001|-1383,0,-1.037,0" tween="true" positionsInPercent="true"/>
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </group>
+    <component id="n15_cu6w" name="n15" src="cu6w7" fileName="components/switch.xml" xy="1243,253">
+      <relation target="" sidePair="top-top%,rightext-right%,leftext-left%"/>
+      <Button checked="true" controller="c1" page="1"/>
+    </component>
+    <component id="n9_h7e5" name="send" src="h7e55" fileName="components/btn.xml" xy="1026,658">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n16_e3cq" name="sendCloseBtn" src="c1q9hz9cug" fileName="components/components_new/com_btn_check4.xml" pkg="2r331opv" xy="1205,649"/>
+    <text id="n17_e3cq" name="tipToggleTxt" xy="1177,701" pivot="0.5,0.5" size="84,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ff0000" text="发送关闭"/>
+    <component id="n19_edl2" name="lightCtrlSlider" src="edl2chp" fileName="Slider1.xml" xy="849,171" size="200,10">
+      <gearDisplay controller="c1" pages="1"/>
+      <Slider max="100"/>
+    </component>
+    <component id="n20_b9d6" name="lightShowBtn" src="c1q9hz9cug" fileName="components/components_new/com_btn_check4.xml" pkg="2r331opv" xy="786,152">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

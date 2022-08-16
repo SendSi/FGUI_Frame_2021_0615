@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" designImageAlpha="54">
+  <displayList>
+    <component id="n1_mmv0" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-145,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_mmv0" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="17,3">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n17_d8di" name="n17" src="bik7hz9cyq" fileName="components/components_new/Popup_bg.xml" pkg="2r331opv" xy="357,89" size="618,576" group="n22_d8di"/>
+    <image id="n19_d8di" name="n19" pkg="2r331opv" src="o6syhz9cyj" fileName="images/images_new/com_bg_tips05_framePattern.png" xy="531,60" group="n22_d8di">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n20_d8di" name="n20" pkg="2r331opv" src="jwslhz9cyc" fileName="images/images_new/com_bg_tips05_c.png" xy="492,148" group="n22_d8di">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n5_mmv0" name="titleTxt" xy="608,103" pivot="0.5,0.5" size="118,36" group="n22_d8di" font="ui://2r331opvlwft3" fontSize="26" color="#ffffff" autoClearText="true" text="Access"/>
+    <component id="n18_d8di" name="icon" src="j842hz9cyi" fileName="components/components_new/comItem.xml" pkg="2r331opv" xy="385,159" group="n16_mmv0" scale="0.85,0.85"/>
+    <text id="n7_mmv0" name="name" xy="491,175" pivot="0.5,0.5" size="203,29" group="n16_mmv0" fontSize="20" color="#ffffff" ubb="true" autoClearText="true" text="There are not enough "/>
+    <text id="n12_mmv0" name="n12" xy="489,216" size="64,29" group="n16_mmv0" fontSize="20" color="#ffffff" autoClearText="true" text="进度："/>
+    <text id="n13_mmv0" name="count" xy="554,214" size="32,29" group="n16_mmv0" fontSize="20" color="#ffffff" ubb="true" autoClearText="true" text="3[color=#F45F5F]/6[/color]">
+      <relation target="n12_mmv0" sidePair="left-right"/>
+    </text>
+    <group id="n16_mmv0" name="left" xy="385,159" size="313,140" group="n22_d8di" advanced="true">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </group>
+    <list id="n14_mmv0" name="getWayList" xy="383,265" size="568,388" group="n22_d8di" overflow="scroll" lineGap="10" defaultItem="ui://4hio38ummmv032">
+      <relation target="" sidePair="rightext-right,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n22_d8di" name="n22" xy="357,60" size="618,605" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

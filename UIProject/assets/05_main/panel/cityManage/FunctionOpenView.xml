@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label">
+  <displayList>
+    <graph id="n2_fu7n" name="n2" xy="0,0" size="1334,750" type="rect" lineSize="0" fillColor="#7f000000"/>
+    <image id="n0_fu7n" name="n0" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="392,31" size="550,376" group="n5_fu7n"/>
+    <image id="n7_rb01" name="n7" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="584,46" pivot="0.5,0.5" size="166,166" group="n5_fu7n" aspect="true" alpha="0.5" color="#ceaf6e"/>
+    <loader id="n1_fu7n" name="n1" xy="617,78" size="100,100" group="n5_fu7n" url="ui://tsbe09ddeaah9cj7" fill="scaleFree"/>
+    <text id="n3_fu7n" name="n3" xy="667,203" pivot="0.5,0.5" anchor="true" size="133,34" group="n5_fu7n" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#845744" align="center" vAlign="middle" autoClearText="true" text="系统名2341"/>
+    <image id="n6_ihid" name="n6" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" xy="424,225" size="486,150" group="n5_fu7n" alpha="0.3" color="#97794f"/>
+    <text id="n4_fu7n" name="n4" xy="667,230" pivot="0.5,0" anchor="true" size="472,139" group="n5_fu7n" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" autoSize="none" autoClearText="true" text="描述内容描述内容描述内容&#xA;描述内容描述内容描述内容"/>
+    <group id="n5_fu7n" name="n5" xy="392,31" size="550,376" advanced="true"/>
+  </displayList>
+  <transition name="t1" autoPlay="true">
+    <item time="0" type="XY" target="n5_fu7n" tween="true" startValue="392,21" endValue="392,31" duration="12"/>
+  </transition>
+</component>

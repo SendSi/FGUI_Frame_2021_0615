@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,56" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="produce" pages="0,icon,5,免费加速,7,招募,8,联盟加速,10,领取预备兵,11,普通宝箱,12,高级宝箱,13,研究,14,礼包,15,采集" selected="0"/>
+  <displayList>
+    <image id="n5_d4a6" name="bg" src="qdf6hz9cue" fileName="images/buliding/building_bg_bubble01.png" xy="0,1" size="101,113" aspect="true" scale="0.5,0.5" alpha="0.95">
+      <gearDisplay controller="produce" pages="0,8,10,11,12,13,14,15"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n8_qdf6" name="n8" src="qdf6hz9cud" fileName="images/buliding/building_bg_bubble02.png" xy="-19,18" pivot="0.5,0.5" size="89,51" scale="0.5,0.5" alpha="0.7">
+      <gearDisplay controller="produce" pages="5,7"/>
+      <relation target="n7_q1fc" sidePair="width-width"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n13_mtb6" name="iconbg" xy="9,9" size="110,112" scale="0.3,0.3" url="ui://2r331opv94959" fill="scale" autoSize="true">
+      <gearDisplay controller="produce" pages="13"/>
+    </loader>
+    <loader id="n3_7lo1" name="icon" xy="-16,-17" pivot="0.5,0.5" size="83,88" aspect="true" scale="0.4,0.4" url="ui://tsbe09ddlo3eg" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="produce" pages="0,8,10,11,12,13,14,15"/>
+      <gearXY controller="produce" pages="0,5,7,8,10,11,12,13,14,15" values="-16,-17|-15,-9|-13,-16|-15,-17|-17,-17|-17,-21|-17,-21|-16,-8|-16,-22|-17,-23"/>
+      <gearSize controller="produce" pages="0,5,7,8,10,11,12,13,14,15" values="83,88,0.4,0.4|83,88,0.3,0.3|83,88,0.3,0.3|83,88,0.4,0.4|81,85,0.4,0.4|92,94,0.4,0.4|92,94,0.4,0.4|66,66,0.4,0.4|94,99,0.4,0.4|92,98,0.4,0.4"/>
+      <gearIcon controller="produce" pages="0,5,8,10,11,12,13,14,15" values="ui://tsbe09ddlo3eg||ui://01_4_prop/item_16|ui://tsbe09ddmz4wd|ui://4ni413lagflyhz9d2g|ui://4ni413lagflyhz9d2h|ui://madu8sceiusrz9clw|ui://4ni413laufp91ygcfkj|ui://4ni413la8lkd1ygcfl4" default="ui://4ni413lad4a6j5"/>
+      <relation target="" sidePair="width-width,height-height,center-center"/>
+    </loader>
+    <text id="n7_q1fc" name="title" xy="-4,27" pivot="0.5,0.5" size="61,24" scale="0.5,0.5" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#6cff80" leading="-3" singleLine="true" autoClearText="true" text="Recruit">
+      <gearDisplay controller="produce" pages="5,7"/>
+      <gearColor controller="produce" pages="5,7,8" values="#298a34,#000000|#298a34,#000000|#298a34,#000000" default="#6cff80,#000000"/>
+      <gearText controller="produce" pages="5,7,8" values="免费加速|招募|联盟加速" default="Recruit"/>
+    </text>
+    <component id="n6_dmq8" name="Effect_ui_button_tips_produce" src="ayljdv" fileName="components/EffectHandle.xml" pkg="2r331opv" xy="18,18" scale="0.5,0.5" touchable="false" customData="73"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

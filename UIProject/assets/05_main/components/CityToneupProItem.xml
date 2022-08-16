@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1153,119" designImage="ui://4ni413lad4a6jd" designImageOffsetX="-315" designImageOffsetY="-129">
+  <controller name="state" pages="0,use,1,buy" selected="0"/>
+  <displayList>
+    <image id="n0_d4a6" name="n0" pkg="2r331opv" src="9deicg4" fileName="images/com_bg_itembtn.png" xy="0,0" size="1153,119">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <component id="n1_d4a6" name="icon" pkg="2r331opv" src="i8bsj2" fileName="components/com_prop_icon3.xml" xy="11,10"/>
+    <text id="n2_d4a6" name="title" xy="116,22" size="378,36" fontSize="26" color="#06cadf" ubb="true" autoSize="none" autoClearText="true" text="[color=#06CADF]跟随道具[/color][color=#ba6fff]品质颜色变化[/color]"/>
+    <text id="n3_d4a6" name="introduceLbl" xy="118,61" size="775,36" fontSize="22" color="#ffffff" autoSize="none" autoClearText="true" text="获得8小时免战状态，解释说明解释说明解释说明"/>
+    <text id="n5_d4a6" name="number" xy="977,15" size="94,32" group="n9_d4a6" fontSize="22" color="#ffffff" autoClearText="true" text="数量：96"/>
+    <component id="n4_d4a6" name="useBtn" src="94951z" fileName="components/common_btn_main.xml" pkg="2r331opv" xy="923,45" size="202,60" group="n9_d4a6">
+      <Button title="使用" icon="ui://2r331opv94952"/>
+    </component>
+    <group id="n9_d4a6" name="use" xy="923,15" size="202,90" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <richtext id="n7_d4a6" name="price" xy="918,12" size="212,36" group="n8_d4a6" fontSize="26" color="#eddca8" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="图标 4"/>
+    <component id="n6_d4a6" name="buyBtn" src="94951z" fileName="components/common_btn_main.xml" pkg="2r331opv" xy="923,45" size="202,60" group="n8_d4a6">
+      <Button title="购买并使用" icon="ui://2r331opv9495z"/>
+    </component>
+    <group id="n8_d4a6" name="bug" xy="918,12" size="212,93" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+  </displayList>
+</component>

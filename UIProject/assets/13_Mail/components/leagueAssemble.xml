@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="733,511">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="收到的邮件"/>
+    <remark page="1" value="发送者的邮件"/>
+  </controller>
+  <displayList>
+    <image id="n84_mloz" name="n84" src="mlozhz9czu" fileName="images/bg_06.png" xy="0,207" size="734,40" alpha="0.3">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <richtext id="n76_j9d9" name="unionLbl_01" xy="27,0" size="706,183" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" leading="6" ubb="true" autoSize="none" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="今日[color=#94e957]8:00[/color]将攻打[color=#ff6464]XXX[/color]，是否前往[color=#94e957]地址[/color]，此处是邮件内容！">
+      <relation target="" sidePair="rightext-right"/>
+    </richtext>
+    <text id="n77_j9d9" name="unionLbl_02" xy="26,210" size="707,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffb361" leading="6" ubb="true" autoSize="none" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="这是一封集结邮件，是否迁城至目的地？">
+      <gearText controller="state" pages="1" values="点击下方按钮查看朋友们的集结情况" default="这是一封集结邮件，是否迁城至目的地？"/>
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <component id="n80_j9d9" name="seeBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="400,433" size="201,78">
+      <gearXY controller="state" pages="0,1" values="400,433|266,433"/>
+      <relation target="" sidePair="center-center"/>
+      <Button title="查看" titleFontSize="28"/>
+    </component>
+    <component id="n79_j9d9" name="transferBtn" src="d5so1ygcfk6" fileName="components/components_new/com_btn_buy1.xml" pkg="2r331opv" xy="106,433" size="201,78" group="n83_j9d9">
+      <Button title="迁城" titleFontSize="28"/>
+    </component>
+    <component id="n81_j9d9" name="coordinateTitle" src="jvu0ci2" fileName="components/components_new/com_btn_lbl_lines.xml" pkg="2r331opv" xy="284,374" size="140,35" group="n83_j9d9">
+      <Button title="X:135  Y:541"/>
+    </component>
+    <loader id="n85_mloz" name="n85" xy="291,261" pivot="0.5,0.5" size="128,128" group="n83_j9d9" aspect="true" url="ui://ufsajnnzmv54hz9cz6" fill="scale"/>
+    <group id="n83_j9d9" name="n83" xy="106,261" size="318,250" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

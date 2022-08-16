@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="156,37" extention="Button" designImageOffsetX="-221" designImageOffsetY="-10" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_eaah" name="n0" src="c4umz9cn9" fileName="images/images_new/com_bg_mask3.png" pkg="2r331opv" xy="0,4" size="156,28" alpha="0.4">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_eaah" name="title" xy="37,-1" size="120,37" font="ui://2r331opvlwft3" fontSize="20" color="#ffffff" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="活跃度:0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n2_eaah" name="icon" xy="0,0" size="35,37" url="ui://tsbe09ddmz4w4" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

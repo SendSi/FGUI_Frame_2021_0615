@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://jqem9egtpns61ygcfgr" designImageAlpha="30" designImageLayer="1">
+  <controller name="ownGeneral" pages="0,,1," selected="0">
+    <remark page="0" value="yes"/>
+    <remark page="1" value="no"/>
+  </controller>
+  <displayList>
+    <loader id="n282_pns6" name="bg" xy="-168,0" size="1670,750" url="ui://jqem9egtphj41ygcffy" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n275_phj4" name="bg0" src="phj41ygcffy" fileName="images_new/troop_bg0.jpg" xy="667,375" pivot="0.5,0.5" anchor="true" size="1670,750">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n204_t5o5" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" alpha="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n163_jzi1" name="window" src="o6syz9cqp" fileName="components/TroopWindow.xml" xy="-82,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n211_11wz9" name="n211" src="xjmv1qp8vf8" fileName="images/images_new/com_bg_tips02_mask4.png" pkg="2r331opv" xy="-288,82" size="277,640" group="n216_11wz9"/>
+    <image id="n281_l988" name="n281" src="lavj1ygcff7" fileName="images/images_new/negative04.png" pkg="2r331opv" xy="-282,88" size="265,58" group="n216_11wz9"/>
+    <text id="n212_11wz9" name="hadNum" xy="-241,93" size="94,42" group="n216_11wz9" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffffff" letterSpacing="-1" autoSize="none" strokeColor="#322b63" shadowColor="#322b63" shadowOffset="2,3" singleLine="true" autoClearText="true" text="18/60"/>
+    <component id="n213_11wz9" name="cbox" src="j4951ygcffu" fileName="components/TroopsCbox.xml" xy="-145,96" size="115,38" group="n216_11wz9">
+      <ComboBox title="战力" visibleItemCount="10">
+        <item title="品质"/>
+        <item title="等级"/>
+        <item title="星级"/>
+        <item title="战力"/>
+      </ComboBox>
+    </component>
+    <list id="n214_11wz9" name="generalList" xy="-290,712" pivot="0,1" anchor="true" size="290,569" group="n216_11wz9" layout="flow_hz" overflow="scroll" scrollBarFlags="1024" lineGap="-1" colGap="-51" defaultItem="ui://2r331opvhxd7hz9d7l" autoItemSize="true" autoClearItems="true">
+      <gearSize controller="ownGeneral" pages="0,1" values="290,569,1,1|290,456,1,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item url="ui://4hio38umcl07hz9d0p"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n215_11wz9" name="n215" src="hxd7hz9d78" fileName="images/hero_icon01.png" pkg="4hio38um" xy="-273,97" size="34,34" group="n216_11wz9"/>
+    <richtext id="n217_uxut" name="genListNoneTip" xy="-271,155" size="245,99" group="n216_11wz9" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="当前无可配置英雄，请前往招募英雄！">
+      <gearDisplay controller="ownGeneral" pages="1"/>
+    </richtext>
+    <group id="n216_11wz9" name="tweenGenList" xy="-290,82" size="290,640" advanced="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
+    <component id="n264_pl8o" name="right_attr" src="c68p1ygcfgx" fileName="components/right_at.xml" xy="687,0">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n283_c68p" name="retu" src="c68p1ygcfgw" fileName="components/return.xml" xy="0,0"/>
+    <component id="n278_gipz" name="passiveBtn" src="v5loz9cqn" fileName="components/skillBtn.xml" xy="650,655" size="54,72">
+      <relation target="n163_jzi1" sidePair="right-right"/>
+      <Button title="培养" titleFontSize="20"/>
+    </component>
+    <component id="n279_tj0x" name="ribbonTip" src="tj0x1ygcfg3" fileName="components/TroopStreamer.xml" xy="586,140" pivot="0.5,0.5" anchor="true" visible="false">
+      <relation target="" sidePair="center-center"/>
+    </component>
+  </displayList>
+  <transition name="admission" autoPlay="true">
+    <item time="0" type="Alpha" target="n163_jzi1" tween="true" startValue="0" endValue="0.5" duration="4"/>
+    <item time="0" type="Alpha" target="n264_pl8o" tween="true" startValue="0" endValue="0.1" duration="3"/>
+    <item time="0" type="Alpha" target="n278_gipz" tween="true" startValue="0" endValue="0.5" duration="4"/>
+    <item time="0" type="Alpha" target="n283_c68p" tween="true" startValue="0" endValue="0.7" duration="4" ease="Linear"/>
+    <item time="0" type="Color" target="n275_phj4" tween="true" startValue="#666666" endValue="#cccccc" duration="4"/>
+    <item time="0" type="XY" target="n264_pl8o" tween="true" startValue="1027,0" endValue="677,0" duration="8" ease="Custom" customEase="2,0,0,0.3875001,0.3775,0.7075,0.7000002,1,0,1,1"/>
+    <item time="0" type="XY" target="n283_c68p" tween="true" startValue="-270,0" endValue="10,0" duration="6"/>
+    <item time="3" type="Alpha" target="n264_pl8o" tween="true" startValue="0.1" endValue="0.7" duration="5"/>
+    <item time="4" type="Alpha" target="n163_jzi1" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="4" type="Alpha" target="n278_gipz" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="4" type="Alpha" target="n283_c68p" tween="true" startValue="0.7" endValue="1" duration="8" ease="Linear"/>
+    <item time="4" type="Color" target="n275_phj4" tween="true" startValue="#cccccc" endValue="#ffffff" duration="8"/>
+    <item time="6" type="XY" target="n283_c68p" tween="true" startValue="10,0" endValue="0,0" duration="6" ease="Linear"/>
+    <item time="8" type="Alpha" target="n264_pl8o" tween="true" startValue="0.7" endValue="1" duration="4"/>
+    <item time="8" type="XY" target="n264_pl8o" tween="true" startValue="677,0" endValue="687,0" duration="4"/>
+  </transition>
+  <transition name="click">
+    <item time="0" type="Alpha" target="n216_11wz9" tween="true" startValue="0" endValue="0.1" duration="3"/>
+    <item time="0" type="Alpha" target="n264_pl8o" tween="true" startValue="0" endValue="0.1" duration="3"/>
+    <item time="0" type="Alpha" target="n283_c68p" tween="true" startValue="0" endValue="0.7" duration="4" ease="Linear"/>
+    <item time="0" type="Scale" target="n275_phj4" tween="true" startValue="1,1" endValue="1.1,1.1" duration="6"/>
+    <item time="0" type="XY" target="n163_jzi1" tween="true" startValue="-105,0" endValue="19,0" duration="12" ease="Back.Out"/>
+    <item time="0" type="XY" target="n216_11wz9" tween="true" startValue="-295,82" endValue="19,82" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n264_pl8o" tween="true" startValue="1027,0" endValue="677,0" duration="8" ease="Custom" customEase="2,0,0,0.3875001,0.3775,0.7075,0.7000002,1,0,1,1"/>
+    <item time="0" type="XY" target="n283_c68p" tween="true" startValue="-270,0" endValue="10,0" duration="6"/>
+    <item time="3" type="Alpha" target="n216_11wz9" tween="true" startValue="0.1" endValue="0.7" duration="5"/>
+    <item time="3" type="Alpha" target="n264_pl8o" tween="true" startValue="0.1" endValue="0.7" duration="5"/>
+    <item time="4" type="Alpha" target="n283_c68p" tween="true" startValue="0.7" endValue="1" duration="8" ease="Linear"/>
+    <item time="6" type="Scale" target="n275_phj4" tween="true" startValue="1.1,1.1" endValue="1.12,1.12" duration="3"/>
+    <item time="6" type="XY" target="n216_11wz9" tween="true" startValue="19,82" endValue="9,82" duration="6"/>
+    <item time="6" type="XY" target="n283_c68p" tween="true" startValue="10,0" endValue="0,0" duration="6" ease="Linear"/>
+    <item time="8" type="Alpha" target="n216_11wz9" tween="true" startValue="0.7" endValue="1" duration="4"/>
+    <item time="8" type="Alpha" target="n264_pl8o" tween="true" startValue="0.7" endValue="1" duration="4"/>
+    <item time="8" type="XY" target="n264_pl8o" tween="true" startValue="677,0" endValue="687,0" duration="4"/>
+  </transition>
+  <transition name="quit">
+    <item time="0" type="Alpha" target="n163_jzi1" tween="true" startValue="1" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n278_gipz" tween="true" startValue="1" endValue="0.5" duration="6"/>
+    <item time="0" type="Scale" target="n283_c68p" tween="true" startValue="0.9,1" endValue="0.7,0.7" duration="3" ease="Linear"/>
+    <item time="3" type="Scale" target="n283_c68p" tween="true" startValue="0.7,0.7" endValue="1.2,1.2" duration="3" ease="Linear"/>
+    <item time="4" type="XY" target="n264_pl8o" tween="true" startValue="687,0" endValue="668,0" duration="4" ease="Linear"/>
+    <item time="6" type="Alpha" target="n163_jzi1" tween="true" startValue="0.5" endValue="0" duration="4"/>
+    <item time="6" type="Alpha" target="n278_gipz" tween="true" startValue="0.5" endValue="0" duration="4"/>
+    <item time="6" type="Scale" target="n283_c68p" tween="true" startValue="1.2,1.2" endValue="1,1" duration="2" ease="Linear"/>
+    <item time="7" type="XY" target="n283_c68p" tween="true" startValue="0,0" endValue="-202,0" duration="5"/>
+    <item time="8" type="XY" target="n264_pl8o" tween="true" startValue="668,0" endValue="860,0" duration="4" ease="Linear"/>
+    <item time="9" type="Alpha" target="n264_pl8o" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="9" type="Alpha" target="n283_c68p" tween="true" startValue="1" endValue="0" duration="3"/>
+  </transition>
+  <transition name="quit2">
+    <item time="0" type="Alpha" target="n163_jzi1" tween="true" startValue="1" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n278_gipz" tween="true" startValue="1" endValue="0.5" duration="6"/>
+    <item time="0" type="Scale" target="n283_c68p" tween="true" startValue="0.9,1" endValue="0.7,0.7" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n216_11wz9" tween="true" startValue="9,82" endValue="9,82" duration="4" ease="Linear"/>
+    <item time="3" type="Scale" target="n283_c68p" tween="true" startValue="0.7,0.7" endValue="1.2,1.2" duration="3" ease="Linear"/>
+    <item time="4" type="XY" target="n216_11wz9" tween="true" startValue="9,82" endValue="19,82" duration="4" ease="Linear"/>
+    <item time="4" type="XY" target="n264_pl8o" tween="true" startValue="687,0" endValue="668,0" duration="4" ease="Linear"/>
+    <item time="6" type="Alpha" target="n163_jzi1" tween="true" startValue="0.5" endValue="0" duration="4"/>
+    <item time="6" type="Alpha" target="n278_gipz" tween="true" startValue="0.5" endValue="0" duration="4"/>
+    <item time="6" type="Scale" target="n283_c68p" tween="true" startValue="1.2,1.2" endValue="1,1" duration="2" ease="Linear"/>
+    <item time="7" type="XY" target="n283_c68p" tween="true" startValue="0,0" endValue="-202,0" duration="5"/>
+    <item time="8" type="XY" target="n216_11wz9" tween="true" startValue="19,82" endValue="-173,82" duration="4" ease="Linear"/>
+    <item time="8" type="XY" target="n264_pl8o" tween="true" startValue="668,0" endValue="860,0" duration="4" ease="Linear"/>
+    <item time="9" type="Alpha" target="n216_11wz9" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="9" type="Alpha" target="n264_pl8o" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="9" type="Alpha" target="n283_c68p" tween="true" startValue="1" endValue="0" duration="3"/>
+  </transition>
+</component>

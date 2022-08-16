@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="892,72" designImageOffsetX="-262" designImageOffsetY="-306">
+  <displayList>
+    <image id="n17_spur" name="n17" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="892,71" alpha="0.3" color="#97794f"/>
+    <text id="n15_spur" name="txtLeague" xy="40,19" pivot="0.5,0.5" size="172,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" singleLine="true" autoClearText="true" text="联盟名称巴拉巴"/>
+    <text id="n18_jl0s" name="txtRole" xy="324,19" pivot="0.5,0.5" size="148,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" singleLine="true" autoClearText="true" text="盟主巴拉巴拉"/>
+    <component id="n26_jl0s" name="btnAgree" src="dfgw1ygcfmd" fileName="components/components_new/com_btn_0002.xml" pkg="2r331opv" xy="606,9">
+      <Button title="同意"/>
+    </component>
+    <component id="n27_jl0s" name="btnRefuse" src="dfgw1ygcfme" fileName="components/components_new/com_btn_0003.xml" pkg="2r331opv" xy="757,9">
+      <Button title="拒绝"/>
+    </component>
+  </displayList>
+</component>

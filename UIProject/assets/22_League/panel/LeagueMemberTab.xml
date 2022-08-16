@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageOffsetX="-211">
+  <displayList>
+    <component id="n49_vqdv" name="n49" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n47_10iit"/>
+    <image id="n28_pz0v" name="bg" src="jnfz1ygcgns" fileName="images/images_new/windowBg_new/welfare_btn_bg25.png" pkg="2r331opv" xy="189,156" pivot="0.5,0.5" size="958,101" group="n56_vqdv"/>
+    <component id="n50_vqdv" name="Icon" src="ho0c1ygcgnt" fileName="components/components_new/btn_head6.xml" pkg="2r331opv" xy="334,139" group="n56_vqdv" scale="0.6,0.6"/>
+    <image id="n51_vqdv" name="n51" src="vqdvhz9d2l" fileName="images/league_leader_icon.png" xy="284,176" size="44,44" group="n56_vqdv" aspect="true"/>
+    <text id="n52_vqdv" name="txtName" xy="461,171" size="273,34" group="n56_vqdv" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#b26105" ubb="true" shadowColor="#ffe765" shadowOffset="1,2" singleLine="true" autoClearText="true" text="盟主名字: MyNameMike"/>
+    <text id="n53_vqdv" name="txtPower" xy="462,198" size="114,29" group="n56_vqdv" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#b26105" ubb="true" vars="true" shadowColor="#ffe765" shadowOffset="1,1" singleLine="true" autoClearText="true" text="战力: 43682"/>
+    <component id="n55_vqdv" name="explainBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="998,165" size="74,66" group="n56_vqdv" alpha="0.5">
+      <Button icon="ui://2r331opvcmlrhz9cyn"/>
+    </component>
+    <group id="n56_vqdv" name="n56" xy="189,139" size="958,210" group="n47_10iit"/>
+    <list id="n26_eh0p" name="memberList" xy="222,264" size="892,330" group="n47_10iit" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" lineGap="8" colGap="6" defaultItem="ui://lp3m5cuhwe80hz9d63" autoClearItems="true" treeView="true" indent="4" clickToExpand="1">
+      <item level="0"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+      <item level="0"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+      <item level="0"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+      <item level="0"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+      <item url="ui://lp3m5cuhvqdvhz9d2o" level="1"/>
+    </list>
+    <component id="n60_q5gk" name="reviewBtn" src="v12y1ygcflk" fileName="components/LeagueBtn6.xml" xy="472,603" group="n47_10iit">
+      <Button title="审核" titleFontSize="24"/>
+    </component>
+    <component id="n62_v12y" name="dailyBtn" src="v12y1ygcflk" fileName="components/LeagueBtn6.xml" xy="688,603" group="n47_10iit">
+      <Button title="日志" titleFontSize="24" icon="ui://lp3m5cuhv12y1ygcfll"/>
+    </component>
+    <group id="n47_10iit" name="n47" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="34,33" designImageOffsetX="-440" designImageOffsetY="-370" designImageAlpha="21">
+  <controller name="state" pages="0,,2," selected="0">
+    <remark page="0" value="normal"/>
+    <remark page="1" value="点亮"/>
+  </controller>
+  <displayList>
+    <loader id="n13_lvki" name="bg" xy="0,0" size="34,33" url="ui://4hio38umlvki1iy5bfi" autoSize="true"/>
+    <image id="n14_lvki" name="icon" src="lvki1iy5bfj" fileName="images/hero_point2.png" xy="0,0">
+      <gearDisplay controller="state" pages="2"/>
+    </image>
+  </displayList>
+</component>

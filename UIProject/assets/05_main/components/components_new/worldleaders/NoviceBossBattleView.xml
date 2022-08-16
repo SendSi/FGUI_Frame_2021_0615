@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" initName="frame">
+  <displayList>
+    <component id="n142_g38x" name="rankPanel" src="ta9jhz9czz" fileName="components/components_new/worldleaders/left_worldLeaders.xml" xy="11,172">
+      <relation target="" sidePair="left-left"/>
+    </component>
+    <component id="n145_g38x" name="exitBtn" src="ta9jhz9d03" fileName="components/components_new/worldleaders/signOutBtn.xml" xy="10,55">
+      <relation target="" sidePair="left-left"/>
+    </component>
+    <image id="n146_g38x" name="n146" src="tg9h1qp8vhr" fileName="images/chief/chiefPb00.png" xy="416,68" size="633,42" group="n154_eh3a"/>
+    <text id="n147_g38x" name="bossName" xy="571,44" size="309,29" group="n154_eh3a" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ff757b" vAlign="middle" strokeColor="#3b0200" strokeSize="2" shadowColor="#3b0200" shadowOffset="2,2" autoClearText="true" text="boss名称【归属：联盟名称六字】"/>
+    <component id="n148_g38x" name="barh_01" src="happ1qp8vh4" fileName="components/components_new/Personal_leader/bar_01.xml" xy="421,73" size="623,32" group="n154_eh3a" alpha="0.5">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n149_g38x" name="bar_01" src="happ1qp8vh4" fileName="components/components_new/Personal_leader/bar_01.xml" xy="421,73" size="623,32" group="n154_eh3a">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n150_g38x" name="pbrLbl" xy="957,73" size="74,32" group="n154_eh3a" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" align="right" vAlign="middle" autoSize="none" italic="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="x9"/>
+    <image id="n151_g38x" name="n151" src="tg9h1qp8vht" fileName="images/chief/boss_bg00.png" xy="350,45" group="n154_eh3a"/>
+    <loader id="n152_g38x" name="icon" xy="357,52" pivot="0.5,0.5" size="74,74" group="n154_eh3a" url="ui://4ni413latg9h1qp8vhs" fill="scale"/>
+    <group id="n154_eh3a" name="bossHp" xy="350,44" size="699,89" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

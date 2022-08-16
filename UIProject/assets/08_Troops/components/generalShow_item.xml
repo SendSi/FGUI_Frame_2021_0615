@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="421,438" designImageOffsetX="-531" designImageOffsetY="-113" designImageAlpha="54">
+  <controller name="quality" pages="0,,1,,2,,3,,4," selected="0"/>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="1" value="空"/>
+  </controller>
+  <displayList>
+    <image id="n141_o283" name="n141" pkg="jqem9egt" src="o283z9cm5" fileName="images/bg02.png" xy="1,33" group="n154_ilfe">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n86_m95u" name="Effect_ui_ShangZhen_01" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="179,205" size="50,50" group="n154_ilfe" touchable="false">
+      <relation target="n141_o283" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n154_ilfe" name="n154" xy="1,33" size="409,395"/>
+    <component id="n140_o283" name="generaIcon" src="o283z9cme" fileName="components/troopsGeneral_show.xml" xy="20,44">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n142_o283" name="n142" pkg="jqem9egt" src="o283z9cm6" fileName="images/bg03.png" xy="1,33">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n152_m7yv" name="n152" pkg="jqem9egt" src="m7yvz9cnu" fileName="images/bg00.png" xy="55,7">
+      <relation target="" sidePair="top-top,rightext-right%,leftext-left%"/>
+    </image>
+    <text id="n143_o283" name="n143" xy="174,9" size="64,42" font="ui://2r331opvlwft3" fontSize="30" color="#f9ed6f" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="将军">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <list id="n144_o283" name="list_star" xy="105,396" size="202,39" group="n147_o283" touchable="false" layout="row" overflow="scroll" colGap="-3" defaultItem="ui://2r331opvn16mg3" align="center" vAlign="middle">
+      <relation target="" sidePair="left-center,bottom-bottom%"/>
+      <item icon="ui://2r331opvcxixz9cmc"/>
+      <item icon="ui://2r331opvcxixz9cmd"/>
+      <item icon="ui://2r331opvcxixz9cmd"/>
+      <item icon="ui://2r331opvcxixz9cmd"/>
+      <item icon="ui://2r331opvcxixz9cmd"/>
+    </list>
+    <text id="n145_o283" name="name" xy="142,7" pivot="0.5,0.5" size="132,44" group="n147_o283" font="ui://2r331opvlwft3" fontSize="32" color="#77ee8a" ubb="true" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="武将名字">
+      <gearColor controller="quality" pages="1,2,3,4" values="#77baee,#000000|#c366e9,#000000|#e9e166,#000000|#f45f5f,#000000" default="#77ee8a,#000000"/>
+      <relation target="" sidePair="left-center,top-top"/>
+    </text>
+    <text id="n148_o283" name="level" xy="214,358" pivot="0.5,0.5" size="38,34" group="n147_o283" font="ui://2r331opvlwft3" fontSize="24" color="#ffffff" vAlign="middle" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="26">
+      <relation target="" sidePair="left-center,bottom-bottom"/>
+    </text>
+    <loader id="n146_o283" name="quailtyTitle" xy="169,318" size="80,35" group="n147_o283" visible="false" url="ui://4557t28kcxixee" align="center" vAlign="middle" fill="scale">
+      <gearXY controller="quality" pages="0,1,2,3,4" values="169,318|190,317|181,317|166,317|179,317"/>
+      <gearIcon controller="quality" pages="0,1,2,3" values="ui://4557t28kcxixee|ui://4557t28kcxixef|ui://4557t28kcxixeg|ui://4557t28kcxixeh" default="ui://4557t28kcxixei"/>
+    </loader>
+    <text id="n151_m7yv" name="levelTitle" xy="160,358" size="47,34" group="n147_o283" font="ui://2r331opvlwft3" fontSize="24" color="#ffffff" align="right" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="LV.">
+      <relation target="n148_o283" sidePair="right-left"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <group id="n147_o283" name="n147" xy="105,7" size="202,428" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <component id="n149_o283" name="btnRemove" src="m7yvz9cnv" fileName="components/removeBtn.xml" xy="349,51">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="left-right,top-top"/>
+    </component>
+    <loader id="n155_a9mm" name="btnAdd" xy="0,308" size="73,61" url="ui://jqem9egtsfo2z9cod">
+      <relation target="" sidePair="left-left,top-bottom"/>
+    </loader>
+  </displayList>
+</component>

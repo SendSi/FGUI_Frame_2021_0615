@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="715,400" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n5_osur" name="n5" src="10473hz9cye" fileName="images/images_new/settlement2/settlement_bg02.png" xy="400,105" alpha="0.6"/>
+    <image id="n6_osur" name="n6" src="10473hz9cye" fileName="images/images_new/settlement2/settlement_bg02.png" xy="-31,105" alpha="0.6" flip="hz"/>
+    <loader id="n7_osur" name="bg" xy="62,-51" size="595,495" touchable="false" url="ui://2r331opv10473hz9cyd"/>
+    <loader id="n12_osur" name="icon" xy="218,102" size="300,200" touchable="false" url="ui://2r331opvgww71qp8vec"/>
+  </displayList>
+  <Button/>
+</component>

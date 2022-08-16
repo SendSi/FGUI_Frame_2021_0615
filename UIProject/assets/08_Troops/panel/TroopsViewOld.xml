@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageAlpha="30" designImageLayer="1">
+  <controller name="ownGeneral" pages="0,,1," selected="0">
+    <remark page="0" value="yes"/>
+    <remark page="1" value="no"/>
+  </controller>
+  <controller name="team" pages="0,,1,,2,,3,,4," selected="0"/>
+  <controller name="showAdd" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n275_phj4" name="bg0" src="phj41ygcffy" fileName="images_new/troop_bg0.jpg" xy="667,375" pivot="0.5,0.5" anchor="true" size="1670,750">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n204_t5o5" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" alpha="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n163_jzi1" name="window" src="o6syz9cqp" fileName="components/TroopWindow.xml" xy="-82,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n211_11wz9" name="n211" src="xjmv1qp8vf8" fileName="images/images_new/com_bg_tips02_mask4.png" pkg="2r331opv" xy="-320,82" size="277,640" group="n216_11wz9"/>
+    <image id="n281_l988" name="n281" src="lavj1ygcff7" fileName="images/images_new/negative04.png" pkg="2r331opv" xy="-314,88" size="265,58" group="n216_11wz9"/>
+    <text id="n212_11wz9" name="hadNum" xy="-273,93" size="94,42" group="n216_11wz9" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffffff" letterSpacing="-1" autoSize="none" strokeColor="#322b63" shadowColor="#322b63" shadowOffset="2,3" singleLine="true" autoClearText="true" text="18/60"/>
+    <component id="n213_11wz9" name="cbox" src="j4951ygcffu" fileName="components/TroopsCbox.xml" xy="-177,96" size="115,38" group="n216_11wz9">
+      <ComboBox title="战力" visibleItemCount="10">
+        <item title="品质"/>
+        <item title="等级"/>
+        <item title="星级"/>
+        <item title="战力"/>
+      </ComboBox>
+    </component>
+    <list id="n214_11wz9" name="generalList" xy="-322,712" pivot="0,1" anchor="true" size="290,569" group="n216_11wz9" layout="flow_hz" overflow="scroll" scrollBarFlags="1024" lineGap="-1" colGap="-51" defaultItem="ui://2r331opvhxd7hz9d7l" autoItemSize="true" autoClearItems="true">
+      <gearSize controller="ownGeneral" pages="0,1" values="290,569,1,1|290,456,1,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item url="ui://4hio38umcl07hz9d0p"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n215_11wz9" name="n215" src="hxd7hz9d78" fileName="images/hero_icon01.png" pkg="4hio38um" xy="-305,97" size="34,34" group="n216_11wz9"/>
+    <richtext id="n217_uxut" name="genListNoneTip" xy="-303,155" size="245,99" group="n216_11wz9" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="当前无可配置英雄，请前往招募英雄！">
+      <gearDisplay controller="ownGeneral" pages="1"/>
+    </richtext>
+    <group id="n216_11wz9" name="tweenGenList" xy="-322,82" size="290,640" advanced="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
+    <component id="n264_pl8o" name="btn_tab1" src="jdpjz9cpd" fileName="components/tabButton.xml" xy="897,81" group="n269_pl8o">
+      <Button checked="true" controller="team" page="0"/>
+    </component>
+    <component id="n265_pl8o" name="btn_tab2" src="jdpjz9cpd" fileName="components/tabButton.xml" xy="897,159" group="n269_pl8o">
+      <Button controller="team" page="1"/>
+    </component>
+    <component id="n266_pl8o" name="btn_tab3" src="jdpjz9cpd" fileName="components/tabButton.xml" xy="897,237" group="n269_pl8o">
+      <Button controller="team" page="2"/>
+    </component>
+    <component id="n267_pl8o" name="btn_tab4" src="jdpjz9cpd" fileName="components/tabButton.xml" xy="897,315" group="n269_pl8o">
+      <Button controller="team" page="3"/>
+    </component>
+    <component id="n268_pl8o" name="btn_tab5" src="jdpjz9cpd" fileName="components/tabButton.xml" xy="897,393" group="n269_pl8o">
+      <Button controller="team" page="4"/>
+    </component>
+    <group id="n269_pl8o" name="tab_list" xy="897,81" size="90,402" group="n247_o5d4"/>
+    <image id="n218_o5d4" name="n218" src="poazl4" fileName="images/images_new/windowBg_new/bag_bg01.png" pkg="2r331opv" xy="990,0" size="344,750" group="n247_o5d4"/>
+    <component id="n220_o5d4" name="SliderNum" src="m79tg" fileName="components/TroopsMainSliderItem.xml" xy="999,412" size="325,116" group="n247_o5d4"/>
+    <component id="n221_o5d4" name="EffectRoot_zhengbingzhiyin" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="1147,425" size="50,57" group="n247_o5d4" touchable="false" customData="116"/>
+    <image id="n224_o5d4" name="n224" src="qajo1ygcgm4" fileName="images/images_new/windowBg_new/welfare_btn_bg12.png" pkg="2r331opv" xy="990,358" size="344,52" group="n247_o5d4"/>
+    <loader id="n225_o5d4" name="reserveicon" xy="995,368" size="48,48" group="n247_o5d4" aspect="true" scale="0.8,0.8" visible="false" url="ui://jqem9egto5d41xvobde"/>
+    <text id="n226_o5d4" name="reservetitle" xy="1005,367" size="76,34" group="n247_o5d4" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,3" text="预备兵"/>
+    <text id="n227_o5d4" name="reservenum" xy="1094,363" size="93,79" group="n247_o5d4" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffea68" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,3" autoClearText="true" text="64480&#xA;"/>
+    <component id="n228_o5d4" name="reserveBtn" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="1271,361" size="51,46" group="n247_o5d4" scale="0.82,0.82">
+      <Button icon="ui://2r331opvceggz9cop"/>
+    </component>
+    <image id="n230_o5d4" name="n230" src="xbfy1ygcfgj" fileName="images_new/troops_bg_platform03.png" xy="1140,556" group="n247_o5d4"/>
+    <loader id="n231_o5d4" name="restraintmidd" xy="1131,547" pivot="0.5,0.5" size="66,66" group="n247_o5d4" aspect="true" scale="0.6,0.6" url="ui://2r331opvfrte1qp8vdx" align="center" vAlign="middle" fill="scale">
+      <relation target="n230_o5d4" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n234_o5d4" name="restr" xy="1076,565" size="63,32" group="n247_o5d4" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#bcbcbc" leading="0" letterSpacing="-1" text="克制 &gt;"/>
+    <text id="n237_o5d4" name="restra" xy="1187,565" size="63,32" group="n247_o5d4" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#bcbcbc" leading="0" letterSpacing="-1" text="克制 &gt;"/>
+    <list id="n239_o5d4" name="restraint_list1" xy="1026,521" size="50,120" group="n247_o5d4" margin="2,0,1,0" lineGap="2" defaultItem="ui://jqem9egto5d41xvobdf" align="center" vAlign="middle">
+      <item/>
+      <item/>
+    </list>
+    <list id="n240_o5d4" name="restraint_list2" xy="1251,521" size="50,120" group="n247_o5d4" margin="2,0,1,0" lineGap="10" defaultItem="ui://jqem9egto5d41xvobdf" align="center" vAlign="middle">
+      <item/>
+    </list>
+    <image id="n273_j495" name="namebg" src="qajo1ygcgm4" fileName="images/images_new/windowBg_new/welfare_btn_bg12.png" pkg="2r331opv" xy="990,85" size="344,52" group="n247_o5d4"/>
+    <list id="n244_o5d4" name="attributeList" xy="1005,142" size="319,184" group="n247_o5d4" touchable="false" overflow="scroll" scrollBarFlags="32" lineGap="-5" defaultItem="ui://jqem9egtjdpjz9cqf">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n245_o5d4" name="moreProperty" src="mecuz9cp6" fileName="components/MoreProperties.xml" xy="1106,301" size="100,40" group="n247_o5d4">
+      <Button title="更多属性" titleColor="#84e45e"/>
+    </component>
+    <text id="n274_j495" name="fettersname" xy="1004,94" size="100,34" group="n247_o5d4" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,3" singleLine="true" text="部队属性"/>
+    <component id="n271_n6zb" name="addBtn" src="n6zb1ygcffa" fileName="components/addBtn.xml" xy="1115,98" size="116,27" group="n247_o5d4">
+      <Button title="英雄加成"/>
+    </component>
+    <component id="n280_k0hp" name="generalAddBtn" src="n6zb1ygcffa" fileName="components/addBtn.xml" xy="1255,102" group="n247_o5d4" visible="false">
+      <relation target="n271_n6zb" sidePair="left-right"/>
+      <Button title="英雄加成"/>
+    </component>
+    <component id="n272_ekmx" name="addTip" src="n6zb1ygcffb" fileName="panel/addTips.xml" xy="1004,119" pivot="1,0.5" anchor="true" size="317,94" group="n247_o5d4">
+      <gearDisplay controller="showAdd" pages="1"/>
+    </component>
+    <component id="n222_o5d4" name="btnSave" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="1174,658" size="143,58" group="n247_o5d4">
+      <Button title="保存" titleFontSize="28"/>
+    </component>
+    <component id="n223_o5d4" name="maximumBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="1009,658" size="143,58" group="n247_o5d4">
+      <Button title="最大" titleFontSize="28"/>
+    </component>
+    <group id="n247_o5d4" name="right_attr" xy="687,0" size="670,750" advanced="true">
+      <relation target="" sidePair="middle-middle,left-right"/>
+    </group>
+    <image id="n254_o5d4" name="n254" src="o283z9cnq" fileName="images/images_new/com_change07.png" pkg="2r331opv" xy="95,0" size="361,62" group="n258_o5d4"/>
+    <text id="n255_o5d4" name="title" xy="140,4" size="317,54" group="n258_o5d4" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" singleLine="true" text="部队配置"/>
+    <component id="n256_o5d4" name="explainBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="319,14" size="37,37" group="n258_o5d4" aspect="true" scale="0.8,0.8"/>
+    <component id="n257_o5d4" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0" size="135,68" group="n258_o5d4"/>
+    <group id="n258_o5d4" name="retu" xy="0,0" size="457,68" advanced="true"/>
+    <component id="n278_gipz" name="passiveBtn" src="v5loz9cqn" fileName="components/skillBtn.xml" xy="650,655" size="54,72">
+      <relation target="n163_jzi1" sidePair="right-right"/>
+      <Button title="培养" titleFontSize="20"/>
+    </component>
+    <component id="n279_tj0x" name="ribbonTip" src="tj0x1ygcfg3" fileName="components/TroopStreamer.xml" xy="586,140" pivot="0.5,0.5" anchor="true" visible="false">
+      <relation target="" sidePair="center-center"/>
+    </component>
+  </displayList>
+  <transition name="appearance" autoPlay="true">
+    <item time="0" type="Alpha" target="n163_jzi1" tween="true" startValue="0" endValue="0.6" duration="8"/>
+    <item time="0" type="Alpha" target="n247_o5d4" tween="true" startValue="0" endValue="0.2" duration="6"/>
+    <item time="0" type="Alpha" target="n258_o5d4" tween="true" startValue="0" endValue="0.2" duration="6"/>
+    <item time="0" type="XY" target="n247_o5d4" tween="true" startValue="850,0" endValue="667,0" duration="10"/>
+    <item time="0" type="XY" target="n258_o5d4" tween="true" startValue="-30,0" endValue="15,0" duration="6"/>
+    <item time="6" type="Alpha" target="n247_o5d4" tween="true" startValue="0.2" endValue="1" duration="4"/>
+    <item time="6" type="Alpha" target="n258_o5d4" tween="true" startValue="0.2" endValue="1" duration="4"/>
+    <item time="6" type="XY" target="n258_o5d4" tween="true" startValue="15,0" endValue="0,0" duration="12"/>
+    <item time="8" type="Alpha" target="n163_jzi1" tween="true" startValue="0.6" endValue="1" duration="6"/>
+    <item time="10" type="XY" target="n247_o5d4" tween="true" startValue="667,0" endValue="674,0" duration="2"/>
+  </transition>
+  <transition name="click">
+    <item time="0" type="Alpha" target="n216_11wz9" tween="true" startValue="0" endValue="0.2" duration="6"/>
+    <item time="0" type="Scale" target="n275_phj4" tween="true" startValue="1,1" endValue="1.1,1.1" duration="6"/>
+    <item time="0" type="XY" target="n163_jzi1" tween="true" startValue="-82,0" endValue="0,0" duration="10"/>
+    <item time="0" type="XY" target="n216_11wz9" tween="true" startValue="-30,90" endValue="10,90" duration="10"/>
+    <item time="6" type="Alpha" target="n216_11wz9" tween="true" startValue="0.2" endValue="1" duration="4"/>
+    <item time="6" type="Scale" target="n275_phj4" tween="true" startValue="1.1,1.1" endValue="1.12,1.12" duration="3"/>
+    <item time="10" type="XY" target="n216_11wz9" tween="true" startValue="10,90" endValue="0,90" duration="2"/>
+  </transition>
+</component>

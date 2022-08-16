@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" extention="Label" initName="frame">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="normal"/>
+    <remark page="1" value="显示暴击"/>
+  </controller>
+  <displayList>
+    <component id="n78_vsu6" name="wishBtn1" src="vsu61ygcfqt" fileName="components/welfare_Btn.xml" xy="411,328" group="n49_mqls"/>
+    <component id="n79_vsu6" name="wishBtn2" src="vsu61ygcfqt" fileName="components/welfare_Btn.xml" xy="715,75" group="n49_mqls"/>
+    <component id="n80_vsu6" name="wishBtn3" src="vsu61ygcfqt" fileName="components/welfare_Btn.xml" xy="919,311" group="n49_mqls"/>
+    <group id="n49_mqls" name="btn" xy="411,75" size="716,475" group="n35_mqls" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n76_vsu6" name="crit" src="vsu61ygcfoc" fileName="components/WishCrit.xml" xy="872,217" group="n35_mqls">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <image id="n31_pc5k" name="frebg" src="dfgw1ygcfmf" fileName="images/images_new/com_change04.png" pkg="2r331opv" xy="564,650" pivot="0.5,0.5" size="433,50" group="n72_oqrk" rotation="180" color="#061324">
+      <relation target="" sidePair="right-center"/>
+    </image>
+    <text id="n16_s9vk" name="frequency" xy="691,656" pivot="1,0" size="111,34" group="n72_oqrk" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" singleLine="true" text="剩余次数: ">
+      <relation target="n53_ikk0" sidePair="right-left"/>
+    </text>
+    <component id="n33_pc5k" name="tipBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="903,652" size="41,42" group="n72_oqrk">
+      <relation target="n16_s9vk" sidePair="right-left"/>
+    </component>
+    <text id="n53_ikk0" name="wishTimesTxt" xy="805,656" size="56,34" group="n72_oqrk" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="right" ubb="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" autoClearText="true" text="[color=#ff0000]1[/color]/10">
+      <relation target="" sidePair="right-center"/>
+    </text>
+    <group id="n72_oqrk" name="n72" xy="564,650" size="433,50" group="n35_mqls" advanced="true"/>
+    <group id="n35_mqls" name="state0" xy="411,75" size="805,625" advanced="true"/>
+    <component id="n51_ikk0" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="639,0" size="700,40">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n35_mqls" tween="true" startValue="0" endValue="1" duration="9"/>
+  </transition>
+</component>

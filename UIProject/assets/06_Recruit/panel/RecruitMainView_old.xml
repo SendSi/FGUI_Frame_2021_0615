@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <controller name="tab" pages="0,,1,,2," selected="0">
+    <action type="play_transition" fromPage="" toPage="2" transition="tShowPrice" stopOnExit="true"/>
+  </controller>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="未进入前"/>
+    <remark page="1" value="进入招募圣杯"/>
+    <action type="play_transition" fromPage="0" toPage="1" transition="t3"/>
+    <action type="play_transition" fromPage="0" toPage="1" transition="t4"/>
+  </controller>
+  <displayList>
+    <component id="n13_y6f5" name="bg" src="k0cc1qp8vf8" fileName="panel/Recruit_bg01.xml" xy="-145,0" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n49_k0cc" name="bg02" xy="0,0" size="1334,750" url="ui://nf2zagxsgww7i4" fill="scaleFree">
+      <gearDisplay controller="tab" pages="2"/>
+      <gearDisplay2 controller="state" pages="0" condition="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n15_y6f5" name="btnPreview" src="gww7i3" fileName="components/rewardBtn.xml" xy="1164,89" size="166,56">
+      <relation target="" sidePair="right-right%"/>
+    </component>
+    <list id="n51_v4nb" name="tabList" xy="11,111" size="274,609" group="n10_y6f5" lineGap="25" defaultItem="ui://nf2zagxsgww71qp8ve4" selectionController="tab" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n10_y6f5" name="left" xy="11,111" size="274,609" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <loader id="n35_gww7" name="character" xy="280,177" size="932,533" group="n40_gww7" url="ui://nf2zagxsgww7i6" autoSize="true">
+      <gearDisplay controller="tab" pages="2"/>
+    </loader>
+    <component id="n37_gww7" name="name2" src="gww7i7" fileName="components/nameBtn.xml" xy="658,545" group="n40_gww7">
+      <Button title="艾斯瑞"/>
+    </component>
+    <component id="n38_gww7" name="name1" src="gww7i7" fileName="components/nameBtn.xml" xy="373,518" group="n40_gww7" scale="0.9,0.9">
+      <Button title="琼斯菲尔"/>
+    </component>
+    <image id="n41_gww7" name="n41" src="gww7i8" fileName="image/recruit_bg08.png" xy="369,90" group="n40_gww7"/>
+    <component id="n39_gww7" name="name3" src="gww7i7" fileName="components/nameBtn.xml" xy="943,518" group="n40_gww7" scale="0.9,0.9">
+      <Button title="纳格斯"/>
+    </component>
+    <group id="n40_gww7" name="role" xy="280,90" size="932,620" advanced="true">
+      <gearDisplay controller="tab" pages="2"/>
+      <gearDisplay2 controller="state" pages="0" condition="0"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <text id="n36_gww7" name="frequencyLbl" xy="653,836" pivot="0.5,0.5" size="156,34" group="n30_jmae" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#d1d3c6" align="center" autoSize="none" strokeColor="#35393c" strokeSize="2" autoClearText="true" text="剩余次数：99">
+      <gearDisplay controller="tab" pages="2"/>
+    </text>
+    <text id="n21_y6f5" name="txtOverTime1" xy="352,767" size="265,35" group="n28_jmae" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50ddff" align="center" vAlign="middle" ubb="true" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="2,2" autoClearText="true" text="00:00:00后免费"/>
+    <component id="n19_y6f5" name="btnOne" src="s5edhz9d3g" fileName="components/components_new/com_btn_buy3.xml" pkg="2r331opv" xy="363,806" size="244,74" group="n28_jmae">
+      <Button title="召唤一次" titleFontSize="30"/>
+    </component>
+    <group id="n28_jmae" name="btn1" xy="352,767" size="265,113" group="n30_jmae" advanced="true"/>
+    <component id="n20_y6f5" name="btnMany" src="s5edhz9d3g" fileName="components/components_new/com_btn_buy3.xml" pkg="2r331opv" xy="862,806" size="244,74" group="n29_jmae">
+      <Button title="召唤十次" titleFontSize="30"/>
+    </component>
+    <group id="n29_jmae" name="btn2" xy="862,806" size="244,74" group="n30_jmae" advanced="true"/>
+    <group id="n30_jmae" name="btn" xy="352,767" size="754,113" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n34_gww7" name="n34" src="hxd7hz9d7j" fileName="images/images_new/title_bg01.png" pkg="2r331opv" xy="0,0" size="549,65" group="n42_gww7" alpha="0.4"/>
+    <text id="n11_y6f5" name="title" xy="139,5" size="168,55" group="n42_gww7" font="ui://2r331opvno3vhz9d63" fontSize="41" color="#ffffff" vAlign="bottom" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="4,4" text="英雄招募">
+      <gearText controller="tab" pages="1,2" values="道具招募|限时招募" default="英雄招募"/>
+    </text>
+    <component id="n6_y6f5" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0" group="n42_gww7"/>
+    <component id="n52_jshd" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="334,9" size="986,40" group="n42_gww7">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n42_gww7" name="upper" xy="0,0" size="1320,68" advanced="true"/>
+    <loader id="n44_gww7" name="bg01" xy="-145,0" pivot="0.55,0.5" size="1625,750" group="n45_gww7" fill="scaleFree">
+      <relation target="" sidePair="height-height,center-center"/>
+    </loader>
+    <component id="n54_e3cq" name="btnLongPre5" src="sfia1ygcfhf" fileName="components/components_new/com_btn_null.xml" pkg="2r331opv" xy="0,0" size="1334,750" group="n45_gww7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n55_e3cq" name="btnLongPre4" src="sfia1ygcfhf" fileName="components/components_new/com_btn_null.xml" pkg="2r331opv" xy="0,0" size="1334,750" group="n45_gww7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n56_e3cq" name="btnLongPre3" src="sfia1ygcfhf" fileName="components/components_new/com_btn_null.xml" pkg="2r331opv" xy="0,0" size="1334,750" group="n45_gww7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n53_cl1u" name="btnLongPre2" src="sfia1ygcfhf" fileName="components/components_new/com_btn_null.xml" pkg="2r331opv" xy="0,0" size="1334,750" group="n45_gww7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n47_gww7" name="btnLongPre" src="sfia1ygcfhf" fileName="components/components_new/com_btn_null.xml" pkg="2r331opv" xy="0,0" size="1334,750" group="n45_gww7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n50_p8av" name="btnTitleShow" src="p8av1qp8vfd" fileName="components/preBtnShow.xml" xy="411,632" group="n45_gww7" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n48_t2qk" name="backButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0" group="n45_gww7"/>
+    <group id="n45_gww7" name="n45" xy="-145,0" size="1625,750" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+  </displayList>
+  <transition name="tShowAround" autoPlay="true">
+    <item time="0" type="XY" target="n10_y6f5" tween="true" startValue="-286,117" endValue="3,117" duration="8" ease="Quad.In"/>
+    <item time="0" type="XY" target="n15_y6f5" tween="true" startValue="1348,89,1.01,0.119" endValue="1164,89,0.873,0.119" duration="8"/>
+    <item time="0" type="XY" target="n30_jmae" tween="true" startValue="354,751,0.265,1.001" endValue="354,605,0.265,0.807" duration="8"/>
+    <item time="0" type="XY" target="n42_gww7" tween="true" startValue="0,-131" endValue="0,0" duration="8"/>
+  </transition>
+  <transition name="tShowPrice">
+    <item time="0" type="XY" target="n15_y6f5" tween="true" startValue="1470,89" endValue="1164,89" duration="7"/>
+    <item time="0" type="XY" target="n40_gww7" tween="true" startValue="598,90" endValue="251,90" duration="7"/>
+  </transition>
+  <transition name="tHideAround">
+    <item time="0" type="Alpha" target="n36_gww7" tween="true" startValue="1" endValue="0" duration="7"/>
+    <item time="0" type="XY" target="n10_y6f5" tween="true" startValue="3,117.5" endValue="-286,117.5" duration="7"/>
+    <item time="0" type="XY" target="n15_y6f5" tween="true" startValue="1164,89,0.873,0.119" endValue="1348,89,1.01,0.119" duration="7"/>
+    <item time="0" type="XY" target="n30_jmae" tween="true" startValue="354,605,0.265,0.807" endValue="352.5,751,0.264,1.001" duration="7"/>
+    <item time="0" type="XY" target="n40_gww7" tween="true" startValue="251,90" endValue="1356,90" duration="7"/>
+    <item time="0" type="XY" target="n42_gww7" tween="true" startValue="0,0" endValue="0,-132" duration="7"/>
+  </transition>
+  <transition name="tAlphaLong">
+    <item time="0" type="Alpha" target="n45_gww7" tween="true" startValue="0" endValue="1" duration="9"/>
+  </transition>
+</component>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="706,546" designImageOffsetX="-574" designImageOffsetY="-167" designImageAlpha="30">
+  <controller name="state" pages="0,win,1,lose" selected="0"/>
+  <displayList>
+    <image id="n1_uxiw" name="n1" pkg="2r331opv" src="tauyhz9cyu" fileName="images/images_new/com_popup_bg04.png" xy="4,2" size="697,67" group="n31_ht44">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <component id="n29_ht44" name="playerIcon0" src="b6o0cho" fileName="components/components_new/btn_head.xml" pkg="2r331opv" xy="14,7" size="58,58" group="n31_ht44" aspect="true" touchable="false"/>
+    <text id="n30_ht44" name="playerName0" xy="70,19" size="229,29" group="n31_ht44" fontSize="18" color="#aaedf1" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="[Xxbi]nightshader"/>
+    <text id="n27_ht44" name="n27" xy="575,35" size="95,26" group="n39_ht44" fontSize="18" color="#aaedf1" singleLine="true" autoClearText="true" text="Remaining:">
+      <relation target="n28_ht44" sidePair="right-left"/>
+    </text>
+    <text id="n28_ht44" name="remainNum" xy="676,35" pivot="1,0" size="14,26" group="n39_ht44" fontSize="18" color="#ffffff" align="right" autoClearText="true" text="0"/>
+    <text id="n34_ht44" name="n34" xy="520,9" size="104,26" group="n39_ht44" fontSize="18" color="#aaedf1" align="right" autoClearText="true" text="Total troops:">
+      <relation target="n6_uxiw" sidePair="right-left"/>
+    </text>
+    <text id="n6_uxiw" name="troopsNum" xy="635,8" pivot="1,0" size="54,26" group="n39_ht44" fontSize="18" color="#ffffff" align="right" ubb="true" autoClearText="true" text="32730"/>
+    <group id="n39_ht44" name="n39" xy="520,8" size="170,53" group="n31_ht44" advanced="true">
+      <relation target="n1_uxiw" sidePair="right-right"/>
+    </group>
+    <group id="n31_ht44" name="n31" xy="4,2" size="697,67"/>
+    <graph id="n35_ht44" name="n35" xy="13,263" size="317,2" group="n10_uxiw" alpha="0.5" type="rect" lineColor="#ffffffff"/>
+    <image id="n0_uxiw" name="n0" src="tauyhz9cyv" fileName="images/images_new/com_popup_bg05.png" pkg="2r331opv" xy="3,74" size="338,403" group="n10_uxiw"/>
+    <component id="n3_uxiw" name="playerIcon" src="b6o0cho" fileName="components/components_new/btn_head.xml" pkg="2r331opv" xy="16,91" size="58,58" group="n10_uxiw" aspect="true" touchable="false"/>
+    <text id="n4_uxiw" name="playerName" xy="75,83" size="229,29" group="n10_uxiw" fontSize="18" color="#aaedf1" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="[Xxbi]nightshader"/>
+    <text id="n8_uxiw" name="coordinateTitle" xy="75,106" size="229,24" group="n10_uxiw" fontSize="16" color="#4efb41" leading="6" ubb="true" autoSize="none" underline="true" autoClearText="true" text="X:129  Y:74"/>
+    <list id="n18_uxiw" name="generalList" xy="13,154" size="322,107" group="n10_uxiw" overflow="scroll" lineGap="-3" defaultItem="ui://ufsajnnzht44hz9cz1">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n20_uxiw" name="list" xy="17,278" size="321,189" group="n10_uxiw" overflow="scroll" lineGap="-8" defaultItem="ui://ufsajnnzuxiwchq">
+      <item/>
+      <item title="阵亡"/>
+      <item title="重伤"/>
+      <item title="剩余"/>
+      <item title="城门耐久"/>
+      <item title="资源损失"/>
+    </list>
+    <text id="n5_uxiw" name="n5" xy="75,128" size="39,26" group="n10_uxiw" fontSize="18" color="#aaedf1" align="right" autoClearText="true" text="ATK"/>
+    <text id="n33_ht44" name="fightingPower" xy="114,128" size="190,26" group="n10_uxiw" fontSize="18" color="#ff5252" autoSize="none" autoClearText="true" text="-3200"/>
+    <group id="n10_uxiw" name="myself" xy="3,74" size="338,403" advanced="true"/>
+    <graph id="n36_ht44" name="n36" xy="375,263" size="317,2" group="n16_uxiw" alpha="0.5" type="rect" lineColor="#ffffffff"/>
+    <image id="n2_uxiw" name="n2" src="tauyhz9cyw" fileName="images/images_new/com_popup_bg06.png" pkg="2r331opv" xy="365,76" size="337,401" group="n16_uxiw"/>
+    <component id="n11_uxiw" name="playerIcon2" src="b6o0cho" fileName="components/components_new/btn_head.xml" pkg="2r331opv" xy="633,91" size="58,58" group="n16_uxiw" aspect="true" touchable="false"/>
+    <text id="n12_uxiw" name="playerName2" xy="403,83" pivot="1,0" size="229,29" group="n16_uxiw" fontSize="18" color="#f1d9aa" align="right" ubb="true" autoSize="none" autoClearText="true" text="[Xxbi]player name"/>
+    <text id="n13_uxiw" name="n13" xy="524,128" size="39,26" group="n16_uxiw" fontSize="18" color="#f1d9aa" autoClearText="true" text="ATK">
+      <relation target="n14_uxiw" sidePair="right-left"/>
+    </text>
+    <text id="n14_uxiw" name="fightingPower2" xy="561,128" pivot="1,0" size="66,29" group="n16_uxiw" fontSize="20" color="#f05353" align="right" ubb="true" singleLine="true" autoClearText="true" text="-37000&#xA;"/>
+    <text id="n15_uxiw" name="coordinateTitle2" xy="481,106" pivot="1,0" size="148,32" group="n16_uxiw" fontSize="16" color="#69df7a" align="right" leading="6" ubb="true" autoSize="none" underline="true" autoClearText="true" text="X:129  Y:74"/>
+    <list id="n19_uxiw" name="generalList2" xy="368,154" size="322,107" group="n16_uxiw" overflow="scroll" lineGap="-3" colGap="28" defaultItem="ui://ufsajnnzht44hz9cz1">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n21_uxiw" name="list2" xy="377,278" size="321,189" group="n16_uxiw" overflow="scroll" lineGap="-8" defaultItem="ui://ufsajnnzuxiwchq">
+      <item/>
+      <item title="阵亡"/>
+      <item title="重伤"/>
+      <item title="剩余"/>
+    </list>
+    <group id="n16_uxiw" name="others" xy="365,76" size="337,401" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <image id="n17_uxiw" name="n17" pkg="ufsajnnz" src="tauyhz9cwh" fileName="images/mail_icon_11.png" xy="309,80">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n22_uxiw" name="resultIcon" src="94951z" fileName="components/common_btn_main.xml" pkg="2r331opv" xy="186,335" size="105,45" visible="false" rotation="-10" touchable="false">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="Win" titleColor="#85d496" titleFontSize="22" icon="ui://2r331opvkbi5fw"/>
+    </component>
+    <image id="n24_uxiw" name="n24" src="tauyhz9cyy" fileName="images/images_new/com_state_bg.png" pkg="2r331opv" xy="165,385" size="86,41" group="n26_uxiw" color="#296e48">
+      <gearColor controller="state" pages="0,1" values="#296e48|#b24848"/>
+    </image>
+    <text id="n25_uxiw" name="n25" xy="187,393" size="38,29" group="n26_uxiw" fontSize="20" color="#85d496" autoClearText="true" text="Win">
+      <gearColor controller="state" pages="0" values="#85d496,#000000" default="#ff5252,#000000"/>
+      <gearText controller="state" pages="0" values="Win" default="Fail"/>
+    </text>
+    <group id="n26_uxiw" name="resultIcon2" xy="165,385" size="86,41" advanced="true"/>
+    <component id="n37_ht44" name="logBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="174,485" size="168,58" group="n40_ht44">
+      <Button title="Battle log" icon="ui://2r331opvw84whz9cxa"/>
+    </component>
+    <component id="n38_ht44" name="gainBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="366,484" size="168,58" group="n40_ht44">
+      <Button title="Force gain" icon="ui://2r331opvw84whz9cxa"/>
+    </component>
+    <group id="n40_ht44" name="n40" xy="174,484" size="360,59" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

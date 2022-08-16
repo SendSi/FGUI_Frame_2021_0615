@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="531,750" opaque="false" designImage="ui://4hio38umhxd7hz9d72" designImageOffsetX="-803" designImageAlpha="0">
+  <controller name="group" pages="0,升级,1,突破,4,升星,3,装备,2,技能" selected="1"/>
+  <controller name="red_dot" pages="0,,1," selected="0">
+    <remark page="0" value="显示"/>
+    <remark page="1" value="不显示"/>
+  </controller>
+  <controller name="star" pages="0,,1," selected="0"/>
+  <controller name="value" pages="0,,1," selected="0">
+    <remark page="0" value="无转职"/>
+    <remark page="1" value="转职"/>
+  </controller>
+  <controller name="stage" pages="0,,1,,2," selected="0">
+    <remark page="0" value="normal"/>
+    <remark page="1" value="2星"/>
+    <remark page="2" value="3星"/>
+  </controller>
+  <controller name="starState" pages="2,可升星,0,不可升星,1,满星" selected="0"/>
+  <controller name="showStarTip" pages="0,隐藏,1,显示" selected="0"/>
+  <controller name="topped" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示道具图标"/>
+  </controller>
+  <displayList>
+    <image id="n127_lfqn" name="n127" src="lfqnhz9d6u" fileName="images/hero_bg017.png" xy="149,57" size="233,46" group="n139_8z99"/>
+    <loader id="n75_xz10" name="armsIcon" xy="200,67" size="28,28" group="n139_8z99" aspect="true" url="ui://2r331opvkn293" align="center" vAlign="middle" fill="scale">
+      <relation target="n76_xz10" sidePair="right-left"/>
+    </loader>
+    <text id="n76_xz10" name="generalName" xy="230,63" pivot="0.5,0.5" size="100,34" group="n139_8z99" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" autoClearText="true" text="他的名字"/>
+    <group id="n139_8z99" name="name" xy="149,57" size="233,46" advanced="true">
+      <gearDisplay controller="group" pages="0,1,4,3"/>
+    </group>
+    <image id="n91_oxy0" name="n91" src="hxd7hz9d70" fileName="images/hero_bg023.png" xy="28,308" group="n49_t4b3" visible="false">
+      <gearDisplay controller="group" pages="4"/>
+    </image>
+    <image id="n169_gckh" name="n169" src="gckh1iy5bfz" fileName="images/hero_bg035.png" xy="28,308" group="n49_t4b3">
+      <gearDisplay controller="group" pages="1"/>
+    </image>
+    <component id="n159_btd5" name="explainBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="336,481" group="n49_t4b3" scale="0.9,0.9">
+      <gearDisplay controller="group" pages="1"/>
+    </component>
+    <image id="n126_lfqn" name="n126" src="lfqnhz9d6t" fileName="images/hero_bg018.png" xy="-22,316" group="n50_t4b3">
+      <gearDisplay controller="group" pages="3"/>
+    </image>
+    <image id="n70_xz10" name="n70" src="xz10z9crf" fileName="images/hero_bg01.png" xy="41,92" group="n50_t4b3"/>
+    <component id="n69_xz10" name="Icon" src="hxd7hz9d7l" fileName="components/general_new/generalIcon01.xml" pkg="2r331opv" xy="183,102" group="n50_t4b3" touchable="false"/>
+    <list id="n128_lfqn" name="attributeList0" xy="177,297" size="182,102" group="n50_t4b3" touchable="false" overflow="scroll" scrollBarFlags="32" lineGap="1" defaultItem="ui://4hio38umlfqnhz9d6v">
+      <gearDisplay controller="group" pages="0,1,2,4"/>
+      <item icon="ui://2r331opvlfqnhz9d79"/>
+      <item icon="ui://2r331opvlfqnhz9d77"/>
+      <item icon="ui://2r331opvlfqnhz9d78"/>
+    </list>
+    <image id="n130_lfqn" name="n130" src="kajr1qp8vf5" fileName="images/images_new/windowBg_new/title_bg01.png" pkg="2r331opv" xy="95,237" group="n101_d8di"/>
+    <text id="n68_xz10" name="cur" xy="186,261" pivot="0.5,0.5" size="42,34" group="n101_d8di" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#42ffff" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="2,2" text="5转">
+      <gearDisplay controller="value" pages="1"/>
+      <relation target="n39_xciu" sidePair="right-left"/>
+    </text>
+    <text id="n39_xciu" name="level" xy="230,261" pivot="0.5,0.5" size="70,34" group="n101_d8di" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="2,2" autoClearText="true" text="120级">
+      <gearXY controller="value" pages="0" values="230,261" default="253,261"/>
+    </text>
+    <group id="n101_d8di" name="n101" xy="95,237" size="346,85" group="n50_t4b3" advanced="true">
+      <gearDisplay controller="group" pages="0,2,3,4"/>
+    </group>
+    <group id="n50_t4b3" name="levelInfo" xy="-22,92" size="584,592" group="n49_t4b3" advanced="true">
+      <gearDisplay controller="group" pages="0,1,3,4"/>
+    </group>
+    <component id="n78_xz10" name="curPbr" src="xz10z9crl" fileName="components/curPbr.xml" xy="19,298" group="n95_d8di">
+      <ProgressBar value="67" max="100"/>
+    </component>
+    <loader id="n81_xz10" name="consumeIcon" xy="165,629" size="34,34" group="n108_uxy4" aspect="true" url="ui://tsbe09ddmz4wb" align="center" vAlign="middle" fill="scale">
+      <relation target="n82_xz10" sidePair="right-left"/>
+    </loader>
+    <richtext id="n82_xz10" name="price" xy="208,629" pivot="0.5,0.5" size="119,34" group="n108_uxy4" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="right" letterSpacing="-1" ubb="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" autoClearText="true" text="10000/200"/>
+    <component id="n80_xz10" name="getBtn" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="340,628" size="35,35" group="n108_uxy4" aspect="true">
+      <relation target="n82_xz10" sidePair="left-right"/>
+      <Button icon="ui://2r331opvceggz9cop"/>
+    </component>
+    <component id="n110_i8xj" name="EffectRoot_SJZS_LG" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="244,678" group="n111_i8xj" touchable="false">
+      <relation target="n79_xz10" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n79_xz10" name="btnLevelup" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="190,676" size="161,62" group="n111_i8xj">
+      <Button title="升级"/>
+    </component>
+    <group id="n111_i8xj" name="n111" xy="190,676" size="161,62" group="n108_uxy4"/>
+    <group id="n108_uxy4" name="levelScope" xy="165,628" size="210,110" group="n95_d8di" advanced="true"/>
+    <group id="n95_d8di" name="levelup" xy="19,298" size="502,440" group="n49_t4b3" advanced="true">
+      <gearDisplay controller="group" pages="0"/>
+    </group>
+    <text id="n89_oxy0" name="curTitle" xy="182,263" pivot="0.5,0.5" size="136,32" group="n54_t4b3" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#42ffff" align="center" vAlign="middle" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="2,2" text="当前突破等级"/>
+    <richtext id="n53_t4b3" name="curBreak" xy="317,263" size="30,32" group="n54_t4b3" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#5aff56" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="2,2" autoClearText="true" text="+2"/>
+    <component id="n93_oooe" name="curCbox" src="oxy0z9csd" fileName="components/curCbox.xml" xy="15,24" group="n54_t4b3" visible="false">
+      <ComboBox visibleItemCount="10">
+        <item title="0 转"/>
+        <item title="1 转"/>
+        <item title="2 转"/>
+        <item title="3 转"/>
+        <item title="4 转" value="·"/>
+        <item title="5 转"/>
+        <item title="6 转"/>
+        <item title="7 转"/>
+      </ComboBox>
+    </component>
+    <component id="n66_t4b3" name="watchBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="168,410" size="180,69" group="n109_bkq0" visible="false">
+      <Button title="查看" icon="ui://4hio38umlfqnhz9d6x"/>
+    </component>
+    <text id="n92_oxy0" name="attriTitle" xy="201,489" size="136,32" group="n109_bkq0" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#6eb3f2" align="center" text="下次突破获得"/>
+    <list id="n85_xz10" name="attributeList" xy="150,512" size="291,142" group="n109_bkq0" layout="flow_hz" overflow="scroll" lineGap="-1" defaultItem="ui://2r331opvebe5ci9">
+      <gearDisplay controller="group" pages="1"/>
+      <gearDisplay2 controller="topped" pages="0" condition="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n90_oxy0" name="wearBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="190,676" size="161,62" group="n109_bkq0">
+      <Button title="转生"/>
+    </component>
+    <component id="n112_ntyk" name="EffectRoot_TuPoAnNiu" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="248,791" group="n113_ntyk" touchable="false">
+      <relation target="n94_dot4" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n94_dot4" name="breakBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="191,676" size="161,62" group="n113_ntyk">
+      <gearDisplay controller="topped" pages="0"/>
+      <Button title="突破"/>
+    </component>
+    <component id="n179_m9hw" name="reinBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="191,676" size="161,62" group="n113_ntyk">
+      <gearDisplay controller="topped" pages="1"/>
+      <Button title="转生"/>
+    </component>
+    <group id="n113_ntyk" name="n113" xy="191,676" size="161,165" group="n109_bkq0"/>
+    <group id="n109_bkq0" name="break" xy="150,410" size="291,431" group="n54_t4b3" advanced="true"/>
+    <component id="n180_m9hw" name="icon1" src="o23t1ygcfn2" fileName="components/components_new/comItem_BottomNum.xml" pkg="2r331opv" xy="205,519" group="n54_t4b3">
+      <gearDisplay controller="topped" pages="1"/>
+    </component>
+    <component id="n137_i5bv" name="red" src="dix6fm" fileName="components/components_new/red_dot.xml" pkg="2r331opv" xy="348,676" group="n54_t4b3">
+      <gearDisplay controller="red_dot" pages="0"/>
+    </component>
+    <component id="n170_gckh" name="curBtn0" src="gckh1iy5bg0" fileName="components/hero_Btn1.xml" xy="43,332" group="n54_t4b3">
+      <Button title="0"/>
+    </component>
+    <component id="n171_gckh" name="curBtn1" src="gckh1iy5bg0" fileName="components/hero_Btn1.xml" xy="61,376" group="n54_t4b3">
+      <Button title="1"/>
+    </component>
+    <component id="n172_gckh" name="curBtn2" src="gckh1iy5bg0" fileName="components/hero_Btn1.xml" xy="88,416" group="n54_t4b3">
+      <Button title="2"/>
+    </component>
+    <component id="n173_gckh" name="curBtn3" src="gckh1iy5bg0" fileName="components/hero_Btn1.xml" xy="124,450" group="n54_t4b3">
+      <Button title="3"/>
+    </component>
+    <component id="n177_gckh" name="curBtn4" src="gckh1iy5bg0" fileName="components/hero_Btn1.xml" xy="360,450" group="n54_t4b3">
+      <Button title="4"/>
+    </component>
+    <component id="n176_gckh" name="curBtn5" src="gckh1iy5bg0" fileName="components/hero_Btn1.xml" xy="398,416" group="n54_t4b3">
+      <Button title="5"/>
+    </component>
+    <component id="n175_gckh" name="curBtn6" src="gckh1iy5bg0" fileName="components/hero_Btn1.xml" xy="425,376" group="n54_t4b3">
+      <Button title="6"/>
+    </component>
+    <component id="n174_gckh" name="curBtn7" src="gckh1iy5bg0" fileName="components/hero_Btn1.xml" xy="443,332" group="n54_t4b3">
+      <Button title="7"/>
+    </component>
+    <group id="n54_t4b3" name="breakInfo" xy="15,24" size="485,817" group="n49_t4b3" advanced="true">
+      <gearDisplay controller="group" pages="1"/>
+    </group>
+    <group id="n49_t4b3" name="basicInfo" xy="-22,24" size="584,817" advanced="true">
+      <gearDisplay controller="group" pages="0,1,3"/>
+    </group>
+    <image id="n132_hxd7" name="n132" src="hxd7hz9d7i" fileName="images/images_new/com_bg_tips02_mask2.png" pkg="2r331opv" xy="57,73" size="419,467" group="n59_t4b3"/>
+    <list id="n55_t4b3" name="skillList" xy="66,101" size="401,413" group="n59_t4b3" overflow="scroll" lineGap="4" defaultItem="ui://4hio38umt4b3z9cqr">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n102_d8di" name="n102" src="hxd7hz9d7g" fileName="images/images_new/com_bg_tips00.png" pkg="2r331opv" xy="52,544" size="429,174" group="n107_pncw"/>
+    <image id="n133_hxd7" name="n133" src="kajr1qp8vf5" fileName="images/images_new/windowBg_new/title_bg01.png" pkg="2r331opv" xy="93,538" group="n107_pncw"/>
+    <component id="n103_d8di" name="awakenSkill" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="98,616" group="n107_pncw"/>
+    <text id="n104_d8di" name="txt" xy="218,564" pivot="0.5,0.5" size="100,34" group="n107_pncw" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" leading="1" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" text="觉醒技能"/>
+    <text id="n106_d8di" name="awaInfor" xy="166,612" size="284,77" group="n107_pncw" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" leading="0" autoSize="none" text="觉醒节能不能强化对应英雄可以激活觉醒技能"/>
+    <group id="n107_pncw" name="awaken" xy="52,538" size="429,180" group="n59_t4b3" advanced="true"/>
+    <group id="n59_t4b3" name="skillInfo" xy="52,73" size="429,645" advanced="true">
+      <gearDisplay controller="group" pages="2"/>
+    </group>
+    <image id="n138_8z99" name="n138" src="8z991iy5be6" fileName="images/hero_bg029.png" xy="33,55" group="n99_d8di"/>
+    <component id="n140_8z99" name="Icon01" src="hxd7hz9d7a" fileName="components/general_new/generalIconNormal.xml" pkg="2r331opv" xy="204,197" group="n99_d8di" touchable="false"/>
+    <image id="n142_8z99" name="n142" src="a4b91qp8veo" fileName="images/images_new/com_change010.png" pkg="2r331opv" xy="63,502" pivot="0.5,0" size="404,168" group="n99_d8di" alpha="0.6" color="#000000" fillMethod="vt"/>
+    <text id="n134_fk1q" name="fullStar" xy="184,557" pivot="0.5,0.5" size="172,39" group="n99_d8di" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#f4df4b" text="该英雄已满星">
+      <gearDisplay controller="starState" pages="1"/>
+    </text>
+    <text id="n135_fk1q" name="cantStar" xy="164,592" pivot="0.5,0.5" size="212,34" group="n99_d8di" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#48fbff" text="R品质英雄不能升星">
+      <gearDisplay controller="starState" pages="0"/>
+    </text>
+    <image id="n158_p650" name="n158" src="kajr1qp8vf5" fileName="images/images_new/windowBg_new/title_bg01.png" pkg="2r331opv" xy="29,425" pivot="0.5,0.5" size="472,85" group="n99_d8di" visible="false"/>
+    <component id="n160_btd5" name="heroIcon" src="j842hz9cyi" fileName="components/components_new/comItem.xml" pkg="2r331opv" xy="233,582" group="n99_d8di" scale="0.6,0.6" visible="false">
+      <gearDisplay controller="star" pages="1"/>
+    </component>
+    <list id="n163_lvki" name="icon_list" xy="122,585" size="411,137" group="n99_d8di" scale="0.7,0.7" layout="row" overflow="scroll" margin="2,0,4,0" colGap="1" defaultItem="ui://4hio38umct1e1iy5bft" align="center" autoClearItems="true">
+      <gearDisplay controller="starState" pages="2"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n157_p650" name="heroNum" xy="200,616" pivot="0.5,0.5" size="141,26" group="n99_d8di" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" align="center" shadowColor="#000000" shadowOffset="1,3" autoClearText="true" text="升级所需英雄：2">
+      <gearDisplay controller="star" pages="1"/>
+    </text>
+    <component id="n98_d8di" name="starBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="190,676" size="161,62" group="n115_ntyk">
+      <Button title="升星"/>
+    </component>
+    <component id="n114_ntyk" name="EffectRoot_ShengXingAnNiu" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="243,681" group="n115_ntyk" touchable="false">
+      <relation target="n98_d8di" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n115_ntyk" name="n115" xy="190,676" size="161,62" group="n99_d8di" advanced="true">
+      <gearDisplay controller="starState" pages="2"/>
+    </group>
+    <list id="n143_8z99" name="attributeList01" xy="135,510" size="261,77" group="n99_d8di" layout="flow_vt" overflow="hidden" lineGap="-6" defaultItem="ui://2r331opv8z991qp8vi4">
+      <gearDisplay controller="starState" pages="2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n166_lvki" name="stage1" src="lvki1iy5bfk" fileName="components/heroStar.xml" xy="194,348" pivot="0.5,0.5" group="n99_d8di" rotation="27.5">
+      <gearDisplay controller="stage" pages="1,2"/>
+    </component>
+    <component id="n165_lvki" name="stage2" src="lvki1iy5bfk" fileName="components/heroStar.xml" xy="248,362" pivot="0.5,0.5" group="n99_d8di">
+      <gearDisplay controller="stage" pages="1,2"/>
+      <gearXY controller="stage" pages="1" values="301,348" default="248,362"/>
+      <gearLook controller="stage" pages="1" values="1,-27.5,0,1" default="1,0,0,1"/>
+    </component>
+    <component id="n167_lvki" name="stage3" src="lvki1iy5bfk" fileName="components/heroStar.xml" xy="301,348" pivot="0.5,0.5" group="n99_d8di" rotation="-27.5">
+      <gearDisplay controller="stage" pages="2"/>
+    </component>
+    <component id="n150_8z99" name="star01" src="104731iy5b91" fileName="components/general_new/general_star_grid2.xml" pkg="2r331opv" xy="91,269" group="n99_d8di"/>
+    <component id="n151_8z99" name="star02" src="104731iy5b91" fileName="components/general_new/general_star_grid2.xml" pkg="2r331opv" xy="117,329" group="n99_d8di"/>
+    <component id="n152_8z99" name="star03" src="104731iy5b91" fileName="components/general_new/general_star_grid2.xml" pkg="2r331opv" xy="171,373" group="n99_d8di"/>
+    <component id="n153_8z99" name="star04" src="104731iy5b91" fileName="components/general_new/general_star_grid2.xml" pkg="2r331opv" xy="238,393" group="n99_d8di"/>
+    <component id="n154_8z99" name="star05" src="104731iy5b91" fileName="components/general_new/general_star_grid2.xml" pkg="2r331opv" xy="308,372" group="n99_d8di">
+      <gearXY controller="star" pages="0,1" values="308,372|308,373"/>
+    </component>
+    <component id="n155_8z99" name="star06" src="104731iy5b91" fileName="components/general_new/general_star_grid2.xml" pkg="2r331opv" xy="359,329" group="n99_d8di"/>
+    <component id="n156_8z99" name="star07" src="104731iy5b91" fileName="components/general_new/general_star_grid2.xml" pkg="2r331opv" xy="386,269" group="n99_d8di"/>
+    <image id="n161_lvki" name="n161" src="a4b91qp8veo" fileName="images/images_new/com_change010.png" pkg="2r331opv" xy="63,460" pivot="0.5,0" size="404,34" group="n148_8z99" alpha="0.6" color="#000000" fillMethod="vt">
+      <relation target="n147_8z99" sidePair="bottomext-bottom"/>
+    </image>
+    <text id="n147_8z99" name="tip" xy="168,464" pivot="0.5,0" size="194,29" group="n148_8z99" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#74d0ff" align="center" vAlign="middle" leading="-3" ubb="true" text="再升[color=#fff154]3星[/color]后升级为[color=#fff154]SSR"/>
+    <component id="n162_lvki" name="explainBtn2" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="343,457" group="n148_8z99" scale="0.7,0.7" visible="false" alpha="0.5">
+      <relation target="n147_8z99" sidePair="left-right"/>
+      <Button icon="ui://2r331opvlvki1ygcgmt"/>
+    </component>
+    <component id="n144_8z99" name="Icon02" src="hxd7hz9d7a" fileName="components/general_new/generalIconNormal.xml" pkg="2r331opv" xy="224,341" group="n168_ct1e" scale="0.6,0.6"/>
+    <component id="n145_8z99" name="Icon03" src="hxd7hz9d7a" fileName="components/general_new/generalIconNormal.xml" pkg="2r331opv" xy="367,341" group="n168_ct1e" scale="0.6,0.6"/>
+    <image id="n146_8z99" name="n146" src="aibb2e" fileName="images/images_new/common_arrow_4.png" pkg="2r331opv" xy="333,386" pivot="0.5,0.5" size="41,50" group="n168_ct1e" aspect="true" rotation="90"/>
+    <group id="n168_ct1e" name="tipItem" xy="224,341" size="263,140" group="n148_8z99" advanced="true">
+      <gearDisplay controller="showStarTip" pages="1"/>
+    </group>
+    <group id="n148_8z99" name="starAttrInfo" xy="63,341" size="424,158" group="n99_d8di" advanced="true">
+      <gearDisplay controller="star" pages="1"/>
+    </group>
+    <group id="n99_d8di" name="star" xy="29,55" size="504,683" advanced="true">
+      <gearDisplay controller="group" pages="4"/>
+    </group>
+    <component id="n116_lfqn" name="equipment1" src="mmv0cgy" fileName="components/general_new/equipmentIcon2.xml" pkg="2r331opv" xy="30,451" size="110,112" group="n125_lfqn" scale="0.9,0.9"/>
+    <component id="n117_lfqn" name="equipment2" src="mmv0cgy" fileName="components/general_new/equipmentIcon2.xml" pkg="2r331opv" xy="152,528" size="110,112" group="n125_lfqn" scale="0.9,0.9"/>
+    <component id="n118_lfqn" name="equipment3" src="mmv0cgy" fileName="components/general_new/equipmentIcon2.xml" pkg="2r331opv" xy="292,528" size="110,112" group="n125_lfqn" scale="0.9,0.9"/>
+    <component id="n119_lfqn" name="equipment4" src="mmv0cgy" fileName="components/general_new/equipmentIcon2.xml" pkg="2r331opv" xy="413,451" group="n125_lfqn" scale="0.9,0.9"/>
+    <text id="n121_lfqn" name="equiTitle1" xy="49,546" size="48,32" group="n125_lfqn" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#74d0ff" autoClearText="true" text="武器"/>
+    <text id="n122_lfqn" name="equiTitle2" xy="175,622" size="48,32" group="n125_lfqn" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#74d0ff" autoClearText="true" text="护甲"/>
+    <text id="n123_lfqn" name="equiTitle3" xy="317,622" size="48,32" group="n125_lfqn" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#74d0ff" autoClearText="true" text="戒指"/>
+    <text id="n124_lfqn" name="equiTitle4" xy="442,546" size="48,32" group="n125_lfqn" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#74d0ff" autoClearText="true" text="项链"/>
+    <list id="n136_t5dg" name="attributeList1" xy="170,298" size="200,102" group="n125_lfqn" layout="flow_hz" overflow="scroll" scrollBarFlags="32" lineItemCount="1" defaultItem="ui://4hio38umt5dg1iy5bdq" align="center" vAlign="middle" autoClearItems="true">
+      <item icon="ui://2r331opvlfqnhz9d79"/>
+      <item icon="ui://2r331opvlfqnhz9d77"/>
+      <item icon="ui://2r331opvlfqnhz9d78"/>
+    </list>
+    <group id="n125_lfqn" name="equipGroup" xy="30,298" size="493,356" advanced="true">
+      <gearDisplay controller="group" pages="3"/>
+    </group>
+  </displayList>
+</component>

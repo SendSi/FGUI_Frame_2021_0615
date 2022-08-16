@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="324,68" designImageOffsetX="-303" designImageOffsetY="-626">
+  <controller name="state" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_xz10" name="n0" src="xz10hz9cz9" fileName="images/images_new/com_warbg01.png" pkg="2r331opv" xy="0,0" size="322,66" alpha="0.8"/>
+    <image id="n2_xz10" name="n2" src="aibb2e" fileName="images/images_new/common_arrow_4.png" pkg="2r331opv" xy="286,-7" size="40,50" group="n4_oxy0">
+      <relation target="n1_xz10" sidePair="left-right"/>
+    </image>
+    <text id="n3_xz10" name="title2" xy="321,5" size="75,42" group="n4_oxy0" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#53eb29" strokeColor="#133c10" strokeSize="2" autoClearText="true" text="+197">
+      <relation target="n2_xz10" sidePair="left-right"/>
+    </text>
+    <group id="n4_oxy0" name="n4" xy="286,-7" size="110,54" visible="false" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <text id="n1_xz10" name="title" xy="148,6" size="135,54" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#ffffff" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="4,4" autoClearText="true" text="64,300">
+      <gearXY controller="state" pages="0,1" values="148,6|142,13"/>
+    </text>
+    <text id="n5_hxd7" name="title0" xy="42,6" size="124,54" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#ffffff" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="4,4" autoClearText="true" text="战力："/>
+  </displayList>
+</component>

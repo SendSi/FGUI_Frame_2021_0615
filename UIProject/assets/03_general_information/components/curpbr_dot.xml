@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="47,47" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1,,5," selected="0"/>
+  <displayList>
+    <component id="n2_6r7s" name="EffectRoot_TianFuDian" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="-1,-1" size="49,49" touchable="false">
+      <relation target="n0_xz10" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n1_xz10" name="n1" src="xz10z9cri" fileName="images/hero_strip03.png" xy="-2,-2">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_xz10" name="n0" src="xz10z9crj" fileName="images/hero_strip04.png" xy="-2,-2">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4_fig2" name="n4" src="xz10z9crk" fileName="images/hero_strip05.png" xy="-2,-2">
+      <gearDisplay controller="state" pages="5"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

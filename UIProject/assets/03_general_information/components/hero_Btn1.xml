@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="57,54" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <controller name="state" pages="0,,1," selected="1">
+    <remark page="0" value="未解锁"/>
+    <remark page="1" value="解锁"/>
+  </controller>
+  <controller name="select" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n4_bumc" name="n4" src="gckh1iy5bg1" fileName="images/hero_btn_rebirth3.png" xy="0,0">
+      <gearDisplay controller="state" pages="1"/>
+      <gearDisplay2 controller="button" pages="0,2" condition="0"/>
+    </image>
+    <image id="n8_gckh" name="n8" src="gckh1iy5bg2" fileName="images/hero_btn_rebirth4.png" xy="0,0">
+      <gearDisplay controller="select" pages="1"/>
+    </image>
+    <image id="n5_bumc" name="n5" src="gckh1iy5bg3" fileName="images/hero_btn_rebirth1.png" xy="9,6">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <image id="n6_gckh" name="n6" src="gckh1iy5bg4" fileName="images/hero_btn_rebirth2.png" xy="9,6">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <text id="n3_bumc" name="title" xy="0,0" size="57,54" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="1">
+      <gearDisplay controller="state" pages=""/>
+      <gearColor controller="state" pages="1" values="#ffffff,#000000" default="#6581d2,#000000"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

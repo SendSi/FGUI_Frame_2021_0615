@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" pivot="0.5,0.5" scroll="both" extention="Button" bgColor="#000000">
+  <displayList>
+    <image id="n16_9r32" name="BG" src="bumchz9d7l" fileName="images/bg03.jpg" xy="0,0" size="1334,750">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n10_bumc" name="n10" src="bumchz9d7v" fileName="images/bg02.png" xy="268,81" group="n11_bumc" alpha="0.02" color="#52b5ff"/>
+    <image id="n13_bumc" name="n13" src="bumchz9d94" fileName="images/bg01.png" xy="167,-434" size="1000,538" group="n11_bumc" aspect="true" alpha="0.02" color="#52b5ff"/>
+    <image id="n14_bumc" name="n14" src="bumchz9d94" fileName="images/bg01.png" xy="681,436" pivot="0.5,0.5" size="1000,538" group="n11_bumc" aspect="true" alpha="0.02" rotation="120" color="#52b5ff"/>
+    <image id="n15_bumc" name="n15" src="bumchz9d94" fileName="images/bg01.png" xy="-342,436" pivot="0.5,0.5" size="1000,538" group="n11_bumc" aspect="true" alpha="0.02" rotation="240" color="#52b5ff"/>
+    <image id="n12_bumc" name="n12" src="bumchz9d7m" fileName="images/bg03.png" xy="493,237" group="n11_bumc" color="#468cdf"/>
+    <image id="n7_bumc" name="n7" src="bumchz9d7n" fileName="images/bg04.png" xy="573,254" group="n11_bumc"/>
+    <image id="n8_bumc" name="n8" src="bumchz9d7o" fileName="images/bg05.png" xy="511,381" group="n11_bumc"/>
+    <image id="n9_bumc" name="n9" src="bumchz9d7p" fileName="images/bg06.png" xy="658,381" group="n11_bumc"/>
+    <component id="n17_rilg" name="general" src="hxd7hz9d7l" fileName="components/general_new/generalIcon01.xml" pkg="2r331opv" xy="582,335" group="n11_bumc"/>
+    <loader id="n4_kh4z" name="tanlet1" xy="664,311" pivot="0.5,0.5" anchor="true" size="50,50" group="n11_bumc" url="ui://4hio38umbumchz9d7r"/>
+    <loader id="n5_kh4z" name="tanlet2" xy="554,432" pivot="0.5,0.5" size="50,50" group="n11_bumc" url="ui://4hio38umbumchz9d7s"/>
+    <loader id="n6_kh4z" name="tanlet3" xy="729,432" pivot="0.5,0.5" size="50,50" group="n11_bumc" url="ui://4hio38umbumchz9d7q"/>
+    <group id="n11_bumc" name="n11" xy="-342,-434" size="2023,1408" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <Button/>
+</component>

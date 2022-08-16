@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" designImage="ui://4ni413lag9nyhz9ctt" designImageOffsetX="-263" designImageOffsetY="-44" designImageAlpha="0">
+  <displayList>
+    <image id="n1_ok6z" name="bg" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" xy="0,0" size="368,148" group="n5_ok6z">
+      <relation target="n3_ok6z" sidePair="height-height"/>
+    </image>
+    <image id="n4_ok6z" name="n4" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" xy="154,140" group="n5_ok6z">
+      <relation target="n1_ok6z" sidePair="center-center,top-bottom"/>
+    </image>
+    <text id="n2_ok6z" name="title" xy="30,18" size="310,34" group="n5_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="道具名"/>
+    <text id="n6_ok6z" name="lbl01" xy="30,47" size="310,34" group="n5_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="主动技能"/>
+    <text id="n7_ok6z" name="lbl02" xy="30,78" size="117,34" group="n5_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="主动技能："/>
+    <text id="n8_ok6z" name="lbl03" xy="130,78" size="117,34" group="n5_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#b16d33" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="1000"/>
+    <text id="n3_ok6z" name="titleDesc" xy="14,99" size="323,26" group="n5_ok6z" fontSize="18" color="#ffffff" vAlign="middle" ubb="true" autoSize="height" autoClearText="true" text="">
+      <relation target="" sidePair="height-height"/>
+    </text>
+    <group id="n5_ok6z" name="view" xy="0,0" size="368,186" advanced="true"/>
+  </displayList>
+</component>

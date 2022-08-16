@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="489,83">
+  <displayList>
+    <image id="n88_xoe1" name="n88" src="r9f638" fileName="images/images_new/bg_chat_09.png" pkg="2r331opv" xy="0,0" size="489,83" group="n89_xoe1" alpha="0.8">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n90_xoe1" name="n90" xy="141,13" size="44,29" group="n89_xoe1" fontSize="20" color="#f0e4a3" autoClearText="true" text="起始"/>
+    <text id="n91_xoe1" name="startPoint" xy="119,41" pivot="0.5,0.5" size="87,29" group="n89_xoe1" fontSize="20" color="#ffffff" autoClearText="true" text="2221.222"/>
+    <text id="n93_xoe1" name="n93" xy="314,13" size="44,29" group="n89_xoe1" fontSize="20" color="#f0e4a3" autoClearText="true" text="目标"/>
+    <text id="n94_xoe1" name="endPoint" xy="292,41" pivot="0.5,0.5" size="87,29" group="n89_xoe1" fontSize="20" color="#ffffff" autoClearText="true" text="2221.222"/>
+    <image id="n95_xoe1" name="n95" src="xoe1ci1" fileName="images/common_arrow01.png" pkg="2r331opv" xy="226,31" group="n89_xoe1"/>
+    <image id="n96_xoe1" name="n96" src="xoe1ci1" fileName="images/common_arrow01.png" pkg="2r331opv" xy="244,31" group="n89_xoe1"/>
+    <image id="n97_xoe1" name="n97" src="xoe1ci1" fileName="images/common_arrow01.png" pkg="2r331opv" xy="261,31" group="n89_xoe1"/>
+    <group id="n89_xoe1" name="teamWalking" xy="0,0" size="489,83" advanced="true"/>
+  </displayList>
+</component>

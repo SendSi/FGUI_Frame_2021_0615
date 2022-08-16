@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://4hio38umbwlb1iy5bdb" designImageAlpha="0">
+  <controller name="tab" pages="1,,2,,3," selected="0"/>
+  <controller name="state" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n2_xz10" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_xz10" name="n3" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n30_xz10"/>
+    <component id="n37_nsww" name="n37" src="bwlb1iy5bda" fileName="components/fetterBg.xml" xy="192,70" size="771,600" group="n30_xz10" alpha="0.7">
+      <gearSize controller="tab" pages="1,2,3" values="771,600,1,1|771,600,1,1|771,600,1,1" tween="true"/>
+    </component>
+    <image id="n45_bwlb" name="n45" src="lfqnhz9d6w" fileName="images/images_new/com_bg_popup02.png" pkg="2r331opv" xy="196,149" size="942,514" group="n30_xz10"/>
+    <text id="n6_xz10" name="title" xy="365,71" pivot="0.5,0.5" size="600,46" group="n30_xz10" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="3,3" autoClearText="true" text="羁绊名称"/>
+    <list id="n7_xz10" name="starList" xy="448,130" pivot="0.5,0.5" size="437,59" group="n30_xz10" scale="0.7,0.7" visible="false" layout="flow_hz" overflow="scroll" colGap="18" defaultItem="ui://2r331opvn16mg3" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_xz10" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n30_xz10">
+      <relation target="n3_xz10" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n53_bwlb" name="backBtn" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="180,170" size="972,492" group="n30_xz10">
+      <Button controller="tab" page="0"/>
+    </component>
+    <component id="n54_fig2" name="skill0" src="g9nyhz9ct6" fileName="components/general_new/generalSkillIcon.xml" pkg="2r331opv" xy="464,264" group="n11_xz10"/>
+    <component id="n9_xz10" name="general0" src="hxd7hz9d7a" fileName="components/general_new/generalIconNormal.xml" pkg="2r331opv" xy="438,134" group="n11_xz10">
+      <Button checked="true" controller="tab" page="1"/>
+    </component>
+    <component id="n24_xz10" name="line0" src="xz10z9crx" fileName="components/fetterine.xml" xy="610,220" group="n11_xz10"/>
+    <text id="n27_xz10" name="lineTips0" xy="650,305" pivot="0.5,0.5" size="48,32" group="n11_xz10" rotation="59" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" align="center" vAlign="middle" text="激活"/>
+    <group id="n11_xz10" name="n11" xy="438,134" size="310,279" group="n44_bwlb"/>
+    <component id="n12_xz10" name="skill1" src="g9nyhz9ct6" fileName="components/general_new/generalSkillIcon.xml" pkg="2r331opv" xy="569,440" group="n14_xz10"/>
+    <component id="n13_xz10" name="general1" src="hxd7hz9d7a" fileName="components/general_new/generalIconNormal.xml" pkg="2r331opv" xy="622,433" group="n14_xz10">
+      <Button controller="tab" page="2"/>
+    </component>
+    <component id="n25_xz10" name="line1" src="xz10z9crx" fileName="components/fetterine.xml" xy="644,582" group="n14_xz10" rotation="119"/>
+    <text id="n38_bwlb" name="lineTips1" xy="496,572" pivot="0.5,0.5" size="48,32" group="n14_xz10" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" align="center" vAlign="middle" text="激活"/>
+    <group id="n14_xz10" name="n14" xy="496,433" size="286,342" group="n44_bwlb"/>
+    <component id="n15_xz10" name="skill2" src="g9nyhz9ct6" fileName="components/general_new/generalSkillIcon.xml" pkg="2r331opv" xy="370,442" group="n17_xz10"/>
+    <component id="n16_xz10" name="general2" src="hxd7hz9d7a" fileName="components/general_new/generalIconNormal.xml" pkg="2r331opv" xy="257,432" group="n17_xz10">
+      <Button controller="tab" page="3"/>
+    </component>
+    <component id="n26_xz10" name="line2" src="xz10z9crx" fileName="components/fetterine.xml" xy="313,430" group="n17_xz10" rotation="240"/>
+    <text id="n39_bwlb" name="lineTips2" xy="344,306" pivot="0.5,0.5" size="48,32" group="n17_xz10" rotation="-61" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" align="center" vAlign="middle" text="激活"/>
+    <group id="n17_xz10" name="n17" xy="257,306" size="194,317" group="n44_bwlb"/>
+    <group id="n44_bwlb" name="genIcon" xy="257,134" size="525,641" group="n30_xz10" advanced="true">
+      <relation target="n37_nsww" sidePair="right-right,top-top"/>
+    </group>
+    <text id="n56_nxs9" name="stress" xy="449,648" pivot="0.5,0.5" size="436,26" group="n30_xz10" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#4c9129" text="羁绊英雄必须配置在同一部队中才可激活觉醒技能哦！"/>
+    <component id="n46_bwlb" name="skill" src="g9nyhz9ct6" fileName="components/general_new/generalSkillIcon.xml" pkg="2r331opv" xy="838,270" group="n43_bwlb"/>
+    <image id="n47_bwlb" name="n47" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="836,342" size="272,36" group="n43_bwlb"/>
+    <text id="n48_bwlb" name="txt" xy="843,343" size="100,34" group="n43_bwlb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="技能描述"/>
+    <text id="n51_bwlb" name="tipsTitle0" xy="903,287" size="162,34" group="n40_bwlb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#e77917" align="center" autoClearText="true" text="觉醒技能名称0"/>
+    <text id="n52_bwlb" name="tips0" xy="843,384" size="264,189" group="n40_bwlb" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoSize="none" autoClearText="true" text="SSR英雄觉醒：崩巴啦啦啦啦"/>
+    <group id="n40_bwlb" name="n40" xy="843,287" size="264,286" group="n43_bwlb" advanced="true">
+      <gearDisplay controller="tab" pages="1"/>
+    </group>
+    <text id="n49_bwlb" name="tipsTitle1" xy="903,287" size="162,34" group="n41_bwlb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#e77917" align="center" autoClearText="true" text="觉醒技能名称1"/>
+    <text id="n50_bwlb" name="tips1" xy="843,384" size="264,189" group="n41_bwlb" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoSize="none" autoClearText="true" text="SSR英雄觉醒：崩巴啦啦啦啦"/>
+    <group id="n41_bwlb" name="n41" xy="843,287" size="264,286" group="n43_bwlb" advanced="true">
+      <gearDisplay controller="tab" pages="2"/>
+    </group>
+    <text id="n22_xz10" name="tipsTitle2" xy="903,287" size="162,34" group="n42_bwlb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#e77917" align="center" autoClearText="true" text="觉醒技能名称2"/>
+    <text id="n23_xz10" name="tips2" xy="843,384" size="264,189" group="n42_bwlb" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoSize="none" autoClearText="true" text="SSR英雄觉醒：崩巴啦啦啦啦"/>
+    <group id="n42_bwlb" name="n42" xy="843,287" size="264,286" group="n43_bwlb" advanced="true">
+      <gearDisplay controller="tab" pages="3"/>
+    </group>
+    <group id="n43_bwlb" name="infor" xy="836,270" size="272,303" group="n30_xz10" advanced="true">
+      <gearDisplay controller="tab" pages="1,2,3"/>
+    </group>
+    <component id="n31_xz10" name="explainBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="1080,138" size="70,72" group="n30_xz10">
+      <Button icon="ui://2r331opvr616z9cpc"/>
+    </component>
+    <loader id="n55_fccv" name="icon" xy="420,343" pivot="0.5,0.5" size="158,158" group="n30_xz10" aspect="true" url="ui://4hio38ume1m31iy5bf3" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="state" pages="0,1,2" values="ui://4hio38ume1m31iy5bf3|ui://4hio38ume1m31iy5bf4|ui://4hio38ume1m31iy5bf5"/>
+    </loader>
+    <text id="n59_tiue" name="generalName" xy="839,211" size="314,62" group="n30_xz10" font="ui://2r331opvno3vhz9d63" fontSize="40" color="#061324" autoSize="none" autoClearText="true" text="他的名字六字"/>
+    <text id="n60_tiue" name="generalTitle" xy="839,182" size="314,34" group="n30_xz10" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#061324" autoSize="none" autoClearText="true" text="野蛮人首领"/>
+    <group id="n30_xz10" name="window" xy="77,38" size="1180,737" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

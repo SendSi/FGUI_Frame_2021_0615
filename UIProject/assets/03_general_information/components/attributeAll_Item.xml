@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="235,44" extention="Button" designImage="ui://4hio38umc4umcik" designImageOffsetX="-716" designImageOffsetY="-249">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n4_c4um" name="n4" xy="0,0" size="235,44" alpha="0.2" type="rect" fillColor="#ff000000"/>
+    <text id="n3_c4um" name="title" xy="1,4" size="93,44" fontSize="21" color="#e5ce8e" align="right" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="攻击">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n5_c4um" name="num" xy="102,5" size="132,38" font="ui://2r331opvlwft3" fontSize="27" color="#ffffff" autoSize="none" singleLine="true" autoClearText="true" text="6818"/>
+  </displayList>
+  <Button/>
+</component>

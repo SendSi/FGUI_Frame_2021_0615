@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://utp01xiac1q93d">
+  <displayList>
+    <image id="n25_wizi" name="bg" src="wizi8" fileName="Img/com_bg_popup.png" xy="313,169" size="708,412" group="n18_arx1"/>
+    <component id="n26_wizi" name="leftBtn" src="wizif" fileName="Com/btn_left.xml" xy="393,488" size="234,59" group="n18_arx1"/>
+    <component id="n27_wizi" name="rightBtn" src="wizib" fileName="Com/btn_right.xml" xy="718,488" size="234,59" group="n18_arx1"/>
+    <text id="n19_c1q9" name="titleTxt" xy="339,174" size="76,49" group="n18_arx1" font="ui://2r331opvlwft3" fontSize="36" color="#f2dd68" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="提示"/>
+    <text id="n28_wizi" name="contentTip" xy="424,271" size="489,155" group="n18_arx1" font="ui://2r331opvlwft3" fontSize="22" color="#ffffff" autoSize="none" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="提示"/>
+    <group id="n18_arx1" name="n18" xy="313,169" size="708,412" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

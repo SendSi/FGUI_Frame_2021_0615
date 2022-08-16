@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="914,91">
+  <displayList>
+    <image id="n42_lhtp" name="bg" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="914,91">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n38_lhtp" name="n38" src="j3xs9pm" fileName="components/components_new/btn_head4.xml" pkg="2r331opv" xy="0,3" scale="0.4,0.4"/>
+    <component id="n39_lhtp" name="n39" src="lhtphx" fileName="components/chat.xml" pkg="2r331opv" xy="737,22"/>
+    <component id="n40_lhtp" name="n40" src="lhtphz" fileName="components/give.xml" pkg="2r331opv" xy="847,22"/>
+    <component id="n41_lhtp" name="n41" src="lhtphy" fileName="components/collect.xml" pkg="2r331opv" xy="792,22"/>
+    <text id="n43_lhtp" name="title_01" xy="83,28" size="145,36" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="名字六个字吧吧"/>
+    <text id="n44_lhtp" name="title_02" xy="228,28" size="146,36" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="联盟名六字吧吧"/>
+    <text id="n45_lhtp" name="title_03" xy="377,28" size="98,36" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="5452000"/>
+    <text id="n46_lhtp" name="title_04" xy="479,28" size="111,36" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="123456789"/>
+    <text id="n47_lhtp" name="title_05" xy="592,28" size="138,36" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="所在联盟哈哈"/>
+  </displayList>
+</component>

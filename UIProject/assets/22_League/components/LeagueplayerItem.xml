@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="294,28" designImageOffsetX="-262" designImageOffsetY="-306" designImageLayer="1">
+  <controller name="state" pages="0,,1," selected="1">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示最佳"/>
+  </controller>
+  <displayList>
+    <text id="n15_spur" name="optimal" xy="147,2" size="68,24" group="n16_spur" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffe765" align="center" vAlign="middle" singleLine="true" text="手气最佳"/>
+    <image id="n20_mdgr" name="n20" src="mdgr1ygcfg0" fileName="images/league_icon_optimal2.png" xy="128,6" group="n16_spur"/>
+    <group id="n16_spur" name="label" xy="128,2" size="87,24" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <text id="n2_i5fm" name="txt" xy="0,1" size="130,26" group="n19_spur" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" ubb="true" singleLine="true" text="这里打玩家名字"/>
+    <loader id="n22_mdgr" name="icon" xy="209,0" size="28,28" group="n19_spur" aspect="true" url="ui://tsbe09ddmz4wb" fill="scale"/>
+    <text id="n4_i5fm" name="value" xy="231,0" size="63,29" group="n19_spur" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="right" ubb="true" singleLine="true" text="12345"/>
+    <group id="n19_spur" name="detail" xy="0,0" size="294,29" advanced="true"/>
+  </displayList>
+</component>

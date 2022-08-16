@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="239,50" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n3_j9d9" name="title" xy="51,5" size="184,40" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" singleLine="true" text="切换为集结邮件">
+      <gearText controller="button" pages="0,1,2,3" values="切换为集结邮件|切换为普通邮件|切换为集结邮件|切换为普通邮件"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n4_j9d9" name="icon" xy="0,0" size="50,50" url="ui://2r331opvl2su1ygcfgb" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="button" pages="1,3" values="ui://2r331opvr1km1ygcfhe|ui://2r331opvr1km1ygcfhe" default="ui://2r331opvl2su1ygcfgb"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button mode="Check"/>
+</component>

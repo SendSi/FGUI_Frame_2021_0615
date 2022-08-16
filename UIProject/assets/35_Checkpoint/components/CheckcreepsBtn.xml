@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="81,64" extention="Button">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="boss"/>
+    <remark page="1" value="普通野怪"/>
+  </controller>
+  <displayList>
+    <image id="n16_lp55" name="pointer1" src="m4lu1ygcfeu" fileName="images/Checkpoint_icon_creepsbg1.png" xy="0,0" pivot="0.4,0.5">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <image id="n15_lp55" name="pointer2" src="m4lu1ygcfev" fileName="images/Checkpoint_icon_creepsbg2.png" xy="0,0" pivot="0.4,0.5">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <image id="n18_m4lu" name="n18" src="m4lu1ygcfet" fileName="images/Checkpoint_icon_creeps1.png" xy="15,15">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <image id="n19_m4lu" name="n19" src="m4lu1ygcfes" fileName="images/Checkpoint_icon_creeps2.png" xy="15,15">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

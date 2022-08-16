@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="393,116">
+  <controller name="type" pages="0,show,1,hide" selected="0"/>
+  <controller name="function" pages="0,,1," selected="0">
+    <remark page="0" value="常用建筑"/>
+    <remark page="1" value="地图斥候"/>
+  </controller>
+  <displayList>
+    <image id="n141_dfgw" name="n141" src="dfgw1ygcfmf" fileName="images/images_new/com_change04.png" pkg="2r331opv" xy="126,70" size="138,23" group="n132_i52u" color="#000000">
+      <gearDisplay controller="type" pages="0"/>
+    </image>
+    <text id="n111_ubb2" name="titleLv" xy="108,69" pivot="0.5,0.5" size="174,26" group="n132_i52u" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="Lv.99">
+      <gearDisplay controller="type" pages="0"/>
+    </text>
+    <image id="n107_ubb2" name="bg_2" src="fz63hz9crj" fileName="images/map/mainhud_bg_title1.png" xy="31,0" pivot="0.5,0.5" size="331,116" group="n132_i52u" scale="0.7,0.7">
+      <gearDisplay controller="type" pages=""/>
+      <relation target="n110_ubb2" sidePair="width-width"/>
+    </image>
+    <text id="n110_ubb2" name="titleName" xy="196,43" pivot="0.5,0.5" anchor="true" size="108,36" group="n132_i52u" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" shadowColor="#322b63" shadowOffset="2,2" singleLine="true" autoClearText="true" text="建筑名字"/>
+    <group id="n132_i52u" name="BuildingName" xy="31,0" size="331,116" advanced="true">
+      <gearDisplay controller="function" pages="0"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="385,127" pivot="0.5,0.5" extention="Button" designImageOffsetX="-181" designImageOffsetY="-165" designImageAlpha="30">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <controller name="redPoint" pages="0,,1," selected="0">
+    <remark page="0" value="无红点"/>
+    <remark page="1" value="有红点"/>
+  </controller>
+  <controller name="rewarded" pages="0,,1," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="无"/>
+  </controller>
+  <controller name="type" pages="0,,1," selected="0">
+    <remark page="0" value="普通"/>
+    <remark page="1" value="报告类"/>
+  </controller>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="未收藏"/>
+    <remark page="1" value="收藏"/>
+  </controller>
+  <controller name="Topping" pages="0,,1," selected="0">
+    <remark page="0" value="置顶"/>
+    <remark page="1" value="取消置顶"/>
+  </controller>
+  <displayList>
+    <image id="n3_kbi5" name="n3" src="mlozhz9czs" fileName="images/bg_04.png" xy="0,10" size="374,117">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n4_kbi5" name="n4" src="mlozhz9czr" fileName="images/bg_03.png" xy="0,10" size="374,117">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <loader id="n7_kbi5" name="icon" xy="24,27" pivot="0.5,0.5" size="80,80" aspect="true" url="ui://ufsajnnzlk93chd" align="center" vAlign="middle" fill="scale">
+      <gearSize controller="type" pages="0,1" values="80,80,1,1|80,80,1,1"/>
+      <gearColor controller="button" pages="0,2" values="#cccccc|#cccccc" default="#ffffff"/>
+    </loader>
+    <text id="n6_kbi5" name="senderName" xy="106,65" size="225,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" vAlign="middle" autoSize="none" autoClearText="true" text="Sender‘s name">
+      <gearDisplay controller="type" pages="0"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#775c35,#000000|#97794f,#000000|#775c35,#000000|#97794f,#000000"/>
+    </text>
+    <image id="n10_ix8t" name="collectedIcon" src="cxixz9cmd" fileName="images/images_new/stars02.png" pkg="2r331opv" xy="23,26" size="26,25" aspect="true" visible="false">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <component id="n21_j9d9" name="toppingBtn" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="293,-10" size="105,97" scale="0.7,0.7">
+      <gearDisplay controller="Topping" pages="0"/>
+      <gearLook controller="button" pages="0,2" values="0.7,0,0,1|0.7,0,0,1" default="1,0,0,1"/>
+      <Button icon="ui://ufsajnnzmlozhz9czt"/>
+    </component>
+    <component id="n11_tbod" name="redBtn" src="dix6fm" fileName="components/components_new/red_dot.xml" pkg="2r331opv" xy="371,15">
+      <gearDisplay controller="redPoint" pages="1"/>
+    </component>
+    <text id="n5_kbi5" name="title" xy="106,40" size="222,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" autoClearText="true" text="名字">
+      <gearXY controller="type" pages="0,1" values="106,40|106,18"/>
+    </text>
+    <text id="n18_9itd" name="reportLbl" xy="106,56" size="221,29" group="n20_9itd" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" autoSize="none" autoClearText="true" text="描述内容">
+      <gearColor controller="button" pages="0,2" values="#775c35,#000000|#775c35,#000000" default="#97794f,#000000"/>
+    </text>
+    <text id="n19_9itd" name="timeLbl" xy="108,77" size="221,29" group="n20_9itd" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#599e27" autoSize="none" autoClearText="true" text="4小时">
+      <gearColor controller="button" pages="0,2" values="#498020,#000000|#498020,#000000" default="#599e27,#000000"/>
+    </text>
+    <group id="n20_9itd" name="n20" xy="106,56" size="223,50" advanced="true">
+      <gearDisplay controller="type" pages="1"/>
+    </group>
+    <image id="n14_9itd" name="n14" src="ilfe9cjq" fileName="images/item_30001.png" pkg="tsbe09dd" xy="322,73" size="47,47" aspect="true">
+      <gearDisplay controller="rewarded" pages="0"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Shake" target="n14_9itd" value="2,0.5"/>
+    <item time="48" type="Shake" target="n14_9itd" value="2,0.5"/>
+    <item time="96" type="Shake" target="n14_9itd" value="0,0.5"/>
+  </transition>
+</component>

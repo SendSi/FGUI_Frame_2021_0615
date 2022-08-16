@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <displayList>
+    <component id="n10_m79t" name="bg1" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n123_gpdy" name="n123" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n148_gpdy"/>
+    <text id="n124_gpdy" name="title" xy="597,70" pivot="0.5,0.5" size="140,46" group="n148_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="资料设置"/>
+    <component id="n149_gpdy" name="abbreviation" src="gpdyhz9d62" fileName="components/btnInputbox.xml" xy="217,188" group="n128_gpdy"/>
+    <text id="n126_gpdy" name="title1" xy="216,155" size="100,34" group="n128_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" leading="0" singleLine="true" text="联盟简称"/>
+    <group id="n128_gpdy" name="n128" xy="216,155" size="579,69" group="n148_gpdy"/>
+    <component id="n150_gpdy" name="name" src="gpdyhz9d62" fileName="components/btnInputbox.xml" xy="217,273" group="n132_gpdy"/>
+    <text id="n130_gpdy" name="title2" xy="216,240" size="100,34" group="n132_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" singleLine="true" text="联盟名称"/>
+    <group id="n132_gpdy" name="n129" xy="216,240" size="579,69" group="n148_gpdy"/>
+    <image id="n133_gpdy" name="n133" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="217,354" size="578,115" group="n136_gpdy"/>
+    <text id="n134_gpdy" name="n134" xy="216,324" size="100,34" group="n136_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" leading="0" text="联盟公告"/>
+    <text id="n135_gpdy" name="inputNotice" xy="223,361" size="565,100" group="n136_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" leading="0" autoSize="none" text="" input="true" prompt="[color=#50382E]点击输入，最多输入30字……[/color]" maxLength="15"/>
+    <group id="n136_gpdy" name="notice" xy="216,324" size="579,145" group="n148_gpdy"/>
+    <image id="n137_gpdy" name="n137" src="b3skhz9cxp" fileName="images/league_kraftpaper.png" xy="815,162" size="307,486" group="n141_gpdy" alpha="0.7"/>
+    <image id="n138_gpdy" name="n138" src="b3skhz9cxs" fileName="images/league_redcloth.png" xy="840,144" group="n141_gpdy" visible="false"/>
+    <component id="n139_gpdy" name="flagIcon" src="nnlhhz9d15" fileName="components/flagIcon.xml" xy="814,208" group="n141_gpdy"/>
+    <component id="n153_pvhf" name="btnFla" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="890,540" group="n141_gpdy">
+      <Button title="选择"/>
+    </component>
+    <group id="n141_gpdy" name="flag" xy="814,144" size="310,518" group="n148_gpdy"/>
+    <text id="n142_gpdy" name="n142" xy="216,482" size="100,34" group="n146_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="入盟要求"/>
+    <image id="n143_gpdy" name="n143" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="217,522" size="578,36" group="n146_gpdy"/>
+    <text id="n144_gpdy" name="condition" xy="223,526" size="528,29" group="n146_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoSize="none" text="任何人"/>
+    <component id="n145_gpdy" name="conditionBtn" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="694,455" size="168,168" group="n146_gpdy" aspect="true" scale="0.5,0.5">
+      <Button icon="ui://2r331opvw84whz9cxd"/>
+    </component>
+    <group id="n146_gpdy" name="entry" xy="216,455" size="646,168" group="n148_gpdy"/>
+    <component id="n152_pvhf" name="btnCreate" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="420,575" size="202,78" group="n148_gpdy">
+      <Button title="确定" titleFontSize="30"/>
+    </component>
+    <component id="n151_omzo" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n148_gpdy"/>
+    <group id="n148_gpdy" name="windows" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

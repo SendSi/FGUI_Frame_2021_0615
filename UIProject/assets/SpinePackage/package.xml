@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dhoj786w">
+  <resources>
+    <component id="m42m0" name="Main.xml" path="/" exported="true"/>
+    <misc id="ob8pka" name="Haila.atlas" path="/SpineRes/" exported="true"/>
+    <image id="ob8pkb" name="Haila.png" path="/SpineRes/" exported="true"/>
+    <spine id="ob8pkc" name="Haila.skel" path="/SpineRes/" exported="true" width="100" height="100" require="ob8pka,ob8pkb" atlasNames="Haila" anchor="100,100"/>
+    <misc id="ob8pkd" name="Kaier.atlas" path="/SpineRes/" exported="true"/>
+    <image id="ob8pke" name="Kaier.png" path="/SpineRes/" exported="true"/>
+    <spine id="ob8pkf" name="Kaier.skel" path="/SpineRes/" exported="true" width="100" height="100" require="ob8pkd,ob8pke" atlasNames="Kaier" anchor="100,100"/>
+    <misc id="ob8pkg" name="leiouna.atlas" path="/SpineRes/" exported="true"/>
+    <image id="ob8pkh" name="leiouna.png" path="/SpineRes/" exported="true"/>
+    <spine id="ob8pki" name="leiouna.skel" path="/SpineRes/" exported="true" width="100" height="100" require="ob8pkg,ob8pkh" atlasNames="leiouna" anchor="100,100"/>
+    <misc id="ob8pkj" name="Luoji.atlas" path="/SpineRes/" exported="true"/>
+    <image id="ob8pkk" name="Luoji.png" path="/SpineRes/" exported="true"/>
+    <spine id="ob8pkl" name="Luoji.skel" path="/SpineRes/" exported="true" width="100" height="100" require="ob8pkj,ob8pkk" atlasNames="Luoji" anchor="100,100"/>
+    <misc id="ob8pl1" name="ZhigaolingNiutouren.atlas" path="/SpineRes/" exported="true"/>
+    <image id="ob8pl2" name="ZhigaolingNiutouren.png" path="/SpineRes/" exported="true"/>
+    <spine id="ob8pl3" name="ZhigaolingNiutouren.skel" path="/SpineRes/" exported="true" width="100" height="100" require="ob8pl1,ob8pl2" atlasNames="ZhigaolingNiutouren" anchor="100,100"/>
+    <misc id="ad2old" name="Xiongmaoren.atlas" path="/SpineRes/" exported="true"/>
+    <image id="ad2ole" name="Xiongmaoren.png" path="/SpineRes/" exported="true"/>
+    <spine id="ad2olf" name="Xiongmaoren.skel" path="/SpineRes/" exported="true" width="100" height="100" require="ad2old,ad2ole" atlasNames="Xiongmaoren" anchor="100,100"/>
+    <misc id="9rsqn7" name="ShuiliuFashi.atlas" path="/SpineRes/" exported="true"/>
+    <image id="9rsqn8" name="ShuiliuFashi.png" path="/SpineRes/" exported="true"/>
+    <spine id="9rsqn9" name="ShuiliuFashi.skel" path="/SpineRes/" exported="true" width="100" height="100" require="9rsqn7,9rsqn8" atlasNames="ShuiliuFashi" anchor="100,100"/>
+    <misc id="puttna" name="ChiYanQiShi.atlas" path="/SpineRes/" exported="true"/>
+    <image id="puttnb" name="ChiYanQiShi.png" path="/SpineRes/" exported="true"/>
+    <spine id="puttnc" name="ChiYanQiShi.skel" path="/SpineRes/" exported="true" width="100" height="100" require="puttna,puttnb" atlasNames="ChiYanQiShi" anchor="100,100"/>
+    <misc id="puttni" name="BingShuangEMo.atlas" path="/SpineRes/" exported="true"/>
+    <image id="puttnj" name="BingShuangEMo.png" path="/SpineRes/" exported="true"/>
+    <spine id="puttnk" name="BingShuangEMo.skel" path="/SpineRes/" exported="true" width="100" height="100" require="puttni,puttnj" atlasNames="BingShuangEMo" anchor="100,100"/>
+    <misc id="km66nl" name="YouMingQiShi.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66nm" name="YouMingQiShi.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66nn" name="YouMingQiShi.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66nl,km66nm" atlasNames="YouMingQiShi" anchor="100,100"/>
+    <misc id="km66nr" name="FeiDuo.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66ns" name="FeiDuo.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66nt" name="FeiDuo.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66nr,km66ns" atlasNames="FeiDuo" anchor="100,100"/>
+    <misc id="km66nx" name="Ataier.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66ny" name="Ataier.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66nz" name="Ataier.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66nx,km66ny" atlasNames="Ataier" anchor="100,100"/>
+    <misc id="km66o0" name="BiAnying.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66o1" name="BiAnying.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66o2" name="BiAnying.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66o0,km66o1" atlasNames="BiAnying" anchor="100,100"/>
+    <misc id="km66o3" name="AirenGongjiang.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66o4" name="AirenGongjiang.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66o5" name="AirenGongjiang.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66o3,km66o4" atlasNames="AirenGongjiang" anchor="100,100"/>
+    <misc id="km66o6" name="AirenZixingHuopao.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66o7" name="AirenZixingHuopao.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66o8" name="AirenZixingHuopao.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66o6,km66o7" atlasNames="AirenZixingHuopao" anchor="100,100"/>
+    <misc id="km66o9" name="WuWeiJuDUN.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66oa" name="WuWeiJuDUN.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66ob" name="WuWeiJuDUN.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66o9,km66oa" atlasNames="WuWeiJuDUN" anchor="100,100"/>
+    <misc id="km66oc" name="Meiying-Anna.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66od" name="Meiying-Anna.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66oe" name="Meiying-Anna.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66oc,km66od" atlasNames="Meiying-Anna" anchor="100,100"/>
+    <misc id="km66or" name="QiangWei.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66os" name="QiangWei.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66ot" name="QiangWei.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66or,km66os" atlasNames="QiangWei" anchor="100,100"/>
+    <misc id="km66ou" name="BoliHengzhiXing.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66ov" name="BoliHengzhiXing.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66ow" name="BoliHengzhiXing.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66ou,km66ov" atlasNames="BoliHengzhiXing" anchor="100,100"/>
+    <misc id="km66ox" name="DuoHunLieMoZhe.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66oy" name="DuoHunLieMoZhe.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66oz" name="DuoHunLieMoZhe.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66ox,km66oy" atlasNames="DuoHunLieMoZhe" anchor="100,100"/>
+    <misc id="km66p0" name="DuoMingZhuiLieZhe.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66p1" name="DuoMingZhuiLieZhe.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66p2" name="DuoMingZhuiLieZhe.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66p0,km66p1" atlasNames="DuoMingZhuiLieZhe" anchor="100,100"/>
+    <misc id="km66p3" name="AirenZhishengJi.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66p4" name="AirenZhishengJi.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66p5" name="AirenZhishengJi.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66p3,km66p4" atlasNames="AirenZhishengJi" anchor="100,100"/>
+    <misc id="km66p6" name="ChaoFanLueShiZhe.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66p7" name="ChaoFanLueShiZhe.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66p8" name="ChaoFanLueShiZhe.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66p6,km66p7" atlasNames="ChaoFanLueShiZhe" anchor="100,100"/>
+    <misc id="km66p9" name="GuBaoGuanJia.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66pa" name="GuBaoGuanJia.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66pb" name="GuBaoGuanJia.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66p9,km66pa" atlasNames="GuBaoGuanJia" anchor="100,100"/>
+    <misc id="km66pc" name="BoJueLaoYe.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66pd" name="BoJueLaoYe.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66pe" name="BoJueLaoYe.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66pc,km66pd" atlasNames="BoJueLaoYe" anchor="100,100"/>
+    <misc id="km66pl" name="FengMangZhiDun.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66pm" name="FengMangZhiDun.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66pn" name="FengMangZhiDun.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66pl,km66pm" atlasNames="FengMangZhiDun" anchor="100,100"/>
+    <misc id="km66po" name="BingshuangTiequan.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66pp" name="BingshuangTiequan.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66pq" name="BingshuangTiequan.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66po,km66pp" atlasNames="BingshuangTiequan" anchor="100,100"/>
+    <misc id="km66pr" name="CanBaoJianDun.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66ps" name="CanBaoJianDun.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66pt" name="CanBaoJianDun.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66pr,km66ps" atlasNames="CanBaoJianDun" anchor="100,100"/>
+    <misc id="km66pu" name="BoJueXiaoJie.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66pv" name="BoJueXiaoJie.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66pw" name="BoJueXiaoJie.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66pu,km66pv" atlasNames="BoJueXiaoJie" anchor="100,100"/>
+    <misc id="km66px" name="Gailun.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66py" name="Gailun.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66pz" name="Gailun.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66px,km66py" atlasNames="Gailun" anchor="100,100"/>
+    <misc id="km66q3" name="Gailun_2.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66q4" name="Gailun_2.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66q5" name="Gailun_2.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66q3,km66q4" atlasNames="Gailun_2" anchor="100,100"/>
+    <misc id="km66q9" name="QiangWei_1.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66qa" name="QiangWei_1.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66qb" name="QiangWei_1.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66q9,km66qa" atlasNames="QiangWei_1" anchor="100,100"/>
+    <misc id="km66qf" name="Gailun_1.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66qg" name="Gailun_1.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66qh" name="Gailun_1.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66qf,km66qg" atlasNames="Gailun_1" anchor="100,100"/>
+    <misc id="km66qi" name="GuBaoGuanJia_1.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66qj" name="GuBaoGuanJia_1.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66qk" name="GuBaoGuanJia_1.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66qi,km66qj" atlasNames="GuBaoGuanJia_1" anchor="100,100"/>
+    <misc id="km66ql" name="KuangfengFashi.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66qm" name="KuangfengFashi.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66qn" name="KuangfengFashi.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66ql,km66qm" atlasNames="KuangfengFashi" anchor="100,100"/>
+    <misc id="km66qo" name="Diyupaoxiao.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66qp" name="Diyupaoxiao.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66qq" name="Diyupaoxiao.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66qo,km66qp" atlasNames="Diyupaoxiao" anchor="100,100"/>
+    <misc id="km66qr" name="Tuoer.atlas" path="/SpineRes/" exported="true"/>
+    <image id="km66qs" name="Tuoer.png" path="/SpineRes/" exported="true"/>
+    <spine id="km66qt" name="Tuoer.skel" path="/SpineRes/" exported="true" width="100" height="100" require="km66qr,km66qs" atlasNames="Tuoer" anchor="100,100"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

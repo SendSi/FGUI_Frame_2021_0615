@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="258,58" extention="Button">
+  <controller name="expanded" pages="1,未展开,3,展开" selected="0"/>
+  <displayList>
+    <image id="n3_v8po" name="n3" src="no3vhz9d69" fileName="images/images_new/com_bg_segmentation.png" pkg="2r331opv" xy="0,0" size="258,58"/>
+    <text id="n4_v8po" name="name" xy="26,13" size="152,34" grayed="true" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#9f9898" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,3" text="20级副本怪物">
+      <gearColor controller="expanded" pages="1" values="#9f9898,#000000" default="#ffffff,#000000"/>
+    </text>
+    <loader id="n10_v8po" name="n10" xy="212,18" pivot="0.5,0.5" size="33,27" rotation="-90" touchable="false" url="ui://2r331opvno3vhz9d6f">
+      <gearLook controller="expanded" pages="1,3" values="1,-90,0,0|1,0,0,0" tween="true"/>
+      <gearIcon controller="expanded" pages="1" values="ui://2r331opvno3vhz9d6f" default="ui://2r331opvno3vhz9d6d"/>
+    </loader>
+  </displayList>
+  <Button mode="Check"/>
+</component>

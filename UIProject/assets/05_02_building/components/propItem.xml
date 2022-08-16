@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="141,50" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n5_lavj" name="n5" src="bumchz9d7p" fileName="images/images_new/windowBg_new/negative_bg03.png" pkg="2r331opv" xy="0,1" size="141,48">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n3_h55m" name="icon" xy="1,0" size="49,49" aspect="true" touchable="false" url="ui://tsbe09ddmz4w0" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n4_h55m" name="title" xy="52,7" size="84,36" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#50382e" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="5600">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

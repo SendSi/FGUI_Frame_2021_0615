@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,57" extention="Button">
+  <controller name="arrowCtrl" pages="1,上,3,下" selected="0"/>
+  <displayList>
+    <image id="n0_n6uq" name="n0" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,14" size="420,36" alpha="0.5">
+      <gearLook controller="arrowCtrl" pages="1" values="0.5,0,0,0" default="1,0,0,0"/>
+    </image>
+    <text id="n1_n6uq" name="title" xy="42,14" size="226,36" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" autoSize="none" singleLine="true" text="盟主"/>
+    <loader id="n2_n6uq" name="icon" xy="0,11" pivot="0.5,0.5" size="40,40" alpha="0.6" rotation="180" url="ui://2r331opvjmaehz9cuv" align="center" vAlign="middle">
+      <gearXY controller="arrowCtrl" pages="1,3" values="0,11|0,11"/>
+      <gearLook controller="arrowCtrl" pages="1,3" values="0.6,180,0,1|0.6,0,0,1"/>
+    </loader>
+    <image id="n4_n6uq" name="n4" src="xjmv1qp8vf3" fileName="images/images_new/windowBg_new/head_quantity.png" pkg="2r331opv" xy="277,19"/>
+    <text id="n6_n6uq" name="peopleLbl" xy="303,14" size="77,36" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="100"/>
+    <component id="n3_n6uq" name="btnCheck" src="xjmv1qp8vey" fileName="components/TickCbtn.xml" pkg="2r331opv" xy="376,7" scale="0.5,0.5"/>
+  </displayList>
+  <Button mode="Check"/>
+</component>

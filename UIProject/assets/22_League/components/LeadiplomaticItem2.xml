@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="922,44" designImageOffsetX="-262" designImageOffsetY="-306">
+  <displayList>
+    <image id="n17_spur" name="n17" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="922,43" visible="false" alpha="0.3" color="#97794f"/>
+    <text id="n15_spur" name="timeTxt" xy="0,5" size="205,36" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="2022-01-11"/>
+    <text id="n26_jl0s" name="contentTxt" xy="207,6" size="706,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="我盟同[color=#599e27][QQID]芭芭拉[/color]盟建立了[color=#599e27]中立[/color]关系"/>
+  </displayList>
+</component>

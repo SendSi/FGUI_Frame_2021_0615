@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://4ni413lac1q9hz9cum" designImageAlpha="0" designImageLayer="1">
+  <controller name="tab" pages="0,,1,,2," selected="2">
+    <remark page="0" value="主界面"/>
+    <remark page="1" value="使用道具"/>
+    <remark page="2" value="详情"/>
+  </controller>
+  <displayList>
+    <component id="n16_qxve" name="bgMask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="0,0" size="1334,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_vpos" name="n2" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" pivot="0.5,0.5" group="n19_m1hb">
+      <gearDisplay controller="tab" pages="0,1"/>
+    </component>
+    <text id="n3_vpos" name="title" xy="358,70" pivot="0.5,0.5" size="617,46" group="n7_vpos" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="城市管理（配表）"/>
+    <list id="n6_vpos" name="manageList" xy="205,156" size="924,493" group="n7_vpos" overflow="scroll" lineGap="11" defaultItem="ui://4ni413lavposhz9cn2" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n7_vpos" name="tab0" xy="205,70" size="924,579" group="n19_m1hb" advanced="true">
+      <gearDisplay controller="tab" pages="0"/>
+    </group>
+    <component id="n8_vpos" name="backBtn" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" size="80,80" group="n13_vpos">
+      <Button controller="tab" page="0"/>
+    </component>
+    <text id="n11_vpos" name="title2" xy="399,70" pivot="0.5,0.5" size="536,46" group="n13_vpos" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="配表产量"/>
+    <list id="n12_vpos" name="propList" xy="212,157" size="910,493" group="n13_vpos" overflow="scroll" margin="-3,0,0,0" lineGap="11" defaultItem="ui://4ni413lavposhz9cnd" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n13_vpos" name="tab1" xy="212,42" size="984,608" group="n19_m1hb" advanced="true">
+      <gearDisplay controller="tab" pages="1"/>
+    </group>
+    <component id="n18_c1q9" name="backBtn2" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n19_m1hb">
+      <gearDisplay controller="tab" pages="2"/>
+      <Button icon="ui://2r331opvoomihz9d3k" controller="tab" page="0"/>
+    </component>
+    <component id="n17_c1q9" name="inforView" src="c1q9hz9cuk" fileName="panel/cityManage/CityManageInfor.xml" xy="0,0" group="n19_m1hb">
+      <gearDisplay controller="tab" pages="2"/>
+    </component>
+    <component id="n4_vpos" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" size="80,80" group="n19_m1hb">
+      <gearDisplay controller="tab" pages="0,2"/>
+    </component>
+    <group id="n19_m1hb" name="windows" xy="0,0" size="1334,750" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

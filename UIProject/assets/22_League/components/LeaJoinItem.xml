@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,92" extention="Button" designImage="ui://lp3m5cuhb3skhz9cxm" designImageOffsetX="-123" designImageOffsetY="-251" designImageAlpha="0">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="未申请"/>
+    <remark page="1" value="已申请"/>
+  </controller>
+  <displayList>
+    <image id="n3_b3sk" name="n3" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="591,92" alpha="0.3">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <image id="n14_88e6" name="n14" src="m1hb1ygcgm2" fileName="images/images_new/windowBg_new/negative_bg081.png" pkg="2r331opv" xy="0,0" size="591,92">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <component id="n4_b3sk" name="leagueIcon" src="nnlhhz9d15" fileName="components/flagIcon.xml" xy="0,12" aspect="true" scale="0.25,0.25"/>
+    <text id="n5_b3sk" name="name" xy="70,17" size="173,35" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" autoSize="none" autoClearText="true" text="[HL-A]联盟名字"/>
+    <text id="n12_b3sk" name="condition" xy="71,49" size="171,29" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#d93a3a" autoSize="none" text="需要申请">
+      <gearText controller="state" pages="1" values="已申请" default="需要申请"/>
+    </text>
+    <text id="n6_b3sk" name="power" xy="243,32" pivot="0.5,0.5" size="120,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="123456789"/>
+    <text id="n7_b3sk" name="people" xy="369,32" pivot="0.5,0.5" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="3/100"/>
+    <text id="n8_b3sk" name="region" xy="485,32" pivot="0.5,0.5" size="102,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="失落之地"/>
+    <image id="n13_b3sk" name="n13" src="vb7khz9czr" fileName="images/images_new/com_check02_1.png" pkg="2r331opv" xy="0,0">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

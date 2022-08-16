@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1338,241" designImageOffsetX="-190" designImageOffsetY="-510" designImageAlpha="63">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="左"/>
+    <remark page="1" value="右"/>
+  </controller>
+  <controller name="type" pages="0,,1,,2," selected="1">
+    <remark page="0" value="对话"/>
+    <remark page="1" value="选项"/>
+    <remark page="2" value="领取奖励"/>
+  </controller>
+  <displayList>
+    <richtext id="n19_j3xs" name="lbl" xy="520,38" pivot="0.5,0.5" size="782,168" group="n22_j3xs" fontSize="22" color="#ffffff" ubb="true" autoSize="none" autoClearText="true" text="一行最多20字吗这里十一行最多20字吗这里十一行最多20字吗这里十一行最多20字吗这里十一行最多20字吗这里十一行最多20字吗这里十">
+      <gearXY controller="state" pages="0,1" values="520,38,0.389,0.158|120,38,0.09,0.158" positionsInPercent="true"/>
+    </richtext>
+    <group id="n22_j3xs" name="type1" xy="520,38" size="782,168" group="n21_j3xs" advanced="true">
+      <gearDisplay controller="type" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <image id="n20_j3xs" name="n20" src="tc73hz9cxn" fileName="images/task_icon_next.png" xy="1209,160" group="n21_j3xs">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n34_tc73" name="n34" src="tc73hz9cxo" fileName="images/task_icon_next2.png" xy="0,160" group="n21_j3xs">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <richtext id="n26_g820" name="lbl2" xy="384,38" pivot="0.5,0.5" size="594,168" group="n25_j3xs" fontSize="22" color="#ffffff" ubb="true" autoSize="none" autoClearText="true" text="一行最多20字吗这里十一行最多20字吗这里十一行最多20字吗这里十">
+      <gearXY controller="state" pages="0,1" values="384,38|360,37"/>
+    </richtext>
+    <list id="n23_j3xs" name="chooseList" xy="807,36" size="390,166" group="n25_j3xs" overflow="scroll" scrollBarFlags="32" lineGap="20" defaultItem="ui://zezobey9j3xs19">
+      <gearXY controller="state" pages="0,1" values="807,36|118,36"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n25_j3xs" name="type2" xy="384,36" size="813,170" group="n21_j3xs" advanced="true">
+      <gearDisplay controller="type" pages="1"/>
+    </group>
+    <list id="n27_gjl8" name="resList" xy="464,36" size="803,111" group="n29_gjl8" layout="flow_hz" overflow="scroll" margin="0,0,15,0" colGap="15" defaultItem="ui://2r331opvgjl8hz9cx4" vAlign="middle">
+      <item/>
+      <item/>
+    </list>
+    <component id="n28_gjl8" name="resBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="749,154" size="230,60" group="n29_gjl8">
+      <Button title="领取"/>
+    </component>
+    <group id="n29_gjl8" name="type3" xy="464,36" size="803,178" group="n21_j3xs" advanced="true">
+      <gearDisplay controller="type" pages="2"/>
+      <gearXY controller="state" pages="0" values="464,36" default="70,36"/>
+    </group>
+    <image id="n30_gjl8" name="n30" src="g820z9com" fileName="images/dialogue/dialogbox_bg_spot.png" xy="641,187" group="n33_gjl8"/>
+    <image id="n31_gjl8" name="n31" src="g820z9com" fileName="images/dialogue/dialogbox_bg_spot.png" xy="663,187" group="n33_gjl8"/>
+    <image id="n32_gjl8" name="n32" src="g820z9com" fileName="images/dialogue/dialogbox_bg_spot.png" xy="685,187" group="n33_gjl8"/>
+    <group id="n33_gjl8" name="n33" xy="641,187" size="56,12" group="n21_j3xs" visible="false" advanced="true"/>
+    <group id="n21_j3xs" name="dialogue" xy="0,36" size="1314,178" advanced="true"/>
+  </displayList>
+  <transition name="spot" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n30_gjl8" value="641,187"/>
+    <item time="0" type="XY" target="n31_gjl8" value="663,187"/>
+    <item time="0" type="XY" target="n32_gjl8" value="685,187"/>
+    <item time="4" type="XY" target="n30_gjl8" tween="true" startValue="641,187" endValue="641,181" duration="5"/>
+    <item time="9" type="XY" target="n30_gjl8" tween="true" startValue="641,181" endValue="641,187" duration="5"/>
+    <item time="14" type="XY" target="n31_gjl8" tween="true" startValue="663,187" endValue="663,181" duration="5"/>
+    <item time="19" type="XY" target="n31_gjl8" tween="true" startValue="663,181" endValue="663,187" duration="5"/>
+    <item time="24" type="XY" target="n32_gjl8" tween="true" startValue="685,187" endValue="685,181" duration="5"/>
+    <item time="29" type="XY" target="n32_gjl8" tween="true" startValue="685,181" endValue="685,187" duration="5"/>
+  </transition>
+  <transition name="arrow" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n20_j3xs" value="1265.748,205.091"/>
+    <item time="0" type="XY" target="n20_j3xs" tween="true" startValue="1265.748,205.091" endValue="1265.748,221" duration="12"/>
+    <item time="12" type="XY" target="n20_j3xs" tween="true" startValue="1265.748,221" endValue="1265.748,205" duration="12"/>
+  </transition>
+</component>

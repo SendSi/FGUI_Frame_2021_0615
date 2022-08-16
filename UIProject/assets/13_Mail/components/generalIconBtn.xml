@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="57,57" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="quality" pages="0,,1,,2,,3,,4," selected="2"/>
+  <controller name="star" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <loader id="n6_ht44" name="qualityBg" xy="0,0" pivot="0.5,0.5" size="57,57" aspect="true" url="ui://4557t28koepthz9cor" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="quality" pages="0,1,2,3" values="ui://4557t28koepthz9cop|ui://4557t28koepthz9coq|ui://4557t28koepthz9cor|ui://4557t28koepthz9cos" default="ui://4557t28koepthz9cot"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n7_ht44" name="starBg" xy="0,0" pivot="0.5,0.5" size="57,57" aspect="true" url="ui://4557t28koepthz9cou" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="star" pages="0,1,2,3,4" values="ui://4557t28koepthz9cou|ui://4557t28koepthz9cov|ui://4557t28koepthz9cow|ui://4557t28koepthz9cox|ui://4557t28koepthz9coy" default="ui://4557t28koepthz9coz"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n8_ht44" name="icon" src="oepthz9cp0" fileName="components/general_new/main_teamGeneral.xml" pkg="2r331opv" xy="8,8" size="43,43" aspect="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

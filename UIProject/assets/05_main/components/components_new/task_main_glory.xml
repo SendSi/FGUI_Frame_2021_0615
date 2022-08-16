@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="208,89" overflow="hidden">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="道具"/>
+    <remark page="1" value="英雄"/>
+  </controller>
+  <displayList>
+    <component id="n4_qz5p" name="part" src="rhyu1ygcg9e" fileName="components/components_new/task_main_glory_part.xml" xy="0,0" size="207,89">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n6_qz5p" name="propbtn" src="j842hz9cyi" fileName="components/components_new/comItem.xml" pkg="2r331opv" xy="5,7" scale="0.6,0.6">
+      <gearDisplay controller="state" pages="0"/>
+    </component>
+    <component id="n7_qz5p" name="general" src="hxd7hz9d7a" fileName="components/general_new/generalIconNormal.xml" pkg="2r331opv" xy="-22,-26" scale="0.6,0.6">
+      <gearDisplay controller="state" pages="1"/>
+    </component>
+    <component id="n12_kq5k" name="redPoint" src="pyiyhz9d6l" fileName="components/components_new/redPoint.xml" pkg="2r331opv" xy="190,16" scale="0.75,0.75" touchable="false"/>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,42" overflow="scroll" scroll="horizontal">
+  <controller name="timeItemCtrl" pages="0,时间,1,内容" selected="1"/>
+  <displayList>
+    <text id="n124_n6uq" name="timeTxt" xy="102,12" pivot="0.5,0.5" size="215,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" autoSize="none" autoClearText="true" text="2021年11月11号">
+      <gearDisplay controller="timeItemCtrl" pages="0"/>
+    </text>
+    <richtext id="n125_hdz0" name="informationRlbl" xy="25,8" size="276,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" letterSpacing="-1" ubb="true" autoClearText="true" text="[color=#97794f]联盟的名字[/color]获得了图标*1 图标*2">
+      <gearDisplay controller="timeItemCtrl" pages="1"/>
+    </richtext>
+  </displayList>
+</component>

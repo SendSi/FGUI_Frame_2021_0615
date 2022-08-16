@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="72,34">
+  <displayList>
+    <image id="n4_wkc0" name="bg_1" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,1" size="72,31">
+      <relation target="n12_wkc0" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n12_wkc0" name="title" xy="4,2" size="64,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" singleLine="true" autoClearText="true" text="联盟名"/>
+  </displayList>
+  <relation target="n4_wkc0" sidePair="width-width,height-height"/>
+</component>

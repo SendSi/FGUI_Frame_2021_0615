@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="210,52" extention="Button" designImageOffsetX="-1265" designImageOffsetY="-179">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n14_676j" name="title" xy="84,11" size="126,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#4c9129" vAlign="middle" ubb="true" singleLine="true" autoClearText="true" text="X: 100 Y: 100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n22_pxy3" name="name" xy="3,1" size="82,50" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="据点1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n23_dsil" name="line" xy="86,37" size="120,1" type="rect" lineSize="0" fillColor="#ff4c9129">
+      <relation target="n14_676j" sidePair="rightext-right"/>
+    </graph>
+  </displayList>
+  <Button mode="Check"/>
+  <relation target="n14_676j" sidePair="rightext-right"/>
+</component>

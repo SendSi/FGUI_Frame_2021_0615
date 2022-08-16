@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageOffsetX="-165">
+  <displayList>
+    <image id="n16_g30w" name="n16" src="itz02a" fileName="images/images_new/com_bg_mask.png" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n11_gyfa" name="bg" xy="-165,0" pivot="0.5,0.5" size="1665,750" url="ui://zezobey9wyws4" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n6_eh0p" name="titleBg" xy="297,114" pivot="0.5,0.5" size="739,497" group="n13_gyfa" url="ui://zezobey9t5st1ygcfoo"/>
+    <loader id="n9_eh0p" name="titleCenter" xy="367,299" pivot="0.5,0.5" size="600,168" group="n13_gyfa" url="ui://zezobey9wywsn" align="center" vAlign="middle"/>
+    <text id="n8_eh0p" name="txtDesc" xy="456,452" pivot="0.5,0.5" size="422,32" group="n13_gyfa" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#82cae5" align="center" vAlign="middle" leading="2" strokeColor="#184579" strokeSize="2" shadowColor="#000000" shadowOffset="0,2" text="这里是描述，是描述一些文字瞄述一些文字"/>
+    <text id="n19_t5st" name="numberLbl" xy="266,243" pivot="0.5,0.5" size="802,89" group="n13_gyfa" font="ui://2r331opvno3vhz9d63" fontSize="68" color="#13388f" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" strokeSize="2" text="第十章"/>
+    <group id="n13_gyfa" name="title" xy="266,114" size="802,497" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n15_gyfa" name="btnIng" src="b9bj5m" fileName="components/components_new/intoBtn.xml" pkg="2r331opv" xy="1022,-18" size="363,142" scale="0.7,0.7">
+      <relation target="" sidePair="middle-middle,left-right"/>
+      <Button title="跳过" titleFontSize="40"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n11_gyfa" value="0"/>
+    <item time="0" type="Alpha" target="n13_gyfa" value="0"/>
+    <item time="0" type="Alpha" target="n15_gyfa" value="0"/>
+    <item time="0" type="Alpha" target="n16_g30w" tween="true" startValue="0.3" endValue="1" duration="18"/>
+    <item time="0" type="Scale" target="n11_gyfa" value="1.3,1.3"/>
+    <item time="21" type="Alpha" target="n11_gyfa" tween="true" startValue="0" endValue="1" duration="51"/>
+    <item time="29" type="Alpha" target="n13_gyfa" tween="true" startValue="0" endValue="1" duration="35" ease="Custom" customEase="2,0,0,0.0225,0.33,0.6475,1,1,0,1,1"/>
+    <item time="29" type="Scale" target="n11_gyfa" tween="true" startValue="1.3,1.3" endValue="1,1" duration="50" ease="Custom" customEase="2,0,0,0.0225,0.33,0.6475,1,1,0,1,1"/>
+    <item time="49" type="Alpha" target="n15_gyfa" tween="true" startValue="0" endValue="1" duration="14"/>
+  </transition>
+</component>

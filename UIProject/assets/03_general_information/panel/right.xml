@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="535,750" designImageAlpha="20">
+  <controller name="state" pages="0,,1,,5," selected="0">
+    <remark page="0" value="已获得"/>
+    <remark page="1" value="未获得"/>
+    <remark page="2" value="可合成"/>
+  </controller>
+  <controller name="state01" pages="1,,0," selected="1">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <controller name="race" pages="0,,1,,2," selected="0">
+    <remark page="0" value="人族"/>
+    <remark page="1" value="兽族"/>
+    <remark page="2" value="精灵"/>
+  </controller>
+  <displayList>
+    <image id="n44_hxd7" name="n44" src="gad31iy5bf7" fileName="images/images_new/windowBg_new/bg031.png" pkg="2r331opv" xy="62,248" size="403,296"/>
+    <image id="n58_gad3" name="n58" src="e1m31iy5bf2" fileName="images/bg030.png" xy="91,380" alpha="0.5"/>
+    <image id="n47_hxd7" name="n47" src="gad31iy5bf7" fileName="images/images_new/windowBg_new/bg031.png" pkg="2r331opv" xy="62,563" size="403,131">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <loader id="n55_gad3" name="race" xy="59,88" size="32,32" aspect="true" visible="false" url="ui://2r331opve1m31ygcfn6" fill="scale" color="#000000">
+      <gearIcon controller="race" pages="1,2" values="ui://2r331opve1m31ygcfn7|ui://2r331opve1m31ygcfn8" default="ui://2r331opve1m31ygcfn6"/>
+    </loader>
+    <text id="n15_oxy0" name="generalTitle" xy="62,89" size="314,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#061324" autoSize="none" autoClearText="true" text="野蛮人首领"/>
+    <text id="n17_oxy0" name="generalName" xy="61,113" size="349,62" font="ui://2r331opvno3vhz9d63" fontSize="46" color="#061324" autoSize="none" autoClearText="true" text="他的名字六字"/>
+    <list id="n23_oxy0" name="starList" xy="64,170" size="474,52" scale="0.66,0.66" layout="row" colGap="7" defaultItem="ui://2r331opv104731iy5b91" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n42_hxd7" name="lvBtn" src="hxd7hz9d7h" fileName="components/titleBtn.xml" xy="68,254" size="391,35" touchable="false">
+      <Button title="英雄等级"/>
+    </component>
+    <text id="n26_oxy0" name="reincTitle" xy="201,381" size="172,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffd971" letterSpacing="-1" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" autoClearText="true" text="0转+5"/>
+    <component id="n28_oxy0" name="levelPbr" src="oxy0z9cs2" fileName="components/levelPbr2.xml" xy="89,313" size="299,41">
+      <gearSize controller="state" pages="1,5" values="354,41,1,1|354,41,1,1" default="299,41,1,1"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <list id="n30_oxy0" name="skillList" xy="98,466" size="346,64" layout="row" overflow="scroll" scrollBarFlags="32" colGap="2" defaultItem="ui://2r331opvoxy0z9cqy" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_oxy0" name="explainBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="392,160" size="64,56" alpha="0.7">
+      <gearDisplay controller="state01" pages="1"/>
+      <gearDisplay2 controller="state" pages="0" condition="0"/>
+      <Button icon="ui://2r331opvcmlrhz9cyn"/>
+    </component>
+    <component id="n62_q7tk" name="plusStarBtn" src="rjgu1ygcgog" fileName="components/general_new/upgradeBtn.xml" pkg="2r331opv" xy="414,162" scale="0.6,0.6">
+      <gearDisplay controller="state01" pages="0"/>
+      <gearDisplay2 controller="state" pages="0" condition="0"/>
+    </component>
+    <component id="n33_oxy0" name="plusLvBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="391,375" size="48,48" aspect="true" scale="1.3,1.3">
+      <gearDisplay controller="state" pages="0"/>
+      <Button icon="ui://2r331opvno3vhz9d64"/>
+    </component>
+    <component id="n50_hxd7" name="fettersBtn" src="hxd7hz9d7h" fileName="components/titleBtn.xml" xy="68,569" size="391,35" touchable="false">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="英雄装备" icon="ui://4hio38umgad31iy5bf8"/>
+    </component>
+    <text id="n57_gad3" name="n1" xy="101,384" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" singleLine="true" text="突破等级：">
+      <relation target="" sidePair=""/>
+    </text>
+    <text id="n59_gad3" name="n2" xy="101,437" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" singleLine="true" text="技能等级：">
+      <relation target="" sidePair=""/>
+    </text>
+    <list id="n60_gad3" name="equipmentList" xy="99,610" size="590,116" scale="0.6,0.6" layout="row" colGap="34" defaultItem="ui://2r331opvgad31ygcfna">
+      <gearDisplay controller="state" pages="0"/>
+      <item icon="ui://4hio38umgad31iy5bfa"/>
+      <item icon="ui://4hio38umgad31iy5bfb"/>
+      <item icon="ui://4hio38umgad31iy5bfc"/>
+      <item icon="ui://4hio38umgad31iy5bfd"/>
+    </list>
+    <component id="n54_klt5" name="seeBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="387,95" size="74,62" alpha="0.7">
+      <Button icon="ui://2r331opvklt51qp8via"/>
+    </component>
+    <component id="n38_oxy0" name="callBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="160,617" size="202,68">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="招募"/>
+    </component>
+    <component id="n61_fccv" name="n61" src="sd0v1ygcfky" fileName="components/components_new/com_btn_01_redPoint.xml" pkg="2r331opv" xy="159,617" size="202,68">
+      <gearDisplay controller="state" pages="5"/>
+      <Button title="可合成"/>
+    </component>
+    <component id="n13_oxy0" name="handbookBtn" src="oxy0hz9czl" fileName="components/components_new/com_btn_iconName.xml" pkg="2r331opv" xy="386,0" size="54,54" visible="false">
+      <Button title="Atlas" icon="ui://2r331opvklt51qp8via"/>
+    </component>
+    <component id="n49_hxd7" name="skillBtn" src="hxd7hz9d7h" fileName="components/titleBtn.xml" xy="66,16" visible="false">
+      <Button title="等级" icon="ui://4hio38umhxd7hz9d7d"/>
+    </component>
+    <component id="n51_hxd7" name="breakBtn" src="hxd7hz9d7i" fileName="components/titleBtn2.xml" xy="52,27" size="119,48" visible="false">
+      <Button icon="ui://4hio38umhxd7hz9d7b"/>
+    </component>
+    <component id="n63_q7tk" name="breachBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="391,311" size="48,48" aspect="true" scale="1.3,1.3">
+      <gearDisplay controller="state" pages="0"/>
+      <Button icon="ui://2r331opvno3vhz9d64"/>
+    </component>
+    <list id="n48_hxd7" name="fetterList" xy="78,585" size="487,155" scale="0.7,0.7" visible="false" layout="row" overflow="scroll" scrollBarFlags="32" colGap="-23" defaultItem="ui://2r331opvhxd7hz9d7l" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n36_oxy0" name="skillPbr" src="oxy0z9cse" fileName="components/skillPbr.xml" xy="89,585" size="299,41" visible="false">
+      <gearDisplay controller="state" pages="1"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n37_oxy0" name="plusSkillBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="391,580" size="48,48" scale="1.3,1.3" visible="false">
+      <gearDisplay controller="state" pages="1"/>
+      <Button icon="ui://2r331opvno3vhz9d64"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1"/>
+</component>

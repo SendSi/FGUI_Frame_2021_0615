@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="297,111" extention="Button" designImage="ui://2r331opvc4umz9cnn" designImageOffsetX="-53" designImageOffsetY="-589">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="quality" pages="5,,0,,1,,2,,4," selected="0">
+    <remark page="0" value="绿"/>
+    <remark page="1" value="蓝"/>
+    <remark page="2" value="紫"/>
+    <remark page="3" value="金"/>
+    <remark page="4" value="红"/>
+  </controller>
+  <displayList>
+    <image id="n40_c4um" name="n40" pkg="2r331opv" src="ebe5z9cmv" fileName="images/images_new/name_bg.png" xy="25,29" pivot="0.585,0.5" size="264,61">
+      <relation target="n42_c4um" sidePair="rightext-right,leftext-left"/>
+    </image>
+    <loader id="n41_c4um" name="icon_camp" xy="5,7" size="100,100" url="ui://61bunt4fkn29y" align="center" vAlign="middle" fill="scale">
+      <relation target="n42_c4um" sidePair="right-left"/>
+    </loader>
+    <text id="n42_c4um" name="title" xy="88,31" size="164,54" font="ui://2r331opvlwft3" fontSize="40" color="#7dffa8" ubb="true" autoClearText="true" text="武将名字">
+      <gearColor controller="quality" pages="5,0,1,2,4" values="#7dffa8,#000000|#7ddfff,#000000|#dc7dff,#000000|#fff77d,#000000|#ff7d7d,#000000"/>
+    </text>
+  </displayList>
+  <Button sound="0"/>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="290,80" extention="Button" designImageOffsetX="-449" designImageOffsetY="-283">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_eaah" name="n0" src="bumchz9d7r" fileName="images/images_new/windowBg_new/negative_bg05.png" pkg="2r331opv" xy="5,76" size="282,4" alpha="0.5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_eaah" name="title" xy="65,23" size="164,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" vAlign="middle" singleLine="true" text="食物食物食物食物">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n3_eaah" name="n3" xy="229,20" pivot="1,0" size="61,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="right" autoSize="none" text="10000"/>
+    <component id="n4_l3kw" name="icon" src="j842hz9cyi" fileName="components/components_new/comItem.xml" pkg="2r331opv" xy="-1,-1" scale="0.6,0.6"/>
+  </displayList>
+  <Button/>
+</component>

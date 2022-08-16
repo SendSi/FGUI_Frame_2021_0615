@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="tab" pages="0,,1," selected="0">
+    <remark page="0" value="分配"/>
+    <remark page="1" value="记录"/>
+  </controller>
+  <controller name="hasItemCtrl" pages="0,,1," selected="0">
+    <remark page="1" value="无分配奖励"/>
+  </controller>
+  <controller name="select" pages="0,,1," selected="0">
+    <remark page="0" value="未选中道具"/>
+    <remark page="1" value="已选中道具"/>
+  </controller>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="有权限"/>
+    <remark page="1" value="无权限"/>
+  </controller>
+  <displayList>
+    <component id="n6_w84w" name="n6" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n67_g6ic" name="n67" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n126_n6uq"/>
+    <image id="n104_n6uq" name="n104" src="fk1q1qp8vdi" fileName="images/images_new/windowBg_new/com_bg_popup01.png" pkg="2r331opv" xy="580,127" group="n126_n6uq"/>
+    <text id="n82_ebe4" name="title" xy="372,68" pivot="0.5,0.5" size="589,46" group="n126_n6uq" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="联盟仓库"/>
+    <component id="n81_o7ws" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,40" group="n126_n6uq"/>
+    <image id="n116_n6uq" name="n116" src="bumchz9d7t" fileName="images/images_new/windowBg_new/negative_bg07.png" pkg="2r331opv" xy="683,151" size="441,50" group="n126_n6uq"/>
+    <component id="n117_n6uq" name="distributionRbtn" src="xjmv1qp8vez" fileName="components/components_new/pagingRbtn.xml" pkg="2r331opv" xy="683,151" group="n126_n6uq">
+      <Button checked="true" controller="tab" page="0"/>
+    </component>
+    <component id="n118_n6uq" name="recordTbtn" src="xjmv1qp8vez" fileName="components/components_new/pagingRbtn.xml" pkg="2r331opv" xy="889,151" group="n126_n6uq">
+      <Button title="记录" controller="tab" page="1"/>
+    </component>
+    <text id="n119_n6uq" name="describeLbl" xy="787,198" pivot="0.5,0.5" size="206,32" group="n126_n6uq" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" align="center" letterSpacing="-2" text="选择联盟成员进行分配">
+      <gearDisplay controller="state" pages="0"/>
+      <gearDisplay2 controller="tab" pages="0" condition="0"/>
+    </text>
+    <list id="n123_n6uq" name="distributionList" xy="696,239" size="420,337" group="n126_n6uq" overflow="scroll" margin="-13,0,0,0" autoClearItems="true" treeView="true" indent="15" clickToExpand="1">
+      <gearDisplay controller="tab" pages="0"/>
+      <gearSize controller="state" pages="1" values="420,396,1,1" default="420,337,1,1"/>
+      <gearDisplay2 controller="state" pages="0" condition="0"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6x" title="盟主" level="0"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6y" level="1"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6x" title="官员" level="0"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6y" level="1"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6y" level="1"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6y" level="1"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6x" title="圣殿骑士" level="0"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6y" level="1"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6y" level="1"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6x" title="骑士" level="0"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6y" level="1"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6y" level="1"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6y" level="1"/>
+      <item url="ui://lp3m5cuhn6uqhz9d6y" level="1"/>
+    </list>
+    <list id="n125_n6uq" name="logList" xy="694,194" size="420,451" group="n126_n6uq" overflow="scroll" lineGap="-6" defaultItem="ui://lp3m5cuhn6uqhz9d6z" align="center" autoClearItems="true">
+      <gearDisplay controller="tab" pages="1"/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n128_ge1c" name="distributionLbl" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="826,594" group="n126_n6uq">
+      <gearDisplay controller="tab" pages="0"/>
+      <gearDisplay2 controller="state" pages="0" condition="0"/>
+      <Button title="确认分配"/>
+    </component>
+    <image id="n106_n6uq" name="n106" src="gww71qp8veb" fileName="images/images_new/decorativePattern.png" pkg="2r331opv" xy="324,184" pivot="0.5,0.5" size="183,183" group="n129_kha9" aspect="true" alpha="0.5" color="#ff2900"/>
+    <image id="n105_n6uq" name="n105" src="xjmv1qp8vf4" fileName="images/images_new/windowBg_new/negative_bg10.png" pkg="2r331opv" xy="215,396" size="401,258" group="n129_kha9" alpha="0.2"/>
+    <image id="n102_n6uq" name="n102" src="j9d91qp8vcm" fileName="images/images_new/windowBg_new/negative_bg09.png" pkg="2r331opv" xy="470,157" group="n129_kha9"/>
+    <image id="n103_n6uq" name="n103" src="j9d91qp8vcm" fileName="images/images_new/windowBg_new/negative_bg09.png" pkg="2r331opv" xy="210,157" group="n129_kha9" flip="hz"/>
+    <text id="n97_n6uq" name="n97" xy="357,148" size="116,34" group="n129_kha9" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" letterSpacing="-2" text="可分配奖励"/>
+    <component id="n113_n6uq" name="currIcon" src="c9k41ygcffi" fileName="components/propIcon.xml" xy="367,227" group="n129_kha9"/>
+    <list id="n115_n6uq" name="rewardList" xy="231,408" size="483,315" group="n129_kha9" scale="0.76,0.76" layout="flow_hz" overflow="scroll" lineGap="-22" defaultItem="ui://2r331opvm4741qp8vi8" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n107_n6uq" name="n107" src="bumchz9d7p" fileName="images/images_new/windowBg_new/negative_bg03.png" pkg="2r331opv" xy="363,339" pivot="0.5,0.5" size="104,38" group="n133_c9k4"/>
+    <text id="n98_n6uq" name="currNumLbl" xy="390,340" size="50,40" group="n133_c9k4" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#50382e" align="center" vAlign="middle" autoSize="shrink" autoClearText="true" text="500"/>
+    <component id="n109_n6uq" name="plusBtn" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="473,337" size="44,40" group="n133_c9k4" aspect="true">
+      <Button icon="ui://2r331opvxjmv1qp8vf2"/>
+    </component>
+    <component id="n110_n6uq" name="reduceBtn" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="314,337" size="44,40" group="n133_c9k4" aspect="true">
+      <Button icon="ui://2r331opvxjmv1qp8vf1"/>
+    </component>
+    <group id="n133_c9k4" name="state0" xy="314,337" size="203,43" group="n129_kha9" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <group id="n129_kha9" name="n129" xy="210,148" size="504,575" group="n126_n6uq" advanced="true">
+      <gearDisplay controller="hasItemCtrl" pages="0"/>
+    </group>
+    <text id="n130_kha9" name="diLbl" xy="357,370" pivot="0.5,0.5" size="154,42" group="n126_n6uq" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b26105" align="center" text="无分配奖励">
+      <gearDisplay controller="hasItemCtrl" pages="1"/>
+    </text>
+    <image id="n135_jhy9" name="n135" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="793,313" group="n126_n6uq" alpha="0.2" color="#97794f">
+      <gearDisplay controller="state" pages="1"/>
+      <gearDisplay2 controller="tab" pages="0" condition="0"/>
+    </image>
+    <text id="n134_jhy9" name="describeLblnone" xy="799,400" pivot="0.5,0.5" size="211,42" group="n126_n6uq" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" align="center" letterSpacing="-2" text="您还没分配权限!">
+      <gearDisplay controller="state" pages="1"/>
+      <gearDisplay2 controller="tab" pages="0" condition="0"/>
+    </text>
+    <group id="n126_n6uq" name="n126" xy="77,38" size="1180,685" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <text id="n131_c9k4" name="selectTxt" xy="352,185" pivot="0.5,0.5" size="136,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" text="选择分配数量">
+      <gearDisplay controller="select" pages="1"/>
+      <gearDisplay2 controller="hasItemCtrl" pages="0" condition="0"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n2_8dzs" name="bg" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_8dzs" name="window" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" pivot="0.5,0.5" group="n31_fw4d"/>
+    <image id="n9_8dzs" name="bg_02" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="213,164" pivot="0.5,0.5" size="914,36" group="n31_fw4d"/>
+    <text id="n16_8dzs" name="title_01" xy="296,165" pivot="0.5,0.5" size="100,34" group="n31_fw4d" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="玩家信息"/>
+    <text id="n17_8dzs" name="title_02" xy="516,165" pivot="0.5,0.5" size="100,34" group="n31_fw4d" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="所在联盟"/>
+    <text id="n18_8dzs" name="title_03" xy="708,165" pivot="0.5,0.5" size="52,34" group="n31_fw4d" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="战力"/>
+    <text id="n19_8dzs" name="title_04" xy="845,165" pivot="0.5,0.5" size="76,34" group="n31_fw4d" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="所属州"/>
+    <text id="n20_8dzs" name="title_05" xy="1005,165" pivot="0.5,0.5" size="52,34" group="n31_fw4d" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="操作"/>
+    <list id="n22_8dzs" name="friends" xy="213,215" size="914,379" group="n31_fw4d" overflow="scroll" lineGap="6" defaultItem="ui://dowwulhe8dzs5" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n35_kadl" name="n35" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="558,291" group="n31_fw4d" alpha="0.1" color="#97794f">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n29_8dzs" name="title_06" xy="592,373" pivot="0.5,0.5" size="154,42" group="n31_fw4d" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" align="center" vAlign="middle" singleLine="true" text="暂无黑名单">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n30_8dzs" name="title_07" xy="667,610" size="461,34" group="n31_fw4d" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="right" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="黑名单数量：2/20"/>
+    <component id="n33_fw4d" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n31_fw4d">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <text id="n34_xnbe" name="title" xy="384,70" pivot="0.5,0.5" size="572,46" group="n31_fw4d" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="黑名单"/>
+    <group id="n31_fw4d" name="n31" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

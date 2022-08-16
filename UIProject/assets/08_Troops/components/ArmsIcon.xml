@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="18,18">
+  <displayList>
+    <image id="n2_o6sy" name="n2" src="o6syhz9cyi" fileName="images/images_new/con_bg_icon_s.png" pkg="2r331opv" xy="0,0" size="18,18" aspect="true"/>
+    <image id="n0_o6sy" name="icon" src="kn291" fileName="images/images_new/common_Arms_3.png" pkg="2r331opv" xy="1,1" size="16,16" aspect="true"/>
+  </displayList>
+</component>

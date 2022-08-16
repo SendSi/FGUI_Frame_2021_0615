@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="97,97" extention="Button" designImageOffsetX="-677" designImageOffsetY="-296">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_poaz" name="n0" src="so711iy5bee" fileName="images/arms_bg002.png" xy="4,4"/>
+    <loader id="n1_poaz" name="icon" xy="13,13" pivot="0.5,0.5" size="70,70" aspect="true" url="ui://2r331opvfrte1qp8vdx" align="center" vAlign="middle" fill="scale" color="#8bbde1"/>
+  </displayList>
+  <Button/>
+</component>

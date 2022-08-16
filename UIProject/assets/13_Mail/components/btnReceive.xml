@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,65" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" pages="0,,1,grey" selected="0"/>
+  <displayList>
+    <loader id="n2_9495" name="icon" xy="0,0" size="132,60" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n3_l5s1" name="n3" src="c4umz9cna" fileName="images/images_new/com_btn_bg01.png" pkg="2r331opv" xy="0,0" size="132,65">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_9495" name="title" xy="0,1" size="132,60" font="ui://2r331opvlwft3" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#4f6b63" shadowOffset="2,2" singleLine="true" autoClearText="true" text="领取">
+      <gearText controller="c1" pages="1" values="已领取" default="领取"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

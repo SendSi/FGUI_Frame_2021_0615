@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="325,50" designImageOffsetX="-538" designImageOffsetY="-325">
+  <displayList>
+    <text id="n0_dot4" name="title" xy="7,13" size="44,29" font="ui://2r331opvno3vhz9d62" fontSize="20" color="#74d0ff" autoClearText="true" text="突破"/>
+    <text id="n1_dot4" name="num" xy="223,11" size="26,29" group="n4_10473" font="ui://2r331opvno3vhz9d62" fontSize="20" color="#8bff3d" autoClearText="true" text="+5"/>
+    <text id="n2_10473" name="num0" xy="101,13" size="26,29" group="n4_10473" font="ui://2r331opvno3vhz9d62" fontSize="20" color="#ffffff" autoClearText="true" text="+5"/>
+    <image id="n3_10473" name="n3" src="aibb2d" fileName="images/images_new/common_arrow_3.png" pkg="2r331opv" xy="172,18" group="n4_10473"/>
+    <group id="n4_10473" name="n4" xy="101,11" size="148,31" advanced="true"/>
+  </displayList>
+</component>

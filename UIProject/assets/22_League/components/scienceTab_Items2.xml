@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="942,540" overflow="scroll" scroll="horizontal" scrollBarFlags="256" designImage="ui://lp3m5cuhk06chz9d3c" designImageOffsetX="-199" designImageOffsetY="-117" designImageAlpha="0">
+  <displayList>
+    <component id="n50_k06c" name="bgLine1_1" src="k06chz9d3k" fileName="components/line3.xml" xy="117,56" size="102,213"/>
+    <component id="n95_qp9o" name="bgLine1_2" src="k06chz9d3k" fileName="components/line3.xml" xy="117,189" size="102,80"/>
+    <component id="n52_n6cz" name="bgLine1_3" src="k06chz9d3g" fileName="components/line2.xml" xy="117,260" size="102,67"/>
+    <component id="n96_qp9o" name="bgLine1_4" src="k06chz9d3g" fileName="components/line2.xml" xy="117,260" size="102,199"/>
+    <component id="n48_k06c" name="bgLine2" src="k06chz9d3e" fileName="components/line1.xml" xy="291,261" size="114,8"/>
+    <component id="n26_g30w" name="bgLine3_1" src="k06chz9d3g" fileName="components/line2.xml" xy="475,54" size="100,215"/>
+    <component id="n0_g30w" name="bgLine3_2" src="k06chz9d3g" fileName="components/line2.xml" xy="476,186" size="100,82"/>
+    <component id="n30_g30w" name="bgLine3_3" src="k06chz9d3k" fileName="components/line3.xml" xy="475,260" size="100,68"/>
+    <component id="n1_g30w" name="bgLine3_4" src="k06chz9d3k" fileName="components/line3.xml" xy="474,260" size="100,198"/>
+    <component id="n58_n6cz" name="bgLine4_1" src="k06chz9d3k" fileName="components/line3.xml" xy="655,55" size="95,214"/>
+    <component id="n59_n6cz" name="bgLine4_2" src="k06chz9d3k" fileName="components/line3.xml" xy="654,186" size="95,84"/>
+    <component id="n57_n6cz" name="bgLine4_3" src="k06chz9d3g" fileName="components/line2.xml" xy="654,264" size="95,63"/>
+    <component id="n56_n6cz" name="bgLine4_4" src="k06chz9d3g" fileName="components/line2.xml" xy="655,264" size="95,193"/>
+    <component id="n61_n6cz" name="bgLine5_1" src="k06chz9d3g" fileName="components/line2.xml" xy="836,53" size="99,218"/>
+    <component id="n97_qp9o" name="bgLine5_2" src="k06chz9d3g" fileName="components/line2.xml" xy="836,185" size="99,85"/>
+    <component id="n62_n6cz" name="bgLine5_3" src="k06chz9d3k" fileName="components/line3.xml" xy="836,262" size="100,196"/>
+    <component id="n98_qp9o" name="bgLine5_4" src="k06chz9d3k" fileName="components/line3.xml" xy="836,262" size="100,66"/>
+    <component id="n76_n6cz" name="bgLine6_1" src="k06chz9d3k" fileName="components/line3.xml" xy="1008,55" size="106,214"/>
+    <component id="n99_qp9o" name="bgLine6_2" src="k06chz9d3k" fileName="components/line3.xml" xy="1008,184" size="106,85"/>
+    <component id="n75_n6cz" name="bgLine6_3" src="k06chz9d3g" fileName="components/line2.xml" xy="1008,261" size="106,198"/>
+    <component id="n100_qp9o" name="bgLine6_4" src="k06chz9d3g" fileName="components/line2.xml" xy="1008,261" size="106,66"/>
+    <component id="n77_n6cz" name="bgLine7_1" src="k06chz9d3g" fileName="components/line2.xml" xy="1185,54" size="107,216"/>
+    <component id="n78_n6cz" name="bgLine7_2" src="k06chz9d3g" fileName="components/line2.xml" xy="1186,187" size="107,82"/>
+    <component id="n80_n6cz" name="bgLine7_3" src="k06chz9d3k" fileName="components/line3.xml" xy="1185,262" size="107,65"/>
+    <component id="n79_n6cz" name="bgLine7_4" src="k06chz9d3k" fileName="components/line3.xml" xy="1184,262" size="107,197"/>
+    <component id="n83_n6cz" name="bgLine8_1" src="k06chz9d3k" fileName="components/line3.xml" xy="1364,54" size="111,215"/>
+    <component id="n84_n6cz" name="bgLine8_2" src="k06chz9d3k" fileName="components/line3.xml" xy="1363,188" size="111,81"/>
+    <component id="n82_n6cz" name="bgLine8_3" src="k06chz9d3g" fileName="components/line2.xml" xy="1363,261" size="111,65"/>
+    <component id="n81_n6cz" name="bgLine8_4" src="k06chz9d3g" fileName="components/line2.xml" xy="1364,261" size="111,196"/>
+    <component id="n85_n6cz" name="n85" src="k06chz9d3e" fileName="components/line1.xml" xy="1537,261" size="114,8"/>
+    <component id="n29_g30w" name="0" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="26,7"/>
+    <component id="n32_g30w" name="1" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="26,139"/>
+    <component id="n34_k06c" name="2" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="26,271"/>
+    <component id="n35_k06c" name="3" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="26,403"/>
+    <component id="n16_g30w" name="4" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="204,212"/>
+    <component id="n21_g30w" name="5" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="382,212"/>
+    <component id="n86_qp9o" name="6" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="560,7"/>
+    <component id="n87_qp9o" name="7" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="560,139"/>
+    <component id="n88_qp9o" name="8" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="560,271"/>
+    <component id="n89_qp9o" name="9" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="560,403"/>
+    <component id="n36_k06c" name="10" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="738,212"/>
+    <component id="n91_qp9o" name="11" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="916,7"/>
+    <component id="n92_qp9o" name="12" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="916,139"/>
+    <component id="n93_qp9o" name="13" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="916,271"/>
+    <component id="n94_qp9o" name="14" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="916,403"/>
+    <component id="n40_k06c" name="15" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1094,212"/>
+    <component id="n41_k06c" name="16" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1272,7"/>
+    <component id="n42_k06c" name="17" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1272,139"/>
+    <component id="n43_k06c" name="18" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1272,271"/>
+    <component id="n44_k06c" name="19" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1272,403"/>
+    <component id="n46_k06c" name="20" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1450,212"/>
+    <component id="n47_k06c" name="21" src="iyp01ygcfff" fileName="components/scienceIcon2.xml" xy="1628,212"/>
+  </displayList>
+</component>

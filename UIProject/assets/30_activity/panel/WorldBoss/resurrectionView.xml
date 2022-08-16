@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="652,809">
+  <controller name="state" pages="0,,1,,2,,3,,4," selected="4">
+    <remark page="0" value="1支部队"/>
+    <remark page="1" value="2支部队"/>
+    <remark page="2" value="3支部队"/>
+    <remark page="3" value="4支部队"/>
+    <remark page="4" value="5支部队"/>
+  </controller>
+  <displayList>
+    <image id="n12_ta9j" name="arrow" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="632,175" pivot="0.5,0.5" anchor="true" rotation="270"/>
+    <image id="n0_itho" name="bg" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="27,25" size="590,762">
+      <gearSize controller="state" pages="0,1,2,3,4" values="590,371,1,1|590,465,1,1|590,562,1,1|590,663,1,1|590,762,1,1"/>
+    </image>
+    <text id="n1_itho" name="title" xy="38,48" size="569,42" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#845744" align="center" leading="0" autoSize="none" singleLine="true" text="部队选择"/>
+    <image id="n14_oy35" name="bg01" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="55,112" size="528,528" alpha="0.2" color="#97794f">
+      <gearSize controller="state" pages="0,1,2,3,4" values="528,538,1,1|528,541,1,1|528,536,1,1|528,535,1,1|528,528,1,1"/>
+      <relation target="n16_oy35" sidePair="bottomext-bottom"/>
+    </image>
+    <text id="n2_itho" name="promptlbl" xy="100,77" pivot="0.5,0.5" size="451,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" leading="0" autoSize="none" singleLine="true" text="你有以下部队可复活"/>
+    <component id="n4_itho" name="reviveBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="375,696" size="179,62">
+      <relation target="n0_itho" sidePair="bottom-bottom"/>
+      <Button title="复活"/>
+    </component>
+    <component id="n5_itho" name="oneKeyBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="93,696" size="179,62">
+      <relation target="n0_itho" sidePair="bottom-bottom"/>
+      <Button title="一键配兵"/>
+    </component>
+    <list id="n16_oy35" name="troopList" xy="57,120" size="526,517" overflow="hidden" margin="8,0,0,0" lineGap="10" defaultItem="ui://sinorujtithohz9cyh" foldInvisibleItems="true">
+      <gearSize controller="state" pages="0,1,2,3,4" values="526,104,1,1|526,201,1,1|526,306,1,1|526,406,1,1|526,517,1,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n13_oy35" name="soldierlbl" xy="50,651" size="543,37" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" singleLine="true" text="剩余预备兵: [color=#8bff3d]28[/color]">
+      <relation target="n14_oy35" sidePair="bottom-bottom"/>
+    </text>
+  </displayList>
+  <relation target="n0_itho" sidePair="height-height"/>
+</component>

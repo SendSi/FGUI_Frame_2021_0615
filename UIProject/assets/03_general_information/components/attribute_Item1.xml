@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="182,34" extention="Button" designImageOffsetX="-971" designImageOffsetY="-306">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_lfqn" name="n3" src="lfqnhz9d6w" fileName="images/hero_bg019.png" xy="0,0" size="182,34" alpha="0.7" color="#73aaff"/>
+    <loader id="n4_lfqn" name="icon" xy="3,1" size="32,32" aspect="true" url="ui://2r331opvlfqnhz9d79" align="center" vAlign="middle" fill="scale">
+      <relation target="n5_lfqn" sidePair=""/>
+    </loader>
+    <image id="n7_btd5" name="n7" src="slj11ygcfnk" fileName="images/images_new/common_arrow_7.png" pkg="2r331opv" xy="94,8" size="16,19"/>
+    <text id="n5_lfqn" name="attNum0" xy="25,0" pivot="1,0" size="71,34" restrictSize="0,111,0,0" font="ui://2r331opvno3vhz9d62" fontSize="20" color="#48fbff" align="right" vAlign="middle" autoSize="none" autoClearText="true" text="100000"/>
+    <text id="n6_btd5" name="attNum1" xy="109,0" size="71,34" restrictSize="0,100,0,0" font="ui://2r331opvno3vhz9d62" fontSize="20" color="#27e722" vAlign="middle" autoSize="none" autoClearText="true" text="100000"/>
+  </displayList>
+  <Button/>
+</component>

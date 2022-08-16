@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600">
+  <displayList>
+    <image id="n1_giqx" name="n1" src="eq9c1ygcfjp" fileName="images/activity/activity_013.png" xy="149,176"/>
+    <image id="n2_giqx" name="n2" src="qqk51ygcfk7" fileName="images/activity/activity_014.png" xy="281,179"/>
+  </displayList>
+</component>

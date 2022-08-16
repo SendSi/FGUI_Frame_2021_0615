@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="914,154" designImageOffsetX="-414" designImageOffsetY="-600">
+  <displayList>
+    <component id="n0_eaah" name="pbr" src="lcq71qp8vhm" fileName="components/components_new/main/healthPbr3.xml" pkg="4ni413la" xy="1,77" size="840,38">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n18_eaah" name="rewBtn0" src="eaahg" fileName="components/targetRewBtn.xml" xy="127,-13">
+      <Button icon="ui://tsbe09ddlcfjz"/>
+    </component>
+    <component id="n22_eaah" name="rewBtn4" src="eaahg" fileName="components/targetRewBtn.xml" xy="757,-13">
+      <Button title="100" icon="ui://tsbe09ddlcfjz"/>
+    </component>
+    <component id="n19_eaah" name="rewBtn1" src="eaahg" fileName="components/targetRewBtn.xml" xy="283,-13">
+      <Button title="40" icon="ui://tsbe09ddlcfjz"/>
+    </component>
+    <component id="n20_eaah" name="rewBtn2" src="eaahg" fileName="components/targetRewBtn.xml" xy="441,-13">
+      <Button title="60" icon="ui://tsbe09ddlcfjz"/>
+    </component>
+    <component id="n21_eaah" name="rewBtn3" src="eaahg" fileName="components/targetRewBtn.xml" xy="598,-13">
+      <Button title="80" icon="ui://tsbe09ddlcfjz"/>
+    </component>
+    <list id="n39_htmu" name="num_list" xy="0,115" size="902,36" layout="row" overflow="hidden" colGap="110" defaultItem="ui://zezobey9htmuhz9cyi">
+      <item title="0"/>
+      <item/>
+      <item title="40"/>
+      <item title="60"/>
+      <item title="80"/>
+      <item title="100"/>
+    </list>
+  </displayList>
+</component>

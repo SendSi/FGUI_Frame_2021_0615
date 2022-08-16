@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="277,640">
+  <displayList>
+    <image id="n0_swkb" name="n0" src="xjmv1qp8vf8" fileName="images/images_new/com_bg_tips02_mask4.png" pkg="2r331opv" xy="0,0" size="277,640" group="n6_swkb"/>
+    <image id="n7_lar3" name="n7" src="lavj1ygcff7" fileName="images/images_new/negative04.png" pkg="2r331opv" xy="6,6" size="265,58" group="n6_swkb"/>
+    <text id="n1_swkb" name="hadNum" xy="49,16" size="92,34" group="n6_swkb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#322b63" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="18/60"/>
+    <component id="n2_swkb" name="cbox" src="oxy0hz9czj" fileName="components/generalCbox.xml" pkg="4hio38um" xy="141,12" size="115,41" group="n6_swkb">
+      <ComboBox visibleItemCount="10">
+        <item title="品质"/>
+        <item title="等级"/>
+        <item title="星级"/>
+        <item title="战力"/>
+      </ComboBox>
+    </component>
+    <list id="n3_swkb" name="generalList" xy="-2,630" pivot="0,1" anchor="true" size="290,569" group="n6_swkb" layout="flow_hz" overflow="scroll" scrollBarFlags="1024" lineGap="-1" colGap="-51" defaultItem="ui://2r331opvhxd7hz9d7l" autoItemSize="true" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n4_swkb" name="n4" src="hxd7hz9d78" fileName="images/hero_icon01.png" pkg="4hio38um" xy="13,16" size="34,34" group="n6_swkb"/>
+    <richtext id="n5_swkb" name="genListNoneTip" xy="16,73" size="245,99" group="n6_swkb" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="当前无可配置英雄，请前往招募英雄！"/>
+    <group id="n6_swkb" name="tweenGenList" xy="-2,0" size="290,640" advanced="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
+  </displayList>
+</component>

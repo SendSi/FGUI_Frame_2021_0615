@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="124,29" pivot="0.5,0.5" extention="Button">
+  <controller name="color" pages="0,,1," selected="0">
+    <remark page="0" value="白"/>
+    <remark page="1" value="灰"/>
+  </controller>
+  <displayList>
+    <text id="n0_s135" name="title" xy="0,0" size="124,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#4c9129" text="获取更多英魂">
+      <gearColor controller="color" pages="0,1" values="#4c9129,#000000|#9e9e9e,#000000"/>
+    </text>
+    <graph id="n1_equg" name="icon" xy="3,26" size="118,1" type="rect" lineSize="0" fillColor="#ff4c9129"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2iylmg0s">
+  <resources>
+    <image id="g4yj0" name="wartoken_icon3.png" path="/images/" exported="true" scale="9grid" scale9grid="8,12,4,11"/>
+    <image id="g4yj1" name="wartoken__btn_arrow.png" path="/images/" exported="true"/>
+    <image id="g4yj2" name="wartoken_icon1.png" path="/images/" exported="true"/>
+    <image id="g4yj3" name="wartoken_icon2.png" path="/images/" exported="true"/>
+    <component id="g4yj4" name="wartoken__btn1.xml" path="/components/" exported="true"/>
+    <component id="g4yj1ygcfhj" name="WarOrderView.xml" path="/panel/" exported="true"/>
+    <component id="g4yj1ygcffj" name="wartoken__btn2.xml" path="/components/" exported="true"/>
+    <component id="g4yj8" name="wartoken__btn3.xml" path="/components/" exported="true"/>
+    <component id="g4yj9" name="wartoken__btn4.xml" path="/components/" exported="true"/>
+    <component id="g4yja" name="wartoken__btn5.xml" path="/components/" exported="true"/>
+    <component id="ld4m1ygcfhk" name="wartoken_level.xml" path="/components/" exported="true"/>
+    <component id="v8di1ygcfhl" name="wartoken_item1.xml" path="/components/" exported="true"/>
+    <image id="v8di1ygcfhn" name="wartoken_bg1.png" path="/images/" exported="true" scale="9grid" scale9grid="87,0,4,488"/>
+    <component id="v8di1ygcfho" name="wartoken_item2.xml" path="/components/" exported="true"/>
+    <component id="v8di1ygcfhp" name="wartoken_item3.xml" path="/components/" exported="true"/>
+    <component id="v8di1ygcfhq" name="WarOrderTip2.xml" path="/panel/" exported="true"/>
+    <component id="v8di1ygcfhr" name="wartoken_item4.xml" path="/components/" exported="true"/>
+    <image id="v8di1ygcfht" name="wartoken_bg2.png" path="/images/" exported="true"/>
+    <component id="v8di1ygcfhu" name="wartoken_item5.xml" path="/components/" exported="true"/>
+    <image id="j4951ygcfhx" name="token_icon2.png" path="/images/"/>
+    <component id="nmhb1ygcfje" name="expBar.xml" path="/components/" exported="true"/>
+    <image id="z5931ygcfjf" name="wartoken_bg3.jpg" path="/images/" exported="true" atlas="alone"/>
+    <component id="lc8g1ygcfjg" name="WarOrderTip.xml" path="/panel/"/>
+    <image id="x7d51ygcfji" name="wartoken_bg22.jpg" path="/images/"/>
+    <image id="x7d51ygcfjk" name="wartoken_bg6.png" path="/images/" exported="true" scale="9grid" scale9grid="11,9,6,7"/>
+    <image id="x7d51ygcfjl" name="wartoken_bg7.png" path="/images/" exported="true"/>
+    <component id="x7d51ygcfjm" name="wartoken_item6.xml" path="/components/" exported="true"/>
+    <image id="x7d51ygcfjn" name="wartoken_bg8.png" path="/images/" exported="true"/>
+    <image id="x7d51ygcfng" name="wartoken_btn_bg02.png" path="/images/" exported="true" scale="9grid" scale9grid="22,16,7,32"/>
+    <image id="x7d51ygcfnh" name="wartoken_btn_bg01.png" path="/images/" exported="true" scale="9grid" scale9grid="20,16,15,20"/>
+    <image id="x7d51ygcfjo" name="wartoken_bg9.png" path="/images/" exported="true"/>
+    <component id="x7d51ygcfjp" name="wartoken__btn6.xml" path="/components/" exported="true"/>
+    <image id="x7d51ygcfjq" name="wartoken_box.png" path="/images/" exported="true"/>
+    <image id="x7d51ygcfjr" name="wartoken_bg10.png" path="/images/" exported="true"/>
+    <image id="x7d51ygcfjs" name="wartoken_bg11.png" path="/images/" exported="true"/>
+    <image id="pepa1ygcfni" name="wartoken_box1.png" path="/images/" exported="true"/>
+    <image id="g4yj1ygcfho" name="com_icon_token.png" path="/images/" exported="true"/>
+    <image id="kxfy1ygcfo2" name="wartoken_bg3.png" path="/images/"/>
+    <image id="qajo1ygcfo3" name="wartoken_box3.png" path="/images/" exported="true"/>
+    <image id="qajo1ygcfo4" name="wartoken_box4.png" path="/images/" exported="true"/>
+    <image id="qajo1ygcfo6" name="btn001.png" path="/images/" exported="true"/>
+    <image id="qajo1ygcfo7" name="wartoken_bg4.png" path="/images/"/>
+    <component id="qajo1ygcfo8" name="receiveBtn.xml" path="/components/" exported="true"/>
+    <image id="feo21ygcfo9" name="wartoken_bg12.png" path="/images/" exported="true" scale="9grid" scale9grid="10,13,214,12"/>
+    <image id="jhxs1ygcfoa" name="wartoken_bg.jpg" path="/images/"/>
+    <image id="jhxs1ygcfob" name="wartoken_bg5.png" path="/images/"/>
+    <image id="nsu51ygcfoc" name="wartoken_box6.png" path="/images/" exported="true"/>
+    <image id="nsu51ygcfod" name="wartoken_title.png" path="/images/" exported="true"/>
+    <image id="nsu51ygcfoe" name="wartoken_box5.png" path="/images/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

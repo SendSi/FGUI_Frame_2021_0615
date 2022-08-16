@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="733,571" pivot="1,1" overflow="scroll" designImageOffsetX="-580" designImageOffsetY="-2">
+  <displayList>
+    <text id="n0_uxiw" name="lbl" xy="26,1" size="706,77" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" leading="6" ubb="true" autoSize="none" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="报告执政官！我成功潜入到地方[color=#FF7575]{SA-4}花飞漫地[/color]的城市，获取了以下重要情报重要情报重要情报重要情报重要情报">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <component id="n1_uxiw" name="headIcon" src="j3xs9pm" fileName="components/components_new/btn_head4.xml" pkg="2r331opv" xy="22,67" group="n18_vidf" aspect="true" scale="0.6,0.6" touchable="false"/>
+    <text id="n2_uxiw" name="playerName" xy="148,98" size="162,34" group="n18_vidf" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ff7575" leading="6" ubb="true" strokeColor="#501c1c" strokeSize="2" shadowColor="#501c1c" shadowOffset="2,3" singleLine="true" autoClearText="true" text="{SA-4}花飞漫地"/>
+    <component id="n3_uxiw" name="coordinateTitle" src="jvu0ci2" fileName="components/components_new/com_btn_lbl_lines.xml" pkg="2r331opv" xy="148,127" size="140,35" group="n18_vidf">
+      <Button title="X:135  Y:541"/>
+    </component>
+    <text id="n4_uxiw" name="wallDurabilityLbl" xy="395,110" size="313,29" group="n18_vidf" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" leading="6" ubb="true" autoSize="none" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="城墙耐久：15,494/19,750"/>
+    <group id="n18_vidf" name="com0" xy="22,67" size="686,210" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <image id="n5_uxiw" name="n5" src="mlozhz9czu" fileName="images/bg_06.png" xy="0,211" size="734,40" group="n24_9itd" alpha="0.3">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <text id="n6_uxiw" name="n6" xy="26,214" size="124,34" group="n24_9itd" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffb361" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="可掠夺资源"/>
+    <component id="n7_uxiw" name="explainBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="157,213" size="36,36" group="n24_9itd" scale="0.8,0.8">
+      <relation target="n6_uxiw" sidePair="left-right"/>
+      <Button icon="ui://2r331opvt4up1qp8vek"/>
+    </component>
+    <richtext id="n8_uxiw" name="rlbl" xy="26,262" size="684,29" group="n24_9itd" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" leading="6" ubb="true" autoSize="height" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="城市里并无可以掠夺的资源   图标 1050   图标6540">
+      <relation target="" sidePair="left-left,rightext-right"/>
+    </richtext>
+    <group id="n24_9itd" name="com1" xy="0,211" size="734,80" advanced="true"/>
+    <image id="n9_uxiw" name="n9" src="mlozhz9czu" fileName="images/bg_06.png" xy="0,326" size="733,40" group="n23_9itd" alpha="0.3">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <text id="n10_uxiw" name="n10" xy="26,329" size="100,34" group="n23_9itd" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffb361" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="部队总数"/>
+    <text id="n11_uxiw" name="fightingUnits" xy="589,331" pivot="1,0" size="139,29" group="n23_9itd" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ff7575" align="right" strokeColor="#501c1c" strokeSize="2" shadowColor="#501c1c" shadowOffset="2,3" autoClearText="true" text="约100战斗单位">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <list id="n13_uxiw" name="teamList" xy="21,367" size="792,187" group="n23_9itd" scale="0.86,0.86" layout="row" lineGap="9" colGap="-13" defaultItem="ui://2r331opvhxd7hz9d7l" autoClearItems="true">
+      <relation target="" sidePair="left-left"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n23_9itd" name="com2" xy="0,326" size="813,228" advanced="true">
+      <relation target="n8_uxiw" sidePair="top-bottom"/>
+    </group>
+    <image id="n15_uxiw" name="n15" src="mlozhz9czu" fileName="images/bg_06.png" xy="0,531" size="733,40" group="n22_9itd" alpha="0.3">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <text id="n16_uxiw" name="n16" xy="26,534" size="100,34" group="n22_9itd" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffb361" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="援军总数"/>
+    <text id="n17_uxiw" name="reinforcementsCount" xy="685,536" pivot="1,0" size="44,29" group="n22_9itd" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ff7575" align="right" strokeColor="#501c1c" strokeSize="2" shadowColor="#501c1c" shadowOffset="2,3" autoClearText="true" text="不详">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <group id="n22_9itd" name="com3" xy="0,531" size="733,40" advanced="true">
+      <relation target="n13_uxiw" sidePair="top-bottom"/>
+    </group>
+  </displayList>
+</component>

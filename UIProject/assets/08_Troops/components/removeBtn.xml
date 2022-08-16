@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="35,30" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2_riwy" name="n2" src="jdpjz9cqb" fileName="images_new/troops_remove.png" xy="0,0"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

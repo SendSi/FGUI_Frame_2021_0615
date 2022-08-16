@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="225,241">
+  <displayList>
+    <image id="n13_ry4y" name="n13" src="ry4yob" fileName="images2/explore_bg01.png" xy="0,0" size="225,237"/>
+    <component id="n14_k4g9" name="n14" src="k4g9oe" fileName="components/main_explore_block.xml" xy="5,2" group="n24_k4g9"/>
+    <component id="n15_k4g9" name="n15" src="k4g9oe" fileName="components/main_explore_block.xml" xy="48,2" group="n24_k4g9"/>
+    <component id="n16_k4g9" name="n16" src="k4g9oe" fileName="components/main_explore_block.xml" xy="91,2" group="n24_k4g9"/>
+    <component id="n17_k4g9" name="n17" src="k4g9oe" fileName="components/main_explore_block.xml" xy="134,2" group="n24_k4g9"/>
+    <component id="n18_k4g9" name="n18" src="k4g9oe" fileName="components/main_explore_block.xml" xy="177,2" group="n24_k4g9"/>
+    <group id="n24_k4g9" name="n24" xy="5,2" size="215,59"/>
+    <component id="n25_k4g9" name="n25" src="k4g9oe" fileName="components/main_explore_block.xml" xy="5,44" group="n30_k4g9"/>
+    <component id="n26_k4g9" name="n26" src="k4g9oe" fileName="components/main_explore_block.xml" xy="48,44" group="n30_k4g9"/>
+    <component id="n27_k4g9" name="n27" src="k4g9oe" fileName="components/main_explore_block.xml" xy="91,44" group="n30_k4g9"/>
+    <component id="n28_k4g9" name="n28" src="k4g9oe" fileName="components/main_explore_block.xml" xy="134,44" group="n30_k4g9"/>
+    <component id="n29_k4g9" name="n29" src="k4g9oe" fileName="components/main_explore_block.xml" xy="177,44" group="n30_k4g9"/>
+    <group id="n30_k4g9" name="n30" xy="5,44" size="215,59"/>
+    <component id="n31_k4g9" name="n31" src="k4g9oe" fileName="components/main_explore_block.xml" xy="5,86" group="n36_k4g9"/>
+    <component id="n32_k4g9" name="n32" src="k4g9oe" fileName="components/main_explore_block.xml" xy="48,86" group="n36_k4g9"/>
+    <component id="n33_k4g9" name="n33" src="k4g9oe" fileName="components/main_explore_block.xml" xy="91,86" group="n36_k4g9"/>
+    <component id="n34_k4g9" name="n34" src="k4g9oe" fileName="components/main_explore_block.xml" xy="134,86" group="n36_k4g9"/>
+    <component id="n35_k4g9" name="n35" src="k4g9oe" fileName="components/main_explore_block.xml" xy="177,86" group="n36_k4g9"/>
+    <group id="n36_k4g9" name="n36" xy="5,86" size="215,59"/>
+    <component id="n37_k4g9" name="n37" src="k4g9oe" fileName="components/main_explore_block.xml" xy="5,128" group="n42_k4g9"/>
+    <component id="n38_k4g9" name="n38" src="k4g9oe" fileName="components/main_explore_block.xml" xy="48,128" group="n42_k4g9"/>
+    <component id="n39_k4g9" name="n39" src="k4g9oe" fileName="components/main_explore_block.xml" xy="91,128" group="n42_k4g9"/>
+    <component id="n40_k4g9" name="n40" src="k4g9oe" fileName="components/main_explore_block.xml" xy="134,128" group="n42_k4g9"/>
+    <component id="n41_k4g9" name="n41" src="k4g9oe" fileName="components/main_explore_block.xml" xy="177,128" group="n42_k4g9"/>
+    <group id="n42_k4g9" name="n42" xy="5,128" size="215,59"/>
+    <component id="n43_k4g9" name="n43" src="k4g9oe" fileName="components/main_explore_block.xml" xy="5,170" group="n48_k4g9"/>
+    <component id="n44_k4g9" name="n44" src="k4g9oe" fileName="components/main_explore_block.xml" xy="48,170" group="n48_k4g9"/>
+    <component id="n45_k4g9" name="n45" src="k4g9oe" fileName="components/main_explore_block.xml" xy="91,170" group="n48_k4g9"/>
+    <component id="n46_k4g9" name="n46" src="k4g9oe" fileName="components/main_explore_block.xml" xy="134,170" group="n48_k4g9"/>
+    <component id="n47_k4g9" name="n47" src="k4g9oe" fileName="components/main_explore_block.xml" xy="177,170" group="n48_k4g9"/>
+    <group id="n48_k4g9" name="n48" xy="5,170" size="215,59"/>
+  </displayList>
+</component>

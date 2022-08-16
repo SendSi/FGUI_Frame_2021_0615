@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" extention="Label" initName="frame" designImageAlpha="48" designImageLayer="1">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="左"/>
+    <remark page="1" value="右"/>
+  </controller>
+  <controller name="dynamic" pages="0,,1," selected="0">
+    <action type="play_transition" fromPage="1" toPage="0" transition="t1" delay=".3" stopOnExit="true"/>
+    <action type="play_transition" fromPage="0" toPage="0,1" transition="t0" stopOnExit="true"/>
+    <action type="play_transition" fromPage="1" toPage="0" transition="t2" delay=".3" stopOnExit="true"/>
+  </controller>
+  <controller name="dialogue" pages="0,,1," selected="0">
+    <remark page="0" value="常规"/>
+    <remark page="1" value="对话"/>
+  </controller>
+  <displayList>
+    <component id="n21_a7jc" name="offset" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0" size="1334,750" group="n31_a7jc" visible="false" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <group id="n31_a7jc" name="offsetRect" xy="0,0" size="1334,750" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <image id="n32_jx9j" name="bottom" src="ae0jhz9d3n" fileName="images/images_new/com_balckmask.png" pkg="2r331opv" xy="0,0" size="1334,750">
+      <gearDisplay controller="dialogue" pages="0"/>
+      <gearXY controller="dynamic" pages="0,1" values="0,0|0,0" tween="true" ease="Quad.InOut"/>
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <loader id="n37_idte" name="avatarLeft" xy="667,377" pivot="0.5,0.5" anchor="true" size="1334,750" scale="2,2" fill="scaleMatchHeight"/>
+    <loader id="n36_idte" name="avatarRight" xy="667,376" pivot="0.5,0.5" anchor="true" size="1334,750" scale="2,2" fill="scaleMatchHeight"/>
+    <loader3D id="n4_j3xs" name="rightRole" xy="943,500" size="100,100" group="n16_j3xs" touchable="false" url="ui://dhoj786wtk0cjn" align="center" vAlign="middle" animation="idle" skin="" color="#666666">
+      <gearColor controller="state" pages="0" values="#666666" default="#ffffff" tween="true"/>
+    </loader3D>
+    <loader id="n7_j3xs" name="rightNameBg" xy="760,476" size="299,81" group="n16_j3xs" url="ui://2r331opvae0jhz9d3p" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="state" pages="0,1" values="ui://2r331opvae0jhz9d3p|ui://2r331opvae0jhz9d3p"/>
+      <relation target="" sidePair="right-right"/>
+    </loader>
+    <text id="n8_j3xs" name="rightNameTxt" xy="847,488" size="135,56" group="n16_j3xs" font="ui://2r331opvlwft3" fontSize="20" color="#868686" align="right" vAlign="middle" leading="-2" autoSize="none" text="紫天射手">
+      <gearColor controller="state" pages="0" values="#868686,#000000" default="#ffffff,#000000"/>
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <group id="n16_j3xs" name="right" xy="760,476" size="299,124" advanced="true">
+      <gearDisplay controller="dialogue" pages="0"/>
+      <gearXY controller="state" pages="0,1" values="760,476|760,432" tween="true"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </group>
+    <loader3D id="n3_j3xs" name="leftRole" xy="77,417" size="100,100" group="n15_j3xs" touchable="false" url="ui://dhoj786wtk0cjq" align="center" vAlign="middle" animation="idle" skin="">
+      <gearColor controller="state" pages="0" values="#ffffff" default="#666666" tween="true"/>
+    </loader3D>
+    <loader id="n5_j3xs" name="leftNameBg" xy="442,441" size="345,81" group="n15_j3xs" url="ui://2r331opvae0jhz9d3o" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="state" pages="0" values="ui://2r331opvae0jhz9d3o" default="ui://2r331opvae0jhz9d3o"/>
+    </loader>
+    <text id="n6_j3xs" name="leftNameTxt" xy="522,452" size="202,58" group="n15_j3xs" font="ui://2r331opvlwft3" fontSize="20" color="#ffffff" vAlign="middle" leading="-2" autoSize="none" text="紫天射手">
+      <gearColor controller="state" pages="0" values="#ffffff,#000000" default="#868686,#000000"/>
+    </text>
+    <group id="n15_j3xs" name="left" xy="77,417" size="710,105" advanced="true">
+      <gearDisplay controller="dialogue" pages="0"/>
+      <gearXY controller="state" pages="0,1" values="77,417|77,450" tween="true"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </group>
+    <component id="n14_j3xs" name="closeButton" src="g820hz9cx4" fileName="components/dialogue_btn_close.xml" xy="1190,5" pkg="2r331opv">
+      <gearDisplay controller="dialogue" pages="0"/>
+      <gearXY controller="dynamic" pages="1" values="1553,5" default="1190,5" tween="true"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n18_j3xs" name="dailogueItem" src="j3xs1b" fileName="components/dailogueItem.xml" xy="0,535">
+      <gearDisplay controller="dialogue" pages="0"/>
+      <gearXY controller="dynamic" pages="1" values="0,735" default="0,535" tween="true" ease="Quad.InOut"/>
+      <relation target="" sidePair="bottom-bottom,rightext-right"/>
+    </component>
+    <component id="n34_vqdd" name="tmpBtn" src="vqddhz9cx5" fileName="components/blankBtn.xml" xy="0,69" size="1334,680">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </component>
+  </displayList>
+  <transition name="t0" options="1">
+    <item time="0" type="XY" target="n15_j3xs" tween="true" startValue="77,453" endValue="-908.454,453,-0.681,0.604" duration="5"/>
+    <item time="0" type="XY" target="n16_j3xs" tween="true" startValue="1034,476" endValue="1639.486,476,1.229,0.635" duration="5"/>
+  </transition>
+  <transition name="t1" options="1">
+    <item time="0" type="XY" target="n15_j3xs" tween="true" startValue="-908.454,452.75,-0.681,0.604" endValue="13,453" duration="5" ease="Quad.In"/>
+    <item time="0" type="XY" target="n16_j3xs" tween="true" startValue="1639.486,476,1.229,0.635" endValue="1034,476" duration="5" ease="Quad.In"/>
+  </transition>
+  <transition name="t2">
+    <item time="0" type="Alpha" target="n5_j3xs" tween="true" startValue="0" endValue="0" duration="10"/>
+    <item time="0" type="Alpha" target="n6_j3xs" tween="true" startValue="0" endValue="0" duration="10"/>
+    <item time="0" type="Alpha" target="n7_j3xs" tween="true" startValue="0" endValue="0" duration="10"/>
+    <item time="0" type="Alpha" target="n8_j3xs" tween="true" startValue="0" endValue="0" duration="10"/>
+    <item time="10" type="Alpha" target="n5_j3xs" tween="true" startValue="0" endValue="1" duration="26"/>
+    <item time="10" type="Alpha" target="n6_j3xs" tween="true" startValue="0" endValue="1" duration="26"/>
+    <item time="10" type="Alpha" target="n7_j3xs" tween="true" startValue="0" endValue="1" duration="26"/>
+    <item time="10" type="Alpha" target="n8_j3xs" tween="true" startValue="0" endValue="1" duration="26"/>
+  </transition>
+</component>

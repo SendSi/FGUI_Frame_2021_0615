@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <displayList>
+    <loader id="n20_vm4c" name="bg01" xy="-145,0" size="1625,750" url="ui://nf2zagxsgww7i5" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n28_e1qz" name="bg02" xy="523,535" size="645,215" touchable="false" url="ui://nf2zagxse1qz1qp8vf2" fill="scale">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <loader3D id="n36_e1qz" name="role" xy="564,588" size="158,134" scale="0.9,0.9" touchable="false" url="ui://dhoj786wtk0cjn" animation="" skin="" loop="true" clearOnPublish="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader3D>
+    <component id="n25_e1qz" name="Left" src="e1qz1qp8vf3" fileName="components/Left.xml" xy="0,540">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <text id="n37_hhlv" name="lable" xy="547,715" pivot="0.5,0.5" size="239,35" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="-  点击空白关闭  -">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n38_rgy4" name="n38" src="th8f1qp8vf7" fileName="image/recruit_bg09.png" xy="430,18" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center"/>
+    </image>
+  </displayList>
+  <transition name="roleDynamic" autoPlay="true">
+    <item time="0" type="ColorFilter" target="n38_rgy4" tween="true" startValue="0.58,0,0,0" endValue="0,0,0,0" duration="8"/>
+    <item time="0" type="Scale" target="n38_rgy4" tween="true" startValue="3,3" endValue="0.7,0.7" duration="8" ease="Quad.In"/>
+    <item time="0" type="XY" target="n25_e1qz" value="-601,540"/>
+    <item time="0" type="XY" target="n36_e1qz" tween="true" startValue="1479,588" endValue="573,588" duration="8"/>
+    <item time="0" type="XY" target="n38_rgy4" tween="true" startValue="430,89" endValue="430,18" duration="8"/>
+    <item time="3" type="XY" target="n25_e1qz" tween="true" startValue="-601,540" endValue="44,540" duration="5" ease="Quad.In"/>
+    <item time="8" type="Scale" target="n38_rgy4" tween="true" startValue="0.7,0.7" endValue="1,1" duration="2"/>
+    <item time="8" type="XY" target="n25_e1qz" tween="true" startValue="44,540" endValue="0,540" duration="3"/>
+  </transition>
+</component>

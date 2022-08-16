@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageOffsetX="-366" designImageOffsetY="-178">
+  <controller name="state" pages="0,,1,,2," selected="0"/>
+  <controller name="arrowDir" pages="2,箭头左,3,箭头右" selected="0"/>
+  <displayList>
+    <image id="n3_c1q9" name="n3" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="25,10" size="550,376" group="n13_c1q9"/>
+    <image id="n4_c1q9" name="n4" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="614,176" group="n13_c1q9" rotation="90" flip="vt">
+      <gearDisplay controller="arrowDir" pages="3"/>
+      <relation target="n3_c1q9" sidePair="middle-middle"/>
+    </image>
+    <image id="n18_gh80" name="n18" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="35,165" group="n13_c1q9" rotation="90">
+      <gearDisplay controller="arrowDir" pages="2"/>
+      <relation target="n3_c1q9" sidePair="middle-middle"/>
+    </image>
+    <image id="n8_c1q9" name="n8" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" xy="56,37" size="486,197" group="n13_c1q9" alpha="0.3" color="#97794f"/>
+    <loader id="n19_8lng" name="icon" xy="77,89" size="96,96" group="n13_c1q9" url="ui://tsbe09ddspsrchx" fill="scale"/>
+    <text id="n6_c1q9" name="title" xy="187,48" size="214,42" group="n13_c1q9" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#845744" autoClearText="true" text="定点迁城（配表"/>
+    <text id="n7_c1q9" name="inforLbl" xy="186,87" size="345,139" group="n13_c1q9" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" autoSize="none" autoClearText="true" text="将宁德城市迁移至哪里那里哪里那里春天在哪里呀春天在哪里"/>
+    <text id="n9_c1q9" name="hadTitle" xy="199,250" size="124,34" group="n13_c1q9" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="拥有数量："/>
+    <text id="n10_c1q9" name="hadNum" xy="316,250" size="90,34" group="n13_c1q9" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" autoSize="none" autoClearText="true" text="3"/>
+    <text id="n12_c1q9" name="tips" xy="37,308" pivot="0.5,0.5" size="526,29" group="n16_c1q9" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#b26105" align="center" vAlign="middle" autoSize="none" singleLine="true" text="请移动您的城市以选择迁城地点。"/>
+    <group id="n16_c1q9" name="n16" xy="37,308" size="526,29" group="n13_c1q9" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <group id="n13_c1q9" name="n13" xy="25,10" size="650,376"/>
+    <component id="n15_c1q9" name="moveBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="190,285" size="220,78">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="迁城" titleFontSize="32"/>
+    </component>
+    <component id="n17_c1q9" name="buyBtn" src="e9mlkf" fileName="components/components_new/com_btn_buy.xml" pkg="2r331opv" xy="190,285" size="220,78">
+      <gearDisplay controller="state" pages="2"/>
+      <Button titleFontSize="28"/>
+    </component>
+  </displayList>
+</component>

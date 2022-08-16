@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="jylg23gn">
+  <resources>
+    <image id="wgald" name="LimitGift_light.png" path="/images/" exported="true"/>
+    <image id="wgale" name="LimitGift_bg.png" path="/images/" exported="true"/>
+    <image id="wgal1ygcgmw" name="LimitGift_%.png" path="/images/limitgift/" exported="true"/>
+    <image id="wgal1ygcgn7" name="LimitGift_0.png" path="/images/limitgift/" exported="true"/>
+    <image id="wgal1ygcgn8" name="LimitGift_1.png" path="/images/limitgift/" exported="true"/>
+    <image id="wgal1ygcgn9" name="LimitGift_2.png" path="/images/limitgift/" exported="true"/>
+    <image id="wgal1ygcgna" name="LimitGift_3.png" path="/images/limitgift/" exported="true"/>
+    <image id="wgal1ygcgnb" name="LimitGift_4.png" path="/images/limitgift/" exported="true"/>
+    <image id="wgal1ygcgnc" name="LimitGift_5.png" path="/images/limitgift/" exported="true"/>
+    <image id="wgal1ygcgnd" name="LimitGift_6.png" path="/images/limitgift/" exported="true"/>
+    <image id="wgal1ygcgne" name="LimitGift_7.png" path="/images/limitgift/" exported="true"/>
+    <image id="wgal1ygcgnf" name="LimitGift_8.png" path="/images/limitgift/" exported="true"/>
+    <image id="wgal1ygcgng" name="LimitGift_9.png" path="/images/limitgift/" exported="true"/>
+    <font id="q0t11ygcgni" name="limitGift_Font.fnt" path="/images/limitgift/" exported="true"/>
+    <component id="pgai1ygcgnj" name="LimitGiftView.xml" path="/panel/" exported="true"/>
+    <component id="pgai1ygcgnk" name="limitGiftItem.xml" path="/components/" exported="true"/>
+    <component id="ho0c1ygcgnm" name="downItem.xml" path="/components/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

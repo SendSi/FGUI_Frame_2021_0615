@@ -1,0 +1,139 @@
+
+ChiYanQiShi.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10bianselong
+  rotate: false
+  xy: 1227, 254
+  size: 240, 253
+  orig: 240, 253
+  offset: 0, 0
+  index: -1
+11lognwei
+  rotate: false
+  xy: 296, 14
+  size: 219, 85
+  orig: 219, 85
+  offset: 0, 0
+  index: -1
+12zuopaiqitong
+  rotate: false
+  xy: 1469, 277
+  size: 115, 230
+  orig: 115, 230
+  offset: 0, 0
+  index: -1
+13zuoer
+  rotate: false
+  xy: 1563, 144
+  size: 122, 131
+  orig: 122, 131
+  offset: 0, 0
+  index: -1
+14zuoer
+  rotate: false
+  xy: 2, 9
+  size: 105, 90
+  orig: 105, 90
+  offset: 0, 0
+  index: -1
+15youpaiqitong
+  rotate: false
+  xy: 842, 206
+  size: 212, 301
+  orig: 212, 301
+  offset: 0, 0
+  index: -1
+16youqshoutui
+  rotate: true
+  xy: 109, 12
+  size: 87, 185
+  orig: 87, 185
+  offset: 0, 0
+  index: -1
+17youhshoutui
+  rotate: false
+  xy: 990, 19
+  size: 147, 185
+  orig: 147, 185
+  offset: 0, 0
+  index: -1
+18tieqiu
+  rotate: true
+  xy: 1327, 11
+  size: 241, 234
+  orig: 241, 234
+  offset: 0, 0
+  index: -1
+19zuoqshoutui
+  rotate: true
+  xy: 1139, 16
+  size: 209, 63
+  orig: 209, 63
+  offset: 0, 0
+  index: -1
+1shoushe
+  rotate: true
+  xy: 1204, 82
+  size: 143, 112
+  orig: 143, 112
+  offset: 0, 0
+  index: -1
+2shoutou
+  rotate: true
+  xy: 655, 204
+  size: 303, 185
+  orig: 303, 185
+  offset: 0, 0
+  index: -1
+3toutou
+  rotate: false
+  xy: 1056, 227
+  size: 169, 280
+  orig: 169, 280
+  offset: 0, 0
+  index: -1
+4wuqi
+  rotate: false
+  xy: 2, 101
+  size: 651, 406
+  orig: 651, 406
+  offset: 0, 0
+  index: -1
+5youhuo
+  rotate: true
+  xy: 595, 33
+  size: 66, 127
+  orig: 66, 127
+  offset: 0, 0
+  index: -1
+6zuohou
+  rotate: true
+  xy: 1204, 23
+  size: 57, 121
+  orig: 57, 121
+  offset: 0, 0
+  index: -1
+7qugan
+  rotate: true
+  xy: 840, 5
+  size: 197, 148
+  orig: 197, 148
+  offset: 0, 0
+  index: -1
+8zuobi
+  rotate: true
+  xy: 517, 18
+  size: 81, 76
+  orig: 81, 76
+  offset: 0, 0
+  index: -1
+9toufahou
+  rotate: true
+  xy: 724, 2
+  size: 200, 114
+  orig: 200, 114
+  offset: 0, 0
+  index: -1

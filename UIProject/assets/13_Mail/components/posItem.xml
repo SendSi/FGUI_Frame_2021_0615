@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="286,65" extention="Button" designImageOffsetX="-1265" designImageOffsetY="-179">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n14_676j" name="title" xy="46,18" size="194,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#599e27" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="[联盟]他的名字吧">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n19_ooeu" name="n19" src="vqdvhz9d2v" fileName="images/images_new/league_icon_map.png" pkg="2r331opv" xy="7,12" color="#2c9d27"/>
+    <component id="n21_h2fk" name="n21" src="m79tco" fileName="components/com_btn_check.xml" pkg="2r331opv" xy="235,9" size="46,46" aspect="true"/>
+  </displayList>
+  <Button mode="Check"/>
+</component>

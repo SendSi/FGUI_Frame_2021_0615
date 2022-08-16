@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="98,44" pivot="0.5,0.5" extention="Button" designImageOffsetX="-857" designImageOffsetY="-124" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_b3sk" name="n0" src="c4umz9cna" fileName="images/images_new/com_btn_bg01.png" pkg="2r331opv" xy="0,0" size="98,44">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_b3sk" name="icon" xy="29,5" size="38,32" url="ui://2r331opvvb7khz9d05" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="确认解散"/>
+    <remark page="1" value="解散ing"/>
+  </controller>
+  <displayList>
+    <component id="n2_etns" name="com_mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_etns" name="com_window" src="hdmy1iy5b95" fileName="components/components_new/Popup_bg2.xml" pkg="2r331opv" xy="267,151" group="n5_etns"/>
+    <component id="n6_etns" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="968,138" group="n5_etns" scale="0.8,0.8"/>
+    <text id="n4_etns" name="title" xy="597,164" pivot="0.5,0.5" size="140,46" group="n5_etns" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="解散联盟"/>
+    <text id="n7_etns" name="txt" xy="360,247" size="614,173" group="n5_etns" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" ubb="true" autoSize="none" text="确定解散后，您的联盟讲进入为期1小时的解散倒计时。倒计时期间，您可随时取消解散联盟的申请。&#xA;倒计时结束后联盟将正式解散，联盟解散后无法回复，同时联盟积分会被清零。&#xA;请在下方输入“解散”确定解散联盟。"/>
+    <image id="n10_etns" name="n10" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="357,428" size="619,36" group="n12_etns"/>
+    <component id="n16_k0s5" name="btnDissolve" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="450,494" group="n12_etns">
+      <Button title="确认解散"/>
+    </component>
+    <component id="n17_k0s5" name="btnCancle" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="748,494" group="n12_etns">
+      <Button title="取消"/>
+    </component>
+    <text id="n11_etns" name="lblSure" xy="363,432" size="603,29" group="n12_etns" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" ubb="true" autoSize="none" singleLine="true" text="" input="true" prompt="[color=#97794f]点击输入“解散”确认解散联盟[/color]"/>
+    <group id="n12_etns" name="n12" xy="357,428" size="619,128" group="n5_etns" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <component id="n14_etns" name="pbrTime" src="etnshz9d3a" fileName="components/dissolvePbrTime.xml" xy="361,432" size="611,30" group="n15_etns">
+      <ProgressBar value="11" max="100"/>
+    </component>
+    <component id="n18_k0s5" name="btnCancleDiss" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="586,496" group="n15_etns">
+      <Button title="取消解散"/>
+    </component>
+    <group id="n15_etns" name="n15" xy="361,432" size="611,126" group="n5_etns" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <group id="n5_etns" name="n5" xy="267,138" size="800,473" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

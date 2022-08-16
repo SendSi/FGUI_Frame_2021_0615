@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,616" designImageOffsetX="-259" designImageOffsetY="-8">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="无按钮"/>
+    <remark page="1" value="有按钮"/>
+  </controller>
+  <controller name="swtich" pages="0,,1," selected="0">
+    <remark page="0" value="展开"/>
+    <remark page="1" value="收起"/>
+  </controller>
+  <displayList>
+    <graph id="n38_zk8y" name="n38" xy="168,376" size="100,312" group="n31_zk8y" alpha="0" type="rect">
+      <gearSize controller="state" pages="0,1" values="100,312,1,1|100,359,1,1"/>
+    </graph>
+    <image id="n1_gmuk" name="window" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="0,0" size="450,656" group="n31_zk8y">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <image id="n43_zk8y" name="window2" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="0,0" size="450,705" group="n31_zk8y">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="n42_zk8y" sidePair="bottomext-bottom"/>
+    </image>
+    <component id="n27_s135" name="title" src="s1351iy5bau" fileName="components/equiTipsTitle.xml" xy="10,10" group="n31_zk8y"/>
+    <component id="n26_s135" name="basAttItem" src="s1351iy5b96" fileName="components/general_new/equip_suitAtt1.xml" pkg="2r331opv" xy="7,96" size="433,259" group="n31_zk8y"/>
+    <image id="n32_zk8y" name="n32" src="b9bj1ygcgmg" fileName="images/images_new/windowBg_new/welfare_btn_bg17.png" pkg="2r331opv" xy="10,344" size="430,27" group="n44_nw2g" alpha="0.7"/>
+    <text id="n34_zk8y" name="txt" xy="25,343" size="84,29" group="n44_nw2g" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#845744" text="套装属性"/>
+    <component id="n36_zk8y" name="btnSwitch" src="s1351iy5b9e" fileName="components/components_new/com_cbtn_icon.xml" pkg="2r331opv" xy="354,323" size="104,68" group="n44_nw2g" scale="0.6,0.6" alpha="0.8">
+      <Button controller="swtich" page="1"/>
+    </component>
+    <component id="n35_zk8y" name="attribute" src="s1351iy5b9f" fileName="components/general_new/equip_suitAtt_0.xml" pkg="2r331opv" xy="13,372" size="423,145" group="n44_nw2g">
+      <gearSize controller="swtich" pages="0,1" values="423,145,1,1|432,0,1,1" tween="true"/>
+    </component>
+    <list id="n37_zk8y" name="suitList" xy="25,514" pivot="0,1" size="391,117" group="n44_nw2g" overflow="scroll" lineGap="-6" defaultItem="ui://2r331opvs1351iy5b9d" autoClearItems="true">
+      <gearSize controller="swtich" pages="0,1" values="391,117,1,1|391,260,1,1" tween="true"/>
+      <relation target="" sidePair="topext-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n44_nw2g" name="suit" xy="10,323" size="448,308" group="n31_zk8y" advanced="true"/>
+    <group id="n31_zk8y" name="n31" xy="0,0" size="458,705" group="n15_g01s" advanced="true"/>
+    <component id="n40_zk8y" name="replaceBtn" src="dfgw1ygcfmg" fileName="components/components_new/com_btn_0001.xml" pkg="2r331opv" xy="241,636" group="n42_zk8y" aspect="true">
+      <Button title="替换" titleFontSize="24"/>
+    </component>
+    <component id="n41_zk8y" name="downBtn" src="dfgw1ygcfme" fileName="components/components_new/com_btn_0003.xml" pkg="2r331opv" xy="74,636" group="n42_zk8y" aspect="true">
+      <Button title="卸下" titleFontSize="24"/>
+    </component>
+    <group id="n42_zk8y" name="n42" xy="74,636" size="280,52" group="n15_g01s" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+      <gearXY controller="state" pages="0,1" values="74,636|81,635"/>
+      <relation target="n37_zk8y" sidePair="top-bottom"/>
+    </group>
+    <group id="n15_g01s" name="tip" xy="0,0" size="458,705" advanced="true"/>
+  </displayList>
+  <relation target="n38_zk8y" sidePair="bottomext-bottom"/>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="630,220">
+  <displayList>
+    <list id="n22_q4hl" name="producelst" xy="21,43" size="845,251" scale="0.7,0.7" layout="flow_hz" overflow="hidden" lineGap="-22" defaultItem="ui://2r331opvj842hz9cyi">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n21_q4hl" name="bg01" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="20,0" size="592,36" group="n23_q4hl"/>
+    <text id="n20_q4hl" name="ExplainLbl" xy="24,0" size="56,36" group="n23_q4hl" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#845744" text="合计"/>
+    <group id="n23_q4hl" name="n23" xy="20,0" size="592,36" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="XY" target="n22_q4hl" tween="true" startValue="21,43" endValue="21,24" duration="5"/>
+    <item time="0" type="XY" target="n23_q4hl" tween="true" startValue="21,0" endValue="21,-19" duration="5" yoyo="true"/>
+    <item time="5" type="XY" target="n22_q4hl" tween="true" startValue="21,24" endValue="21,43" duration="5" ease="Quad.In"/>
+    <item time="5" type="XY" target="n23_q4hl" tween="true" startValue="21,-19" endValue="21,0" duration="5" ease="Quad.In" yoyo="true"/>
+  </transition>
+</component>

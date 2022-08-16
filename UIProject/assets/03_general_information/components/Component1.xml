@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="409,325">
+  <displayList>
+    <component id="n25_s135" name="suitItem" src="s1351iy5b99" fileName="components/general_new/equip_suitAtt2.xml" pkg="2r331opv" xy="0,0"/>
+    <list id="n24_s135" name="suitList" xy="8,168" size="391,157" overflow="scroll" defaultItem="ui://2r331opvs1351iy5b9d">
+      <relation target="n25_s135" sidePair="topext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

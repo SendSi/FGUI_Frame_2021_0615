@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="299,41" extention="ProgressBar" designImageOffsetX="-895" designImageOffsetY="-349" designImageAlpha="43" designImageLayer="1">
+  <displayList>
+    <image id="n0_oxy0" name="n0" src="lfqnhz9d72" fileName="images/images_new/com_strip011.png" pkg="2r331opv" xy="3,6" size="284,30" alpha="0.1">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n1_oxy0" name="bar" src="lfqnhz9d71" fileName="images/images_new/com_strip010.png" pkg="2r331opv" xy="2,4" size="289,36">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <text id="n2_oxy0" name="title1" xy="171,-27" pivot="1,0" size="79,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="right" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" singleLine="true" text="45">
+      <relation target="n4_tkgc" sidePair="right-left"/>
+    </text>
+    <text id="n4_tkgc" name="title2" xy="246,-27" pivot="1,0" size="42,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="right" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" text="/60"/>
+    <text id="n5_gad3" name="n1" xy="11,-23" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" singleLine="true" text="角色等级："/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

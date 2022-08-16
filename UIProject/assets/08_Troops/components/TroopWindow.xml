@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="state" pages="0,,1,,2," selected="0">
+    <remark page="0" value="1个英雄"/>
+    <remark page="1" value="2个英雄"/>
+    <remark page="2" value="3个英雄"/>
+  </controller>
+  <displayList>
+    <component id="n244_95a1" name="generalPanel" src="95a11xvobd3" fileName="components/GeneralPosPanel.xml" xy="236,40" group="n224_fwk6"/>
+    <image id="n246_o5d4" name="n246" src="o5d41qp8ve6" fileName="images/images_new/com_bg_tips02_mask3.png" pkg="2r331opv" xy="450,653" pivot="0.5,0.5" size="274,72" group="n214_o6sy" alpha="0.74"/>
+    <list id="n248_11ms7" name="skill_list" xy="467,657" pivot="0.5,0.5" size="243,65" group="n214_o6sy" scale="0.8,0.8" visible="false" layout="row" overflow="scroll" colGap="16" defaultItem="ui://2r331opvoxy0z9cqy" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n250_qscg" name="skill01" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="492,657" group="n214_o6sy" scale="0.8,0.8"/>
+    <component id="n251_qscg" name="skill02" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="556,657" group="n214_o6sy" scale="0.8,0.8"/>
+    <component id="n252_qscg" name="skill03" src="oxy0z9cqy" fileName="components/general_new/skillItem.xml" pkg="2r331opv" xy="620,657" group="n214_o6sy" scale="0.8,0.8"/>
+    <text id="n249_11ms7" name="destxt" xy="458,723" pivot="0.5,0.5" size="260,24" group="n214_o6sy" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#fdbf40" text="满怒释放技能，按部队位置顺序释放"/>
+    <group id="n214_o6sy" name="skills" xy="450,653" size="274,94" group="n224_fwk6" advanced="true"/>
+    <component id="n242_k077" name="switch01" src="k7pz1v" fileName="components/components_new/Button_cut.xml" pkg="2r331opv" xy="288,582" size="70,70" group="n224_fwk6" aspect="true" visible="false"/>
+    <component id="n243_k077" name="switch02" src="hxd7hz9d7f" fileName="components/components_new/Button_cut2.xml" pkg="2r331opv" xy="852,582" size="70,70" group="n224_fwk6" aspect="true" visible="false"/>
+    <component id="n241_11wz9" name="troopPower" src="11wz91iy5bb9" fileName="components/levelupPower01.xml" xy="458,45" group="n224_fwk6" scale="0.8,0.8"/>
+    <group id="n224_fwk6" name="window" xy="236,40" size="706,707" advanced="true"/>
+  </displayList>
+  <transition name="choose"/>
+</component>

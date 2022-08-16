@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="14,14">
+  <controller name="color" pages="0,金色,1,红色" selected="0"/>
+  <displayList>
+    <image id="n0_o6sy" name="n0" src="cxixz9cmd" fileName="images/images_new/stars02.png" pkg="2r331opv" xy="0,0" size="14,14" aspect="true"/>
+    <image id="n1_o6sy" name="n1" src="cxixz9cmc" fileName="images/images_new/stars01.png" pkg="2r331opv" xy="0,0" size="14,14" aspect="true">
+      <gearDisplay controller="color" pages="1"/>
+    </image>
+  </displayList>
+</component>

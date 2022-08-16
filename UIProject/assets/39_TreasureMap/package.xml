@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="o2q7imnn">
+  <resources>
+    <image id="jud40" name="TreasureMap_bg1.jpg" path="/images/" exported="true" atlas="alone"/>
+    <component id="jud41ygcfgy" name="TreasureMapView.xml" path="/panel/" exported="true"/>
+    <component id="jud41ygcfgz" name="return.xml" path="/components/" exported="true"/>
+    <component id="rrq31ygcfh0" name="TreasureMap_item1.xml" path="/components/" exported="true"/>
+    <component id="rrq31ygcfh1" name="TreasureMap_btn1.xml" path="/components/" exported="true"/>
+    <image id="rrq31ygcfh2" name="TreasureMap_icon3.png" path="/images/" exported="true"/>
+    <image id="rrq31ygcfh3" name="TreasureMap_icon4.png" path="/images/" exported="true"/>
+    <image id="rrq31ygcfh4" name="TreasureMap_icon1.png" path="/images/" exported="true"/>
+    <image id="rrq31ygcfh5" name="TreasureMap_icon2.png" path="/images/" exported="true"/>
+    <image id="rrq31ygcfh6" name="TreasureMap_bg2.jpg" path="/images/" exported="true" atlas="alone"/>
+    <image id="rrq31ygcfh7" name="TreasureMap_bg3.png" path="/images/" exported="true"/>
+    <component id="rrq31ygcfh8" name="TreasureMap_item2.xml" path="/components/" exported="true"/>
+    <component id="rrq31ygcfqo" name="WorldMapFrag.xml" path="/components/" exported="true"/>
+    <image id="rrq31ygcfh9" name="TreasureMap_bg4.png" path="/images/" exported="true"/>
+    <component id="rrq31ygcfha" name="TreasureMap_btn2.xml" path="/components/" exported="true"/>
+    <image id="rrq31ygcfhb" name="TreasureMap_bg5.png" path="/images/" exported="true" atlas="alone"/>
+    <component id="rrq31ygcfqp" name="TreasureMapTip.xml" path="/panel/" exported="true"/>
+    <image id="rrq31ygcfhc" name="TreasureMap_close.png" path="/images/" exported="true"/>
+    <component id="rrq31ygcfhd" name="TreasureMap_item3.xml" path="/components/" exported="true"/>
+    <image id="rrq31ygcfhe" name="TreasureMap_bg6.png" path="/images/" exported="true"/>
+    <image id="rrq31ygcfhf" name="TreasureMap_bg9.png" path="/images/" exported="true"/>
+    <image id="rrq31ygcfhg" name="TreasureMap_bg7.png" path="/images/" exported="true"/>
+    <image id="rrq31ygcfhh" name="TreasureMap_bg8.png" path="/images/" exported="true"/>
+    <image id="rrq31ygcfhi" name="TreasureMap_bg111.png" path="/images/" exported="true" scale="9grid" scale9grid="1,5,1,2"/>
+    <component id="rrq31ygcfhj" name="TreasureMap_btn3.xml" path="/components/" exported="true"/>
+    <image id="rrq31ygcfhk" name="TreasureMap_icon5.png" path="/images/" exported="true"/>
+    <component id="mzne1ygcfoo" name="TreaBubbling.xml" path="/components/" exported="true"/>
+    <image id="mzne1ygcfop" name="TreasureMap_bg10.png" path="/images/" exported="true" scale="9grid" scale9grid="69,1,8,61"/>
+    <component id="dkpj1ygcfsr" name="TreasureMap_rag.xml" path="/components/" exported="true"/>
+    <image id="olpd1ygcfss" name="TreasureMap_bg61.png" path="/images/" exported="true"/>
+    <image id="wgal1ygcfst" name="TreasureMap_bg11.png" path="/images/" exported="true"/>
+    <component id="olsq1ygcfsu" name="TreasureMap_item4.xml" path="/components/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

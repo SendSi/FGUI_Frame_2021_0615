@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="336,386" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <loader id="n4_fccv" name="icon" xy="0,0" size="336,344" url="ui://4hio38ume1m31iy5bf5" align="center" vAlign="middle">
+      <gearIcon controller="state" pages="0,1,2" values="ui://4hio38ume1m31iy5bf3|ui://4hio38ume1m31iy5bf4|ui://4hio38ume1m31iy5bf5"/>
+    </loader>
+    <text id="n3_fccv" name="title" xy="163,285" pivot="0.5,0.5" size="10,104" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="80" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="3" shadowColor="#000000" shadowOffset="2,6" singleLine="true" text=""/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".96"/>
+</component>

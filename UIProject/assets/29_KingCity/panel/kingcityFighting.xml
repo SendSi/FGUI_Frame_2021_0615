@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="显示"/>
+    <remark page="1" value="不显示"/>
+  </controller>
+  <displayList>
+    <loader id="n7_w84w" name="bg" xy="0,0" size="1334,750" url="ui://2r331opve2ps1iy5b98" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n28_no3v" name="n28" src="g6ichz9cz8" fileName="images/new/com_bg_tips02_mask.png" pkg="sinorujt" xy="0,152" size="275,254" group="n20_s9vk" alpha="0.3"/>
+    <list id="n32_v8po" name="suit_list" xy="14,199" size="199,95" group="n20_s9vk" layout="flow_hz" overflow="scroll" lineGap="2" defaultItem="ui://pvaep77an6021ygcfel" treeView="true" indent="27" clickToExpand="1">
+      <item level="0"/>
+      <item level="0"/>
+      <item level="0"/>
+    </list>
+    <text id="n117_n602" name="rating" xy="10,162" size="172,34" group="n20_s9vk" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" text="当前挑战评级："/>
+    <text id="n118_n602" name="currentnum" xy="10,305" size="181,34" group="n20_s9vk" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" text="当前波数： 5/20"/>
+    <text id="n119_n602" name="experience" xy="10,343" size="248,34" group="n20_s9vk" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" text="获得经验： 5亿1000万"/>
+    <image id="n115_n602" name="n115" src="j4kdhz9clf" fileName="images/main/mainhud_bg03.png" pkg="4ni413la" xy="276,333" size="127,54" group="n19_s9vk">
+      <relation target="n99_n602" sidePair="rightext-right"/>
+    </image>
+    <text id="n99_n602" name="awardnum" xy="323,343" size="61,34" group="n19_s9vk" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" singleLine="true" text="+123"/>
+    <loader id="n120_n602" name="icon" xy="282,340" size="40,40" group="n19_s9vk" url="ui://2r331opvlfqnhz9d77"/>
+    <group id="n19_s9vk" name="award" xy="276,333" size="127,54" group="n20_s9vk" advanced="true">
+      <gearDisplay controller="state" pages=""/>
+    </group>
+    <group id="n20_s9vk" name="Left" xy="0,152" size="403,254" advanced="true">
+      <relation target="" sidePair="middle-middle,right-left"/>
+    </group>
+    <loader id="n129_n602" name="numbericon" xy="582,500" size="46,68"/>
+    <component id="n121_n602" name="healthp" src="n6021qp8vcx" fileName="components/components_new/main/healthPbr.xml" pkg="4ni413la" xy="395,39" group="n100_n602">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n122_n602" name="cityicon" xy="358,21" size="57,67" group="n100_n602" url="ui://pvaep77aebe45"/>
+    <text id="n123_n602" name="nextatt" xy="575,79" size="184,29" group="n100_n602" font="ui://2r331opvno3vhz9d62" fontSize="20" color="#ffffff" strokeColor="#000000" text="下一波进攻即将到来"/>
+    <text id="n124_n602" name="n124" xy="598,112" size="137,34" group="n100_n602" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#d93a3a" strokeColor="#902222" text="01：01：01"/>
+    <group id="n100_n602" name="healthbar" xy="358,21" size="617,125" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <image id="n135_pr4c" name="out" src="ebe44" fileName="images/kingcity_bg003.png" xy="576,520" pivot="0.5,0.5" group="n126_n602"/>
+    <image id="n134_pr4c" name="middl" src="ebe43" fileName="images/kingcity_bg002.png" xy="597,541" pivot="0.5,0.5" group="n126_n602"/>
+    <image id="n136_pr4c" name="up" src="ebe42" fileName="images/kingcity_bg001.png" xy="621,565" pivot="0.5,0.5" group="n126_n602"/>
+    <image id="n130_n602" name="num1" src="ebe46" fileName="images/kingcity_icon001.png" xy="644,574" pivot="0.5,0.5" group="n126_n602"/>
+    <image id="n131_n602" name="num2" src="ebe47" fileName="images/kingcity_icon002.png" xy="644,574" pivot="0.5,0.5" group="n126_n602"/>
+    <image id="n132_n602" name="num3" src="ebe48" fileName="images/kingcity_icon003.png" xy="644,574" pivot="0.5,0.5" group="n126_n602"/>
+    <group id="n126_n602" name="time" xy="576,520" size="182,182" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n3_w84w" name="returnBtn" src="n6021qp8vcy" fileName="components/components_new/com_btn_return.xml" pkg="2r331opv" xy="33,26" size="50,46"/>
+  </displayList>
+  <transition name="countdown" autoPlay="true" autoPlayRepeat="0">
+    <item time="0" type="Alpha" target="n130_n602" value="0"/>
+    <item time="0" type="Alpha" target="n131_n602" value="0"/>
+    <item time="0" type="Alpha" target="n132_n602" value="1"/>
+    <item time="0" type="Alpha" target="n134_pr4c" tween="true" startValue="0.3" endValue="1" duration="17" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n135_pr4c" tween="true" startValue="0.3" endValue="1" duration="17"/>
+    <item time="0" type="Alpha" target="n136_pr4c" tween="true" startValue="0.3" endValue="1" duration="17"/>
+    <item time="0" type="Scale" target="n132_n602" tween="true" startValue="3,3" endValue="1,1" duration="17"/>
+    <item time="0" type="Scale" target="n134_pr4c" tween="true" startValue="2,2" endValue="1,1" duration="12"/>
+    <item time="0" type="Scale" target="n135_pr4c" tween="true" startValue="3,3" endValue="1,1" duration="12"/>
+    <item time="0" type="Scale" target="n136_pr4c" tween="true" startValue="1.5,1.5" endValue="1.5,1.5" duration="0"/>
+    <item time="0" type="Scale" target="n136_pr4c" tween="true" startValue="1.5,1.5" endValue="1,1" duration="12"/>
+    <item time="17" type="Alpha" target="n134_pr4c" tween="true" startValue="1" endValue="0" duration="1"/>
+    <item time="17" type="Alpha" target="n135_pr4c" tween="true" startValue="1" endValue="0" duration="1"/>
+    <item time="18" type="Alpha" target="n131_n602" value="1"/>
+    <item time="18" type="Alpha" target="n132_n602" value="0"/>
+    <item time="18" type="Alpha" target="n134_pr4c" tween="true" startValue="0" endValue="1" duration="17"/>
+    <item time="18" type="Alpha" target="n135_pr4c" tween="true" startValue="0" endValue="1" duration="15"/>
+    <item time="18" type="Alpha" target="n136_pr4c" tween="true" startValue="0" endValue="1" duration="17"/>
+    <item time="18" type="Scale" target="n131_n602" tween="true" startValue="3,3" endValue="1,1" duration="17"/>
+    <item time="18" type="Scale" target="n134_pr4c" tween="true" startValue="2,2" endValue="1,1" duration="12"/>
+    <item time="18" type="Scale" target="n135_pr4c" tween="true" startValue="3,3" endValue="1,1" duration="12"/>
+    <item time="18" type="Scale" target="n136_pr4c" tween="true" startValue="1.5,1.5" endValue="1.5,1.5" duration="0"/>
+    <item time="18" type="Scale" target="n136_pr4c" tween="true" startValue="1.5,1.5" endValue="1,1" duration="12"/>
+    <item time="36" type="Alpha" target="n130_n602" value="1"/>
+    <item time="36" type="Alpha" target="n131_n602" value="0"/>
+    <item time="36" type="Alpha" target="n134_pr4c" tween="true" startValue="0" endValue="1" duration="16"/>
+    <item time="36" type="Alpha" target="n135_pr4c" tween="true" startValue="0" endValue="1" duration="16"/>
+    <item time="36" type="Alpha" target="n136_pr4c" tween="true" startValue="0" endValue="1" duration="16"/>
+    <item time="36" type="Scale" target="n130_n602" tween="true" startValue="3,3" endValue="1,1" duration="16"/>
+    <item time="36" type="Scale" target="n134_pr4c" tween="true" startValue="2,2" endValue="1,1" duration="10"/>
+    <item time="36" type="Scale" target="n135_pr4c" tween="true" startValue="3,3" endValue="1,1" duration="10"/>
+    <item time="36" type="Scale" target="n136_pr4c" value="1.5,1.5"/>
+    <item time="36" type="Scale" target="n136_pr4c" tween="true" startValue="1.5,1.5" endValue="1,1" duration="10"/>
+    <item time="53" type="Alpha" target="n130_n602" value="0"/>
+    <item time="53" type="Alpha" target="n134_pr4c" value="0"/>
+    <item time="53" type="Alpha" target="n135_pr4c" value="0"/>
+    <item time="53" type="Alpha" target="n136_pr4c" value="0"/>
+  </transition>
+</component>

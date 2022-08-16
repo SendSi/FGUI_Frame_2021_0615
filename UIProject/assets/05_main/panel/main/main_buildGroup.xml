@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="426,433" pivot="0.5,0.5" anchor="true" opaque="false" designImageOffsetX="-389" designImageOffsetY="-113">
+  <controller name="blood" pages="0,green,1,red" selected="0"/>
+  <controller name="btn" pages="0,,1,,2,,3," selected="0"/>
+  <controller name="type" pages="0,show,1,hide" selected="0"/>
+  <controller name="function" pages="0,,1," selected="0">
+    <remark page="0" value="常用建筑"/>
+    <remark page="1" value="地图斥候"/>
+  </controller>
+  <controller name="camp" pages="1,,2,,3," selected="0">
+    <remark page="0" value="自己"/>
+    <remark page="1" value="同盟"/>
+    <remark page="2" value="非同盟"/>
+  </controller>
+  <displayList>
+    <image id="n126_fz63" name="n126" src="u6yzhz9cq5" fileName="images/map/main_bg_04.png" xy="108,298" pivot="0.5,0.5" size="209,148" group="n131_fz63" alpha="0.8">
+      <gearSize controller="btn" pages="0,1,2,3" values="209,148,1,1|329,148,1,1|431,148,1,1|501,148,1,1"/>
+    </image>
+    <component id="n127_fz63" name="btn0" src="u6yzhz9cq9" fileName="components/components_new/map/chequer_btn.xml" xy="160,312" group="n131_fz63" scale="0.8,0.8">
+      <gearXY controller="btn" pages="0,1,2,3" values="160,312|115,307|74,302|41,301"/>
+    </component>
+    <component id="n129_fz63" name="btn1" src="u6yzhz9cq9" fileName="components/components_new/map/chequer_btn.xml" xy="71,286" group="n131_fz63" scale="0.8,0.8">
+      <gearDisplay controller="btn" pages="1,2,3"/>
+      <gearXY controller="btn" pages="1,2,3" values="205,307|160,317|121,318" default="71,286"/>
+    </component>
+    <component id="n130_fz63" name="btn2" src="u6yzhz9cq9" fileName="components/components_new/map/chequer_btn.xml" xy="271,288" group="n131_fz63" scale="0.8,0.8">
+      <gearDisplay controller="btn" pages="2,3"/>
+      <gearXY controller="btn" pages="2,3" values="246,302|203,318" default="271,288"/>
+    </component>
+    <component id="n128_fz63" name="btn3" src="u6yzhz9cq9" fileName="components/components_new/map/chequer_btn.xml" xy="346,240" group="n131_fz63" scale="0.8,0.8">
+      <gearDisplay controller="btn" pages="3"/>
+      <gearXY controller="btn" pages="3" values="283,301" default="346,240"/>
+    </component>
+    <group id="n131_fz63" name="Btn" xy="-38,298" size="501,148"/>
+    <component id="n141_dfgw" name="buildname" src="rsdr1ygcg8o" fileName="panel/main/buildname1.xml" xy="17,0" pivot="0.5,0.5"/>
+    <image id="n134_i52u" name="n134" src="r9f638" fileName="images/images_new/bg_chat_09.png" pkg="2r331opv" xy="75,44" size="284,69" group="n137_i52u" alpha="0.8" color="#3f7fb4"/>
+    <image id="n138_i52u" name="n138" src="a4b91qp8veo" fileName="images/images_new/com_change010.png" pkg="2r331opv" xy="144,258" size="138,26" group="n137_i52u" alpha="0.7" color="#000000"/>
+    <component id="n133_i52u" name="icon_toScout" src="mdy2hz9d1i" fileName="components/components_new/explore/toscout_rbtn.xml" xy="88,19" size="120,120" group="n137_i52u" scale="0.7,0.7"/>
+    <text id="n135_i52u" name="nameLbl" xy="181,56" size="84,29" group="n137_i52u" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#a1ff5e" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="2,3" singleLine="true" autoClearText="true" text="他的名字">
+      <gearColor controller="camp" pages="1,2,3" values="#a1ff5e,#322b63|#39ceff,#322b63|#ffffff,#322b63"/>
+    </text>
+    <text id="n136_i52u" name="toScoutLbl" xy="181,76" size="122,26" group="n137_i52u" font="ui://2r331opvno3vhz9d62" fontSize="18" color="#a1ff5e" autoSize="none" strokeColor="#322b63" shadowColor="#322b63" shadowOffset="1,2" singleLine="true" autoClearText="true" text="Scout A">
+      <gearColor controller="camp" pages="1,2,3" values="#a1ff5e,#322b63|#39ceff,#322b63|#ffffff,#322b63"/>
+    </text>
+    <text id="n139_i52u" name="timeLbl" xy="184,258" size="85,26" group="n137_i52u" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" singleLine="true" autoClearText="true" text="00:00:22"/>
+    <image id="n140_i52u" name="n140" src="thpvkq" fileName="images/images_new/com_clock.png" pkg="2r331opv" xy="158,259" pivot="0.5,0.5" size="24,24" group="n137_i52u" aspect="true"/>
+    <group id="n137_i52u" name="toScout" xy="75,19" size="284,265" advanced="true">
+      <gearDisplay controller="function" pages="1"/>
+    </group>
+  </displayList>
+  <transition name="approach" autoPlay="true">
+    <item time="0" type="Scale" target="n141_dfgw" tween="true" startValue="0.6,0.6" endValue="1.2,1.2" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n126_fz63" tween="true" startValue="0" endValue="0.2" duration="4" ease="Linear"/>
+    <item time="3" type="Scale" target="n141_dfgw" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3" ease="Linear"/>
+    <item time="7" type="Alpha" target="n126_fz63" tween="true" startValue="0.2" endValue="0.8" duration="4" ease="Linear"/>
+  </transition>
+</component>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label">
+  <controller name="state" pages="0,无治疗部队,1,选择治疗部队,2,治疗中" selected="1"/>
+  <displayList>
+    <component id="n1_cs9c" name="com_mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n81_wnez" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="623,7">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n2_cs9c" name="com_window" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n24_cs9c" aspect="true"/>
+    <text id="n3_cs9c" name="title" xy="361,70" pivot="0.5,0.5" size="610,46" group="n24_cs9c" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" singleLine="true" autoClearText="true" text="救治伤员">
+      <gearText controller="state" default="救治伤员"/>
+    </text>
+    <loader id="n28_h55m" name="icon" xy="196,144" size="377,518" group="n24_cs9c" url="ui://fq4ln9nvcs9c4" align="center" vAlign="middle" fill="scale" autoSize="true"/>
+    <image id="n74_h2p4" name="n74" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="598,153" size="529,311" group="n24_cs9c" alpha="0.2">
+      <gearDisplay controller="state" pages="0,1,2"/>
+      <gearSize controller="state" pages="0" values="529,501,1,1" default="529,311,1,1"/>
+    </image>
+    <image id="n83_s3wz" name="n83" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="750,301" group="n24_cs9c" alpha="0.15" color="#97794f">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <text id="n5_cs9c" name="txtState" xy="639,365" size="447,96" group="n24_cs9c" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#b16d33" align="center" vAlign="middle" autoSize="none" text="执政官&#xA;目前医院里没有受伤的士兵">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+    <image id="n36_h55m" name="n36" src="cs9c3" fileName="images/hospital_icon_wounded troops.png" xy="586,174" size="24,24" group="n58_h55m" aspect="true" color="#ff4343"/>
+    <text id="n38_h55m" name="capacityLbl" xy="618,169" size="100,34" group="n58_h55m" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" text="重伤单位"/>
+    <text id="n41_h55m" name="capacityCount" xy="969,169" size="123,34" group="n58_h55m" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="right" vAlign="middle" autoClearText="true" text="2 / 123456"/>
+    <group id="n58_h55m" name="n58" xy="586,169" size="506,34" group="n24_cs9c" advanced="true">
+      <gearDisplay controller="state" pages="1,2"/>
+    </group>
+    <component id="n60_8x4f" name="headIcon" src="b6o0cho" fileName="components/components_new/btn_head.xml" pkg="2r331opv" xy="583,215" size="96,96" group="n24_cs9c" aspect="true">
+      <gearDisplay controller="state" pages="1,2"/>
+    </component>
+    <component id="n59_8x4f" name="slider" src="lavj1qp8vcj" fileName="components/settingSlider.xml" xy="682,262" size="308,38" group="n37_h55m">
+      <Slider value="65" max="100"/>
+    </component>
+    <text id="n61_8x4f" name="wounded" xy="683,228" size="64,29" group="n37_h55m" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#d93a3a" text="重伤兵"/>
+    <image id="n82_wpdk" name="n82" src="8rmp1ygcfmx" fileName="images/images_new/com_bg_strip001.png" pkg="2r331opv" xy="574,478" size="533,62" group="n37_h55m" alpha="0.5"/>
+    <list id="n52_h55m" name="consumeList" xy="592,488" pivot="0.5,0.5" size="498,44" group="n37_h55m" layout="row" colGap="70" defaultItem="ui://2r331opvjs41hz9cw1" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n46_h55m" name="immeEstimateImmeBtn" src="nnlhhz9d15" fileName="components/components_new/com_btn_buy2.xml" pkg="2r331opv" xy="586,566" size="230,78" group="n37_h55m">
+      <Button title="立即完成" titleFontSize="28"/>
+    </component>
+    <component id="n79_pl8o" name="treatmentBtn" src="l6381qp8veh" fileName="components/components_new/com_btn_buy6.xml" pkg="2r331opv" xy="858,565" size="230,78" group="n37_h55m">
+      <Button title="治疗" titleFontSize="28"/>
+    </component>
+    <group id="n37_h55m" name="state1" xy="574,228" size="533,416" group="n24_cs9c" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <component id="n71_h2p4" name="pbr" src="h2p4k" fileName="components/treatmentPbr.xml" xy="683,265" size="308,38" group="n55_h55m">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n69_8x4f" name="sumNum" xy="1000,267" size="75,34" group="n55_h55m" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" autoClearText="true" text="10000"/>
+    <text id="n68_8x4f" name="doneNum" xy="684,231" size="99,29" group="n55_h55m" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#3991d3" autoClearText="true" text="预备兵: 99"/>
+    <component id="n53_h55m" name="cdEstimateImmeBtn" src="nnlhhz9d15" fileName="components/components_new/com_btn_buy2.xml" pkg="2r331opv" xy="587,566" size="230,78" group="n55_h55m">
+      <Button title="立即完成" titleFontSize="28"/>
+    </component>
+    <component id="n78_pl8o" name="accelerateBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="859,565" size="230,78" group="n55_h55m">
+      <Button title="加速" titleFontSize="28"/>
+    </component>
+    <group id="n55_h55m" name="state2" xy="587,231" size="502,413" group="n24_cs9c" advanced="true">
+      <gearDisplay controller="state" pages="2"/>
+    </group>
+    <component id="n22_cs9c" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n24_cs9c"/>
+    <group id="n24_cs9c" name="tab" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n80_wnez" name="playerIcon" src="xoe1n2" fileName="components/components_new/main/main_playerIcon.xml" pkg="4ni413la" xy="0,0">
+      <relation target="" sidePair="top-top"/>
+    </component>
+  </displayList>
+</component>

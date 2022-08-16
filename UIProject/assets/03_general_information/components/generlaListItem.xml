@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="311,621" designImageOffsetX="-1" designImageOffsetY="-174">
+  <controller name="state" pages="0,,1," selected="1">
+    <remark page="0" value="已获得"/>
+    <remark page="1" value="未获得"/>
+  </controller>
+  <displayList>
+    <list id="n1_oxy0" name="list" xy="0,48" size="388,715" scale="0.8,0.8" layout="flow_hz" overflow="scroll" lineGap="-20" colGap="-15" defaultItem="ui://2r331opvoxy0hz9czd">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_oxy0" name="n5" src="ld09hz9d0b" fileName="components/notGetItem.xml" xy="-2,11"/>
+  </displayList>
+</component>

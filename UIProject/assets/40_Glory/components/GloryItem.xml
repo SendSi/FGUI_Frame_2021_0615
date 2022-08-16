@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="210,525" extention="Button">
+  <controller name="typeCtrl" pages="0,,1,,2,,4," selected="3">
+    <remark page="0" value="小道具"/>
+    <remark page="1" value="大道具"/>
+    <remark page="2" value="英雄"/>
+    <remark page="3" value="特殊"/>
+  </controller>
+  <controller name="sliderCtrl" pages="0,,1,,4," selected="0">
+    <remark page="0" value="正常中间的"/>
+    <remark page="1" value="尾个"/>
+    <remark page="2" value="首个"/>
+  </controller>
+  <controller name="state" pages="0,,1,,2," selected="0">
+    <remark page="0" value="normal"/>
+    <remark page="1" value="点亮"/>
+    <remark page="2" value="当前"/>
+  </controller>
+  <displayList>
+    <component id="n8_bv45" name="item" src="oxoc1iy5bg9" fileName="components/glory_Btn2.xml" xy="12,242" pivot="0.5,1" group="n24_h30t" scale="0.8,0.8">
+      <gearDisplay controller="typeCtrl" pages="0,1"/>
+      <gearXY controller="typeCtrl" pages="0,1" values="9,220|9,220" default="12,242"/>
+      <gearSize controller="typeCtrl" pages="1" values="184,182,1,1" default="184,182,0.8,0.8"/>
+      <gearDisplay2 controller="sliderCtrl" pages="0,1" condition="0"/>
+    </component>
+    <component id="n7_bv45" name="general" src="bv456" fileName="components/glory_Btn3.xml" xy="0,0" group="n24_h30t">
+      <gearDisplay controller="typeCtrl" pages="2,4"/>
+    </component>
+    <text id="n6_bv45" name="title" xy="69,442" pivot="0.5,0.5" size="62,34" group="n24_h30t" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#061324" shadowOffset="2,2" text="1000"/>
+    <component id="n12_ba2s" name="sldier_normal" src="ba2s1iy5bgn" fileName="components/Slider1.xml" xy="0,414" size="210,20" group="n24_h30t" touchable="false">
+      <gearDisplay controller="sliderCtrl" pages="0"/>
+      <relation target="" sidePair="left-left,right-right"/>
+      <Slider max="20"/>
+    </component>
+    <component id="n17_fb38" name="sldier_right" src="ba2s1iy5bgn" fileName="components/Slider1.xml" xy="0,414" size="100,20" group="n24_h30t" touchable="false">
+      <gearDisplay controller="sliderCtrl" pages="1"/>
+      <relation target="" sidePair="left-left,right-right"/>
+      <Slider value="8" max="20"/>
+    </component>
+    <image id="n20_s36s" name="n20" src="s36s1iy5bhg" fileName="images/glory_bg023.png" xy="79,402" group="n24_h30t">
+      <gearDisplay2 controller="state" pages="1" condition="0"/>
+    </image>
+    <image id="n22_s36s" name="n22" src="s36s1iy5bhj" fileName="images/glory_bg025.png" xy="79,402" group="n24_h30t">
+      <gearDisplay2 controller="state" pages="1" condition="0"/>
+    </image>
+    <image id="n23_s36s" name="n23" src="s36s1iy5bhe" fileName="images/glory_bg022.png" xy="79,402" group="n24_h30t">
+      <gearDisplay controller="state" pages="0,2"/>
+    </image>
+    <image id="n18_s36s" name="n18" src="bv455" fileName="images/glory_bg02.png" xy="66,388" group="n24_h30t">
+      <gearDisplay controller="state" pages="2"/>
+    </image>
+    <image id="n19_s36s" name="light" src="s36s1iy5bhh" fileName="images/glory_bg021.png" xy="83,406" size="36,36" group="n24_h30t" aspect="true" color="#fdbf40">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <group id="n24_h30t" name="slider01" xy="0,0" size="210,476" advanced="true">
+      <gearDisplay controller="sliderCtrl" pages="0,1"/>
+    </group>
+    <component id="n25_h30t" name="first" src="jnjs1iy5bhr" fileName="components/Slider3.xml" xy="110,414">
+      <gearDisplay controller="sliderCtrl" pages="4"/>
+      <Slider value="1" max="1"/>
+    </component>
+  </displayList>
+  <Button/>
+</component>

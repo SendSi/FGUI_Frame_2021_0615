@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="892,88" designImageOffsetX="-125" designImageOffsetY="-229" designImageLayer="1">
+  <controller name="state" pages="3,,0," selected="0">
+    <remark page="0" value="未回复过"/>
+    <remark page="1" value="已回复"/>
+  </controller>
+  <displayList>
+    <image id="n23_j3xs" name="n23" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="892,88" alpha="0.6"/>
+    <text id="n24_j3xs" name="name" xy="99,26" size="200,35" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="这里名字巴拉"/>
+    <text id="n25_j3xs" name="lv" xy="405,27" pivot="0.5,0.5" size="32,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" autoClearText="true" text="39"/>
+    <text id="n26_j3xs" name="power" xy="540,27" pivot="0.5,0.5" size="89,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" autoClearText="true" text="474850"/>
+    <component id="n27_j3xs" name="playerIcon" src="ho0c1ygcgnt" fileName="components/components_new/btn_head6.xml" pkg="2r331opv" xy="11,0" aspect="true" scale="0.4,0.4"/>
+    <component id="n29_j3xs" name="noBtn" src="p11n1qp8vho" fileName="components/components_new/main/main_btn_wrong.xml" pkg="4ni413la" xy="714,9" size="70,70">
+      <gearDisplay controller="state" pages="3"/>
+      <Button title="同意" titleFontSize="22" icon="ui://2r331opvvb7khz9czq"/>
+    </component>
+    <component id="n30_j3xs" name="yesBtn" src="p11n1qp8vhn" fileName="components/components_new/main/main_btn_right.xml" pkg="4ni413la" xy="799,9" size="70,70">
+      <gearDisplay controller="state" pages="3"/>
+      <Button title="拒绝" titleFontSize="22" icon="ui://2r331opvvb7khz9czu"/>
+    </component>
+    <text id="n31_jhtp" name="result" xy="748,26" pivot="0.5,0.5" size="76,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#d93a3a" align="center" vAlign="middle" autoClearText="true" text="已拒绝">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+  </displayList>
+</component>

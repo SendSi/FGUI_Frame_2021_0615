@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://45o8gpfbaklwp" designImageOffsetX="-165">
+  <controller name="state" pages="0,normal,2,fulllevel,3,unlock,4,前往下一级" selected="0"/>
+  <controller name="window" pages="0,,1,Tip" selected="0"/>
+  <displayList>
+    <component id="n2_aklw" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,-3" size="1665,756">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_aklw" name="win" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,56" group="n101_jo5i"/>
+    <image id="n79_l638" name="n79" src="fk1q1qp8vdi" fileName="images/images_new/windowBg_new/com_bg_popup01.png" pkg="2r331opv" xy="580,145" group="n101_jo5i">
+      <gearDisplay controller="window" pages="0"/>
+    </image>
+    <text id="n78_ey1w" name="title" xy="393,84" pivot="0.5,0.5" size="542,54" group="n120_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" singleLine="true" text="暴击"/>
+    <component id="n56_rv2y" name="dontMove" src="d4gi9cij" fileName="components/components_new/Component_blank.xml" pkg="2r331opv" xy="150,100" size="1007,609" group="n120_l0ga"/>
+    <image id="n80_l638" name="n80" src="lfqnhz9d6w" fileName="images/images_new/com_bg_popup02.png" pkg="2r331opv" xy="222,188" size="378,468" group="n120_l0ga"/>
+    <image id="n11_aklw" name="n11" src="bumchz9d7t" fileName="images/images_new/windowBg_new/negative_bg07.png" pkg="2r331opv" xy="714,179" size="356,64" group="n120_l0ga" visible="false"/>
+    <image id="n4_aklw" name="n4" src="gww71qp8veb" fileName="images/images_new/decorativePattern.png" pkg="2r331opv" xy="222,209" pivot="0.5,0.5" size="376,376" group="n120_l0ga" aspect="true" alpha="0.5" color="#ff4d00"/>
+    <component id="n5_aklw" name="icon" src="aklwg" fileName="components/researchIcon.xml" xy="331,304" size="157,167" group="n120_l0ga" aspect="true"/>
+    <text id="n7_aklw" name="txtDesc" xy="297,497" pivot="0.5,0.5" size="220,34" group="n120_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" autoClearText="true" text="提升农场的食物产量"/>
+    <image id="n16_aklw" name="n16" src="aibb2e" fileName="images/images_new/common_arrow_4.png" pkg="2r331opv" xy="887,194" size="34,46" group="n120_l0ga" aspect="true" rotation="90">
+      <gearDisplay controller="state" pages="0,3,4"/>
+    </image>
+    <text id="n18_aklw" name="afterLevel" xy="957,187" pivot="0.5,0.5" size="64,46" group="n120_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#70a33d" align="center" autoClearText="true" text="300">
+      <gearDisplay controller="state" pages="0,3,4"/>
+    </text>
+    <text id="n13_aklw" name="n13" xy="707,194" size="60,34" group="n120_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="right" vAlign="middle" singleLine="true" text="等级:"/>
+    <text id="n17_aklw" name="beforLevel" xy="765,187" pivot="0.5,0.5" size="64,46" group="n120_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#70a33d" align="center" singleLine="true" autoClearText="true" text="200"/>
+    <text id="n51_i8bs" name="attributeBonus" xy="707,246" size="208,29" group="n120_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="阵营属性加成"/>
+    <text id="n52_i8bs" name="bonusNumber" xy="972,246" size="134,29" group="n120_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="right" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="100% [color=#70A33D]+100%[/color]"/>
+    <text id="n81_l638" name="quantityLbl" xy="383,465" pivot="0.5,0.5" size="42,34" group="n120_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" text="0/5"/>
+    <component id="n57_ojpg" name="infoBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="536,179" size="74,74" group="n120_l0ga">
+      <Button controller="window" page="1"/>
+    </component>
+    <component id="n55_rv2y" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,60" group="n120_l0ga"/>
+    <text id="n82_l638" name="n82" xy="899,194" size="60,34" group="n120_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="right" vAlign="middle" singleLine="true" text="等级:">
+      <gearDisplay controller="state" pages="0,3,4"/>
+    </text>
+    <image id="n21_aklw" name="n21" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="708,297" size="418,36" group="n123_mqu8"/>
+    <image id="n90_jo5i" name="n90" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="708,396" size="418,36" group="n123_mqu8"/>
+    <text id="n91_jo5i" name="n91" xy="716,398" size="100,34" group="n123_mqu8" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" singleLine="true" text="额外获得"/>
+    <text id="n22_aklw" name="n22" xy="716,299" size="100,34" group="n123_mqu8" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" singleLine="true" text="升级进度"/>
+    <component id="n83_jo5i" name="upgrade" src="jo5i1ygcfga" fileName="components/components_new/General_bar01.xml" pkg="2r331opv" xy="719,342" size="396,38" group="n96_jo5i">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <list id="n102_l0ga" name="listTip" xy="725,350" size="384,24" group="n96_jo5i" layout="row" colGap="47" defaultItem="ui://2r331opvjo5i1ygcffh" align="center" vAlign="middle">
+      <item/>
+    </list>
+    <group id="n96_jo5i" name="bar" xy="719,342" size="396,38" group="n123_mqu8"/>
+    <text id="n94_jo5i" name="attributeLbl01" xy="714,439" size="208,29" group="n123_mqu8" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="阵营属性加成"/>
+    <text id="n95_jo5i" name="attributeLbl02" xy="981,439" size="134,29" group="n123_mqu8" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#70a33d" align="right" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="+3%"/>
+    <group id="n123_mqu8" name="state03" xy="708,297" size="418,171" group="n105_l0ga" advanced="true">
+      <gearDisplay controller="state" pages="0,4"/>
+    </group>
+    <image id="n92_jo5i" name="n92" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="708,478" size="418,36" group="n122_mqu8"/>
+    <text id="n93_jo5i" name="n93" xy="716,480" size="100,34" group="n122_mqu8" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" singleLine="true" text="消耗道具"/>
+    <list id="n127_mtaa" name="list_prop" xy="710,516" size="401,69" group="n122_mqu8" layout="flow_hz" colGap="4" defaultItem="ui://2r331opvjs41hz9cw1" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n98_jo5i" name="upgradeBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="837,608" group="n122_mqu8">
+      <Button title="升级"/>
+    </component>
+    <group id="n122_mqu8" name="state0" xy="708,478" size="418,192" group="n105_l0ga" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <component id="n124_mqu8" name="goonBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="837,585" group="n126_mqu8">
+      <Button title="继续研究"/>
+    </component>
+    <text id="n125_mqu8" name="n125" xy="865,647" pivot="0.5,0.5" size="104,29" group="n126_mqu8" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="前往下一级"/>
+    <group id="n126_mqu8" name="state3" xy="837,585" size="161,91" group="n105_l0ga" advanced="true">
+      <gearDisplay controller="state" pages="4"/>
+    </group>
+    <group id="n105_l0ga" name="normal" xy="708,297" size="418,379" group="n120_l0ga" advanced="true"/>
+    <image id="n129_kadl" name="n129" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="818,347" group="n107_l0ga" alpha="0.1" color="#97794f"/>
+    <text id="n106_l0ga" name="fullLevelTips" xy="739,436" pivot="0.5,0.5" size="367,34" group="n107_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" autoSize="none" text="当前已经达到最高等级">
+      <gearDisplay controller="state" pages="2"/>
+    </text>
+    <group id="n107_l0ga" name="fulllevel" xy="739,347" size="367,222" group="n120_l0ga" advanced="true">
+      <gearDisplay controller="state" pages="2"/>
+    </group>
+    <text id="n111_l0ga" name="n111" xy="882,297" size="52,34" group="n109_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="需求"/>
+    <list id="n128_mtaa" name="list_prop1" xy="714,343" size="394,79" group="n109_l0ga" layout="flow_hz" colGap="4" defaultItem="ui://2r331opvjs41hz9cw1" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n108_l0ga" name="list_building" xy="665,466" size="492,198" group="n109_l0ga" layout="row" overflow="scroll" scroll="horizontal" colGap="-2" defaultItem="ui://4ni413lasdtvcb" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n109_l0ga" name="unlock" xy="665,297" size="492,367" group="n120_l0ga" advanced="true">
+      <gearDisplay controller="state" pages="3"/>
+    </group>
+    <group id="n120_l0ga" name="window0" xy="150,60" size="1046,649" group="n101_jo5i" advanced="true">
+      <gearDisplay controller="window" pages="0"/>
+    </group>
+    <group id="n101_jo5i" name="n101" xy="77,56" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <text id="n121_l0ga" name="title2" xy="395,84" pivot="0.5,0.5" size="542,54" group="n118_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" singleLine="true" text="升级详情"/>
+    <component id="n112_l0ga" name="dontMove2" src="d4gi9cij" fileName="components/components_new/Component_blank.xml" pkg="2r331opv" xy="327,171" size="701,473" group="n118_l0ga"/>
+    <image id="n113_l0ga" name="bg02" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="229,181" size="877,41" group="n118_l0ga" alpha="0.69"/>
+    <text id="n114_l0ga" name="lable_01" xy="227,185" size="177,34" group="n118_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" autoSize="none" text="等级"/>
+    <text id="n115_l0ga" name="lable_02" xy="532,185" size="258,34" group="n118_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" autoSize="none" text="可被帮助次数"/>
+    <text id="n116_l0ga" name="lable_03" xy="926,185" size="177,34" group="n118_l0ga" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" autoSize="none" text="国力"/>
+    <list id="n117_l0ga" name="list" xy="229,229" size="877,411" group="n118_l0ga" overflow="scroll" lineGap="3" defaultItem="ui://45o8gpfbbc5pj6" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n119_l0ga" name="closeBtn" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,60" group="n118_l0ga">
+      <Button controller="window" page="0"/>
+    </component>
+    <group id="n118_l0ga" name="window2" xy="227,60" size="969,584" advanced="true">
+      <gearDisplay controller="window" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n130_x3en" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="616,11" size="700,40">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

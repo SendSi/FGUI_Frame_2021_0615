@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://lp3m5cuhetnshz9d36">
+  <controller name="state" pages="0,,1," selected="1"/>
+  <controller name="tab" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_hlig" name="com_mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_hlig" name="com_window" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n13_teiy"/>
+    <text id="n21_g9ny" name="title" xy="597,70" pivot="0.5,0.5" size="140,46" group="n13_teiy" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="联盟日志"/>
+    <component id="n20_g9ny" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n13_teiy"/>
+    <image id="n71_9bv6" name="bg" src="gjb01qp8vfn" fileName="images/images_new/com_btn_bg015.png" pkg="2r331opv" xy="363,159" size="604,63" group="n13_teiy"/>
+    <component id="n67_spur" name="btnEvent" src="vqdvhz9d2f" fileName="components/btn05.xml" xy="369,165" group="n13_teiy">
+      <Button checked="true" title="事件" titleFontSize="26" controller="tab" page="0"/>
+    </component>
+    <component id="n68_spur" name="btnMember" src="vqdvhz9d2f" fileName="components/btn05.xml" xy="660,165" group="n13_teiy">
+      <Button title="成员" titleFontSize="26" controller="tab" page="1"/>
+    </component>
+    <list id="n49_i5fm" name="logList" xy="217,233" size="900,412" group="n13_teiy" overflow="scroll" defaultItem="ui://lp3m5cuhspurhz9cxd">
+      <gearDisplay controller="state" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n72_kadl" name="n72" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="557,299" group="n13_teiy" alpha="0.1" color="#97794f">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <text id="n70_etns" name="tips" xy="608,381" size="124,42" group="n13_teiy" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" text="暂无数据">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <group id="n13_teiy" name="n13" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

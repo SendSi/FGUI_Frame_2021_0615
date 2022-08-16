@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="161,175" extention="Button" designImage="ui://4ni413laz3y8hz9czq" designImageOffsetX="-598" designImageOffsetY="-559" designImageAlpha="0">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state2" pages="0,,1,,7," selected="0">
+    <remark page="1" value="灰"/>
+  </controller>
+  <displayList>
+    <image id="n5_yhld" name="n5" src="f9h91ygcfgh" fileName="images/images_new/windowBg_new/negative_bg18.png" pkg="2r331opv" xy="13,14" pivot="0.5,0.5" size="137,139" aspect="true">
+      <gearLook controller="state2" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+    </image>
+    <image id="n8_yhld" name="n8" src="yhldz9coo" fileName="images/images_new/com_select_01.png" pkg="2r331opv" xy="0,0" pivot="0.5,0.5" size="162,162" aspect="true">
+      <gearDisplay controller="button" pages="1,3"/>
+      <gearDisplay2 controller="state2" pages="0" condition="0"/>
+    </image>
+    <loader id="n9_vpos" name="typeIcon" xy="25,25" size="112,112" aspect="true" url="ui://2f980fe2z3y8hz9czm" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="state2" pages=""/>
+      <gearLook controller="state2" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+    </loader>
+    <text id="n3_yhld" name="title" xy="80,145" pivot="0.5,0.5" size="0,24" font="ui://2r331opvlwft2" fontSize="20" color="#ffffff" align="center" vAlign="middle" strokeColor="#256c89" singleLine="true" text="cereals">
+      <gearLook controller="state2" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n13_z3y8" name="n13" src="u6yzhz9cpx" fileName="images/images_new/com_icon_lock.png" pkg="2r331opv" xy="63,58" pivot="0.5,0.5" size="34,45" aspect="true">
+      <gearDisplay controller="state2" pages="1"/>
+    </image>
+    <image id="n10_z3y8" name="n10" src="r9f638" fileName="images/images_new/bg_chat_09.png" pkg="2r331opv" xy="10,62" pivot="0.5,0.5" size="140,43" group="n12_z3y8" alpha="0.85"/>
+    <text id="n11_z3y8" name="title2" xy="46,68" pivot="0.5,0.5" size="74,29" group="n12_z3y8" fontSize="20" color="#fff959" text="Cleared"/>
+    <group id="n12_z3y8" name="state2" xy="10,62" size="140,43" advanced="true">
+      <gearDisplay controller="state2" pages="7"/>
+    </group>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

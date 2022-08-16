@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://utp01xiac1q93b">
+  <controller name="state" pages="0,,7," selected="0">
+    <remark page="0" value="扫荡中"/>
+    <remark page="1" value="扫荡结果"/>
+  </controller>
+  <controller name="special" pages="0,显示,1," selected="0"/>
+  <displayList>
+    <component id="n2_m79t" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_m79t" name="bg" src="hdmy1iy5b95" fileName="components/components_new/Popup_bg2.xml" pkg="2r331opv" xy="267,150" group="n14_t0n1"/>
+    <text id="n11_t0n1" name="titleTxt" xy="570,162" pivot="0.5,0.5" size="193,46" group="n14_t0n1" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" singleLine="true" text="黎明觉醒1-3"/>
+    <component id="n8_m79t" name="skipBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="586,515" group="n14_t0n1">
+      <gearText controller="state" pages="7" values="确认" default="跳过完成"/>
+      <Button title="跳过完成"/>
+    </component>
+    <component id="n15_jg06" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="968,137" group="n14_t0n1" scale="0.8,0.8"/>
+    <list id="n23_q4hl" name="list" xy="349,287" size="630,216" group="n14_t0n1" overflow="scroll" lineGap="5" defaultItem="ui://2f980fe2q4hlhz9d03">
+      <item url="ui://2f980fe2q4hlhz9d02"/>
+      <item url="ui://2f980fe2q4hlhz9d02"/>
+      <item/>
+    </list>
+    <text id="n24_q4hl" name="stateLbl" xy="520,224" size="293,42" group="n14_t0n1" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#e77917" align="center" autoSize="none" text="正在扫荡中...">
+      <gearText controller="state" pages="7" values="扫荡结束" default="正在扫荡中..."/>
+    </text>
+    <component id="n29_mouz" name="icon" src="ee2ik0" fileName="components/general_new/equipmentIcon.xml" pkg="2r331opv" xy="903,192" group="n14_t0n1" scale="0.7,0.7">
+      <gearDisplay controller="special" pages="0"/>
+    </component>
+    <group id="n14_t0n1" name="win" xy="267,137" size="800,473" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

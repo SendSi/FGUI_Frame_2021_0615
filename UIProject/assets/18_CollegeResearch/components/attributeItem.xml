@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="681,38" extention="Button" designImage="ui://45o8gpfbx2kmj7" designImageOffsetX="-504" designImageOffsetY="-455">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_d9gi" name="bg01" src="b6o0chu" fileName="images/com_bg_change01.png" pkg="2r331opv" xy="0,0" size="679,38" alpha="0.8">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_d9gi" name="bg02" src="9495u" fileName="images/common_arrow_2.png" pkg="2r331opv" xy="396,5"/>
+    <text id="n1_d9gi" name="title_name" xy="13,0" size="253,36" fontSize="26" color="#acc7d5" align="right" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="储存"/>
+    <text id="n4_d9gi" name="numer_before" xy="264,0" pivot="0.5,0.5" size="139,36" fontSize="26" color="#e6e1d6" align="center" vAlign="middle" letterSpacing="1" autoSize="none" shadowColor="#000000" shadowOffset="1,1" singleLine="true" autoClearText="true" text="3430"/>
+    <text id="n5_d9gi" name="numer_after" xy="446,-1" size="130,36" fontSize="26" color="#90d272" vAlign="middle" letterSpacing="1" autoSize="none" shadowColor="#000000" shadowOffset="1,1" singleLine="true" autoClearText="true" text="2.60"/>
+  </displayList>
+  <Button sound="0"/>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="320,20" extention="ProgressBar" designImageOffsetX="-594" designImageOffsetY="-510" designImageLayer="1">
+  <displayList>
+    <image id="n0_g9ny" name="n0" src="ceggz9cot" fileName="images/images_new/com_strip_bg03.png" pkg="2r331opv" xy="-4,-4" size="328,28" alpha="0.6">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n1_g9ny" name="bar" xy="0,0" size="320,20" type="rect" lineColor="#00000000" fillColor="#ff40c1d6" corner="3">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n2_g9ny" name="wallTime" xy="187,-3" size="114,26" font="ui://2r331opvlwft2" fontSize="18" color="#ffffff" vAlign="middle" autoSize="none" text="00:11:56">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="value"/>
+</component>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="89,89" extention="Button" designImageOffsetX="-259" designImageOffsetY="-113">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="quality" pages="0,,1,,2,,3,,4,,5," selected="0">
+    <remark page="0" value="普通"/>
+    <remark page="1" value="绿"/>
+    <remark page="2" value="蓝"/>
+    <remark page="3" value="紫"/>
+    <remark page="4" value="金"/>
+    <remark page="5" value="红"/>
+  </controller>
+  <controller name="state" pages="3,weared,1,synthesis,2,canWear,4,none" selected="0">
+    <remark page="0" value="已穿戴"/>
+    <remark page="1" value="可合成"/>
+    <remark page="2" value="可穿戴"/>
+    <remark page="3" value="未拥有"/>
+  </controller>
+  <displayList>
+    <loader id="n1_wp0j" name="qualityIcon" xy="1,1" size="89,89" group="n14_h545" aspect="true" url="ui://2r331opvh3jujt" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="quality" pages="0,1,2,3,4,5" values="ui://2r331opvh3jujt|ui://2r331opv94956|ui://2r331opv94957|ui://2r331opv94958|ui://2r331opv94959|ui://2r331opv9495a"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n11_h545" name="EffectRoot_ZhuangBeiKuang" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="21,19" group="n14_h545" touchable="false">
+      <relation target="n1_wp0j" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n14_h545" name="n14" xy="1,1" size="89,89"/>
+    <component id="n2_wp0j" name="icon" src="it7n1iy5be5" fileName="components/stuffIcon.xml" xy="6,7"/>
+    <graph id="n3_wp0j" name="n3" xy="5,5" size="79,79" aspect="true" alpha="0.7" type="rect" lineSize="0" fillColor="#ff000000" corner="23">
+      <gearDisplay controller="state" pages="1,2,4"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </graph>
+    <image id="n10_mudv" name="n10" src="lfqnhz9d6u" fileName="images/images_new/common_btn_plus1.png" pkg="2r331opv" xy="49,50" size="34,34" aspect="true">
+      <gearDisplay controller="state" pages="2"/>
+    </image>
+    <image id="n5_wp0j" name="n5" src="94955" fileName="images/images_new/common_btn_plus.png" pkg="2r331opv" xy="22,23" size="49,49" group="n9_mudv" aspect="true">
+      <gearDisplay controller="state" pages="1,2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n4_wp0j" name="title" xy="46,94" pivot="0.5,0.5" size="0,0" group="n9_mudv" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#5aff56" align="center" vAlign="middle" letterSpacing="-2" ubb="true" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="">
+      <gearText controller="state" pages="3,1,2,4" values="|可合成|可穿戴|"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <group id="n9_mudv" name="n9" xy="22,23" size="49,71" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+  </displayList>
+  <Button/>
+</component>

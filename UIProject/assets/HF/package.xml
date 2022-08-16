@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="lqu8zv3h">
+  <resources>
+    <component id="n3sd1" name="HFWindows.xml" path="/Window/" exported="true"/>
+    <image id="wizi3" name="bg4.jpg" path="/Img/" exported="true" atlas="alone_npot"/>
+    <image id="wizi4" name="common_pbr_bg.png" path="/Img/" exported="true"/>
+    <image id="wizi5" name="common_pbr_loading_3.png" path="/Img/" exported="true" scale="9grid" scale9grid="20,1,40,2"/>
+    <component id="wizi6" name="ProgressBar1.xml" path="/Com/" exported="true"/>
+    <component id="wizi7" name="DialogTipView.xml" path="/Window/" exported="true"/>
+    <image id="wizi8" name="com_bg_popup.png" path="/Img/" exported="true" scale="9grid" scale9grid="11,71,205,9"/>
+    <component id="wizib" name="btn_right.xml" path="/Com/" exported="true"/>
+    <image id="wizid" name="com_btn_bg01.png" path="/Img/" exported="true" scale="9grid" scale9grid="27,0,12,65"/>
+    <image id="wizie" name="com_btn_bg03.png" path="/Img/" exported="true" scale="9grid" scale9grid="27,0,12,65"/>
+    <component id="wizif" name="btn_left.xml" path="/Com/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

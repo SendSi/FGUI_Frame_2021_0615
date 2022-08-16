@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageAlpha="26">
+  <controller name="state" pages="0,,1,,3," selected="0">
+    <remark page="0" value="声音"/>
+    <remark page="1" value="画面"/>
+    <remark page="2" value="个性化"/>
+  </controller>
+  <displayList>
+    <component id="n106_8su0" name="n106" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_g30w" name="bg" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="111,38" group="n107_8su0"/>
+    <text id="n64_xw9c" name="title" xy="415,70" pivot="0.5,0.5" size="584,46" group="n107_8su0" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="bottom" autoSize="none" strokeColor="#000000" strokeSize="2" shadowColor="#000000" shadowOffset="1,4" text="设置"/>
+    <component id="n7_g30w" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1152,42" group="n107_8su0"/>
+    <component id="n6_g30w" name="tab01" src="prcz1qp8vfc" fileName="components/components_new/com_btn_tab04.xml" pkg="2r331opv" xy="42,135" group="n107_8su0">
+      <Button checked="true" title="声音" controller="state" page="0"/>
+    </component>
+    <component id="n49_b6o0" name="tab02" src="prcz1qp8vfc" fileName="components/components_new/com_btn_tab04.xml" pkg="2r331opv" xy="42,240" group="n107_8su0">
+      <Button title="画面" controller="state" page="1"/>
+    </component>
+    <component id="n73_i3zn" name="tab03" src="prcz1qp8vfc" fileName="components/components_new/com_btn_tab04.xml" pkg="2r331opv" xy="42,345" group="n107_8su0">
+      <Button title="个性化" controller="state" page="3"/>
+    </component>
+    <image id="n105_8su0" name="n105" src="bumchz9d7r" fileName="images/images_new/windowBg_new/negative_bg05.png" pkg="2r331opv" xy="248,577" size="911,4" group="n107_8su0"/>
+    <image id="n103_8su0" name="n103" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="249,152" size="910,36" group="n107_8su0"/>
+    <text id="n3_g30w" name="title_advanced" xy="265,153" size="100,34" group="n107_8su0" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" vAlign="bottom" strokeColor="#ac8958" strokeSize="2" shadowColor="#ac8958" shadowOffset="3,3" text="声音设置">
+      <gearText controller="state" pages="1,3" values="画面设置|个性化设置" default="声音设置"/>
+    </text>
+    <text id="n11_g30w" name="music" xy="265,207" size="48,32" group="n68_xw9c" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" text="音乐"/>
+    <component id="n15_g30w" name="musicSwitch" src="jyqrg" fileName="components/settingSwitchBtn1.xml" xy="339,188" group="n68_xw9c"/>
+    <text id="n12_g30w" name="sound" xy="265,270" size="48,32" group="n68_xw9c" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" text="音效"/>
+    <component id="n16_g30w" name="voiceSwitch" src="jyqrg" fileName="components/settingSwitchBtn1.xml" xy="339,250" group="n68_xw9c"/>
+    <text id="n13_g30w" name="musicvol" xy="591,207" size="92,32" group="n68_xw9c" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" text="音乐音量"/>
+    <text id="n14_g30w" name="soundvol" xy="591,270" size="92,32" group="n68_xw9c" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" text="音效音量"/>
+    <component id="n20_g30w" name="musicSbr" src="g30w8" fileName="components/settingSbr.xml" xy="699,204" group="n68_xw9c">
+      <Slider value="25" max="100"/>
+    </component>
+    <component id="n23_g30w" name="voiceSbr" src="g30w8" fileName="components/settingSbr.xml" xy="699,268" group="n68_xw9c">
+      <Slider value="50" max="100"/>
+    </component>
+    <group id="n68_xw9c" name="n68" xy="265,188" size="816,133" group="n41_g30w"/>
+    <image id="n104_8su0" name="n104" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="249,364" size="910,36" group="n41_g30w"/>
+    <text id="n99_jyqr" name="title_voice" xy="265,366" size="100,34" group="n41_g30w" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" vAlign="bottom" strokeColor="#ac8958" strokeSize="2" shadowColor="#ac8958" shadowOffset="3,3" text="语音设置">
+      <gearText controller="state" pages="0,1,3" values="语音设置|画面设置|个性化设置"/>
+    </text>
+    <text id="n90_jyqr" name="playvoice" xy="265,418" size="148,34" group="n98_jyqr" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="播放语音方式"/>
+    <component id="n34_g30w" name="autoplayBtn" src="g30w9" fileName="components/settingCheckBtn.xml" xy="549,413" size="266,45" group="n98_jyqr">
+      <Button title="无线网链接时自动播放"/>
+    </component>
+    <component id="n35_g30w" name="alwaysBtn" src="g30w9" fileName="components/settingCheckBtn.xml" xy="857,413" size="134,45" group="n98_jyqr">
+      <Button title="始终播放"/>
+    </component>
+    <component id="n36_g30w" name="neverBtn" src="g30w9" fileName="components/settingCheckBtn.xml" xy="1066,413" group="n98_jyqr">
+      <Button title="从不"/>
+    </component>
+    <text id="n92_jyqr" name="autoplay" xy="265,470" size="244,34" group="n98_jyqr" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="自动播放选中频道语音"/>
+    <component id="n100_jyqr" name="worldBtn" src="g30w9" fileName="components/settingCheckBtn.xml" xy="549,464" size="266,45" group="n98_jyqr">
+      <Button title="无线网链接时自动播放"/>
+    </component>
+    <component id="n101_jyqr" name="unionBtn" src="g30w9" fileName="components/settingCheckBtn.xml" xy="857,464" size="134,45" group="n98_jyqr">
+      <Button title="始终播放"/>
+    </component>
+    <component id="n102_jyqr" name="personalBtn" src="g30w9" fileName="components/settingCheckBtn.xml" xy="1066,464" group="n98_jyqr">
+      <Button title="从不"/>
+    </component>
+    <text id="n95_jyqr" name="translatevoice" xy="265,523" size="268,34" group="n98_jyqr" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="仅在无线网络下翻译语音"/>
+    <component id="n93_jyqr" name="transSwitch" src="jyqrg" fileName="components/settingSwitchBtn1.xml" xy="540,504" group="n98_jyqr"/>
+    <group id="n98_jyqr" name="n98" xy="265,413" size="891,162" group="n41_g30w"/>
+    <group id="n41_g30w" name="tab0" xy="249,188" size="910,387" group="n107_8su0" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <text id="n52_b6o0" name="visual" xy="266,227" size="92,32" group="n63_b6o0" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" text="画面效果"/>
+    <text id="n53_b6o0" name="frame" xy="266,314" size="92,32" group="n63_b6o0" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" text="帧率选择"/>
+    <text id="n54_b6o0" name="shielding" xy="266,401" size="92,32" group="n63_b6o0" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" text="屏蔽特效"/>
+    <component id="n56_b6o0" name="pictureBtn1" src="jyqrh" fileName="components/settingSel0.xml" xy="396,218" group="n63_b6o0">
+      <Button title="均衡"/>
+    </component>
+    <component id="n59_b6o0" name="framesBtn1" src="jyqrj" fileName="components/settingSel1.xml" xy="396,305" group="n63_b6o0">
+      <Button title="标准"/>
+    </component>
+    <component id="n61_b6o0" name="effectsSwitch" src="jyqrg" fileName="components/settingSwitchBtn1.xml" xy="380,381" group="n63_b6o0"/>
+    <group id="n63_b6o0" name="tab1" xy="266,218" size="456,234" group="n107_8su0" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <list id="n85_jyqr" name="setting_list" xy="249,201" size="910,300" group="n76_i3zn" selectionMode="multipleSingleClick" overflow="hidden" lineGap="11" defaultItem="ui://dh3hukhzjyqrf">
+      <item/>
+      <item/>
+    </list>
+    <group id="n76_i3zn" name="tab2" xy="249,201" size="910,300" group="n107_8su0" advanced="true">
+      <gearDisplay controller="state" pages="3"/>
+    </group>
+    <component id="n43_b6o0" name="playerIcon" src="j3xs9pm" fileName="components/components_new/btn_head4.xml" pkg="2r331opv" xy="240,574" size="205,205" group="n51_b6o0" aspect="true" scale="0.5,0.5" touchable="false"/>
+    <text id="n44_b6o0" name="playerName" xy="348,597" size="100,34" group="n51_b6o0" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" autoClearText="true" text="角色名字"/>
+    <text id="n45_b6o0" name="serverName" xy="348,622" size="114,32" group="n51_b6o0" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" autoSize="none" autoClearText="true" text="服务器名字"/>
+    <component id="n46_b6o0" name="announcementBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="602,594" size="161,62" group="n51_b6o0">
+      <Button title="游戏公告"/>
+    </component>
+    <component id="n47_b6o0" name="customerServiceBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="797,594" size="161,62" group="n51_b6o0">
+      <Button title="客服"/>
+    </component>
+    <component id="n48_b6o0" name="switchSccountsBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="992,594" size="161,62" group="n51_b6o0">
+      <Button title="切换账号"/>
+    </component>
+    <group id="n51_b6o0" name="bottom" xy="240,574" size="913,205" group="n107_8su0" advanced="true"/>
+    <group id="n107_8su0" name="n107" xy="42,38" size="1249,741" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

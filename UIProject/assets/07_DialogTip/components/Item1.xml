@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="465,144" opaque="false" mask="n6_k2mc" designImageOffsetX="-282" designImageOffsetY="-349">
+  <displayList>
+    <graph id="n6_k2mc" name="mask" xy="0,0" size="465,144" touchable="false" type="rect"/>
+    <list id="n5_9232" name="centerList" xy="0,0" pivot="0.5,0.5" size="465,144" overflow="scroll" lineGap="13" colGap="22" defaultItem="ui://4ni413lag17g1ygcfn7" vAlign="middle">
+      <item title="击败1支"/>
+      <item title="啦啦啦啦啦啦"/>
+      <item title="11111111"/>
+    </list>
+  </displayList>
+  <relation target="n5_9232" sidePair="rightext-right"/>
+</component>

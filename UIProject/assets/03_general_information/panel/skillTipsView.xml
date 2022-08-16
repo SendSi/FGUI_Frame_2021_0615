@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImageOffsetX="-417" designImageOffsetY="-300">
+  <displayList>
+    <component id="n29_taho" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n27_nsww" name="skillTip" src="nswwhz9d0t" fileName="panel/SkillTip.xml" xy="377,100">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n28_nsww" name="arrow" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="527,446" pivot="0.5,0.5" aspect="true" visible="false" rotation="-90"/>
+  </displayList>
+</component>

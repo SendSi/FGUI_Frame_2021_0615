@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="52,56" extention="Button">
+  <controller name="state" pages="2,数字,3,打勾" selected="0"/>
+  <controller name="select" pages="0,,1," selected="0">
+    <remark page="0" value="未选中"/>
+    <remark page="1" value="选中"/>
+  </controller>
+  <displayList>
+    <image id="n7_ho40" name="n7" src="o283z9cnt" fileName="images/images_new/com_select_00.png" pkg="2r331opv" xy="-21,-20" size="93,95" aspect="true">
+      <gearDisplay controller="select" pages="1"/>
+    </image>
+    <component id="n8_rs9w" name="icon" src="j842hz9cyi" fileName="components/components_new/comItem.xml" pkg="2r331opv" xy="-4,-3" scale="0.5,0.5"/>
+    <image id="n5_ho40" name="n5" src="bumchz9d7t" fileName="images/images_new/windowBg_new/negative_bg07.png" pkg="2r331opv" xy="-3,46" size="58,22"/>
+    <image id="n6_ho40" name="n6" src="klrg1qp8vd5" fileName="images/images_new/com_btn_correct.png" pkg="2r331opv" xy="15,42" scale="0.3,0.3">
+      <gearDisplay controller="state" pages="1,3"/>
+    </image>
+    <text id="n3_ho40" name="title" xy="9,45" pivot="0.5,0.5" size="36,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#50382e" align="center" vAlign="middle" autoSize="shrink" autoClearText="true" text="9">
+      <gearDisplay controller="state" pages="0,2"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="212,58" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="quality" pages="0,,1,,2,,3,,4," selected="0">
+    <remark page="0" value="N"/>
+    <remark page="1" value="R"/>
+    <remark page="2" value="SR"/>
+    <remark page="3" value="SSR"/>
+    <remark page="4" value="UR"/>
+  </controller>
+  <displayList>
+    <image id="n0_gww7" name="n0" src="bumchz9d7t" fileName="images/images_new/windowBg_new/negative_bg07.png" pkg="2r331opv" xy="1,6" pivot="0.5,0.5" size="210,50">
+      <gearSize controller="quality" pages="0,1,2,4" values="210,50,1,1|214,50,1,1|232,50,1,1|232,50,1,1" default="258,50,1,1"/>
+    </image>
+    <loader id="n2_gww7" name="icon" xy="-10,-19" size="100,87" url="ui://2r331opvgww71qp8ve5" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="quality" pages="0,1,2,3,4" values="ui://2r331opvgww71qp8ve5|ui://2r331opvgww71qp8ve6|ui://2r331opvgww71qp8ve7|ui://2r331opvgww71qp8ve8|ui://2r331opvgww71qp8ve9"/>
+    </loader>
+    <text id="n1_gww7" name="title" xy="57,15" pivot="0.5,0.5" size="137,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#7f5746" align="center" vAlign="middle" autoSize="none" singleLine="true" text="龙的传人六字">
+      <gearXY controller="quality" pages="0,1,2,3,4" values="57,15|57,15|70,15|86,15|72,15"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

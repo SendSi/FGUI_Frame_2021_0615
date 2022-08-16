@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="236,204" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n15_lt80" name="n15" src="lt801ygcfjv" fileName="images/commandhall_bg9.png" xy="0,122"/>
+    <loader id="n14_gmyb" name="icon" xy="21,-20" pivot="0.5,0.5" size="192,201" scale="0.8,0.8" url="ui://i3ggfr92gmyb1xvobdz" fill="scale" autoSize="true"/>
+    <image id="n13_clbo" name="lock" src="gmyb1xvobdy" fileName="images/commandhall_bg4.png" xy="17,99" alpha="0.7"/>
+    <text id="n5_n7ai" name="title" xy="17,112" size="200,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="水晶"/>
+  </displayList>
+  <Button/>
+</component>

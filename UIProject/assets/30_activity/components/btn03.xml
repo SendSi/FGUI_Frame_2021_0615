@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="99,89" pivot="0.5,0.5" extention="Button">
+  <controller name="type" pages="2,排名,3,说明" selected="0"/>
+  <displayList>
+    <loader id="n14_g6ic" name="icon" xy="0,0" size="99,89" aspect="true" url="ui://sinorujtpdfthz9cyx" fill="scale">
+      <gearIcon controller="type" pages="2,3" values="ui://sinorujtpdfthz9cyx|ui://sinorujtpdfthz9cyv"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

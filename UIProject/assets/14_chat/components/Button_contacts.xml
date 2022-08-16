@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="314,45" overflow="hidden" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_dslz" name="bg_01" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="314,45">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <text id="n1_dslz" name="title" xy="37,5" size="247,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" autoSize="none" singleLine="true" text="最近联系人">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#97794f,#1f929e|#97794f,#1c636f|#97794f,#1f929e|#97794f,#1c636f"/>
+      <relation target="" sidePair="right-left,top-top"/>
+    </text>
+    <loader id="n2_dslz" name="icon" xy="-1,-2" pivot="0.5,0.5" size="51,49" aspect="true" scale="0.5,0.5" url="ui://2r331opvp11n1qp8vfd" align="center" vAlign="middle" color="#cccccc">
+      <gearLook controller="button" pages="0,1,2,3" values="1,0,0,1|1,180,0,1|1,0,0,1|1,180,0,1"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n9_dslz" name="title_01" xy="6,12" size="342,34" font="ui://2r331opvlwft3" fontSize="24" color="#134951" align="center" vAlign="middle" autoSize="none" strokeColor="#1f929e" strokeSize="2" singleLine="true" autoClearText="true" text="我的好友">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearColor controller="button" pages="0,2" values="#134951,#1f929e|#134951,#1f929e" default="#ffffff,#1c636f"/>
+      <relation target="" sidePair="right-left,top-top"/>
+    </text>
+  </displayList>
+  <Button mode="Check"/>
+</component>

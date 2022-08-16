@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="88,88" mask="n159_zkj2" reversedMask="true">
+  <displayList>
+    <loader id="n160_zkj2" name="moon" xy="-4,-3" size="94,94" aspect="true" url="ui://pvaep77ai69g1ygcfes" autoSize="true"/>
+    <graph id="n159_zkj2" name="moonMask" xy="0,0" size="89,89" aspect="true" type="eclipse" fillColor="#ff000000"/>
+  </displayList>
+</component>

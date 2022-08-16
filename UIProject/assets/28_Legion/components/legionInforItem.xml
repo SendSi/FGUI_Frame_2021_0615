@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="401,494" designImageOffsetX="-70" designImageOffsetY="-124">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="1" value="锁"/>
+  </controller>
+  <controller name="spec" pages="0,显示,1,不显示" selected="0"/>
+  <displayList>
+    <image id="n10_yhld" name="n10" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="0,0" size="402,494" alpha="0.98">
+      <gearSize controller="state" pages="0,1" values="402,494,1,1|402,420,1,1"/>
+    </image>
+    <image id="n11_yhld" name="n11" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="170,489">
+      <gearXY controller="state" pages="0,1" values="170,489|170,413"/>
+    </image>
+    <image id="n12_yhld" name="n12" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="21,55" size="362,166" alpha="0.2" color="#97794f"/>
+    <text id="n13_yhld" name="title" xy="32,14" pivot="0.5,0.5" size="337,42" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#845744" align="center" vAlign="middle" autoSize="none" text="详细信息"/>
+    <text id="n14_cegg" name="chapter" xy="87,220" pivot="0.5,0.5" size="227,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#845744" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="1-1级"/>
+    <component id="n19_cegg" name="sdr" src="ceggz9coo" fileName="components/components_new/map/search/searchSdr.xml" pkg="4ni413la" xy="74,260" size="252,31">
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n15_cegg" name="plusBtn" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="335,253">
+      <gearDisplay controller="state" pages="0"/>
+      <Button icon="ui://2r331opvihid1ygcfmr"/>
+    </component>
+    <component id="n16_cegg" name="cutBtn" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="17,253">
+      <Button icon="ui://2r331opvihid1ygcfmq"/>
+    </component>
+    <component id="n17_cegg" name="serachBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="106,338" size="188,62">
+      <Button title="GO"/>
+    </component>
+    <component id="n33_z04p" name="lockBtn" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="334,253" size="51,46">
+      <gearDisplay controller="state" pages="1"/>
+      <Button icon="ui://2r331opvz04phz9cz2"/>
+    </component>
+    <richtext id="n18_cegg" name="lbl" xy="20,300" pivot="0.5,0.5" size="364,44" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#97794f" align="center" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="consume  图标[color=#599e27]60[/color]"/>
+    <text id="n21_s21o" name="n21" xy="31,68" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" singleLine="true" text="集团军力量"/>
+    <text id="n22_s21o" name="n22" xy="31,104" size="44,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="损耗"/>
+    <text id="n23_s21o" name="n23" xy="31,140" size="84,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="兵种类型"/>
+    <text id="n24_s21o" name="n24" xy="31,176" size="84,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="首通奖励"/>
+    <richtext id="n25_s21o" name="power" xy="269,65" size="108,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" autoClearText="true" text="90000"/>
+    <richtext id="n26_s21o" name="cost" xy="269,101" size="108,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" autoClearText="true" text="9450000"/>
+    <list id="n34_kh4z" name="armList" xy="228,138" size="156,33" overflow="scroll" defaultItem="ui://2f980fe2yhldj">
+      <item/>
+    </list>
+    <list id="n28_hwtn" name="list" xy="228,170" size="163,40" layout="row" overflow="scroll" defaultItem="ui://2r331opvyhldk">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n29_hwtn" name="attackCost" src="mao3n" fileName="components/showIcon.xml" xy="231,97">
+      <Button icon="ui://2f980fe2yhldg"/>
+    </component>
+    <image id="n30_hwtn" name="n30" src="yhldh" fileName="images/icon_05.png" xy="230,62"/>
+    <component id="n32_z04p" name="exitBtn" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="345,0" size="60,60" aspect="true">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="Return" icon="ui://2r331opvihid1ygcfms"/>
+    </component>
+    <component id="n35_q4hl" name="frequencyBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="106,407" size="188,62">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="扫荡21次"/>
+    </component>
+    <component id="n36_q4hl" name="plusBtn01" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="308,415">
+      <gearDisplay controller="state" pages="0"/>
+    </component>
+    <component id="n37_q4hl" name="cutBtn01" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="43,415">
+      <gearDisplay controller="state" pages="0"/>
+      <Button icon="ui://2r331opvno3vhz9d6c"/>
+    </component>
+    <component id="n38_mouz" name="speicon" src="mouz1qp8vfm" fileName="components/legionIcon2.xml" xy="405,394">
+      <gearDisplay controller="spec" pages="0"/>
+      <relation target="n10_yhld" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+  <relation target="n10_yhld" sidePair="height-height"/>
+</component>

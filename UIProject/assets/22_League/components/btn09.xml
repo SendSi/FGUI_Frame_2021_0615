@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="48,31" pivot="0.5,0.5" extention="Button" designImageOffsetX="-581" designImageOffsetY="-513" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4_jl0s" name="bg" src="c4umz9cna" fileName="images/images_new/com_btn_bg01.png" pkg="2r331opv" xy="0,0" aspect="true" scale="0.3,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n5_jl0s" name="n5" src="cwtb1ygcfg5" fileName="images/cityskin/tcom_cityskinbtn_chat1.png" pkg="4ni413la" xy="7,2" scale="0.8,0.8" flip="hz">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

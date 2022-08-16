@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="419,32">
+  <displayList>
+    <image id="n84_8rmp" name="n84" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="0,0" size="419,32" alpha="0.3"/>
+    <text id="n51_i8bs" name="attributeBonus" xy="4,1" size="208,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="阵营属性加成"/>
+    <text id="n52_i8bs" name="bonusNumber" xy="279,1" size="134,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="right" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="100% [color=#4c9129]+100%[/color]"/>
+  </displayList>
+</component>

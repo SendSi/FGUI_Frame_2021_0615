@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="418,115" pivot="0.5,0.5" extention="Button" designImageOffsetX="-702" designImageOffsetY="-460" designImageLayer="1">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="1" value="未解锁"/>
+  </controller>
+  <displayList>
+    <image id="n7_k0lx" name="n7" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="2,-2" size="415,117"/>
+    <loader id="n6_k0lx" name="icon" xy="11,2" size="107,107" url="ui://4hio38umeznb1iy5bcg" align="center" vAlign="middle" fill="scale"/>
+    <richtext id="n4_k0lx" name="title" xy="122,5" size="276,45" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="这是位置 [color=#50382e]1-3[/color]"/>
+    <list id="n9_eznb" name="n9" xy="121,48" size="200,45" scale="1.25,1.25" layout="flow_hz" overflow="scroll" colGap="4" defaultItem="ui://2r331opvn16mg3">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n10_eznb" name="n10" src="j9d91qp8vcj" fileName="images/images_new/com_arrow015.png" pkg="2r331opv" xy="354,31"/>
+    <image id="n11_eznb" name="n11" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="2,-2" size="415,117" group="n13_eznb" alpha="0.4" color="#000000"/>
+    <image id="n12_eznb" name="n12" src="j9d91qp8vck" fileName="images/images_new/lock_11.png" pkg="2r331opv" xy="9,7" group="n13_eznb"/>
+    <group id="n13_eznb" name="n13" xy="2,-2" size="415,117" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

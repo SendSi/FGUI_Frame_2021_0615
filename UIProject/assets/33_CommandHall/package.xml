@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="i3ggfr92">
+  <resources>
+    <image id="shlm2" name="commandhall_btn_break1.png" path="/images/" exported="true" scale="9grid" scale9grid="20,12,6,24"/>
+    <image id="shlm3" name="commandhall_btn_break2.png" path="/images/" exported="true" scale="9grid" scale9grid="21,12,4,24"/>
+    <component id="n7ai1xvobdj" name="commandhall_btn1.xml" path="/components/" exported="true"/>
+    <component id="swkb1xvobdl" name="GeneralCardListItem.xml" path="/components/" exported="true"/>
+    <component id="hae91xvobdm" name="commandhall_btn3.xml" path="/components/" exported="true"/>
+    <component id="tv5r1qp8veq" name="commandhall_btn4.xml" path="/components/" exported="true"/>
+    <image id="6zse1xvobdo" name="commandhall_bg2.png" path="/images/" exported="true"/>
+    <component id="f3hz1xvobdp" name="CommandHallView.xml" path="/panel/" exported="true"/>
+    <component id="f3hz1xvobdq" name="commandhall_btn0.xml" path="/components/"/>
+    <image id="f3hz1xvobds" name="commandhall_bg3.png" path="/images/" exported="true"/>
+    <component id="t18r1xvobdt" name="commandhall_btn2.xml" path="/components/"/>
+    <image id="clbo1xvobdu" name="commandhall_btn_break3.png" path="/images/" exported="true" scale="9grid" scale9grid="13,11,5,27"/>
+    <image id="clbo1xvobdv" name="commandhall_btn_break4.png" path="/images/" exported="true" scale="9grid" scale9grid="13,11,5,27"/>
+    <component id="clbo1xvobdw" name="commandhall_btn5.xml" path="/components/" exported="true"/>
+    <image id="clbo1xvobdx" name="commandhall_bg1.png" path="/images/" exported="true"/>
+    <image id="gmyb1xvobdy" name="commandhall_bg4.png" path="/images/" exported="true"/>
+    <image id="gmyb1xvobdz" name="commandhall_icon1.png" path="/images/" exported="true"/>
+    <image id="gmyb1xvobe0" name="commandhall_icon2.png" path="/images/" exported="true"/>
+    <image id="gmyb1xvobe1" name="commandhall_icon3.png" path="/images/" exported="true"/>
+    <component id="gmyb1xvobe2" name="commandhall_btn6_old.xml" path="/components/" exported="true"/>
+    <component id="gmyb1xvobe3" name="commandhall_btn7.xml" path="/components/" exported="true"/>
+    <image id="gmyb1xvobe4" name="commandhall_bg5.png" path="/images/" exported="true"/>
+    <image id="gmyb1xvobe5" name="commandhall_bg6.png" path="/images/" exported="true"/>
+    <image id="gmyb1xvobe6" name="commandhall_bg7.png" path="/images/" exported="true"/>
+    <component id="da8x1xvobe7" name="commandhall_btn6.xml" path="/components/" exported="true"/>
+    <component id="da8x1xvobe8" name="commandhall_btn5_old.xml" path="/components/" exported="true"/>
+    <component id="md4c1ygcfjs" name="ResonantGeneralView.xml" path="/panel/" exported="true"/>
+    <image id="clbo1iy5bfy" name="commandhall_bg.jpg" path="/images/" exported="true" atlas="alone"/>
+    <image id="lt801ygcfjt" name="commandhall_bg8.png" path="/images/" exported="true" scale="9grid" scale9grid="26,41,4,7"/>
+    <image id="lt801ygcfju" name="ggg.jpg" path="/images/"/>
+    <image id="lt801iy5bg5" name="commandhall_icon4.png" path="/images/" exported="true"/>
+    <image id="lt801ygcfjv" name="commandhall_bg9.png" path="/images/" exported="true"/>
+    <component id="lt801ygcfph" name="CommandHallTip1.xml" path="/panel/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

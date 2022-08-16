@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,750" extention="Button" designImage="ui://nf2zagxss5sfgt" designImageOffsetX="-188">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="typeCtrl" pages="0,,2,,3," selected="0">
+    <remark page="0" value="英雄"/>
+    <remark page="1" value="英魂"/>
+    <remark page="2" value="道具"/>
+  </controller>
+  <displayList>
+    <loader id="n5_8z41" name="bg_quality" xy="4,155" size="111,416" group="n8_8z41" url="ui://nf2zagxsvm4c1qp8veh" clearOnPublish="true"/>
+    <loader id="n13_ln1d" name="general" xy="8,161" size="103,401" group="n8_8z41" url="ui://nf2zagxsy6f5he" align="center" vAlign="middle" fill="scaleMatchWidth" clearOnPublish="true">
+      <gearLook controller="typeCtrl" pages="2" values="0.7,0,0,1" default="1,0,0,1"/>
+    </loader>
+    <loader id="n4_8z41" name="bg_name" xy="4,300" size="111,288" group="n8_8z41" alpha="0.9" url="ui://nf2zagxsvm4c1qp8ved" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n6_8z41" name="icon_camp" xy="27,448" pivot="0.5,0.5" size="66,66" group="n8_8z41" aspect="true" url="ui://2r331opvfrte1qp8vdz" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+    </loader>
+    <list id="n18_f3et" name="starList" xy="-106,496" pivot="0.5,0.5" size="332,47" group="n8_8z41" scale="0.3,0.3" layout="row" defaultItem="ui://2r331opv104731iy5b91" align="center">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n20_mnug" name="icon" src="j842hz9cyi" fileName="components/components_new/comItem.xml" pkg="2r331opv" xy="17,441" group="n8_8z41" scale="0.7,0.7">
+      <gearDisplay controller="typeCtrl" pages="2,3"/>
+    </component>
+    <text id="n21_p1pr" name="nameTxt" xy="-2,594" size="119,40" group="n8_8z41" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="name"/>
+    <text id="n22_p1pr" name="cfgIdTxt" xy="0,667" size="119,40" group="n8_8z41" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="cfgId"/>
+    <group id="n8_8z41" name="item" xy="-106,155" size="332,552" advanced="true"/>
+  </displayList>
+  <Button/>
+</component>

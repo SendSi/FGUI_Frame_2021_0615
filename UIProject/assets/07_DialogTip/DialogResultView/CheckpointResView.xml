@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="胜利"/>
+    <remark page="1" value="失败"/>
+  </controller>
+  <displayList>
+    <component id="n2_l9c5" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,-2" size="1665,756">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n24_osur" name="n24" src="osur1ygcfn3" fileName="components/components_new/settlement_com_001.xml" pkg="2r331opv" xy="309,-36" group="n11_l9c5" touchable="false">
+      <gearDisplay controller="state" pages="0"/>
+      <Button icon="ui://2r331opv10473hz9cyn"/>
+    </component>
+    <component id="n25_osur" name="n25" src="osur1ygcfn4" fileName="components/components_new/settlement_com_002.xml" pkg="2r331opv" xy="309,-36" group="n11_l9c5" touchable="false">
+      <gearDisplay controller="state" pages="1"/>
+    </component>
+    <image id="n6_l9c5" name="window" src="10473hz9cyf" fileName="images/images_new/settlement2/settlement_bg03.png" pkg="2r331opv" xy="0,288" size="1334,307" group="n11_l9c5" alpha="0.8"/>
+    <image id="n7_l9c5" name="n7" src="10473hz9cyg" fileName="images/images_new/settlement2/settlement_bg04.png" pkg="2r331opv" xy="459,269" size="415,29" group="n11_l9c5" alpha="0.8"/>
+    <component id="n8_l9c5" name="EffectHandle_GongXiHuoDe" src="ayljdv" fileName="components/EffectHandle.xml" pkg="2r331opv" xy="643,203" group="n11_l9c5" touchable="false">
+      <relation target="n6_l9c5" sidePair="top-top"/>
+    </component>
+    <text id="n10_l9c5" name="txtDesc" xy="313,265" size="708,39" group="n11_l9c5" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#fae66c" align="center" vAlign="middle" autoSize="none" shadowColor="#773a00" shadowOffset="2,3" autoClearText="true" text="恭喜你获得">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="n6_l9c5" sidePair="top-top"/>
+    </text>
+    <component id="n12_l9c5" name="centerList" src="9g013a" fileName="components/Items.xml" xy="217,312" pivot="0.5,0.5" group="n11_l9c5">
+      <gearDisplay controller="state" pages="0"/>
+    </component>
+    <list id="n16_l9c5" name="acitvityList" xy="281,354" size="772,125" group="n19_l9c5" layout="row" overflow="scroll" scrollBarFlags="32" defaultItem="ui://2r331opvl9c51ygcfgg" align="center" vAlign="middle">
+      <item icon="ui://2r331opvil9y1ygcfjm"/>
+      <item icon="ui://2r331opvil9y1ygcfji"/>
+      <item icon="ui://2r331opvil9y1ygcfjh"/>
+      <item icon="ui://2r331opvil9y1ygcfjj"/>
+      <item icon="ui://2r331opvil9y1ygcfht"/>
+    </list>
+    <text id="n17_l9c5" name="txt" xy="567,514" pivot="0.5,0.5" size="200,39" group="n19_l9c5" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#ffffff" shadowColor="#322b63" shadowOffset="2,2" autoClearText="true" text="努力提升战力！"/>
+    <group id="n19_l9c5" name="state1" xy="281,354" size="772,199" group="n11_l9c5" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <component id="n13_l9c5" name="nextBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="322,626" size="244,74" group="n15_l9c5">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="下一关" titleFontSize="30"/>
+    </component>
+    <component id="n14_l9c5" name="outBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="772,626" size="244,74" group="n15_l9c5">
+      <Button title="退出" titleFontSize="30"/>
+    </component>
+    <component id="n18_l9c5" name="backBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="322,626" size="244,74" group="n15_l9c5">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="返回关卡" titleFontSize="30"/>
+    </component>
+    <group id="n15_l9c5" name="btn" xy="322,626" size="694,74" group="n11_l9c5" advanced="true"/>
+    <group id="n11_l9c5" name="n11" xy="0,-36" size="1334,736" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://4ni413lag9nyhz9ctx">
+  <displayList>
+    <component id="n0_hlig" name="com_mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_hlig" name="com_window" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n13_teiy"/>
+    <text id="n21_g9ny" name="title" xy="357,70" pivot="0.5,0.5" size="620,49" group="n13_teiy" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="等级权限"/>
+    <list id="n49_i5fm" name="powerList" xy="221,225" size="892,421" group="n13_teiy" overflow="scroll" lineGap="5" defaultItem="ui://lp3m5cuhspurhz9cx2">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n51_gqc5" name="n51" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="221,162" size="892,56" group="n52_gqc5"/>
+    <list id="n53_gqc5" name="descList" xy="510,167" size="590,46" group="n52_gqc5" touchable="false" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" margin="4,0,0,0" colGap="138" defaultItem="ui://lp3m5cuhgqc5hz9d5n">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n50_i5fm" name="descLbl" xy="229,173" size="100,34" group="n52_gqc5" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" text="头部信息"/>
+    <group id="n52_gqc5" name="n52" xy="221,162" size="892,56" group="n13_teiy"/>
+    <component id="n20_g9ny" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n13_teiy"/>
+    <group id="n13_teiy" name="n13" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

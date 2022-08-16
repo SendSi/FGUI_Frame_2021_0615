@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="322,55" designImage="ui://ufsajnnztauyhz9cw5" designImageOffsetX="-942" designImageOffsetY="-321" designImageAlpha="0">
+  <controller name="around" pages="0,,1," selected="0">
+    <remark page="0" value="左"/>
+    <remark page="1" value="右"/>
+  </controller>
+  <displayList>
+    <component id="n9_ht44" name="icon" src="ht44hz9cwl" fileName="components/generalIconBtn.xml" xy="0,-2">
+      <gearXY controller="around" pages="1" values="267,-2" default="0,-2"/>
+    </component>
+    <text id="n7_ht44" name="leftLbl" xy="51,13" size="268,29" fontSize="18" color="#aaedf1" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="English nightshader">
+      <gearDisplay controller="around" pages="0"/>
+    </text>
+    <text id="n10_ht44" name="rightLbl" xy="6,13" size="268,29" fontSize="18" color="#f1d9aa" align="right" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="English nightshader">
+      <gearDisplay controller="around" pages="1"/>
+    </text>
+  </displayList>
+</component>

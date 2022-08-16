@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" designImageAlpha="20" designImageLayer="1">
+  <controller name="rightTeam" pages="0,,1," selected="0">
+    <remark page="0" value="自己队伍"/>
+    <remark page="1" value="他人队伍"/>
+  </controller>
+  <controller name="map" alias="地图缩放" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="缩小后的地图"/>
+  </controller>
+  <controller name="view" pages="0,,1,,3,,4,,6,,7,,8,,9,,10,,11,,12," selected="0">
+    <remark page="0" value="常显示"/>
+    <remark page="1" value="搜索界面"/>
+    <remark page="2" value="个人首领"/>
+    <remark page="3" value="世界首领"/>
+    <remark page="4" value="中立城或柱子"/>
+    <remark page="5" value="商城"/>
+    <remark page="6" value="守卫王城"/>
+    <remark page="7" value="联盟首领"/>
+    <remark page="8" value="boss副本"/>
+    <remark page="9" value="推关副本"/>
+    <remark page="10" value="查看他人主城"/>
+  </controller>
+  <controller name="inOrOut" pages="0,,1," selected="0">
+    <remark page="0" value="out"/>
+    <remark page="1" value="in"/>
+  </controller>
+  <controller name="coordinate" pages="0,,1," selected="1">
+    <remark page="1" value="输入坐标"/>
+  </controller>
+  <displayList>
+    <component id="n145_pgcs" name="n145" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="0,0" size="1334,750">
+      <gearDisplay controller="view" pages="7"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n174_eh3a" name="task" src="xoe1n0" fileName="components/components_new/main/main_taskitem.xml" xy="6,146" size="207,300" controller="hideOpen,0">
+      <gearDisplay controller="view" pages="0,6"/>
+      <gearXY controller="map" pages="0,1" values="6,146|-488,146" tween="true" ease="Back.InOut"/>
+    </component>
+    <component id="n171_qz5p" name="task_main_treasure" src="qz5p1ygcfhg" fileName="components/components_new/task_main_treasure.xml" xy="6,438">
+      <gearDisplay controller="view" pages="0"/>
+      <relation target="n174_eh3a" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n138_ta9j" name="worldLeaders" src="ta9jhz9czz" fileName="components/components_new/worldleaders/left_worldLeaders.xml" xy="11,172">
+      <gearDisplay controller="view" pages="4"/>
+      <relation target="n135_d2so" sidePair="left-left"/>
+    </component>
+    <component id="n183_lzzk" name="leagueLeaders" src="inp01ygcflq" fileName="components/components_new/leagueBoss/left_LeagueBoss.xml" xy="11,172">
+      <gearDisplay controller="view" pages="9"/>
+      <relation target="n135_d2so" sidePair="left-left"/>
+    </component>
+    <component id="n129_qok1" name="chief" src="qok1hz9cwk" fileName="components/components_new/Personal_leader/chief.xml" xy="11,173">
+      <gearDisplay controller="view" pages="3"/>
+      <relation target="n135_d2so" sidePair="left-left"/>
+    </component>
+    <component id="n181_xufy" name="main_mapMini01" src="l3l81ygcfl0" fileName="components/components_new/main/main_mapMini01.xml" xy="7,127" group="n109_pwz3" alpha="0" touchable="false">
+      <gearLook controller="map" pages="0" values="0,0,0,0" default="1,0,0,1" tween="true"/>
+    </component>
+    <component id="n106_xoe1" name="miniMap" src="xoe1n9" fileName="components/components_new/main/main_mapMini.xml" xy="1148,55" size="200,329" group="n109_pwz3" scale="0.9,0.9" alpha="0">
+      <gearLook controller="map" pages="0" values="0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <list id="n57_b6o0" name="activityList" xy="666,48" size="668,104" group="n109_pwz3" layout="row" selectionMode="none" scroll="both" colGap="-7" defaultItem="ui://4ni413lagzkh8i" autoItemSize="false" align="right" autoClearItems="true">
+      <gearDisplay controller="map" pages="0"/>
+      <gearDisplay2 controller="view" pages="0,1,6,7,8,10,11" condition="0"/>
+      <relation target="" sidePair="right-right"/>
+      <item icon="ui://2r331opvil9y1ygcfjf"/>
+      <item title="功能预告" icon="ui://2r331opvil9y1ygcfjg"/>
+      <item icon="ui://2r331opvil9y1ygcfjh"/>
+    </list>
+    <component id="n124_eyig" name="warningBtn" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="267,557" group="n109_pwz3" scale="0.8,0.8" visible="false">
+      <Button icon="ui://4ni413laeyighz9cuw"/>
+    </component>
+    <list id="n178_eh3a" name="city_out" xy="123,613" size="250,78" group="n109_pwz3" layout="row" scroll="horizontal" margin="4,0,14,0" colGap="7" defaultItem="ui://4ni413layya01qp8vcb" vAlign="middle" scrollItemToViewOnClick="false">
+      <gearDisplay controller="inOrOut" pages="0"/>
+      <relation target="" sidePair="left-left"/>
+      <item title="采集" icon="ui://4ni413latauyhz9czs" name="search"/>
+      <item title="探索" icon="ui://4ni413latauyhz9czt" name="explore"/>
+      <item title="军团" icon="ui://4ni413latauyhz9czt" name="legion"/>
+    </list>
+    <list id="n179_eh3a" name="city_in" xy="123,613" size="249,78" group="n109_pwz3" layout="row" scroll="horizontal" margin="4,0,14,0" colGap="7" defaultItem="ui://4ni413layya01qp8vcb" vAlign="middle" scrollItemToViewOnClick="false">
+      <gearDisplay controller="inOrOut" pages="1"/>
+      <relation target="" sidePair="left-left"/>
+      <item title="建造" icon="ui://4ni413lacv8s1qp8vdt" name="buildBtn"/>
+      <item title="队列" icon="ui://4ni413lalumy1qp8vdn" name="queueBtn"/>
+      <item title="探索" icon="ui://4ni413latauyhz9czt" name="exploreBtn"/>
+    </list>
+    <list id="n173_ildy" name="limitBtnList" xy="618,574" pivot="1,1" size="694,66" group="n109_pwz3" scale="0.8,0.8" layout="row" scroll="horizontal" colGap="8" defaultItem="ui://2r331opvg38x1ygcfh4" align="right">
+      <relation target="" sidePair="right-right"/>
+      <relation target="n101_xoe1" sidePair="right-right,top-top"/>
+      <item icon="ui://4ni413la9zwe1ygcfl3"/>
+      <item icon="ui://4ni413laildy1ygcfjd"/>
+      <item icon="ui://4ni413lans8m1ygcfkg"/>
+    </list>
+    <component id="n88_xoe1" name="teamWalking" src="xoe1n3" fileName="components/main_teamWalking.xml" xy="459,495" size="489,82" group="n109_pwz3" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <group id="n109_pwz3" name="mainView" xy="7,48" size="1341,643" advanced="true">
+      <gearDisplay controller="view" pages="0,3,4,6,9"/>
+    </group>
+    <component id="n156_vntm" name="defendCityBattleView" src="n6021ygcfek" fileName="panel/DefendCityBattleView.xml" pkg="pvaep77a" xy="0,0">
+      <gearDisplay controller="view" pages="8"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n55_b6o0" name="n55" src="yt2t1ygcg8p" fileName="images4/mainhud_btn_icon013.png" xy="0,677" size="568,73" group="n146_i3zn" alpha="0.86"/>
+    <component id="n56_b6o0" name="chatBtn" src="kah2a4" fileName="components/components_new/main/main_chat_item.xml" xy="86,683" size="388,68" group="n146_i3zn">
+      <relation target="n55_b6o0" sidePair="right-right"/>
+    </component>
+    <component id="n176_eh3a" name="red" src="dix6fm" fileName="components/components_new/red_dot.xml" pkg="2r331opv" xy="443,682" size="52,48" group="n146_i3zn" scale="0.8,0.8">
+      <relation target="n55_b6o0" sidePair="right-right"/>
+    </component>
+    <group id="n146_i3zn" name="chatPart" xy="0,629" size="568,122" advanced="true">
+      <gearDisplay controller="view" pages="0,3,4,6,9,10,12"/>
+      <relation target="" sidePair="left-left"/>
+    </group>
+    <component id="n119_j4kd" name="backBtn" src="j4kdhz9clt" fileName="components/components_new/main/main_btn_back.xml" xy="15,629" group="n146_i3zn">
+      <gearDisplay controller="inOrOut" pages="0"/>
+      <Button icon="ui://4ni413lalumy1qp8vde"/>
+    </component>
+    <component id="n123_shxm" name="outBtn" src="j4kdhz9clt" fileName="components/components_new/main/main_btn_back.xml" xy="15,629" group="n146_i3zn">
+      <gearDisplay controller="inOrOut" pages="1"/>
+      <Button title="Go out"/>
+    </component>
+    <component id="n101_xoe1" name="underRight_btn" src="xoe1mz" fileName="components/components_new/main/main_right_function.xml" xy="744,642" size="590,110">
+      <gearDisplay controller="view" pages="0,3,4,6,9"/>
+      <gearXY controller="map" pages="0,1" values="744,642|1335,629" tween="true" ease="Back.InOut"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n154_quts" name="team" src="cv8s1qp8vdw" fileName="components/components_new/main/main_team_right00.xml" xy="1113,166">
+      <gearXY controller="map" pages="0,1" values="1113,166|1335,166" tween="true" ease="Back.InOut"/>
+      <gearDisplay2 controller="view" pages="0,3,4,6,8,9,10,11" condition="0"/>
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </component>
+    <component id="n157_gmpz" name="worldBossHp" src="qok1hz9cwn" fileName="components/components_new/Personal_leader/ChiefPbr.xml" xy="350,91">
+      <gearDisplay controller="view" pages="4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <ProgressBar value="56" max="100"/>
+    </component>
+    <component id="n161_qva6" name="leaBossHp" src="ctld1ygcfhv" fileName="components/components_new/Personal_leader/ChiefPbr_new.xml" xy="350,91">
+      <gearDisplay controller="view" pages="6,9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <ProgressBar value="56" max="100"/>
+    </component>
+    <component id="n130_qok1" name="singleBossHp" src="qok1hz9cwn" fileName="components/components_new/Personal_leader/ChiefPbr.xml" xy="350,91">
+      <gearDisplay controller="view" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <ProgressBar value="56" max="100"/>
+    </component>
+    <component id="n122_m47y" name="coordCloseBtn" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0" group="n132_lvwk">
+      <gearDisplay controller="coordinate" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button controller="coordinate" page="0"/>
+    </component>
+    <component id="n34_b6o0" name="playerIcon" src="xoe1n2" fileName="components/components_new/main/main_playerIcon.xml" xy="0,0" group="n132_lvwk">
+      <gearDisplay controller="view" pages=""/>
+      <relation target="" sidePair="rightext-right"/>
+    </component>
+    <component id="n121_m47y" name="coordItemItem" src="pwz3p2" fileName="components/components_new/main/main_coordinate.xml" xy="389,69" group="n132_lvwk">
+      <gearDisplay controller="coordinate" pages="1"/>
+    </component>
+    <component id="n45_b6o0" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="616,12" size="700,40" group="n132_lvwk">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n120_m47y" name="coordItemBtn" src="m47yhz9co4" fileName="components/components_new/main/main_btn_coord.xml" xy="336,13" group="n132_lvwk">
+      <gearDisplay controller="inOrOut" pages="0"/>
+      <Button checked="true" controller="coordinate" page="1"/>
+    </component>
+    <component id="n116_j4kd" name="collectionBtn" src="qy501qp8vdu" fileName="components/components_new/com_btn_icon1.xml" pkg="2r331opv" xy="579,14" group="n132_lvwk">
+      <gearDisplay controller="inOrOut" pages="0"/>
+    </component>
+    <component id="n125_ltnn" name="weather" src="ltnnhz9cw7" fileName="components/components_new/main/main_btn_weather.xml" xy="356,10" group="n132_lvwk" scale="0.8,0.8">
+      <gearDisplay controller="inOrOut" pages="0"/>
+    </component>
+    <group id="n132_lvwk" name="topLeft" xy="0,0" size="1334,750" advanced="true">
+      <gearDisplay controller="view" pages="0,3,4,6,7,9"/>
+    </group>
+    <component id="n108_pwz3" name="searchView" src="yhldl" fileName="panel/main/MainSearchView.xml" xy="0,0" size="1334,750" group="n134_lvwk">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <group id="n134_lvwk" name="search" xy="0,0" size="1334,750" advanced="true">
+      <gearDisplay controller="view" pages="1"/>
+    </group>
+    <component id="n168_g38x" name="noviceBossBattleView" src="g38x1ygcfh7" fileName="components/components_new/worldleaders/NoviceBossBattleView.xml" xy="0,0">
+      <gearDisplay controller="view" pages="10"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n169_ky14" name="plotBattleView" src="ky141ygcfhd" fileName="components/plot/plotBattleView.xml" xy="0,0">
+      <gearDisplay controller="view" pages="11"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n61_b6o0" name="fightReportBtn" src="o4uyfe" fileName="components/components_new/common_btn_07.xml" pkg="2r331opv" xy="497,670" size="62,62" aspect="true" visible="false">
+      <Button icon="ui://4ni413lab6o0lx"/>
+    </component>
+    <graph id="n126_zlrl" name="area_mini" xy="0,0" size="1261,672" visible="false" touchable="false" type="polygon" lineSize="2" lineColor="#ff00ff00" fillColor="#00ffffff" points="0,106,291,88,297.2504,54.75018,539.8754,50.87509,541.125,5.312592,1044.563,3.250092,1048.5,222.0001,1253,224.5001,1261.5,668.125,646.6879,672.5002,565,594,257.4376,595.0002,211.0627,433.9377,3.250183,428.3751,0,260">
+      <gearDisplay controller="inOrOut" pages="0"/>
+      <gearDisplay2 controller="map" pages="1" condition="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n127_zlrl" name="area_out" xy="0,0" size="985,659" visible="false" touchable="false" type="polygon" lineSize="2" lineColor="#ffff0000" fillColor="#00ffffff" points="268.0002,507.0002,268,80,690.2504,77.75018,789.125,138.3126,985.563,139.2501,985.5,576.125,712,577.875,669.0001,659.0002,550.6879,659.5002,522,579,319.4376,578.0002">
+      <gearDisplay controller="inOrOut" pages="0"/>
+      <gearDisplay2 controller="map" pages="0" condition="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n128_zlrl" name="area_in" xy="0,0" size="1261,677" visible="false" touchable="false" type="polygon" lineSize="2" lineColor="#ff00ff00" fillColor="#00ffffff" points="227,94,609.2504,86.75018,633.125,51.31259,1034.563,54.25009,1035.5,139.0001,1168,139.3751,1165.563,365.2502,1259.813,381.2501,1261.063,496.5627,1252.563,571.0002,846,568.875,840.0001,677.0002,640.6879,675.5002,580,601,253.4376,601.0002,215.2502,470.3751">
+      <gearDisplay controller="inOrOut" pages="1"/>
+      <gearDisplay2 controller="map" pages="0" condition="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n172_r92w" name="area_plot" xy="1,0" size="1048,664" visible="false" touchable="false" type="polygon" lineSize="2" fillColor="#00ffffff" points="33,96,107.4844,96.75,107.0625,15.89063,1042,20,1048,664,42.8125,662"/>
+    <component id="n139_pu9r" name="exitWorldBossBtn" src="ta9jhz9d03" fileName="components/components_new/worldleaders/signOutBtn.xml" xy="1096,86" scale="0.8,0.8">
+      <gearDisplay controller="view" pages="4"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n135_d2so" name="btn_switch" src="eh3a1ygcfjr" fileName="components/components_new/com_btn_switch.xml" pkg="2r331opv" xy="267,174" size="55,55" aspect="true" scale="0.8,0.8">
+      <gearDisplay controller="view" pages="3,4,9"/>
+      <Button icon="ui://4ni413laeh3a1ygcfjg"/>
+    </component>
+    <list id="n167_ts2v" name="switchBtnList" xy="9,131" size="257,42" layout="row" scroll="horizontal" colGap="-4" defaultItem="ui://4ni413laeulv1qp8veh">
+      <gearDisplay controller="view" pages="3,4,9"/>
+      <relation target="n135_d2so" sidePair="left-left"/>
+      <item title="世界首领"/>
+      <item title="个人首领"/>
+      <item title="联盟首领"/>
+    </list>
+    <component id="n180_te17" name="localKillCom" src="svpo1ygcfkf" fileName="components/components_new/Break.xml" xy="770,217" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <image id="n190_lpl2" name="n190" src="a4b91qp8veo" fileName="images/images_new/com_change010.png" pkg="2r331opv" xy="524,27" pivot="0.5,0.5" size="286,34" group="n185_lpl2" alpha="0.75">
+      <relation target="n184_lpl2" sidePair="rightext-right,leftext-left"/>
+    </image>
+    <text id="n184_lpl2" name="seeText" xy="557,29" pivot="0.5,0.5" size="220,29" group="n185_lpl2" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" text="您正在查看xxxxx的城市"/>
+    <group id="n185_lpl2" name="v10" xy="524,27" size="286,34" advanced="true">
+      <gearDisplay controller="view" pages="12"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <transition name="quit">
+    <item time="0" type="Alpha" target="n101_xoe1" value="1"/>
+    <item time="0" type="Alpha" target="n146_i3zn" value="1"/>
+    <item time="0" type="Alpha" target="n154_quts" value="1"/>
+    <item time="0" type="Alpha" target="n171_qz5p" value="0"/>
+    <item time="0" type="Alpha" target="n173_ildy" value="1"/>
+    <item time="0" type="Alpha" target="n174_eh3a" value="1"/>
+    <item time="0" type="Alpha" target="n178_eh3a" value="1"/>
+    <item time="0" type="Alpha" target="n179_eh3a" value="1"/>
+    <item time="0" type="Alpha" target="n57_b6o0" value="1"/>
+    <item time="0" type="XY" target="n101_xoe1" tween="true" startValue="709,652" endValue="680,652" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n146_i3zn" tween="true" startValue="6,635" endValue="36,635" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n154_quts" tween="true" startValue="1115,166" endValue="1084,166" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n173_ildy" tween="true" startValue="622,577" endValue="592,577" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n174_eh3a" tween="true" startValue="5,146" endValue="35,146" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n178_eh3a" tween="true" startValue="10,556" endValue="40,556" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n179_eh3a" tween="true" startValue="10,556" endValue="40,556" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n57_b6o0" tween="true" startValue="600,58" endValue="580,58" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n101_xoe1" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n146_i3zn" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n154_quts" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n173_ildy" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n174_eh3a" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n178_eh3a" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n179_eh3a" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n57_b6o0" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n101_xoe1" tween="true" startValue="680,652" endValue="709,652" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n146_i3zn" tween="true" startValue="36,635" endValue="6,635" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n154_quts" tween="true" startValue="1084,166" endValue="1115,166" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n173_ildy" tween="true" startValue="592,577" endValue="622,577" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n174_eh3a" tween="true" startValue="35,146" endValue="5,146" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n178_eh3a" tween="true" startValue="40,556" endValue="10,556" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n179_eh3a" tween="true" startValue="40,556" endValue="10,556" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n57_b6o0" tween="true" startValue="580,58" endValue="600,58" duration="3" ease="Linear"/>
+  </transition>
+  <transition name="approach">
+    <item time="0" type="Alpha" target="n101_xoe1" tween="true" startValue="0" endValue="0.5" duration="4"/>
+    <item time="0" type="Alpha" target="n146_i3zn" tween="true" startValue="0" endValue="0.5" duration="4"/>
+    <item time="0" type="Alpha" target="n154_quts" value="0"/>
+    <item time="0" type="Alpha" target="n171_qz5p" value="0"/>
+    <item time="0" type="Alpha" target="n173_ildy" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n174_eh3a" value="0"/>
+    <item time="0" type="Alpha" target="n178_eh3a" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n179_eh3a" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n57_b6o0" value="0"/>
+    <item time="0" type="XY" target="n101_xoe1" tween="true" startValue="1000,652" endValue="699,652" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n146_i3zn" tween="true" startValue="-313,635" endValue="16,635" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n154_quts" value="1300,166"/>
+    <item time="0" type="XY" target="n171_qz5p" value="-150,438"/>
+    <item time="0" type="XY" target="n173_ildy" tween="true" startValue="793,577" endValue="793,577" duration="3"/>
+    <item time="0" type="XY" target="n174_eh3a" value="5,146"/>
+    <item time="0" type="XY" target="n178_eh3a" value="-170,556"/>
+    <item time="0" type="XY" target="n179_eh3a" value="-170,556"/>
+    <item time="0" type="XY" target="n57_b6o0" tween="true" startValue="780,58" endValue="780,58" duration="8" ease="Linear"/>
+    <item time="3" type="XY" target="n173_ildy" tween="true" startValue="793,577" endValue="612,577" duration="4" ease="Linear"/>
+    <item time="3" type="XY" target="n178_eh3a" tween="true" startValue="-160,556" endValue="20,556" duration="4"/>
+    <item time="3" type="XY" target="n179_eh3a" tween="true" startValue="-160,556" endValue="20,556" duration="4"/>
+    <item time="4" type="Alpha" target="n101_xoe1" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="4" type="Alpha" target="n146_i3zn" tween="true" startValue="0.5" endValue="1" duration="6"/>
+    <item time="5" type="Alpha" target="n154_quts" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="Alpha" target="n171_qz5p" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="Alpha" target="n174_eh3a" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="XY" target="n154_quts" tween="true" startValue="1300,166" endValue="1105,166" duration="5" ease="Linear"/>
+    <item time="5" type="XY" target="n171_qz5p" tween="true" startValue="-100,438" endValue="16,438" duration="5" ease="Linear"/>
+    <item time="5" type="XY" target="n174_eh3a" tween="true" startValue="-99,146" endValue="16,146" duration="5" ease="Linear"/>
+    <item time="6" type="Alpha" target="n173_ildy" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="Alpha" target="n178_eh3a" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="Alpha" target="n179_eh3a" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="XY" target="n101_xoe1" tween="true" startValue="699,652" endValue="709,652" duration="4" ease="Linear"/>
+    <item time="6" type="XY" target="n146_i3zn" tween="true" startValue="16,635" endValue="6,635" duration="6" ease="Linear"/>
+    <item time="7" type="XY" target="n173_ildy" tween="true" startValue="612,577" endValue="622,577" duration="7" ease="Linear"/>
+    <item time="7" type="XY" target="n178_eh3a" tween="true" startValue="20,556" endValue="10,556" duration="7"/>
+    <item time="7" type="XY" target="n179_eh3a" tween="true" startValue="20,556" endValue="10,556" duration="7"/>
+    <item time="8" type="Alpha" target="n57_b6o0" tween="true" startValue="0.5" endValue="1" duration="10"/>
+    <item time="8" type="XY" target="n57_b6o0" tween="true" startValue="780,58" endValue="590,58" duration="4" ease="Linear"/>
+    <item time="10" type="Alpha" target="n154_quts" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="Alpha" target="n171_qz5p" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="Alpha" target="n174_eh3a" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="XY" target="n154_quts" tween="true" startValue="1105,166" endValue="1115,166" duration="6" ease="Linear"/>
+    <item time="10" type="XY" target="n171_qz5p" tween="true" startValue="16,438" endValue="6,438" duration="6" ease="Linear"/>
+    <item time="10" type="XY" target="n174_eh3a" tween="true" startValue="16,146" endValue="5,146" duration="6" ease="Linear"/>
+    <item time="12" type="XY" target="n57_b6o0" tween="true" startValue="590,58" endValue="600,58" duration="6" ease="Linear"/>
+  </transition>
+  <transition name="a_personalboss">
+    <item time="0" type="Alpha" target="n101_xoe1" tween="true" startValue="0" endValue="0.5" duration="4"/>
+    <item time="0" type="Alpha" target="n129_qok1" value="0"/>
+    <item time="0" type="Alpha" target="n130_qok1" value="0"/>
+    <item time="0" type="Alpha" target="n135_d2so" value="0"/>
+    <item time="0" type="Alpha" target="n146_i3zn" tween="true" startValue="0" endValue="0.5" duration="4"/>
+    <item time="0" type="Alpha" target="n154_quts" value="0"/>
+    <item time="0" type="Alpha" target="n167_ts2v" value="0"/>
+    <item time="0" type="Alpha" target="n173_ildy" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n178_eh3a" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n57_b6o0" value="0"/>
+    <item time="0" type="XY" target="n101_xoe1" tween="true" startValue="1000,652" endValue="699,652" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n135_d2so" tween="true" startValue="20,174" endValue="80,174" duration="5" ease="Linear"/>
+    <item time="0" type="XY" target="n146_i3zn" tween="true" startValue="-313,635" endValue="16,635" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n154_quts" value="1300,166"/>
+    <item time="0" type="XY" target="n173_ildy" tween="true" startValue="793,577" endValue="793,577" duration="3"/>
+    <item time="0" type="XY" target="n178_eh3a" value="-170,556"/>
+    <item time="0" type="XY" target="n57_b6o0" tween="true" startValue="780,58" endValue="780,58" duration="8" ease="Linear"/>
+    <item time="3" type="XY" target="n173_ildy" tween="true" startValue="793,577" endValue="612,577" duration="4" ease="Linear"/>
+    <item time="3" type="XY" target="n178_eh3a" tween="true" startValue="-160,556" endValue="20,556" duration="4"/>
+    <item time="4" type="Alpha" target="n101_xoe1" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="4" type="Alpha" target="n146_i3zn" tween="true" startValue="0.5" endValue="1" duration="6"/>
+    <item time="5" type="Alpha" target="n129_qok1" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="Alpha" target="n135_d2so" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="Alpha" target="n154_quts" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="Alpha" target="n167_ts2v" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="XY" target="n135_d2so" tween="true" startValue="80,174" endValue="277,174" duration="5" ease="Linear"/>
+    <item time="5" type="XY" target="n154_quts" tween="true" startValue="1300,166" endValue="1105,166" duration="5" ease="Linear"/>
+    <item time="6" type="Alpha" target="n130_qok1" tween="true" startValue="0.5" endValue="1" duration="4" ease="Linear"/>
+    <item time="6" type="Alpha" target="n173_ildy" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="Alpha" target="n178_eh3a" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="XY" target="n101_xoe1" tween="true" startValue="699,652" endValue="709,652" duration="4" ease="Linear"/>
+    <item time="6" type="XY" target="n146_i3zn" tween="true" startValue="16,635" endValue="6,635" duration="6" ease="Linear"/>
+    <item time="7" type="XY" target="n173_ildy" tween="true" startValue="612,577" endValue="622,577" duration="7" ease="Linear"/>
+    <item time="7" type="XY" target="n178_eh3a" tween="true" startValue="20,556" endValue="10,556" duration="7"/>
+    <item time="8" type="Alpha" target="n57_b6o0" tween="true" startValue="0.5" endValue="1" duration="10"/>
+    <item time="8" type="XY" target="n57_b6o0" tween="true" startValue="780,58" endValue="590,58" duration="4" ease="Linear"/>
+    <item time="10" type="Alpha" target="n129_qok1" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="Alpha" target="n135_d2so" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="Alpha" target="n154_quts" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="Alpha" target="n167_ts2v" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="XY" target="n135_d2so" tween="true" startValue="277,174" endValue="267,174" duration="6" ease="Linear"/>
+    <item time="10" type="XY" target="n154_quts" tween="true" startValue="1105,166" endValue="1115,166" duration="6" ease="Linear"/>
+    <item time="12" type="XY" target="n57_b6o0" tween="true" startValue="590,58" endValue="600,58" duration="6" ease="Linear"/>
+  </transition>
+  <transition name="a_worldboss">
+    <item time="0" type="Alpha" target="n101_xoe1" tween="true" startValue="0" endValue="0.5" duration="4"/>
+    <item time="0" type="Alpha" target="n135_d2so" value="0"/>
+    <item time="0" type="Alpha" target="n138_ta9j" value="0"/>
+    <item time="0" type="Alpha" target="n139_pu9r" value="0"/>
+    <item time="0" type="Alpha" target="n146_i3zn" tween="true" startValue="0" endValue="0.5" duration="4"/>
+    <item time="0" type="Alpha" target="n154_quts" value="0"/>
+    <item time="0" type="Alpha" target="n157_gmpz" value="0"/>
+    <item time="0" type="Alpha" target="n167_ts2v" value="0"/>
+    <item time="0" type="Alpha" target="n173_ildy" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n178_eh3a" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="XY" target="n101_xoe1" tween="true" startValue="1000,652" endValue="699,652" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n135_d2so" tween="true" startValue="20,174" endValue="80,174" duration="5" ease="Linear"/>
+    <item time="0" type="XY" target="n139_pu9r" tween="true" startValue="1226,86" endValue="1226,86" duration="8" ease="Linear"/>
+    <item time="0" type="XY" target="n146_i3zn" tween="true" startValue="-313,635" endValue="16,635" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n154_quts" value="1300,166"/>
+    <item time="0" type="XY" target="n173_ildy" tween="true" startValue="793,577" endValue="793,577" duration="3"/>
+    <item time="0" type="XY" target="n178_eh3a" value="-170,556"/>
+    <item time="3" type="XY" target="n173_ildy" tween="true" startValue="793,577" endValue="612,577" duration="4" ease="Linear"/>
+    <item time="3" type="XY" target="n178_eh3a" tween="true" startValue="-160,556" endValue="20,556" duration="4"/>
+    <item time="4" type="Alpha" target="n101_xoe1" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="4" type="Alpha" target="n146_i3zn" tween="true" startValue="0.5" endValue="1" duration="6"/>
+    <item time="5" type="Alpha" target="n135_d2so" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="Alpha" target="n138_ta9j" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="Alpha" target="n154_quts" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="Alpha" target="n167_ts2v" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="XY" target="n135_d2so" tween="true" startValue="80,174" endValue="277,174" duration="5" ease="Linear"/>
+    <item time="5" type="XY" target="n154_quts" tween="true" startValue="1300,166" endValue="1105,166" duration="5" ease="Linear"/>
+    <item time="6" type="Alpha" target="n157_gmpz" tween="true" startValue="0.5" endValue="1" duration="4" ease="Linear"/>
+    <item time="6" type="Alpha" target="n173_ildy" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="Alpha" target="n178_eh3a" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="XY" target="n101_xoe1" tween="true" startValue="699,652" endValue="709,652" duration="4" ease="Linear"/>
+    <item time="6" type="XY" target="n146_i3zn" tween="true" startValue="16,635" endValue="6,635" duration="6" ease="Linear"/>
+    <item time="7" type="XY" target="n173_ildy" tween="true" startValue="612,577" endValue="622,577" duration="7" ease="Linear"/>
+    <item time="7" type="XY" target="n178_eh3a" tween="true" startValue="20,556" endValue="10,556" duration="7"/>
+    <item time="8" type="Alpha" target="n139_pu9r" tween="true" startValue="0.5" endValue="1" duration="10"/>
+    <item time="8" type="XY" target="n139_pu9r" tween="true" startValue="1226,86" endValue="1086,86" duration="4" ease="Linear"/>
+    <item time="10" type="Alpha" target="n135_d2so" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="Alpha" target="n138_ta9j" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="Alpha" target="n154_quts" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="Alpha" target="n167_ts2v" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="XY" target="n135_d2so" tween="true" startValue="277,174" endValue="267,174" duration="6" ease="Linear"/>
+    <item time="10" type="XY" target="n154_quts" tween="true" startValue="1105,166" endValue="1115,166" duration="6" ease="Linear"/>
+    <item time="12" type="XY" target="n139_pu9r" tween="true" startValue="1086,86" endValue="1096,86" duration="6" ease="Linear"/>
+  </transition>
+</component>

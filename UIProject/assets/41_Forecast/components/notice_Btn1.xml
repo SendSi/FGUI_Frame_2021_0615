@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="308,522" pivot="0.5,0.5" extention="Button">
+  <controller name="state" pages="3,,2,,4," selected="0">
+    <remark page="0" value="未领取"/>
+    <remark page="1" value="领取"/>
+    <remark page="2" value="已完成"/>
+  </controller>
+  <displayList>
+    <image id="n20_aguo" name="n20" src="aguo1" fileName="images/notice_bg0.png" xy="0,0" size="308,522"/>
+    <loader id="n19_aguo" name="bg" xy="11,12" size="287,498" url="ui://qm5fpil4aguo3" autoSize="true"/>
+    <image id="n10_oxoc" name="black" src="aguo0" fileName="images/notice_bg_black.png" xy="11,239" size="287,271" color="#000000"/>
+    <text id="n11_oxoc" name="title" xy="20,313" size="129,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" text="这里打字"/>
+    <graph id="n21_aguo" name="line" xy="22,347" size="264,1" alpha="0.5" type="rect" lineSize="0"/>
+    <graph id="n22_aguo" name="line1" xy="22,426" size="264,1" alpha="0.5" type="rect" lineSize="0"/>
+    <text id="n23_aguo" name="conditionDescribeTxt" xy="133,313" size="150,34" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ff4343" align="right" vAlign="middle" autoSize="none" text="第五章主线任务"/>
+    <list id="n25_aguo" name="des_list" xy="20,351" size="268,69" overflow="scroll" defaultItem="ui://qm5fpil4aguo8">
+      <item/>
+    </list>
+    <list id="n31_syny" name="rewardItem" xy="14,427" size="185,140" scale="0.6,0.6" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://2r331opvj842hz9cyi">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n27_aguo" name="receiveBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="143,436" scale="0.8,0.8">
+      <gearDisplay controller="state" pages="2"/>
+      <Button title="领取"/>
+    </component>
+    <component id="n28_aguo" name="doneBtn" src="itkw1ygcfkf" fileName="components/components_new/com_btn_00_redPoint.xml" pkg="2r331opv" xy="143,435" scale="0.8,0.8" grayed="true">
+      <gearDisplay controller="state" pages="3"/>
+      <Button title="未领取"/>
+    </component>
+    <text id="n30_iw7h" name="rewardDescribeTxt" xy="83,435" size="77,52" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" leading="0" autoSize="none" text="这里打字这里打字"/>
+    <image id="n29_aguo" name="n29" src="aguo7" fileName="images/notice_bg7_s.png" xy="11,12" alpha="0.7" color="#000000">
+      <gearDisplay controller="state" pages="4"/>
+    </image>
+    <image id="n18_aguo" name="n18" src="syny1ygcgpb" fileName="images/images_new/com_icon_completed2.png" pkg="2r331opv" xy="174,424" color="#ff4343">
+      <gearDisplay controller="state" pages="4"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

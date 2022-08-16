@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4557t28k">
+  <resources>
+    <image id="m47yf0" name="fragment06.png" path="/fragment/" exported="true"/>
+    <image id="m47yf2" name="fragment01.png" path="/fragment/" exported="true"/>
+    <image id="m47yf3" name="fragment02.png" path="/fragment/" exported="true"/>
+    <image id="m47yf4" name="fragment03.png" path="/fragment/" exported="true"/>
+    <image id="m47yf5" name="fragment04.png" path="/fragment/" exported="true"/>
+    <image id="m47yf6" name="fragment05.png" path="/fragment/" exported="true"/>
+    <image id="shxmf7" name="fragment00.png" path="/fragment/" exported="true"/>
+    <image id="oepthz9cou" name="main_frame_star01.png" path="/HeadQuality/" exported="true"/>
+    <image id="oepthz9cov" name="main_frame_star02.png" path="/HeadQuality/" exported="true"/>
+    <image id="oepthz9cow" name="main_frame_star03.png" path="/HeadQuality/" exported="true"/>
+    <image id="oepthz9cox" name="main_frame_star04.png" path="/HeadQuality/" exported="true"/>
+    <image id="oepthz9coy" name="main_frame_star05.png" path="/HeadQuality/" exported="true"/>
+    <image id="oepthz9coz" name="main_frame_star06.png" path="/HeadQuality/" exported="true"/>
+    <image id="oepthz9coo" name="main_team_bg01.png" path="/HeadQuality/" exported="true"/>
+    <image id="oepthz9cop" name="main_team_bg02.png" path="/HeadQuality/" exported="true"/>
+    <image id="oepthz9coq" name="main_team_bg03.png" path="/HeadQuality/" exported="true"/>
+    <image id="oepthz9cor" name="main_team_bg04.png" path="/HeadQuality/" exported="true"/>
+    <image id="oepthz9cos" name="main_team_bg05.png" path="/HeadQuality/" exported="true"/>
+    <image id="oepthz9cot" name="main_team_bg06.png" path="/HeadQuality/" exported="true"/>
+    <image id="y6f5hz9cp0" name="general_004.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cp1" name="general_005.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cp2" name="general_006.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cp3" name="general_007.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cp4" name="general_008.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cp5" name="general_009.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cp6" name="general_010.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cp7" name="general_011.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cp8" name="general_012.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cp9" name="general_028.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cpa" name="general_029.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cpb" name="general_033.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cpc" name="general_016.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cpd" name="general_002.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cpe" name="general_001.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="y6f5hz9cpf" name="general_003.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="7vgghz9cpg" name="general_027.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="7vgghz9cph" name="general_017.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="7vgghz9cpi" name="general_018.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="xz10hz9cpq" name="comhead_quality015.png" path="/HeadQuality/" exported="true"/>
+    <image id="xz10hz9cpr" name="comhead_quality011.png" path="/HeadQuality/" exported="true"/>
+    <image id="xz10hz9cps" name="comhead_quality012.png" path="/HeadQuality/" exported="true"/>
+    <image id="xz10hz9cpt" name="comhead_quality013.png" path="/HeadQuality/" exported="true"/>
+    <image id="xz10hz9cpu" name="comhead_quality014.png" path="/HeadQuality/" exported="true"/>
+    <image id="lfqnhz9cq1" name="quality01.png" path="/HeadQuality/" exported="true"/>
+    <image id="lfqnhz9cq2" name="quality02.png" path="/HeadQuality/" exported="true"/>
+    <image id="lfqnhz9cq3" name="quality03.png" path="/HeadQuality/" exported="true"/>
+    <image id="lfqnhz9cq4" name="quality04.png" path="/HeadQuality/" exported="true"/>
+    <image id="lfqnhz9cq5" name="quality05.png" path="/HeadQuality/" exported="true"/>
+    <image id="8z99hz9cq6" name="fragment11.png" path="/fragment/" exported="true"/>
+    <image id="8z99hz9cq7" name="fragment10.png" path="/fragment/" exported="true"/>
+    <image id="gm4vhz9cq8" name="general_034.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="gm4vhz9cq9" name="general_035.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="b9d6hz9cqa" name="general_013.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="b9d6hz9cqb" name="general_014.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="b9d6hz9cqc" name="general_015.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="b9d6hz9cqd" name="general_019.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="sn5chz9cqe" name="general_036.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="sn5chz9cqf" name="general_037.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="sn5chz9cqg" name="general_038.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="sn5chz9cqh" name="general_040.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="sn5chz9cqi" name="general_039.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="sn5chz9cqj" name="general_045.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="sn5chz9cqk" name="general_046.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="sn5chz9cql" name="general_047.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="sn5chz9cqm" name="general_048.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="x5vthz9cqn" name="general_102.png" path="/HeadPortrait/new/"/>
+    <image id="bv45hz9cqo" name="general_041.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="m5yhhz9cqp" name="general_049.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="rhyuhz9cqq" name="general_050.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="clbohz9cqr" name="monster_040.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="clbohz9cqs" name="monster_050.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="clbohz9cqt" name="monster_060.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="clbohz9cqu" name="monster_010.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="clbohz9cqv" name="monster_020.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="clbohz9cqw" name="monster_030.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="eon0hz9cqx" name="general_021.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="eon0hz9cqy" name="general_022.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="eon0hz9cqz" name="general_023.png" path="/HeadPortrait/new/" exported="true"/>
+    <image id="eon0hz9cr0" name="general_024.png" path="/HeadPortrait/new/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

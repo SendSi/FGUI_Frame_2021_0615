@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,85" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n2_mloz" name="icon" xy="3,8" size="143,69" url="ui://2r331opvmloz1ygcfh9" fill="scale" color="#cccccc">
+      <gearColor controller="state" pages="0" values="#cccccc" default="#ffffff"/>
+    </loader>
+    <text id="n1_9itd" name="title" xy="11,26" size="122,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#3b3b3b" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="已领取"/>
+  </displayList>
+  <Button/>
+</component>

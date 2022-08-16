@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="43,43" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_lmsc" name="n0" src="9495z" fileName="images/common_btn_main_1.png" pkg="2r331opv" xy="0,0" pivot="0.5,0.5" size="44,44">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n1_lmsc" name="icon" xy="9,9" size="25,25" url="ui://2r331opv12fw9ci8" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

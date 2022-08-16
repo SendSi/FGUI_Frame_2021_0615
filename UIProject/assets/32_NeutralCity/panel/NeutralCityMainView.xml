@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="tab1" pages="0,,1,,2," selected="0">
+    <remark page="0" value="联盟奖励"/>
+    <remark page="1" value="职位奖励"/>
+    <remark page="2" value="排名奖励"/>
+  </controller>
+  <controller name="name_position" pages="0,,1,,2," selected="2"/>
+  <controller name="mame_colour" pages="0,,1," selected="1">
+    <remark page="0" value="白色"/>
+    <remark page="1" value="绿色"/>
+  </controller>
+  <controller name="explain" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n6_w84w" name="n6" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n67_g6ic" name="n67" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="111,38" group="n8_w84w"/>
+    <component id="n81_o7ws" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1152,42" size="80,80" group="n8_w84w"/>
+    <text id="n82_ebe4" name="title" xy="400,70" pivot="0.5,0.5" size="608,46" group="n8_w84w" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="首战奖励"/>
+    <loader id="n84_ebe4" name="bg" xy="229,136" size="964,510" group="n8_w84w" url="ui://qnrrapjrsvx3hz9d6i">
+      <gearIcon controller="tab1" pages="1,2" values="ui://qnrrapjrsvx3hz9d6j|ui://qnrrapjrsvx3hz9d6j" default="ui://qnrrapjrsvx3hz9d6i"/>
+    </loader>
+    <loader3D id="n101_s3vb" name="role" xy="392,541" pivot="0.5,0.5" size="183,117" group="n8_w84w" scale="0.75,0.75" url="ui://SpinePackage/general_006" animation="" skin="">
+      <gearDisplay2 controller="tab1" pages="1,2" condition="0"/>
+    </loader3D>
+    <list id="n76_g6ic" name="tab_list1" xy="42,135" size="166,360" group="n8_w84w" overflow="hidden" lineGap="10" defaultItem="ui://2r331opvebe41qp8vcw" selectionController="tab1">
+      <item title="联盟奖励" name="联盟奖励"/>
+      <item title="职位奖励"/>
+      <item title="排名奖励"/>
+    </list>
+    <image id="n90_s3vb" name="n90" src="bumchz9d7x" fileName="images/images_new/windowBg_new/negative_bg01.png" pkg="2r331opv" xy="549,590" pivot="0.5,0.5" size="311,36" group="n100_s3vb" color="#000000">
+      <relation target="n91_s3vb" sidePair="width-width"/>
+    </image>
+    <image id="n88_s3vb" name="n88" src="bumchz9d7x" fileName="images/images_new/windowBg_new/negative_bg01.png" pkg="2r331opv" xy="492,168" pivot="0.5,0.5" size="428,36" group="n100_s3vb" color="#000000">
+      <relation target="n89_s3vb" sidePair="width-width"/>
+    </image>
+    <image id="n92_s3vb" name="n92" src="svx3hz9d6z" fileName="images/negative03.png" xy="523,304" size="365,215" group="n100_s3vb" aspect="true"/>
+    <image id="n93_s3vb" name="n93" src="s3vb1ygcfe4" fileName="images/bg00.png" xy="506,211" size="344,279" group="n100_s3vb"/>
+    <loader id="n94_s3vb" name="name_bg" xy="509,487" pivot="0.5,0.5" size="396,106" group="n100_s3vb" url="ui://qnrrapjrsvx3hz9d6w" align="center">
+      <gearXY controller="name_position" pages="0,1,2" values="508,503|509,503|509,487"/>
+      <gearIcon controller="name_position" pages="0,1" values="ui://qnrrapjrsvx3hz9d6u|ui://qnrrapjrsvx3hz9d6v" default="ui://qnrrapjrsvx3hz9d6w"/>
+    </loader>
+    <text id="n89_s3vb" name="explainLbl" xy="514,172" pivot="0.5,0.5" size="384,29" group="n100_s3vb" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" singleLine="true" text="首次占领城市，盟主可分配以下称号给成员"/>
+    <text id="n91_s3vb" name="attributeLbl" xy="571,594" pivot="0.5,0.5" size="267,29" group="n100_s3vb" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" singleLine="true" text="铭牌属性：所有英雄防御+1%"/>
+    <text id="n95_s3vb" name="nameLbl" xy="603,522" pivot="0.5,0.5" size="207,34" group="n100_s3vb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#71ff78" align="center" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="峡谷之王八个字吧">
+      <gearColor controller="mame_colour" pages="0" values="#ffffff,#000000" default="#71ff78,#000000"/>
+    </text>
+    <component id="n83_ebe4" name="explaBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="468,165" size="41,42" group="n100_s3vb">
+      <relation target="n89_s3vb" sidePair="right-left"/>
+      <Button controller="explain" page="1"/>
+    </component>
+    <component id="n96_s3vb" name="content" src="s3vb1ygcfe5" fileName="components/explain.xml" xy="472,217" size="467,326" group="n100_s3vb">
+      <gearDisplay controller="explain" pages="1"/>
+    </component>
+    <group id="n100_s3vb" name="tan1_0" xy="468,165" size="471,461" group="n8_w84w" advanced="true">
+      <gearDisplay controller="tab1" pages="0"/>
+    </group>
+    <image id="n106_s3vb" name="n106" src="s3vb1ygcfe6" fileName="images/bg23.png" xy="702,154" size="474,492" group="n102_s3vb" alpha="0.5"/>
+    <image id="n107_s3vb" name="n107" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="716,165" size="448,33" group="n102_s3vb" color="#000000"/>
+    <text id="n108_s3vb" name="explainLbl_01" xy="717,167" pivot="0.5,0.5" size="446,29" group="n102_s3vb" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#8ef3ff" align="center" autoSize="none" text="每次占领城市，按照职位可获得以下奖励">
+      <gearText controller="tab1" pages="2" values="首次占领城市，按照攻城值排名获得以下奖励" default="每次占领城市，按照职位可获得以下奖励"/>
+    </text>
+    <loader id="n104_s3vb" name="word" xy="234,476" size="482,163" group="n102_s3vb" url="ui://qnrrapjrsvx3hz9d6m">
+      <gearIcon controller="tab1" pages="2" values="ui://qnrrapjrsvx3hz9d6n" default="ui://qnrrapjrsvx3hz9d6m"/>
+    </loader>
+    <list id="n109_s3vb" name="position_list" xy="712,205" size="454,426" group="n102_s3vb" overflow="scroll" defaultItem="ui://qnrrapjrmo0r1ygcfes">
+      <gearDisplay controller="tab1" pages="1"/>
+      <item icon="ui://qnrrapjrsvx3hz9d74"/>
+      <item icon="ui://qnrrapjrsvx3hz9d73"/>
+      <item icon="ui://qnrrapjrsvx3hz9d72"/>
+      <item icon="ui://qnrrapjrsvx3hz9d71"/>
+      <item icon="ui://qnrrapjrsvx3hz9d70"/>
+    </list>
+    <list id="n110_s3vb" name="ranking_list" xy="712,205" size="454,353" group="n102_s3vb" overflow="scroll" defaultItem="ui://qnrrapjrmo0r1ygcfet">
+      <gearDisplay controller="tab1" pages="2"/>
+      <item icon="ui://2r331opvsvx3hz9d75"/>
+      <item icon="ui://2r331opvsvx3hz9d76"/>
+      <item icon="ui://2r331opvsvx3hz9d77"/>
+      <item title="参与奖"/>
+    </list>
+    <component id="n111_s3vb" name="rankingBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="851,573" size="180,60" group="n102_s3vb">
+      <gearDisplay controller="tab1" pages="2"/>
+      <Button title="查看排行"/>
+    </component>
+    <group id="n102_s3vb" name="tab1_1and2" xy="234,154" size="942,492" group="n8_w84w" advanced="true">
+      <gearDisplay controller="tab1" pages="1,2"/>
+    </group>
+    <group id="n8_w84w" name="activity" xy="42,38" size="1249,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

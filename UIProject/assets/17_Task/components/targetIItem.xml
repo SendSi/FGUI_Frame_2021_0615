@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1089,142" pivot="0.5,0.5" designImage="ui://zezobey9eaah3" designImageOffsetX="-205" designImageOffsetY="-504">
+  <controller name="state" pages="3,comp,1,goto,2,ing,0,canReward" selected="0">
+    <remark page="0" value="完成了"/>
+    <remark page="1" value="前往"/>
+    <remark page="2" value="进行中"/>
+    <remark page="3" value="可领取"/>
+  </controller>
+  <displayList>
+    <image id="n0_eh0p" name="n0" src="eaah4" fileName="images/task_bg01.png" xy="7,3" size="1082,136">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <loader id="n13_eaah" name="icon" xy="45,20" size="98,98" aspect="true" url="ui://zezobey9eaah7" align="center" vAlign="middle" fill="scale"/>
+    <image id="n11_eaah" name="n11" src="o283z9co2" fileName="images/images_new/com_bg_mask6.png" pkg="2r331opv" xy="167,77" size="630,39" alpha="0.25"/>
+    <text id="n1_eh0p" name="taskInfor" xy="167,10" size="510,39" font="ui://2r331opvlwft3" fontSize="28" color="#f6ed8b" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="章节描述"/>
+    <text id="n2_eh0p" name="n2" xy="170,81" size="82,35" fontSize="21" color="#75e369" autoSize="none" text="奖励"/>
+    <list id="n3_eh0p" name="resuitList" xy="239,71" size="694,51" layout="flow_hz" overflow="scroll" scrollBarFlags="32" colGap="9" lineItemCount="3" defaultItem="ui://zezobey9n1mwv">
+      <relation target="" sidePair="rightext-right%"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n4_eh0p" name="txtProgress" xy="655,23" pivot="0.5,0.5" size="159,33" font="ui://2r331opvlwft3" fontSize="20" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" text="20[color=#ACC7D5]/20[/color]"/>
+    <component id="n6_eh0p" name="btnCanReward" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="834,46" size="186,54">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+      <Button title="领取奖励" titleFontSize="32" icon="ui://2r331opveaahz9co9"/>
+    </component>
+    <component id="n7_eh0p" name="btnGoto" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="834,46" size="186,54">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+      <Button title="前往" icon="ui://2r331opvc4umz9cna"/>
+    </component>
+    <component id="n8_eh0p" name="btnIng" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="828,44" size="198,58">
+      <gearDisplay controller="state" pages="2"/>
+      <relation target="" sidePair="right-right"/>
+      <Button title="进行中" titleColor="#fff47c" titleFontSize="30" icon="ui://2r331opveaahz9coa"/>
+    </component>
+    <component id="n10_nrgr" name="Effect_ui_17_TaskItem" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="902,48" touchable="false"/>
+    <text id="n12_eaah" name="taskLbl" xy="151,38" size="632,46" fontSize="21" color="#eabe72" vAlign="middle" autoSize="none" text="（1000/3000）"/>
+  </displayList>
+</component>

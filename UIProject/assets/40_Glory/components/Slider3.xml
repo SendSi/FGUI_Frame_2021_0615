@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,20" extention="Slider">
+  <displayList>
+    <loader id="n9_h30t" name="bg" xy="0,0" size="100,20" url="ui://e1uzapmrh30t1iy5bhn" fill="scaleFree"/>
+    <graph id="n10_h30t" name="bar" xy="4,4" size="96,12" type="rect" lineSize="0" fillColor="#ffff9b42"/>
+  </displayList>
+  <Slider titleType="value" wholeNumbers="true" changeOnClick="false"/>
+</component>

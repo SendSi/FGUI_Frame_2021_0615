@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="zezobey9">
+  <resources>
+    <component id="eaah5" name="targetPbr.xml" path="/components/" exported="true"/>
+    <component id="eaah6" name="targetCom.xml" path="/components/" exported="true"/>
+    <image id="eaah7" name="task_icon01.png" path="/images/" exported="true"/>
+    <image id="eaah8" name="task_icon02.png" path="/images/" exported="true"/>
+    <image id="eaah9" name="task_icon03.png" path="/images/" exported="true"/>
+    <image id="eaaha" name="task_icon04.png" path="/images/" exported="true"/>
+    <image id="eaahb" name="task_icon05.png" path="/images/" exported="true"/>
+    <component id="eaahd" name="targetIItem.xml" path="/components/" exported="true"/>
+    <component id="eaahe" name="taskNextBtn.xml" path="/components/" exported="true"/>
+    <component id="eaahf" name="task_prop.xml" path="/components/" exported="true"/>
+    <component id="eaahg" name="targetRewBtn.xml" path="/components/" exported="true"/>
+    <component id="eaahh" name="taskTipsView.xml" path="/panel/" exported="true"/>
+    <component id="eaahi" name="taskTipsItem.xml" path="/components/" exported="true"/>
+    <component id="n1mwv" name="taskTopAdd.xml" path="/components/" exported="true"/>
+    <component id="eh0px" name="TaskChapterView.xml" path="/panel/" exported="true"/>
+    <image id="wyws3" name="chapter_bg_01.png" path="/images/chapter/" exported="true"/>
+    <image id="wyws5" name="chapter_bg_02.png" path="/images/chapter/" exported="true"/>
+    <image id="wyws6" name="chapter_bg_03.png" path="/images/chapter/" exported="true" scale="9grid" scale9grid="4,1,5,0"/>
+    <image id="wyws4" name="chapter_bg_1.jpg" path="/images/chapter/" exported="true" atlas="alone_npot"/>
+    <image id="plmmz" name="chapter_bg_2.jpg" path="/images/chapter/" exported="true" atlas="alone_npot"/>
+    <image id="plmmy" name="chapter_bg_3.jpg" path="/images/chapter/" exported="true" atlas="alone_npot"/>
+    <image id="wywsa" name="number_1.png" path="/images/chapter/" exported="true"/>
+    <image id="wywsj" name="number_10.png" path="/images/chapter/" exported="true"/>
+    <image id="wywsb" name="number_2.png" path="/images/chapter/" exported="true"/>
+    <image id="wywsc" name="number_3.png" path="/images/chapter/" exported="true"/>
+    <image id="wywsd" name="number_4.png" path="/images/chapter/" exported="true"/>
+    <image id="wywse" name="number_5.png" path="/images/chapter/" exported="true"/>
+    <image id="wywsf" name="number_6.png" path="/images/chapter/" exported="true"/>
+    <image id="wywsg" name="number_7.png" path="/images/chapter/" exported="true"/>
+    <image id="wywsh" name="number_8.png" path="/images/chapter/" exported="true"/>
+    <image id="wywsi" name="number_9.png" path="/images/chapter/" exported="true"/>
+    <image id="wywsn" name="word_01.png" path="/images/chapter/" exported="true"/>
+    <image id="plmm10" name="word_02.png" path="/images/chapter/" exported="true"/>
+    <image id="plmm11" name="word_03.png" path="/images/chapter/" exported="true"/>
+    <component id="j3xs1b" name="dailogueItem.xml" path="/components/" exported="true"/>
+    <component id="j3xs19" name="dailogue_chooseItem.xml" path="/components/" exported="true"/>
+    <component id="t7d0go" name="btnCheck.xml" path="/components/" exported="true"/>
+    <image id="g820z9cog" name="dialogbox_btn_option01.png" path="/images/dialogue/" exported="true" scale="9grid" scale9grid="45,0,141,40"/>
+    <image id="g820z9coh" name="dialogbox_btn_option02.png" path="/images/dialogue/" exported="true" scale="9grid" scale9grid="46,0,140,40"/>
+    <image id="g820z9coi" name="dialogbox_flag01.png" path="/images/dialogue/" exported="true"/>
+    <image id="g820z9coj" name="dialogbox_flag02.png" path="/images/dialogue/" exported="true"/>
+    <image id="g820z9cok" name="dialogbox_flag03.png" path="/images/dialogue/" exported="true"/>
+    <image id="g820z9col" name="dialogbox_flag04.png" path="/images/dialogue/" exported="true"/>
+    <image id="g820z9com" name="dialogbox_bg_spot.png" path="/images/dialogue/" exported="true"/>
+    <component id="vqddhz9cx5" name="blankBtn.xml" path="/components/" exported="true"/>
+    <component id="s21ohz9cx6" name="TaskMainView2.xml" path="/panel/" exported="true"/>
+    <component id="z04phz9cxh" name="taskItem2.xml" path="/components/" exported="true"/>
+    <component id="z04phz9cxi" name="taskTypeIcon.xml" path="/components/" exported="true"/>
+    <component id="tc73hz9cxm" name="DialogueMainView.xml" path="/panel/" exported="true"/>
+    <image id="tc73hz9cxn" name="task_icon_next.png" path="/images/" exported="true"/>
+    <image id="tc73hz9cxo" name="task_icon_next2.png" path="/images/" exported="true"/>
+    <image id="lcq7hz9cxt" name="task__bg_chapter.png" path="/images/" exported="true" scale9grid="54,0,4,22"/>
+    <component id="lcq7hz9cxv" name="taskItem.xml" path="/components/" exported="true"/>
+    <image id="csb4hz9cxz" name="word_04.png" path="/images/chapter/" exported="true" atlas="alone_npot"/>
+    <image id="csb4hz9cy0" name="word_05.png" path="/images/chapter/" exported="true"/>
+    <image id="csb4hz9cy1" name="word_06.png" path="/images/chapter/" exported="true"/>
+    <image id="csb4hz9cy2" name="word_07.png" path="/images/chapter/" exported="true"/>
+    <image id="csb4hz9cy3" name="word_08.png" path="/images/chapter/" exported="true"/>
+    <image id="qzkthz9cy4" name="chapter_bg_4.jpg" path="/images/chapter/" exported="true" atlas="alone_npot"/>
+    <image id="qzkthz9cy5" name="chapter_bg_5.jpg" path="/images/chapter/" exported="true" atlas="alone_npot"/>
+    <image id="qzkthz9cy6" name="chapter_bg_6.jpg" path="/images/chapter/" exported="true" atlas="alone_npot"/>
+    <image id="qzkthz9cy7" name="chapter_bg_7.jpg" path="/images/chapter/" exported="true" atlas="alone_npot"/>
+    <image id="qzkthz9cy8" name="chapter_bg_8.jpg" path="/images/chapter/" exported="true" atlas="alone_npot"/>
+    <image id="fwxrhz9cya" name="task_bg1.png" path="/images/" exported="true"/>
+    <image id="fwxrhz9cyb" name="task_bg2.png" path="/images/" exported="true"/>
+    <image id="htmuhz9cyc" name="task_bg_bubble01.png" path="/images/" exported="true" scale="9grid" scale9grid="69,1,8,61"/>
+    <image id="htmuhz9cyd" name="task_bg3.png" path="/images/" exported="true"/>
+    <image id="htmuhz9cye" name="task_bg2_sel.png" path="/images/" exported="true"/>
+    <image id="htmuhz9cyg" name="task_bg1_sel.png" path="/images/" exported="true"/>
+    <image id="htmuhz9cyh" name="task_bg4.png" path="/images/" exported="true"/>
+    <component id="htmuhz9cyi" name="targetRewNum.xml" path="/components/" exported="true"/>
+    <component id="htmuhz9cyk" name="targetRewBtn1.xml" path="/components/" exported="true"/>
+    <image id="htmuhz9cyl" name="task_bg5.png" path="/images/" exported="true"/>
+    <image id="htmuhz9cym" name="task_bg.png" path="/images/" exported="true"/>
+    <image id="htmuhz9cyn" name="task_bg6.png" path="/images/" exported="true"/>
+    <component id="sz9l1ygcfmq" name="taskBubbling02.xml" path="/components/" exported="true"/>
+    <component id="r63y1ygcfoj" name="TaskTipViewItem.xml" path="/panel/" exported="true"/>
+    <image id="rifu1ygcfol" name="task_bg7.png" path="/images/" exported="true"/>
+    <component id="b9bj1ygcfom" name="DialogueBubbleView.xml" path="/panel/" exported="true"/>
+    <component id="hgjr1ygcfon" name="dialogue_btn_close.xml" path="/components/"/>
+    <image id="t5st1ygcfoo" name="chapter_bg_0.png" path="/images/chapter/" exported="true"/>
+    <image id="t5st1ygcfop" name="word_09.png" path="/images/chapter/" exported="true"/>
+    <image id="t5st1ygcfoq" name="word_10.png" path="/images/chapter/" exported="true"/>
+    <image id="t5st1ygcfor" name="word_11.png" path="/images/chapter/" exported="true"/>
+    <image id="t5st1ygcfos" name="word_12.png" path="/images/chapter/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

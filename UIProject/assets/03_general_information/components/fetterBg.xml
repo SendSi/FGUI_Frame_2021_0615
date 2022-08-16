@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="934,647" overflow="hidden" mask="n38_bwlb">
+  <displayList>
+    <image id="n37_nsww" name="n37" src="bwlb1iy5bd8" fileName="images/bg.png" xy="0,0">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n38_bwlb" name="n38" src="bwlb1iy5bd8" fileName="images/bg.png" xy="0,0" color="#000000"/>
+  </displayList>
+</component>

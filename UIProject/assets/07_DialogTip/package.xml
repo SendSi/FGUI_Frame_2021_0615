@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="utp01xia">
+  <resources>
+    <component id="q1qg1" name="FloatTipView.xml" path="/" exported="true"/>
+    <component id="q1qg2" name="TipItem.xml" path="/" exported="true"/>
+    <component id="m79t2l" name="DialogTip1View.xml" path="/" exported="true"/>
+    <component id="m79t16" name="DialogTip2View.xml" path="/" exported="true"/>
+    <component id="d7y82n" name="DialogTipLineView.xml" path="/" exported="true"/>
+    <component id="xse52o" name="DialogTipToggleView.xml" path="/" exported="true"/>
+    <component id="ix8t2r" name="DialogBuyView.xml" path="/" exported="true"/>
+    <component id="plmm2t" name="ExplainTipView.xml" path="/" exported="true"/>
+    <component id="d4a62v" name="DialogBuyConfirmView.xml" path="/" exported="true"/>
+    <component id="ykww2w" name="UsePropView.xml" path="/" exported="true"/>
+    <component id="tbod38" name="contentTxt.xml" path="/components/"/>
+    <component id="spte39" name="DialogPropNotEnough.xml" path="/" exported="true"/>
+    <component id="9g013a" name="Items.xml" path="/components/" exported="true"/>
+    <component id="lbxx3c" name="dropItem.xml" path="/" exported="true"/>
+    <component id="ykwwkw" name="useProp_Slider4.xml" path="/components/" exported="true"/>
+    <component id="jdqkhz9cya" name="DialogBtnListView.xml" path="/" exported="true"/>
+    <component id="jdqkkx" name="DialogCheckInputView.xml" path="/" exported="true"/>
+    <component id="ibmrz9cn8" name="DialogTipsSingleDescView.xml" path="/" exported="true"/>
+    <component id="10473hz9cyu" name="DialogResultView.xml" path="/DialogResultView/" exported="true"/>
+    <component id="eznb1iy5bbi" name="DialogTip3View.xml" path="/" exported="true"/>
+    <component id="poaz1iy5bbj" name="DialogTip4View.xml" path="/" exported="true"/>
+    <component id="bwlb1iy5bbl" name="DialogNameView.xml" path="/" exported="true"/>
+    <component id="bwlb1iy5bbn" name="DialogBuyView3.xml" path="/" exported="true"/>
+    <component id="esvr1iy5bbo" name="DialogTipsAttView.xml" path="/" exported="true"/>
+    <component id="ldbz1iy5bbp" name="tipsAttItem.xml" path="/components/" exported="true"/>
+    <component id="10xg71iy5bbq" name="GetWayViewTemp.xml" path="/" exported="true"/>
+    <component id="10xg71iy5bbt" name="GetWayItemTemp.xml" path="/components/" exported="true"/>
+    <component id="9232dy" name="DialogTipsView.xml" path="/" exported="true"/>
+    <component id="t2qk1iy5bbq" name="getPbr.xml" path="/components/" exported="true"/>
+    <component id="jo5i1iy5bbr" name="DialogCommonResultView.xml" path="/DialogResultView/" exported="true"/>
+    <component id="l9c51ygcfes" name="DialogRewardView.xml" path="/DialogResultView/" exported="true"/>
+    <component id="fx9i1ygcfet" name="CheckpointResView.xml" path="/DialogResultView/" exported="true"/>
+    <component id="suuv1ygcfeu" name="DialogTipsHasCurrencyView.xml" path="/" exported="true"/>
+    <component id="t6g91ygcfhr" name="currencyItem.xml" path="/components/" exported="true"/>
+    <component id="ik571ygcfew" name="animationMainView.xml" path="/" exported="true"/>
+    <component id="b0uj1ygcfhs" name="CheckInDialogTipView.xml" path="/" exported="true"/>
+    <component id="vnkq1ygcfht" name="DialogCityUpgradeView.xml" path="/DialogResultView/" exported="true"/>
+    <component id="sumv1ygcfhu" name="DialogTip6View.xml" path="/" exported="true"/>
+    <component id="uckw1ygcfhv" name="MoppingUp.xml" path="/" exported="true"/>
+    <component id="hsk61ygcfhw" name="DialogTip7View.xml" path="/"/>
+    <component id="hsk61ygcfhx" name="rule.xml" path="/" exported="true"/>
+    <component id="p6fy1ygcfhy" name="Picture_information.xml" path="/"/>
+    <component id="ntk51ygcfhz" name="TipItem01.xml" path="/" exported="true"/>
+    <component id="ntk51ygcfi0" name="attribute001.xml" path="/" exported="true"/>
+    <component id="oojm1ygcfi1" name="DialogBarrierView.xml" path="/DialogResultView/" exported="true"/>
+    <component id="g17g1ygcfi2" name="Item1.xml" path="/components/" exported="true"/>
+    <component id="l1qp1ygcfi4" name="KillTipItem.xml" path="/" exported="true"/>
+    <component id="pxy31ygcfi3" name="DialogTipCoordinateView.xml" path="/" exported="true"/>
+    <component id="pxy31ygcfmu" name="posItem.xml" path="/components/" exported="true"/>
+    <component id="wb0l1ygcfmv" name="DialogItemListView.xml" path="/" exported="true"/>
+    <component id="x5vt1ygcfmw" name="upgradeBg.xml" path="/DialogResultView/" exported="true"/>
+    <component id="nx3n1ygcfmw" name="DialogObtainView.xml" path="/DialogResultView/" exported="true"/>
+    <component id="nx3n1ygcfmx" name="obtainItems.xml" path="/components/" exported="true"/>
+    <font id="ml181ygcfmy" name="gold_font.fnt" path="/" exported="true"/>
+    <image id="ml181ygcfmz" name="0.png" path="/cityupgrade/" exported="true"/>
+    <image id="ml181ygcfn0" name="1.png" path="/cityupgrade/" exported="true"/>
+    <image id="ml181ygcfn1" name="2.png" path="/cityupgrade/" exported="true"/>
+    <image id="ml181ygcfn2" name="3.png" path="/cityupgrade/" exported="true"/>
+    <image id="ml181ygcfn3" name="4.png" path="/cityupgrade/" exported="true"/>
+    <image id="ml181ygcfn4" name="5.png" path="/cityupgrade/" exported="true"/>
+    <image id="ml181ygcfn5" name="6.png" path="/cityupgrade/" exported="true"/>
+    <image id="ml181ygcfn6" name="7.png" path="/cityupgrade/" exported="true"/>
+    <image id="ml181ygcfn7" name="8.png" path="/cityupgrade/" exported="true"/>
+    <image id="ml181ygcfn8" name="9.png" path="/cityupgrade/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

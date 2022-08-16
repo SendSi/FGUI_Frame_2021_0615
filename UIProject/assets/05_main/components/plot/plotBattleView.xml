@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false">
+  <controller name="colour" pages="0,,1," selected="0">
+    <remark page="0" value="白"/>
+    <remark page="1" value="红"/>
+  </controller>
+  <displayList>
+    <component id="n0_ky14" name="returnBtn" src="n6021qp8vcy" fileName="components/components_new/com_btn_return.xml" pkg="2r331opv" xy="2,2" size="85,76"/>
+    <image id="n21_t18r" name="n21" src="za6y1ygcgmn" fileName="images/images_new/windowBg_new/welfare_btn_bg23.png" pkg="2r331opv" xy="504,11" pivot="0.5,0.5" size="326,39" alpha="0.7" color="#000000">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <component id="n14_lr8b" name="monsterHp" src="lr8b1ygcfjo" fileName="components/plot/monsterHp.xml" xy="344,59">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n18_p5sz" name="task" src="p5sz1ygcfn3" fileName="components/components_new/plot/plot_task.xml" xy="5,136" size="254,253"/>
+    <component id="n17_v3cc" name="plotSkill" src="cbn71ygcflu" fileName="components/plot/plotSkill.xml" xy="9,497"/>
+    <component id="n19_n9h9" name="automaticBtn" src="n9h9k" fileName="components/components_new/plot/plotSwitchBtn1.xml" xy="1165,38">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <text id="n20_t18r" name="time" xy="496,12" pivot="0.5,0.5" size="341,36" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,2" text="倒计时00:00">
+      <gearColor controller="colour" pages="0" values="#ffffff,#000000" default="#ff757b,#000000"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+</component>

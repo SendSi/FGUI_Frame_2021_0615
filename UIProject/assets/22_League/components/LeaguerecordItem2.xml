@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="92,30" designImageOffsetX="-262" designImageOffsetY="-306" designImageLayer="1">
+  <displayList>
+    <loader id="n22_mdgr" name="icon" xy="0,1" size="28,28" aspect="true" url="ui://tsbe09ddmz4wb" fill="scale"/>
+    <text id="n4_i5fm" name="title" xy="28,0" size="63,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="right" ubb="true" singleLine="true" autoClearText="true" text="12345"/>
+  </displayList>
+</component>

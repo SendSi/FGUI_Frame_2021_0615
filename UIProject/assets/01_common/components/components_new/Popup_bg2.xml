@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,460">
+  <displayList>
+    <image id="n0_bik7" name="n0" src="lfqnhz9d6y" fileName="images/images_new/com_bg_popup04.png" xy="0,0" size="800,460">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label">
+  <controller name="page" pages="0,,1,,2," selected="0">
+    <remark page="0" value="未征兵"/>
+    <remark page="1" value="征兵中"/>
+    <remark page="2" value="已满员"/>
+  </controller>
+  <displayList>
+    <component id="n2_kwe9" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,-1" size="1665,752">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n113_wnez" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="623,7">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n83_f6no" name="n83" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n60_xx14"/>
+    <text id="n84_f6no" name="title" xy="403,70" pivot="0.5,0.5" size="497,46" group="n60_xx14" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" text="训练营"/>
+    <image id="n85_f6no" name="n85" src="f6nohz9cto" fileName="images/bg/Conscription_bg.jpg" xy="198,145" size="937,514" group="n60_xx14"/>
+    <loader id="n95_g9ny" name="icon" xy="287,210" size="469,414" group="n60_xx14" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n90_f6no" name="armIcon" xy="719,233" size="36,36" group="n80_vey3" aspect="true" visible="false" url="ui://2r331opvqdf6hz9cua" align="center" vAlign="middle" fill="scale" color="#fefbb9"/>
+    <image id="n105_skl3" name="n105" src="skl3hz9d2r" fileName="images/bg_main04.png" xy="720,217" group="n80_vey3"/>
+    <text id="n66_v96q" name="capacityLbl" xy="829,303" size="112,32" group="n80_vey3" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#9fcbdb" align="right" text="Reserve：">
+      <relation target="n67_v96q" sidePair="left-left"/>
+    </text>
+    <text id="n67_v96q" name="capacityCount" xy="930,303" size="104,32" group="n80_vey3" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" autoClearText="true" text="19k/4000"/>
+    <group id="n80_vey3" name="n80" xy="719,217" size="415,128" group="n60_xx14" advanced="true"/>
+    <image id="n96_g9ny" name="n96" src="cmlrhz9cym" fileName="images/images_new/com_bg_tips01.png" pkg="2r331opv" xy="680,370" size="441,117" group="n97_g9ny" alpha="0.6"/>
+    <component id="n53_ms13" name="slider" src="v96qhz9ck2" fileName="components/components_new/main/functionSdr.xml" xy="698,389" size="308,34" group="n97_g9ny">
+      <gearDisplay controller="page" pages="0"/>
+      <ProgressBar max="100"/>
+    </component>
+    <text id="n59_ln1d" name="fullTips" xy="720,413" pivot="0.5,0.5" size="327,45" group="n97_g9ny" font="ui://2r331opvlwft2" fontSize="20" color="#99dad6" align="center" vAlign="middle" leading="-8" autoSize="none" text="The current capacity has reached &#xD;the maximum">
+      <gearDisplay controller="page" pages="2"/>
+    </text>
+    <list id="n87_f6no" name="consumeList" xy="786,439" size="205,40" group="n97_g9ny" layout="row" overflow="scroll" scroll="horizontal" colGap="-23" defaultItem="ui://2r331opvf6nohz9cnx" vAlign="middle" autoClearItems="true">
+      <gearDisplay controller="page" pages="0"/>
+      <item/>
+    </list>
+    <text id="n115_w3nl" name="n115" xy="690,445" size="109,29" group="n97_g9ny" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" text=" 训练消耗：">
+      <gearDisplay controller="page" pages="0"/>
+    </text>
+    <group id="n97_g9ny" name="n97" xy="680,370" size="441,117" group="n60_xx14"/>
+    <component id="n47_hlig" name="pbr" src="vey3hz9ck6" fileName="components/components_new/main/functionPbr.xml" xy="796,398" size="233,24" group="n52_hlig">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n99_qdf6" name="n99" src="ok6zhz9cu3" fileName="images/images_new/com_arms_bg.png" pkg="2r331opv" xy="754,388" size="44,44" group="n52_hlig"/>
+    <text id="n45_hlig" name="sumNum" xy="1036,393" size="84,32" group="n52_hlig" font="ui://2r331opvlwft2" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" autoClearText="true" text="8000"/>
+    <text id="n92_g9ny" name="doneLbl" xy="768,442" size="222,29" group="n52_hlig" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#99dad6" align="right" text="Completed quantity：">
+      <relation target="n93_g9ny" sidePair="left-left"/>
+    </text>
+    <text id="n93_g9ny" name="doneNum" xy="981,441" pivot="0.5,0.5" size="87,29" group="n52_hlig" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#76ee6d" align="center" autoClearText="true" text="6000000"/>
+    <image id="n100_qdf6" name="n100" src="qdf6hz9cub" fileName="images/images_new/com_arms_icon05.png" pkg="2r331opv" xy="754,387" size="44,44" group="n52_hlig"/>
+    <group id="n52_hlig" name="page1" xy="754,387" size="366,84" group="n60_xx14" advanced="true">
+      <gearDisplay controller="page" pages="1"/>
+    </group>
+    <component id="n109_oajf" name="startBtn" src="l6381qp8veh" fileName="components/components_new/com_btn_buy6.xml" pkg="2r331opv" xy="954,548" size="180,62" group="n60_xx14">
+      <gearDisplay controller="page" pages="0"/>
+      <Button title="训练" sound="ui://2r331opvlwft0"/>
+    </component>
+    <component id="n110_oajf" name="atonceBtn" src="d5so1ygcfk6" fileName="components/components_new/com_btn_buy1.xml" pkg="2r331opv" xy="731,548" size="180,62" group="n60_xx14">
+      <gearDisplay controller="page" pages="0"/>
+      <Button title="立即训练" sound="ui://2r331opvlwft0"/>
+    </component>
+    <component id="n111_oajf" name="atOnceBtn" src="d5so1ygcfk6" fileName="components/components_new/com_btn_buy1.xml" pkg="2r331opv" xy="731,548" size="180,62" group="n60_xx14">
+      <gearDisplay controller="page" pages="1"/>
+      <Button title="立即完成" sound="ui://2r331opvlwft0"/>
+    </component>
+    <component id="n94_g9ny" name="cancelBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="954,548" size="180,62" group="n60_xx14">
+      <gearDisplay controller="page" pages="1"/>
+      <Button title="取消训练"/>
+    </component>
+    <component id="n86_f6no" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n60_xx14"/>
+    <group id="n60_xx14" name="win" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n112_wnez" name="playerIcon" src="xoe1n2" fileName="components/components_new/main/main_playerIcon.xml" xy="0,0">
+      <relation target="" sidePair="top-top"/>
+    </component>
+  </displayList>
+</component>

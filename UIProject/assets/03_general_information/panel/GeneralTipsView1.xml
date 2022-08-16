@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="normal"/>
+    <remark page="1" value="none"/>
+  </controller>
+  <displayList>
+    <component id="n2_eznb" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n16_equg" name="n16" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n9_eznb"/>
+    <component id="n18_equg" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n9_eznb" scale="0.8,0.8">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <text id="n17_equg" name="title" xy="434,71" pivot="0.5,0.5" size="466,49" group="n9_eznb" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="1,4" autoClearText="true" text="请选择英魂">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n8_eznb" name="list" xy="229,171" size="888,292" group="n21_equg" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" lineGap="8" colGap="18" defaultItem="ui://4hio38umct1e1iy5bft" autoItemSize="true" scrollItemToViewOnClick="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n19_equg" name="selBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="415,578" group="n21_equg">
+      <Button title="一键选择"/>
+    </component>
+    <component id="n20_equg" name="certainBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="767,578" group="n21_equg">
+      <Button title="确定"/>
+    </component>
+    <component id="n31_equg" name="moreBtn" src="equg1iy5bfo" fileName="components/general_line.xml" xy="1002,615" group="n21_equg"/>
+    <group id="n21_equg" name="nor" xy="229,171" size="897,473" group="n9_eznb" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <image id="n25_equg" name="n25" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="556,264" group="n23_equg" alpha="0.2" color="#97794f"/>
+    <text id="n24_equg" name="dist" xy="434,350" pivot="0.5,0.5" size="466,49" group="n23_equg" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#b16d33" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="当前没有多余的英魂可以消耗 请先获取英魂"/>
+    <component id="n22_equg" name="goBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="586,578" group="n23_equg">
+      <Button title="一键选择"/>
+    </component>
+    <group id="n23_equg" name="nothing" xy="434,264" size="466,376" group="n9_eznb" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <group id="n9_eznb" name="window" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

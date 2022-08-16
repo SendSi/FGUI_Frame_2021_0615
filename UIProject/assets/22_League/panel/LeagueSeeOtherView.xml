@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageOffsetX="-11">
+  <displayList>
+    <component id="n2_nnlh" name="n2" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n48_iejg" name="n48" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n62_iejg"/>
+    <text id="n49_iejg" name="title" xy="376,70" pivot="0.5,0.5" size="582,46" group="n62_iejg" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="联盟信息"/>
+    <image id="n50_iejg" name="n50" src="b3skhz9cxp" fileName="images/league_kraftpaper.png" xy="205,157" size="288,281" group="n62_iejg"/>
+    <component id="n52_iejg" name="flagIcon" src="nnlhhz9d15" fileName="components/flagIcon.xml" xy="225,181" group="n62_iejg" scale="0.8,0.8"/>
+    <image id="n53_iejg" name="n53" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="507,159" size="620,488" group="n62_iejg" alpha="0.6"/>
+    <richtext id="n55_iejg" name="titleNotice" xy="527,171" size="600,36" group="n62_iejg" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" ubb="true" autoSize="none" autoClearText="true" text="联盟"/>
+    <richtext id="n56_iejg" name="txtNotice" xy="525,218" size="586,323" group="n62_iejg" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" leading="0" ubb="true" autoSize="none" autoClearText="true" text="联盟公告巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉">
+      <relation target="n55_iejg" sidePair="topext-bottom"/>
+    </richtext>
+    <component id="n63_iyp0" name="applyBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="530,565" group="n62_iejg">
+      <Button title="申请"/>
+    </component>
+    <component id="n64_iyp0" name="chatBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="731,565" group="n62_iejg">
+      <Button title="联系盟主"/>
+    </component>
+    <component id="n65_iyp0" name="memberBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="932,565" group="n62_iejg">
+      <Button title="联盟成员"/>
+    </component>
+    <component id="n61_iejg" name="inforItem" src="nnlhhz9d1n" fileName="components/leagueInforItem.xml" xy="206,448" group="n62_iejg"/>
+    <component id="n60_iejg" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n62_iejg"/>
+    <group id="n62_iejg" name="n62" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://4hio38umhxd7hz9d6z" designImageAlpha="35">
+  <controller name="RadioGroup" pages="0,,2,,12,,13,,1," selected="0">
+    <remark page="0" value="升级"/>
+    <remark page="1" value="突破"/>
+    <remark page="2" value="技能"/>
+    <remark page="3" value="装备"/>
+    <remark page="4" value="升星"/>
+  </controller>
+  <controller name="power" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n192_tkgc" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n102_c4um" name="bg" xy="0,0" size="1334,750" visible="false" url="ui://2r331opveaahz9co7" align="center" vAlign="middle" fill="scaleNoBorder">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </loader>
+    <image id="n198_btd5" name="platform" src="btd51iy5bf0" fileName="images/hero_bg00.png" xy="135,555">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <image id="n181_hxd7" name="n181" src="hxd7hz9d7j" fileName="images/images_new/title_bg01.png" pkg="2r331opv" xy="0,0" size="549,65" alpha="0.4"/>
+    <component id="n163_npy9" name="EffectRoot_DiTai01" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="520,641" touchable="false"/>
+    <loader3D id="n24_d9gi" name="3d_general" xy="450,564" size="100,100" align="center" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <component id="n97_ob8h" name="effectRoot" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="497,450" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n104_c4um" name="title" xy="152,1" size="422,55" font="ui://2r331opvlwft3" fontSize="40" color="#ffffff" vAlign="bottom" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="4,4" autoClearText="true" text="英雄"/>
+    <component id="n140_xz10" name="shareBtn" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="1257,14" size="65,65">
+      <gearDisplay controller="RadioGroup" pages="0,2,13,1"/>
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2r331opvyhldz9cof"/>
+    </component>
+    <component id="n139_xz10" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0" group="n81_wp0j"/>
+    <component id="n112_q00q" name="EffectHandle_BiaoQianYan_01" src="ayljdv" fileName="components/EffectHandle.xml" pkg="2r331opv" xy="59,128" group="n46_u0wx" customData="63">
+      <gearXY controller="RadioGroup" pages="0,2,12,13,1" values="59,128|150,200|150,290|150,380|150,470"/>
+    </component>
+    <component id="n193_tkgc" name="btn_tab0" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,99" group="n46_u0wx">
+      <Button checked="true" title="升级" icon="ui://4hio38umxz10z9cra" selectedIcon="ui://4hio38umxz10z9cr5" controller="RadioGroup" page="0"/>
+    </component>
+    <component id="n194_tkgc" name="btn_tab1" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,222" group="n46_u0wx">
+      <Button title="突破" icon="ui://4hio38umxz10z9crb" selectedIcon="ui://4hio38umxz10z9cr6" controller="RadioGroup" page="2"/>
+    </component>
+    <component id="n195_tkgc" name="btn_tab2" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,345" group="n46_u0wx">
+      <Button title="技能" icon="ui://4hio38umxz10z9cr4" selectedIcon="ui://4hio38umxz10z9cr9" controller="RadioGroup" page="12"/>
+    </component>
+    <component id="n196_tkgc" name="btn_tab3" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,468" group="n46_u0wx">
+      <Button title="装备" icon="ui://4hio38umxz10z9crd" selectedIcon="ui://4hio38umxz10z9cr8" controller="RadioGroup" page="13"/>
+    </component>
+    <component id="n197_tkgc" name="btn_tab4" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,591" group="n46_u0wx">
+      <Button title="升星" icon="ui://4hio38umxz10z9crc" selectedIcon="ui://4hio38umxz10z9cr7" controller="RadioGroup" page="1"/>
+    </component>
+    <group id="n46_u0wx" name="leftBtn" xy="0,99" size="157,610" group="n81_wp0j" advanced="true"/>
+    <component id="n15_k7pz" name="btn_cut_left" src="k7pz1v" fileName="components/components_new/Button_cut.xml" pkg="2r331opv" xy="162,353" group="n81_wp0j">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <group id="n81_wp0j" name="left" xy="0,0" size="252,709" advanced="true">
+      <relation target="" sidePair="left-left%,top-top"/>
+    </group>
+    <component id="n92_ssbd" name="name_camp" src="ssbdchk" fileName="components/general_new/information_name_camp.xml" pkg="2r331opv" xy="358,443" size="393,156" visible="false">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n117_xw6w" name="levelup" src="xw6wz9cqc" fileName="panel/Component_levelup2.xml" xy="803,0" group="n82_wp0j">
+      <gearDisplay controller="RadioGroup" pages="0,2,12,13,1"/>
+    </component>
+    <component id="n98_onla" name="EffectRoot_ZhaoMu_ZhiYin" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="1045,251" group="n82_wp0j" touchable="false" customData="205">
+      <gearDisplay controller="RadioGroup" pages="0"/>
+    </component>
+    <component id="n14_k7pz" name="btn_cut_right" src="hxd7hz9d7f" fileName="components/components_new/Button_cut2.xml" pkg="2r331opv" xy="753,355" group="n82_wp0j" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <group id="n82_wp0j" name="right" xy="753,0" size="581,750" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <component id="n99_99di" name="offset" src="o4uyfe" fileName="components/components_new/common_btn_07.xml" pkg="2r331opv" xy="0,0" size="1334,750" touchable="false">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n114_gngg" name="Effect_wujiangshenji" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="980,620" pivot="0.5,0.5" size="174,50" touchable="false">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <text id="n172_hxd7" name="hadTitle" xy="237,20" size="172,34" group="n175_hxd7" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffe765" shadowColor="#000000" shadowOffset="2,2" autoClearText="true" text="当前英雄数量："/>
+    <text id="n173_hxd7" name="hadNum" xy="396,20" size="57,34" group="n175_hxd7" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffe765" ubb="true" autoSize="none" shadowColor="#000000" shadowOffset="2,2" singleLine="true" autoClearText="true" text="3"/>
+    <group id="n175_hxd7" name="n175" xy="237,20" size="216,34" group="n174_hxd7" advanced="true">
+      <gearDisplay controller="RadioGroup" pages="1"/>
+    </group>
+    <list id="n133_t4b3" name="startList" xy="307,555" size="406,54" group="n174_hxd7" layout="flow_vt" overflow="scroll" colGap="4" defaultItem="ui://2r331opv104731iy5b91" align="center">
+      <gearDisplay controller="RadioGroup" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n174_hxd7" name="starGroup" xy="237,20" size="476,589"/>
+    <component id="n152_d8di" name="resetBtn" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="1251,3" group="n153_d8di" aspect="true">
+      <Button icon="ui://2r331opvd8dihz9d0z"/>
+    </component>
+    <image id="n177_hxd7" name="n177" src="no3vhz9d6a" fileName="images/images_new/com_bg_resource.png" pkg="2r331opv" xy="1098,22" pivot="1,0" size="120,39" group="n179_hxd7">
+      <relation target="n154_d8di" sidePair="width-width"/>
+    </image>
+    <richtext id="n154_d8di" name="skillItem1" xy="1135,25" pivot="1,0" size="71,32" group="n179_hxd7" font="ui://2r331opvno3vhz9d62" fontSize="22" color="#ffffff" ubb="true" vars="true" singleLine="true" autoClearText="true" text="652,33"/>
+    <image id="n157_d8di" name="n157" src="d8di9ck7" fileName="images/item_statue02.png" pkg="tsbe09dd" xy="1098,15" size="114,114" group="n179_hxd7" aspect="true" scale="0.4,0.4">
+      <relation target="n177_hxd7" sidePair="left-left"/>
+    </image>
+    <group id="n179_hxd7" name="n179" xy="1098,15" size="120,114" group="n153_d8di"/>
+    <image id="n176_hxd7" name="n176" src="no3vhz9d6a" fileName="images/images_new/com_bg_resource.png" pkg="2r331opv" xy="965,22" pivot="1,0" size="120,39" group="n180_hxd7">
+      <relation target="n155_d8di" sidePair="width-width"/>
+    </image>
+    <richtext id="n155_d8di" name="skillItem2" xy="1003,26" pivot="1,0" size="71,32" group="n180_hxd7" font="ui://2r331opvno3vhz9d62" fontSize="22" color="#ffffff" ubb="true" vars="true" singleLine="true" autoClearText="true" text="652,33"/>
+    <image id="n156_d8di" name="n156" src="d8di9ck6" fileName="images/item_statue01.png" pkg="tsbe09dd" xy="966,16" size="113,113" group="n180_hxd7" aspect="true" scale="0.4,0.4">
+      <relation target="n176_hxd7" sidePair="left-left"/>
+    </image>
+    <group id="n180_hxd7" name="n180" xy="965,16" size="120,113" group="n153_d8di" advanced="true">
+      <relation target="n179_hxd7" sidePair="right-left"/>
+    </group>
+    <group id="n153_d8di" name="skillGroup" xy="965,3" size="358,126" advanced="true">
+      <gearDisplay controller="RadioGroup" pages="12"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <component id="n141_xz10" name="armBtn" src="xz10z9crp" fileName="components/inforBtn.xml" xy="188,111">
+      <gearDisplay controller="RadioGroup" pages="0,12,1"/>
+      <relation target="" sidePair="middle-middle"/>
+      <Button title="天赋" icon="ui://4hio38umxz10z9crn"/>
+    </component>
+    <component id="n142_xz10" name="fetterBtn" src="xz10z9crp" fileName="components/inforBtn.xml" xy="188,188" size="131,54">
+      <gearDisplay controller="RadioGroup" pages="0,12,1"/>
+      <gearXY controller="RadioGroup" pages="12" values="188,188" default="188,188"/>
+      <relation target="" sidePair="middle-middle"/>
+      <Button title="羁绊" icon="ui://4hio38umxz10z9cro"/>
+    </component>
+    <component id="n149_d8di" name="talentBtn2" src="hxd7hz9d74" fileName="components/inforBtn2.xml" xy="189,112" size="169,54">
+      <gearDisplay controller="RadioGroup" pages="2"/>
+      <relation target="" sidePair="middle-middle"/>
+      <Button title="卓越天赋" icon="ui://4hio38umdot4hz9czk"/>
+    </component>
+    <component id="n190_l9c5" name="wordCheckBtn" src="xz10z9crp" fileName="components/inforBtn.xml" xy="188,188" size="171,54">
+      <gearDisplay controller="RadioGroup" pages="2"/>
+      <relation target="" sidePair="middle-middle"/>
+      <Button title="词条一阅" icon="ui://4hio38umxz10z9cro"/>
+    </component>
+    <component id="n199_btd5" name="splitBtn" src="xz10z9crp" fileName="components/inforBtn.xml" xy="189,111">
+      <gearDisplay controller="RadioGroup" pages="13"/>
+      <relation target="" sidePair="middle-middle"/>
+      <Button title="分解" icon="ui://4hio38umhxd7hz9d76"/>
+    </component>
+    <component id="n200_btd5" name="bagBtn" src="xz10z9crp" fileName="components/inforBtn.xml" xy="188,188" size="131,54">
+      <gearDisplay controller="RadioGroup" pages="13"/>
+      <gearXY controller="RadioGroup" pages="0,12" values="188,188|188,112" default="188,188"/>
+      <relation target="" sidePair="middle-middle"/>
+      <Button title="背包" icon="ui://4hio38umbtd51iy5bf1"/>
+    </component>
+    <image id="n188_p991" name="n188" src="p9911iy5bbb" fileName="images/hero_bg021.png" xy="193,449" group="n187_hxd7"/>
+    <component id="n183_hxd7" name="breakItem1" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="270,501" group="n187_hxd7"/>
+    <component id="n184_hxd7" name="breakItem2" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="389,530" group="n187_hxd7"/>
+    <component id="n185_hxd7" name="breakItem3" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="531,529" group="n187_hxd7"/>
+    <component id="n186_hxd7" name="breakItem4" src="cwd3z9cqy" fileName="components/break_equipmentItem.xml" xy="651,501" group="n187_hxd7"/>
+    <group id="n187_hxd7" name="breakGroup" xy="193,449" size="624,179" advanced="true">
+      <gearDisplay controller="RadioGroup" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n143_xz10" name="power1" src="xz10z9crr" fileName="components/levelupPower.xml" xy="244,626">
+      <gearLook controller="power" pages="0" values="0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

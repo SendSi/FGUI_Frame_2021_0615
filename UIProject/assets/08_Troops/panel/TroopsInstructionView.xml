@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" designImageLayer="1">
+  <displayList>
+    <component id="n1_m79t" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n15_o283" name="n15" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="111,38" group="n25_mizd"/>
+    <text id="n17_snkg" name="title" xy="389,70" pivot="0.5,0.5" size="620,46" group="n25_mizd" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="部队操作说明"/>
+    <text id="n5_xbay" name="txtTips" xy="280,142" pivot="0.5,0.5" size="842,67" group="n25_mizd" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="升级统帅厅可以解锁更多的部队，获得更多的统帅值加成"/>
+    <list id="n4_xbay" name="troopsList" xy="551,641" pivot="0.5,0.5" size="300,24" group="n25_mizd" layout="row" overflow="hidden" scroll="horizontal" margin="2,0,0,0" colGap="27" defaultItem="ui://jqem9egtshlm1xvobdg" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n23_snkg" name="banner" xy="307,209" pivot="0.5,0.5" size="788,421" group="n25_mizd" url="ui://jqem9egtmizd1ygcfgd" fill="scale" autoSize="true"/>
+    <component id="n21_snkg" name="upBtn" src="jdpjz9cqh" fileName="components/switchBtn.xml" xy="241,401" group="n25_mizd"/>
+    <component id="n22_snkg" name="nextBtn" src="jdpjz9cqh" fileName="components/switchBtn.xml" xy="1115,401" group="n25_mizd">
+      <Button icon="ui://2r331opvj9d91qp8vcj"/>
+    </component>
+    <component id="n11_fchu" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1152,42" group="n25_mizd"/>
+    <list id="n24_snkg" name="tab_list" xy="42,135" size="200,364" group="n25_mizd" overflow="hidden" lineGap="10" defaultItem="ui://2r331opvmw3o1ygcflo">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n25_mizd" name="troopIns" xy="42,38" size="1249,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

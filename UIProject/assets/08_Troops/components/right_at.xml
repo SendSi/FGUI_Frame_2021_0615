@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="670,750" opaque="false">
+  <controller name="showAdd" pages="0,,1," selected="0"/>
+  <controller name="team" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <component id="n264_pl8o" name="btn_tab1" src="jdpjz9cpd" fileName="components/tabButton.xml" xy="210,81" group="n269_pl8o">
+      <Button checked="true" controller="team" page="0"/>
+    </component>
+    <component id="n265_pl8o" name="btn_tab2" src="jdpjz9cpd" fileName="components/tabButton.xml" xy="210,159" group="n269_pl8o">
+      <Button controller="team" page="1"/>
+    </component>
+    <component id="n266_pl8o" name="btn_tab3" src="jdpjz9cpd" fileName="components/tabButton.xml" xy="210,237" group="n269_pl8o">
+      <Button controller="team" page="2"/>
+    </component>
+    <component id="n267_pl8o" name="btn_tab4" src="jdpjz9cpd" fileName="components/tabButton.xml" xy="210,315" group="n269_pl8o">
+      <Button controller="team" page="3"/>
+    </component>
+    <component id="n268_pl8o" name="btn_tab5" src="jdpjz9cpd" fileName="components/tabButton.xml" xy="210,393" group="n269_pl8o">
+      <Button controller="team" page="4"/>
+    </component>
+    <group id="n269_pl8o" name="tab_list" xy="210,81" size="90,402" group="n247_o5d4"/>
+    <image id="n218_o5d4" name="n218" src="poazl4" fileName="images/images_new/windowBg_new/bag_bg01.png" pkg="2r331opv" xy="303,0" size="344,750" group="n247_o5d4" alpha="0.5"/>
+    <component id="n220_o5d4" name="SliderNum" src="m79tg" fileName="components/TroopsMainSliderItem.xml" xy="312,412" size="325,116" group="n247_o5d4"/>
+    <component id="n221_o5d4" name="EffectRoot_zhengbingzhiyin" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="460,425" size="50,57" group="n247_o5d4" touchable="false" customData="116"/>
+    <image id="n224_o5d4" name="n224" src="qajo1ygcgm4" fileName="images/images_new/windowBg_new/welfare_btn_bg12.png" pkg="2r331opv" xy="303,358" size="344,52" group="n247_o5d4"/>
+    <loader id="n225_o5d4" name="reserveicon" xy="308,368" size="48,48" group="n247_o5d4" aspect="true" scale="0.8,0.8" visible="false" url="ui://jqem9egto5d41xvobde"/>
+    <text id="n226_o5d4" name="reservetitle" xy="318,367" size="76,34" group="n247_o5d4" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,3" text="预备兵"/>
+    <text id="n227_o5d4" name="reservenum" xy="407,363" size="93,79" group="n247_o5d4" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffea68" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,3" autoClearText="true" text="64480&#xA;"/>
+    <component id="n228_o5d4" name="reserveBtn" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="584,361" size="51,46" group="n247_o5d4" scale="0.82,0.82">
+      <Button icon="ui://2r331opvceggz9cop"/>
+    </component>
+    <image id="n230_o5d4" name="n230" src="xbfy1ygcfgj" fileName="images_new/troops_bg_platform03.png" xy="453,556" group="n247_o5d4"/>
+    <loader id="n231_o5d4" name="restraintmidd" xy="444,547" pivot="0.5,0.5" size="66,66" group="n247_o5d4" aspect="true" scale="0.6,0.6" url="ui://2r331opvfrte1qp8vdx" align="center" vAlign="middle" fill="scale">
+      <relation target="n230_o5d4" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n234_o5d4" name="restr" xy="389,565" size="63,32" group="n247_o5d4" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#bcbcbc" leading="0" letterSpacing="-1" text="克制 &gt;"/>
+    <text id="n237_o5d4" name="restra" xy="500,565" size="63,32" group="n247_o5d4" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#bcbcbc" leading="0" letterSpacing="-1" text="克制 &gt;"/>
+    <list id="n239_o5d4" name="restraint_list1" xy="339,521" size="50,120" group="n247_o5d4" margin="2,0,1,0" lineGap="2" defaultItem="ui://jqem9egto5d41xvobdf" align="center" vAlign="middle">
+      <item/>
+      <item/>
+    </list>
+    <list id="n240_o5d4" name="restraint_list2" xy="564,521" size="50,120" group="n247_o5d4" margin="2,0,1,0" lineGap="10" defaultItem="ui://jqem9egto5d41xvobdf" align="center" vAlign="middle">
+      <item/>
+    </list>
+    <image id="n273_j495" name="namebg" src="qajo1ygcgm4" fileName="images/images_new/windowBg_new/welfare_btn_bg12.png" pkg="2r331opv" xy="303,85" size="344,52" group="n247_o5d4"/>
+    <list id="n244_o5d4" name="attributeList" xy="318,142" size="319,184" group="n247_o5d4" touchable="false" overflow="scroll" scrollBarFlags="32" lineGap="-5" defaultItem="ui://jqem9egtjdpjz9cqf">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n245_o5d4" name="moreProperty" src="mecuz9cp6" fileName="components/MoreProperties.xml" xy="419,301" size="100,40" group="n247_o5d4">
+      <Button title="更多属性" titleColor="#84e45e"/>
+    </component>
+    <text id="n274_j495" name="fettersname" xy="317,94" size="100,34" group="n247_o5d4" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,3" singleLine="true" text="部队属性"/>
+    <component id="n271_n6zb" name="addBtn" src="n6zb1ygcffa" fileName="components/addBtn.xml" xy="428,98" size="116,27" group="n247_o5d4">
+      <Button title="英雄加成"/>
+    </component>
+    <component id="n280_k0hp" name="generalAddBtn" src="n6zb1ygcffa" fileName="components/addBtn.xml" xy="568,102" group="n247_o5d4" visible="false">
+      <relation target="n271_n6zb" sidePair="left-right"/>
+      <Button title="英雄加成"/>
+    </component>
+    <component id="n272_ekmx" name="addTip" src="n6zb1ygcffb" fileName="panel/addTips.xml" xy="317,119" pivot="1,0.5" anchor="true" size="317,94" group="n247_o5d4">
+      <gearDisplay controller="showAdd" pages="1"/>
+    </component>
+    <component id="n222_o5d4" name="btnSave" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="487,658" size="143,58" group="n247_o5d4">
+      <Button title="保存" titleFontSize="28"/>
+    </component>
+    <component id="n223_o5d4" name="maximumBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="322,658" size="143,58" group="n247_o5d4">
+      <Button title="最大" titleFontSize="28"/>
+    </component>
+    <group id="n247_o5d4" name="right_attr" xy="0,0" size="670,750" advanced="true">
+      <relation target="" sidePair="middle-middle,left-right"/>
+    </group>
+  </displayList>
+</component>

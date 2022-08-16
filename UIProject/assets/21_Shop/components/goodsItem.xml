@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="230,280" designImage="ui://mz9og20lp3vgp" designImageOffsetX="-169" designImageOffsetY="-62">
+  <controller name="state" pages="0,normal,3,sellout,4,赠送" selected="1"/>
+  <controller name="discount" pages="0,,1,,2," selected="1">
+    <remark page="0" value="紫色"/>
+    <remark page="1" value="红色"/>
+    <remark page="2" value="不显示"/>
+  </controller>
+  <controller name="purchase" pages="0,nor,1,不显示" selected="0"/>
+  <displayList>
+    <image id="n0_d4a6" name="n0" src="p3vgq" fileName="images/shop_bg_item.png" xy="15,16"/>
+    <component id="n16_p3vg" name="price" src="tevjy" fileName="components/shop_btn1.xml" xy="35,172" size="160,60" scale="0.9,0.9">
+      <gearDisplay controller="state" pages="0"/>
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n23_s99e" name="giveBtn" src="tevjz" fileName="components/shop_btn2.xml" xy="35,172" size="160,60" scale="0.9,0.9">
+      <gearDisplay controller="state" pages="4"/>
+      <Button titleFontSize="20"/>
+    </component>
+    <image id="n6_d4a6" name="n6" src="d4a6g" fileName="images/corner_marker_01.png" xy="10,-6" group="n13_d4a6" aspect="true" visible="false"/>
+    <loader id="n24_spo2" name="label" xy="17,19" size="50,50" group="n13_d4a6" url="ui://mz9og20lspo212">
+      <gearIcon controller="discount" pages="1" values="ui://mz9og20lspo212" default="ui://mz9og20lspo211"/>
+    </loader>
+    <text id="n4_d4a6" name="discountTitle" xy="16,25" pivot="0.5,0.5" size="56,32" group="n13_d4a6" rotation="-33" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,2" autoClearText="true" text="-80%">
+      <gearDisplay controller="discount" pages="0,1,4"/>
+      <gearColor controller="discount" pages="0,1" values="#ffffff,#000000|#ffffff,#000000" default="#ffffff,#902222"/>
+      <gearText controller="discount" pages="0,1" values="-20%|-80%" default="8折"/>
+    </text>
+    <group id="n13_d4a6" name="discont" xy="10,-6" size="62,75" advanced="true">
+      <gearDisplay controller="discount" pages="0,1"/>
+    </group>
+    <component id="n22_lp55" name="n22" src="itkw1ygcfkf" fileName="components/components_new/com_btn_00_redPoint.xml" pkg="2r331opv" xy="43,175" size="144,54" grayed="true">
+      <gearDisplay controller="state" pages="3"/>
+      <Button title="已售完" titleFontSize="24"/>
+    </component>
+    <component id="n11_d4a6" name="buyBtn" src="94951z" fileName="components/common_btn_main.xml" pkg="2r331opv" xy="61,204" visible="false" touchable="false" grayed="true">
+      <gearDisplay controller="state" pages="3"/>
+      <Button title="已售罄" titleFontSize="22"/>
+    </component>
+    <component id="n14_d4a6" name="propIcon" src="d4a6m" fileName="components/propIcon.xml" xy="65,54" aspect="true"/>
+    <text id="n17_rck8" name="name" xy="32,132" pivot="0.5,0.5" size="178,29" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#b333d9" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="金矿采集加速72小时"/>
+    <image id="n19_rck8" name="n19" src="d4a6h" fileName="images/corner_marker_02.png" xy="185,-1" size="28,92" group="n20_rck8">
+      <relation target="n18_rck8" sidePair="bottomext-bottom"/>
+    </image>
+    <text id="n18_rck8" name="purch" xy="186,0" size="24,75" group="n20_rck8" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" align="center" leading="-2" autoSize="height" strokeColor="#194d8b" autoClearText="true" text="限购1次">
+      <gearDisplay controller="purchase" pages="0"/>
+    </text>
+    <group id="n20_rck8" name="pur" xy="185,-1" size="28,92" visible="false" advanced="true">
+      <gearDisplay controller="purchase" pages="0"/>
+    </group>
+  </displayList>
+</component>

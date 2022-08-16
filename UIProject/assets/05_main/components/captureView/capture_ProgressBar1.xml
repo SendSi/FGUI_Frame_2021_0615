@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="70,11" extention="ProgressBar">
+  <displayList>
+    <image id="n0_d9fg" name="n0" src="q8mhf7" fileName="images/fighting/battle_strip_1.png" pkg="2r331opv" xy="0,0" size="75,11">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_d9fg" name="bar" src="q8mhf9" fileName="images/fighting/battle_strip_3.png" pkg="2r331opv" xy="1,1" size="68,4" color="#ffad2b">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <ProgressBar/>
+</component>

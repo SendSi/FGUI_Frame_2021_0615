@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1019,550" mask="n1_uxiw">
+  <displayList>
+    <component id="n0_qmic" name="interiorView" src="h03gz9clv" fileName="components/researchTab_Item2.xml" xy="0,0"/>
+    <graph id="n1_uxiw" name="n1" xy="0,0" size="1019,551" type="rect"/>
+  </displayList>
+</component>

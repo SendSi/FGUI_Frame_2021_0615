@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" designImageLayer="1">
+  <displayList>
+    <component id="n1_m79t" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n15_o283" name="n15" src="hdmy1iy5b95" fileName="components/components_new/Popup_bg2.xml" pkg="2r331opv" xy="266,152" pivot="0.5,0.5" group="n32_u80i">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <text id="n14_o283" name="title" xy="440,163" pivot="0.5,0.5" size="454,49" group="n32_u80i" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="3,3" autoClearText="true" text="被动技能">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n27_wyef" name="hero_list" xy="334,262" pivot="0.5,0.5" size="667,300" group="n32_u80i" visible="false" layout="row" overflow="scroll" colGap="22" defaultItem="ui://jqem9egt11wz9z9cs2" align="center">
+      <item/>
+    </list>
+    <component id="n31_12l1h" name="gensList" src="12l1h1ygcffx" fileName="panel/passiveList.xml" xy="0,0" group="n32_u80i">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n26_k077" name="explainBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="340,228" size="37,37" group="n32_u80i" aspect="true">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n11_fchu" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="968,138" group="n32_u80i" scale="0.8,0.8">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <group id="n32_u80i" name="window" xy="0,0" size="1334,750" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" extention="Label" initName="frame" designImage="ui://4hio38umdot4hz9czs">
+  <displayList>
+    <component id="n2_mmv0" name="n2" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n4_mmv0" name="n4" src="bik7hz9cyq" fileName="components/components_new/Popup_bg.xml" pkg="2r331opv" xy="360,89" size="615,580" group="n19_mmv0"/>
+    <image id="n21_d8di" name="n21" pkg="2r331opv" src="o6syhz9cyj" fileName="images/images_new/com_bg_tips05_framePattern.png" xy="530,60" group="n19_mmv0">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n22_d8di" name="n22" pkg="2r331opv" src="jwslhz9cyc" fileName="images/images_new/com_bg_tips05_c.png" xy="491,148" group="n19_mmv0">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n16_mmv0" name="bg2" pkg="2r331opv" src="r616z9cp6" fileName="images/images_new/com_bg_tips02_mask.png" xy="386,268" size="565,305" group="n19_mmv0" alpha="0.7">
+      <relation target="n14_mmv0" sidePair="center-center,middle-middle"/>
+    </image>
+    <list id="n14_mmv0" name="itemList" xy="388,272" size="560,294" group="n19_mmv0" overflow="scroll" defaultItem="ui://4hio38ummmv036" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_mmv0" name="icon" src="j842hz9cyi" fileName="components/components_new/comItem.xml" pkg="2r331opv" xy="877,173" group="n19_mmv0" scale="0.6,0.6"/>
+    <text id="n9_mmv0" name="name" xy="755,194" pivot="1,0" size="128,29" group="n19_mmv0" fontSize="20" color="#ffffff" align="right" ubb="true" autoClearText="true" text="[color=#77BAEE]千[/color] [color=#C366E9]是[/color] [color=#F19157]是[/color] [color=#E9E166]个[/color] [color=#F45F5F]请[/color]"/>
+    <text id="n11_mmv0" name="propCount" xy="865,234" pivot="0.5,0.5" size="97,32" group="n19_mmv0" fontSize="18" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="[color=#ff4444]3[/color]/6"/>
+    <component id="n13_mmv0" name="btn1" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="421,586" size="226,58" group="n19_mmv0">
+      <Button title="Sweep once" icon="ui://2r331opvw84whz9cxa"/>
+    </component>
+    <component id="n12_mmv0" name="btn2" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="689,586" size="226,58" group="n19_mmv0">
+      <Button title="Sweep 10 times" icon="ui://2r331opvw84whz9cx6"/>
+    </component>
+    <text id="n23_d8di" name="titleTxt" xy="614,109" pivot="0.5,0.5" size="106,36" group="n19_mmv0" font="ui://2r331opvlwft3" fontSize="26" color="#ffffff" autoClearText="true" text="Sweep"/>
+    <image id="n26_d8di" name="n26" pkg="2r331opv" src="r616z9cp6" fileName="images/images_new/com_bg_tips02_mask.png" xy="386,191" size="227,36" group="n29_d8di" alpha="0.7">
+      <relation target="n24_d8di" sidePair="rightext-right"/>
+    </image>
+    <image id="n28_d8di" name="n28" pkg="2r331opv" src="d8dihz9d02" fileName="images/images_new/icon_00.png" xy="390,193" size="32,32" group="n29_d8di" aspect="true"/>
+    <text id="n24_d8di" name="strengthNum" xy="423,196" size="174,26" group="n29_d8di" fontSize="18" color="#ffffff" ubb="true" singleLine="true" autoClearText="true" text="Current physical: 248"/>
+    <component id="n27_d8di" name="plusBtn" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="597,188" size="42,42" group="n29_d8di" aspect="true">
+      <relation target="n24_d8di" sidePair="left-right"/>
+    </component>
+    <group id="n29_d8di" name="n29" xy="386,188" size="253,42" group="n19_mmv0"/>
+    <component id="n18_mmv0" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="898,84" group="n19_mmv0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <group id="n19_mmv0" name="window" xy="360,60" size="637,609" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

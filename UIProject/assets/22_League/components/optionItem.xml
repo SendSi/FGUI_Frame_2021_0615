@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="448,138" designImage="ui://lp3m5cuh12fw9cht" designImageOffsetX="-276" designImageOffsetY="-291">
+  <displayList>
+    <image id="n10_udrc" name="bg" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="448,138"/>
+    <image id="n11_udrc" name="n11" src="ax401qp8vfm" fileName="images/league_unction_iconbg.png" xy="4,18"/>
+    <loader id="n0_12fw9" name="icon" xy="6,22" size="94,94" url="ui://lp3m5cuhjp2t1ygcffm" fill="scaleFree" autoSize="true" clearOnPublish="true"/>
+    <text id="n1_12fw9" name="title" xy="106,37" size="186,39" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#50382e" autoSize="none" autoClearText="true" text="联盟首领"/>
+    <text id="n2_mw3o" name="desc" xy="106,72" size="211,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoSize="none" autoClearText="true" text="今日喂养次数:100/100"/>
+    <component id="n7_mw3o" name="btnGo" src="dfgw1ygcfmg" fileName="components/components_new/com_btn_0001.xml" pkg="2r331opv" xy="323,43">
+      <Button title="查看"/>
+    </component>
+    <component id="n12_udrc" name="redElement" src="pyiyhz9d6l" fileName="components/components_new/redPoint.xml" pkg="2r331opv" xy="426,45" size="47,44" aspect="true"/>
+  </displayList>
+</component>

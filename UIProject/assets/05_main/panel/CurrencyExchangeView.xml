@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://4ni413laebn7g7" designImageOffsetX="-165" designImageAlpha="60" designImageLayer="1">
+  <displayList>
+    <component id="n2_ebn7" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n23_arx1" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_ebn7" name="window" src="d9gi17" fileName="panel/com_little_window.xml" pkg="2r331opv" xy="267,145" group="n24_arx1">
+      <Button title="货币兑换"/>
+    </component>
+    <image id="n25_in8y" name="n25" src="lfqnhz9d6w" fileName="images/images_new/com_bg_popup02.png" pkg="2r331opv" xy="351,230" size="632,330" group="n24_arx1"/>
+    <text id="n8_ebn7" name="n8" xy="393,272" size="115,32" group="n24_arx1" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" autoSize="none" text="当前钻石："/>
+    <text id="n9_ebn7" name="n9" xy="393,334" size="115,32" group="n24_arx1" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" autoSize="none" text="兑换数量："/>
+    <text id="n10_ebn7" name="n10" xy="393,401" size="115,32" group="n24_arx1" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#97794f" autoSize="none" text="获得绑钻："/>
+    <loader id="n11_ebn7" name="iconNow" xy="492,267" size="40,40" group="n24_arx1" url="ui://tsbe09ddmz4wb" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n13_ln1d" name="iconExchange" xy="492,331" size="40,40" group="n24_arx1" url="ui://tsbe09ddmz4wb" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n12_ln1d" name="iconResult" xy="492,397" size="40,40" group="n24_arx1" url="ui://tsbe09ddmz4wc" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <text id="n14_ln1d" name="nowNumber" xy="532,272" size="280,34" group="n24_arx1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" autoSize="none" singleLine="true" autoClearText="true" text="163"/>
+    <text id="n15_ln1d" name="resultNumber" xy="532,401" size="280,34" group="n24_arx1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" autoSize="none" singleLine="true" autoClearText="true" text="163"/>
+    <image id="n18_ln1d" name="n18" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="563,328" size="209,41" group="n24_arx1"/>
+    <component id="n16_ln1d" name="btnCut" src="kwe92x" fileName="components/components_new/com_btn_cut.xml" pkg="2r331opv" xy="538,325" size="49,49" group="n24_arx1"/>
+    <component id="n17_ln1d" name="btnPlus" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="763,322" size="54,54" group="n24_arx1"/>
+    <text id="n19_ln1d" name="exchangeNumber" xy="586,333" size="163,34" group="n24_arx1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="163"/>
+    <component id="n20_ln1d" name="btnMax" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="822,324" size="110,49" group="n24_arx1">
+      <Button title="最大" titleFontSize="24"/>
+    </component>
+    <text id="n21_ln1d" name="n21" xy="547,450" size="242,32" group="n24_arx1" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" autoSize="none" text="兑换比：1钻石=1绑钻"/>
+    <component id="n22_ln1d" name="btnExchange" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="559,489" size="216,72" group="n24_arx1">
+      <Button title="兑换" titleFontSize="32"/>
+    </component>
+    <group id="n24_arx1" name="n24" xy="267,145" size="800,460" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,750" extention="Button" designImage="ui://nf2zagxss5sfgt" designImageOffsetX="-188">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n5_8z41" name="bg_quality" xy="4,155" size="111,416" group="n8_8z41" url="ui://nf2zagxsvm4c1qp8veh" clearOnPublish="true"/>
+    <loader id="n13_ln1d" name="general" xy="8,161" size="103,401" group="n8_8z41" url="ui://nf2zagxsy6f5he" align="center" vAlign="middle" fill="scaleMatchWidth" clearOnPublish="true"/>
+    <loader id="n4_8z41" name="bg_name" xy="4,300" size="111,288" group="n8_8z41" alpha="0.9" url="ui://nf2zagxsvm4c1qp8ved" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n6_8z41" name="icon_camp" xy="27,448" pivot="0.5,0.5" size="66,66" group="n8_8z41" aspect="true" url="ui://2r331opvfrte1qp8vdz" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <list id="n18_f3et" name="starList" xy="-106,496" pivot="0.5,0.5" size="332,47" group="n8_8z41" scale="0.3,0.3" layout="row" defaultItem="ui://2r331opv104731iy5b91" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n8_8z41" name="item" xy="-106,155" size="332,433" advanced="true"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://4hio38umpoaz1iy5bco">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="未觉醒"/>
+    <remark page="1" value="已觉醒"/>
+  </controller>
+  <displayList>
+    <component id="n3_xz10" name="n3" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_xz10" name="n2" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n13_xz10"/>
+    <image id="n17_poaz" name="n17" src="so711iy5bed" fileName="images/arms_bg001.png" xy="272,124" group="n13_xz10"/>
+    <text id="n15_poaz" name="title" xy="359,71" pivot="0.5,0.5" size="616,46" group="n13_xz10" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="3,3" singleLine="true" autoClearText="true" text="兵种详情"/>
+    <component id="n14_xz10" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n13_xz10">
+      <relation target="n2_xz10" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n18_poaz" name="armyIcon2" xy="904,231" size="80,80" group="n13_xz10" url="ui://4hio38umpoaz1iy5bcr" align="center" vAlign="middle"/>
+    <text id="n25_poaz" name="relationTxt2" xy="822,283" size="44,29" group="n13_xz10" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#39658e" text="克制"/>
+    <text id="n28_gqih" name="army_lbl_01" xy="450,355" pivot="0.5,0.5" size="433,29" group="n13_xz10" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#173663" align="center" autoSize="none" text="克制兵种伤害增加20%"/>
+    <text id="n24_poaz" name="relationTxt1" xy="460,283" size="44,29" group="n13_xz10" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#39658e" text="克制"/>
+    <component id="n30_so71" name="armyIcon" src="spxy1ygcflp" fileName="components/components_new/armyAwakeBtn.xml" pkg="2r331opv" xy="639,245" size="58,75" group="n13_xz10"/>
+    <list id="n31_so71" name="army_1" xy="345,160" pivot="0.5,0.5" size="98,204" group="n13_xz10" lineGap="3" defaultItem="ui://4hio38umpoaz1iy5bcy" align="center" vAlign="middle">
+      <item/>
+      <item/>
+    </list>
+    <list id="n32_so71" name="army_2" xy="896,160" pivot="0.5,0.5" size="98,204" group="n13_xz10" lineGap="3" defaultItem="ui://4hio38umpoaz1iy5bcy" align="center" vAlign="middle">
+      <item/>
+      <item/>
+    </list>
+    <text id="n9_xz10" name="title2" xy="519,449" pivot="0.5,0.5" size="148,34" group="n13_xz10" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" ubb="true" singleLine="true" text="兵种觉醒说明">
+      <relation target="n33_so71" sidePair="left-left"/>
+    </text>
+    <text id="n33_so71" name="stateLbl" xy="667,449" pivot="0.5,0.5" size="152,34" group="n13_xz10" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#d93a3a" align="center" ubb="true" singleLine="true" text="（30级开启）">
+      <gearColor controller="state" pages="0" values="#d93a3a,#000000" default="#97794f,#000000"/>
+      <gearText controller="state" pages="0" values="（30级开启）" default="（已觉醒）"/>
+    </text>
+    <list id="n29_gqih" name="army_lbl" xy="317,488" size="480,169" group="n13_xz10" overflow="scroll" defaultItem="ui://4hio38umgqih1iy5beb">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n38_so71" name="n38" src="j9d91qp8vcm" fileName="images/images_new/windowBg_new/negative_bg09.png" pkg="2r331opv" xy="823,454" group="n13_xz10" alpha="0.8" color="#e2d9cd">
+      <relation target="n33_so71" sidePair="right-right"/>
+    </image>
+    <image id="n39_so71" name="n39" src="j9d91qp8vcm" fileName="images/images_new/windowBg_new/negative_bg09.png" pkg="2r331opv" xy="366,454" group="n13_xz10" alpha="0.8" color="#e2d9cd" flip="hz">
+      <relation target="n9_xz10" sidePair="left-left"/>
+    </image>
+    <image id="n34_so71" name="n34" src="so711iy5bef" fileName="images/arms_bg003.png" xy="183,417" group="n13_xz10" alpha="0.14"/>
+    <image id="n35_so71" name="n35" src="so711iy5bef" fileName="images/arms_bg003.png" xy="875,417" group="n13_xz10" visible="false" alpha="0.14" flip="hz"/>
+    <component id="n42_d2lk" name="attr" src="d2lk1iy5bfp" fileName="components/ArmyInfo_attrbute.xml" xy="804,479" group="n13_xz10"/>
+    <group id="n13_xz10" name="window" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <graph id="n41_spxy" name="mask" xy="0,0" size="1334,750" visible="false" type="rect" lineSize="0" fillColor="#00ffffff"/>
+  </displayList>
+</component>

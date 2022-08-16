@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="209,52">
+  <displayList>
+    <image id="n3_q1qg" name="bg" src="r9f638" fileName="images/images_new/bg_chat_09.png" pkg="2r331opv" xy="0,0" pivot="0.5,0.5" size="208,52" group="n4_q1qg" alpha="0.9">
+      <relation target="n0_q1qg" sidePair="center-center,rightext-right,leftext-left"/>
+    </image>
+    <richtext id="n0_q1qg" name="titleTxt" xy="67,9" size="76,34" group="n4_q1qg" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" ubb="true" vars="true" autoClearText="true" text="提示语">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n4_q1qg" name="content" xy="0,0" size="208,52" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <transition name="moveAlpha">
+    <item time="0" type="Visible" target="n4_q1qg" value="false"/>
+    <item time="4" type="Visible" target="n4_q1qg" value="true"/>
+    <item time="49" type="Alpha" target="n4_q1qg" tween="true" startValue="1" endValue="0.4" duration="15"/>
+    <item time="64" type="Alpha" target="n4_q1qg" tween="true" startValue="0.4" endValue="0" duration="5"/>
+  </transition>
+</component>

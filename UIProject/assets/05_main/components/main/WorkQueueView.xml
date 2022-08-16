@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="365,375" pivot="0.43,1" anchor="true">
+  <controller name="state" pages="0,,1,,3," selected="1"/>
+  <displayList>
+    <image id="n0_eh3a" name="n0" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="4,-7" size="357,375">
+      <gearSize controller="state" pages="0,1,3" values="357,274,1,1|357,375,1,1|357,483,1,1"/>
+    </image>
+    <image id="n1_eh3a" name="n1" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="26,16" size="312,33" group="n18_gumv"/>
+    <text id="n2_eh3a" name="buildTitle" xy="30,18" size="104,29" group="n18_gumv" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" singleLine="true" text="建造队列："/>
+    <component id="n19_t2ds" name="buildQueue1" src="ecqo1ygcfjv" fileName="components/main/buildQueueItem.xml" xy="31,53" group="n18_gumv"/>
+    <component id="n21_t2ds" name="buildQueue2" src="ecqo1ygcfjv" fileName="components/main/buildQueueItem.xml" xy="31,115" group="n18_gumv"/>
+    <component id="n24_f9fv" name="buildQueue3" src="ecqo1ygcfjv" fileName="components/main/buildQueueItem.xml" xy="31,177" group="n18_gumv"/>
+    <group id="n18_gumv" name="n11" xy="26,16" size="312,221" advanced="true"/>
+    <image id="n3_eh3a" name="n2" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="26,245" size="312,33" group="n16_gumv"/>
+    <text id="n4_eh3a" name="funcTitle1" xy="30,247" size="104,29" group="n16_gumv" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" singleLine="true" text="兵营征兵："/>
+    <component id="n22_t2ds" name="funcQueue1" src="ecqo1ygcfjw" fileName="components/main/funcQueueItem.xml" xy="31,282" group="n16_gumv"/>
+    <group id="n16_gumv" name="n12" xy="26,245" size="312,97" advanced="true">
+      <gearDisplay controller="state" pages="1,3"/>
+    </group>
+    <image id="n5_eh3a" name="n3" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="26,349" size="312,33" group="n17_gumv"/>
+    <text id="n6_eh3a" name="funcTitle2" xy="30,351" size="104,29" group="n17_gumv" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" singleLine="true" text="学院研究："/>
+    <component id="n23_t2ds" name="funcQueue2" src="ecqo1ygcfjw" fileName="components/main/funcQueueItem.xml" xy="31,386" group="n17_gumv"/>
+    <group id="n17_gumv" name="n13" xy="26,349" size="312,97" advanced="true">
+      <gearDisplay controller="state" pages="3"/>
+    </group>
+    <image id="n25_gv9e" name="n25" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="140,360" size="31,23" aspect="true">
+      <relation target="n0_eh3a" sidePair="bottom-bottom"/>
+    </image>
+  </displayList>
+  <relation target="n0_eh3a" sidePair="width-width,height-height"/>
+</component>

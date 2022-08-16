@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="401,104" designImage="ui://vlnc23t29itd15" designImageOffsetX="-628" designImageOffsetY="-293">
+  <displayList>
+    <text id="n1_uxiw" name="title" xy="162,19" size="78,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ff6464" autoSize="none" autoClearText="true" text="部队一"/>
+    <text id="n2_uxiw" name="title2" xy="162,51" size="227,33" font="ui://2r331opvno3vhz9d62" fontSize="20" color="#ff6464" autoSize="none" autoClearText="true" text="战力:550000"/>
+    <component id="n3_9itd" name="general" src="9itdz9cnx" fileName="components/general_new/TroopGenItem.xml" pkg="2r331opv" xy="-8,-8"/>
+  </displayList>
+</component>

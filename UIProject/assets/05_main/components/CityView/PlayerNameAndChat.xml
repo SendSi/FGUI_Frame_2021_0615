@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="314,35" extention="Label">
+  <displayList>
+    <loader id="n2_ubhv" name="icon" xy="0,5" size="33,30" url="ui://4ni413labnhnjt" align="center" vAlign="middle" fill="scale" playing="false"/>
+    <text id="n0_ubhv" name="title" xy="34,5" size="84,29" fontSize="20" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="玩家名字"/>
+    <component id="n5_ubhv" name="chatBtn" src="o4uyfe" fileName="components/common_btn_07.xml" pkg="2r331opv" xy="123,3" size="33,30">
+      <relation target="n0_ubhv" sidePair="left-right"/>
+      <Button icon="ui://4ni413labnhnju"/>
+    </component>
+    <image id="n6_ubhv" name="line" src="kn29c" fileName="images/common_lines_0.png" pkg="2r331opv" xy="0,1" size="314,1">
+      <relation target="" sidePair="width-width"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,275" opaque="false" mask="n6_k2mc" designImageOffsetX="-282" designImageOffsetY="-349">
+  <displayList>
+    <graph id="n6_k2mc" name="mask" xy="0,0" size="900,276" touchable="false" type="rect"/>
+    <list id="n5_9232" name="centerList" xy="1,3" size="997,291" scale="0.9,0.9" layout="flow_hz" overflow="scroll" lineGap="13" colGap="89" defaultItem="ui://2r331opvp3vgz9clu" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n5_9232" sidePair="height-height"/>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false">
+  <displayList>
+    <component id="n0_ky14" name="returnBtn" src="n6021qp8vcy" fileName="components/components_new/com_btn_return.xml" pkg="2r331opv" xy="2,2" size="85,76"/>
+    <image id="n1_hbwi" name="bg" src="lumy1qp8vdl" fileName="images4/main_bg04.png" xy="18,83" size="279,81" group="n4_hbwi" alpha="0.8">
+      <relation target="n3_hbwi" sidePair="bottomext-bottom"/>
+    </image>
+    <richtext id="n2_hbwi" name="title" xy="31,94" size="111,29" group="n4_hbwi" fontSize="20" color="#ffcc33" ubb="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="[创世纪] 1-2"/>
+    <richtext id="n3_hbwi" name="content" xy="31,126" size="232,29" restrictSize="0,250,0,0" group="n4_hbwi" fontSize="20" color="#ffcc00" ubb="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="清理黑暗势力军团（1/3）"/>
+    <group id="n4_hbwi" name="task" xy="18,83" size="279,81"/>
+  </displayList>
+</component>

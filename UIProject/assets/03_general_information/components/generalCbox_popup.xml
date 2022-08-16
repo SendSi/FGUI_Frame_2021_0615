@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,230" designImageOffsetX="-183" designImageOffsetY="-173" designImageLayer="1">
+  <displayList>
+    <image id="n0_oxy0" name="n0" src="isps1ygcgmj" fileName="images/images_new/windowBg_new/welfare_btn_bg20.png" pkg="2r331opv" xy="0,0" size="140,230" alpha="0.96">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_oxy0" name="list" xy="7,8" size="126,213" overflow="scroll" lineGap="12" defaultItem="ui://4hio38umoxy0cii">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n1_oxy0" sidePair="height-height"/>
+</component>

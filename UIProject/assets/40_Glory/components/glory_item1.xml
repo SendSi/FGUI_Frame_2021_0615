@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="182,378" mask="n2_bv45">
+  <displayList>
+    <image id="n2_bv45" name="mask" src="oxoc1iy5bg4" fileName="images/glory_btn_bg05.png" xy="0,0" aspect="true"/>
+    <loader id="n9_s36s" name="icon" xy="0,0" size="182,378" url="ui://e1uzapmrs36s1iy5bh3" autoSize="true"/>
+  </displayList>
+</component>

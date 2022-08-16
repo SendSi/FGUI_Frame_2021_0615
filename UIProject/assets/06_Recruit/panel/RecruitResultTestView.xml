@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <displayList>
+    <graph id="n25_p1pr" name="n25" xy="0,0" size="1334,750" type="rect" fillColor="#ff00ff00">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <list id="n6_8z41" name="resultList" xy="0,0" pivot="0.5,0.5" size="1334,750" layout="row" overflow="scroll" scroll="horizontal" colGap="8" defaultItem="ui://nf2zagxsp1pr1ygcfj8" align="center">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n21_f3et" name="closeButton" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="1086,38" size="210,68">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="关闭" titleFontSize="30"/>
+    </component>
+  </displayList>
+</component>

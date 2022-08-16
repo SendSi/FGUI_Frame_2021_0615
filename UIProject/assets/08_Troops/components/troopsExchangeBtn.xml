@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="137,47" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_kn9h" name="icon" xy="0,0" size="46,46" aspect="true" url="ui://2r331opvo283z9cnz" align="center" vAlign="middle" fill="scale"/>
+    <text id="n4_kn9h" name="title" xy="51,6" size="100,34" fontSize="24" color="#ffffff" autoClearText="true" text="部队换位"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

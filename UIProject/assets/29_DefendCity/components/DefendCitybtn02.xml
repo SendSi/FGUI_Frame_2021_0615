@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="302,127" pivot="0.5,0.5" extention="Button">
+  <controller name="selected" pages="0,,1," selected="0"/>
+  <controller name="state" pages="0,,1,,2," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="可领取"/>
+    <remark page="2" value="已领取"/>
+  </controller>
+  <displayList>
+    <image id="n13_m7tg" name="n13" src="m5yh1ygcfor" fileName="images/kingcity_icon007.png" xy="61,16" size="230,97" color="#c3c3c3">
+      <gearLook controller="state" pages="2" values="1,0,1,0" default="1,0,0,0"/>
+    </image>
+    <image id="n3_v8po" name="n3" src="m5yh1ygcfou" fileName="images/kingcity_icon006.png" xy="12,5">
+      <gearLook controller="state" pages="2" values="1,0,1,0" default="1,0,0,0"/>
+    </image>
+    <loader id="n19_m5yh" name="icon" xy="18,6" size="100,128" scale="0.9,0.9" url="ui://4557t28ky6f5hz9cpe" fill="scale" autoSize="true">
+      <gearLook controller="state" pages="2" values="1,0,1,1" default="1,0,0,1"/>
+    </loader>
+    <list id="n18_m5yh" name="star_list" xy="160,82" size="294,52" scale="0.4,0.4" layout="row" overflow="scroll" defaultItem="ui://2r331opv104731iy5b91">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n14_qajo" name="star" xy="112,78" size="50,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" singleLine="true" text="难度:">
+      <gearColor controller="state" pages="2" values="#c8c8c8,#000000" default="#ffffff,#000000"/>
+    </text>
+    <text id="n4_v8po" name="title" xy="112,43" size="162,42" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#d93a3a" vAlign="middle" letterSpacing="-2" autoClearText="true" text="1星邪恶兵团">
+      <gearColor controller="state" pages="2" values="#c8c8c8,#000000" default="#d93a3a,#000000"/>
+    </text>
+    <text id="n21_m5yh" name="textlv" xy="112,19" size="82,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#d93a3a" vAlign="middle" singleLine="true" autoClearText="true" text="Lv.111">
+      <gearColor controller="state" pages="2" values="#c8c8c8,#000000" default="#d93a3a,#000000"/>
+    </text>
+    <loader id="n23_m5yh" name="icon2" xy="73,56" size="94,94" scale="0.2,0.2" visible="false" url="ui://tsbe09ddspsrci1" fill="scale" autoSize="true">
+      <gearLook controller="state" pages="2" values="1,0,1,1" default="1,0,0,1"/>
+    </loader>
+    <text id="n24_m5yh" name="num" xy="90,53" size="70,24" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#ffffff" align="center" vAlign="middle" singleLine="true" autoClearText="true" text="100/分钟">
+      <gearColor controller="state" pages="2" values="#c8c8c8,#000000" default="#ffffff,#000000"/>
+    </text>
+    <image id="n25_cuqw" name="n25" src="cuqw1ygcfp0" fileName="images/kingcity_bg006.png" xy="0,0" size="302,127">
+      <gearDisplay controller="selected" pages="1,3"/>
+    </image>
+    <image id="n26_cuqw" name="n26" src="vb7khz9d01" fileName="images/images_new/com_green_dot.png" pkg="2r331opv" xy="23,19">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <image id="n28_syny" name="n28" src="dfgw1ygcfmf" fileName="images/images_new/com_change04.png" pkg="2r331opv" xy="14,48" pivot="0.5,0.5" size="96,32" alpha="0.9" rotation="-10" color="#000000">
+      <gearDisplay controller="state" pages="2"/>
+    </image>
+    <text id="n27_syny" name="textrepelled" xy="25,47" pivot="0.5,0.5" size="76,34" rotation="-10" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ff4343" vAlign="middle" singleLine="true" autoClearText="true" text="已击退">
+      <gearDisplay controller="state" pages="2"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

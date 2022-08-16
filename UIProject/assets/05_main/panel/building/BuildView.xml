@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" extention="Label" initName="frame" designImage="ui://4ni413lafz63hz9crq">
+  <controller name="type" pages="0,,1,,2," selected="0"/>
+  <controller name="haveSomething" pages="0,yes,1,nothing" selected="0"/>
+  <controller name="type2" pages="0,,1,,3,,2," selected="0"/>
+  <displayList>
+    <component id="n25_m79t" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n67_pkgi" name="mask2" src="itz02a" fileName="images/images_new/com_bg_mask.png" pkg="2r331opv" xy="-165,0" size="1665,750" alpha="0.5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n68_guex" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n65_fz63" name="n65" src="fz63hz9csg" fileName="images/main/build_bottom01.png" xy="0,594" size="1346,156" group="n41_qbmb">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <list id="n6_m79t" name="list" xy="137,357" size="1197,393" group="n41_qbmb" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="2048" margin="15,0,0,0" clipSoftness="100,0" colGap="7" defaultItem="ui://4ni413lam79t2k" autoClearItems="true">
+      <gearDisplay controller="haveSomething" pages="0"/>
+      <gearXY controller="type" pages="0,1,2" values="137,357|137,357|227,357" tween="true"/>
+      <relation target="" sidePair="rightext-right"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n69_8su0" name="n69" src="8su01ygcfh5" fileName="images/main/build_bottom06.png" xy="0,327" size="159,40" group="n41_qbmb">
+      <gearSize controller="type" pages="2" values="251,40,1,1" default="159,40,1,1" tween="true"/>
+    </image>
+    <text id="n26_zro5" name="tips" xy="459,552" size="573,45" group="n41_qbmb" font="ui://2r331opvno3vhz9d62" fontSize="33" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="敬请期待">
+      <gearDisplay controller="haveSomething" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n52_fz63" name="n52" src="fz63hz9csh" fileName="images/main/build_bottom02.png" xy="96,332" size="22,401" group="n64_fz63">
+      <gearSize controller="type" pages="0,1" values="22,401,1,1|22,401,1,1" default="49,401,1,1"/>
+    </image>
+    <component id="n55_fz63" name="decTypeBtn0" src="fz63hz9csk" fileName="components/components_new/main/building_btn_tab2.xml" xy="83,389" size="82,80" group="n64_fz63" scale="0.4,1">
+      <gearSize controller="type" pages="0,1" values="82,80,0.4,1|82,80,0.4,1" default="82,80,1,1"/>
+      <Button checked="true" title="基础" icon="ui://4ni413lafz63hz9crv" selectedIcon="ui://4ni413lafz63hz9crx" controller="type2" page="0"/>
+    </component>
+    <component id="n56_fz63" name="decTypeBtn1" src="fz63hz9csk" fileName="components/components_new/main/building_btn_tab2.xml" xy="83,469" size="82,80" group="n64_fz63" scale="0.4,1">
+      <gearSize controller="type" pages="0,1" values="82,80,0.4,1|82,80,0.4,1" default="82,80,1,1"/>
+      <Button title="植物" icon="ui://4ni413lafz63hz9crz" selectedIcon="ui://4ni413lafz63hz9cs1" controller="type2" page="1"/>
+    </component>
+    <component id="n58_fz63" name="decTypeBtn2" src="fz63hz9csk" fileName="components/components_new/main/building_btn_tab2.xml" xy="83,629" size="82,80" group="n64_fz63" scale="0.4,1">
+      <gearSize controller="type" pages="0,1" values="82,80,0.4,1|82,80,0.4,1" default="82,80,1,1"/>
+      <Button title="礼物" icon="ui://4ni413lafz63hz9cs7" selectedIcon="ui://4ni413lafz63hz9cs8" controller="type2" page="2"/>
+    </component>
+    <component id="n57_fz63" name="decTypeBtn3" src="fz63hz9csk" fileName="components/components_new/main/building_btn_tab2.xml" xy="83,549" size="82,80" group="n64_fz63" scale="0.4,1">
+      <gearSize controller="type" pages="0,1" values="82,80,0.4,1|82,80,0.4,1" default="82,80,1,1"/>
+      <Button title="其它" icon="ui://4ni413lafz63hz9cs3" selectedIcon="ui://4ni413lafz63hz9cs5" controller="type2" page="3"/>
+    </component>
+    <group id="n64_fz63" name="decorate" xy="83,332" size="82,401" group="n41_qbmb" advanced="true">
+      <gearXY controller="type" pages="0,1,2" values="83,332|83,332|136,332" tween="true"/>
+    </group>
+    <image id="n50_fz63" name="n50" src="fz63hz9csi" fileName="images/main/build_bottom03.png" xy="0,334" group="n66_98el"/>
+    <component id="n47_fz63" name="btnType0" src="fz63hz9csj" fileName="components/components_new/main/building_btn_tab.xml" xy="5,380" size="110,110" group="n66_98el">
+      <Button checked="true" title="经济类" icon="ui://4ni413lafz63hz9crw" selectedIcon="ui://4ni413lafz63hz9cry" controller="type" page="0"/>
+    </component>
+    <component id="n48_fz63" name="btnType1" src="fz63hz9csj" fileName="components/components_new/main/building_btn_tab.xml" xy="5,492" size="110,110" group="n66_98el">
+      <Button title="军事类" icon="ui://4ni413lafz63hz9cs0" selectedIcon="ui://4ni413lafz63hz9cs2" controller="type" page="1"/>
+    </component>
+    <component id="n49_fz63" name="btnType2" src="fz63hz9csj" fileName="components/components_new/main/building_btn_tab.xml" xy="5,604" size="110,110" group="n66_98el">
+      <Button title="装饰类" icon="ui://4ni413lafz63hz9cs4" selectedIcon="ui://4ni413lafz63hz9cs6" controller="type" page="2"/>
+    </component>
+    <component id="n35_bukx" name="Effect_ui_BiaoQianYe_01" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="35,413" size="50,54" group="n66_98el" touchable="false">
+      <relation target="n47_fz63" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n36_bukx" name="Effect_ui_BiaoQianYe_02" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="35,516" size="50,54" group="n66_98el" touchable="false">
+      <relation target="n48_fz63" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n37_bukx" name="Effect_ui_BiaoQianYe_03" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="35,628" size="50,54" group="n66_98el" touchable="false">
+      <relation target="n49_fz63" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n66_98el" name="n66" xy="0,334" size="122,416" group="n41_qbmb"/>
+    <group id="n41_qbmb" name="window" xy="0,327" size="1346,423" advanced="true"/>
+    <component id="n46_fz63" name="playerIcon" src="xoe1n2" fileName="components/components_new/main/main_playerIcon.xml" xy="-1,0">
+      <relation target="" sidePair="rightext-right"/>
+    </component>
+    <component id="n45_fz63" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="682,0" size="644,40">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <transition name="gradient" autoPlay="true">
+    <item time="0" type="Alpha" target="n41_qbmb" tween="true" startValue="0.3" endValue="0.7" duration="6"/>
+    <item time="0" type="XY" target="n41_qbmb" tween="true" startValue="0,390" endValue="0,338" duration="6"/>
+    <item time="6" type="Alpha" target="n41_qbmb" tween="true" startValue="0.7" endValue="1" duration="6"/>
+    <item time="6" type="XY" target="n41_qbmb" tween="true" startValue="0,338" endValue="0,327" duration="6"/>
+  </transition>
+</component>

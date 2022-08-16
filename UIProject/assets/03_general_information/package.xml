@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4hio38um" hasFavorites="true">
+  <resources>
+    <component id="wp0jcfc" name="general_name_title.xml" path="/components/" exported="true"/>
+    <component id="wp0jcfu" name="Button_attribute2.xml" path="/components/" exported="true"/>
+    <component id="cn12cgg" name="BreakSuccessView.xml" path="/panel/" exported="true"/>
+    <component id="c4umci2" name="levelPbr.xml" path="/components/" exported="true"/>
+    <component id="c4umci3" name="skillTipsView.xml" path="/panel/" exported="true"/>
+    <component id="c4umci6" name="skillTipsItem.xml" path="/components/" exported="true"/>
+    <component id="c4umcif" name="starPbr.xml" path="/components/" exported="true"/>
+    <image id="c4umz9cni" name="btn_attribute.png" path="/images/" exported="true"/>
+    <component id="c4umcij" name="attributeAll_tipsView.xml" path="/panel/" exported="true"/>
+    <component id="c4umcil" name="attributeAll_Item.xml" path="/components/" exported="true"/>
+    <component id="c4umcip" name="EquipmentWearView.xml" path="/panel/" exported="true"/>
+    <misc id="j4faz9cnj" name="03_general_information.rar" path="/"/>
+    <component id="c4umcib" name="skillBtn0.xml" path="/components/" exported="true"/>
+    <component id="hqarz9cpw" name="EquipmentTips_1.xml" path="/panel/" exported="true"/>
+    <component id="nzpnz9cqa" name="equipmentInfor.xml" path="/components/"/>
+    <component id="xw6wz9cqb" name="GeneralCardInfoView2.xml" path="/panel/"/>
+    <component id="xw6wz9cqc" name="Component_levelup2.xml" path="/panel/" exported="true"/>
+    <component id="t4b3z9cqp" name="stuffBtn.xml" path="/components/"/>
+    <component id="t4b3z9cqr" name="skillBtn1.xml" path="/components/"/>
+    <component id="tm27z9cqt" name="StuffCompoundView.xml" path="/panel/" exported="true"/>
+    <component id="m8lfz9cqu" name="StarUp_attributeItem.xml" path="/components/" exported="true"/>
+    <component id="cwd3z9cqy" name="break_equipmentItem.xml" path="/components/" exported="true"/>
+    <component id="l59dz9cqz" name="OutstandingTalentView.xml" path="/panel/" exported="true"/>
+    <component id="rfbhz9cr0" name="talentItem2.xml" path="/components/" exported="true"/>
+    <component id="rfbhz9cr1" name="talentAttrItem.xml" path="/components/" exported="true"/>
+    <component id="lythz9cr2" name="lineGraph.xml" path="/panel/" exported="true"/>
+    <image id="xz10z9cr4" name="heroicon_tab05.png" path="/images/" exported="true"/>
+    <image id="xz10z9cr5" name="heroicon_tab06.png" path="/images/" exported="true"/>
+    <image id="xz10z9cr6" name="heroicon_tab07.png" path="/images/" exported="true"/>
+    <image id="xz10z9cr7" name="heroicon_tab08.png" path="/images/" exported="true"/>
+    <image id="xz10z9cr8" name="heroicon_tab09.png" path="/images/" exported="true"/>
+    <image id="xz10z9cr9" name="heroicon_tab010.png" path="/images/" exported="true"/>
+    <image id="xz10z9cra" name="heroicon_tab01.png" path="/images/" exported="true"/>
+    <image id="xz10z9crb" name="heroicon_tab02.png" path="/images/" exported="true"/>
+    <image id="xz10z9crc" name="heroicon_tab03.png" path="/images/" exported="true"/>
+    <image id="xz10z9crd" name="heroicon_tab04.png" path="/images/" exported="true"/>
+    <image id="xz10z9crf" name="hero_bg01.png" path="/images/" exported="true"/>
+    <image id="xz10z9crg" name="hero_strip01.png" path="/images/" exported="true"/>
+    <image id="xz10z9crh" name="hero_strip02.png" path="/images/" exported="true" scale9grid="0,0,-1,-9"/>
+    <image id="xz10z9cri" name="hero_strip03.png" path="/images/" exported="true"/>
+    <image id="xz10z9crj" name="hero_strip04.png" path="/images/" exported="true"/>
+    <image id="xz10z9crk" name="hero_strip05.png" path="/images/" exported="true"/>
+    <component id="xz10z9crl" name="curPbr.xml" path="/components/" exported="true"/>
+    <component id="xz10z9crm" name="curpbr_dot.xml" path="/components/" exported="true"/>
+    <image id="xz10z9crn" name="hero_talent.png" path="/images/" exported="true"/>
+    <image id="xz10z9cro" name="hero_fetters.png" path="/images/" exported="true"/>
+    <component id="xz10z9crp" name="inforBtn.xml" path="/components/"/>
+    <component id="xz10z9crr" name="levelupPower.xml" path="/components/" exported="true"/>
+    <component id="xz10z9crs" name="FetterView.xml" path="/panel/" exported="true"/>
+    <image id="xz10z9crw" name="fetters_arrow01.png" path="/images/" exported="true" scale="9grid" scale9grid="15,0,17,36"/>
+    <component id="xz10z9crx" name="fetterine.xml" path="/components/"/>
+    <component id="xz10z9cry" name="ArmyInfoView.xml" path="/panel/" exported="true"/>
+    <component id="oxy0cib" name="GeneralCardListView.xml" path="/panel/" exported="true"/>
+    <component id="jvu0ci1" name="HandBookInfoView.xml" path="/panel/" exported="true"/>
+    <image id="ew0jek" name="guide_bg_01.png" path="/images/" exported="true"/>
+    <image id="ew0jel" name="guide_bg_02.png" path="/images/" exported="true"/>
+    <image id="ew0jen" name="guide_bg_03.png" path="/images/" exported="true"/>
+    <image id="oxy0cih" name="hero_bg08.png" path="/images/" exported="true" scale="9grid" scale9grid="141,9,19,16"/>
+    <component id="oxy0hz9czj" name="generalCbox.xml" path="/components/" exported="true"/>
+    <component id="oxy0cii" name="generalCbox_item.xml" path="/components/" exported="true"/>
+    <component id="oxy0hz9czi" name="generalCbox_popup.xml" path="/components/" exported="true"/>
+    <component id="tv1v1b" name="general_btn_tab.xml" path="/components/" exported="true"/>
+    <component id="oxy0cif" name="generlaListItem.xml" path="/components/"/>
+    <component id="iiq6a7" name="handbookSkillBtn.xml" path="/components/" exported="true"/>
+    <component id="cxixci5" name="orderCbox.xml" path="/components/" exported="true"/>
+    <component id="cxixci3" name="orderCbox_item.xml" path="/components/" exported="true"/>
+    <component id="cxixci4" name="orderCbox_popup.xml" path="/components/" exported="true"/>
+    <component id="oxy0z9cs2" name="levelPbr2.xml" path="/components/" exported="true"/>
+    <component id="oxy0z9cs4" name="attriImprove.xml" path="/components/"/>
+    <component id="oxy0z9cs5" name="attriNum.xml" path="/components/"/>
+    <image id="oxy0z9cs6" name="hero_talentpoints01.png" path="/images/" exported="true"/>
+    <image id="oxy0z9cs7" name="hero_talentpoints02.png" path="/images/" exported="true"/>
+    <component id="oxy0z9csb" name="curCbox_item.xml" path="/components/" exported="true"/>
+    <component id="oxy0z9csc" name="curCbox_popup.xml" path="/components/" exported="true"/>
+    <component id="oxy0z9csd" name="curCbox.xml" path="/components/" exported="true" favorite="true"/>
+    <component id="oxy0z9cse" name="skillPbr.xml" path="/components/"/>
+    <image id="dot4hz9czk" name="hero_talent2.png" path="/images/" exported="true"/>
+    <component id="dot4hz9czw" name="breakAttriItem.xml" path="/components/"/>
+    <component id="d8dihz9d02" name="talentItem.xml" path="/components/" exported="true"/>
+    <image id="d8dihz9d03" name="hero_talentpoints03.png" path="/images/" exported="true"/>
+    <component id="d8dihz9d04" name="talentBtn.xml" path="/components/"/>
+    <component id="d8dihz9d08" name="talentBtn_line.xml" path="/components/" exported="true"/>
+    <image id="d8dihz9d0c" name="fetters_arrow08.png" path="/images/" exported="true" scale="9grid" scale9grid="0,15,13,32"/>
+    <image id="d8dihz9d0d" name="fetters_arrow05.png" path="/images/" exported="true"/>
+    <image id="d8dihz9d0e" name="fetters_arrow06.png" path="/images/" exported="true"/>
+    <image id="d8dihz9d0f" name="fetters_arrow07.png" path="/images/" exported="true" scale="9grid" scale9grid="0,3,13,57"/>
+    <component id="d8dihz9d0g" name="synthesisLine.xml" path="/components/"/>
+    <component id="mmv036" name="getFightItem.xml" path="/components/"/>
+    <component id="mmv032" name="getWayItem.xml" path="/components/"/>
+    <component id="mmv034" name="GetWayFightView.xml" path="/panel/" exported="true"/>
+    <component id="mmv030" name="GetWayView.xml" path="/panel/" exported="true"/>
+    <component id="cl07hz9d0p" name="notGetItem.xml" path="/components/" exported="true"/>
+    <component id="nswwhz9d0t" name="SkillTip.xml" path="/panel/"/>
+    <component id="t25chz9d0u" name="quantity.xml" path="/components/" exported="true"/>
+    <image id="hk7yhz9d0v" name="fetters_arrow09.png" path="/images/" exported="true" scale="9grid" scale9grid="14,13,7,2"/>
+    <component id="kh4zhz9d0w" name="GeneralTalentTreeView.xml" path="/panel/" exported="true"/>
+    <component id="kh4zhz9d0x" name="TalentTree.xml" path="/components/" exported="true"/>
+    <component id="k0lxhz9d62" name="cropItem.xml" path="/components/" exported="true"/>
+    <image id="lfqnhz9d6t" name="hero_bg018.png" path="/images/" exported="true"/>
+    <image id="lfqnhz9d6u" name="hero_bg017.png" path="/images/" exported="true" scale="9grid" scale9grid="23,0,10,46"/>
+    <component id="lfqnhz9d6v" name="attribute_Item.xml" path="/components/" exported="true"/>
+    <image id="lfqnhz9d6w" name="hero_bg019.png" path="/images/" exported="true" scale="9grid" scale9grid="17,0,14,33"/>
+    <image id="lfqnhz9d6x" name="hero_btn_arrow01.png" path="/images/" exported="true"/>
+    <image id="hxd7hz9d70" name="hero_bg023.png" path="/images/" exported="true"/>
+    <component id="hxd7hz9d74" name="inforBtn2.xml" path="/components/"/>
+    <image id="hxd7hz9d76" name="hero_decompose.png" path="/images/" exported="true"/>
+    <image id="hxd7hz9d78" name="hero_icon01.png" path="/images/" exported="true"/>
+    <image id="hxd7hz9d7b" name="hero_btn_breach.png" path="/images/" exported="true"/>
+    <image id="hxd7hz9d7c" name="hero_btn_Fetters.png" path="/images/" exported="true"/>
+    <image id="hxd7hz9d7d" name="hero_btn_grade.png" path="/images/" exported="true"/>
+    <image id="hxd7hz9d7e" name="hero_btn_skill.png" path="/images/" exported="true"/>
+    <component id="hxd7hz9d7h" name="titleBtn.xml" path="/components/" exported="true"/>
+    <component id="hxd7hz9d7i" name="titleBtn2.xml" path="/components/" exported="true"/>
+    <image id="bumchz9d7l" name="bg03.jpg" path="/images/" exported="true"/>
+    <image id="bumchz9d7m" name="bg03.png" path="/images/" exported="true"/>
+    <image id="bumchz9d7n" name="bg04.png" path="/images/" exported="true"/>
+    <image id="bumchz9d7o" name="bg05.png" path="/images/" exported="true"/>
+    <image id="bumchz9d7p" name="bg06.png" path="/images/" exported="true"/>
+    <image id="bumchz9d7q" name="icon_talent05.png" path="/images/" exported="true"/>
+    <image id="bumchz9d7r" name="icon_talent01.png" path="/images/" exported="true"/>
+    <image id="bumchz9d7s" name="icon_talent02.png" path="/images/" exported="true"/>
+    <image id="bumchz9d7t" name="icon_talent03.png" path="/images/" exported="true"/>
+    <image id="bumchz9d7u" name="icon_talent04.png" path="/images/" exported="true"/>
+    <image id="bumchz9d7v" name="bg02.png" path="/images/" exported="true"/>
+    <component id="bumchz9d7y" name="TalentPoint.xml" path="/components/" exported="true"/>
+    <image id="bumchz9d7z" name="talent_spot02.png" path="/images/" exported="true"/>
+    <image id="bumchz9d80" name="talent_spot03.png" path="/images/" exported="true"/>
+    <image id="bumchz9d81" name="talent_spot04.png" path="/images/" exported="true"/>
+    <image id="bumchz9d82" name="talent_spot05.png" path="/images/" exported="true"/>
+    <image id="bumchz9d83" name="talent_spot06.png" path="/images/" exported="true"/>
+    <image id="bumchz9d84" name="talent_spot07.png" path="/images/" exported="true"/>
+    <image id="bumchz9d85" name="talent_spot08.png" path="/images/" exported="true"/>
+    <image id="bumchz9d86" name="talent_spot09.png" path="/images/" exported="true"/>
+    <image id="bumchz9d87" name="talent_spot10.png" path="/images/" exported="true"/>
+    <image id="bumchz9d88" name="talent_spot11.png" path="/images/" exported="true"/>
+    <image id="bumchz9d89" name="talent_spot13.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8a" name="talent_spot14.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8b" name="talent_skill_01.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8c" name="talent_skill_02.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8d" name="talent_skill_03.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8e" name="talent_skill_04.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8f" name="talent_skill_05.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8g" name="talent_skill_06.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8h" name="talent_skill_07.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8i" name="talent_skill_08.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8j" name="talent_skill_09.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8k" name="talent_skill_010.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8l" name="talent_skill_011.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8m" name="line04.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8n" name="line01.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8o" name="line02.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8p" name="line03.png" path="/images/" exported="true"/>
+    <component id="bumchz9d8r" name="TalentTreeItem2.xml" path="/components/"/>
+    <image id="bumchz9d8t" name="talent_bg01.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8u" name="talent_bg03.png" path="/images/" exported="true"/>
+    <image id="bumchz9d8v" name="talent_bg02.png" path="/images/" exported="true"/>
+    <component id="bumchz9d8w" name="TalentTreeBtn.xml" path="/components/"/>
+    <image id="bumchz9d8x" name="talent_btn_modify.png" path="/images/" exported="true"/>
+    <component id="bumchz9d8z" name="TalentTreeList.xml" path="/components/"/>
+    <component id="bumchz9d92" name="talentBtn2.xml" path="/components/" exported="true"/>
+    <component id="bumchz9d93" name="TalentTreeItem.xml" path="/components/"/>
+    <image id="bumchz9d94" name="bg01.png" path="/images/" exported="true"/>
+    <component id="10473hz9d96" name="breakAttriItem2.xml" path="/components/"/>
+    <component id="s1351iy5bau" name="equiTipsTitle.xml" path="/components/"/>
+    <image id="s1351iy5bav" name="tips_quality01.png" path="/images/" exported="true"/>
+    <image id="s1351iy5baw" name="tips_quality02.png" path="/images/" exported="true"/>
+    <image id="s1351iy5bax" name="tips_quality03.png" path="/images/" exported="true"/>
+    <image id="s1351iy5bay" name="tips_quality04.png" path="/images/" exported="true"/>
+    <image id="s1351iy5baz" name="tips_quality05.png" path="/images/" exported="true"/>
+    <component id="s1351iy5bb3" name="SkillTip(1).xml" path="/panel/"/>
+    <component id="zk8y1iy5bb4" name="Component1.xml" path="/components/"/>
+    <component id="zk8y1iy5bb6" name="equip_attribute2.xml" path="/components/"/>
+    <component id="zk8y1iy5bb8" name="EquipmentTips.xml" path="/panel/" exported="true"/>
+    <image id="p9911iy5bbb" name="hero_bg021.png" path="/images/" exported="true"/>
+    <component id="p9911iy5bbc" name="suitAddTxt.xml" path="/components/"/>
+    <component id="p9911iy5bbd" name="suitAddTxt2.xml" path="/components/"/>
+    <component id="eznb1iy5bbf" name="PowerTipsView.xml" path="/panel/" exported="true"/>
+    <component id="eznb1iy5bbh" name="powerTipsItem.xml" path="/components/" exported="true"/>
+    <image id="eznb1iy5bcf" name="channel_bg04.png" path="/images/" exported="true"/>
+    <image id="eznb1iy5bcg" name="channel_bg01.png" path="/images/" exported="true"/>
+    <image id="eznb1iy5bch" name="channel_bg02.png" path="/images/" exported="true"/>
+    <image id="eznb1iy5bci" name="channel_bg03.png" path="/images/" exported="true"/>
+    <image id="eznb1iy5bcl" name="fetters_arrow010.png" path="/images/" exported="true"/>
+    <image id="eznb1iy5bcn" name="bg07.png" path="/images/" exported="true"/>
+    <image id="poaz1iy5bco" name="18兵种详情.jpg" path="/panel/"/>
+    <component id="poaz1iy5bcy" name="armIcon.xml" path="/components/"/>
+    <component id="poaz1iy5bd0" name="EquipmentTips(1).xml" path="/panel/" exported="true"/>
+    <image id="poaz1iy5bd2" name="17天赋.jpg" path="/panel/"/>
+    <image id="poaz1iy5bd3" name="bg00.png" path="/images/" exported="true"/>
+    <image id="poaz1iy5bd4" name="hero_talentpoints06.png" path="/images/" exported="true"/>
+    <image id="poaz1iy5bd5" name="hero_talentpoints05.png" path="/images/" exported="true"/>
+    <image id="bwlb1iy5bd6" name="13羁绊.jpg" path="/panel/"/>
+    <image id="bwlb1iy5bd8" name="bg.png" path="/images/" exported="true"/>
+    <component id="bwlb1iy5bda" name="fetterBg.xml" path="/components/"/>
+    <image id="bwlb1iy5bdb" name="14羁绊1.jpg" path="/panel/"/>
+    <component id="vwm91iy5bdc" name="EquimentResoView.xml" path="/panel/" exported="true"/>
+    <image id="vwm91iy5bde" name="bag_bg02.png" path="/images/" exported="true" scale="9grid" scale9grid="15,0,5,29"/>
+    <image id="vwm91iy5bdf" name="bag_bg01.png" path="/images/" exported="true" scale9grid="3,185,6,370"/>
+    <component id="kxx21iy5bdg" name="hero_bg.xml" path="/components/" exported="true"/>
+    <image id="kxx21iy5bdh" name="hero_bg01_001.jpg" path="/images/hero_bg_dynamic/" exported="true" scale9grid="406,187,812,374" atlas="alone_npot"/>
+    <image id="kxx21iy5bdi" name="hero_bg02_002.jpg.png" path="/images/hero_bg_dynamic/" exported="true"/>
+    <image id="kxx21iy5bdj" name="hero_bg02_003.jpg.png" path="/images/hero_bg_dynamic/" exported="true"/>
+    <image id="kxx21iy5bdk" name="hero_bg02_004.jpg.png" path="/images/hero_bg_dynamic/" exported="true"/>
+    <image id="kxx21iy5bdl" name="hero_bg02_005.jpg.png" path="/images/hero_bg_dynamic/" exported="true"/>
+    <image id="kxx21iy5bdm" name="hero_bg02_006.jpg.png" path="/images/hero_bg_dynamic/" exported="true" scale9grid="454,108,908,216" atlas="alone_npot"/>
+    <image id="kxx21iy5bdn" name="hero_bg02_007.jpg.png" path="/images/hero_bg_dynamic/" exported="true"/>
+    <image id="kxx21iy5bdo" name="hero_bg02_008.jpg.png" path="/images/hero_bg_dynamic/" exported="true"/>
+    <image id="kxx21iy5bdp" name="hero_bg025.png" path="/images/" exported="true" scale="9grid" scale9grid="29,89,6,2"/>
+    <component id="t5dg1iy5bdq" name="attribute_Item1.xml" path="/components/" exported="true"/>
+    <image id="frte1iy5bdr" name="hero_bg027.png" path="/images/" exported="true" scale="9grid" scale9grid="16,15,5,4"/>
+    <component id="sgc41iy5bdt" name="right.xml" path="/panel/" exported="true"/>
+    <component id="gw4m1iy5bdu" name="armyBtn.xml" path="/components/"/>
+    <image id="gw4m1iy5bdv" name="hero_bg028.png" path="/images/" exported="true"/>
+    <component id="hf3b1iy5bdw" name="ActivateSuitView.xml" path="/panel/" exported="true"/>
+    <component id="uj9w1iy5bdy" name="maskList.xml" path="/panel/" exported="true"/>
+    <image id="kvv41iy5be0" name="hero_bg03_001.jpg" path="/images/hero_bg02_dynamic/" exported="true" scale9grid="1071,187,257,374" atlas="alone_npot"/>
+    <image id="kvv41iy5be1" name="hero_bg03_002.png" path="/images/hero_bg02_dynamic/" exported="true"/>
+    <image id="kvv41iy5be2" name="hero_bg03_003.png" path="/images/hero_bg02_dynamic/" exported="true"/>
+    <component id="u9xj1iy5be3" name="node.xml" path="/components/"/>
+    <component id="it7n1iy5be5" name="stuffIcon.xml" path="/components/"/>
+    <image id="8z991iy5be6" name="hero_bg029.png" path="/images/" exported="true"/>
+    <component id="8z991iy5be7" name="hero_fragment.xml" path="/components/" exported="true"/>
+    <component id="klt51iy5be8" name="GeneralLifeView.xml" path="/panel/" exported="true"/>
+    <image id="klt51iy5be9" name="bg_08.png" path="/images/" exported="true"/>
+    <component id="klt51iy5bea" name="describeLbl.xml" path="/panel/"/>
+    <component id="gqih1iy5beb" name="describe01.xml" path="/panel/" exported="true"/>
+    <component id="jlur1iy5bec" name="Empty.xml" path="/components/" exported="true"/>
+    <image id="so711iy5bed" name="arms_bg001.png" path="/images/" exported="true"/>
+    <image id="so711iy5bee" name="arms_bg002.png" path="/images/" exported="true"/>
+    <image id="so711iy5bef" name="arms_bg003.png" path="/images/" exported="true"/>
+    <image id="gqn01iy5beg" name="fetters_arrow03.png" path="/images/" exported="true" scale="9grid" scale9grid="23,6,11,12"/>
+    <image id="gqn01iy5beh" name="fetters_arrow04.png" path="/images/" exported="true" scale="9grid" scale9grid="16,6,29,12"/>
+    <component id="spxy1iy5bei" name="GeneralAwakeBtn.xml" path="/panel/" exported="true"/>
+    <image id="tkgc1iy5bej" name="hero_icon02.png" path="/images/" exported="true"/>
+    <image id="tkgc1iy5bek" name="hero_btn_arrow.png" path="/images/" exported="true"/>
+    <component id="tkgc1iy5bel" name="titleItem.xml" path="/components/" exported="true"/>
+    <image id="tkgc1iy5bem" name="hero_icon_fetters.png" path="/images/" exported="true"/>
+    <image id="tkgc1iy5ben" name="hero_icon_skill.png" path="/images/" exported="true"/>
+    <component id="tkgc1iy5beo" name="titleBtn3.xml" path="/components/" exported="true"/>
+    <image id="tkgc1iy5bep" name="hero_btn_arrow2.png" path="/images/" exported="true"/>
+    <image id="tkgc1iy5beq" name="hero_icon06.png" path="/images/" exported="true"/>
+    <image id="tkgc1iy5ber" name="hero_icon07.png" path="/images/" exported="true"/>
+    <image id="tkgc1iy5bes" name="hero_icon03.png" path="/images/" exported="true"/>
+    <image id="tkgc1iy5bet" name="hero_icon04.png" path="/images/" exported="true"/>
+    <image id="tkgc1iy5beu" name="hero_icon05.png" path="/images/" exported="true"/>
+    <image id="tkgc1iy5bev" name="hero_bg034.png" path="/images/" exported="true" scale="9grid" scale9grid="16,15,5,4"/>
+    <image id="tkgc1iy5bew" name="hero_bg030.png" path="/images/" exported="true" scale="9grid" scale9grid="16,15,5,4"/>
+    <image id="tkgc1iy5bex" name="hero_bg031.png" path="/images/" exported="true" scale="9grid" scale9grid="16,15,5,4"/>
+    <image id="tkgc1iy5bey" name="hero_bg032.png" path="/images/" exported="true" scale="9grid" scale9grid="16,15,5,4"/>
+    <image id="tkgc1iy5bez" name="hero_bg033.png" path="/images/" exported="true" scale="9grid" scale9grid="16,15,5,4"/>
+    <image id="btd51iy5bf0" name="hero_bg00.png" path="/images/" exported="true"/>
+    <image id="btd51iy5bf1" name="hero_bag.png" path="/images/" exported="true"/>
+    <image id="e1m31iy5bf2" name="bg030.png" path="/images/" exported="true"/>
+    <image id="e1m31iy5bf3" name="fetters_icon_01.png" path="/images/" exported="true"/>
+    <image id="e1m31iy5bf4" name="fetters_icon_02.png" path="/images/" exported="true"/>
+    <image id="e1m31iy5bf5" name="fetters_icon_03.png" path="/images/" exported="true"/>
+    <image id="e1m31iy5bf6" name="hero_bg026.png" path="/images/" exported="true"/>
+    <image id="gad31iy5bf8" name="hero_btn_equipment.png" path="/images/" exported="true"/>
+    <image id="gad31iy5bfa" name="bg032.png" path="/images/" exported="true"/>
+    <image id="gad31iy5bfb" name="bg033.png" path="/images/" exported="true"/>
+    <image id="gad31iy5bfc" name="bg034.png" path="/images/" exported="true"/>
+    <image id="gad31iy5bfd" name="bg035.png" path="/images/" exported="true"/>
+    <component id="fccv1iy5bfe" name="fetterBtn.xml" path="/components/" exported="true"/>
+    <image id="t1vs1iy5bff" name="bg031.png" path="/images/"/>
+    <image id="slj11iy5bfh" name="hero_bg_site.png" path="/images/" exported="true"/>
+    <image id="lvki1iy5bfi" name="hero_point1.png" path="/images/" exported="true"/>
+    <image id="lvki1iy5bfj" name="hero_point2.png" path="/images/" exported="true"/>
+    <component id="lvki1iy5bfk" name="heroStar.xml" path="/components/" exported="true"/>
+    <component id="equg1iy5bfl" name="GeneralTipsView.xml" path="/panel/" exported="true"/>
+    <component id="equg1iy5bfm" name="generalItem1.xml" path="/components/" exported="true"/>
+    <component id="equg1iy5bfn" name="GeneralTipsView1.xml" path="/panel/" exported="true"/>
+    <component id="equg1iy5bfo" name="general_line.xml" path="/components/" exported="true"/>
+    <component id="d2lk1iy5bfp" name="ArmyInfo_attrbute.xml" path="/components/" exported="true"/>
+    <image id="d2lk1iy5bfq" name="arms_bg004.png" path="/images/" exported="true"/>
+    <image id="d2lk1iy5bfr" name="arms_bg005.png" path="/images/" exported="true"/>
+    <component id="ct1e1iy5bfs" name="starSkill.xml" path="/components/" exported="true"/>
+    <component id="ct1e1iy5bft" name="genSoulItem.xml" path="/components/" exported="true"/>
+    <component id="ct1e1iy5bfu" name="genStarFragment.xml" path="/components/" exported="true"/>
+    <image id="ct1e1iy5bfv" name="troops_icon001.png" path="/images/" exported="true"/>
+    <image id="ct1e1iy5bfw" name="troops_icon002.png" path="/images/" exported="true"/>
+    <component id="ct1e1iy5bfx" name="hero_bg02.xml" path="/components/"/>
+    <image id="gckh1iy5bfz" name="hero_bg035.png" path="/images/" exported="true"/>
+    <component id="gckh1iy5bg0" name="hero_Btn1.xml" path="/components/" exported="true"/>
+    <image id="gckh1iy5bg1" name="hero_btn_rebirth3.png" path="/images/" exported="true"/>
+    <image id="gckh1iy5bg2" name="hero_btn_rebirth4.png" path="/images/" exported="true"/>
+    <image id="gckh1iy5bg3" name="hero_btn_rebirth1.png" path="/images/" exported="true"/>
+    <image id="gckh1iy5bg4" name="hero_btn_rebirth2.png" path="/images/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

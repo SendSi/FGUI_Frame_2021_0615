@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" opaque="false" mask="n20_lyth" designImage="ui://4hio38umdot4hz9czo">
+  <displayList>
+    <graph id="n16_rfbh" name="graph" xy="0,0" size="100,100" touchable="false" type="rect" lineColor="#0000cc00" fillColor="#ff999999"/>
+    <graph id="n20_lyth" name="mask" xy="75,150" size="883,504" alpha="0.5" touchable="false" type="rect">
+      <relation target="n18_lyth" sidePair=""/>
+    </graph>
+    <list id="n18_lyth" name="talentList" xy="75,150" size="881,504" layout="row" overflow="scroll" scroll="horizontal" colGap="100" defaultItem="ui://4hio38umd8dihz9d04" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,33">
+  <displayList>
+    <text id="n0_hn57" name="title" xy="0,2" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" ubb="true" autoClearText="true" text="当前职位："/>
+    <component id="n5_vaql" name="lebel1" src="h0om1ygcffh" fileName="components/torchBtn_led.xml" xy="92,2"/>
+  </displayList>
+</component>

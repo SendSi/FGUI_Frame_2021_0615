@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="454,82" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n5_p7it" name="n5" src="ebe5z9cn2" fileName="images/images_new/line_01.png" pkg="2r331opv" xy="0,78" size="454,4" alpha="0.05"/>
+    <text id="n6_p7it" name="title" xy="38,24" pivot="0.5,0.5" size="18,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" text="4"/>
+    <loader id="n7_p7it" name="icon" xy="23,16" size="50,50" aspect="true" fill="scale"/>
+    <text id="n8_p7it" name="nameLbl" xy="117,25" pivot="0.5,0.5" size="158,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" text="名字有八个字吧"/>
+    <text id="n9_p7it" name="numberLbl" xy="319,25" pivot="0.5,0.5" size="108,32" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#8ef3ff" align="center" text="77888770"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="state" pages="0," selected="0">
+    <remark page="0" value="查看"/>
+  </controller>
+  <displayList>
+    <component id="n0_hlig" name="com_mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_hlig" name="com_window" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n13_teiy"/>
+    <text id="n21_g9ny" name="title" xy="597,70" pivot="0.5,0.5" size="140,46" group="n13_teiy" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="联盟建筑"/>
+    <loader id="n11_hlig" name="iconBuild" xy="545,243" size="305,274" group="n46_ok6z" visible="false" align="center" vAlign="middle" fill="scale"/>
+    <text id="n5_hlig" name="txtDesc" xy="537,197" size="551,94" group="n46_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" leading="2" letterSpacing="-2" autoSize="none" autoClearText="true" text="这里是文字描述，巴拉巴拉巴拉巴拉这里是文字描述，巴拉巴拉巴拉巴拉这里是文字描述，巴拉巴拉巴拉巴拉"/>
+    <component id="n22_g9ny" name="explainBtn" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="477,182" size="70,70" group="n46_ok6z" aspect="true" scale="0.8,0.8">
+      <Button icon="ui://2r331opvvb7khz9czn"/>
+    </component>
+    <text id="n4_hlig" name="txtState" xy="537,505" size="129,34" group="n46_ok6z" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#b26105" autoSize="none" autoClearText="true" text="状态:失效"/>
+    <component id="n10_hlig" name="stripProgress" src="vqdvhz9d2b" fileName="components/buildPbr.xml" xy="537,483" size="512,17" group="n46_ok6z">
+      <ProgressBar value="61" max="100" min="8"/>
+    </component>
+    <image id="n49_vqdv" name="n49" src="nnlhhz9d1q" fileName="images/league_castlebg.png" xy="229,312" size="220,220" group="n52_vqdv" alpha="0.6"/>
+    <image id="n50_vqdv" name="n50" src="nnlhhz9d1i" fileName="images/league_castle.png" xy="282,296" group="n52_vqdv"/>
+    <component id="n51_vqdv" name="flagIcon2" src="nnlhhz9d15" fileName="components/flagIcon.xml" xy="303,321" group="n52_vqdv" scale="0.25,0.25"/>
+    <group id="n52_vqdv" name="n52" xy="229,296" size="384,336" group="n46_ok6z" advanced="true"/>
+    <group id="n46_ok6z" name="n46" xy="229,182" size="859,450" group="n13_teiy"/>
+    <component id="n20_g9ny" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n13_teiy"/>
+    <component id="n53_vqdv" name="explainBtn2" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="1057,455" size="70,70" group="n13_teiy" aspect="true" scale="0.8,0.8" visible="false">
+      <gearDisplay controller="state" pages="1,2"/>
+      <Button icon="ui://2r331opvvb7khz9czn"/>
+    </component>
+    <group id="n13_teiy" name="windows" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

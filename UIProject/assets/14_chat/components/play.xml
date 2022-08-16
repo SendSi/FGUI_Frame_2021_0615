@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="20,27">
+  <displayList>
+    <image id="n58_rg9r" name="n58" src="g01i8" fileName="images/voice_bg_1.png" xy="0,0"/>
+    <image id="n59_rg9r" name="n59" src="g01i9" fileName="images/voice_bg_2.png" xy="8,4"/>
+    <image id="n60_rg9r" name="n60" src="g01ia" fileName="images/voice_bg_3.png" xy="15,8"/>
+  </displayList>
+  <transition name="t0" options="1" autoPlayRepeat="0">
+    <item time="0" type="Alpha" target="n58_rg9r" value="0"/>
+    <item time="0" type="Alpha" target="n59_rg9r" value="0"/>
+    <item time="0" type="Alpha" target="n60_rg9r" value="0"/>
+    <item time="3" type="Alpha" target="n60_rg9r" value="1"/>
+    <item time="10" type="Alpha" target="n59_rg9r" value="1"/>
+    <item time="10" type="Alpha" target="n60_rg9r" value="1"/>
+    <item time="18" type="Alpha" target="n58_rg9r" value="1"/>
+    <item time="18" type="Alpha" target="n59_rg9r" value="1"/>
+    <item time="26" type="Alpha" target="n58_rg9r" value="1"/>
+  </transition>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <displayList>
+    <loader id="n7_w84w" name="bg" xy="0,0" size="1334,750" url="ui://3dqb8xiolp550" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n133_lp55" name="checkpo" src="lp559" fileName="components/CheckpointIcon.xml" xy="0,0">
+      <relation target="" sidePair="rightext-right,leftext-left"/>
+    </component>
+    <component id="n134_lp55" name="challen" src="lp55c" fileName="components/Checkpointdown.xml" xy="0,606">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </component>
+    <component id="n3_w84w" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0" size="135,68"/>
+  </displayList>
+</component>

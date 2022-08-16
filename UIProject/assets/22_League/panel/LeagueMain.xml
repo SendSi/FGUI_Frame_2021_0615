@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="tab" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="主要界面"/>
+    <remark page="1" value="成员"/>
+    <remark page="2" value="发展"/>
+    <remark page="3" value="福利"/>
+  </controller>
+  <displayList>
+    <component id="n3_nnlh" name="n3" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n27_nnlh"/>
+    <image id="n57_q5gk" name="map" src="q5gk1ygcflc" fileName="images/league_bg1.png" xy="505,151" group="n63_mw3o"/>
+    <image id="n7_nnlh" name="n7" src="f6sj1ygcfln" fileName="images/league_bg3.png" xy="533,177" size="569,145" group="n63_mw3o"/>
+    <richtext id="n21_nnlh" name="titleNotice" xy="549,184" size="500,34" group="n63_mw3o" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" ubb="true" autoSize="none" autoClearText="true" text="联盟公告"/>
+    <richtext id="n22_nnlh" name="txtNotice" xy="552,210" size="531,103" group="n63_mw3o" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#c8a778" leading="0" letterSpacing="-2" ubb="true" autoSize="none" autoClearText="true" text="联盟公告巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴">
+      <relation target="n21_nnlh" sidePair="topext-bottom"/>
+    </richtext>
+    <component id="n56_q5gk" name="noticeBtn" src="j3xs9pe" fileName="components/changeNameBtn.xml" pkg="66sh7tc6" xy="1051,271" group="n63_mw3o">
+      <gearDisplay controller="tab" pages="0"/>
+    </component>
+    <component id="n66_o23t" name="guideBtn2" src="sfia1ygcfhf" fileName="components/components_new/com_btn_null.xml" pkg="2r331opv" xy="519,333" size="590,286" group="n63_mw3o"/>
+    <component id="n58_q5gk" name="territoryBtn" src="q5gk1ygcfle" fileName="components/LeagueBtn3.xml" xy="559,344" group="n63_mw3o">
+      <gearDisplay controller="tab" pages="0"/>
+    </component>
+    <component id="n59_q5gk" name="shrineBtn" src="q5gk1ygcfle" fileName="components/LeagueBtn3.xml" xy="691,437" group="n63_mw3o">
+      <gearDisplay controller="tab" pages="0"/>
+      <Button title="圣地" icon="ui://lp3m5cuhvqdvhz9d1v"/>
+    </component>
+    <image id="n5_nnlh" name="n5" src="b3skhz9cxs" fileName="images/league_redcloth.png" xy="210,133" size="277,311" group="n29_nnlh" visible="false"/>
+    <component id="n6_nnlh" name="flagIcon" src="nnlhhz9d15" fileName="components/flagIcon.xml" xy="227,177" size="308,289" group="n29_nnlh" scale="0.8,0.8"/>
+    <group id="n29_nnlh" name="flag" xy="210,133" size="325,333" group="n63_mw3o"/>
+    <component id="n60_q5gk" name="editBtn" src="j3xs9pe" fileName="components/changeNameBtn.xml" pkg="66sh7tc6" xy="372,317" group="n63_mw3o">
+      <gearDisplay controller="tab" pages="0"/>
+    </component>
+    <component id="n32_nnlh" name="leagueInfo" src="nnlhhz9d1n" fileName="components/leagueInforItem.xml" xy="208,454" group="n63_mw3o"/>
+    <component id="n65_o23t" name="guideBtn1" src="sfia1ygcfhf" fileName="components/components_new/com_btn_null.xml" pkg="2r331opv" xy="201,458" size="292,204" group="n63_mw3o"/>
+    <component id="n50_a56f" name="btnExplain" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="444,450" size="52,52" group="n63_mw3o" aspect="true">
+      <gearDisplay controller="tab" pages="0"/>
+      <Button icon="ui://2r331opvkrfh1iy5b93"/>
+    </component>
+    <component id="n48_omzo" name="btnEmail" src="j9d9hz9d6c" fileName="components/mailBtn.xml" xy="445,605" size="54,54" group="n63_mw3o" aspect="true">
+      <Button title="邮件" icon="ui://lp3m5cuhvqdvhz9d1v"/>
+    </component>
+    <component id="n69_jj70" name="btnSeason" src="q5gk1ygcfle" fileName="components/LeagueBtn3.xml" xy="942,338" group="n63_mw3o">
+      <gearDisplay controller="tab" pages="0"/>
+      <Button title="赛季" icon="ui://lp3m5cuhlt801ygcfoh"/>
+    </component>
+    <group id="n63_mw3o" name="n63" xy="201,133" size="934,529" group="n27_nnlh" advanced="true">
+      <gearDisplay controller="tab" pages="0"/>
+    </group>
+    <component id="n46_rf4b" name="leagueMember" src="we80hz9d60" fileName="panel/LeagueMemberTab.xml" xy="0,0" group="n27_nnlh">
+      <gearDisplay controller="tab" pages="1"/>
+    </component>
+    <component id="n64_mw3o" name="developTab" src="mw3o1ygcflf" fileName="components/LeagueDevelopTab.xml" xy="175,116" group="n27_nnlh">
+      <gearDisplay controller="tab" pages="2"/>
+    </component>
+    <component id="n62_mw3o" name="optionTab" src="mw3o1ygcfl8" fileName="components/LeagueOptionTab.xml" xy="207,160" size="920,492" group="n27_nnlh">
+      <gearDisplay controller="tab" pages="3"/>
+    </component>
+    <list id="n61_q5gk" name="tab_list" xy="8,135" size="166,438" group="n27_nnlh" lineGap="10" defaultItem="ui://2r331opvmw3o1ygcflo" selectionController="tab">
+      <gearDisplay controller="tab" pages="0,1,2,3"/>
+      <item title="成员"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n68_o23t" name="guideBtn3" src="sfia1ygcfhf" fileName="components/components_new/com_btn_null.xml" pkg="2r331opv" xy="6,121" size="174,452" group="n27_nnlh"/>
+    <component id="n26_nnlh" name="closeBtn" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1118,42" group="n27_nnlh"/>
+    <text id="n33_nnlh" name="title" xy="631,70" pivot="0.5,0.5" size="72,46" group="n27_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="联盟"/>
+    <group id="n27_nnlh" name="mine" xy="0,0" size="1334,750" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

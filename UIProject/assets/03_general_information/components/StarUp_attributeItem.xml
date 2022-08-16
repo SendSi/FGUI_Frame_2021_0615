@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="330,34" designImageOffsetX="-435" designImageOffsetY="-320">
+  <displayList>
+    <text id="n0_ee2i" name="title" xy="2,2" size="44,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" ubb="true" singleLine="true" autoClearText="true" text="攻击"/>
+    <text id="n1_ee2i" name="number" xy="48,2" size="51,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#599e27" ubb="true" singleLine="true" autoClearText="true" text="+400">
+      <relation target="n0_ee2i" sidePair="left-right"/>
+    </text>
+  </displayList>
+</component>

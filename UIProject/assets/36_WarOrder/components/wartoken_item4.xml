@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="107,376">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="未解锁"/>
+    <remark page="1" value="已解锁"/>
+  </controller>
+  <displayList>
+    <image id="n18_x7d5" name="n18" src="x7d51ygcfjl" fileName="images/wartoken_bg7.png" xy="2,0"/>
+    <component id="n10_v8di" name="level" src="g4yj8" fileName="components/wartoken__btn3.xml" xy="0,8">
+      <gearColor controller="state" default="#e77917"/>
+      <Button titleFontSize="20"/>
+    </component>
+    <component id="n11_v8di" name="icon1" src="ee2ik0" fileName="components/general_new/equipmentIcon.xml" pkg="2r331opv" xy="-3,43" size="114,114" aspect="true" scale="0.8,0.8"/>
+    <component id="n12_v8di" name="icon3" src="ee2ik0" fileName="components/general_new/equipmentIcon.xml" pkg="2r331opv" xy="-3,146" aspect="true" scale="0.8,0.8"/>
+    <component id="n13_v8di" name="icon4" src="ee2ik0" fileName="components/general_new/equipmentIcon.xml" pkg="2r331opv" xy="-3,225" scale="0.8,0.8"/>
+    <component id="n14_v8di" name="giftBtn" src="g4yj9" fileName="components/wartoken__btn4.xml" xy="13,325" size="80,48"/>
+    <graph id="n19_ss4r" name="maskTop" xy="4,50" size="100,103" alpha="0" type="rect" lineSize="0"/>
+    <graph id="n20_ss4r" name="maskCenter" xy="4,154" size="100,161" alpha="0" type="rect" lineSize="0"/>
+    <image id="n15_v8di" name="n15" src="x7d51ygcfjl" fileName="images/wartoken_bg7.png" xy="2,0" alpha="0.8" color="#371c11">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+  </displayList>
+</component>

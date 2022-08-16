@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="372,372" mask="n0_o283" designImage="ui://jqem9egto283z9cnk" designImageOffsetX="-552" designImageOffsetY="-104">
+  <displayList>
+    <loader3D id="n1_o283" name="icon" xy="30,-26" size="300,493" url="ui://61bunt4fln1d6i" align="center" vAlign="middle" animation="" skin=""/>
+    <graph id="n0_o283" name="n0" xy="0,0" size="372,372" aspect="true" type="eclipse" lineColor="#ffffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

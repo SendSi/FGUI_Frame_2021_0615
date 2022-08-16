@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,40" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <graph id="n158_o5d4" name="n158" xy="11,32" pivot="0.5,0.5" size="78,1" type="rect" lineSize="0" fillColor="#ff70a33d"/>
+    <richtext id="n157_mecu" name="title" xy="0,0" size="100,40" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#70a33d" align="center" vAlign="middle" ubb="true" autoSize="none" text="更多属性"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

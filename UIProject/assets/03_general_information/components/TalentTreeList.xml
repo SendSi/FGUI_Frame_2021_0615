@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="171,536">
+  <controller name="switch" pages="0,,1," selected="0">
+    <action type="play_transition" fromPage="0" toPage="1" transition="t1"/>
+  </controller>
+  <displayList>
+    <image id="n26_bumc" name="n26" src="hxd7hz9d7i" fileName="images/images_new/com_bg_tips02_mask2.png" pkg="2r331opv" xy="-2,26" pivot="1,0" size="154,442">
+      <gearSize controller="switch" pages="0,1" values="154,442,1,1|40,16,1,1" tween="true"/>
+    </image>
+    <list id="n28_bumc" name="list" xy="12,61" pivot="1,0" size="128,397" layout="flow_hz" overflow="scroll" lineGap="8" defaultItem="ui://4hio38umbumchz9d93" align="center" vAlign="middle" autoClearItems="true">
+      <gearSize controller="switch" pages="0,1" values="128,397,1,1|0,0,1,1" tween="true"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n29_bumc" name="cutBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="1,470">
+      <gearXY controller="switch" pages="0,1" values="1,470|6,260" tween="true"/>
+      <gearLook controller="switch" pages="1" values="0,0,0,1" default="1,0,0,1"/>
+      <Button title="切换"/>
+    </component>
+    <text id="n32_bumc" name="title" xy="85,58" pivot="0.5,0.5" size="82,29" alpha="0" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#000000" shadowOffset="2,2" autoClearText="true" text="天赋页1">
+      <gearLook controller="switch" pages="1" values="1,0,0,0" default="0,0,0,0"/>
+    </text>
+    <component id="n27_bumc" name="swtichBtn" src="bumchz9d92" fileName="components/talentBtn2.xml" xy="99,0">
+      <Button icon="ui://2r331opvw84whz9cxd" selectedIcon="ui://2r331opvw84whz9cxe" controller="switch" page="1"/>
+    </component>
+  </displayList>
+  <transition name="t1">
+    <item time="0" type="Scale" target="n32_bumc" value="0,0"/>
+    <item time="6" type="Scale" target="n32_bumc" tween="true" startValue="0,0" endValue="1,1" duration="4"/>
+  </transition>
+</component>

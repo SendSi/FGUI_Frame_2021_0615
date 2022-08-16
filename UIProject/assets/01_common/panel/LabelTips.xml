@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="32,67" extention="Label">
+  <displayList>
+    <image id="n3_m5mo" name="bg" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" xy="-2,-2" size="167,70" group="n2_k0oo">
+      <relation target="n0_ms13" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n0_ms13" name="title" xy="30,19" size="104,29" group="n2_k0oo" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" align="center" vAlign="middle" autoClearText="true" text="攻击咖喱鸡">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n2_k0oo" name="tip" xy="-2,-2" size="167,70" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="97,108" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <text id="n3_svx3" name="title" xy="0,82" size="97,29" fontSize="20" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n4_svx3" name="icon" xy="0,0" size="97,108" url="ui://qnrrapjrsvx3hz9d7h" align="center" vAlign="middle">
+      <gearIcon controller="button" pages="0,1,2,3" values="ui://qnrrapjrsn9v1ygcff1|ui://qnrrapjrsvx3hz9d7h|ui://qnrrapjrsn9v1ygcff1|ui://qnrrapjrsvx3hz9d7h"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button mode="Check" downEffect="scale" downEffectValue="1"/>
+</component>

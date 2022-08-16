@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <image id="n2_oxy0" name="bg" src="kxx21iy5bdh" fileName="images/hero_bg_dynamic/hero_bg01_001.jpg" xy="-145,0" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n4_kxx2" name="n4" src="kxx21iy5bdl" fileName="images/hero_bg_dynamic/hero_bg02_005.jpg.png" xy="735,0">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+    <image id="n3_kxx2" name="n3" src="kxx21iy5bdi" fileName="images/hero_bg_dynamic/hero_bg02_002.jpg.png" xy="0,0">
+      <relation target="" sidePair="top-top"/>
+    </image>
+    <image id="n6_kxx2" name="n6" src="kxx21iy5bdk" fileName="images/hero_bg_dynamic/hero_bg02_004.jpg.png" xy="227,14" pivot="0.375,0.312" size="262,249"/>
+    <image id="n5_kxx2" name="n5" src="kxx21iy5bdj" fileName="images/hero_bg_dynamic/hero_bg02_003.jpg.png" xy="-105,-65" pivot="0.409,0.304" size="379,316"/>
+    <image id="n7_kxx2" name="n7" src="kxx21iy5bdm" fileName="images/hero_bg_dynamic/hero_bg02_006.jpg.png" xy="-146,316">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n8_kxx2" name="n8" src="kxx21iy5bdn" fileName="images/hero_bg_dynamic/hero_bg02_007.jpg.png" xy="300,603" pivot="0.5,1.005" size="107,154">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <image id="n9_kxx2" name="n9" src="kxx21iy5bdo" fileName="images/hero_bg_dynamic/hero_bg02_008.jpg.png" xy="948,604" pivot="0.5,1.004" size="161,152">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+  </displayList>
+  <transition name="t1" options="6" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n5_kxx2" tween="true" startValue="0" endValue="5.66" duration="36"/>
+    <item time="0" type="Rotation" target="n9_kxx2" tween="true" startValue="0" endValue="-6.21" duration="36"/>
+    <item time="36" type="Rotation" target="n5_kxx2" tween="true" startValue="5.66" endValue="-1.41" duration="30"/>
+    <item time="36" type="Rotation" target="n9_kxx2" tween="true" startValue="-6.21" endValue="4.89" duration="30"/>
+    <item time="66" type="Rotation" target="n5_kxx2" tween="true" startValue="-1.41" endValue="0" duration="41"/>
+    <item time="66" type="Rotation" target="n9_kxx2" tween="true" startValue="4.89" endValue="0" duration="41"/>
+    <item time="107" type="Rotation" target="n5_kxx2" value="0"/>
+    <item time="107" type="Rotation" target="n9_kxx2" value="0"/>
+  </transition>
+  <transition name="t2" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n6_kxx2" tween="true" startValue="0" endValue="-5.63" duration="32"/>
+    <item time="0" type="Rotation" target="n8_kxx2" tween="true" startValue="0" endValue="9.05" duration="32"/>
+    <item time="32" type="Rotation" target="n6_kxx2" tween="true" startValue="-5.63" endValue="2.56" duration="33"/>
+    <item time="32" type="Rotation" target="n8_kxx2" tween="true" startValue="9.05" endValue="-5.32" duration="33"/>
+    <item time="65" type="Rotation" target="n6_kxx2" tween="true" startValue="2.56" endValue="0" duration="33"/>
+    <item time="65" type="Rotation" target="n8_kxx2" tween="true" startValue="-5.32" endValue="0" duration="33"/>
+  </transition>
+</component>

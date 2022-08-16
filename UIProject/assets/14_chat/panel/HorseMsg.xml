@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" opaque="false">
+  <displayList>
+    <image id="n42_kebx" name="bg_01" src="r9f638" fileName="images/images_new/bg_chat_09.png" pkg="2r331opv" xy="234,100" size="902,53" group="n44_kebx">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="n43_kebx" name="title" src="znxl2q" fileName="panel/horseTitle.xml" xy="352,111" size="676,32" group="n44_kebx"/>
+    <group id="n44_kebx" name="horse race lamp" xy="234,100" size="902,53" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" extention="Label" initName="frame">
+  <controller name="tab" pages="0,,1,,2,,3," selected="2"/>
+  <displayList>
+    <component id="n23_pu9r" name="closeBtn" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0"/>
+    <component id="n22_pu9r" name="backBtn" src="n6021qp8vcy" fileName="components/components_new/com_btn_return.xml" pkg="2r331opv" xy="2,2" size="85,76"/>
+    <component id="n21_nibx" name="dontmove" src="d4gi9cij" fileName="components/components_new/Component_blank.xml" pkg="2r331opv" xy="163,549" size="995,175" group="n20_cegg"/>
+    <image id="n4_yhld" name="n4" src="hxd7hz9d7g" fileName="images/images_new/com_bg_tips00.png" pkg="2r331opv" xy="100,529" pivot="0.5,0.5" size="1134,208" group="n20_cegg" alpha="0.9"/>
+    <component id="n6_yhld" name="btn0" src="yhldm" fileName="components/components_new/map/search/searchTypeBtn.xml" xy="221,542" group="n20_cegg">
+      <Button controller="tab" page="0"/>
+    </component>
+    <component id="n7_yhld" name="btn1" src="yhldm" fileName="components/components_new/map/search/searchTypeBtn.xml" xy="461,541" group="n20_cegg">
+      <Button controller="tab" page="1"/>
+    </component>
+    <component id="n8_yhld" name="btn2" src="yhldm" fileName="components/components_new/map/search/searchTypeBtn.xml" xy="701,542" group="n20_cegg">
+      <Button checked="true" controller="tab" page="2"/>
+    </component>
+    <component id="n9_yhld" name="btn3" src="yhldm" fileName="components/components_new/map/search/searchTypeBtn.xml" xy="941,537" group="n20_cegg">
+      <Button controller="tab" page="3"/>
+    </component>
+    <group id="n20_cegg" name="n20" xy="100,529" size="1134,208" advanced="true">
+      <relation target="" sidePair="center-center%,bottom-bottom%"/>
+    </group>
+    <component id="n10_yhld" name="typeItem" src="ceggz9cop" fileName="components/components_new/map/search/searchInforItem.xml" xy="584,198" pivot="0.5,1">
+      <gearXY controller="tab" pages="0,1,2,3" values="109,198|345,198|584,198|822,198"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+  </displayList>
+  <transition name="approach">
+    <item time="0" type="Alpha" target="n10_yhld" tween="true" startValue="0" endValue="0.3" duration="6" ease="Linear"/>
+    <item time="0" type="Alpha" target="n20_cegg" tween="true" startValue="0" endValue="0.3" duration="6" ease="Linear"/>
+    <item time="0" type="Alpha" target="n22_pu9r" tween="true" startValue="0" endValue="0.3" duration="6" ease="Linear"/>
+    <item time="0" type="Scale" target="n10_yhld" tween="true" startValue="0.5,0.5" endValue="1,1" duration="12" ease="Linear"/>
+    <item time="0" type="Scale" target="n22_pu9r" tween="true" startValue="0.7,0.7" endValue="1,1" duration="12"/>
+    <item time="0" type="XY" target="n20_cegg" tween="true" startValue="139,670" endValue="139,566" duration="6" ease="Linear"/>
+    <item time="6" type="Alpha" target="n10_yhld" tween="true" startValue="0.3" endValue="1" duration="6" ease="Linear"/>
+    <item time="6" type="Alpha" target="n20_cegg" tween="true" startValue="0.3" endValue="1" duration="6" ease="Linear"/>
+    <item time="6" type="Alpha" target="n22_pu9r" tween="true" startValue="0.3" endValue="1" duration="6" ease="Linear"/>
+    <item time="6" type="XY" target="n20_cegg" tween="true" startValue="139,566" endValue="139,536" duration="6" ease="Linear"/>
+  </transition>
+</component>

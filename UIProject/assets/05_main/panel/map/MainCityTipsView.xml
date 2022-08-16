@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="574,423" extention="Label" initName="frame" designImageOffsetX="-855" designImageOffsetY="-176" designImageAlpha="39" designImageLayer="1">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="自己主城"/>
+    <remark page="1" value="他人主城"/>
+  </controller>
+  <controller name="c1" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="资源点"/>
+    <remark page="1" value="城市"/>
+    <remark page="2" value="据点"/>
+    <remark page="3" value="野蛮人"/>
+  </controller>
+  <displayList>
+    <image id="n26_m7yv" name="arrow" src="c4umz9cne" fileName="images/images_new/com_bg_tips_arrow.png" pkg="2r331opv" xy="14,211" pivot="0.5,0.5" anchor="true" rotation="90"/>
+    <image id="n2_r616" name="n2" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="30,25" size="513,366" group="n23_r616"/>
+    <text id="n5_r616" name="title" xy="138,46" pivot="0.5,0.5" size="298,42" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#4c9129" align="center" autoSize="none" text="资源点">
+      <gearColor controller="c1" pages="0,1,2,3" values="#4c9129,#000000|#b26105,#000000|#b333d9,#000000|#50382e,#000000"/>
+      <gearText controller="c1" pages="0,1,2,3" values="资源点|城市|据点|军团"/>
+    </text>
+    <component id="n7_r616" name="shareBtn" src="7so91qp8vi9" fileName="components/cornerBtn.xml" pkg="2r331opv" xy="100,9" size="70,88" group="n23_r616" scale="0.8,0.8">
+      <Button icon="ui://2r331opvnvnv1qp8vi2"/>
+    </component>
+    <component id="n8_r616" name="collectionBtn" src="7so91qp8vi9" fileName="components/cornerBtn.xml" pkg="2r331opv" xy="44,9" size="70,88" group="n23_r616" scale="0.8,0.8"/>
+    <image id="n9_r616" name="n9" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" xy="54,97" size="465,183" group="n23_r616" alpha="0.3" color="#97794f"/>
+    <image id="n27_ihid" name="n27" src="bumchz9d7p" fileName="images/images_new/windowBg_new/negative_bg03.png" pkg="2r331opv" xy="65,232" size="132,38" group="n23_r616" alpha="0.5"/>
+    <component id="n28_da8x" name="headIcon" src="ho0c1ygcgnt" fileName="components/components_new/btn_head6.xml" pkg="2r331opv" xy="49,79" size="196,207" group="n23_r616" scale="0.8,0.8"/>
+    <text id="n6_r616" name="coordTitle" xy="78,237" pivot="0.5,0.5" size="105,29" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#845744" autoClearText="true" text="X:129 Y:93"/>
+    <text id="n12_r616" name="inforTitle0" xy="228,111" size="44,29" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="玩家"/>
+    <text id="n13_r616" name="inforTitle1" xy="228,164" size="64,29" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="战斗力"/>
+    <text id="n14_r616" name="inforTitle2" xy="228,217" size="44,29" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" text="联盟"/>
+    <text id="n15_r616" name="playerName" xy="228,131" size="115,26" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#50382e" autoClearText="true" text="Player name"/>
+    <text id="n16_r616" name="powerNum" xy="228,190" size="57,26" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#50382e" autoClearText="true" text="10000"/>
+    <text id="n18_r616" name="leagueName" xy="228,238" size="129,26" group="n23_r616" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#50382e" autoClearText="true" text="Alliance name"/>
+    <component id="n19_r616" name="chatBtn" src="qy501qp8vdu" fileName="components/components_new/com_btn_icon1.xml" pkg="2r331opv" xy="446,121" size="55,41" group="n23_r616">
+      <gearDisplay controller="state" pages="1"/>
+      <Button icon="ui://2r331opvnvnv1qp8vi3"/>
+    </component>
+    <component id="n22_r616" name="explainBtn" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="465,39" size="52,52" group="n23_r616" aspect="true" visible="false">
+      <Button icon="ui://2r331opvr616z9cpc"/>
+    </component>
+    <component id="n24_vpos" name="enterBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="204,298" group="n23_r616">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="进入"/>
+    </component>
+    <component id="n20_r616" name="checkBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="98,299" group="n25_vpos">
+      <Button title="侦查"/>
+    </component>
+    <component id="n21_r616" name="attackBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="314,299" group="n25_vpos">
+      <Button title="攻击"/>
+    </component>
+    <group id="n25_vpos" name="otherBtn" xy="98,299" size="377,62" group="n23_r616" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <group id="n23_r616" name="n23" xy="30,9" size="513,382"/>
+  </displayList>
+</component>

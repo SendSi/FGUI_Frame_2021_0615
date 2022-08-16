@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://b7676vbqb9bjl7" designImageAlpha="30">
+  <controller name="tab" pages="0,,1,,2,,3,,4," selected="0"/>
+  <controller name="rightType" pages="0,noUsing,5,canUsing,1,usingNum,6,composeNum,7," selected="0">
+    <remark page="4" value="装备"/>
+  </controller>
+  <controller name="hasData" pages="0,,1," selected="1">
+    <remark page="0" value="无数据"/>
+    <remark page="1" value="左边有格子"/>
+  </controller>
+  <controller name="switch" pages="0,,1," selected="1"/>
+  <controller name="condition" pages="0,,1," selected="1">
+    <remark page="1" value="条件"/>
+  </controller>
+  <controller name="quality" pages="0,,1,,2,,3,,4," selected="0">
+    <remark page="0" value="绿"/>
+    <remark page="1" value="蓝"/>
+    <remark page="2" value="紫"/>
+    <remark page="3" value="金"/>
+    <remark page="4" value="红"/>
+  </controller>
+  <displayList>
+    <image id="n3_xbay" name="bg" src="e2ps1iy5b98" fileName="images/bg_new/bg8.jpg" pkg="2r331opv" xy="-168,0">
+      <relation target="" sidePair="height-height,center-center"/>
+    </image>
+    <image id="n88_poaz" name="n88" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="859,65" size="450,663" alpha="0.7">
+      <gearDisplay controller="hasData" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n96_b9bj" name="n96" src="b9bjl6" fileName="images/heroicon_tab09.png" xy="890,75">
+      <gearDisplay controller="rightType" pages="0,5,1,6"/>
+      <gearDisplay2 controller="hasData" pages="1" condition="0"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n68_poaz" name="n68" src="hxd7hz9d7j" fileName="images/images_new/title_bg01.png" pkg="2r331opv" xy="0,0" size="549,65" alpha="0.4"/>
+    <text id="n4_xbay" name="title_advanced" xy="152,2" size="131,55" font="ui://2r331opvno3vhz9d63" fontSize="41" color="#ffffff" vAlign="bottom" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="4,4" text="背包"/>
+    <component id="n7_xbay" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0"/>
+    <component id="n8_xbay" name="tab01" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,90" group="n14_xbay">
+      <Button checked="true" title="全部" icon="ui://b7676vbqpoazkt" selectedIcon="ui://b7676vbqpoazkx" controller="tab" page="0"/>
+    </component>
+    <component id="n9_xbay" name="tab02" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="-1,217" group="n14_xbay">
+      <Button title="资源" icon="ui://b7676vbqpoazku" selectedIcon="ui://b7676vbqpoazky" controller="tab" page="1"/>
+    </component>
+    <component id="n10_xbay" name="tab03" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="-1,344" group="n14_xbay">
+      <Button title="装备" icon="ui://b7676vbqpoazkv" selectedIcon="ui://b7676vbqpoazkz" controller="tab" page="2"/>
+    </component>
+    <component id="n11_xbay" name="tab04" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,471" group="n14_xbay">
+      <Button title="其他" icon="ui://b7676vbqpoazkw" selectedIcon="ui://b7676vbqpoazl0" controller="tab" page="3"/>
+    </component>
+    <component id="n12_xbay" name="tab05" src="e2ps1iy5b99" fileName="components/components_new/btn_tab0.xml" pkg="2r331opv" xy="0,598" group="n14_xbay" visible="false">
+      <Button title="其他" icon="ui://b7676vbqxbay8" selectedIcon="ui://b7676vbqxbay7" controller="tab" page="4"/>
+    </component>
+    <group id="n14_xbay" name="btnTab" xy="-1,90" size="158,626" advanced="true"/>
+    <list id="n48_7a5s" name="propList" xy="185,83" size="662,637" layout="flow_hz" overflow="scroll" lineGap="-12" colGap="9" defaultItem="ui://2r331opvj842hz9cyi">
+      <gearDisplay controller="rightType" pages="0,5,1,6,7"/>
+      <gearDisplay2 controller="hasData" pages="1" condition="0"/>
+      <relation target="" sidePair="rightext-right,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n47_aylj" name="nothingLbl" xy="510,342" size="342,66" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#5e3d3d" shadowColor="#5e3d3d" shadowOffset="1,2" text="您的背包空空如也">
+      <gearDisplay controller="hasData" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n65_cjed" name="iconProp" src="j842hz9cyi" fileName="components/components_new/comItem.xml" pkg="2r331opv" xy="1023,150" group="n46_aylj" touchable="false"/>
+    <text id="n17_xbay" name="titleProp" xy="909,280" size="349,49" group="n46_aylj" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#50382e" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="它的名字"/>
+    <text id="n19_xbay" name="lblExplain" xy="877,326" size="413,136" group="n46_aylj" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#917349" align="center" leading="0" ubb="true" autoSize="none" autoClearText="true" text="增加领主经验值[color=#E77917]100[/color]"/>
+    <group id="n46_aylj" name="itemInfo" xy="877,150" size="413,312" group="n62_axao" advanced="true">
+      <gearDisplay controller="rightType" pages="0,5,1,6"/>
+    </group>
+    <text id="n30_grws" name="lbl01" xy="978,470" size="129,34" group="n32_grws" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#845744" align="center" autoSize="none" text="拥有数量："/>
+    <text id="n31_grws" name="lblHave" xy="1091,470" size="137,34" group="n32_grws" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#e77917" autoSize="none" autoClearText="true" text="100000"/>
+    <group id="n32_grws" name="noUsing" xy="978,470" size="250,34" group="n62_axao" advanced="true">
+      <gearDisplay controller="rightType" pages="0"/>
+    </group>
+    <component id="n66_lugu" name="btnDecompose" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="989,481" size="199,78" group="n62_axao">
+      <gearDisplay controller="rightType" pages="5"/>
+      <Button title="分解" titleFontSize="34"/>
+    </component>
+    <component id="n50_f3wx" name="btnCanUsing" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="989,584" size="199,78" group="n62_axao">
+      <gearDisplay controller="rightType" pages="5"/>
+      <Button title="使用" titleFontSize="34"/>
+    </component>
+    <image id="n28_grws" name="bg06" src="b9bj1ygcgmi" fileName="images/images_new/windowBg_new/welfare_btn_bg19.png" pkg="2r331opv" xy="972,466" size="149,42" group="n29_grws" alpha="0.2" color="#000000"/>
+    <component id="n51_f3wx" name="sldierUsingNum" src="f3wxfh" fileName="components/components_new/bag_Slider2.xml" pkg="2r331opv" xy="945,517" size="173,36" group="n29_grws">
+      <Slider value="100" max="100"/>
+    </component>
+    <text id="n27_grws" name="composeNumber" xy="1043,469" size="75,35" group="n29_grws" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#845744" vAlign="middle" autoSize="none" text="/100"/>
+    <component id="n21_grws" name="btnCutNum" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="886,512" group="n29_grws">
+      <Button icon="ui://2r331opvno3vhz9d6c"/>
+    </component>
+    <component id="n22_grws" name="btnPlusNum" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="1134,512" group="n29_grws"/>
+    <component id="n23_grws" name="btnMaxNum" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="1191,511" size="96,48" group="n29_grws">
+      <Button title="最大" titleFontSize="22"/>
+    </component>
+    <component id="n24_grws" name="btnUseNum" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="989,584" size="199,78" group="n29_grws">
+      <Button title="使用" titleFontSize="34" icon="ui://2r331opvc4umz9cna"/>
+    </component>
+    <group id="n29_grws" name="usingNum" xy="886,466" size="401,196" group="n62_axao" advanced="true">
+      <gearDisplay controller="rightType" pages="1"/>
+    </group>
+    <image id="n59_jqei" name="bg2" src="b9bj1ygcgmi" fileName="images/images_new/windowBg_new/welfare_btn_bg19.png" pkg="2r331opv" xy="1133,513" size="97,44" group="n56_l5s1" alpha="0.2" color="#000000"/>
+    <component id="n55_l5s1" name="btnCutCompose" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="887,512" group="n56_l5s1">
+      <Button icon="ui://2r331opvno3vhz9d6c"/>
+    </component>
+    <component id="n52_l5s1" name="btnPlusCompose" src="ceggz9cor" fileName="components/components_new/com_btn_plus.xml" pkg="2r331opv" xy="1236,512" group="n56_l5s1"/>
+    <component id="n54_l5s1" name="btnUseCompose" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="988,584" size="199,78" group="n56_l5s1">
+      <Button title="合成" titleFontSize="34" icon="ui://2r331opvc4umz9cna"/>
+    </component>
+    <component id="n58_l5s1" name="sliderCompose" src="l5s1s" fileName="components/bag_Slider2.xml" xy="950,517" size="169,36" group="n56_l5s1">
+      <Slider value="50" max="100"/>
+    </component>
+    <text id="n57_l5s1" name="txt" xy="981,471" size="124,34" group="n56_l5s1" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#845744" text="消耗碎片："/>
+    <text id="n60_jqei" name="txtUseNum" xy="1094,470" size="135,36" group="n56_l5s1" font="ui://2r331opvno3vhz9d63" fontSize="26" color="#e77917" autoSize="none" autoClearText="true" text="0/0"/>
+    <group id="n56_l5s1" name="composeNum" xy="887,470" size="400,192" group="n62_axao" advanced="true">
+      <gearDisplay controller="rightType" pages="6"/>
+    </group>
+    <group id="n62_axao" name="n62" xy="877,150" size="413,512" advanced="true">
+      <gearDisplay controller="hasData" pages="1"/>
+      <gearDisplay2 controller="rightType" pages="0,5,1,6" condition="0"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <loader id="n95_b9bj" name="bg01" xy="869,75" size="430,97" group="n74_poaz" url="ui://4hio38ums1351iy5bav">
+      <gearIcon controller="quality" pages="1,2,3,4" values="ui://4hio38ums1351iy5baw|ui://4hio38ums1351iy5bax|ui://4hio38ums1351iy5bay|ui://4hio38ums1351iy5baz" default="ui://4hio38ums1351iy5bav"/>
+    </loader>
+    <component id="n69_poaz" name="propTitle" src="poazl1" fileName="components/general_new/equiTitle.xml" pkg="2r331opv" xy="976,96" size="100,34" group="n74_poaz"/>
+    <text id="n70_poaz" name="equiTxt" xy="977,123" size="104,29" group="n74_poaz" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ff9b42" autoSize="none" text="装备战力："/>
+    <text id="n71_poaz" name="num" xy="1076,124" size="51,29" group="n74_poaz" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ff9b42" autoClearText="true" text="6666">
+      <relation target="n70_poaz" sidePair="left-right"/>
+    </text>
+    <richtext id="n94_qwnn" name="equCondition" xy="969,153" size="294,29" group="n74_poaz" font="ui://2r331opvno3vhz9d62" fontSize="18" color="#ff4343" vAlign="middle" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text=""/>
+    <component id="n75_poaz" name="equiIcon" src="mmv0cgy" fileName="components/general_new/equipmentIcon2.xml" pkg="2r331opv" xy="880,81" group="n74_poaz" scale="0.8,0.8"/>
+    <image id="n76_poaz" name="n76" src="b9bj1ygcgmh" fileName="images/images_new/windowBg_new/welfare_btn_bg18.png" pkg="2r331opv" xy="1199,92" group="n74_poaz"/>
+    <text id="n72_poaz" name="equip" xy="1216,93" pivot="1,0" size="44,29" group="n74_poaz" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="武器"/>
+    <text id="n73_poaz" name="equipNum" xy="1258,93" size="40,29" group="n74_poaz" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="7转"/>
+    <component id="n77_poaz" name="equiAtt" src="s1351iy5b96" fileName="components/general_new/equip_suitAtt1.xml" pkg="2r331opv" xy="866,162" group="n74_poaz"/>
+    <component id="n85_poaz" name="wearBtn" src="dfgw1ygcfmd" fileName="components/components_new/com_btn_0002.xml" pkg="2r331opv" xy="946,660" group="n74_poaz">
+      <Button title="穿戴"/>
+    </component>
+    <component id="n86_poaz" name="resolveBtn" src="dfgw1ygcfmg" fileName="components/components_new/com_btn_0001.xml" pkg="2r331opv" xy="1104,660" group="n74_poaz">
+      <Button title="分解"/>
+    </component>
+    <graph id="n92_otvs" name="n92" xy="969,133" pivot="0,1" size="219,24" group="n74_poaz" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff">
+      <gearSize controller="condition" pages="0,1" values="219,13,1,1|219,24,1,1"/>
+    </graph>
+    <text id="n90_otvs" name="n90" xy="976,150" size="217,29" group="n74_poaz" font="ui://2r331opvno3vhz9d62" fontSize="16" color="#ffffff" autoSize="none" text="攻击力达到150即可穿戴">
+      <gearDisplay controller="condition" pages="1"/>
+    </text>
+    <image id="n78_poaz" name="n78" src="b9bj1ygcgmg" fileName="images/images_new/windowBg_new/welfare_btn_bg17.png" pkg="2r331opv" xy="869,410" size="430,27" group="n93_m615" alpha="0.7"/>
+    <component id="n84_poaz" name="btnSwitch" src="s1351iy5b9e" fileName="components/components_new/com_cbtn_icon.xml" pkg="2r331opv" xy="1219,390" size="103,67" group="n93_m615" scale="0.7,0.7">
+      <Button checked="true" controller="switch" page="1"/>
+    </component>
+    <text id="n80_poaz" name="suitTxt" xy="886,409" size="84,29" group="n93_m615" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#845744" text="套装属性"/>
+    <component id="n81_poaz" name="equiAtt2" src="s1351iy5b9f" fileName="components/general_new/equip_suitAtt_0.xml" pkg="2r331opv" xy="872,439" size="423,0" group="n93_m615">
+      <gearSize controller="switch" pages="0,1" values="423,145,1,1|423,0,1,1" tween="true"/>
+    </component>
+    <list id="n83_poaz" name="suitList" xy="885,442" pivot="0,1" size="387,216" group="n93_m615" overflow="scroll" lineGap="-6" defaultItem="ui://2r331opvs1351iy5b9d">
+      <gearSize controller="switch" pages="1" values="387,216,1,1" default="387,76,1,1" tween="true"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n93_m615" name="suit" xy="869,390" size="453,268" group="n74_poaz" advanced="true"/>
+    <group id="n74_poaz" name="n74" xy="866,75" size="456,637" advanced="true">
+      <gearDisplay controller="rightType" pages="7"/>
+      <gearDisplay2 controller="hasData" pages="1" condition="0"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <component id="n89_x956" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="598,12" size="692,40">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

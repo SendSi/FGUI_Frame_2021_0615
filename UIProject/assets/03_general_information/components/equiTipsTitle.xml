@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="430,97" designImageOffsetX="-280" designImageOffsetY="-27">
+  <controller name="quality" pages="0,,1,,2,,3,,4," selected="4"/>
+  <displayList>
+    <loader id="n0_s135" name="bg" xy="0,0" size="422,101" url="ui://4hio38ums1351iy5baz">
+      <gearIcon controller="quality" pages="0,1,2,3" values="ui://4hio38ums1351iy5bav|ui://4hio38ums1351iy5baw|ui://4hio38ums1351iy5bax|ui://4hio38ums1351iy5bay" default="ui://4hio38ums1351iy5baz"/>
+    </loader>
+    <loader id="n8_b9bj" name="bgProp" xy="12,5" size="90,90" aspect="true" url="ui://2r331opv9495a" fill="scale">
+      <gearIcon controller="quality" pages="0,1,2,3,4" values="ui://2r331opv94956|ui://2r331opv94957|ui://2r331opv94958|ui://2r331opv94959|ui://2r331opv9495a"/>
+    </loader>
+    <loader id="n1_s135" name="icon" xy="22,14" size="68,68" aspect="true" fill="scaleFree"/>
+    <image id="n7_b9bj" name="n7" src="b9bj1ygcgmh" fileName="images/images_new/windowBg_new/welfare_btn_bg18.png" pkg="2r331opv" xy="331,15"/>
+    <text id="n2_s135" name="propTitle" xy="105,20" size="100,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ff6161" strokeColor="#650f11" strokeSize="2" autoClearText="true" text="装备名字">
+      <gearColor controller="quality" pages="1,2,3,4" values="#78dbff,#03487c|#df74ff,#600f75|#ffc854,#7a4400|#ff6161,#650f11" default="#94e957,#325b12"/>
+    </text>
+    <text id="n3_s135" name="txt" xy="105,50" size="104,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" autoSize="none" strokeColor="#650f11" strokeSize="2" autoClearText="true" text="装备战力：">
+      <gearColor controller="quality" pages="1,2,3,4" values="#ffffff,#03487c|#ffffff,#600f75|#ffffff,#7a4400|#ffffff,#650f11" default="#ffffff,#325b12"/>
+    </text>
+    <text id="n4_s135" name="num" xy="204,51" size="51,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" strokeColor="#650f11" autoClearText="true" text="6666">
+      <gearColor controller="quality" pages="1,2,3,4" values="#ffffff,#03487c|#ffffff,#600f75|#ffffff,#7a4400|#ffffff,#650f11" default="#ffffff,#325b12"/>
+      <relation target="n3_s135" sidePair="left-right"/>
+    </text>
+    <text id="n5_s135" name="equip" xy="350,15" pivot="1,0" size="44,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="武器"/>
+    <text id="n6_s135" name="equipNum" xy="396,15" size="36,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="1转"/>
+  </displayList>
+</component>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="342,750" overflow="hidden">
+  <controller name="lately" pages="1,close,0,open" selected="0"/>
+  <controller name="friend" pages="1,close,0,open" selected="0"/>
+  <controller name="black" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n35_dslz" name="n35" src="n8nh2y" fileName="images/dialogue_bg02.png" xy="0,0" size="342,750">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <image id="n51_e7jj" name="n51" src="pkul3b" fileName="images/dialogue_bg03.png" xy="6,26" size="345,630"/>
+    <component id="n40_lzsr" name="peopleBtn" src="dslz1m" fileName="components/Button_contacts.xml" xy="19,41">
+      <Button controller="lately" page="0"/>
+    </component>
+    <list id="n41_lzsr" name="peopleList" xy="13,86" size="347,0" overflow="scroll" defaultItem="ui://62wjs2s2dslz1v" autoClearItems="true">
+      <gearDisplay controller="lately" pages="0"/>
+      <gearSize controller="lately" pages="1,0" values="347,0,1,1|327,444,1,1"/>
+      <relation target="" sidePair="bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n42_lzsr" name="friendBtn" src="dslz1m" fileName="components/Button_contacts.xml" xy="19,91">
+      <relation target="n41_lzsr" sidePair="bottom-bottom"/>
+      <Button controller="friend" page="0"/>
+    </component>
+    <list id="n43_lzsr" name="friendList" xy="13,136" size="347,0" overflow="scroll" defaultItem="ui://62wjs2s2dslz1v" autoClearItems="true">
+      <gearDisplay controller="friend" pages="0"/>
+      <gearSize controller="friend" pages="1,0" values="347,0,1,1|327,457,1,1"/>
+      <relation target="n42_lzsr" sidePair="top-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n46_jf52" name="blackBtn" src="dslz1m" fileName="components/Button_contacts.xml" xy="19,141">
+      <relation target="n43_lzsr" sidePair="top-bottom"/>
+      <Button checked="true" title="黑名单" controller="black" page="1"/>
+    </component>
+    <list id="n47_jf52" name="blackList" xy="13,186" size="327,448" overflow="scroll" defaultItem="ui://62wjs2s2dslz1v" autoClearItems="true">
+      <gearDisplay controller="black" pages="1"/>
+      <gearSize controller="black" pages="1" values="327,448,1,1" default="347,0,1,1"/>
+      <relation target="n46_jf52" sidePair="top-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n48_jf52" name="addBtn" src="lbda1ygcfk6" fileName="components/com_btn_05.xml" xy="42,657" aspect="true">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="添加好友" titleColor="#ffffff" icon="ui://62wjs2s2jf522s"/>
+    </component>
+    <text id="n44_ix8t" name="noLately" xy="75,360" size="200,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="center" autoSize="none" text="暂无最近联系人">
+      <gearDisplay controller="lately" pages="0"/>
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <text id="n45_ix8t" name="noFriends" xy="20,360" size="310,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="center" autoSize="none" text="暂无联系人">
+      <gearDisplay controller="friend" pages="0"/>
+      <relation target="n42_lzsr" sidePair="top-top"/>
+    </text>
+    <component id="n49_jf52" name="applyBtn" src="lbda1ygcfk6" fileName="components/com_btn_05.xml" xy="144,657" aspect="true">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="申请列表" titleColor="#ffffff" icon="ui://62wjs2s2jf522t"/>
+    </component>
+    <component id="n50_jf52" name="giftBtn" src="lbda1ygcfk6" fileName="components/com_btn_05.xml" xy="246,657" aspect="true">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="礼物" titleColor="#ffffff" icon="ui://62wjs2s2jf522r"/>
+    </component>
+  </displayList>
+</component>

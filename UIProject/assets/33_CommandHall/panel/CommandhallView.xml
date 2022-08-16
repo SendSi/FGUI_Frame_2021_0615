@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrl" pages="0,,1,,2," selected="2">
+    <remark page="0" value="重置"/>
+    <remark page="1" value="分解"/>
+    <remark page="2" value="共鸣"/>
+    <action type="play_transition" fromPage="0" toPage="1" transition="t0"/>
+  </controller>
+  <controller name="nogen" pages="0,yes,1,no" selected="0"/>
+  <controller name="mask" pages="0,hide,1,show" selected="0"/>
+  <displayList>
+    <component id="n204_t5o5" name="n204" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="0,0" size="1334,750" alpha="0.8">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n311_f3hz" name="hero_bg01" src="kvv41iy5bdz" fileName="components/general_new/hero_bg02.xml" pkg="2r331opv" xy="0,0" pivot="0.5,0.5" size="1334,750">
+      <relation target="" sidePair="width-width,height-height,center-center"/>
+    </component>
+    <image id="n322_clbo" name="n322" src="clbo1iy5bfy" fileName="images/commandhall_bg.jpg" xy="0,0">
+      <gearDisplay controller="ctrl" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n312_f3hz" name="site" src="slj11iy5bfh" fileName="images/hero_bg_site.png" pkg="4hio38um" xy="593,727" pivot="0.5,0.5" anchor="true" scale="0.9,0.9">
+      <gearDisplay controller="ctrl" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n271_n7ai" name="n271" src="f3hz1xvobds" fileName="images/commandhall_bg3.png" xy="326,106" pivot="0.5,0.5" group="n272_n7ai" alpha="0.7" color="#061324"/>
+    <text id="n273_n7ai" name="nohero" xy="537,410" pivot="0.5,0.5" size="136,32" group="n272_n7ai" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="无可重置英雄"/>
+    <group id="n272_n7ai" name="nonehero" xy="326,106" size="536,559" advanced="true">
+      <gearDisplay controller="nogen" pages="0"/>
+      <gearDisplay2 controller="ctrl" pages="0" condition="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <loader3D id="n292_c145" name="spine" xy="537,572" size="100,100" align="center" animation="" skin="" loop="true">
+      <gearDisplay controller="ctrl" pages="0"/>
+      <relation target="" sidePair="center-center%"/>
+    </loader3D>
+    <loader id="n293_c145" name="avatar" xy="0,0" size="1334,750" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n287_swkb" name="genList" src="swkb1xvobdl" fileName="components/GeneralCardListItem.xml" xy="16,82">
+      <gearDisplay controller="ctrl" pages="0,5"/>
+      <gearDisplay2 controller="nogen" pages="1" condition="0"/>
+    </component>
+    <component id="n257_o5d4" name="closeButton" src="tv1v1a" fileName="components/components_new/com_btn_close.xml" pkg="2r331opv" xy="0,0"/>
+    <image id="n265_n7ai" name="bg" src="xjmv1qp8vf8" fileName="images/images_new/com_bg_tips02_mask4.png" pkg="2r331opv" xy="905,234" size="403,309" group="n266_n7ai"/>
+    <image id="n320_f3hz" name="n320" src="qajo1ygcgm4" fileName="images/images_new/windowBg_new/welfare_btn_bg12.png" pkg="2r331opv" xy="911,240" size="391,35" group="n266_n7ai"/>
+    <text id="n268_n7ai" name="name" xy="926,240" size="275,34" group="n266_n7ai" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" text="可获得以下材料:"/>
+    <list id="n267_n7ai" name="icon_list" xy="934,275" size="347,261" group="n266_n7ai" layout="flow_hz" overflow="scroll" scrollBarFlags="8" margin="2,0,0,0" defaultItem="ui://2r331opvee2ik0" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n270_n7ai" name="resetBtn" src="s5edhz9d3g" fileName="components/components_new/com_btn_buy3.xml" pkg="2r331opv" xy="1004,613" size="202,78" group="n266_n7ai">
+      <Button title="重置" titleFontSize="28"/>
+    </component>
+    <text id="n296_ihkp" name="generalTitle" xy="907,88" size="124,34" group="n266_n7ai" font="ui://2r331opvno3vhz9d63" fontSize="24" autoClearText="true" text="野蛮人首领"/>
+    <text id="n297_ihkp" name="generalName" xy="901,113" size="280,62" group="n266_n7ai" font="ui://2r331opvno3vhz9d63" fontSize="46" autoClearText="true" text="他的名字六字"/>
+    <list id="n315_f3hz" name="starList" xy="907,169" size="474,52" group="n266_n7ai" scale="0.66,0.66" layout="row" colGap="7" defaultItem="ui://2r331opv104731iy5b91" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n316_f3hz" name="explainBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="1235,159" size="64,56" group="n266_n7ai" visible="false" alpha="0.7">
+      <Button icon="ui://2r331opvcmlrhz9cyn"/>
+    </component>
+    <component id="n317_f3hz" name="seeBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="1230,94" size="74,62" group="n266_n7ai" alpha="0.7">
+      <Button icon="ui://2r331opvklt51qp8via"/>
+    </component>
+    <group id="n266_n7ai" name="getmaterials" xy="901,88" size="480,603" advanced="true">
+      <gearDisplay controller="ctrl" pages="0"/>
+      <gearDisplay2 controller="nogen" pages="1" condition="0"/>
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </group>
+    <loader3D id="n263_n7ai" name="model1" xy="469,199" size="411,400" animation="" skin="" loop="true">
+      <gearDisplay controller="ctrl" pages="0"/>
+      <gearDisplay2 controller="nogen" pages="1" condition="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <image id="n279_n7ai" name="n279" src="djbq1ygcfot" fileName="images/new/com_bg_tips02_mask1.png" pkg="sinorujt" xy="38,161" size="1170,567" group="n278_n7ai"/>
+    <graph id="n306_fqmv" name="n306" xy="48,574" size="1068,52" group="n278_n7ai" alpha="0.7" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n305_10c1y" name="n305" xy="44,167" size="1100,54" group="n278_n7ai" alpha="0.7" type="rect" lineSize="0" fillColor="#ff2e66b1"/>
+    <loader id="n277_n7ai" name="picbreak" xy="808,48" size="658,733" group="n278_n7ai" touchable="false" url="ui://i3ggfr926zse1xvobdo"/>
+    <list id="n280_n7ai" name="break_list" xy="57,222" size="973,354" group="n278_n7ai" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" margin="4,0,4,0" lineGap="8" colGap="76" defaultItem="ui://2r331opvabzm1ygcgnj" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n304_re6w" name="checkBox" xy="76,175" size="638,44" group="n278_n7ai" layout="row" selectionMode="multipleSingleClick" colGap="72" defaultItem="ui://i3ggfr92tv5r1qp8veq">
+      <gearDisplay controller="ctrl" pages="1"/>
+      <item title="R"/>
+      <item title="SR"/>
+      <item title="SSR"/>
+      <item title="UR"/>
+    </list>
+    <component id="n281_n7ai" name="autoBtn" src="tv5r1qp8veq" fileName="components/commandhall_btn4.xml" xy="749,176" group="n278_n7ai"/>
+    <component id="n284_n7ai" name="addBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="321,637" group="n278_n7ai">
+      <Button title="一键添加"/>
+    </component>
+    <component id="n285_n7ai" name="decomBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="670,637" group="n278_n7ai">
+      <Button title="分解"/>
+    </component>
+    <component id="n288_m8ag" name="heroshopBtn" src="hae91xvobdm" fileName="components/commandhall_btn3.xml" xy="1125,624" group="n278_n7ai" scale="0.8,0.8"/>
+    <text id="n307_fqmv" name="n307" xy="484,587" size="104,29" group="n310_fqmv" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" text="分解获得："/>
+    <loader id="n309_fqmv" name="splitIcon" xy="576,581" size="42,42" group="n310_fqmv" aspect="true" url="ui://tsbe09ddmz4w0" fill="scale"/>
+    <text id="n308_fqmv" name="splitNum" xy="618,587" size="107,29" group="n310_fqmv" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" autoSize="none" autoClearText="true" text="100"/>
+    <group id="n310_fqmv" name="split" xy="484,581" size="241,42" group="n278_n7ai" advanced="true"/>
+    <group id="n278_n7ai" name="breakdown" xy="38,48" size="1428,733" advanced="true">
+      <gearDisplay controller="ctrl" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n289_c145" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="618,9" size="692,40">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <graph id="n295_lvvo" name="hoverPoint" xy="765,599" pivot="0.5,0.5" size="16,16" visible="false" type="eclipse" fillColor="#ffff0000">
+      <relation target="" sidePair="left-left%"/>
+    </graph>
+    <component id="n301_m3qb" name="resettingBtn" src="n7ai1xvobdj" fileName="components/commandhall_btn1.xml" xy="427,84" size="154,55" group="n303_ho40">
+      <Button title="重置" controller="ctrl" page="0"/>
+    </component>
+    <component id="n302_6zse" name="splitBtn" src="f3hz1xvobdq" fileName="components/commandhall_btn0.xml" xy="756,84" group="n303_ho40">
+      <Button controller="ctrl" page="1"/>
+    </component>
+    <component id="n321_clbo" name="resonanceBtn" src="t18r1xvobdt" fileName="components/commandhall_btn2.xml" xy="593,84" group="n303_ho40">
+      <Button checked="true" title="共鸣" controller="ctrl" page="2"/>
+    </component>
+    <group id="n303_ho40" name="btn" xy="427,84" size="479,56" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <graph id="n294_c145" name="maskimg" xy="0,0" size="1334,750" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="mask" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n313_f3hz" name="ArmyBtn" src="spxy1ygcflp" fileName="components/components_new/armyAwakeBtn.xml" pkg="2r331opv" xy="338,123" scale="0.7,0.7">
+      <gearDisplay controller="ctrl" pages="0"/>
+      <gearDisplay2 controller="nogen" pages="1" condition="0"/>
+    </component>
+    <component id="n314_f3hz" name="fetterBtn01" src="fccv1iy5bfe" fileName="components/fetterBtn.xml" pkg="4hio38um" xy="201,74" scale="0.24,0.24">
+      <gearDisplay controller="ctrl" pages="0"/>
+      <gearDisplay2 controller="nogen" pages="1" condition="0"/>
+      <relation target="n313_f3hz" sidePair="right-right"/>
+    </component>
+    <component id="n323_clbo" name="figure1" src="clbo1xvobdw" fileName="components/commandhall_btn5.xml" xy="37,246" group="n324_clbo"/>
+    <component id="n325_clbo" name="figure2" src="clbo1xvobdw" fileName="components/commandhall_btn5.xml" xy="286,157" group="n324_clbo"/>
+    <component id="n326_clbo" name="figure3" src="clbo1xvobdw" fileName="components/commandhall_btn5.xml" xy="555,146" group="n324_clbo"/>
+    <component id="n327_clbo" name="figure4" src="clbo1xvobdw" fileName="components/commandhall_btn5.xml" xy="828,162" group="n324_clbo"/>
+    <component id="n328_clbo" name="figure5" src="clbo1xvobdw" fileName="components/commandhall_btn5.xml" xy="1084,233" group="n324_clbo"/>
+    <component id="n329_gmyb" name="crystal_y" src="da8x1xvobe7" fileName="components/commandhall_btn6.xml" xy="272,289" group="n324_clbo"/>
+    <component id="n330_gmyb" name="crystal_b" src="da8x1xvobe7" fileName="components/commandhall_btn6.xml" xy="552,305" group="n324_clbo"/>
+    <component id="n331_gmyb" name="crystal_g" src="da8x1xvobe7" fileName="components/commandhall_btn6.xml" xy="832,292" group="n324_clbo">
+      <relation target="" sidePair="rightext-right%"/>
+    </component>
+    <image id="n342_lt80" name="n342" src="lt801ygcfjt" fileName="images/commandhall_bg8.png" xy="261,456" pivot="0.5,0.5" size="806,282" group="n324_clbo"/>
+    <list id="n341_gmyb" name="page2_list1" xy="268,516" size="793,211" group="n324_clbo" layout="flow_hz" overflow="scroll" colGap="-15" defaultItem="ui://i3ggfr92gmyb1xvobe3">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n348_lt80" name="explainBtn2" src="ngv8ft" fileName="components/components_new/com_btn_explain.xml" pkg="2r331opv" xy="1247,113" group="n324_clbo"/>
+    <image id="n347_lt80" name="n347" src="lt801ygcgpc" fileName="images/images_new/com_bg_tips02_mask0.png" pkg="2r331opv" xy="271,466" size="787,51" group="n324_clbo" alpha="0.5" color="#000000"/>
+    <image id="n345_lt80" name="hero_icon" src="lt801iy5bg5" fileName="images/commandhall_icon4.png" xy="287,474" group="n324_clbo"/>
+    <text id="n344_lt80" name="num" xy="329,475" size="176,34" group="n324_clbo" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" text="9/50"/>
+    <group id="n324_clbo" name="page2" xy="37,113" size="1251,625" advanced="true">
+      <gearDisplay controller="ctrl" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

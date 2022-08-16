@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="325,535">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="已抢光"/>
+    <remark page="1" value="抢到"/>
+  </controller>
+  <displayList>
+    <image id="n157_mdgr" name="n157" src="jp2t1ygcffs" fileName="images/league_envelope2.png" xy="0,0" group="n148_gpdy" visible="false"/>
+    <component id="n180_uf4p" name="packet" src="uf4p1ygcfnm" fileName="components/LeaguePacketGetIcon.xml" xy="0,0" pivot="0.5,0.5" size="325,503" group="n148_gpdy"/>
+    <text id="n124_gpdy" name="title" xy="113,36" pivot="0.5,0.5" size="106,46" group="n148_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#d93a3a" text="已抢光">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+    <image id="n181_splr" name="n181" src="jl9d1ygcgml" fileName="images/images_new/line_05.png" pkg="2r331opv" xy="49,87" pivot="0.5,0.5" size="232,2" group="n148_gpdy" alpha="0.2" color="#4e2910"/>
+    <text id="n171_j2a0" name="title1" xy="37,36" pivot="0.5,0.5" size="106,46" group="n148_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#d93a3a" text="已抢到">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <loader id="n173_j2a0" name="icon1" xy="138,39" size="40,40" group="n148_gpdy" url="ui://lh4qx1m6lcfj2q" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="state" pages="1"/>
+    </loader>
+    <text id="n172_j2a0" name="num1" xy="177,36" pivot="0.5,0.5" size="111,46" group="n148_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#d93a3a" align="center" autoSize="none" text="6666">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <text id="n158_mdgr" name="descTxt" xy="77,208" pivot="0.5,0.5" size="169,51" group="n148_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#d93a3a" align="center" leading="-2" text="恭喜发财 大吉大利&#xA;最多十五字"/>
+    <image id="n159_mdgr" name="n159" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="14,280" size="296,197" group="n148_gpdy" alpha="0.5" color="#902222"/>
+    <list id="n156_jp2t" name="recordList" xy="14,322" size="294,147" group="n148_gpdy" overflow="scroll" lineGap="5" colGap="3" defaultItem="ui://lp3m5cuhmdgr1ygcffz">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n164_mdgr" name="n164" src="klrg1qp8vd3" fileName="images/images_new/common_lines_9.png" pkg="2r331opv" xy="16,315" size="290,7" group="n148_gpdy" color="#902222"/>
+    <text id="n160_mdgr" name="received" xy="12,285" size="64,29" group="n148_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" ubb="true" singleLine="true" text="已领取"/>
+    <text id="n161_mdgr" name="numTxt" xy="73,285" size="59,29" group="n148_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" ubb="true" singleLine="true" text="20/20">
+      <relation target="n160_mdgr" sidePair="left-right"/>
+    </text>
+    <loader id="n163_mdgr" name="icon" xy="220,285" size="28,28" group="n148_gpdy" aspect="true" url="ui://tsbe09ddmz4wb" fill="scale"/>
+    <text id="n162_mdgr" name="valueTxt" xy="245,285" size="63,29" group="n148_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="right" singleLine="true" text="12345"/>
+    <text id="n177_j4h8" name="value1" xy="195,285" size="24,29" group="n148_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="right" singleLine="true" text="共"/>
+    <component id="n165_mdgr" name="avatar" src="ho0c1ygcgnt" fileName="components/components_new/btn_head6.xml" pkg="2r331opv" xy="58,55" pivot="0.5,0.5" group="n148_gpdy" scale="0.5,0.5"/>
+    <text id="n166_mdgr" name="nameTxt" xy="101,88" pivot="0.5,0.5" size="124,29" group="n148_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="这是玩家名字"/>
+    <text id="n168_91o9" name="continue" xy="77,501" size="172,34" group="n148_gpdy" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" text="点击任意处继续">
+      <gearDisplay controller="state" pages="0,1"/>
+    </text>
+    <group id="n148_gpdy" name="window" xy="0,0" size="325,535" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

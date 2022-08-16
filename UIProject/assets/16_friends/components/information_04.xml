@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1059,100">
+  <displayList>
+    <image id="n42_lhtp" name="bg" pkg="2r331opv" src="l8n91b" fileName="images/common_bg_1.png" xy="0,0" size="1059,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n38_lhtp" name="n38" src="gzkh8b" fileName="components/btn_head2.xml" pkg="2r331opv" xy="5,5"/>
+    <text id="n43_lhtp" name="title_01" xy="94,33" size="185,34" fontSize="24" color="#eee7d5" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="名字六个字吧">
+      <relation target="" sidePair=""/>
+    </text>
+    <text id="n44_lhtp" name="title_02" xy="312,33" size="190,34" fontSize="24" color="#eee7d5" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="联盟名六字吧">
+      <relation target="" sidePair=""/>
+    </text>
+    <text id="n45_lhtp" name="title_03" xy="540,33" size="155,34" fontSize="24" color="#d7ca8d" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="5452000">
+      <relation target="" sidePair=""/>
+    </text>
+    <text id="n47_lhtp" name="title_05" xy="724,33" size="91,34" fontSize="24" color="#eee7d5" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="扬州">
+      <relation target="" sidePair=""/>
+    </text>
+    <component id="n51_8dzs" name="n51" src="lhtpi0" fileName="components/delete.xml" pkg="2r331opv" xy="929,26"/>
+  </displayList>
+</component>

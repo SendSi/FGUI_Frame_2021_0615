@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="208,46" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <graph id="n0_a9mm" name="n0" xy="0,0" size="208,46" touchable="false" type="rect" lineSize="0" fillColor="#ff204352">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n3_a9mm" name="title" xy="0,0" size="156,46" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n4_t5o5" name="icon1" xy="158,-2" size="50,50" aspect="true" url="ui://2r331opvw84whz9cxf" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="button" pages="0,1,2,3" values="ui://2r331opvw84whz9cxf|ui://2r331opvw84whz9cxg|ui://2r331opvw84whz9cxf|ui://2r331opvw84whz9cxf"/>
+    </loader>
+  </displayList>
+  <ComboBox dropdown="ui://jqem9egta9mmz9cp2"/>
+</component>

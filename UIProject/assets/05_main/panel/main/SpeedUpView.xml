@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="freeCtrl" pages="0,,1," selected="0"/>
+  <controller name="icon" pages="0,,1," selected="0">
+    <remark page="0" value="技能"/>
+    <remark page="1" value="建筑"/>
+  </controller>
+  <displayList>
+    <component id="n2_k2fi" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_k2fi" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="628,0" size="700,40">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n4_k2fi" name="bg" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n12_k2fi"/>
+    <list id="n5_k2fi" name="list" xy="208,236" pivot="1,1" size="918,411" group="n12_k2fi" overflow="scroll" lineGap="3" defaultItem="ui://4ni413lak2fil5" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n6_k2fi" name="n6" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="339,154" size="654,57" group="n9_k2fi"/>
+    <component id="n7_k2fi" name="Pbr" src="k2fi1qp8vhx" fileName="components/speedupPbr.xml" xy="405,166" size="562,36" group="n9_k2fi">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n14_mvie" name="n14" src="itkw1ygcfke" fileName="images/images_new/windowBg_new/bottomframe_01.png" pkg="2r331opv" xy="350,144" size="70,71" group="n9_k2fi">
+      <gearDisplay controller="icon" pages="0"/>
+    </image>
+    <loader id="n8_k2fi" name="model" xy="360,157" size="48,48" group="n9_k2fi" aspect="true" url="ui://madu8sceiusrz9clv" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <gearIcon controller="icon" pages="0" values="ui://madu8sceiusrz9clv" default=""/>
+    </loader>
+    <group id="n9_k2fi" name="pbr1" xy="339,144" size="654,71" group="n12_k2fi" advanced="true"/>
+    <text id="n11_k2fi" name="title" xy="367,70" pivot="0.5,0.5" size="599,46" group="n12_k2fi" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" autoClearText="true" text="加速"/>
+    <text id="n13_p83s" name="freeLbl" xy="930,205" size="196,29" group="n12_k2fi" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#599e27" autoClearText="true" text="（免费时间：5分钟）">
+      <gearDisplay controller="freeCtrl" pages="1"/>
+    </text>
+    <component id="n10_k2fi" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n12_k2fi"/>
+    <group id="n12_k2fi" name="n12" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

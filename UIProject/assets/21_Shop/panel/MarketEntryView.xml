@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" extention="Label" initName="frame" designImageLayer="1">
+  <displayList>
+    <component id="n2_pwz3" name="n2" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n5_pwz3" name="n5" src="hdmy1iy5b95" fileName="components/components_new/Popup_bg2.xml" pkg="2r331opv" xy="267,151" group="n8_pwz3"/>
+    <image id="n15_rck8" name="n15" src="klrg1qp8vd3" fileName="images/images_new/common_lines_9.png" pkg="2r331opv" xy="355,370" size="624,7" group="n8_pwz3" alpha="0.5" color="#97794f"/>
+    <text id="n6_pwz3" name="dis" xy="356,384" size="124,34" group="n8_pwz3" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="道具描述："/>
+    <text id="n11_rck8" name="lbl" xy="383,419" size="593,56" group="n8_pwz3" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" autoSize="height" autoClearText="true" text="使用招募券进行招募巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉"/>
+    <component id="n9_rck8" name="goBuyBtn" src="e9mlkf" fileName="components/components_new/com_btn_buy.xml" pkg="2r331opv" xy="711,497" group="n8_pwz3">
+      <Button title="确定"/>
+    </component>
+    <component id="n10_rck8" name="n10" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="465,497" group="n8_pwz3">
+      <Button title="取消"/>
+    </component>
+    <component id="n12_rck8" name="n12" src="d4a6m" fileName="components/propIcon.xml" xy="617,230" group="n8_pwz3"/>
+    <text id="n13_rck8" name="n13" xy="597,163" size="140,46" group="n8_pwz3" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="购买确认"/>
+    <text id="n14_rck8" name="name" xy="629,334" size="76,34" group="n8_pwz3" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#b333d9" autoClearText="true" text="招募券"/>
+    <component id="n3_pwz3" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="968,138" group="n8_pwz3" scale="0.8,0.8"/>
+    <group id="n8_pwz3" name="n8" xy="267,138" size="800,473" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

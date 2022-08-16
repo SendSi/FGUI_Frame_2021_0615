@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="tab" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <component id="n15_c4um" name="n15" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_c4um" name="n2" src="bik7hz9cyq" fileName="components/components_new/Popup_bg.xml" pkg="2r331opv" xy="345,37" size="643,669" group="n14_c4um"/>
+    <image id="n3_c4um" name="n3" pkg="2r331opv" src="r616z9cp6" fileName="images/images_new/com_bg_tips02_mask.png" xy="368,117" size="597,54" group="n14_c4um" alpha="0.4"/>
+    <image id="n4_c4um" name="n4" pkg="2r331opv" src="r616z9cp6" fileName="images/images_new/com_bg_tips02_mask.png" xy="368,117" size="597,480" group="n14_c4um" alpha="0.6"/>
+    <text id="n12_c4um" name="title" xy="604,57" pivot="0.5,0.5" size="124,34" group="n14_c4um" font="ui://2r331opvlwft3" fontSize="24" color="#ffffff" align="center" autoClearText="true" text="装备（配表"/>
+    <component id="n5_c4um" name="btn_tab0" src="c4umcio" fileName="components/components_new/com_btn_tab.xml" pkg="2r331opv" xy="364,118" group="n14_c4um">
+      <Button checked="true" title="全部" controller="tab" page="0"/>
+    </component>
+    <component id="n6_c4um" name="btn_tab1" src="c4umcio" fileName="components/components_new/com_btn_tab.xml" pkg="2r331opv" xy="480,118" group="n14_c4um">
+      <Button title="武器" controller="tab" page="1"/>
+    </component>
+    <component id="n7_c4um" name="btn_tab2" src="c4umcio" fileName="components/components_new/com_btn_tab.xml" pkg="2r331opv" xy="596,118" group="n14_c4um">
+      <Button title="手套" controller="tab" page="2"/>
+    </component>
+    <component id="n8_c4um" name="btn_tab3" src="c4umcio" fileName="components/components_new/com_btn_tab.xml" pkg="2r331opv" xy="712,118" group="n14_c4um">
+      <Button title="衣服" controller="tab" page="3"/>
+    </component>
+    <component id="n9_c4um" name="btn_tab4" src="c4umcio" fileName="components/components_new/com_btn_tab.xml" pkg="2r331opv" xy="828,118" group="n14_c4um">
+      <Button title="裤子" controller="tab" page="4"/>
+    </component>
+    <list id="n10_c4um" name="equipmentList" xy="383,194" size="563,385" group="n14_c4um" layout="flow_hz" overflow="scroll" margin="0,0,2,0" lineGap="14" colGap="15" defaultItem="ui://2r331opvmmv0cgy" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n11_c4um" name="btnBreak3" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="559,615" size="212,58" group="n14_c4um">
+      <Button title="一键穿戴" titleFontSize="30" icon="ui://2r331opvw84whz9cxa"/>
+    </component>
+    <component id="n13_c4um" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="906,32" group="n14_c4um"/>
+    <group id="n14_c4um" name="n14" xy="345,32" size="643,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

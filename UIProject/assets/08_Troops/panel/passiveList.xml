@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" extention="Label" designImageLayer="1">
+  <controller name="quantity" pages="0,,1,,2," selected="0">
+    <remark page="0" value="1个"/>
+    <remark page="1" value="2个"/>
+    <remark page="2" value="3个"/>
+  </controller>
+  <displayList>
+    <component id="n28_pl8o" name="hero_group01" src="11wz9z9cs2" fileName="panel/Position_group.xml" xy="563,262">
+      <gearXY controller="quantity" pages="0,1" values="563,262|448,262" default="563,262"/>
+    </component>
+    <component id="n29_pl8o" name="hero_group02" src="11wz9z9cs2" fileName="panel/Position_group.xml" xy="333,262">
+      <gearDisplay controller="quantity" pages="1,2"/>
+      <gearXY controller="quantity" pages="1" values="678,262" default="333,262"/>
+    </component>
+    <component id="n30_pl8o" name="hero_group03" src="11wz9z9cs2" fileName="panel/Position_group.xml" xy="793,262">
+      <gearDisplay controller="quantity" pages="2"/>
+      <gearXY controller="quantity" default="793,262"/>
+    </component>
+  </displayList>
+</component>

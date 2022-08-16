@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="61,50" extention="Button" designImage="ui://lp3m5cuhnnlhhz9d1o" designImageOffsetX="-149" designImageOffsetY="-100">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_vqdv" name="n0" src="jdpjz9cq8" fileName="images/images_new/troops_Label.png" pkg="2r331opv" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_vqdv" name="n1" src="jdpjz9cq9" fileName="images/images_new/troops_Label_Selected.png" pkg="2r331opv" xy="-2,-1">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n3_vqdv" name="icon" xy="10,10" size="40,30" aspect="true" url="ui://lp3m5cuhvqdvhz9d22" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n4_liyx" name="redElement" src="pyiyhz9d6l" fileName="components/components_new/redPoint.xml" pkg="2r331opv" xy="56,9" touchable="false"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,93" designImage="ui://lp3m5cuhk06chz9d3c" designImageOffsetX="-235" designImageOffsetY="-230" designImageAlpha="0">
+  <controller name="state" pages="0,normal,1,ing" selected="0"/>
+  <controller name="quality" pages="0,,1,,2,,3,,4,,5," selected="5"/>
+  <displayList>
+    <loader id="n5_mbbx" name="n5" xy="0,0" size="90,93" url="ui://2r331opv9495a" fill="scale">
+      <gearIcon controller="quality" pages="1,2,3,4,5" values="ui://2r331opv94956|ui://2r331opv94957|ui://2r331opv94958|ui://2r331opv94959|ui://2r331opv9495a" default="ui://2r331opvh3jujt"/>
+    </loader>
+    <image id="n3_aklw" name="n3" src="o283z9cnt" fileName="images/images_new/com_select_00.png" pkg="2r331opv" xy="-19,-19" size="130,130">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <loader id="n1_aklw" name="researchIcon" xy="11,12" size="68,69" aspect="true" url="ui://lp3m5cuhk06chz9d3t" fill="scale"/>
+    <component id="n4_f1hb" name="EffectRoot_18_researchicon" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="20,21" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

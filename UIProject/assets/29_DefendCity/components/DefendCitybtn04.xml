@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,121" pivot="0.5,0.5" extention="Button">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="normal"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <image id="n13_m7tg" name="n13" src="syny1ygcfp6" fileName="images/kingcity_bg007.png" xy="0,0"/>
+    <loader id="n25_syny" name="icon" xy="18,13" size="66,75" url="ui://pvaep77asyny1ygcfp5" fill="scale" autoSize="true"/>
+    <text id="n4_v8po" name="title" xy="9,73" pivot="0.5,0.5" size="84,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="通关奖励"/>
+    <component id="n22_m5yh" name="point" src="pyiyhz9d6l" fileName="components/components_new/redPoint.xml" pkg="2r331opv" xy="84,10" scale="0.8,0.8">
+      <gearDisplay controller="state" pages="1"/>
+    </component>
+    <text id="n23_syny" name="num" xy="21,92" pivot="0.5,0.5" size="59,29" visible="false" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#8bff3d" align="center" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="11/60"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

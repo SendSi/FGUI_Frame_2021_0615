@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <controller name="state" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n27_pz0v" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n28_pz0v" name="bg" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n48_j3xs"/>
+    <text id="n40_j3xs" name="title" xy="370,70" pivot="0.5,0.5" size="576,46" group="n48_j3xs" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="申请列表"/>
+    <component id="n37_pz0v" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n48_j3xs"/>
+    <image id="n50_enlz" name="n50" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="563,320" group="n51_enlz" scale="0.7,0.7" alpha="0.1" color="#97794f"/>
+    <text id="n49_enlz" name="n49" xy="549,373" pivot="0.5,0.5" size="184,42" group="n51_enlz" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" singleLine="true" text="暂无申请信息"/>
+    <group id="n51_enlz" name="n51" xy="549,320" size="236,222" group="n48_j3xs" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <image id="n62_hddb" name="n62" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="814,614" size="114,36" group="n60_lccx"/>
+    <text id="n53_etns" name="tips" xy="221,615" size="580,34" group="n60_lccx" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" text="当有战力达到设定值的执政官申请时,您将收到邮件通知"/>
+    <component id="n54_etns" name="switchBtn" src="jyqrg" fileName="components/settingSwitchBtn1.xml" pkg="dh3hukhz" xy="1008,597" group="n60_lccx"/>
+    <text id="n61_lccx" name="power" xy="814,611" size="114,43" group="n60_lccx" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" autoSize="none" text="1000" input="true" keyboardType="4"/>
+    <group id="n60_lccx" name="n60" xy="221,597" size="916,71" group="n48_j3xs"/>
+    <component id="n56_etns" name="sortBtn" src="etnshz9d34" fileName="components/applyCbox.xml" xy="853,168" size="260,44" group="n55_etns">
+      <ComboBox visibleItemCount="10">
+        <item title="Apply Time"/>
+        <item title="Fighting Capacity"/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+      </ComboBox>
+    </component>
+    <list id="n26_eh0p" name="applyList" xy="221,267" size="892,319" group="n55_etns" overflow="scroll" lineGap="4" defaultItem="ui://lp3m5cuhraui9cib">
+      <gearDisplay controller="state" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n63_fuhh" name="titlebg" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="221,224" size="892,36" group="n55_etns"/>
+    <text id="n43_j3xs" name="n43" xy="268,224" pivot="0.5,0.5" size="127,34" group="n55_etns" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" text="申请人数: 1"/>
+    <text id="n44_j3xs" name="n44" xy="626,224" pivot="0.5,0.5" size="52,34" group="n55_etns" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" text="等级"/>
+    <text id="n45_j3xs" name="n45" xy="756,224" pivot="0.5,0.5" size="100,34" group="n55_etns" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" text="击杀积分"/>
+    <text id="n46_j3xs" name="n46" xy="937,224" pivot="0.5,0.5" size="52,34" group="n55_etns" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" text="批准"/>
+    <group id="n55_etns" name="n55" xy="221,168" size="892,418" group="n48_j3xs" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <group id="n48_j3xs" name="windows" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

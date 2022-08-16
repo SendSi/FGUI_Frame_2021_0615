@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImageOffsetX="-128">
+  <controller name="needPrice" pages="0,不需要,1,需要" selected="0"/>
+  <displayList>
+    <component id="n139_gjb0" name="bg1" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n102_rb1r" name="n102" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n120_d4gi"/>
+    <text id="n112_d4gi" name="title" xy="631,70" pivot="0.5,0.5" size="72,46" group="n120_d4gi" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="创建"/>
+    <image id="n136_nnlh" name="n136" src="nnlhhz9d1q" fileName="images/league_castlebg.png" xy="245,500" group="n120_d4gi" visible="false"/>
+    <component id="n123_nnlh" name="flagIcon" src="nnlhhz9d15" fileName="components/flagIcon.xml" xy="220,153" group="n120_d4gi" scale="0.7,0.7"/>
+    <image id="n129_nnlh" name="n129" src="nnlhhz9d1i" fileName="images/league_castle.png" xy="267,373" group="n120_d4gi"/>
+    <component id="n131_nnlh" name="flagIcon2" src="nnlhhz9d15" fileName="components/flagIcon.xml" xy="296,399" size="360,366" group="n120_d4gi" scale="0.2,0.2"/>
+    <text id="n107_wo9z" name="txt" xy="468,154" size="100,34" group="n134_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" text="背景颜色"/>
+    <image id="n124_nnlh" name="n124" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="466,186" size="666,174" group="n134_nnlh"/>
+    <list id="n122_v33l" name="shadowList" xy="473,196" size="651,89" group="n134_nnlh" layout="row" overflow="scroll" scroll="horizontal" colGap="-6" defaultItem="ui://lp3m5cuhnnlhhz9d17" autoItemSize="false" vAlign="middle">
+      <item icon="ui://tsbe09ddnnlhhz9cxz"/>
+      <item icon="ui://tsbe09ddnnlhhz9cy0"/>
+      <item icon="ui://tsbe09ddnnlhhz9cy1"/>
+      <item icon="ui://tsbe09ddnnlhhz9cy2"/>
+      <item icon="ui://tsbe09ddnnlhhz9cy3"/>
+      <item icon="ui://tsbe09ddnnlhhz9cy4"/>
+      <item icon="ui://tsbe09ddnnlhhz9cy5"/>
+      <item icon="ui://tsbe09ddnnlhhz9cy6"/>
+    </list>
+    <component id="n126_nnlh" name="shadowSdr" src="nnlhhz9d1g" fileName="components/colorSdr.xml" xy="485,296" group="n134_nnlh">
+      <Slider value="7" max="12" min="1"/>
+    </component>
+    <group id="n134_nnlh" name="n134" xy="466,154" size="666,206" group="n120_d4gi"/>
+    <text id="n128_nnlh" name="txt2" xy="468,362" size="52,34" group="n133_nnlh" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" text="图案"/>
+    <image id="n125_nnlh" name="n125" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="466,394" size="666,266" group="n133_nnlh"/>
+    <list id="n115_d4gi" name="flagIconList" xy="473,404" size="651,181" group="n133_nnlh" layout="flow_hz" overflow="scroll" lineGap="-16" colGap="-12" defaultItem="ui://lp3m5cuhnnlhhz9d17" align="center">
+      <item icon="ui://tsbe09ddb3sk9cke"/>
+      <item icon="ui://tsbe09ddb3sk9ckf"/>
+      <item icon="ui://tsbe09ddb3sk9ckg"/>
+      <item icon="ui://tsbe09ddb3sk9ckh"/>
+      <item icon="ui://tsbe09ddb3sk9cki"/>
+      <item icon="ui://tsbe09ddb3sk9ckj"/>
+      <item icon="ui://tsbe09ddb3sk9ckk"/>
+      <item icon="ui://tsbe09ddb3sk9ckl"/>
+      <item icon="ui://tsbe09ddb3sk9ckm"/>
+      <item icon="ui://tsbe09ddb3sk9ckn"/>
+      <item icon="ui://tsbe09ddb3sk9cko"/>
+      <item icon="ui://tsbe09ddb3sk9ckp"/>
+      <item icon="ui://tsbe09ddb3sk9ckq"/>
+      <item icon="ui://tsbe09ddb3sk9ckr"/>
+      <item icon="ui://tsbe09ddb3sk9cks"/>
+      <item icon="ui://tsbe09ddb3sk9ckt"/>
+      <item icon="ui://tsbe09ddb3sk9cku"/>
+      <item icon="ui://tsbe09ddb3sk9ckv"/>
+      <item icon="ui://tsbe09ddb3sk9ck8"/>
+      <item icon="ui://tsbe09ddb3sk9ck9"/>
+      <item icon="ui://tsbe09ddb3sk9cka"/>
+      <item icon="ui://tsbe09ddb3sk9ckb"/>
+      <item icon="ui://tsbe09ddb3sk9ckc"/>
+      <item icon="ui://tsbe09ddb3sk9ckd"/>
+    </list>
+    <component id="n127_nnlh" name="iconSdr" src="nnlhhz9d1h" fileName="components/colorSdr2.xml" xy="485,595" size="627,49" group="n133_nnlh">
+      <Slider value="2" max="6" min="1"/>
+    </component>
+    <group id="n133_nnlh" name="n133" xy="466,362" size="666,298" group="n120_d4gi"/>
+    <component id="n132_nnlh" name="randomBtn" src="vqdvhz9d1r" fileName="components/randomBtn.xml" xy="205,507" group="n120_d4gi" aspect="true">
+      <Button icon="ui://lp3m5cuhnnlhhz9d1p"/>
+    </component>
+    <component id="n79_m79t" name="btnSurePrice" src="nnlhhz9d15" fileName="components/components_new/com_btn_buy2.xml" pkg="2r331opv" xy="245,598" group="n120_d4gi">
+      <gearDisplay controller="needPrice" pages="1"/>
+      <Button title="确认"/>
+    </component>
+    <component id="n137_9bv6" name="btnSureNormal" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="245,598" group="n120_d4gi">
+      <gearDisplay controller="needPrice" pages="0"/>
+      <Button title="确认"/>
+    </component>
+    <component id="n138_gjb0" name="closeBtn" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n120_d4gi"/>
+    <group id="n120_d4gi" name="n120" xy="77,38" size="1180,727" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

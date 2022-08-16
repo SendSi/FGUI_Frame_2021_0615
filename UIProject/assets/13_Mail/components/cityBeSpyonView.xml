@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="733,195" designImageOffsetX="-579" designImageOffsetY="-129">
+  <displayList>
+    <text id="n0_uxiw" name="lbl" xy="27,0" size="706,59" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" leading="6" ubb="true" autoSize="height" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="报告执政官！我成功潜入到地方[color=#ff5a5a]{SA-4}花飞漫地[/color]的城市，获取了以下重要情报重要情报重要情报重要情报重要情报">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <component id="n1_uxiw" name="headIcon" src="j3xs9pm" fileName="components/components_new/btn_head4.xml" pkg="2r331opv" xy="73,73" group="n4_uxiw" aspect="true" scale="0.6,0.6"/>
+    <text id="n2_uxiw" name="playerName" xy="211,116" size="204,34" group="n4_uxiw" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ff7575" ubb="true" autoSize="none" strokeColor="#501c1c" strokeSize="2" shadowColor="#501c1c" shadowOffset="2,3" singleLine="true" autoClearText="true" text="小鱼"/>
+    <component id="n3_uxiw" name="checkBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="430,102" group="n4_uxiw">
+      <Button title="查看" titleFontSize="28"/>
+    </component>
+    <group id="n4_uxiw" name="n4" xy="73,73" size="518,210" advanced="true">
+      <relation target="n0_uxiw" sidePair="top-bottom"/>
+      <relation target="" sidePair="center-center%"/>
+    </group>
+  </displayList>
+</component>

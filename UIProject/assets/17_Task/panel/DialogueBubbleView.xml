@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" extention="Label" initName="frame" designImageAlpha="48" designImageLayer="1">
+  <controller name="c1" pages="0,,1," selected="0">
+    <remark page="0" value="left"/>
+    <remark page="1" value="right"/>
+  </controller>
+  <displayList>
+    <loader3D id="n3_j3xs" name="leftRole" xy="-500,627" size="100,100" touchable="false" url="ui://dhoj786wtk0cjq" align="center" vAlign="middle" animation="idle" skin="" clearOnPublish="true"/>
+    <loader3D id="n4_j3xs" name="rightRole" xy="1500,627" size="100,100" touchable="false" url="ui://dhoj786wtk0cjn" align="center" vAlign="middle" animation="idle" skin="" clearOnPublish="true">
+      <relation target="" sidePair="right-right"/>
+    </loader3D>
+    <component id="n41_oydu" name="offsetBtn" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0" size="1334,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n44_b9bj" name="leftBubble" src="b9bj2" fileName="components/components_new/dialogueBtn01.xml" pkg="2r331opv" xy="-793,512" touchable="false">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="left-left"/>
+    </component>
+    <component id="n45_b9bj" name="rightBubble" src="b9bj1ygcgmf" fileName="components/components_new/dialogueBtn02.xml" pkg="2r331opv" xy="1361,512" pivot="1,0" touchable="false">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Pivot" target="n44_b9bj" value="0.09,0"/>
+    <item time="0" type="Pivot" target="n44_b9bj" value="0.09,0"/>
+    <item time="0" type="Pivot" target="n44_b9bj" value="0.09,0"/>
+    <item time="0" type="Visible" target="n44_b9bj" value="false"/>
+    <item time="0" type="Visible" target="n45_b9bj" value="true"/>
+    <item time="0" type="XY" target="n44_b9bj" value="-793,512"/>
+    <item time="0" type="XY" target="n45_b9bj" value="1361,512"/>
+    <item time="5" type="Rotation" target="n44_b9bj" tween="true" startValue="10" endValue="0" duration="7" ease="Back.Out"/>
+    <item time="5" type="Rotation" target="n45_b9bj" tween="true" startValue="-10" endValue="0" duration="7" ease="Back.Out"/>
+    <item time="5" type="Scale" target="n44_b9bj" tween="true" startValue="0.1,0.1" endValue="1.04,1.04" duration="5" ease="Custom" customEase="2,0,0,0.175,0.9625,0.755,0.9725,1,0,1,1"/>
+    <item time="5" type="Scale" target="n45_b9bj" tween="true" startValue="0.1,0.1" endValue="1.05,1.05" duration="5" ease="Custom" customEase="2,0,0,0.08,0.8775,0.67,0.9425,1,0,1,1"/>
+    <item time="5" type="Visible" target="n44_b9bj" value="true"/>
+    <item time="5" type="Visible" target="n45_b9bj" value="true"/>
+    <item time="5" type="XY" target="n44_b9bj" value="207,512"/>
+    <item time="5" type="XY" target="n45_b9bj" value="390,512"/>
+    <item time="10" type="Scale" target="n44_b9bj" tween="true" startValue="1.04,1.04" endValue="1,1" duration="2"/>
+    <item time="10" type="Scale" target="n45_b9bj" tween="true" startValue="1.05,1.05" endValue="1,1" duration="2"/>
+  </transition>
+</component>

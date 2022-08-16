@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="109,128" pivot="0.5,0.5" extention="Button" designImage="ui://xig4tp5gebe5ci7" designImageOffsetX="-926" designImageOffsetY="-549">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="解锁"/>
+    <remark page="1" value="未解锁"/>
+  </controller>
+  <displayList>
+    <image id="n7_ebe5" name="n7" pkg="2r331opv" src="cxixz9cmi" fileName="images/images_new/com_bg4.png" xy="7,7">
+      <gearLook controller="state" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+    </image>
+    <loader id="n5_iiq6" name="icon" xy="11,9" size="85,89" aspect="true" url="ui://tvbfx6zpmfnd2" align="center" vAlign="middle" fill="scale">
+      <gearLook controller="state" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n6_iiq6" name="title" xy="-18,69" size="143,30" font="ui://2r331opvlwft3" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#000000" shadowOffset="1,1" singleLine="true" autoClearText="true" text="3级">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n5_iiq6" sidePair="top-bottom"/>
+    </text>
+    <text id="n8_oqow" name="fullTitle" xy="-47,98" size="200,29" fontSize="20" color="#99dad6" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="已满级"/>
+    <graph id="n9_c4um" name="n9" xy="54,6" size="67,68" group="n11_nagg" alpha="0.2" rotation="45" type="rect" fillColor="#ff000000">
+      <gearDisplay controller="state" pages="1"/>
+    </graph>
+    <component id="n10_nagg" name="EffectRoot_01" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="30,28" group="n11_nagg" touchable="false">
+      <relation target="n9_c4um" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n11_nagg" name="n11" xy="30,6" size="91,72"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

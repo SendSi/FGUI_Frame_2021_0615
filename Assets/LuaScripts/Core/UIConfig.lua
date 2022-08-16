@@ -14,6 +14,11 @@ local uiConfig = {
         packageName = "Emoji",
         viewName = "Main"
     },
+    LoginMainView = {
+        className = "UI.Login.LoginMainView",
+        packageName = "02_login",
+        viewName = "LoginMainView"
+    },
 }
 return uiConfig
 

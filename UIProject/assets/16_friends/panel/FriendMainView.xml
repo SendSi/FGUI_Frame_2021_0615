@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImage="ui://dowwulhelhtp1" designImageOffsetX="-165" designImageAlpha="48">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n66_xzsv" name="bg01" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n7_lhtp" name="bg" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" pivot="0.5,0.5" group="n64_teiy"/>
+    <text id="n67_xnbe" name="title" xy="617,70" pivot="0.5,0.5" size="72,46" group="n64_teiy" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="好友"/>
+    <image id="n9_lhtp" name="n9" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="214,154" pivot="0.5,0.5" size="914,36" group="n17_lhtp"/>
+    <text id="n18_lhtp" name="title_01" xy="301,155" size="100,34" group="n17_lhtp" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="好友名称"/>
+    <text id="n19_lhtp" name="title_02" xy="473,155" size="100,34" group="n17_lhtp" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="所在联盟"/>
+    <text id="n20_lhtp" name="title_03" xy="600,155" size="76,34" group="n17_lhtp" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="亲密度"/>
+    <text id="n26_lhtp" name="title_04" xy="720,152" pivot="0.5,0.5" size="52,34" group="n17_lhtp" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="战力"/>
+    <text id="n27_lhtp" name="title_05" xy="835,155" size="76,34" group="n17_lhtp" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="所属州"/>
+    <text id="n28_lhtp" name="title_06" xy="1007,155" size="52,34" group="n17_lhtp" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="操作"/>
+    <component id="n49_lhtp" name="sort_01" src="lhtp5" fileName="components/components_new/sort.xml" pkg="2r331opv" xy="624,153" size="68,38" group="n17_lhtp"/>
+    <component id="n51_lhtp" name="sort_02" src="lhtp5" fileName="components/components_new/sort.xml" pkg="2r331opv" xy="720,152" size="71,38" group="n17_lhtp"/>
+    <group id="n17_lhtp" name="bgs" xy="214,152" size="914,39" group="n64_teiy" advanced="true"/>
+    <image id="n69_kadl" name="n69" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="558,313" group="n59_eh0p" alpha="0.1" color="#97794f"/>
+    <text id="n57_eh0p" name="noFriends" xy="447,388" pivot="0.5,0.5" size="446,42" group="n59_eh0p" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" align="center" vAlign="middle" autoSize="none" text="暂无好友"/>
+    <group id="n59_eh0p" name="c1_1" xy="447,313" size="446,222" group="n64_teiy" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n52_lhtp" name="n52" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="584,591" size="161,62" group="n63_jf52">
+      <Button title="添加好友"/>
+    </component>
+    <component id="n53_lhtp" name="n53" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="773,591" size="161,62" group="n63_jf52">
+      <Button title="申请列表"/>
+    </component>
+    <component id="n54_lhtp" name="blacklist" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="962,591" size="161,62" group="n63_jf52">
+      <Button title="黑名单"/>
+    </component>
+    <group id="n63_jf52" name="n63" xy="584,591" size="538,62" group="n64_teiy" visible="false" advanced="true"/>
+    <list id="n48_lhtp" name="friends" xy="214,202" size="914,375" group="n68_xnbe" overflow="scroll" lineGap="6" defaultItem="ui://dowwulhelhtp3" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n55_lhtp" name="n55" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="456,593" group="n65_teiy">
+      <Button title="一键赠送"/>
+    </component>
+    <component id="n56_lhtp" name="n56" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="723,593" group="n65_teiy">
+      <Button title="一键领取"/>
+    </component>
+    <group id="n65_teiy" name="button" xy="456,593" size="428,62" group="n68_xnbe" advanced="true"/>
+    <group id="n68_xnbe" name="c1_0" xy="214,202" size="914,453" group="n64_teiy" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n3_lhtp" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" size="80,80" group="n64_teiy">
+      <relation target="" sidePair="left-left"/>
+    </component>
+    <group id="n64_teiy" name="n64" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n62_ee2i" name="btnAdd" src="rb1rl1" fileName="components/components_new/com_btnAdd.xml" pkg="2r331opv" xy="1202,0">
+      <relation target="" sidePair="right-right"/>
+      <Button title="友情币" icon="ui://tsbe09ddmz4w5"/>
+    </component>
+  </displayList>
+</component>

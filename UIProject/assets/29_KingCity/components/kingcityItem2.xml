@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="368,62">
+  <displayList>
+    <text id="n0_hn57" name="illustrate" xy="34,0" size="334,60" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" leading="-2" ubb="true" autoSize="none" text="玩法说明，巴拉巴拉攻击这里打字巴拉巴拉攻击这里打"/>
+    <text id="n3_ebe4" name="number" xy="0,0" size="34,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" ubb="true" autoSize="none" text="1:"/>
+  </displayList>
+</component>

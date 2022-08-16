@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="51,28" extention="Button">
+  <controller name="state" pages="4,骑士,2,圣殿骑士,1,官员,0,盟主" selected="0"/>
+  <displayList>
+    <graph id="n3_h0om" name="bg" xy="0,0" size="51,28" type="rect" lineSize="0" fillColor="#ff4c9129" corner="5">
+      <gearColor controller="state" pages="4,2,1" values="#4c9129|#3991d3|#b333d9" default="#902222"/>
+      <relation target="n4_h0om" sidePair="rightext-right,leftext-left"/>
+    </graph>
+    <richtext id="n4_h0om" name="title" xy="3,0" size="44,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" text="骑士">
+      <gearText controller="state" pages="4,2,1,0" values="骑士|圣殿骑士|官员|盟主"/>
+    </richtext>
+  </displayList>
+  <Button/>
+</component>

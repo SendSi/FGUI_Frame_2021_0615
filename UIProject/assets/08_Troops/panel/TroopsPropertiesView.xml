@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <component id="n10_mecu" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n26_whkb" name="n26" src="hdmy1iy5b95" fileName="components/components_new/Popup_bg2.xml" pkg="2r331opv" xy="331,58" size="672,649" group="n24_o6sy"/>
+    <text id="n15_o6sy" name="title" xy="498,67" pivot="0.5,0.5" size="338,55" group="n24_o6sy" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" text="属性"/>
+    <list id="n1_mecu" name="list" xy="430,153" size="476,482" group="n24_o6sy" overflow="scroll" lineGap="6" defaultItem="ui://jqem9egto6syz9cqo">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n17_o6sy" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="905,42" size="80,80" group="n24_o6sy" scale="0.8,0.8"/>
+    <group id="n24_o6sy" name="window" xy="331,42" size="672,665" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label">
+  <displayList>
+    <component id="n1_cs9c" name="com_mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0" size="1665,750">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_cs9c" name="com_window" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" group="n100_ta12" aspect="true"/>
+    <image id="n98_ewlu" name="n98" src="fk1q1qp8vdi" fileName="images/images_new/windowBg_new/com_bg_popup01.png" pkg="2r331opv" xy="580,127" size="174,556" group="n100_ta12"/>
+    <image id="n99_ewlu" name="n99" src="lfqnhz9d6w" fileName="images/images_new/com_bg_popup02.png" pkg="2r331opv" xy="204,147" size="416,512" group="n100_ta12"/>
+    <image id="n94_tcmd" name="n94" src="tcmd1qp8vcl" fileName="images/hospital_bg01.png" xy="245,151" size="331,156" group="n100_ta12">
+      <relation target="n96_tcmd" sidePair="bottomext-bottom"/>
+    </image>
+    <text id="n96_tcmd" name="tipLbl" xy="274,165" size="277,92" group="n100_ta12" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" leading="0" autoSize="height" autoClearText="true" text="在不同情况，您的部队将&#xA;面临不同命运。战斗中&#xA;巴拉巴拉巴拉！"/>
+    <component id="n22_cs9c" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n100_ta12"/>
+    <text id="n3_cs9c" name="title" xy="362,70" pivot="0.5,0.5" size="616,46" group="n100_ta12" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="3,3" singleLine="true" autoClearText="true" text="战损一览"/>
+    <loader id="n28_h55m" name="icon" xy="224,148" size="377,518" group="n100_ta12" url="ui://fq4ln9nvcs9c4" align="center" vAlign="middle" fill="scale" autoSize="true"/>
+    <image id="n83_tcmd" name="n83" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="684,156" size="434,36" group="n97_ewlu"/>
+    <image id="n84_tcmd" name="n84" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="684,391" size="434,36" group="n97_ewlu"/>
+    <text id="n85_tcmd" name="pvpTitle" xy="695,158" size="51,34" group="n97_ewlu" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="PVP"/>
+    <text id="n86_tcmd" name="pveTitle" xy="695,392" size="50,34" group="n97_ewlu" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="PVE"/>
+    <list id="n89_tcmd" name="pvpList" xy="695,199" size="419,182" group="n97_ewlu" overflow="scroll" defaultItem="ui://fq4ln9nvtcmd1qp8vck" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n90_tcmd" name="pveList" xy="695,433" size="419,215" group="n97_ewlu" overflow="scroll" defaultItem="ui://fq4ln9nvtcmd1qp8vck" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n93_tcmd" name="doubtBtn" src="jg422c" fileName="components/components_new/com_btn_explain2.xml" pkg="2r331opv" xy="1054,134" size="72,80" group="n97_ewlu" alpha="0.4"/>
+    <group id="n97_ewlu" name="n97" xy="684,134" size="442,514" group="n100_ta12"/>
+    <group id="n100_ta12" name="n100" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n81_wnez" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="623,7">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n80_wnez" name="playerIcon" src="xoe1n2" fileName="components/components_new/main/main_playerIcon.xml" pkg="4ni413la" xy="0,0">
+      <relation target="" sidePair="top-top"/>
+    </component>
+  </displayList>
+</component>

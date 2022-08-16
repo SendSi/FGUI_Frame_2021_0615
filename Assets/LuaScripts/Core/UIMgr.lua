@@ -33,6 +33,8 @@ end
 function UIMgr:InstanceWindow(uiConfig, callBack)
     local package = uiConfig.packageName
     local className = uiConfig.className
+    logerror(className)
+    logerror(uiConfig.packageName)
     DataCacheMgr:TryAddPackage(package, function()
         local uiWin = require(className).New(uiConfig)
         uiWin:Show()

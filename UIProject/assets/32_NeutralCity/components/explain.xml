@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="467,326">
+  <displayList>
+    <image id="n96_s3vb" name="n96" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="0,0" size="467,326"/>
+    <image id="n101_rb01" name="n101" src="za6y1ygcgmn" fileName="images/images_new/windowBg_new/welfare_btn_bg23.png" pkg="2r331opv" xy="56,25" pivot="0.5,0.5" size="354,39" alpha="0.9"/>
+    <text id="n97_s3vb" name="explainLbl01" xy="36,75" size="394,218" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" ubb="true" autoSize="none" text="1：[color=#cc681c]首次[/color]攻占城市奖励，将[color=#cc681c]永久[/color]归属该联盟；联盟解散后，不再拥有该奖励！&#xA;2：获得[color=#cc681c]首战奖励[/color]的玩家，[color=#cc681c]盟主[/color]可在联盟内进行自由分配！"/>
+    <text id="n99_s3vb" name="explainLbl02" xy="175,26" pivot="0.5,0.5" size="116,39" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#845744" align="center" vAlign="middle" autoSize="none" singleLine="true" text="奖励规则"/>
+  </displayList>
+</component>

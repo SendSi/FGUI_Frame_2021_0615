@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="183,48" pivot="0.5,0.5" extention="Button" designImage="ui://4ni413lab6o0ko" designImageOffsetX="-1141" designImageOffsetY="-121" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1,,2,,3,,4," selected="0">
+    <remark page="0" value="待命"/>
+    <remark page="1" value="行军"/>
+    <remark page="2" value="撤退"/>
+    <remark page="3" value="驻扎"/>
+    <remark page="4" value="无部队"/>
+  </controller>
+  <displayList>
+    <image id="n4_b6o0" name="n4" src="b6o0chw" fileName="images/com_change03.png" pkg="2r331opv" xy="33,10" size="150,26"/>
+    <text id="n5_b6o0" name="title" xy="48,11" size="100,24" fontSize="16" color="#ffffff" vAlign="middle" autoClearText="true" text="恶魔队伍名称"/>
+    <loader id="n6_b6o0" name="icon" xy="10,6" size="34,34" aspect="true" url="ui://4ni413lassbdz9qp" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="state" pages="0,1,2,3,4" values="ui://4ni413lassbdz9qp|ui://4ni413lab6o0mc|ui://4ni413lab6o0md|ui://4ni413lab6o0me|ui://4ni413laj3xs9p5"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

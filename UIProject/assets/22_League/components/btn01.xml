@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,128" pivot="0.5,0.5" extention="Button" designImageOffsetX="-581" designImageOffsetY="-513" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <controller name="state" pages="0,,1," selected="1">
+    <remark page="1" value="建造"/>
+  </controller>
+  <displayList>
+    <image id="n8_ax40" name="n8" src="ax401qp8vfm" fileName="images/league_unction_iconbg.png" xy="0,0"/>
+    <image id="n5_vqdv" name="n5" src="vb7khz9czv" fileName="images/images_new/com_function_icon_base.png" pkg="2r331opv" xy="1,60"/>
+    <loader id="n4_vqdv" name="icon" xy="6,8" size="90,90" aspect="true" url="ui://lp3m5cuhvqdvhz9d1t" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n6_vqdv" name="n6" src="vb7khz9czp" fileName="images/images_new/com_build_icon.png" pkg="2r331opv" xy="0,0">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <component id="n7_vqdv" name="redElement" src="pyiyhz9d6l" fileName="components/components_new/redPoint.xml" pkg="2r331opv" xy="86,16" size="32,32" aspect="true"/>
+    <text id="n3_vqdv" name="title" xy="25,94" pivot="0.5,0.5" size="52,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" vars="true" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,2" singleLine="true" text="日志"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

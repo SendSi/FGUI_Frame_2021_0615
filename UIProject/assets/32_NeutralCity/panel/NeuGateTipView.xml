@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="timeCtrl" pages="0,,1," selected="1"/>
+  <controller name="stateCtrl" pages="0,,1," selected="1">
+    <remark page="0" value="攻击"/>
+    <remark page="1" value="前往"/>
+  </controller>
+  <displayList>
+    <component id="n2_eznb" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_eznb" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n28_pun8" name="nullBtn" src="nvzr1ygcff2" fileName="components/nullBtn.xml" xy="572,138" size="583,471" group="n13_eznb" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n4_eznb" name="n4" src="gw9a1ygcfmn" fileName="images/images_new/com_bg_tips05.png" pkg="2r331opv" xy="567,147" size="583,457" group="n13_eznb"/>
+    <image id="n7_eznb" name="n7" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="593,240" size="530,264" group="n13_eznb" alpha="0.2" color="#97794f"/>
+    <text id="n11_eznb" name="tips" xy="789,258" size="76,34" group="n13_eznb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" leading="0" text="简介："/>
+    <text id="n14_klt5" name="wordLbl02" xy="659,172" pivot="0.5,0.5" size="398,39" group="n13_eznb" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#4c9129" align="center" leading="0" ubb="true" autoSize="none" autoClearText="true" text="2级护城柱">
+      <gearColor controller="stateCtrl" pages="0,1" values="#845744,#000000|#4c9129,#000000"/>
+    </text>
+    <text id="n15_klt5" name="wordLbl01" xy="659,206" size="398,26" group="n13_eznb" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#4c9129" align="center" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="归属：{联盟简称}">
+      <gearColor controller="stateCtrl" pages="0,1" values="#97794f,#000000|#4c9129,#000000"/>
+      <relation target="n14_klt5" sidePair="left-right"/>
+    </text>
+    <component id="n12_eznb" name="btnGoTo" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="776,518" group="n13_eznb">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <Button title="前往"/>
+    </component>
+    <component id="n17_klt5" name="btnAttack" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="776,518" group="n13_eznb">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="攻击"/>
+    </component>
+    <text id="n19_klt5" name="wordLbl03" xy="789,350" size="124,34" group="n13_eznb" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" leading="0" text="规则说明："/>
+    <text id="n20_klt5" name="wordLbl04" xy="788,381" size="321,94" group="n13_eznb" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" leading="0" ubb="true" autoSize="shrink" autoClearText="true" text="1.攻击主城需要同时将四个护城柱归为同一联盟后才能对主城发动攻击"/>
+    <text id="n18_klt5" name="wordLbl06" xy="788,285" size="324,53" group="n13_eznb" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" leading="0" ubb="true" autoSize="shrink" autoClearText="true" text="远古时代留下护城柱，蕴含着巨量的魔法之力；"/>
+    <component id="n23_klt5" name="cityTime" src="svx3hz9d7n" fileName="components/cityStateBtn.xml" xy="610,443" group="n13_eznb">
+      <gearColor controller="timeCtrl" pages="0,1" values="#4c9129|#ff0000"/>
+      <gearText controller="timeCtrl" pages="0" values="1天16:48:21" default="可攻城"/>
+      <gearIcon controller="timeCtrl" pages="1" values="ui://2r331opvsvx3hz9d7e" default="ui://2r331opvsvx3hz9d7d"/>
+      <Button title="可攻城" titleColor="#ff0000" icon="ui://2r331opvsvx3hz9d7e"/>
+    </component>
+    <loader id="n24_klt5" name="model" xy="607,288" size="167,156" group="n13_eznb" fill="scale"/>
+    <component id="n25_klt5" name="collectionBtn" src="7so91qp8vi9" fileName="components/cornerBtn.xml" pkg="2r331opv" xy="581,131" size="70,88" group="n13_eznb" scale="0.8,0.8">
+      <Button icon="ui://2r331opvr616z9cp9"/>
+    </component>
+    <component id="n27_klt5" name="shareBtn" src="7so91qp8vi9" fileName="components/cornerBtn.xml" pkg="2r331opv" xy="638,131" size="70,88" group="n13_eznb" scale="0.8,0.8">
+      <Button icon="ui://2r331opvnvnv1qp8vi2"/>
+    </component>
+    <group id="n13_eznb" name="n13" xy="567,131" size="588,478" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

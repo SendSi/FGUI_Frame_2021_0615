@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="881,442" designImage="ui://ufsajnnzuxiwchp" designImageOffsetX="-423" designImageOffsetY="-222" designImageAlpha="0">
+  <controller name="state" pages="0,win,1,lose" selected="0"/>
+  <displayList>
+    <image id="n1_uxiw" name="n1" pkg="2r331opv" src="9deicg4" fileName="images/com_bg_itembtn.png" xy="2,1" size="876,439" alpha="0.8">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <image id="n0_uxiw" name="n0" pkg="2r331opv" src="uxiwchj" fileName="images/line01.png" xy="2,1" size="4,439"/>
+    <image id="n2_uxiw" name="n2" pkg="2r331opv" src="uxiwchi" fileName="images/line02.png" xy="875,1" size="4,439">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <component id="n3_uxiw" name="playerIcon" src="gzkh8b" fileName="components/btn_head2.xml" pkg="2r331opv" xy="16,12" group="n10_uxiw" touchable="false"/>
+    <text id="n4_uxiw" name="playerName" xy="107,15" size="290,29" group="n10_uxiw" fontSize="20" color="#acc7d5" ubb="true" autoSize="none" autoClearText="true" text="[Xxbi]暮色三千"/>
+    <text id="n5_uxiw" name="n5" xy="105,43" size="44,29" group="n10_uxiw" fontSize="20" color="#acc7d5" autoClearText="true" text="战力"/>
+    <text id="n6_uxiw" name="fightingPower" xy="150,43" size="201,29" group="n10_uxiw" fontSize="20" color="#f05353" ubb="true" autoSize="none" autoClearText="true" text="5.3万"/>
+    <text id="n8_uxiw" name="coordinateTitle" xy="107,66" size="148,32" group="n10_uxiw" fontSize="20" color="#69df7a" leading="6" ubb="true" autoSize="none" underline="true" autoClearText="true" text="X:129 Y:74"/>
+    <list id="n18_uxiw" name="generalList" xy="23,104" size="383,103" group="n10_uxiw" layout="row" overflow="scroll" colGap="28" defaultItem="ui://ufsajnnzuxiwchd">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n20_uxiw" name="list" xy="18,213" size="354,221" group="n10_uxiw" overflow="scroll" lineGap="-10" defaultItem="ui://ufsajnnzuxiwchq">
+      <item title="部队总数"/>
+      <item title="阵亡"/>
+      <item title="重伤"/>
+      <item title="剩余"/>
+      <item title="城门耐久"/>
+      <item title="资源损失"/>
+    </list>
+    <group id="n10_uxiw" name="myself" xy="16,12" size="390,422" advanced="true"/>
+    <component id="n11_uxiw" name="playerIcon2" src="gzkh8b" fileName="components/btn_head2.xml" pkg="2r331opv" xy="776,10" group="n16_uxiw" touchable="false"/>
+    <text id="n12_uxiw" name="playerName2" xy="482,16" pivot="1,0" size="290,29" group="n16_uxiw" fontSize="20" color="#acc7d5" align="right" ubb="true" autoSize="none" autoClearText="true" text="[Xxbi]暮色三千"/>
+    <text id="n13_uxiw" name="n13" xy="675,44" size="44,29" group="n16_uxiw" fontSize="20" color="#acc7d5" autoClearText="true" text="战力">
+      <relation target="n14_uxiw" sidePair="right-left"/>
+    </text>
+    <text id="n14_uxiw" name="fightingPower2" xy="725,44" pivot="1,0" size="52,29" group="n16_uxiw" fontSize="20" color="#f05353" align="right" ubb="true" autoClearText="true" text="5.3万"/>
+    <text id="n15_uxiw" name="coordinateTitle2" xy="629,66" pivot="1,0" size="148,32" group="n16_uxiw" fontSize="20" color="#69df7a" align="right" leading="6" ubb="true" autoSize="none" underline="true" autoClearText="true" text="X:129 Y:74"/>
+    <list id="n19_uxiw" name="generalList2" xy="516,108" size="383,103" group="n16_uxiw" layout="row" overflow="scroll" colGap="28" defaultItem="ui://ufsajnnzuxiwchd">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n21_uxiw" name="list2" xy="508,213" size="354,221" group="n16_uxiw" overflow="scroll" lineGap="-10" defaultItem="ui://ufsajnnzuxiwchq">
+      <item title="部队总数"/>
+      <item title="阵亡"/>
+      <item title="重伤"/>
+      <item title="剩余"/>
+    </list>
+    <group id="n16_uxiw" name="others" xy="482,10" size="417,424" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <image id="n17_uxiw" name="n17" pkg="ufsajnnz" src="lk93che" fileName="images/mail_icon_11.png" xy="390,15">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n22_uxiw" name="resultIcon" src="94951z" fileName="components/common_btn_main.xml" pkg="2r331opv" xy="186,335" size="105,45" rotation="-10" touchable="false">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="胜利" titleColor="#85d496" titleFontSize="22" icon="ui://2r331opvkbi5fw"/>
+    </component>
+    <image id="n24_uxiw" name="n24" pkg="2r331opv" src="kbi5fw" fileName="images/com_label_bg.png" xy="183,344" group="n26_uxiw" rotation="-10" color="#f80b0b"/>
+    <text id="n25_uxiw" name="n25" xy="212,346" size="48,32" group="n26_uxiw" rotation="-10" fontSize="22" color="#c42222" autoClearText="true" text="失败"/>
+    <group id="n26_uxiw" name="resultIcon2" xy="183,344" size="105,45" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+  </displayList>
+</component>

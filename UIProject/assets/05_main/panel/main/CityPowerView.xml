@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="475,313" pivot="0.5,0.5" designImageOffsetX="-494" designImageOffsetY="-185">
+  <displayList>
+    <image id="n1_j3xs" name="n1" src="nmmihz9cw3" fileName="images/main/city_power_bg00.png" xy="237,156" pivot="0.5,0.5" anchor="true"/>
+    <text id="n2_j3xs" name="n2" xy="181,113" size="52,34" group="n4_j3xs" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#c16400" autoSize="none" text="战力"/>
+    <text id="n3_j3xs" name="number" xy="233,113" size="61,34" group="n4_j3xs" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#c16400" autoSize="none" autoClearText="true" text="+785"/>
+    <group id="n4_j3xs" name="n4" xy="181,113" size="113,34" group="n11_wm8p" advanced="true">
+      <relation target="n1_j3xs" sidePair="center-center"/>
+    </group>
+    <text id="n5_j3xs" name="lblBuild" xy="167,140" pivot="0.5,0.5" size="141,24" group="n11_wm8p" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#c16400" autoClearText="true" text="等级4医院建造完成"/>
+    <group id="n11_wm8p" name="n11" xy="167,113" size="141,51" advanced="true"/>
+    <component id="n13_ilfe" name="EffectRoot_01" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="212,104" size="50,72" touchable="false">
+      <relation target="n11_wm8p" sidePair="center-center,middle-middle"/>
+    </component>
+    <richtext id="n7_j3xs" name="lbl2" xy="160,167" pivot="0.5,0" size="154,26" group="n9_iszw" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#7d2b19" ubb="true" autoClearText="true" text="医院容量 [color=#7d2b19]+800[/color]121"/>
+    <group id="n9_iszw" name="n9" xy="160,167" size="154,26" advanced="true"/>
+    <component id="n12_p0ex" name="EffectRoot_05_CityPowerView_Guang" src="is8cg8" fileName="components/EffectRoot.xml" pkg="2r331opv" xy="220,330">
+      <relation target="n1_j3xs" sidePair="center-center,bottom-bottom"/>
+    </component>
+  </displayList>
+  <transition name="out">
+    <item time="0" type="Alpha" target="n1_j3xs" tween="true" startValue="1" endValue="0" duration="11" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n4_j3xs" tween="true" startValue="1" endValue="0" duration="11" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n5_j3xs" tween="true" startValue="1" endValue="0" duration="11" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n9_iszw" value="1"/>
+    <item time="0" type="XY" target="n9_iszw" value="160,167"/>
+    <item time="7" type="Alpha" target="n9_iszw" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="7" type="XY" target="n9_iszw" tween="true" startValue="176,167" endValue="483,167" duration="3" ease="Linear"/>
+  </transition>
+  <transition name="in">
+    <item time="0" type="Alpha" target="n4_j3xs" value="0"/>
+    <item time="0" type="Alpha" target="n5_j3xs" value="0"/>
+    <item time="0" type="Alpha" target="n7_j3xs" value="0"/>
+    <item time="0" type="Scale" target="n1_j3xs" tween="true" startValue="0,0" endValue="1,1" duration="4"/>
+    <item time="7" type="Alpha" target="n4_j3xs" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="13" type="Alpha" target="n5_j3xs" tween="true" startValue="0" endValue="1" duration="2"/>
+    <item time="13" type="Alpha" target="n7_j3xs" tween="true" startValue="0" endValue="1" duration="2"/>
+  </transition>
+</component>

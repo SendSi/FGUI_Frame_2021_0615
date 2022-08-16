@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,200">
+  <displayList>
+    <graph id="n0_etns" name="n0" xy="0,0" size="150,200" alpha="0.8" touchable="false" type="rect" lineSize="0" lineColor="#00a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n1_etns" name="list" xy="0,0" size="150,200" overflow="scroll" lineGap="9" defaultItem="ui://lp3m5cuhetnshz9d32" align="center">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n1_etns" sidePair="height-height"/>
+</component>

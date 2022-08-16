@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,50" pivot="1,0.5" opaque="false" designImageOffsetX="-445" designImageOffsetY="-258">
+  <controller name="colorCtrl" pages="0,,1," selected="0"/>
+  <displayList>
+    <text id="n7_ejj4" name="title" xy="50,-9" pivot="0.5,0.5" anchor="true" size="140,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#7bff52" align="center" ubb="true" autoSize="none" strokeColor="#173b0d" singleLine="true" autoClearText="true" text="他的名字增加了">
+      <gearColor controller="colorCtrl" pages="0,1" values="#7bff52,#173b0d|#ffffff,#000000"/>
+    </text>
+    <component id="n29_v238" name="btnStart" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="0,4" size="100,45">
+      <Button title="开启喂养" titleFontSize="20"/>
+    </component>
+  </displayList>
+  <transition name="shake"/>
+</component>

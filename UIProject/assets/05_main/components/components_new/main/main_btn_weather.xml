@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="40,40" pivot="0.5,0.5" opaque="false">
+  <controller name="weather" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <loader id="n10_ltnn" name="n10" xy="0,0" size="40,40" touchable="false" url="ui://4ni413laltnnhz9cw8" fill="scale">
+      <gearIcon controller="weather" pages="0,1,2,3" values="ui://4ni413laltnnhz9cw8|ui://4ni413laltnnhz9cw9|ui://4ni413laltnnhz9cwa|ui://4ni413laltnnhz9cwb" default="ui://4ni413laltnnhz9cwc"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

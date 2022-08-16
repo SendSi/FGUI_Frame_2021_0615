@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" extention="Label" initName="frame" designImageOffsetX="-165">
+  <displayList>
+    <image id="n5_plmm" name="bg_1" src="hxd7hz9d7i" fileName="images/images_new/com_bg_tips02_mask2.png" pkg="2r331opv" xy="367,605" size="599,133" group="n15_n5g2"/>
+    <image id="n10_plmm" name="n10" src="fz63hz9crj" fileName="images/map/mainhud_bg_title1.png" xy="513,29" pivot="0.5,0.5" group="n15_n5g2"/>
+    <text id="n11_plmm" name="title" xy="574,40" size="181,42" group="n15_n5g2" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#322b63" shadowOffset="3,3" text="编辑模式"/>
+    <component id="n12_9yrd" name="movingBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="699,657" size="189,62" group="n15_n5g2">
+      <Button title="钻石迁城"/>
+    </component>
+    <richtext id="n13_9yrd" name="priceRlbl" xy="751,622" pivot="0.5,0.5" size="86,34" group="n15_n5g2" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" autoClearText="true" text="图标 99"/>
+    <component id="n14_9yrd" name="cancelBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="452,657" size="189,62" group="n15_n5g2">
+      <Button title="取消"/>
+    </component>
+    <group id="n15_n5g2" name="n15" xy="367,29" size="599,709" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

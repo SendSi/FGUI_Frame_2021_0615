@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="69,80" pivot="0.5,0.5" extention="Button" designImage="ui://4ni413labnhnjm" designImageOffsetX="-910" designImageOffsetY="-217">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_bnhn" name="n0" pkg="4ni413la" src="xoe1ms" fileName="images2/main_btn_06.png" xy="0,0" aspect="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_bnhn" name="icon" xy="6,6" size="56,56" url="ui://4ni413labnhnjv" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_bnhn" name="title" xy="-25,55" size="119,31" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="攻击">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

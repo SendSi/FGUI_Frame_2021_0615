@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="151,90" designImageOffsetX="-746" designImageOffsetY="-322">
+  <displayList>
+    <image id="n0_9g9i" name="bg_2" pkg="2r331opv" src="b6o0chv" fileName="images/com_bg_change02.png" xy="0,9" size="151,25">
+      <relation target="n2_9g9i" sidePair="width-width"/>
+    </image>
+    <text id="n1_9g9i" name="title_name" xy="29,8" pivot="0.5,0.5" size="40,26" font="ui://2r331opvlwft2" fontSize="18" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" singleLine="true" autoClearText="true" text="主城"/>
+    <text id="n2_9g9i" name="title_grade" xy="70,8" size="42,26" fontSize="18" color="#7de786" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="16级">
+      <relation target="n1_9g9i" sidePair="left-right"/>
+    </text>
+    <image id="n3_9g9i" name="n3" src="aibb2e" fileName="images/images_new/common_arrow_4.png" pkg="2r331opv" xy="108,12" size="19,19" aspect="true">
+      <relation target="n2_9g9i" sidePair="left-right"/>
+    </image>
+  </displayList>
+  <relation target="n0_9g9i" sidePair="width-width"/>
+</component>

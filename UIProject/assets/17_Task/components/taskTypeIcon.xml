@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,106" extention="Button" designImage="ui://zezobey9z04phz9cxk" designImageOffsetX="-226" designImageOffsetY="-105">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="quality" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <loader id="n4_z04p" name="bgProp" xy="-1,-1" size="106,106" aspect="true" visible="false" url="ui://2r331opvh3jujt" fill="scaleFree">
+      <gearIcon controller="quality" pages="0,2,3,4,5" values="ui://2r331opvh3jujt|ui://2r331opv94957|ui://2r331opv94958|ui://2r331opv94959|ui://2r331opv9495a" default="ui://2r331opv94956"/>
+    </loader>
+    <loader id="n5_z04p" name="icon" xy="5,4" size="96,96" url="ui://tsbe09ddn4qw9cjy" align="center" vAlign="middle" fill="scale"/>
+  </displayList>
+  <Button/>
+</component>

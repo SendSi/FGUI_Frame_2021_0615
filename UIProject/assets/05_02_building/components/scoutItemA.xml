@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="974,94">
+  <controller name="state" pages="0,倒计时,1,进度条" selected="0"/>
+  <displayList>
+    <loader id="n0_v1bt" name="n0" xy="26,8" size="90,71" aspect="true" url="ui://fq4ln9nvv1btg" align="center" vAlign="middle" fill="scale"/>
+    <richtext id="n16_qm6y" name="coordinateLbl" xy="4,57" pivot="0.5,0.5" size="140,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#50382e" align="center" underline="true" autoClearText="true" text="(X:1155 Y:4666)"/>
+    <component id="n2_v1bt" name="headIcon" src="hxd7hz9d7a" fileName="components/general_new/generalIconNormal.xml" pkg="2r331opv" xy="104,-24" size="167,151" scale="0.52,0.52"/>
+    <component id="n3_v1bt" name="stateIcon" src="oepthz9cp8" fileName="components/general_new/main_teamStae.xml" pkg="2r331opv" xy="202,24" scale="0.54,0.54"/>
+    <text id="n4_v1bt" name="scoutName" xy="225,20" size="52,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" autoClearText="true" text="侦察"/>
+    <text id="n5_v1bt" name="stateLbl" xy="225,50" size="156,29" group="n7_iusr" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#3991d3" vAlign="middle" autoClearText="true" text="驻扎...  01:02:22"/>
+    <component id="n6_v1bt" name="exploreBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="789,15" size="161,62" group="n7_iusr">
+      <relation target="" sidePair="right-right"/>
+      <Button title="侦察"/>
+    </component>
+    <group id="n7_iusr" name="state0" xy="225,15" size="725,64" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <component id="n15_h2p4" name="pbr" src="h2p4k" fileName="components/treatmentPbr.xml" xy="226,56" size="388,22" group="n12_iusr">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n18_s2n8" name="goBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_00.xml" pkg="2r331opv" xy="789,15" group="n12_iusr">
+      <relation target="" sidePair="right-right"/>
+      <Button title="前往"/>
+    </component>
+    <group id="n12_iusr" name="state1" xy="226,15" size="724,63" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <image id="n13_h2p4" name="line" src="bumchz9d7r" fileName="images/images_new/windowBg_new/negative_bg05.png" pkg="2r331opv" xy="0,90" pivot="0.5,0.5" size="974,4"/>
+    <text id="n17_qm6y" name="n17" xy="42,48" size="57,19" visible="false" fontSize="11" color="#efecec" align="center" autoSize="none" autoClearText="true" text="点击跳转"/>
+  </displayList>
+</component>

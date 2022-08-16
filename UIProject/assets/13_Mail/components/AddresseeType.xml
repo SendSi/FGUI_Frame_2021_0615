@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="587,48" extention="Button" designImage="ui://ufsajnnzkbi5b" designImageOffsetX="-1265" designImageOffsetY="-179">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n15_676j" name="n15" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="-1,1" size="588,45" alpha="0.3" color="#97794f">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <text id="n16_676j" name="title" xy="9,7" size="532,33" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="等级4">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n18_q3nw" name="btnCheck" src="m79tco" fileName="components/com_btn_check.xml" pkg="2r331opv" xy="543,3" size="42,42" aspect="true">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="111,54" pivot="0.5,0.5" extention="Button" designImageOffsetX="-188" designImageOffsetY="-109">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n0_xz10" name="icon" xy="0,0" size="54,54" url="ui://4hio38umxz10z9cro">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_xz10" name="title" xy="55,11" size="59,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#81cbfa" vAlign="middle" autoSize="none" strokeColor="#322b63" strokeSize="2" shadowColor="#322b63" shadowOffset="2,2" singleLine="true" autoClearText="true" text="天赋">
+      <relation target="" sidePair="width-width"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

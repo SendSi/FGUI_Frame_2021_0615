@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,18" extention="Slider">
+  <displayList>
+    <image id="n0_jzi1" name="n0" src="jwslhz9cye" fileName="images/images_new/com_strip_bgscrollbar0.png" pkg="2r331opv" xy="0,0" size="172,18">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_jzi1" name="bar" src="jwslhz9cyf" fileName="images/images_new/com_strip_bgscrollbar1.png" pkg="2r331opv" xy="1,1" size="168,16">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_jzi1" name="grip" src="jdpjz9cqh" fileName="components/Slider1_grip.xml" xy="138,-22" size="60,60">
+      <relation target="n1_jzi1" sidePair="right-right"/>
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <text id="n3_riwy" name="title" xy="176,-6" size="112,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" autoSize="none" text="1111">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </text>
+  </displayList>
+  <Slider titleType="value" wholeNumbers="true" changeOnClick="false"/>
+</component>

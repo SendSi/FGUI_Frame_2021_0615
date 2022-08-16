@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="nf2zagxs">
+  <resources>
+    <component id="lwzz14" name="RecruitPreviewView.xml" path="/panel/" exported="true"/>
+    <image id="hef41c" name="recruit_bg_02.jpg.png" path="/image/" exported="true"/>
+    <image id="hef421" name="recruit_select_1.png" path="/image/" exported="true" scale="9grid" scale9grid="20,20,10,10"/>
+    <component id="8z413o" name="RecruitResultList10View.xml" path="/panel/" exported="true"/>
+    <component id="8z413q" name="RecruitResultItem.xml" path="/components/" exported="true"/>
+    <component id="y6f5gy" name="RecruitMainView.xml" path="/panel/" exported="true"/>
+    <image id="y6f5gz" name="general_001.png" path="/image/general/" exported="true"/>
+    <image id="y6f5h0" name="general_003.png" path="/image/general/" exported="true"/>
+    <image id="y6f5h1" name="general_004.png" path="/image/general/" exported="true"/>
+    <image id="y6f5h2" name="general_005.png" path="/image/general/" exported="true"/>
+    <image id="y6f5h3" name="general_006.png" path="/image/general/" exported="true"/>
+    <image id="y6f5h4" name="general_007.png" path="/image/general/" exported="true"/>
+    <image id="y6f5h5" name="general_008.png" path="/image/general/" exported="true"/>
+    <image id="y6f5h6" name="general_009.png" path="/image/general/" exported="true"/>
+    <image id="y6f5h7" name="general_010.png" path="/image/general/" exported="true"/>
+    <image id="y6f5h8" name="general_011.png" path="/image/general/" exported="true"/>
+    <image id="y6f5h9" name="general_012.png" path="/image/general/" exported="true"/>
+    <image id="y6f5ha" name="general_029.png" path="/image/general/" exported="true"/>
+    <image id="y6f5hb" name="general_033.png" path="/image/general/" exported="true"/>
+    <image id="y6f5hc" name="general_034.png" path="/image/general/" exported="true"/>
+    <image id="y6f5hd" name="general_016.png" path="/image/general/" exported="true"/>
+    <image id="y6f5he" name="general_002.png" path="/image/general/" exported="true"/>
+    <image id="7vgghm" name="general_027.png" path="/image/general/" exported="true"/>
+    <image id="7vgghn" name="general_017.png" path="/image/general/" exported="true"/>
+    <image id="7vggho" name="general_018.png" path="/image/general/" exported="true"/>
+    <image id="gww7hs" name="recruit_tab01.png" path="/image/" exported="true"/>
+    <image id="gww7ht" name="recruit_tab02.png" path="/image/" exported="true"/>
+    <image id="gww7hu" name="recruit_tab03.png" path="/image/" exported="true"/>
+    <image id="gww7hv" name="recruit_tab04.png" path="/image/" exported="true"/>
+    <image id="gww7hw" name="recruit_tab05.png" path="/image/" exported="true"/>
+    <image id="gww7hx" name="recruit_tab06.png" path="/image/" exported="true"/>
+    <component id="gww71qp8ve4" name="btn_tab01.xml" path="/components/" exported="true"/>
+    <image id="gww7i2" name="recruit_bg07.png" path="/image/" exported="true" scale="9grid" scale9grid="25,13,2,26"/>
+    <component id="gww7i3" name="rewardBtn.xml" path="/components/" exported="true"/>
+    <image id="gww7i4" name="recruit_bg3.jpg" path="/image/bg/" exported="true" scale="9grid" scale9grid="2,2,1330,746" atlas="alone" duplicatePadding="true" disableTrim="true"/>
+    <image id="gww7i5" name="recruit_bg4.jpg" path="/image/bg/" exported="true" scale="9grid" scale9grid="2,2,1621,746" atlas="alone" duplicatePadding="true" disableTrim="true"/>
+    <image id="gww7i6" name="recruit_bg017.png" path="/image/bg/" exported="true" atlas="alone"/>
+    <component id="gww7i7" name="nameBtn.xml" path="/components/" exported="true"/>
+    <image id="gww7i8" name="recruit_bg08.png" path="/image/" exported="true"/>
+    <component id="gww71qp8vea" name="LongpressBtn.xml" path="/components/" exported="true"/>
+    <component id="gww7ib" name="PropsRewardView.xml" path="/panel/" exported="true"/>
+    <image id="vm4c1qp8veb" name="new_spot.png" path="/image/" exported="true"/>
+    <image id="vm4c1qp8vec" name="bg_name_12.png" path="/image/" exported="true"/>
+    <image id="vm4c1qp8ved" name="bg_name_13.png" path="/image/" exported="true"/>
+    <image id="vm4c1qp8vee" name="bg_name_14.png" path="/image/" exported="true"/>
+    <image id="vm4c1qp8vef" name="bg_name_15.png" path="/image/" exported="true"/>
+    <image id="vm4c1qp8veg" name="bg_quality_12.png" path="/image/" exported="true"/>
+    <image id="vm4c1qp8veh" name="bg_quality_13.png" path="/image/" exported="true"/>
+    <image id="vm4c1qp8vei" name="bg_quality_14.png" path="/image/" exported="true"/>
+    <image id="vm4c1qp8vej" name="bg_quality_15.png" path="/image/" exported="true"/>
+    <image id="vm4c1qp8vek" name="recruit_bg05.jpg" path="/image/bg/" exported="true" scale="9grid" scale9grid="2,2,1621,746" atlas="alone" duplicatePadding="true" disableTrim="true"/>
+    <image id="e1qz1qp8veq" name="pattern01.png" path="/image/" exported="true"/>
+    <image id="e1qz1qp8ver" name="pattern02.png" path="/image/" exported="true"/>
+    <image id="e1qz1qp8ves" name="pattern03.png" path="/image/" exported="true"/>
+    <image id="e1qz1qp8vet" name="pattern04.png" path="/image/" exported="true"/>
+    <image id="e1qz1qp8veu" name="pattern05.png" path="/image/" exported="true"/>
+    <image id="e1qz1qp8vev" name="recruit_bg011.png" path="/image/" exported="true" scale="9grid" scale9grid="6,0,3,92"/>
+    <component id="e1qz1qp8vf3" name="Left.xml" path="/components/" exported="true"/>
+    <component id="s2uj1qp8vf4" name="GeneralExhibitionView.xml" path="/panel/" exported="true"/>
+    <image id="th8f1qp8vf7" name="recruit_bg09.png" path="/image/" exported="true"/>
+    <component id="k0cc1qp8vf8" name="Recruit_bg01.xml" path="/panel/" exported="true"/>
+    <image id="k0cc1qp8vf9" name="recruit_bg02.png" path="/image/bg/" exported="true"/>
+    <image id="k0cc1qp8vfa" name="recruit_bg01.png" path="/image/bg/" exported="true"/>
+    <image id="k0cc1qp8vfb" name="recruit_bg.png" path="/image/bg/" exported="true" scale="9grid" scale9grid="2,2,1621,746" atlas="alone" duplicatePadding="true" disableTrim="true"/>
+    <image id="k0cc1qp8vfc" name="recruit_bg03.png" path="/image/bg/" exported="true"/>
+    <component id="p8av1qp8vfd" name="preBtnShow.xml" path="/components/" exported="true"/>
+    <component id="kgtm1ygcfh5" name="icon_btn.xml" path="/components/" exported="true"/>
+    <component id="mnug1ygcfh6" name="newBtn.xml" path="/components/" exported="true"/>
+    <image id="ui4t1ygcfiz" name="general_028.png" path="/image/general/" exported="true"/>
+    <component id="wctg1ygcfj0" name="RecruitMainView_old.xml" path="/panel/" exported="true"/>
+    <image id="gm4v1ygcfj1" name="general_035.png" path="/image/general/" exported="true"/>
+    <image id="gm4v1ygcfj2" name="general_500.png" path="/image/general/" exported="true"/>
+    <image id="b9d61ygcfj3" name="general_013.png" path="/image/general/" exported="true"/>
+    <image id="b9d61ygcfj4" name="general_014.png" path="/image/general/" exported="true"/>
+    <image id="b9d61ygcfj5" name="general_015.png" path="/image/general/" exported="true"/>
+    <image id="b9d61ygcfj6" name="general_019.png" path="/image/general/" exported="true"/>
+    <component id="p1pr1ygcfj7" name="RecruitResultTestView.xml" path="/panel/" exported="true"/>
+    <component id="p1pr1ygcfj8" name="testResultItem.xml" path="/components/" exported="true"/>
+    <component id="trux1ygcfj9" name="RecruitResultOtherView.xml" path="/panel/" exported="true"/>
+    <component id="trux1ygcfja" name="otherResultItem.xml" path="/components/" exported="true"/>
+    <image id="sn5c1ygcfjb" name="general_036.png" path="/image/general/" exported="true"/>
+    <image id="sn5c1ygcfjc" name="general_037.png" path="/image/general/" exported="true"/>
+    <image id="sn5c1ygcfjd" name="general_038.png" path="/image/general/" exported="true"/>
+    <image id="sn5c1ygcfje" name="general_040.png" path="/image/general/" exported="true"/>
+    <image id="sn5c1ygcfjf" name="general_039.png" path="/image/general/" exported="true"/>
+    <image id="sn5c1ygcfjg" name="general_045.png" path="/image/general/" exported="true"/>
+    <image id="sn5c1ygcfjh" name="general_046.png" path="/image/general/" exported="true"/>
+    <image id="sn5c1ygcfji" name="general_047.png" path="/image/general/" exported="true"/>
+    <image id="sn5c1ygcfjj" name="general_048.png" path="/image/general/" exported="true"/>
+    <image id="bv451ygcfjk" name="general_041.png" path="/image/general/" exported="true"/>
+    <image id="x3en1ygcfjl" name="recruit_bg00.jpg" path="/image/bg/" exported="true"/>
+    <image id="m5yh1ygcfjm" name="general_049.png" path="/image/general/" exported="true"/>
+    <image id="rhyu1ygcfjn" name="general_050.png" path="/image/general/" exported="true"/>
+    <image id="eon01ygcfjo" name="general_021.png" path="/image/general/" exported="true"/>
+    <image id="eon01ygcfjp" name="general_022.png" path="/image/general/" exported="true"/>
+    <image id="eon01ygcfjq" name="general_023.png" path="/image/general/" exported="true"/>
+    <image id="eon01ygcfjr" name="general_024.png" path="/image/general/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

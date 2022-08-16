@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,20" extention="ProgressBar">
+  <displayList>
+    <image id="n0_wizi" name="n0" src="wizi4" fileName="Img/common_pbr_bg.png" xy="0,0" size="800,20">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_wizi" name="bar" src="wizi5" fileName="Img/common_pbr_loading_3.png" xy="0,0" size="800,20"/>
+  </displayList>
+  <ProgressBar/>
+</component>

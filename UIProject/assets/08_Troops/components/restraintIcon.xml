@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="48,48" extention="Button">
+  <displayList>
+    <image id="n232_11wz9" name="awaken_skill" src="xbfy1ygcfgj" fileName="images_new/troops_bg_platform03.png" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n234_o5d4" name="n234" xy="-21,-21" pivot="0.5,0.5" size="91,91" aspect="true" scale="0.4,0.4" url="ui://2r331opvfrte1qp8vdx" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

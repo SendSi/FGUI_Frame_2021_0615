@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dowwulhe">
+  <resources>
+    <component id="lhtp0" name="FriendMainView.xml" path="/panel/" exported="true"/>
+    <component id="lhtp3" name="information_01.xml" path="/components/" exported="true"/>
+    <component id="8dzs4" name="FriendAddView.xml" path="/panel/" exported="true"/>
+    <component id="8dzs5" name="information_02.xml" path="/components/" exported="true"/>
+    <component id="8dzs7" name="FriendApplicationView.xml" path="/panel/" exported="true"/>
+    <component id="8dzs8" name="information_03.xml" path="/components/" exported="true"/>
+    <component id="8dzs9" name="FriendBlackView.xml" path="/panel/" exported="true"/>
+    <component id="8dzsa" name="information_04.xml" path="/components/" exported="true"/>
+    <component id="gyfac" name="btn.xml" path="/components/"/>
+    <component id="lhadd" name="pictureInfo_btn.xml" path="/components/"/>
+    <component id="xzsve" name="Component1.xml" path="/panel/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

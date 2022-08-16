@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label">
+  <displayList>
+    <component id="n2_cmbv" name="n2" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-168,0" size="1670,750">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n1_cmbv" name="n1" src="rrq31ygcfhb" fileName="images/TreasureMap_bg5.png" xy="-6,84" group="n12_cmbv"/>
+    <image id="n33_rrq3" name="model" src="rrq31ygcfh9" fileName="images/TreasureMap_bg4.png" xy="812,115" group="n12_cmbv" scale="0.8,0.8"/>
+    <text id="n29_cmbv" name="menber" xy="373,630" size="588,34" group="n12_cmbv" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" ubb="true" text="探索收集[color=#fdbf40]地图名字[/color]藏宝图碎片[color=#ff0000](1/9)[/color]即可免费三选一领取"/>
+    <list id="n28_cmbv" name="cardList" xy="84,273" size="937,420" group="n12_cmbv" scale="0.8,0.8" layout="row" overflow="hidden" margin="4,0,4,0" colGap="14" defaultItem="ui://o2q7imnnrrq31ygcfhd">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n11_cmbv" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1224,118" group="n12_cmbv">
+      <Button icon="ui://o2q7imnnrrq31ygcfhc"/>
+    </component>
+    <component id="n34_mzne" name="tip" src="mzne1ygcfoo" fileName="components/TreaBubbling.xml" xy="997,362" group="n12_cmbv"/>
+    <group id="n12_cmbv" name="window" xy="-6,84" size="1713,742" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

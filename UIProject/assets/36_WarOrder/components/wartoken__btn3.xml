@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="107,36" extention="Button">
+  <displayList>
+    <text id="n1_g4yj" name="title" xy="0,1" pivot="0.5,0.5" size="107,34" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#e77917" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="1级"/>
+  </displayList>
+  <Button/>
+</component>

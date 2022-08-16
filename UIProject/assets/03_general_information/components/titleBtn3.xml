@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="119,46" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n42_hxd7" name="icon" xy="0,0" size="119,46" url="ui://2r331opveaahz9co9" align="center" vAlign="middle" fill="scale"/>
+    <image id="n43_tkgc" name="n43" src="tkgc1iy5bep" fileName="images/hero_btn_arrow2.png" xy="76,8"/>
+    <text id="n25_oxy0" name="title" xy="19,6" size="52,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#a95a00" shadowColor="#ffec88" shadowOffset="1,2" text="突破"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

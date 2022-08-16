@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="327,28" extention="Button" designImage="ui://4hio38umhqarz9cq9" designImageOffsetX="-758" designImageOffsetY="-374">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n3_nzpn" name="title" xy="0,-2" size="115,32" font="ui://2r331opvno3vhz9d62" fontSize="22" color="#e5ce8e" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="攻击力攻击">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n4_nzpn" name="num" xy="121,-3" size="180,34" font="ui://2r331opvno3vhz9d62" fontSize="24" color="#ffffff" autoSize="none" autoClearText="true" text="+40"/>
+  </displayList>
+  <Button/>
+</component>

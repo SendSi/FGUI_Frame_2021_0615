@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="182,11" extention="Slider">
+  <displayList>
+    <image id="n0_o283" name="n0" pkg="2r331opv" src="ebe5z9cmw" fileName="images/images_new/com_strip_bg01.png" xy="0,0" size="182,11">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_o283" name="bar" pkg="2r331opv" src="ebe5z9cmx" fileName="images/images_new/com_strip_bg02.png" xy="3,0" size="163,11"/>
+    <component id="n3_o283" name="grip" src="o283z9cmj" fileName="components/armsPbr_grip.xml" xy="153,-25">
+      <relation target="n1_o283" sidePair="right-right"/>
+    </component>
+    <text id="n6_xae7" name="title" xy="87,-34" pivot="0.5,0.5" size="70,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" autoClearText="true" text="2000"/>
+  </displayList>
+  <Slider titleType="value" wholeNumbers="true" changeOnClick="false"/>
+</component>

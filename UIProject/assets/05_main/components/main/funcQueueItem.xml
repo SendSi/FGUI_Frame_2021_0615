@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="302,60">
+  <controller name="state" pages="0,忙碌中,1,空闲中,2,待领取" selected="0">
+    <remark page="0" value="时间"/>
+    <remark page="1" value="前往"/>
+    <remark page="2" value="前往"/>
+  </controller>
+  <displayList>
+    <image id="n12_t18r" name="n12" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="-5,1" size="312,58" alpha="0.4"/>
+    <text id="n7_eh3a" name="title" xy="2,15" size="172,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#845744" autoSize="none" autoClearText="true" text="征兵中">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <text id="n8_eh3a" name="timeLbl" xy="175,18" pivot="1,0" size="121,24" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#50382e" align="right" autoSize="none" autoClearText="true" text="1天00:01:05">
+      <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <component id="n9_eh3a" name="idleBtn" src="dfgw1ygcfmg" fileName="components/components_new/com_btn_0001.xml" pkg="2r331opv" xy="177,4" size="120,52">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="前往征兵" titleFontSize="22"/>
+    </component>
+    <component id="n10_gumv" name="busyBtn" src="dfgw1ygcfmd" fileName="components/components_new/com_btn_0002.xml" pkg="2r331opv" xy="177,4" size="120,52">
+      <gearDisplay controller="state" pages="2"/>
+      <Button title="前往领取" titleFontSize="22"/>
+    </component>
+  </displayList>
+</component>

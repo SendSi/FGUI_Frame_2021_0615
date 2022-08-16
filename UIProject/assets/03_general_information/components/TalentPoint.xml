@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <controller name="grey" pages="0,,1," selected="1">
+    <remark page="0" value="灰"/>
+    <remark page="1" value="亮"/>
+  </controller>
+  <controller name="cloro" pages="2,,0,,1," selected="2"/>
+  <controller name="type" pages="0,,1," selected="1"/>
+  <controller name="num" pages="0,,1," selected="1">
+    <remark page="0" value="无"/>
+    <remark page="1" value="有"/>
+  </controller>
+  <displayList>
+    <loader id="n3_bumc" name="red" xy="0,0" size="84,84" group="n10_bumc" url="ui://4hio38umbumchz9d83" align="center" vAlign="middle">
+      <gearDisplay controller="cloro" pages="0"/>
+      <gearIcon controller="grey" pages="0,1" values="ui://4hio38umbumchz9d80|ui://4hio38umbumchz9d83"/>
+    </loader>
+    <loader id="n4_bumc" name="bule" xy="0,0" size="84,84" group="n10_bumc" url="ui://4hio38umbumchz9d84" align="center" vAlign="middle">
+      <gearDisplay controller="cloro" pages="1"/>
+      <gearIcon controller="grey" pages="1" values="ui://4hio38umbumchz9d84" default="ui://4hio38umbumchz9d81"/>
+    </loader>
+    <loader id="n5_bumc" name="yellow" xy="0,0" size="84,84" group="n10_bumc" url="ui://4hio38umbumchz9d82" align="center" vAlign="middle">
+      <gearDisplay controller="cloro" pages="2"/>
+      <gearIcon controller="grey" pages="1" values="ui://4hio38umbumchz9d82" default="ui://4hio38umbumchz9d7z"/>
+    </loader>
+    <group id="n10_bumc" name="type0" xy="0,0" size="84,84" advanced="true">
+      <gearDisplay controller="type" pages="0"/>
+    </group>
+    <loader id="n6_bumc" name="red1" xy="0,0" size="84,84" group="n9_bumc" url="ui://4hio38umbumchz9d8a" align="center" vAlign="middle">
+      <gearDisplay controller="cloro" pages="0"/>
+      <gearIcon controller="grey" pages="0,1" values="ui://4hio38umbumchz9d86|ui://4hio38umbumchz9d8a"/>
+    </loader>
+    <loader id="n7_bumc" name="bule1" xy="0,0" size="84,84" group="n9_bumc" url="ui://4hio38umbumchz9d89" align="center" vAlign="middle">
+      <gearDisplay controller="cloro" pages="1"/>
+      <gearIcon controller="grey" pages="0,1" values="ui://4hio38umbumchz9d87|ui://4hio38umbumchz9d89"/>
+    </loader>
+    <loader id="n8_bumc" name="yellow1" xy="0,0" size="84,84" group="n9_bumc" url="ui://4hio38umbumchz9d88" align="center" vAlign="middle">
+      <gearDisplay controller="cloro" pages="2"/>
+      <gearIcon controller="grey" pages="0,1" values="ui://4hio38umbumchz9d85|ui://4hio38umbumchz9d88"/>
+    </loader>
+    <loader id="n11_bumc" name="icon" xy="17,17" size="50,50" group="n9_bumc" url="ui://4hio38umbumchz9d8c" align="center" vAlign="middle"/>
+    <group id="n9_bumc" name="type1" xy="0,0" size="84,84" advanced="true">
+      <gearDisplay controller="type" pages="1"/>
+    </group>
+    <text id="n12_bumc" name="numTxt" xy="24,78" pivot="0.5,0.5" size="35,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="2,2" text="1/3">
+      <gearDisplay controller="num" pages="1"/>
+      <gearXY controller="type" pages="0,1" values="25,64|24,78"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

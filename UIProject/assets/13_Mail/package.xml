@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ufsajnnz">
+  <resources>
+    <image id="kbi52" name="mail_icon_01.png" path="/images/" exported="true"/>
+    <image id="kbi53" name="mail_icon_02.png" path="/images/" exported="true"/>
+    <component id="kbi5a" name="MailMainView.xml" path="/panel/" exported="true"/>
+    <component id="kbi5h" name="MailItem.xml" path="/components/" exported="true"/>
+    <component id="l5s1k" name="btnReceive.xml" path="/components/" exported="true"/>
+    <component id="l5s1l" name="SendMailView.xml" path="/panel/" exported="true"/>
+    <component id="l5s1n" name="CoordinateItem.xml" path="/components/" exported="true"/>
+    <image id="rxo0ch9" name="mail_03.png" path="/images/" exported="true"/>
+    <image id="rxo0cha" name="mail_01.png" path="/images/" exported="true"/>
+    <image id="lk93chc" name="mail_icon_09.png" path="/images/" exported="true"/>
+    <image id="lk93chd" name="mail_icon_10.png" path="/images/" exported="true"/>
+    <component id="lk93chh" name="collectReportItem.xml" path="/components/" exported="true"/>
+    <component id="uxiwchi" name="activeSpyOnCityView.xml" path="/components/" exported="true"/>
+    <component id="uxiwchl" name="teamItem.xml" path="/components/" exported="true"/>
+    <component id="uxiwchd" name="GeneralItemIcon.xml" path="/components/" exported="true"/>
+    <component id="uxiwchm" name="cityBeSpyonView.xml" path="/components/" exported="true"/>
+    <component id="uxiwcho" name="investigateView3.xml" path="/components/" exported="true"/>
+    <component id="uxiwchq" name="investigateInfo.xml" path="/components/" exported="true"/>
+    <image id="d4gichr" name="mail_02.png" path="/images/" exported="true"/>
+    <component id="676jcht" name="sendMailBtn.xml" path="/components/" exported="true"/>
+    <component id="676jchx" name="AddresseeMember.xml" path="/components/" exported="true"/>
+    <component id="9itdhz9cw2" name="mail_btn.xml" path="/components/" exported="true"/>
+    <image id="9itdci1" name="bg_01.png" path="/images/" exported="true"/>
+    <component id="9itdci2" name="btnReceived.xml" path="/components/" exported="true"/>
+    <component id="nmmihz9cw4" name="mail_bg.xml" path="/components/"/>
+    <image id="tauyhz9cw7" name="icon_tab01.png" path="/images/" exported="true"/>
+    <image id="tauyhz9cw8" name="icon_tab02.png" path="/images/" exported="true"/>
+    <image id="tauyhz9cw9" name="icon_tab03.png" path="/images/" exported="true"/>
+    <image id="tauyhz9cwa" name="icon_tab04.png" path="/images/" exported="true"/>
+    <image id="tauyhz9cwb" name="icon_tab05.png" path="/images/" exported="true"/>
+    <image id="tauyhz9cwc" name="icon_tab06.png" path="/images/" exported="true"/>
+    <image id="tauyhz9cwd" name="icon_tab07.png" path="/images/" exported="true"/>
+    <image id="tauyhz9cwe" name="icon_tab08.png" path="/images/" exported="true"/>
+    <component id="tauyhz9cwj" name="Button1.xml" path="/components/"/>
+    <component id="ht44hz9cz1" name="generalIcon.xml" path="/components/" exported="true"/>
+    <component id="ht44hz9cwl" name="generalIconBtn.xml" path="/components/"/>
+    <component id="z04phz9cz3" name="investigateView4.xml" path="/components/"/>
+    <image id="mv54hz9cz4" name="bg0.png" path="/images/" exported="true" scale="9grid" scale9grid="18,21,687,43"/>
+    <image id="mv54hz9cz5" name="exploreicon03.png" path="/images/" exported="true"/>
+    <image id="mv54hz9cz6" name="exploreicon01.png" path="/images/" exported="true"/>
+    <component id="mv54hz9cz7" name="applyItem.xml" path="/components/" exported="true"/>
+    <image id="mv54hz9cz8" name="toscoutbtn01.png" path="/images/" exported="true"/>
+    <component id="mv54hz9cz9" name="See.xml" path="/components/" exported="true"/>
+    <component id="ooeuhz9cyd" name="MailPositionView.xml" path="/panel/" exported="true"/>
+    <component id="ooeuhz9cyf" name="posItem.xml" path="/components/" exported="true"/>
+    <component id="j9d9hz9cza" name="leagueAssemble.xml" path="/components/" exported="true"/>
+    <image id="j9d9hz9czb" name="mail_icon_13.png" path="/images/" exported="true"/>
+    <component id="j9d9hz9cze" name="switchBtn.xml" path="/components/"/>
+    <component id="ku7phz9czf" name="AssembleView.xml" path="/panel/" exported="true"/>
+    <component id="ku7phz9czg" name="member.xml" path="/components/" exported="true"/>
+    <component id="ku7phz9czi" name="activeSpyOnLeagueView.xml" path="/components/" exported="true"/>
+    <component id="m6g1hz9czj" name="foldBtn.xml" path="/components/"/>
+    <component id="tazahz9czk" name="exploreItem.xml" path="/components/" exported="true"/>
+    <component id="qutshz9czl" name="attackNeutralCityView.xml" path="/components/" exported="true"/>
+    <component id="ewhohz9czn" name="normalItem.xml" path="/components/" exported="true"/>
+    <component id="q3nwhz9czp" name="AddresseeType.xml" path="/components/" exported="true"/>
+    <component id="yh9phz9czq" name="coordinateBtn.xml" path="/components/"/>
+    <image id="mlozhz9czr" name="bg_03.png" path="/images/" exported="true" scale="9grid" scale9grid="114,29,4,58"/>
+    <image id="mlozhz9czs" name="bg_04.png" path="/images/" exported="true" scale="9grid" scale9grid="112,29,9,58"/>
+    <image id="mlozhz9czt" name="bg_05.png" path="/images/" exported="true"/>
+    <image id="mlozhz9czu" name="bg_06.png" path="/images/" exported="true" scale="9grid" scale9grid="31,2,13,4"/>
+    <image id="mlozhz9czv" name="bg_07.png" path="/images/" exported="true" scale="9grid" scale9grid="19,45,4,6"/>
+    <image id="mlozhz9czw" name="negative_bg22.png" path="/images/" exported="true"/>
+    <image id="ihid1ygcfmt" name="mail_icon_map.png" path="/images/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

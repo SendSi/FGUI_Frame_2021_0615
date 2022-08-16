@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,50" extention="Button" designImageOffsetX="-1088" designImageOffsetY="-623">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <text id="n3_etns" name="title" xy="6,0" size="110,50" fontSize="20" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n4_etns" name="icon" xy="6,0" size="110,50" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n5_etns" name="n5" src="ceggz9cot" fileName="images/images_new/com_strip_bg03.png" pkg="2r331opv" xy="7,10" size="95,31"/>
+    <graph id="n7_etns" name="n7" xy="10,13" size="0,25" type="rect" lineColor="#00000000" fillColor="#ff40a8bd" corner="3">
+      <gearSize controller="button" pages="0,1" values="0,25,1,1|69,25,1,1"/>
+    </graph>
+    <image id="n6_etns" name="n6" src="vb7khz9d04" fileName="images/images_new/com_switch_btn.png" pkg="2r331opv" xy="0,-1">
+      <gearXY controller="button" pages="0,1" values="0,-1|57,-1"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

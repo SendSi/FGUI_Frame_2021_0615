@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="54,72" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n6_q4hl" name="n6" src="xm3w1xvobdb" fileName="images_new/troops_passiveskill.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n7_o5d4" name="title" xy="7,43" pivot="0.5,0.5" size="40,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#ffffff" strokeColor="#061324" shadowColor="#061324" shadowOffset="1,2" autoClearText="true" text="被动"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

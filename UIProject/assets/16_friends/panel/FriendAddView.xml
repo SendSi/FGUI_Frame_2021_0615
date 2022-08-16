@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示列表"/>
+  </controller>
+  <displayList>
+    <component id="n2_8dzs" name="bg" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_8dzs" name="window" src="izxehz9d74" fileName="components/components_new/Popup_bg1.xml" pkg="2r331opv" xy="77,38" pivot="0.5,0.5" group="n26_rv2y"/>
+    <text id="n28_xnbe" name="title" xy="382,70" pivot="0.5,0.5" size="580,46" group="n26_rv2y" font="ui://2r331opvno3vhz9d63" fontSize="34" color="#ffffff" align="center" autoSize="none" strokeColor="#322b64" strokeSize="2" shadowColor="#322b64" shadowOffset="1,4" text="添加好友"/>
+    <image id="n7_8dzs" name="bg_01" src="bumchz9d7p" fileName="images/images_new/windowBg_new/negative_bg03.png" pkg="2r331opv" xy="390,147" size="434,43" group="n26_rv2y"/>
+    <image id="n9_8dzs" name="bg_02" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="210,214" pivot="0.5,0.5" size="914,36" group="n26_rv2y"/>
+    <component id="n8_8dzs" name="lookup" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="836,138" size="137,56" group="n26_rv2y">
+      <Button title="查找"/>
+    </component>
+    <image id="n35_kadl" name="n35" src="n1oz1ygcfoc" fileName="images/images_new/com_icon_huawen.png" pkg="2r331opv" xy="561,317" group="n26_rv2y" alpha="0.2" color="#97794f">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <text id="n16_8dzs" name="title_01" xy="299,215" pivot="0.5,0.5" size="100,34" group="n26_rv2y" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="玩家信息"/>
+    <text id="n17_8dzs" name="title_02" xy="516,215" pivot="0.5,0.5" size="100,34" group="n26_rv2y" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="所在联盟"/>
+    <text id="n18_8dzs" name="title_03" xy="706,215" pivot="0.5,0.5" size="52,34" group="n26_rv2y" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="战力"/>
+    <text id="n19_8dzs" name="title_04" xy="837,215" pivot="0.5,0.5" size="76,34" group="n26_rv2y" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="所属州"/>
+    <text id="n20_8dzs" name="title_05" xy="997,215" pivot="0.5,0.5" size="52,34" group="n26_rv2y" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" align="center" vAlign="middle" singleLine="true" text="操作"/>
+    <list id="n22_8dzs" name="friends" xy="212,260" size="914,305" group="n26_rv2y" overflow="scroll" lineGap="6" defaultItem="ui://dowwulhe8dzs5" autoClearItems="true">
+      <gearDisplay controller="state" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n24_8dzs" name="title_input" xy="399,152" size="380,34" group="n26_rv2y" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="[color=#50382E]可输入玩家名称或ID进行查找...[/color]"/>
+    <text id="n34_k0jo" name="nonefri" xy="550,401" pivot="0.5,0.5" size="244,42" group="n26_rv2y" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#b16d33" align="center" vAlign="middle" singleLine="true" text="暂无系统推荐好友">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+    <component id="n32_k0jo" name="changeBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="372,586" group="n26_rv2y">
+      <Button title="更换一批"/>
+    </component>
+    <component id="n29_xnbe" name="closeButton" src="d9gi23" fileName="components/components_new/com_btn_close3.xml" pkg="2r331opv" xy="1116,42" group="n26_rv2y"/>
+    <component id="n33_k0jo" name="addBtn" src="eaahz9cob" fileName="components/components_new/com_btn_01.xml" pkg="2r331opv" xy="776,586" group="n26_rv2y">
+      <Button title="一键添加"/>
+    </component>
+    <group id="n26_rv2y" name="n26" xy="77,38" size="1180,674" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

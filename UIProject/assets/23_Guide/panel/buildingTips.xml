@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="109,57">
+  <displayList>
+    <image id="n0_tmah" name="n0" src="tmahes" fileName="images/building_bg_bubble02.png" xy="0,0" pivot="1,0" size="107,52" flip="vt">
+      <relation target="n1_tmah" sidePair="width-width"/>
+    </image>
+    <text id="n1_tmah" name="title" xy="8,18" pivot="1,0" size="92,32" font="ui://2r331opvno3vhz9d63" fontSize="22" leading="-3" singleLine="true" text="免费加速"/>
+  </displayList>
+</component>

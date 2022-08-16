@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="706,626" opaque="false">
+  <displayList>
+    <component id="n227_n1yc" name="modelfu" src="jdpjz9cpb" fileName="components/model_zhu.xml" xy="121,328" size="360,472" scale="0.8,0.8">
+      <Button title="副将1"/>
+    </component>
+    <component id="n228_n1yc" name="modelfu2" src="jdpjz9cpb" fileName="components/model_zhu.xml" xy="578,328" size="360,472" scale="0.8,0.8" alpha="0.8">
+      <Button title="副将2"/>
+    </component>
+    <component id="n210_o6sy" name="modelzhu" src="jdpjz9cpb" fileName="components/model_zhu.xml" xy="353,368" size="360,472"/>
+  </displayList>
+</component>

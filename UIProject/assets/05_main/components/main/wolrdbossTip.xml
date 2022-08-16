@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="412,38">
+  <displayList>
+    <image id="n0_j4kd" name="n0" src="dfgw1ygcfmf" fileName="images/images_new/com_change04.png" pkg="2r331opv" xy="0,0" pivot="0.5,0.5" size="412,38" alpha="0.3" color="#b16d33"/>
+    <text id="n5_j4kd" name="title" xy="0,2" pivot="0.5,0.5" size="412,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffe765" align="center" vAlign="middle" autoSize="none" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="9999秒后自动退出"/>
+  </displayList>
+</component>

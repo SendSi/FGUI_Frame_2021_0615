@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1915koif">
+  <resources>
+    <image id="kehf2" name="b6_png.png" path="/Img/" scale="9grid" scale9grid="21,6,42,12"/>
+    <image id="kehf3" name="b5_png.png" path="/Img/" scale="9grid" scale9grid="21,6,42,12"/>
+    <component id="lw9r7" name="LoginWindow.xml" path="/Window/" exported="true"/>
+    <component id="lw9r8" name="LoginButton.xml" path="/Com/"/>
+    <image id="jg429" name="common_btn_paging_2.png" path="/"/>
+    <component id="yputa" name="ServerListView.xml" path="/Window/" exported="true"/>
+    <component id="yputb" name="AreaItem.xml" path="/Com/"/>
+    <component id="yputc" name="ServerItem.xml" path="/Com/"/>
+    <component id="yputd" name="PlayerItem.xml" path="/Com/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

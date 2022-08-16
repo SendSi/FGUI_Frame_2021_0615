@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="622,38" designImageOffsetX="-262" designImageOffsetY="-306" designImageLayer="1">
+  <controller name="state" pages="0,,1," selected="1">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示最佳"/>
+  </controller>
+  <displayList>
+    <text id="n15_spur" name="optimal" xy="370,7" size="68,24" group="n16_spur" font="ui://2r331opvno3vhz9d63" fontSize="16" color="#d93a3a" align="center" vAlign="middle" singleLine="true" text="手气最佳"/>
+    <image id="n20_mdgr" name="n20" src="mdgr1ygcfg1" fileName="images/league_icon_optimal1.png" xy="351,11" size="22,16" group="n16_spur"/>
+    <group id="n16_spur" name="label" xy="351,7" size="87,24" advanced="true">
+      <gearDisplay controller="state" pages="1"/>
+    </group>
+    <image id="n23_mdgr" name="n23" src="bumchz9d7y" fileName="images/images_new/windowBg_new/negative_bg02.png" pkg="2r331opv" xy="0,0" size="622,38" alpha="0.3"/>
+    <text id="n2_i5fm" name="timeTxt" xy="13,6" size="155,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#97794f" ubb="true" singleLine="true" autoClearText="true" text="2022-01-11 11:05"/>
+    <loader id="n22_mdgr" name="icon" xy="492,5" size="28,28" aspect="true" url="ui://tsbe09ddmz4wb" fill="scale"/>
+    <text id="n4_i5fm" name="title" xy="518,5" size="100,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="12345"/>
+    <text id="n24_mdgr" name="typeTxt" xy="444,5" size="44,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" ubb="true" singleLine="true" text="抢到"/>
+  </displayList>
+</component>

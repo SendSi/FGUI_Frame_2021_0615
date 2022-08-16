@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="148,43" opaque="false" designImageOffsetX="-746" designImageOffsetY="-322">
+  <displayList/>
+  <transition name="t0">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="8" ease="Quad.In"/>
+  </transition>
+</component>

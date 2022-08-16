@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="737,145" pivot="0.5,0.5" extention="Button" designImageOffsetX="-573" designImageOffsetY="-171">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="new" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="新的"/>
+  </controller>
+  <displayList>
+    <image id="n3_lk93" name="n3" src="mlozhz9czv" fileName="images/bg_07.png" xy="9,0" size="729,145" alpha="0.8">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <text id="n4_lk93" name="title" xy="30,5" size="100,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffb361" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="二级耕地"/>
+    <component id="n10_yh9p" name="coordinate" src="jvu0ci2" fileName="components/components_new/com_btn_lbl_lines.xml" pkg="2r331opv" xy="299,5" size="127,35">
+      <Button title="X:117  Y:90"/>
+    </component>
+    <text id="n6_lk93" name="time" xy="586,10" pivot="1,0" size="135,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#8bcadc" align="right" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="3-11 11:33:49">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <loader id="n8_lk93" name="propIcon" xy="27,47" size="80,80" aspect="true" url="ui://tsbe09ddmz4w3" align="center" vAlign="middle" fill="scale"/>
+    <text id="n9_lk93" name="n9" xy="110,66" size="561,42" font="ui://2r331opvno3vhz9d62" fontSize="30" color="#ffffff" ubb="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" shadowColor="#000000" shadowOffset="2,3" autoClearText="true" text="3.600[color=#f04a4a]-1.200[/color] [color=#94E957]+110[/color]"/>
+    <text id="n11_ts2v" name="new" xy="649,75" size="45,29" font="MV Boli" fontSize="20" color="#ff0000" bold="true" autoClearText="true" text="New">
+      <gearDisplay controller="new" pages="1"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

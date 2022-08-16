@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="321,38" extention="Button" designImageOffsetX="-591" designImageOffsetY="-444">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="state" pages="0,,1,,2," selected="0">
+    <remark page="0" value="普通"/>
+    <remark page="1" value="资源损失"/>
+    <remark page="2" value="部队总数"/>
+  </controller>
+  <controller name="around" pages="0,,1," selected="0">
+    <remark page="0" value="左边"/>
+    <remark page="1" value="右边"/>
+  </controller>
+  <displayList>
+    <text id="n3_uxiw" name="title" xy="2,8" size="113,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#aaedf1" ubb="true" singleLine="true" autoClearText="true" text="Total troops">
+      <gearColor controller="around" pages="0" values="#aaedf1,#000000" default="#f1d9aa,#000000"/>
+    </text>
+    <text id="n4_uxiw" name="count" xy="249,7" pivot="1,0" size="63,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="right" ubb="true" autoClearText="true" text="532[color=#f05353]66[/color]">
+      <gearXY controller="state" pages="0,1,2" values="249,7|249,7|218,7"/>
+    </text>
+    <richtext id="n5_uxiw" name="lossResources" xy="2,51" size="419,26" font="ui://2r331opvno3vhz9d63" fontSize="18" color="#acc7d5" autoSize="none" autoClearText="true" text="图标 -210.1万    图标 -210.1万    图标 -210.1万">
+      <gearDisplay controller="state" pages="1"/>
+    </richtext>
+    <graph id="n6_uxiw" name="n6" xy="4,8" size="40,26">
+      <gearSize controller="state" pages="1" values="40,73,1,1" default="40,26,1,1"/>
+    </graph>
+    <component id="n7_ht44" name="troopBtn" src="j4kdz9cp3" fileName="components/components_new/com_btn_icon.xml" pkg="2r331opv" xy="271,-7" size="55,55" aspect="true">
+      <gearDisplay controller="state" pages="2"/>
+      <Button icon="ui://2r331opvkhxe1qp8vhw"/>
+    </component>
+  </displayList>
+  <Button/>
+  <relation target="n6_uxiw" sidePair="bottomext-bottom"/>
+</component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="324,187" extention="Label" initName="frame" designImageOffsetX="-443" designImageOffsetY="-175" designImageAlpha="26" designImageLayer="1">
+  <displayList>
+    <component id="n2_eaah" name="item" src="r63y1ygcfoj" fileName="panel/TaskTipViewItem.xml" xy="-3,0"/>
+  </displayList>
+</component>

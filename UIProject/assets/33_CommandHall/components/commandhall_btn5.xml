@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200" pivot="0.5,0.5" extention="Button">
+  <controller name="state" pages="0,,3,,4," selected="0">
+    <remark page="0" value="未解锁"/>
+    <remark page="1" value="有武将"/>
+    <remark page="2" value="已解锁.但无武将"/>
+  </controller>
+  <displayList>
+    <loader3D id="n7_clbo" name="model" xy="87,171" size="100,100" scale="0.25,0.25" url="ui://4557t28ky6f5hz9cp9" fill="scale" animation="" skin="" loop="true">
+      <gearDisplay controller="state" pages="1,3"/>
+    </loader3D>
+    <text id="n19_md4c" name="generalTxt" xy="0,172" size="200,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="武将名 等级">
+      <gearDisplay controller="state" pages="3"/>
+    </text>
+    <image id="n10_clbo" name="n10" src="clbo1xvobdx" fileName="images/commandhall_bg1.png" xy="45,-3">
+      <gearDisplay controller="state" pages="0,1,2"/>
+    </image>
+    <image id="n13_clbo" name="n13" src="hxd7hz9d7o" fileName="images/images_new/lock_10.png" pkg="2r331opv" xy="97,97" alpha="0.7">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <text id="n18_md4c" name="addGeneralTxt" xy="46,100" size="120,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="暂无武将">
+      <gearDisplay controller="state" pages="4"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300" pivot="0.5,0.5" anchor="true" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" pages="0,,1,,2,,4," selected="3">
+    <remark page="0" value="左上"/>
+    <remark page="1" value="左下"/>
+    <remark page="2" value="右上"/>
+    <remark page="3" value="右下"/>
+  </controller>
+  <displayList/>
+  <Button downEffect="dark" downEffectValue="1.29"/>
+  <transition name="guide" autoPlay="true" autoPlayRepeat="-1"/>
+</component>

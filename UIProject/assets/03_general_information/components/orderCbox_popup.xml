@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,308">
+  <displayList>
+    <image id="n0_cxix" name="n0" src="lumy1qp8vdl" fileName="images4/main_bg04.png" pkg="4ni413la" xy="2,0" pivot="0.5,0.5" size="214,308" alpha="0.7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_cxix" name="list" xy="0,3" size="218,300" overflow="scroll" lineGap="11" defaultItem="ui://4hio38umcxixci3" autoClearItems="true">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n1_cxix" sidePair="height-height"/>
+</component>

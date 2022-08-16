@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="58,30">
+  <displayList>
+    <image id="n0_oxy0" name="n0" src="oxy0hz9czm" fileName="images/images_new/hero_bg02.png" pkg="2r331opv" xy="0,0" size="58,30">
+      <relation target="n1_oxy0" sidePair="rightext-right"/>
+    </image>
+    <text id="n1_oxy0" name="title" xy="5,-2" size="47,24" font="ui://2r331opvlwft3" fontSize="16" color="#5dff47" text="+100"/>
+  </displayList>
+  <relation target="n0_oxy0" sidePair="rightext-right"/>
+</component>

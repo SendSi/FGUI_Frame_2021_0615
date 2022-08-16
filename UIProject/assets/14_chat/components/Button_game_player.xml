@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="331,102" overflow="hidden" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="普通"/>
+    <remark page="1" value="黑名单"/>
+  </controller>
+  <displayList>
+    <image id="n5_dslz" name="bg" src="r9f630" fileName="images/bg_chat_03.png" xy="4,5" size="319,92" alpha="0.6"/>
+    <component id="n6_dslz" name="Button_hide" src="dslz1o" fileName="components/Button_right.xml" xy="275,6" size="36,90" group="n9_dslz">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n7_dslz" name="Button_delete" src="dslz1q" fileName="components/Button_delete.xml" xy="367,26" size="48,48" group="n9_dslz">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n8_dslz" name="Button_topping" src="dslz1p" fileName="components/Button_topping.xml" xy="311,26" size="48,48" group="n9_dslz">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <group id="n9_dslz" name="n9" xy="275,6" size="140,90" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+      <gearXY controller="c1" pages="0,1" values="275,6|163,6" tween="true"/>
+    </group>
+    <component id="n11_dslz" name="BUtton_head" src="ho0c1ygcgnt" fileName="components/components_new/btn_head6.xml" pkg="2r331opv" xy="6,9" group="n14_dslz" scale="0.4,0.4">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <text id="n12_dslz" name="title_name" xy="93,20" size="92,32" group="n14_dslz" font="ui://2r331opvno3vhz9d63" fontSize="22" color="#50382e" autoClearText="true" text="玩家名字"/>
+    <text id="n13_dslz" name="title_value" xy="93,45" size="147,29" group="n14_dslz" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" autoClearText="true" text="战力：1000000"/>
+    <group id="n14_dslz" name="n14" xy="6,9" size="234,210" advanced="true">
+      <gearXY controller="c1" pages="0,1" values="6,9|-75,9" tween="true"/>
+    </group>
+    <component id="n15_xx14" name="removeBtn" src="yhldz9cod" fileName="components/components_new/com_btn_02.xml" pkg="2r331opv" xy="213,28" size="91,45">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="移除" titleColor="#ffffff" titleFontSize="22"/>
+    </component>
+    <image id="n10_dslz" name="n10" src="7oizdc" fileName="images/common_select_01.png" pkg="2r331opv" xy="2,3" size="323,96">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

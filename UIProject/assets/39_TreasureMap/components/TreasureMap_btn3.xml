@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="72,72" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n4_rrq3" name="icon" xy="0,0" size="72,72" url="ui://o2q7imnnrrq31ygcfhk" fill="scaleFree" autoSize="true"/>
+    <text id="n5_rrq3" name="title" xy="4,16" size="60,39" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#ffffff" shadowColor="#000000" shadowOffset="1,2" text="详情"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

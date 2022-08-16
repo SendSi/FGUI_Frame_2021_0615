@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="558,42" designImage="ui://lp3m5cuhn6czhz9d4o" designImageOffsetX="-594" designImageOffsetY="-242">
+  <displayList>
+    <image id="n2_n6cz" name="line" src="gr021ygcfgx" fileName="images4/main_bg04_1.png" pkg="4ni413la" xy="0,0" size="558,42" alpha="0.1"/>
+    <text id="n0_n6cz" name="title" xy="9,6" size="305,32" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="建造速度"/>
+    <text id="n1_n6cz" name="num" xy="319,6" size="223,32" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="right" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="20.0% [color=#4c9129]+10.0%[/color]"/>
+  </displayList>
+</component>

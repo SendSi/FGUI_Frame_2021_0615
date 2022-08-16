@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" extention="Label" initName="frame" designImageLayer="1">
+  <displayList>
+    <component id="n10_10473" name="mask" src="itz029" fileName="panel/com_mask.xml" pkg="2r331opv" xy="-165,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n23_taza" name="closeButton" src="arx1z9cjj" fileName="components/components_new/com_btn_closeBlank.xml" pkg="2r331opv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n27_osur" name="n27" src="osur1ygcfn3" fileName="components/components_new/settlement_com_001.xml" pkg="2r331opv" xy="309,-41" group="n16_10473">
+      <Button icon="ui://2r331opv10473hz9cyo"/>
+    </component>
+    <image id="n24_g6q9" name="n24" src="10473hz9cyh" fileName="images/images_new/settlement2/settlement_bg05.png" pkg="2r331opv" xy="0,272" size="1334,493" group="n16_10473" alpha="0.8"/>
+    <image id="n25_g6q9" name="n25" src="10473hz9cyg" fileName="images/images_new/settlement2/settlement_bg04.png" pkg="2r331opv" xy="459,251" pivot="0.5,0.5" size="415,29" group="n16_10473" alpha="0.8"/>
+    <text id="n26_g6q9" name="tips0" xy="567,255" pivot="0.5,0.5" size="200,39" group="n16_10473" font="ui://2r331opvno3vhz9d63" fontSize="28" color="#fae66c" shadowColor="#773a00" shadowOffset="2,3" text="恭喜你升级成功"/>
+    <component id="n17_10473" name="icon" src="mmv0cgy" fileName="components/general_new/equipmentIcon2.xml" pkg="2r331opv" xy="612,307" group="n16_10473"/>
+    <text id="n18_10473" name="title" xy="605,422" pivot="0.5,0.5" size="124,42" group="n16_10473" font="ui://2r331opvno3vhz9d63" fontSize="30" color="#db60ff" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,2" autoClearText="true" text="科技名字"/>
+    <list id="n14_10473" name="attributeList" xy="499,492" size="373,76" group="n16_10473" selectionMode="none" overflow="hidden" defaultItem="ui://45o8gpfbdxcu1iy5bb9" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+    </list>
+    <text id="n15_10473" name="lable" xy="547,705" size="239,35" group="n16_10473" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="-  点击空白关闭  -"/>
+    <component id="n20_s135" name="researchBtn" src="c4umz9cnc" fileName="components/components_new/com_btn_001.xml" pkg="2r331opv" xy="586,610" group="n16_10473">
+      <Button title="查看"/>
+    </component>
+    <group id="n16_10473" name="n16" xy="0,-41" size="1334,806" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

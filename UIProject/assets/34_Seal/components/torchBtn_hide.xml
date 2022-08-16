@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="118,36" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <component id="n3_h0om" name="selBtn" src="h0omhz9d6i" fileName="components/selected1.xml" pkg="lp3m5cuh" xy="0,0">
+      <Button checked="true"/>
+    </component>
+    <text id="n4_h0om" name="title" xy="34,4" size="84,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="隐藏特效"/>
+  </displayList>
+  <Button/>
+</component>

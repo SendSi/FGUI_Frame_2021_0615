@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="86,86" mask="n2_ougg">
+  <displayList>
+    <loader id="n0_ougg" name="n0" xy="0,0" size="86,86" aspect="true" url="ui://tvbfx6zpmfnd2" fill="scale"/>
+    <graph id="n2_ougg" name="n2" xy="0,0" size="86,86" aspect="true" type="eclipse" lineSize="0"/>
+  </displayList>
+</component>

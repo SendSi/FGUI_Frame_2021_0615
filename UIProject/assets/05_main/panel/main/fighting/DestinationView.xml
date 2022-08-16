@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="88,129" designImageOffsetX="-741" designImageOffsetY="-153">
+  <controller name="state" pages="0,,4,,2,,3,,1,,5,,6,,7,,8,,9,,10," selected="9">
+    <remark page="0" value="可行走"/>
+    <remark page="1" value="打地"/>
+    <remark page="2" value="不可行走"/>
+    <remark page="3" value="回城"/>
+    <remark page="4" value="山寨战斗"/>
+    <remark page="5" value="屯田"/>
+    <remark page="6" value="攻城"/>
+    <remark page="7" value="不可行走.已打下的"/>
+    <remark page="8" value="可增缓"/>
+    <remark page="9" value="联盟首领可采集"/>
+    <remark page="10" value="野建可采集"/>
+    <action type="play_transition" fromPage="" toPage="0" transition="t0" repeat="-1" stopOnExit="true"/>
+  </controller>
+  <displayList>
+    <image id="n1_ojpg" name="n1" src="gqih1ygcfgm" fileName="images/images_new/windowBg_new/negative_bg19.png" pkg="2r331opv" xy="1,1" pivot="0.5,0.5" size="86,26" group="n3_xdcv" visible="false">
+      <relation target="n2_ojpg" sidePair="width-width"/>
+    </image>
+    <loader id="n0_ojpg" name="icon" xy="10,28" size="68,86" group="n3_xdcv" url="ui://4ni413laojpghz9ckf" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="state" pages="4,2,3,1,6,7" values="ui://4ni413laojpghz9ckh|ui://4ni413laojpghz9ckg|ui://4ni413laihs7hz9ckl|ui://4ni413laojpghz9ckh|ui://4ni413laojpghz9ckh|ui://4ni413laojpghz9ckg" default="ui://4ni413laojpghz9ckf"/>
+    </loader>
+    <text id="n2_ojpg" name="title" xy="11,0" pivot="0.5,0.5" size="66,29" group="n3_xdcv" visible="false" fontSize="20" color="#ffffff" align="center" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="20公里"/>
+    <group id="n3_xdcv" name="n3" xy="1,0" size="86,114" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n3_xdcv" tween="true" startValue="1,0" endValue="1,-10" duration="10" ease="Linear"/>
+    <item time="10" type="XY" target="n3_xdcv" tween="true" startValue="1,-10" endValue="1,0" duration="10" ease="Linear"/>
+  </transition>
+</component>
