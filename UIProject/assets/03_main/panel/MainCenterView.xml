@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" designImageAlpha="20" designImageLayer="1">
+  <displayList>
+    <component id="n101_xoe1" name="underRight_btn" src="xoe1mz" fileName="components/components_new/main/main_right_function.xml" xy="744,644" group="n109_pwz3">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <image id="n55_b6o0" name="n55" src="yt2t1ygcg8p" fileName="images4/mainhud_btn_icon013.png" xy="0,677" size="568,73" group="n109_pwz3"/>
+    <component id="n56_b6o0" name="chatBtn" src="kah2a4" fileName="components/components_new/main/main_chat_item.xml" xy="86,683" size="388,68" group="n109_pwz3">
+      <relation target="n55_b6o0" sidePair="right-right"/>
+    </component>
+    <component id="n119_j4kd" name="backBtn" src="j4kdhz9clt" fileName="components/components_new/main/main_btn_back.xml" xy="16,631" group="n109_pwz3">
+      <Button icon="ui://4ni413lalumy1qp8vde"/>
+    </component>
+    <component id="n123_shxm" name="outBtn" src="j4kdhz9clt" fileName="components/components_new/main/main_btn_back.xml" xy="16,631" group="n109_pwz3">
+      <Button title="Go out"/>
+    </component>
+    <list id="n173_ildy" name="limitBtnList" xy="618,582" pivot="1,1" size="694,66" group="n109_pwz3" scale="0.8,0.8" layout="row" scroll="horizontal" colGap="8" defaultItem="ui://2r331opvg38x1ygcfh4" align="right">
+      <relation target="" sidePair="right-right"/>
+      <item icon="ui://4ni413la9zwe1ygcfl3"/>
+      <item icon="ui://4ni413laildy1ygcfjd"/>
+      <item icon="ui://4ni413lans8m1ygcfkg"/>
+    </list>
+    <list id="n178_eh3a" name="city_out" xy="120,614" size="250,64" group="n109_pwz3" layout="row" scroll="horizontal" margin="0,0,14,0" colGap="13" defaultItem="ui://4ni413layya01qp8vcb" vAlign="middle" scrollItemToViewOnClick="false">
+      <relation target="" sidePair="left-left"/>
+      <item title="采集" icon="ui://4ni413latauyhz9czs" name="search"/>
+      <item title="探索" icon="ui://4ni413latauyhz9czt" name="explore"/>
+      <item title="军团" icon="ui://4ni413latauyhz9czt" name="legion"/>
+    </list>
+    <group id="n109_pwz3" name="bottomEle" xy="0,582" size="1334,172" advanced="true"/>
+    <list id="n57_b6o0" name="activityList" xy="666,48" size="668,104" group="n132_lvwk" layout="row" selectionMode="none" scroll="both" colGap="-7" defaultItem="ui://4ni413lagzkh8i" autoItemSize="false" align="right" autoClearItems="true">
+      <relation target="" sidePair="right-right"/>
+      <item icon="ui://2r331opvil9y1ygcfjf"/>
+      <item title="功能预告" icon="ui://2r331opvil9y1ygcfjg"/>
+      <item icon="ui://2r331opvil9y1ygcfjh"/>
+    </list>
+    <component id="n34_b6o0" name="playerIcon" src="xoe1n2" fileName="components/components_new/main/main_playerIcon.xml" xy="0,0" group="n132_lvwk">
+      <relation target="" sidePair="rightext-right"/>
+    </component>
+    <component id="n45_b6o0" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="616,11" size="700,40" group="n132_lvwk">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n120_m47y" name="coordItemBtn" src="gj4q1ygcg9m" fileName="panel/topShowPos.xml" xy="363,10" group="n132_lvwk"/>
+    <group id="n132_lvwk" name="topEle" xy="0,0" size="1334,152" advanced="true"/>
+    <component id="n154_quts" name="rightTeam" src="cv8s1qp8vdw" fileName="components/components_new/main/main_team_right00.xml" xy="1113,138">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </component>
+    <component id="n174_eh3a" name="leftTask" src="xoe1n0" fileName="components/components_new/main/main_taskitem.xml" xy="6,153" size="208,347" controller="hideOpen,0"/>
+  </displayList>
+  <transition name="quit" options="2">
+    <item time="0" type="Alpha" target="n101_xoe1" value="1"/>
+    <item time="0" type="Alpha" target="n154_quts" value="1"/>
+    <item time="0" type="Alpha" target="n173_ildy" value="1"/>
+    <item time="0" type="Alpha" target="n174_eh3a" value="1"/>
+    <item time="0" type="Alpha" target="n178_eh3a" value="1"/>
+    <item time="0" type="Alpha" target="n57_b6o0" value="1"/>
+    <item time="0" type="Visible" target="n173_ildy" value="true"/>
+    <item time="0" type="XY" target="n101_xoe1" tween="true" startValue="744,644" endValue="714,644" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n154_quts" tween="true" startValue="1113,138" endValue="1084,138" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n174_eh3a" tween="true" startValue="6,153" endValue="42,153" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n178_eh3a" tween="true" startValue="120,614" endValue="156,614" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n57_b6o0" tween="true" startValue="666,48" endValue="580,48" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n101_xoe1" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n154_quts" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n173_ildy" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n174_eh3a" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n178_eh3a" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n57_b6o0" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n101_xoe1" tween="true" startValue="714,644" endValue="744,644" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n154_quts" tween="true" startValue="1084,138" endValue="1113,138" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n174_eh3a" tween="true" startValue="42,153" endValue="15,153" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n178_eh3a" tween="true" startValue="156,614" endValue="120,614" duration="3" ease="Linear"/>
+    <item time="3" type="XY" target="n57_b6o0" tween="true" startValue="580,48" endValue="666,48" duration="3" ease="Linear"/>
+    <item time="6" type="Visible" target="n173_ildy" value="false"/>
+    <item time="7" type="XY" target="n174_eh3a" value="-517,153"/>
+  </transition>
+  <transition name="approach">
+    <item time="0" type="Alpha" target="n101_xoe1" tween="true" startValue="0" endValue="0.5" duration="4"/>
+    <item time="0" type="Alpha" target="n154_quts" value="0"/>
+    <item time="0" type="Alpha" target="n173_ildy" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n174_eh3a" value="0"/>
+    <item time="0" type="Alpha" target="n178_eh3a" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n57_b6o0" value="0"/>
+    <item time="0" type="Visible" target="n173_ildy" value="false"/>
+    <item time="0" type="XY" target="n101_xoe1" tween="true" startValue="1000,644" endValue="675,644" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n154_quts" value="1300,138"/>
+    <item time="0" type="XY" target="n174_eh3a" value="-209,153"/>
+    <item time="0" type="XY" target="n178_eh3a" value="0,614"/>
+    <item time="0" type="XY" target="n57_b6o0" tween="true" startValue="780,48" endValue="780,48" duration="8" ease="Linear"/>
+    <item time="1" type="Visible" target="n173_ildy" value="true"/>
+    <item time="3" type="XY" target="n178_eh3a" tween="true" startValue="0,614" endValue="134,614" duration="4"/>
+    <item time="4" type="Alpha" target="n101_xoe1" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="5" type="Alpha" target="n154_quts" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="Alpha" target="n174_eh3a" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="XY" target="n154_quts" tween="true" startValue="1300,138" endValue="1074,138" duration="5" ease="Linear"/>
+    <item time="5" type="XY" target="n174_eh3a" tween="true" startValue="-209,153" endValue="30,153" duration="5" ease="Linear"/>
+    <item time="6" type="Alpha" target="n173_ildy" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="Alpha" target="n178_eh3a" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="XY" target="n101_xoe1" tween="true" startValue="675,644" endValue="744,644" duration="4" ease="Back.Out"/>
+    <item time="7" type="XY" target="n178_eh3a" tween="true" startValue="134,614" endValue="120,614" duration="7"/>
+    <item time="8" type="Alpha" target="n57_b6o0" tween="true" startValue="0.5" endValue="1" duration="7"/>
+    <item time="8" type="XY" target="n57_b6o0" tween="true" startValue="780,48" endValue="619,48" duration="4" ease="Linear"/>
+    <item time="10" type="Alpha" target="n154_quts" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="Alpha" target="n174_eh3a" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="XY" target="n154_quts" tween="true" startValue="1074,138" endValue="1113,138" duration="6" ease="Back.Out"/>
+    <item time="10" type="XY" target="n174_eh3a" tween="true" startValue="30,153" endValue="6,153" duration="6" ease="Back.Out"/>
+    <item time="12" type="XY" target="n57_b6o0" tween="true" startValue="619,48" endValue="666,48" duration="3" ease="Back.Out"/>
+    <item time="14" type="Visible" target="n173_ildy" value="true"/>
+  </transition>
+  <transition name="a_personalboss">
+    <item time="0" type="Alpha" target="n101_xoe1" tween="true" startValue="0" endValue="0.5" duration="4"/>
+    <item time="0" type="Alpha" target="n154_quts" value="0"/>
+    <item time="0" type="Alpha" target="n173_ildy" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n178_eh3a" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n57_b6o0" value="0"/>
+    <item time="0" type="XY" target="n101_xoe1" tween="true" startValue="1000,644" endValue="700,644" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n154_quts" value="1341,138"/>
+    <item time="0" type="XY" target="n173_ildy" tween="true" startValue="793,582" endValue="793,582" duration="3"/>
+    <item time="0" type="XY" target="n178_eh3a" value="120,614"/>
+    <item time="0" type="XY" target="n57_b6o0" tween="true" startValue="780,48" endValue="780,48" duration="8" ease="Linear"/>
+    <item time="3" type="XY" target="n173_ildy" tween="true" startValue="793,582" endValue="571,582" duration="4" ease="Linear"/>
+    <item time="3" type="XY" target="n178_eh3a" tween="true" startValue="1,614" endValue="166,614" duration="4"/>
+    <item time="4" type="Alpha" target="n101_xoe1" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="5" type="Alpha" target="n154_quts" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="XY" target="n154_quts" tween="true" startValue="1341,138" endValue="1027,138" duration="5" ease="Linear"/>
+    <item time="6" type="Alpha" target="n173_ildy" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="Alpha" target="n178_eh3a" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="XY" target="n101_xoe1" tween="true" startValue="700,644" endValue="744,644" duration="4" ease="Back.Out"/>
+    <item time="7" type="XY" target="n173_ildy" tween="true" startValue="571,582" endValue="618,582" duration="7" ease="Back.Out"/>
+    <item time="7" type="XY" target="n178_eh3a" tween="true" startValue="166,614" endValue="120,614" duration="7"/>
+    <item time="8" type="Alpha" target="n57_b6o0" tween="true" startValue="0.5" endValue="1" duration="10"/>
+    <item time="8" type="XY" target="n57_b6o0" tween="true" startValue="780,48" endValue="590,48" duration="4" ease="Linear"/>
+    <item time="10" type="Alpha" target="n154_quts" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="XY" target="n154_quts" tween="true" startValue="1027,138" endValue="1113,138" duration="6" ease="Back.Out"/>
+    <item time="12" type="XY" target="n57_b6o0" tween="true" startValue="590,48" endValue="666,48" duration="6" ease="Back.Out"/>
+  </transition>
+  <transition name="a_worldboss">
+    <item time="0" type="Alpha" target="n101_xoe1" tween="true" startValue="0" endValue="0.5" duration="4"/>
+    <item time="0" type="Alpha" target="n154_quts" value="0"/>
+    <item time="0" type="Alpha" target="n173_ildy" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="Alpha" target="n178_eh3a" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="0" type="XY" target="n101_xoe1" tween="true" startValue="1000,644" endValue="699,644" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n154_quts" value="1300,138"/>
+    <item time="0" type="XY" target="n173_ildy" tween="true" startValue="793,582" endValue="793,582" duration="3"/>
+    <item time="0" type="XY" target="n178_eh3a" value="0,614"/>
+    <item time="3" type="XY" target="n173_ildy" tween="true" startValue="793,582" endValue="580,582" duration="4" ease="Linear"/>
+    <item time="3" type="XY" target="n178_eh3a" tween="true" startValue="0,614" endValue="141,614" duration="4"/>
+    <item time="4" type="Alpha" target="n101_xoe1" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="5" type="Alpha" target="n154_quts" tween="true" startValue="0" endValue="0.5" duration="5" ease="Linear"/>
+    <item time="5" type="XY" target="n154_quts" tween="true" startValue="1300,138" endValue="1071,138" duration="5" ease="Linear"/>
+    <item time="6" type="Alpha" target="n173_ildy" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="Alpha" target="n178_eh3a" tween="true" startValue="0.5" endValue="1" duration="8"/>
+    <item time="6" type="XY" target="n101_xoe1" tween="true" startValue="699,644" endValue="744,644" duration="4" ease="Back.Out"/>
+    <item time="7" type="XY" target="n173_ildy" tween="true" startValue="580,582" endValue="618,582" duration="7" ease="Back.Out"/>
+    <item time="7" type="XY" target="n178_eh3a" tween="true" startValue="141,614" endValue="120,614" duration="7"/>
+    <item time="10" type="Alpha" target="n154_quts" tween="true" startValue="0.5" endValue="1" duration="6" ease="Linear"/>
+    <item time="10" type="XY" target="n154_quts" tween="true" startValue="1071,138" endValue="1113,138" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

@@ -19,6 +19,12 @@ local uiConfig = {
         packageName = "02_login",
         viewName = "LoginMainView"
     },
+    MainCenterView = {
+        className = "UI.MainCenter.MainCenterView",
+        packageName = "03_main",
+        viewName = "MainCenterView"
+    },
+
 }
 return uiConfig
 

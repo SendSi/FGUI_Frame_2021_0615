@@ -13,6 +13,11 @@ function LoginMainView:LoadComponent()
     loggZSX("进来这里了")
     self.uiComs = require('ToolGen.02_login.LoginMainView'):OnConstruct(self.contentPane)
 
+    self.uiComs.m_loginBtn.onClick:Add(function()
+        require("UI.MainCenter.ProxyMainCenterModule"):OpenMainCenter()
+        self:CloseWindow()
+    end)
+
 end
 
 local mEventUIds

@@ -1,0 +1,125 @@
+
+FeiDuo.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+budai
+  rotate: true
+  xy: 517, 384
+  size: 633, 510
+  orig: 633, 510
+  offset: 0, 0
+  index: -1
+budaikou
+  rotate: true
+  xy: 1082, 13
+  size: 120, 144
+  orig: 120, 144
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: true
+  xy: 2, 300
+  size: 717, 513
+  orig: 717, 513
+  offset: 0, 0
+  index: -1
+maozinei
+  rotate: true
+  xy: 2, 2
+  size: 68, 141
+  orig: 68, 141
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: false
+  xy: 535, 50
+  size: 545, 332
+  orig: 545, 332
+  offset: 0, 0
+  index: -1
+qiandai
+  rotate: false
+  xy: 354, 6
+  size: 117, 83
+  orig: 117, 83
+  offset: 0, 0
+  index: -1
+qugan
+  rotate: false
+  xy: 1082, 280
+  size: 136, 141
+  orig: 136, 141
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 72
+  size: 325, 226
+  orig: 325, 226
+  offset: 0, 0
+  index: -1
+weijin
+  rotate: true
+  xy: 1214, 857
+  size: 160, 143
+  orig: 160, 143
+  offset: 0, 0
+  index: -1
+youbi
+  rotate: true
+  xy: 145, 5
+  size: 65, 129
+  orig: 65, 129
+  offset: 0, 0
+  index: -1
+youer
+  rotate: false
+  xy: 1029, 423
+  size: 201, 153
+  orig: 201, 153
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 329, 91
+  size: 204, 207
+  orig: 204, 207
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 1029, 812
+  size: 183, 205
+  orig: 183, 205
+  offset: 0, 0
+  index: -1
+zuoer
+  rotate: false
+  xy: 1029, 578
+  size: 143, 232
+  orig: 143, 232
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 1082, 135
+  size: 143, 123
+  orig: 143, 123
+  offset: 0, 0
+  index: -1
+zuoshouhou
+  rotate: false
+  xy: 276, 4
+  size: 76, 66
+  orig: 76, 66
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: true
+  xy: 1174, 627
+  size: 183, 153
+  orig: 183, 153
+  offset: 0, 0
+  index: -1

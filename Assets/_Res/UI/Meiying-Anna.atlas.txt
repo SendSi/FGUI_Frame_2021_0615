@@ -1,0 +1,216 @@
+
+Meiying-Anna.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bishou
+  rotate: true
+  xy: 831, 9
+  size: 42, 160
+  orig: 42, 160
+  offset: 0, 0
+  index: -1
+biyan
+  rotate: true
+  xy: 1270, 597
+  size: 104, 63
+  orig: 104, 63
+  offset: 0, 0
+  index: -1
+chibang
+  rotate: false
+  xy: 1242, 143
+  size: 92, 298
+  orig: 92, 298
+  offset: 0, 0
+  index: -1
+chibang1
+  rotate: false
+  xy: 1051, 703
+  size: 256, 318
+  orig: 256, 318
+  offset: 0, 0
+  index: -1
+chibnag2
+  rotate: false
+  xy: 2, 11
+  size: 193, 364
+  orig: 193, 364
+  offset: 0, 0
+  index: -1
+daizi
+  rotate: false
+  xy: 1202, 443
+  size: 95, 150
+  orig: 95, 150
+  offset: 0, 0
+  index: -1
+dajian
+  rotate: true
+  xy: 2, 377
+  size: 644, 600
+  orig: 644, 603
+  offset: 0, 0
+  index: -1
+jibice
+  rotate: false
+  xy: 1299, 444
+  size: 95, 51
+  orig: 95, 51
+  offset: 0, 0
+  index: -1
+jinbibi
+  rotate: true
+  xy: 1299, 497
+  size: 98, 86
+  orig: 98, 86
+  offset: 0, 0
+  index: -1
+jinbizheng
+  rotate: false
+  xy: 1324, 43
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 390, 32
+  size: 301, 343
+  orig: 322, 343
+  offset: 21, 0
+  index: -1
+liuhai1
+  rotate: true
+  xy: 893, 412
+  size: 151, 307
+  orig: 151, 307
+  offset: 0, 0
+  index: -1
+liuhai2
+  rotate: false
+  xy: 993, 19
+  size: 247, 391
+  orig: 247, 391
+  offset: 0, 0
+  index: -1
+liuhai3
+  rotate: false
+  xy: 197, 16
+  size: 191, 359
+  orig: 191, 359
+  offset: 0, 0
+  index: -1
+qugan
+  rotate: false
+  xy: 1309, 722
+  size: 199, 299
+  orig: 199, 299
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: true
+  xy: 604, 565
+  size: 456, 445
+  orig: 456, 445
+  offset: 0, 0
+  index: -1
+youdabi
+  rotate: true
+  xy: 741, 409
+  size: 154, 150
+  orig: 154, 150
+  offset: 0, 0
+  index: -1
+youhushou
+  rotate: false
+  xy: 390, 2
+  size: 69, 28
+  orig: 69, 28
+  offset: 0, 0
+  index: -1
+youshizhi
+  rotate: false
+  xy: 945, 357
+  size: 36, 53
+  orig: 36, 54
+  offset: 0, 1
+  index: -1
+youshou
+  rotate: false
+  xy: 693, 3
+  size: 78, 48
+  orig: 78, 48
+  offset: 0, 0
+  index: -1
+youshoumuzhi
+  rotate: false
+  xy: 773, 6
+  size: 56, 45
+  orig: 56, 45
+  offset: 0, 0
+  index: -1
+youshouweizhi
+  rotate: true
+  xy: 461, 2
+  size: 28, 53
+  orig: 28, 55
+  offset: 0, 2
+  index: -1
+youtui
+  rotate: false
+  xy: 693, 53
+  size: 143, 334
+  orig: 143, 337
+  offset: 0, 0
+  index: -1
+youwuming
+  rotate: false
+  xy: 945, 293
+  size: 31, 62
+  orig: 31, 62
+  offset: 0, 0
+  index: -1
+youxiaobi
+  rotate: false
+  xy: 1162, 595
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+youzhognzhi
+  rotate: true
+  xy: 516, 6
+  size: 24, 61
+  orig: 25, 61
+  offset: 1, 0
+  index: -1
+zhengyan
+  rotate: true
+  xy: 1242, 40
+  size: 101, 80
+  orig: 101, 83
+  offset: 0, 0
+  index: -1
+zuodabi
+  rotate: true
+  xy: 604, 389
+  size: 174, 135
+  orig: 175, 135
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: false
+  xy: 838, 79
+  size: 105, 328
+  orig: 105, 343
+  offset: 0, 0
+  index: -1
+zuoxiaobi
+  rotate: true
+  xy: 1051, 585
+  size: 116, 109
+  orig: 116, 109
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="232,40">
+  <displayList>
+    <component id="n120_m47y" name="coordItemBtn" src="m47yhz9co4" fileName="components/components_new/main/main_btn_coord.xml" xy="0,4"/>
+    <component id="n116_j4kd" name="collectionBtn" src="qy501qp8vdu" fileName="components/components_new/com_btn_icon1.xml" pkg="2r331opv" xy="198,3"/>
+    <component id="n125_ltnn" name="weather" src="ltnnhz9cw7" fileName="components/components_new/main/main_btn_weather.xml" xy="10,0" scale="0.8,0.8"/>
+  </displayList>
+</component>

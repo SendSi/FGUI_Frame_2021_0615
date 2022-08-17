@@ -1,0 +1,111 @@
+
+FengMangZhiDun.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1-wuqi
+  rotate: false
+  xy: 2, 7
+  size: 522, 351
+  orig: 522, 351
+  offset: 0, 0
+  index: -1
+10-qugan
+  rotate: true
+  xy: 546, 542
+  size: 479, 424
+  orig: 479, 424
+  offset: 0, 0
+  index: -1
+11-dangbu
+  rotate: true
+  xy: 641, 372
+  size: 168, 219
+  orig: 168, 220
+  offset: 0, 0
+  index: -1
+12-youtui
+  rotate: false
+  xy: 1020, 102
+  size: 158, 277
+  orig: 158, 277
+  offset: 0, 0
+  index: -1
+13-zuotui
+  rotate: true
+  xy: 1156, 429
+  size: 141, 221
+  orig: 141, 221
+  offset: 0, 0
+  index: -1
+14-zuobi
+  rotate: false
+  xy: 972, 758
+  size: 196, 263
+  orig: 200, 265
+  offset: 0, 0
+  index: -1
+15-zuoshou
+  rotate: true
+  xy: 888, 2
+  size: 92, 102
+  orig: 92, 102
+  offset: 0, 0
+  index: -1
+2-dunpai
+  rotate: false
+  xy: 2, 360
+  size: 542, 661
+  orig: 542, 661
+  offset: 0, 0
+  index: -1
+3-zhezhao
+  rotate: false
+  xy: 862, 381
+  size: 292, 159
+  orig: 292, 159
+  offset: 0, 0
+  index: -1
+4-toufa1
+  rotate: false
+  xy: 546, 364
+  size: 93, 176
+  orig: 93, 176
+  offset: 0, 0
+  index: -1
+5-toufa2
+  rotate: false
+  xy: 888, 96
+  size: 130, 283
+  orig: 130, 283
+  offset: 0, 0
+  index: -1
+6-tou
+  rotate: false
+  xy: 526, 18
+  size: 360, 340
+  orig: 360, 340
+  offset: 0, 0
+  index: -1
+7-toufa3
+  rotate: true
+  xy: 992, 5
+  size: 89, 259
+  orig: 89, 259
+  offset: 0, 0
+  index: -1
+8-toufa4
+  rotate: false
+  xy: 972, 563
+  size: 60, 193
+  orig: 60, 193
+  offset: 0, 0
+  index: -1
+9-erduo
+  rotate: false
+  xy: 1034, 572
+  size: 134, 184
+  orig: 137, 186
+  offset: 3, 2
+  index: -1

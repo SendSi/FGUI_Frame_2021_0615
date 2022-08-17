@@ -1,0 +1,90 @@
+
+WuWeiJuDUN.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pidai
+  rotate: false
+  xy: 1046, 167
+  size: 95, 124
+  orig: 95, 124
+  offset: 0, 0
+  index: -1
+qugan
+  rotate: false
+  xy: 2, 2
+  size: 456, 335
+  orig: 456, 340
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 2, 339
+  size: 493, 528
+  orig: 493, 528
+  offset: 0, 0
+  index: -1
+toufa1
+  rotate: false
+  xy: 823, 12
+  size: 156, 180
+  orig: 156, 180
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: false
+  xy: 1046, 293
+  size: 39, 115
+  orig: 39, 115
+  offset: 0, 0
+  index: -1
+youdun
+  rotate: true
+  xy: 532, 410
+  size: 422, 609
+  orig: 422, 609
+  offset: 0, 0
+  index: -1
+youdunying
+  rotate: true
+  xy: 532, 194
+  size: 214, 512
+  orig: 214, 517
+  offset: 0, 4
+  index: -1
+youzu
+  rotate: false
+  xy: 671, 9
+  size: 150, 183
+  orig: 150, 183
+  offset: 0, 0
+  index: -1
+zuobi
+  rotate: false
+  xy: 460, 2
+  size: 209, 190
+  orig: 209, 190
+  offset: 0, 0
+  index: -1
+zuodun
+  rotate: false
+  xy: 1143, 241
+  size: 413, 591
+  orig: 413, 591
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 460, 223
+  size: 66, 114
+  orig: 66, 114
+  offset: 0, 0
+  index: -1
+zuozu
+  rotate: true
+  xy: 1143, 121
+  size: 118, 144
+  orig: 118, 144
+  offset: 0, 0
+  index: -1

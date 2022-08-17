@@ -1,0 +1,139 @@
+
+BingShuangEMo.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+longjing
+  rotate: true
+  xy: 410, 3
+  size: 134, 138
+  orig: 134, 138
+  offset: 0, 0
+  index: -1
+longqugan
+  rotate: true
+  xy: 672, 20
+  size: 201, 250
+  orig: 201, 250
+  offset: 0, 0
+  index: -1
+longtou
+  rotate: true
+  xy: 557, 223
+  size: 184, 271
+  orig: 184, 271
+  offset: 0, 0
+  index: -1
+longwei
+  rotate: false
+  xy: 2, 106
+  size: 233, 301
+  orig: 233, 301
+  offset: 0, 0
+  index: -1
+longxiae
+  rotate: true
+  xy: 195, 16
+  size: 88, 140
+  orig: 88, 140
+  offset: 0, 0
+  index: -1
+longyoutui
+  rotate: false
+  xy: 550, 2
+  size: 120, 147
+  orig: 120, 147
+  offset: 0, 0
+  index: -1
+longzuotui
+  rotate: false
+  xy: 321, 106
+  size: 69, 103
+  orig: 69, 103
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: false
+  xy: 2, 31
+  size: 191, 73
+  orig: 191, 73
+  offset: 0, 0
+  index: -1
+renqugan
+  rotate: false
+  xy: 237, 118
+  size: 82, 91
+  orig: 82, 91
+  offset: 0, 0
+  index: -1
+rentou
+  rotate: false
+  xy: 830, 254
+  size: 155, 204
+  orig: 155, 204
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: true
+  xy: 237, 211
+  size: 196, 318
+  orig: 196, 318
+  offset: 0, 0
+  index: -1
+youbi
+  rotate: false
+  xy: 460, 145
+  size: 57, 64
+  orig: 57, 64
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: false
+  xy: 596, 174
+  size: 34, 47
+  orig: 34, 47
+  offset: 0, 0
+  index: -1
+youlongchi
+  rotate: true
+  xy: 2, 409
+  size: 613, 591
+  orig: 613, 591
+  offset: 0, 0
+  index: -1
+youlongya
+  rotate: false
+  xy: 519, 151
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+zuolongchi
+  rotate: false
+  xy: 595, 460
+  size: 527, 562
+  orig: 527, 562
+  offset: 0, 0
+  index: -1
+zuolongya
+  rotate: false
+  xy: 560, 168
+  size: 34, 53
+  orig: 34, 53
+  offset: 0, 0
+  index: -1
+zuolongzhao
+  rotate: false
+  xy: 337, 21
+  size: 71, 83
+  orig: 71, 83
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 392, 139
+  size: 66, 70
+  orig: 66, 70
+  offset: 0, 0
+  index: -1

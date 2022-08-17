@@ -1,0 +1,132 @@
+
+QiangWei_1.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 627, 9
+  size: 184, 29
+  orig: 184, 29
+  offset: 0, 0
+  index: -1
+dangbu
+  rotate: false
+  xy: 1508, 19
+  size: 146, 157
+  orig: 146, 157
+  offset: 0, 0
+  index: -1
+maweibian
+  rotate: false
+  xy: 428, 107
+  size: 312, 400
+  orig: 312, 400
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: true
+  xy: 742, 125
+  size: 382, 246
+  orig: 382, 246
+  offset: 0, 0
+  index: -1
+qugan
+  rotate: false
+  xy: 1656, 11
+  size: 219, 201
+  orig: 219, 201
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: true
+  xy: 1898, 145
+  size: 229, 133
+  orig: 229, 133
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 990, 178
+  size: 329, 518
+  orig: 329, 518
+  offset: 0, 0
+  index: -1
+weijin
+  rotate: false
+  xy: 1297, 10
+  size: 209, 166
+  orig: 209, 166
+  offset: 0, 0
+  index: -1
+youbi
+  rotate: false
+  xy: 1898, 376
+  size: 134, 131
+  orig: 134, 131
+  offset: 0, 0
+  index: -1
+youdabi
+  rotate: true
+  xy: 970, 10
+  size: 113, 112
+  orig: 113, 115
+  offset: 0, 2
+  index: -1
+youjian
+  rotate: true
+  xy: 1877, 12
+  size: 131, 110
+  orig: 131, 110
+  offset: 0, 0
+  index: -1
+youliuhai
+  rotate: false
+  xy: 1653, 214
+  size: 243, 293
+  orig: 243, 293
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: true
+  xy: 1084, 2
+  size: 174, 211
+  orig: 174, 211
+  offset: 0, 0
+  index: -1
+zhengyan
+  rotate: false
+  xy: 627, 40
+  size: 184, 65
+  orig: 184, 65
+  offset: 0, 0
+  index: -1
+zuitui
+  rotate: true
+  xy: 428, 2
+  size: 103, 197
+  orig: 103, 213
+  offset: 0, 0
+  index: -1
+zuobi
+  rotate: true
+  xy: 813, 10
+  size: 113, 155
+  orig: 113, 161
+  offset: 0, 0
+  index: -1
+zuoliuhai
+  rotate: false
+  xy: 1510, 204
+  size: 141, 303
+  orig: 141, 303
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 2, 14
+  size: 493, 424
+  orig: 493, 424
+  offset: 0, 0
+  index: -1
