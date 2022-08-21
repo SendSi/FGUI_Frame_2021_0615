@@ -3,6 +3,13 @@ local UIConfig = require("Core.UIConfig")
 local UIMgr = require("Core.UIMgr")
 
 
+function ProxyBagModule:OpenBagMainView()
+    local uiset = UIConfig.BagMainView
+    UIMgr:OpenWindow(uiset, function(uiWin)
+        --uiWin:SetData("我的数据")
+    end)
+end
+
 function ProxyBagModule:OpenBagMain()
     local uiset = UIConfig.BagMain
     UIMgr:OpenWindow(uiset, function(uiWin)

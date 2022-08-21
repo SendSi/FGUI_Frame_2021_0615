@@ -7,11 +7,14 @@
   <displayList>
     <image id="n3_pgcs" name="n3" src="lumy1qp8vdk" fileName="images4/main_bg03.png" xy="0,34" pivot="1,0" size="591,41" alpha="0.8">
       <gearLook controller="swtich" pages="0,1" values="0.8,0,0,0|0,0,0,0" tween="true"/>
-      <relation target="n0_xoe1" sidePair="right-left"/>
     </image>
-    <component id="n0_xoe1" name="function" src="b6o0mo" fileName="components/components_new/main/main_right_function2.xml" xy="49,12" size="452,94">
-      <gearSize controller="swtich" pages="0,1" values="452,94,1,1|0,111,1,1" tween="true"/>
-    </component>
+    <list id="n4_m8i8" name="btnList" xy="53,8" pivot="1,0" size="452,94" layout="row" overflow="hidden" colGap="-6" defaultItem="ui://4ni413laj4kdhz9cm2" align="right" foldInvisibleItems="true">
+      <item title="英雄" icon="ui://4ni413lalumy1qp8vdc" name="0"/>
+      <item title="联盟" icon="ui://4ni413lalumy1qp8vd7" name="1"/>
+      <item title="背包" icon="ui://4ni413lalumy1qp8vd9" name="2"/>
+      <item title="邮件" icon="ui://4ni413lapqav1qp8ve0" name="3"/>
+      <item title="部队" icon="ui://4ni413lalumy1qp8vda" name="4"/>
+    </list>
     <component id="n1_xoe1" name="cutBtn" src="qy501qp8vdr" fileName="components/components_new/main/main_task_hide2.xml" xy="505,20">
       <Button checked="true" controller="swtich" page="0"/>
     </component>

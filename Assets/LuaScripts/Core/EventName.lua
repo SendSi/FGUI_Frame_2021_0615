@@ -7,6 +7,7 @@ end
 local EventName = {
     TestEvent = GetNewEventId(),
     TestOnClick = GetNewEventId(),
+    BagUpdate=GetNewEventId(),
 }
 
 return EventName

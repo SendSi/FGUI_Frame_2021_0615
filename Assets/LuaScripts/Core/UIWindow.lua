@@ -1,6 +1,8 @@
 local UIWindow = fgui.window_class()
 local UIPackage = FairyGUI.UIPackage
 local DataCacheMgr = require("Core.DataCacheMgr")
+local GlobalEvent = require("Core.GlobalEvent")
+local EventName = require("Core.EventName")
 
 function UIWindow:ctor(uiConfig)
     local view = uiConfig.viewName
@@ -10,13 +12,12 @@ function UIWindow:ctor(uiConfig)
     self.name = package .. "_" .. view
     self:Center()
     self:LoadComponent()
-    self:BindRegisterEvent()
+    self:CheckBindCloseBtn()
+    self:RegisterGlobalEvent()
     self.uiConfig = uiConfig
 end
 
 function UIWindow:LoadComponent()
-end
-function UIWindow:BindRegisterEvent()
 end
 
 function UIWindow:CloseWindow()
@@ -24,15 +25,54 @@ function UIWindow:CloseWindow()
         require("Core.UIMgr"):CloseWindow(self.uiConfig)
     end
 end
+---检查有无关闭按钮
+function UIWindow:CheckBindCloseBtn()
+    if self.contentPane then
+        local close = self.contentPane:GetChild("closeButton")
+        if close then
+            close.onClick:Set(function()
+                self:CloseWindow()
+            end)
+        end
+    end
+end
+
+---子类若有事件 则写
+function UIWindow:AddBindGlobalEvent()
+    -- local eventData = {
+    -- {EventName.TTT, function() end}
+    -- }
+    -- return eventData
+end
+
+---不需 子类重写的
+function UIWindow:RegisterGlobalEvent()
+    local eventData = self:AddBindGlobalEvent()
+    self.registerGlobalList = {}
+    if eventData then
+        for i = 1, #eventData do
+            local uId = GlobalEvent:AddListener(unpack(eventData[i]))
+            table.insert(self.registerGlobalList, uId)
+        end
+    end
+end
+
+function UIWindow:UnRegisterGlobalEvent()
+    if self.registerGlobalList then
+        for i = 1, #self.registerGlobalList do
+            GlobalEvent:RemoveListener(self.registerGlobalList[i])
+        end
+    end
+    self.registerGlobalList = false
+end
+
 ---先distroy  再 onHide
 function UIWindow:Destroy()
-    self:UnRegisterEvent()
+    self:UnRegisterGlobalEvent()
     self:ReleaseUIObject()
     self:ReleasePackage()
 end
 
-function UIWindow:UnRegisterEvent()
-end
 --移除本包
 function UIWindow:ReleasePackage()
     if self.uiConfig then
@@ -50,7 +90,7 @@ function UIWindow:ReleaseUIObject()
     self.uiConfig = false
 end
 
---C#
+--C# 看源码
 function UIWindow:OnInit()
     loginfo('Window-OnInit')
 end
@@ -58,7 +98,7 @@ end
 function UIWindow:OnShown()
     loginfo('Window-onShown')
 end
---C#  onRemovedFromStage才触发
+--C#  onRemovedFromStage 才触发
 function UIWindow:OnHide()
     self.isActive = false
     loginfo('Window-OnHide')

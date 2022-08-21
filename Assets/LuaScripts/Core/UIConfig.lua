@@ -9,6 +9,11 @@ local uiConfig = {
         packageName = "Bag",
         viewName = "BagWin"
     },
+    BagMainView = {
+        className = "UI.Bag.BagMainView",
+        packageName = "04_bag",
+        viewName = "BagMainView"
+    },
     EmojiMain = {
         className = "UI.Emoji.EmojiMain",
         packageName = "Emoji",

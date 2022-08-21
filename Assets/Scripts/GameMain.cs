@@ -10,6 +10,7 @@ public class GameMain : MonoBehaviour
     {
         this.gameObject.AddComponent<AssetLoader>();
         this.gameObject.AddComponent<LuaMgr>();
+        //UIConfig.defaultFont = "Droid Sans Fallback";
     }
 
 
