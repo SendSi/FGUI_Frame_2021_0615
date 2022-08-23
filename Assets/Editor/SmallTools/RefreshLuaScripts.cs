@@ -164,8 +164,8 @@ public class RefreshLuaScripts : EditorWindow
         }
     }
 
-
-    string strValue1 = string.Empty;
+    string valueNum = "10";
+    string strValue1 = "str";
     GUIStyle mTestStyle;
     void GUITestOther()
     {
@@ -187,7 +187,7 @@ public class RefreshLuaScripts : EditorWindow
             }
         }
 
-        if (GUILayout.Button("F4", GUILayout.Height(30), GUILayout.Width(30)))
+        if (GUILayout.Button("仿F4", GUILayout.Height(30), GUILayout.Width(45)))
         {
             LuaInterface.LuaState L = LuaClient.GetMainState();
             L.Call("SingleClickButtonF4", "", true);
@@ -196,74 +196,24 @@ public class RefreshLuaScripts : EditorWindow
 
         GUILayout.Space(10);
 
-        EditorGUILayout.BeginVertical("Box");
-        strValue1 = EditorGUILayout.TextArea(strValue1, mStyle, GUILayout.Height(35));
-        if (GUILayout.Button("点击:传值的按钮:ValueClickButton", GUILayout.Height(30)))
-        {
-            LuaInterface.LuaState L = LuaClient.GetMainState();
-            L.Call("ValueClickButton", strValue1, true);
-            if (GameObject.Find("Stage/GRoot/Window - RecruitResult1View/ContentPane/GLoader3D") != null)
-            {
-                Selection.activeObject = GameObject.Find("Stage/GRoot/Window - RecruitResult1View/ContentPane/GLoader3D");
-            }
-        }
-        EditorGUILayout.EndVertical();
-
-
-        //使用F7  看CSRequestScripts
-        //EditorGUILayout.BeginHorizontal("Box");
-        //msgIDValue = EditorGUILayout.TextField(msgIDValue, mStyle);
-        //if (GUILayout.Button("发送CS,格式为msgId;key,i,value;key,s,value;key....", GUILayout.Height(25)))
-        //{
-        //    LuaInterface.LuaState L = LuaClient.GetMainState();
-        //    L.Call("ValueClickSendCS", msgIDValue, true);
-        //}
-        //EditorGUILayout.EndHorizontal();
-
-
         EditorGUILayout.BeginHorizontal("Box");
-        generalCfgId = EditorGUILayout.TextField(generalCfgId, mStyle);
-        if (GUILayout.Button("调位置,武将id", GUILayout.Height(25)))
+        strValue1 = EditorGUILayout.TextField(strValue1, mStyle, GUILayout.Height(35));
+        if (GUILayout.Button("点击:传值的按钮:ValueClickString", GUILayout.Height(30)))
         {
             LuaInterface.LuaState L = LuaClient.GetMainState();
-            L.Call("ValueClickGeneral", generalCfgId, true);
-            if (GameObject.Find("Stage/GRoot/Window - RecruitResult1View/ContentPane/GLoader3D") != null)
-            {
-                Selection.activeObject = GameObject.Find("Stage/GRoot/Window - RecruitResult1View/ContentPane/GLoader3D");
-            }
+            L.Call("ValueClickString", strValue1, true);
+
         }
         EditorGUILayout.EndHorizontal();
 
-        //EditorGUILayout.BeginHorizontal("Box");
-        //txtCS = GUILayout.TextField(txtCS);
-        //if (GUILayout.Button("调", GUILayout.Height(25)))
-        //{
-        //    mListCSandParams.Clear();
-        //    mListCSandParams = GetCSParams();
-        //}
-        //if (GUILayout.Button("发送", GUILayout.Height(25)))
-        //{
-        //    mListCSandParams.Insert(0, txtCS);
-        //    LuaInterface.LuaState L = LuaClient.GetMainState();
-        //    L.Call("ValueClickSendCSParams", mListCSandParams, true);
-        //}
-        //EditorGUILayout.EndHorizontal();
-
-        ////EditorGUILayout.BeginHorizontal("Box");
-        //if (mListCSandParams != null && mListCSandParams.Count > 0)
-        //{
-        //    using (new GUILayout.HorizontalScope())
-        //    {
-        //        var cou = mListCSandParams.Count * 0.5;
-        //        for (int i = 0; i <cou; i++)
-        //        {
-        //            //tNums.Add(i)
-        //            //GUILayout.TextField();
-        //        }
-        //    }
-        //}
-        //EditorGUILayout.EndHorizontal();
-
+        EditorGUILayout.BeginHorizontal("Box");
+        valueNum = EditorGUILayout.TextField(valueNum, mStyle);
+        if (GUILayout.Button("点击:传值的按钮:ValueClickNumber", GUILayout.Height(25)))
+        {
+            LuaInterface.LuaState L = LuaClient.GetMainState();
+            L.Call("ValueClickNumber", valueNum, true);
+        }
+        EditorGUILayout.EndHorizontal();    
     }
 
     string generalCfgId;

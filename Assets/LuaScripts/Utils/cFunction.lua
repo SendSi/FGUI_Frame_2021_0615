@@ -1,3 +1,7 @@
+local DEBUG = require("Core.AppConfig").DEBUG
+local UIMgr = require("Core.UIMgr")
+local UIConfig = require("Core.UIConfig")
+
 function HotLuaScriptInEditor(str)
     local index = 0
     local scripts = string.split(str, ";")
@@ -27,32 +31,24 @@ function SingleClickButtonF4()
     end
 end
 
-function ValueClickGeneral(value)
-    local GameEvent = require("Event.GameEvent")
-    local EventManager = require("Event.EventManager")
-    EventManager.Dispatch(GameEvent.RECRUIT_TEST, tonumber(value))
-end
-
 --一次只能关闭一个
 function CloseViewConfig(str)
-    local uiConfig = require("ViewConfig.CustomUIConfig")
-    local UIManager = require("UI.UIManager")
-    for k, v in pairs(uiConfig) do
-        if k == str then
-            UIManager.CloseWindow(v, true)
-            break
-        end
+    local uiset = UIConfig[str]
+    if uiset then
+        UIMgr:CloseWindow(uiset)
+    else
+        loginfoRed("页面不存在")
     end
 end
 
 function OpenViewConfig(str)
-    local uiConfig = require("ViewConfig.CustomUIConfig")
-    local UIManager = require("UI.UIManager")
-    for k, v in pairs(uiConfig) do
-        if k == str then
-            UIManager.OpenWindow(v)
-            break
-        end
+    local uiset = UIConfig[str]
+    if uiset then
+        UIMgr:OpenWindow(uiset, function(uiWin)
+            loginfoRed("F6打开的页面,有可能数据没加载全哦")
+        end)
+    else
+        loginfoRed("页面不存在")
     end
 end
 --格式为msg:key,i,value:key,s,value:key....
@@ -99,26 +95,36 @@ function ShowAccountInfo()
 end
 
 -----------------------------------------------上面的代码基本不用改的啦------------------------------------------------------------------
+function SingleClickButton1()
+    loginfo("测试0")
+end
 
 function SingleClickButton1()
     loginfo("测试1")
-
 end
+
 function SingleClickButton2()
     loginfo("测试2")
-
 end
+
 function SingleClickButton3()
-    require("Core.DataCacheMgr"):TryAddPackage("Bag", nil)
     loginfo("测试3")
 end
+
 function SingleClickButton4()
     loginfo("测试4")
 end
+
 function SingleClickButton5()
     loginfo("测试5")
-    --require("DialogTip.ProxyDialogTipModule"):CancelBuildTip(17)
 end
-function ValueClickButton(value)
+
+function ValueClickString(value)
     loginfo("测试value     " .. value)
+end
+
+function ValueClickNumber(value)
+    local num = tonumber(value)
+    loginfo(num)
+
 end

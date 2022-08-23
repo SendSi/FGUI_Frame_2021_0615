@@ -38,6 +38,7 @@ function UIMgr:InstanceWindow(uiConfig, callBack)
     DataCacheMgr:TryAddPackage(package, function()
         local uiWin = require(className).New(uiConfig)
         uiWin:Show()
+        uiWin.sortingOrder=uiConfig.sortingOrder or 0
         mUIWindows[className] = uiWin
         callBack(uiWin)
     end)

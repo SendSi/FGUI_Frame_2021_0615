@@ -23,6 +23,13 @@ function loginfo(...)
         UnityEngine.Debug.Log(traceback(arg))
     end
 end
+
+function loginfoRed(...)
+    if isDebug then
+        local arg = "<color=red>" .. GetMultyParams(...) .. "</color>"
+        UnityEngine.Debug.Log(traceback(arg))
+    end
+end
 function logwarn(...)
     if isDebug then
         local arg = GetMultyParams(...)
