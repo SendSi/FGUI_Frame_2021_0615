@@ -22,4 +22,4 @@ end
 
 return switch;
 
---self.uiComs=require('ToolGen.GmView.switch'):OnConstruct(self.contentPane)
+--self.uiComs=require('ToolGen.GMView.switch'):OnConstruct(self.contentPane)

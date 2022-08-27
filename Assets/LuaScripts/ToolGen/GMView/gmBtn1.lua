@@ -1,25 +1,25 @@
 --- This is an automatically generated class by FairyGUI. Please do not modify it. ---
 
----@class Slider1_grip : CS.FairyGUI.GButton
+---@class gmBtn1 : CS.FairyGUI.GButton
 ---@field public __ui CS.FairyGUI.GButton
 ---@field public m_button CS.FairyGUI.Controller
----@field public m_n0 CS.FairyGUI.GGraph
 ---@field public m_n1 CS.FairyGUI.GGraph
 ---@field public m_n2 CS.FairyGUI.GGraph
-local Slider1_grip = {};
+---@field public m_title CS.FairyGUI.GTextField
+local gmBtn1 = {};
 
-Slider1_grip.URL = "ui://21uyefv8nil";
+gmBtn1.URL = "ui://21uyefv8nil";
 
-function Slider1_grip:OnConstruct(windowCom)
+function gmBtn1:OnConstruct(windowCom)
 	local tb = {
 	m_button = windowCom:GetController("button"),
-	m_n0 = windowCom:GetChild("n0"),
 	m_n1 = windowCom:GetChild("n1"),
 	m_n2 = windowCom:GetChild("n2"),
+	m_title = windowCom:GetChild("title"),
 	}
 	return tb
 end
 
-return Slider1_grip;
+return gmBtn1;
 
---self.uiComs=require('ToolGen.GMView.Slider1_grip'):OnConstruct(self.contentPane)
+--self.uiComs=require('ToolGen.GMView.gmBtn1'):OnConstruct(self.contentPane)

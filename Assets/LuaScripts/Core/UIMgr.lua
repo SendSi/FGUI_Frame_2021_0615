@@ -2,8 +2,14 @@ local UIMgr = {}
 
 local AssetLoaderInstance = AssetLoader.Instance
 local UIConfig = require("Core.UIConfig")
+local AppConfig = require("Core.AppConfig")
 local DataCacheMgr = require("Core.DataCacheMgr")
 local mUIWindows = {}--win页面
+local FGUIGRoot = FairyGUI.GRoot
+local screenH = UnityEngine.Screen.height
+FGUIGRoot.inst:SetContentScaleFactor(UIConfig.GlobalSetting.ScreenWidth, UIConfig.GlobalSetting.ScreenHeight)
+local UIHelper=require("Core.UIHelper")
+
 
 function UIMgr:OpenWindow(uiConfig, callBack)
     local className = uiConfig.className
@@ -27,20 +33,38 @@ function UIMgr:CloseWindow(uiConfig)
     mUIWindows[className] = nil
 end
 
+---获取window
+function UIMgr:GetWindowContent(uiConfig)
+    local className = uiConfig.className
+    if mUIWindows[className] then
+        return mUIWindows[className]
+    end
+    return nil
+end
+
+---window是否打开了
+function UIMgr:GetWindowIsActive(uiConfig)
+    local className = uiConfig.className
+    local winContent = mUIWindows[className]
+    if winContent then
+        return winContent.isActive
+    end
+    return false
+end
+
 
 
 --实例化窗口
 function UIMgr:InstanceWindow(uiConfig, callBack)
     local package = uiConfig.packageName
     local className = uiConfig.className
-    logerror(className)
-    logerror(uiConfig.packageName)
     DataCacheMgr:TryAddPackage(package, function()
         local uiWin = require(className).New(uiConfig)
         uiWin:Show()
-        uiWin.sortingOrder=uiConfig.sortingOrder or 0
         mUIWindows[className] = uiWin
-        callBack(uiWin)
+        if callBack then
+            callBack(uiWin)
+        end
     end)
 end
 

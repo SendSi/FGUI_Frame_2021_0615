@@ -3,12 +3,17 @@ local UIPackage = FairyGUI.UIPackage
 local DataCacheMgr = require("Core.DataCacheMgr")
 local GlobalEvent = require("Core.GlobalEvent")
 local EventName = require("Core.EventName")
+local EventName = require("Core.UIConfig")
+local UIHelper=require("Core.UIHelper")
 
 function UIWindow:ctor(uiConfig)
     local view = uiConfig.viewName
     local package = uiConfig.packageName
     self.contentPane = UIPackage.CreateObject(package, view)
-    self.isActive = true --是否在使用中
+    UIHelper:MakeObjectFullScreen(self.contentPane,uiConfig.matchMode)
+    self.sortingOrder = uiConfig.sortingOrder or 0
+
+    self.isActive = true --页面 是否在 打开中
     self.name = package .. "_" .. view
     self:Center()
     self:LoadComponent()

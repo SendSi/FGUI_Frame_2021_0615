@@ -4,8 +4,9 @@
 --- DateTime: 2022/8/23 22:51
 ---
 
-local AppConfig={
-DEBUG=true,
+local AppConfig = {
+    DEBUG = true,
+
 
 
 }

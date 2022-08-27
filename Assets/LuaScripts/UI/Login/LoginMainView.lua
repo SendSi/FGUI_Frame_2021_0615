@@ -17,8 +17,7 @@ function LoginMainView:LoadComponent()
         require("UI.MainCenter.ProxyMainCenterModule"):OpenMainCenter()
         self:CloseWindow()
     end)
-
-end
+  end
 
 local mEventUIds
 

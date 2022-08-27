@@ -24,4 +24,4 @@ end
 
 return Slider1;
 
---self.uiComs=require('ToolGen.GmView.Slider1'):OnConstruct(self.contentPane)
+--self.uiComs=require('ToolGen.GMView.Slider1'):OnConstruct(self.contentPane)

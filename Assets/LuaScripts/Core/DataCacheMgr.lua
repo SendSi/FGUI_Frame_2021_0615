@@ -19,13 +19,14 @@ function DataCacheMgr:TryAddPackage(package, act)
             end
 
             mPackage[package] = 1--主包
-            act()
+            if act then
+                act()
+            end
         end)
     end
 end
 
 function DataCacheMgr:TryRemovePackage(package)
-    loggZSXWarning("尝试移除")
     if package and mPackage[package] then
         local refNum = mPackage[package]
         if refNum <= 1 then

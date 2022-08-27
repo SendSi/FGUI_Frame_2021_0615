@@ -18,4 +18,4 @@ end
 
 return GmRecord;
 
---self.uiComs=require('ToolGen.GmView.GmRecord'):OnConstruct(self.contentPane)
+--self.uiComs=require('ToolGen.GMView.GmRecord'):OnConstruct(self.contentPane)

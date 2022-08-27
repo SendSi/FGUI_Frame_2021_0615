@@ -22,4 +22,4 @@ end
 
 return EffectCutListView;
 
---self.uiComs=require('ToolGen.GmView.EffectCutListView'):OnConstruct(self.contentPane)
+--self.uiComs=require('ToolGen.GMView.EffectCutListView'):OnConstruct(self.contentPane)

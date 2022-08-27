@@ -1,16 +1,16 @@
 --- This is an automatically generated class by FairyGUI. Please do not modify it. ---
 
----@class Slider1_grip : CS.FairyGUI.GButton
+---@class switchBtn : CS.FairyGUI.GButton
 ---@field public __ui CS.FairyGUI.GButton
 ---@field public m_button CS.FairyGUI.Controller
 ---@field public m_n0 CS.FairyGUI.GGraph
 ---@field public m_n1 CS.FairyGUI.GGraph
 ---@field public m_n2 CS.FairyGUI.GGraph
-local Slider1_grip = {};
+local switchBtn = {};
 
-Slider1_grip.URL = "ui://21uyefv8nil";
+switchBtn.URL = "ui://21uyefv8nil";
 
-function Slider1_grip:OnConstruct(windowCom)
+function switchBtn:OnConstruct(windowCom)
 	local tb = {
 	m_button = windowCom:GetController("button"),
 	m_n0 = windowCom:GetChild("n0"),
@@ -20,6 +20,6 @@ function Slider1_grip:OnConstruct(windowCom)
 	return tb
 end
 
-return Slider1_grip;
+return switchBtn;
 
---self.uiComs=require('ToolGen.GMView.Slider1_grip'):OnConstruct(self.contentPane)
+--self.uiComs=require('ToolGen.GMView.switchBtn'):OnConstruct(self.contentPane)

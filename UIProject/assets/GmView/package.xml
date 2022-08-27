@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="21uyefv8">
   <resources>
-    <component id="h7e50" name="gmView.xml" path="/" exported="true"/>
-    <component id="h7e52" name="GmTab.xml" path="/components/"/>
-    <component id="h7e53" name="GmBtn.xml" path="/components/"/>
+    <component id="h7e50" name="GMView.xml" path="/" exported="true"/>
+    <component id="h7e53" name="gmBtn2.xml" path="/components/"/>
     <component id="h7e54" name="GmRecord.xml" path="/components/"/>
-    <component id="h7e55" name="btn.xml" path="/components/"/>
-    <component id="cu6w7" name="switch.xml" path="/components/"/>
-    <component id="e3cq8" name="gmTab1.xml" path="/components/"/>
+    <component id="cu6w7" name="switchBtn.xml" path="/components/"/>
+    <component id="e3cq8" name="gmBtn1.xml" path="/components/"/>
     <component id="otedchk" name="EffectCutListView.xml" path="/" exported="true"/>
     <component id="otedchl" name="cutListTest.xml" path="/components/" exported="true"/>
-    <component id="edl2cho" name="Slider1_grip.xml" path="/"/>
-    <component id="edl2chp" name="Slider1.xml" path="/"/>
+    <component id="ef5qchq" name="GmSend.xml" path="/components/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

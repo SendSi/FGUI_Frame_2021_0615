@@ -6,7 +6,7 @@ require("Utils.debug_util")
 local isIntelliJIdea = true--发布时=false
 if isIntelliJIdea then
     local ok, err = pcall(function()
-        package.cpath = package.cpath .. ';C:/Users/Administrator/.IntelliJIdea2018.3/config/plugins/intellij-emmylua/classes/debugger/emmy/windows/x64/?.dll'
+        package.cpath = package.cpath .. ';C:/Users/SendSi/.IntelliJIdea2018.3/config/plugins/intellij-emmylua/classes/debugger/emmy/windows/x64/?.dll'
         local dbg = require('emmy_core')
         dbg.tcpListen('localhost', 9969)
     end)
@@ -24,6 +24,9 @@ function Main()
     --end)
     --require("UI.Bag.ProxyBagModule"):OpenBagMain()
     require("UI.Login.ProxyLoginModule"):OpenLoginMain()
+
+    require("UI.GM.ProxyGMModule")
+    --FairyGUI.UIConfig.makePixelPerfect = true
 end
 
 function OnLevelWasLoaded(level)

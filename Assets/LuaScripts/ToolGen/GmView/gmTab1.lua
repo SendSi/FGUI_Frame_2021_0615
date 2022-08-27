@@ -22,4 +22,4 @@ end
 
 return gmTab1;
 
---self.uiComs=require('ToolGen.GmView.gmTab1'):OnConstruct(self.contentPane)
+--self.uiComs=require('ToolGen.GMView.gmTab1'):OnConstruct(self.contentPane)

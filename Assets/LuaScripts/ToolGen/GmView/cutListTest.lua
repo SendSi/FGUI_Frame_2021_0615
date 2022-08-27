@@ -18,4 +18,4 @@ end
 
 return cutListTest;
 
---self.uiComs=require('ToolGen.GmView.cutListTest'):OnConstruct(self.contentPane)
+--self.uiComs=require('ToolGen.GMView.cutListTest'):OnConstruct(self.contentPane)

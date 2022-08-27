@@ -1,16 +1,16 @@
 --- This is an automatically generated class by FairyGUI. Please do not modify it. ---
 
----@class GmBtn : CS.FairyGUI.GButton
+---@class GmSend : CS.FairyGUI.GButton
 ---@field public __ui CS.FairyGUI.GButton
 ---@field public m_button CS.FairyGUI.Controller
 ---@field public m_n3 CS.FairyGUI.GGraph
 ---@field public m_n4 CS.FairyGUI.GGraph
 ---@field public m_title CS.FairyGUI.GTextField
-local GmBtn = {};
+local GmSend = {};
 
-GmBtn.URL = "ui://21uyefv8nil";
+GmSend.URL = "ui://21uyefv8nil";
 
-function GmBtn:OnConstruct(windowCom)
+function GmSend:OnConstruct(windowCom)
 	local tb = {
 	m_button = windowCom:GetController("button"),
 	m_n3 = windowCom:GetChild("n3"),
@@ -20,6 +20,6 @@ function GmBtn:OnConstruct(windowCom)
 	return tb
 end
 
-return GmBtn;
+return GmSend;
 
---self.uiComs=require('ToolGen.GMView.GmBtn'):OnConstruct(self.contentPane)
+--self.uiComs=require('ToolGen.GMView.GmSend'):OnConstruct(self.contentPane)

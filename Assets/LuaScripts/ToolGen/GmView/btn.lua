@@ -18,4 +18,4 @@ end
 
 return btn;
 
---self.uiComs=require('ToolGen.GmView.btn'):OnConstruct(self.contentPane)
+--self.uiComs=require('ToolGen.GMView.btn'):OnConstruct(self.contentPane)
