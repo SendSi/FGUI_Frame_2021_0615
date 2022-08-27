@@ -2,6 +2,8 @@ require("Utils.StringUtil")
 require("Utils.utils")
 require("Utils.cFunction")
 require("Utils.debug_util")
+local TipsManager = require("UI.DialogTip.TipsManager")
+
 
 local isIntelliJIdea = true--发布时=false
 if isIntelliJIdea then
@@ -15,20 +17,21 @@ if isIntelliJIdea then
     end
 end
 
+function Update()
+    TipsManager:Update()
+    print("update")
+end
+
 function Main()
     print("Main.lua 开始---")
-    require("Core.FairyGUI")
-    --AssetLoader.Instance:AddPackage("Bag",function ()
-    --    local win = require("UI.MyWinClass").New()
-    --    win:Show()
-    --end)
-    --require("UI.Bag.ProxyBagModule"):OpenBagMain()
-    require("UI.Login.ProxyLoginModule"):OpenLoginMain()
 
-    require("UI.GM.ProxyGMModule")
-    --FairyGUI.UIConfig.makePixelPerfect = true
+    local UpdateBeat = UpdateBeat
+    UpdateBeat:Add(Update)
+
+    require("Core.InitRequire")
 end
 
 function OnLevelWasLoaded(level)
     print("level")
 end
+

@@ -17,6 +17,7 @@ local mTitleClick = {
         require("UI.Bag.ProxyBagModule"):OpenBagMainView()
     end,
     ["联盟"] = function()
+        require("UI.DialogTip.ProxyDialogTipModule"):AddToastTip("TTT")
     end,
     ["英雄"] = function()
         local Emo=require("Utils.EmojiUtil")

@@ -13,50 +13,58 @@ local uiConfig = {
         className = "UI.Bag.BagWin",
         packageName = "Bag",
         viewName = "BagWin",
-        sortingOrder = 10, ---默认都为10  才能 上下  插入
+        sortingOrder = 10,
         matchMode=0,--0 全屏 1 高度适配 2 宽度适配 （默认高度适配）
     },
     BagMainView = {
         className = "UI.Bag.BagMainView", ---背包
         packageName = "04_bag",
         viewName = "BagMainView",
-        sortingOrder = 10, ---默认都为10  才能 上下  插入
+        sortingOrder = 10,
         matchMode=0,--
     },
     EmojiMain = {
         className = "UI.Emoji.EmojiMain",
         packageName = "Emoji",
         viewName = "Main",
-        sortingOrder = 10, ---默认都为10  才能 上下  插入
+        sortingOrder = 10,
         matchMode=0,
     },
     LoginMainView = {
         className = "UI.Login.LoginMainView",
         packageName = "02_login",
         viewName = "LoginMainView",
-        sortingOrder = 10, ---默认都为10  才能 上下  插入
+        sortingOrder = 10,
         matchMode=0,
     },
     MainCenterView = {
         className = "UI.MainCenter.MainCenterView", --主页面
         packageName = "03_main",
         viewName = "MainCenterView",
-        sortingOrder = 10, ---默认都为10  才能 上下  插入
+        sortingOrder = 10,
         matchMode=0,
     },
     DialogTip2View = {
-        className = "UI.DialogTip.DialogTip2View", --主页面
+        className = "UI.DialogTip.DialogTip2View",
         packageName = "07_DialogTip",
         viewName = "DialogTip2View",
-        sortingOrder = 11, ---默认都为10  才能 上下  插入
+        sortingOrder = 11,
+        matchMode=0,
+    },
+
+    ToastTipView = {
+        className = "UI.DialogTip.ToastTipView", --飘字.吐司
+        packageName = "07_DialogTip",
+        viewName = "ToastTipView",
+        sortingOrder = 20,
         matchMode=0,
     },
 
     GMView = {
-        className = "UI.GM.GMView", --主页面
+        className = "UI.GM.GMView",
         packageName = "GMView",
         viewName = "GMView",
-        sortingOrder = 1001, ---默认都为10  才能 上下  插入
+        sortingOrder = 1001,
         matchMode=0,
     },
 

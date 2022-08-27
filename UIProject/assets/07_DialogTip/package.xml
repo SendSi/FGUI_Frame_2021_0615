@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="utp01xia">
   <resources>
-    <component id="q1qg1" name="FloatTipView.xml" path="/" exported="true"/>
-    <component id="q1qg2" name="TipItem.xml" path="/" exported="true"/>
+    <component id="q1qg1" name="ToastTipView.xml" path="/" exported="true"/>
+    <component id="q1qg2" name="ToastItem.xml" path="/" exported="true"/>
     <component id="m79t2l" name="DialogTip1View.xml" path="/" exported="true"/>
     <component id="m79t16" name="DialogTip2View.xml" path="/" exported="true"/>
     <component id="d7y82n" name="DialogTipLineView.xml" path="/" exported="true"/>
