@@ -10,7 +10,10 @@ public class UnityEngine_QualitySettingsWrap
 		L.RegFunction("IncreaseLevel", IncreaseLevel);
 		L.RegFunction("DecreaseLevel", DecreaseLevel);
 		L.RegFunction("SetQualityLevel", SetQualityLevel);
+		L.RegFunction("SetLODSettings", SetLODSettings);
+		L.RegFunction("GetRenderPipelineAssetAt", GetRenderPipelineAssetAt);
 		L.RegFunction("GetQualityLevel", GetQualityLevel);
+		L.RegFunction("GetQualitySettings", GetQualitySettings);
 		L.RegFunction("__eq", op_Equality);
 		L.RegVar("pixelLightCount", get_pixelLightCount, set_pixelLightCount);
 		L.RegVar("shadows", get_shadows, set_shadows);
@@ -37,7 +40,8 @@ public class UnityEngine_QualitySettingsWrap
 		L.RegVar("realtimeReflectionProbes", get_realtimeReflectionProbes, set_realtimeReflectionProbes);
 		L.RegVar("billboardsFaceCameraPosition", get_billboardsFaceCameraPosition, set_billboardsFaceCameraPosition);
 		L.RegVar("resolutionScalingFixedDPIFactor", get_resolutionScalingFixedDPIFactor, set_resolutionScalingFixedDPIFactor);
-		L.RegVar("blendWeights", get_blendWeights, set_blendWeights);
+		L.RegVar("renderPipeline", get_renderPipeline, set_renderPipeline);
+		L.RegVar("skinWeights", get_skinWeights, set_skinWeights);
 		L.RegVar("streamingMipmapsActive", get_streamingMipmapsActive, set_streamingMipmapsActive);
 		L.RegVar("streamingMipmapsMemoryBudget", get_streamingMipmapsMemoryBudget, set_streamingMipmapsMemoryBudget);
 		L.RegVar("streamingMipmapsAddAllCameras", get_streamingMipmapsAddAllCameras, set_streamingMipmapsAddAllCameras);
@@ -46,6 +50,7 @@ public class UnityEngine_QualitySettingsWrap
 		L.RegVar("names", get_names, null);
 		L.RegVar("desiredColorSpace", get_desiredColorSpace, null);
 		L.RegVar("activeColorSpace", get_activeColorSpace, null);
+		L.RegVar("activeQualityLevelChanged", get_activeQualityLevelChanged, set_activeQualityLevelChanged);
 		L.EndStaticLibs();
 	}
 
@@ -139,6 +144,56 @@ public class UnityEngine_QualitySettingsWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int SetLODSettings(IntPtr L)
+	{
+		try
+		{
+			int count = LuaDLL.lua_gettop(L);
+
+			if (count == 2)
+			{
+				float arg0 = (float)LuaDLL.luaL_checknumber(L, 1);
+				int arg1 = (int)LuaDLL.luaL_checknumber(L, 2);
+				UnityEngine.QualitySettings.SetLODSettings(arg0, arg1);
+				return 0;
+			}
+			else if (count == 3)
+			{
+				float arg0 = (float)LuaDLL.luaL_checknumber(L, 1);
+				int arg1 = (int)LuaDLL.luaL_checknumber(L, 2);
+				bool arg2 = LuaDLL.luaL_checkboolean(L, 3);
+				UnityEngine.QualitySettings.SetLODSettings(arg0, arg1, arg2);
+				return 0;
+			}
+			else
+			{
+				return LuaDLL.luaL_throw(L, "invalid arguments to method: UnityEngine.QualitySettings.SetLODSettings");
+			}
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int GetRenderPipelineAssetAt(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 1);
+			int arg0 = (int)LuaDLL.luaL_checknumber(L, 1);
+			UnityEngine.Rendering.RenderPipelineAsset o = UnityEngine.QualitySettings.GetRenderPipelineAssetAt(arg0);
+			ToLua.Push(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int GetQualityLevel(IntPtr L)
 	{
 		try
@@ -146,6 +201,22 @@ public class UnityEngine_QualitySettingsWrap
 			ToLua.CheckArgsCount(L, 0);
 			int o = UnityEngine.QualitySettings.GetQualityLevel();
 			LuaDLL.lua_pushinteger(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int GetQualitySettings(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 0);
+			UnityEngine.Object o = UnityEngine.QualitySettings.GetQualitySettings();
+			ToLua.Push(L, o);
 			return 1;
 		}
 		catch (Exception e)
@@ -523,7 +594,21 @@ public class UnityEngine_QualitySettingsWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int get_blendWeights(IntPtr L)
+	static int get_renderPipeline(IntPtr L)
+	{
+		try
+		{
+			ToLua.Push(L, UnityEngine.QualitySettings.renderPipeline);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_skinWeights(IntPtr L)
 	{
 		try
 		{
@@ -646,6 +731,13 @@ public class UnityEngine_QualitySettingsWrap
 		{
 			return LuaDLL.toluaL_exception(L, e);
 		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_activeQualityLevelChanged(IntPtr L)
+	{
+		ToLua.Push(L, new EventObject(typeof(System.Action<int,int>)));
+		return 1;
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
@@ -1024,7 +1116,22 @@ public class UnityEngine_QualitySettingsWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int set_blendWeights(IntPtr L)
+	static int set_renderPipeline(IntPtr L)
+	{
+		try
+		{
+			UnityEngine.Rendering.RenderPipelineAsset arg0 = (UnityEngine.Rendering.RenderPipelineAsset)ToLua.CheckObject<UnityEngine.Rendering.RenderPipelineAsset>(L, 2);
+			UnityEngine.QualitySettings.renderPipeline = arg0;
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int set_skinWeights(IntPtr L)
 	{
 		try
 		{
@@ -1105,6 +1212,41 @@ public class UnityEngine_QualitySettingsWrap
 		{
 			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
 			UnityEngine.QualitySettings.maxQueuedFrames = arg0;
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int set_activeQualityLevelChanged(IntPtr L)
+	{
+		try
+		{
+			EventObject arg0 = null;
+
+			if (LuaDLL.lua_isuserdata(L, 2) != 0)
+			{
+				arg0 = (EventObject)ToLua.ToObject(L, 2);
+			}
+			else
+			{
+				return LuaDLL.luaL_throw(L, "The event 'UnityEngine.QualitySettings.activeQualityLevelChanged' can only appear on the left hand side of += or -= when used outside of the type 'UnityEngine.QualitySettings'");
+			}
+
+			if (arg0.op == EventOp.Add)
+			{
+				System.Action<int,int> ev = (System.Action<int,int>)arg0.func;
+				UnityEngine.QualitySettings.activeQualityLevelChanged += ev;
+			}
+			else if (arg0.op == EventOp.Sub)
+			{
+				System.Action<int,int> ev = (System.Action<int,int>)arg0.func;
+				UnityEngine.QualitySettings.activeQualityLevelChanged -= ev;
+			}
+
 			return 0;
 		}
 		catch (Exception e)

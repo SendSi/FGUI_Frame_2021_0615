@@ -18,6 +18,8 @@ public class FairyGUI_WindowWrap
 		L.RegFunction("ShowModalWait", ShowModalWait);
 		L.RegFunction("CloseModalWait", CloseModalWait);
 		L.RegFunction("Init", Init);
+		L.RegFunction("Destroy", Destroy);
+		L.RegFunction("OnDestroy", OnDestroy);
 		L.RegFunction("Dispose", Dispose);
 		L.RegFunction("New", _CreateFairyGUI_Window);
 		L.RegFunction("__tostring", ToLua.op_ToString);
@@ -263,6 +265,38 @@ public class FairyGUI_WindowWrap
 			ToLua.CheckArgsCount(L, 1);
 			FairyGUI.Window obj = (FairyGUI.Window)ToLua.CheckObject<FairyGUI.Window>(L, 1);
 			obj.Init();
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int Destroy(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 1);
+			FairyGUI.Window obj = (FairyGUI.Window)ToLua.CheckObject<FairyGUI.Window>(L, 1);
+			obj.Destroy();
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int OnDestroy(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 1);
+			FairyGUI.Window obj = (FairyGUI.Window)ToLua.CheckObject<FairyGUI.Window>(L, 1);
+			obj.OnDestroy();
 			return 0;
 		}
 		catch (Exception e)

@@ -7,15 +7,21 @@ public class UnityEngine_AudioSourceWrap
 	public static void Register(LuaState L)
 	{
 		L.BeginClass(typeof(UnityEngine.AudioSource), typeof(UnityEngine.AudioBehaviour));
+		L.RegFunction("PlayOnGamepad", PlayOnGamepad);
+		L.RegFunction("DisableGamepadOutput", DisableGamepadOutput);
+		L.RegFunction("SetGamepadSpeakerMixLevel", SetGamepadSpeakerMixLevel);
+		L.RegFunction("SetGamepadSpeakerMixLevelDefault", SetGamepadSpeakerMixLevelDefault);
+		L.RegFunction("SetGamepadSpeakerRestrictedAudio", SetGamepadSpeakerRestrictedAudio);
+		L.RegFunction("GamepadSpeakerSupportsOutputType", GamepadSpeakerSupportsOutputType);
 		L.RegFunction("Play", Play);
 		L.RegFunction("PlayDelayed", PlayDelayed);
 		L.RegFunction("PlayScheduled", PlayScheduled);
+		L.RegFunction("PlayOneShot", PlayOneShot);
 		L.RegFunction("SetScheduledStartTime", SetScheduledStartTime);
 		L.RegFunction("SetScheduledEndTime", SetScheduledEndTime);
 		L.RegFunction("Stop", Stop);
 		L.RegFunction("Pause", Pause);
 		L.RegFunction("UnPause", UnPause);
-		L.RegFunction("PlayOneShot", PlayOneShot);
 		L.RegFunction("PlayClipAtPoint", PlayClipAtPoint);
 		L.RegFunction("SetCustomCurve", SetCustomCurve);
 		L.RegFunction("GetCustomCurve", GetCustomCurve);
@@ -23,8 +29,8 @@ public class UnityEngine_AudioSourceWrap
 		L.RegFunction("GetSpectrumData", GetSpectrumData);
 		L.RegFunction("SetSpatializerFloat", SetSpatializerFloat);
 		L.RegFunction("GetSpatializerFloat", GetSpatializerFloat);
-		L.RegFunction("SetAmbisonicDecoderFloat", SetAmbisonicDecoderFloat);
 		L.RegFunction("GetAmbisonicDecoderFloat", GetAmbisonicDecoderFloat);
+		L.RegFunction("SetAmbisonicDecoderFloat", SetAmbisonicDecoderFloat);
 		L.RegFunction("New", _CreateUnityEngine_AudioSource);
 		L.RegFunction("__eq", op_Equality);
 		L.RegFunction("__tostring", ToLua.op_ToString);
@@ -34,6 +40,7 @@ public class UnityEngine_AudioSourceWrap
 		L.RegVar("timeSamples", get_timeSamples, set_timeSamples);
 		L.RegVar("clip", get_clip, set_clip);
 		L.RegVar("outputAudioMixerGroup", get_outputAudioMixerGroup, set_outputAudioMixerGroup);
+		L.RegVar("gamepadSpeakerOutputType", get_gamepadSpeakerOutputType, set_gamepadSpeakerOutputType);
 		L.RegVar("isPlaying", get_isPlaying, null);
 		L.RegVar("isVirtual", get_isVirtual, null);
 		L.RegVar("loop", get_loop, set_loop);
@@ -76,6 +83,114 @@ public class UnityEngine_AudioSourceWrap
 			{
 				return LuaDLL.luaL_throw(L, "invalid arguments to ctor method: UnityEngine.AudioSource.New");
 			}
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int PlayOnGamepad(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 2);
+			UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
+			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
+			bool o = obj.PlayOnGamepad(arg0);
+			LuaDLL.lua_pushboolean(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int DisableGamepadOutput(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 1);
+			UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
+			bool o = obj.DisableGamepadOutput();
+			LuaDLL.lua_pushboolean(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int SetGamepadSpeakerMixLevel(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 3);
+			UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
+			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
+			int arg1 = (int)LuaDLL.luaL_checknumber(L, 3);
+			bool o = obj.SetGamepadSpeakerMixLevel(arg0, arg1);
+			LuaDLL.lua_pushboolean(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int SetGamepadSpeakerMixLevelDefault(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 2);
+			UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
+			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
+			bool o = obj.SetGamepadSpeakerMixLevelDefault(arg0);
+			LuaDLL.lua_pushboolean(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int SetGamepadSpeakerRestrictedAudio(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 3);
+			UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
+			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
+			bool arg1 = LuaDLL.luaL_checkboolean(L, 3);
+			bool o = obj.SetGamepadSpeakerRestrictedAudio(arg0, arg1);
+			LuaDLL.lua_pushboolean(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int GamepadSpeakerSupportsOutputType(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 1);
+			UnityEngine.GamepadSpeakerOutputType arg0 = (UnityEngine.GamepadSpeakerOutputType)ToLua.CheckObject(L, 1, typeof(UnityEngine.GamepadSpeakerOutputType));
+			bool o = UnityEngine.AudioSource.GamepadSpeakerSupportsOutputType(arg0);
+			LuaDLL.lua_pushboolean(L, o);
+			return 1;
 		}
 		catch (Exception e)
 		{
@@ -141,6 +256,39 @@ public class UnityEngine_AudioSourceWrap
 			double arg0 = (double)LuaDLL.luaL_checknumber(L, 2);
 			obj.PlayScheduled(arg0);
 			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int PlayOneShot(IntPtr L)
+	{
+		try
+		{
+			int count = LuaDLL.lua_gettop(L);
+
+			if (count == 2)
+			{
+				UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
+				UnityEngine.AudioClip arg0 = (UnityEngine.AudioClip)ToLua.CheckObject(L, 2, typeof(UnityEngine.AudioClip));
+				obj.PlayOneShot(arg0);
+				return 0;
+			}
+			else if (count == 3)
+			{
+				UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
+				UnityEngine.AudioClip arg0 = (UnityEngine.AudioClip)ToLua.CheckObject(L, 2, typeof(UnityEngine.AudioClip));
+				float arg1 = (float)LuaDLL.luaL_checknumber(L, 3);
+				obj.PlayOneShot(arg0, arg1);
+				return 0;
+			}
+			else
+			{
+				return LuaDLL.luaL_throw(L, "invalid arguments to method: UnityEngine.AudioSource.PlayOneShot");
+			}
 		}
 		catch (Exception e)
 		{
@@ -223,39 +371,6 @@ public class UnityEngine_AudioSourceWrap
 			UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
 			obj.UnPause();
 			return 0;
-		}
-		catch (Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e);
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int PlayOneShot(IntPtr L)
-	{
-		try
-		{
-			int count = LuaDLL.lua_gettop(L);
-
-			if (count == 2)
-			{
-				UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
-				UnityEngine.AudioClip arg0 = (UnityEngine.AudioClip)ToLua.CheckObject(L, 2, typeof(UnityEngine.AudioClip));
-				obj.PlayOneShot(arg0);
-				return 0;
-			}
-			else if (count == 3)
-			{
-				UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
-				UnityEngine.AudioClip arg0 = (UnityEngine.AudioClip)ToLua.CheckObject(L, 2, typeof(UnityEngine.AudioClip));
-				float arg1 = (float)LuaDLL.luaL_checknumber(L, 3);
-				obj.PlayOneShot(arg0, arg1);
-				return 0;
-			}
-			else
-			{
-				return LuaDLL.luaL_throw(L, "invalid arguments to method: UnityEngine.AudioSource.PlayOneShot");
-			}
 		}
 		catch (Exception e)
 		{
@@ -409,25 +524,6 @@ public class UnityEngine_AudioSourceWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int SetAmbisonicDecoderFloat(IntPtr L)
-	{
-		try
-		{
-			ToLua.CheckArgsCount(L, 3);
-			UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
-			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
-			float arg1 = (float)LuaDLL.luaL_checknumber(L, 3);
-			bool o = obj.SetAmbisonicDecoderFloat(arg0, arg1);
-			LuaDLL.lua_pushboolean(L, o);
-			return 1;
-		}
-		catch (Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e);
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int GetAmbisonicDecoderFloat(IntPtr L)
 	{
 		try
@@ -440,6 +536,25 @@ public class UnityEngine_AudioSourceWrap
 			LuaDLL.lua_pushboolean(L, o);
 			LuaDLL.lua_pushnumber(L, arg1);
 			return 2;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int SetAmbisonicDecoderFloat(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 3);
+			UnityEngine.AudioSource obj = (UnityEngine.AudioSource)ToLua.CheckObject(L, 1, typeof(UnityEngine.AudioSource));
+			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
+			float arg1 = (float)LuaDLL.luaL_checknumber(L, 3);
+			bool o = obj.SetAmbisonicDecoderFloat(arg0, arg1);
+			LuaDLL.lua_pushboolean(L, o);
+			return 1;
 		}
 		catch (Exception e)
 		{
@@ -576,6 +691,25 @@ public class UnityEngine_AudioSourceWrap
 		catch(Exception e)
 		{
 			return LuaDLL.toluaL_exception(L, e, o, "attempt to index outputAudioMixerGroup on a nil value");
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_gamepadSpeakerOutputType(IntPtr L)
+	{
+		object o = null;
+
+		try
+		{
+			o = ToLua.ToObject(L, 1);
+			UnityEngine.AudioSource obj = (UnityEngine.AudioSource)o;
+			UnityEngine.GamepadSpeakerOutputType ret = obj.gamepadSpeakerOutputType;
+			ToLua.Push(L, ret);
+			return 1;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e, o, "attempt to index gamepadSpeakerOutputType on a nil value");
 		}
 	}
 
@@ -1108,6 +1242,25 @@ public class UnityEngine_AudioSourceWrap
 		catch(Exception e)
 		{
 			return LuaDLL.toluaL_exception(L, e, o, "attempt to index outputAudioMixerGroup on a nil value");
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int set_gamepadSpeakerOutputType(IntPtr L)
+	{
+		object o = null;
+
+		try
+		{
+			o = ToLua.ToObject(L, 1);
+			UnityEngine.AudioSource obj = (UnityEngine.AudioSource)o;
+			UnityEngine.GamepadSpeakerOutputType arg0 = (UnityEngine.GamepadSpeakerOutputType)ToLua.CheckObject(L, 2, typeof(UnityEngine.GamepadSpeakerOutputType));
+			obj.gamepadSpeakerOutputType = arg0;
+			return 0;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e, o, "attempt to index gamepadSpeakerOutputType on a nil value");
 		}
 	}
 

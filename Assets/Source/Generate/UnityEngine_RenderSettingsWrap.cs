@@ -24,7 +24,7 @@ public class UnityEngine_RenderSettingsWrap
 		L.RegVar("skybox", get_skybox, set_skybox);
 		L.RegVar("sun", get_sun, set_sun);
 		L.RegVar("ambientProbe", get_ambientProbe, set_ambientProbe);
-		L.RegVar("customReflection", get_customReflection, set_customReflection);
+		L.RegVar("customReflectionTexture", get_customReflectionTexture, set_customReflectionTexture);
 		L.RegVar("reflectionIntensity", get_reflectionIntensity, set_reflectionIntensity);
 		L.RegVar("reflectionBounces", get_reflectionBounces, set_reflectionBounces);
 		L.RegVar("defaultReflectionMode", get_defaultReflectionMode, set_defaultReflectionMode);
@@ -278,11 +278,11 @@ public class UnityEngine_RenderSettingsWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int get_customReflection(IntPtr L)
+	static int get_customReflectionTexture(IntPtr L)
 	{
 		try
 		{
-			ToLua.PushSealed(L, UnityEngine.RenderSettings.customReflection);
+			ToLua.Push(L, UnityEngine.RenderSettings.customReflectionTexture);
 			return 1;
 		}
 		catch (Exception e)
@@ -630,12 +630,12 @@ public class UnityEngine_RenderSettingsWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int set_customReflection(IntPtr L)
+	static int set_customReflectionTexture(IntPtr L)
 	{
 		try
 		{
-			UnityEngine.Cubemap arg0 = (UnityEngine.Cubemap)ToLua.CheckObject(L, 2, typeof(UnityEngine.Cubemap));
-			UnityEngine.RenderSettings.customReflection = arg0;
+			UnityEngine.Texture arg0 = (UnityEngine.Texture)ToLua.CheckObject<UnityEngine.Texture>(L, 2);
+			UnityEngine.RenderSettings.customReflectionTexture = arg0;
 			return 0;
 		}
 		catch (Exception e)

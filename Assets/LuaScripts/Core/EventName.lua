@@ -8,6 +8,10 @@ local EventName = {
     TestEvent = GetNewEventId(),
     TestOnClick = GetNewEventId(),
     BagUpdate=GetNewEventId(),
+
+
+
+    Test=GetNewEventId(),
 }
 
 return EventName

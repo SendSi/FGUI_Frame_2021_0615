@@ -23,12 +23,14 @@ public class UnityEngine_AssetBundleWrap
 		L.RegFunction("LoadAllAssets", LoadAllAssets);
 		L.RegFunction("LoadAllAssetsAsync", LoadAllAssetsAsync);
 		L.RegFunction("Unload", Unload);
+		L.RegFunction("UnloadAsync", UnloadAsync);
 		L.RegFunction("GetAllAssetNames", GetAllAssetNames);
 		L.RegFunction("GetAllScenePaths", GetAllScenePaths);
 		L.RegFunction("RecompressAssetBundleAsync", RecompressAssetBundleAsync);
 		L.RegFunction("__eq", op_Equality);
 		L.RegFunction("__tostring", ToLua.op_ToString);
 		L.RegVar("isStreamedSceneAssetBundle", get_isStreamedSceneAssetBundle, null);
+		L.RegVar("memoryBudgetKB", get_memoryBudgetKB, set_memoryBudgetKB);
 		L.EndClass();
 	}
 
@@ -540,6 +542,24 @@ public class UnityEngine_AssetBundleWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int UnloadAsync(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 2);
+			UnityEngine.AssetBundle obj = (UnityEngine.AssetBundle)ToLua.CheckObject<UnityEngine.AssetBundle>(L, 1);
+			bool arg0 = LuaDLL.luaL_checkboolean(L, 2);
+			UnityEngine.AssetBundleUnloadOperation o = obj.UnloadAsync(arg0);
+			ToLua.PushObject(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int GetAllAssetNames(IntPtr L)
 	{
 		try
@@ -655,6 +675,35 @@ public class UnityEngine_AssetBundleWrap
 		catch(Exception e)
 		{
 			return LuaDLL.toluaL_exception(L, e, o, "attempt to index isStreamedSceneAssetBundle on a nil value");
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_memoryBudgetKB(IntPtr L)
+	{
+		try
+		{
+			LuaDLL.lua_pushnumber(L, UnityEngine.AssetBundle.memoryBudgetKB);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int set_memoryBudgetKB(IntPtr L)
+	{
+		try
+		{
+			uint arg0 = (uint)LuaDLL.luaL_checknumber(L, 2);
+			UnityEngine.AssetBundle.memoryBudgetKB = arg0;
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
 		}
 	}
 }

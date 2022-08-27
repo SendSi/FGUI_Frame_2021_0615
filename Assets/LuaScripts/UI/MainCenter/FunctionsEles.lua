@@ -19,6 +19,12 @@ local mTitleClick = {
     ["联盟"] = function()
     end,
     ["英雄"] = function()
+        local Emo=require("Utils.EmojiUtil")
+        local content = "我是图形文字 emoji"..Emo:GetItemEmojiNumber(1,100).." 啥的"
+        require("UI.DialogTip.ProxyDialogTipModule"):OpenDialogTip2View("头部",
+                content, nil, nil, nil, function ()
+                    loggZSXError("rightAct")
+                end)
     end,
 }
 

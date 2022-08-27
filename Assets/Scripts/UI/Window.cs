@@ -424,7 +424,7 @@ namespace FairyGUI
         virtual protected void OnHide()
         {
 #if FAIRYGUI_TOLUA
-            Debug.LogError("onHide");
+            //Debug.LogError("onHide");
             CallLua("OnHide");
 #endif
 #if FAIRYGUI_PUERTS

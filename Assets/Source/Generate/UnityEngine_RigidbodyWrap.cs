@@ -10,6 +10,7 @@ public class UnityEngine_RigidbodyWrap
 		L.RegFunction("SetDensity", SetDensity);
 		L.RegFunction("MovePosition", MovePosition);
 		L.RegFunction("MoveRotation", MoveRotation);
+		L.RegFunction("Move", Move);
 		L.RegFunction("Sleep", Sleep);
 		L.RegFunction("IsSleeping", IsSleeping);
 		L.RegFunction("WakeUp", WakeUp);
@@ -51,6 +52,7 @@ public class UnityEngine_RigidbodyWrap
 		L.RegVar("solverIterations", get_solverIterations, set_solverIterations);
 		L.RegVar("sleepThreshold", get_sleepThreshold, set_sleepThreshold);
 		L.RegVar("maxAngularVelocity", get_maxAngularVelocity, set_maxAngularVelocity);
+		L.RegVar("maxLinearVelocity", get_maxLinearVelocity, set_maxLinearVelocity);
 		L.RegVar("solverVelocityIterations", get_solverVelocityIterations, set_solverVelocityIterations);
 		L.EndClass();
 	}
@@ -122,6 +124,24 @@ public class UnityEngine_RigidbodyWrap
 			UnityEngine.Rigidbody obj = (UnityEngine.Rigidbody)ToLua.CheckObject<UnityEngine.Rigidbody>(L, 1);
 			UnityEngine.Quaternion arg0 = ToLua.ToQuaternion(L, 2);
 			obj.MoveRotation(arg0);
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int Move(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 3);
+			UnityEngine.Rigidbody obj = (UnityEngine.Rigidbody)ToLua.CheckObject<UnityEngine.Rigidbody>(L, 1);
+			UnityEngine.Vector3 arg0 = ToLua.ToVector3(L, 2);
+			UnityEngine.Quaternion arg1 = ToLua.ToQuaternion(L, 3);
+			obj.Move(arg0, arg1);
 			return 0;
 		}
 		catch (Exception e)
@@ -1089,6 +1109,25 @@ public class UnityEngine_RigidbodyWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_maxLinearVelocity(IntPtr L)
+	{
+		object o = null;
+
+		try
+		{
+			o = ToLua.ToObject(L, 1);
+			UnityEngine.Rigidbody obj = (UnityEngine.Rigidbody)o;
+			float ret = obj.maxLinearVelocity;
+			LuaDLL.lua_pushnumber(L, ret);
+			return 1;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e, o, "attempt to index maxLinearVelocity on a nil value");
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int get_solverVelocityIterations(IntPtr L)
 	{
 		object o = null;
@@ -1503,6 +1542,25 @@ public class UnityEngine_RigidbodyWrap
 		catch(Exception e)
 		{
 			return LuaDLL.toluaL_exception(L, e, o, "attempt to index maxAngularVelocity on a nil value");
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int set_maxLinearVelocity(IntPtr L)
+	{
+		object o = null;
+
+		try
+		{
+			o = ToLua.ToObject(L, 1);
+			UnityEngine.Rigidbody obj = (UnityEngine.Rigidbody)o;
+			float arg0 = (float)LuaDLL.luaL_checknumber(L, 2);
+			obj.maxLinearVelocity = arg0;
+			return 0;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e, o, "attempt to index maxLinearVelocity on a nil value");
 		}
 	}
 

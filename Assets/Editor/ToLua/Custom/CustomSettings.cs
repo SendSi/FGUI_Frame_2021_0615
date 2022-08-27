@@ -105,6 +105,7 @@ public static class CustomSettings
         _GT(typeof(UIObjectFactory)),
         _GT(typeof(AssetLoader)),
         _GT(typeof(TestLoader)),
+        _GT(typeof(EmojiAtlas)),
 
 #if USING_DOTWEENING
         _GT(typeof(DG.Tweening.DOTween)),

@@ -17,6 +17,10 @@ public class UnityEngine_InputWrap
 		L.RegFunction("GetMouseButtonUp", GetMouseButtonUp);
 		L.RegFunction("ResetInputAxes", ResetInputAxes);
 		L.RegFunction("GetJoystickNames", GetJoystickNames);
+		L.RegFunction("GetPenEvent", GetPenEvent);
+		L.RegFunction("GetLastPenContactEvent", GetLastPenContactEvent);
+		L.RegFunction("ResetPenEvents", ResetPenEvents);
+		L.RegFunction("ClearLastPenContactEvent", ClearLastPenContactEvent);
 		L.RegFunction("GetAccelerationEvent", GetAccelerationEvent);
 		L.RegFunction("GetKey", GetKey);
 		L.RegFunction("GetKeyUp", GetKeyUp);
@@ -33,6 +37,7 @@ public class UnityEngine_InputWrap
 		L.RegVar("imeIsSelected", get_imeIsSelected, null);
 		L.RegVar("compositionCursorPos", get_compositionCursorPos, set_compositionCursorPos);
 		L.RegVar("mousePresent", get_mousePresent, null);
+		L.RegVar("penEventCount", get_penEventCount, null);
 		L.RegVar("touchCount", get_touchCount, null);
 		L.RegVar("touchPressureSupported", get_touchPressureSupported, null);
 		L.RegVar("stylusTouchSupported", get_stylusTouchSupported, null);
@@ -211,6 +216,69 @@ public class UnityEngine_InputWrap
 			string[] o = UnityEngine.Input.GetJoystickNames();
 			ToLua.Push(L, o);
 			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int GetPenEvent(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 1);
+			int arg0 = (int)LuaDLL.luaL_checknumber(L, 1);
+			UnityEngine.PenData o = UnityEngine.Input.GetPenEvent(arg0);
+			ToLua.PushValue(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int GetLastPenContactEvent(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 0);
+			UnityEngine.PenData o = UnityEngine.Input.GetLastPenContactEvent();
+			ToLua.PushValue(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int ResetPenEvents(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 0);
+			UnityEngine.Input.ResetPenEvents();
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int ClearLastPenContactEvent(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 0);
+			UnityEngine.Input.ClearLastPenContactEvent();
+			return 0;
 		}
 		catch (Exception e)
 		{
@@ -494,6 +562,20 @@ public class UnityEngine_InputWrap
 		try
 		{
 			LuaDLL.lua_pushboolean(L, UnityEngine.Input.mousePresent);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_penEventCount(IntPtr L)
+	{
+		try
+		{
+			LuaDLL.lua_pushinteger(L, UnityEngine.Input.penEventCount);
 			return 1;
 		}
 		catch (Exception e)

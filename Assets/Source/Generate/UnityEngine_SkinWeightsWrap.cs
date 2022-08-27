@@ -2,7 +2,7 @@
 using System;
 using LuaInterface;
 
-public class UnityEngine_BlendWeightsWrap
+public class UnityEngine_SkinWeightsWrap
 {
 	public static void Register(LuaState L)
 	{
@@ -10,6 +10,7 @@ public class UnityEngine_BlendWeightsWrap
 		L.RegVar("OneBone", get_OneBone, null);
 		L.RegVar("TwoBones", get_TwoBones, null);
 		L.RegVar("FourBones", get_FourBones, null);
+		L.RegVar("Unlimited", get_Unlimited, null);
 		L.RegFunction("IntToEnum", IntToEnum);
 		L.EndEnum();
 		TypeTraits<UnityEngine.SkinWeights>.Check = CheckType;
@@ -44,6 +45,13 @@ public class UnityEngine_BlendWeightsWrap
 	static int get_FourBones(IntPtr L)
 	{
 		ToLua.Push(L, UnityEngine.SkinWeights.FourBones);
+		return 1;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_Unlimited(IntPtr L)
+	{
+		ToLua.Push(L, UnityEngine.SkinWeights.Unlimited);
 		return 1;
 	}
 

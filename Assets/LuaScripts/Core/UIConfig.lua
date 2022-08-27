@@ -44,6 +44,14 @@ local uiConfig = {
         sortingOrder = 10, ---默认都为10  才能 上下  插入
         matchMode=0,
     },
+    DialogTip2View = {
+        className = "UI.DialogTip.DialogTip2View", --主页面
+        packageName = "07_DialogTip",
+        viewName = "DialogTip2View",
+        sortingOrder = 11, ---默认都为10  才能 上下  插入
+        matchMode=0,
+    },
+
     GMView = {
         className = "UI.GM.GMView", --主页面
         packageName = "GMView",

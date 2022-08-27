@@ -13,6 +13,8 @@ public class UnityEngine_CameraWrap
 		L.RegFunction("ResetCullingMatrix", ResetCullingMatrix);
 		L.RegFunction("SetReplacementShader", SetReplacementShader);
 		L.RegFunction("ResetReplacementShader", ResetReplacementShader);
+		L.RegFunction("GetGateFittedFieldOfView", GetGateFittedFieldOfView);
+		L.RegFunction("GetGateFittedLensShift", GetGateFittedLensShift);
 		L.RegFunction("SetTargetBuffers", SetTargetBuffers);
 		L.RegFunction("ResetWorldToCameraMatrix", ResetWorldToCameraMatrix);
 		L.RegFunction("ResetProjectionMatrix", ResetProjectionMatrix);
@@ -27,8 +29,10 @@ public class UnityEngine_CameraWrap
 		L.RegFunction("ScreenPointToRay", ScreenPointToRay);
 		L.RegFunction("CalculateFrustumCorners", CalculateFrustumCorners);
 		L.RegFunction("CalculateProjectionMatrixFromPhysicalProperties", CalculateProjectionMatrixFromPhysicalProperties);
-		L.RegFunction("FocalLengthToFOV", FocalLengthToFOV);
-		L.RegFunction("FOVToFocalLength", FOVToFocalLength);
+		L.RegFunction("FocalLengthToFieldOfView", FocalLengthToFieldOfView);
+		L.RegFunction("FieldOfViewToFocalLength", FieldOfViewToFocalLength);
+		L.RegFunction("HorizontalToVerticalFieldOfView", HorizontalToVerticalFieldOfView);
+		L.RegFunction("VerticalToHorizontalFieldOfView", VerticalToHorizontalFieldOfView);
 		L.RegFunction("GetStereoNonJitteredProjectionMatrix", GetStereoNonJitteredProjectionMatrix);
 		L.RegFunction("GetStereoViewMatrix", GetStereoViewMatrix);
 		L.RegFunction("CopyStereoDeviceProjectionMatrixToNonJittered", CopyStereoDeviceProjectionMatrixToNonJittered);
@@ -42,6 +46,7 @@ public class UnityEngine_CameraWrap
 		L.RegFunction("Render", Render);
 		L.RegFunction("RenderWithShader", RenderWithShader);
 		L.RegFunction("RenderDontRestore", RenderDontRestore);
+		L.RegFunction("SubmitRenderRequests", SubmitRenderRequests);
 		L.RegFunction("SetupCurrent", SetupCurrent);
 		L.RegFunction("CopyFrom", CopyFrom);
 		L.RegFunction("RemoveCommandBuffers", RemoveCommandBuffers);
@@ -50,6 +55,7 @@ public class UnityEngine_CameraWrap
 		L.RegFunction("AddCommandBufferAsync", AddCommandBufferAsync);
 		L.RegFunction("RemoveCommandBuffer", RemoveCommandBuffer);
 		L.RegFunction("GetCommandBuffers", GetCommandBuffers);
+		L.RegFunction("TryGetCullingParameters", TryGetCullingParameters);
 		L.RegFunction("New", _CreateUnityEngine_Camera);
 		L.RegFunction("__eq", op_Equality);
 		L.RegFunction("__tostring", ToLua.op_ToString);
@@ -77,6 +83,7 @@ public class UnityEngine_CameraWrap
 		L.RegVar("eventMask", get_eventMask, set_eventMask);
 		L.RegVar("layerCullSpherical", get_layerCullSpherical, set_layerCullSpherical);
 		L.RegVar("cameraType", get_cameraType, set_cameraType);
+		L.RegVar("overrideSceneCullingMask", get_overrideSceneCullingMask, set_overrideSceneCullingMask);
 		L.RegVar("layerCullDistances", get_layerCullDistances, set_layerCullDistances);
 		L.RegVar("useOcclusionCulling", get_useOcclusionCulling, set_useOcclusionCulling);
 		L.RegVar("cullingMatrix", get_cullingMatrix, set_cullingMatrix);
@@ -115,6 +122,7 @@ public class UnityEngine_CameraWrap
 		L.RegVar("stereoActiveEye", get_stereoActiveEye, null);
 		L.RegVar("allCamerasCount", get_allCamerasCount, null);
 		L.RegVar("allCameras", get_allCameras, null);
+		L.RegVar("sceneViewFilterMode", get_sceneViewFilterMode, null);
 		L.RegVar("commandBufferCount", get_commandBufferCount, null);
 		L.RegFunction("CameraCallback", UnityEngine_Camera_CameraCallback);
 		L.EndClass();
@@ -235,6 +243,40 @@ public class UnityEngine_CameraWrap
 			UnityEngine.Camera obj = (UnityEngine.Camera)ToLua.CheckObject(L, 1, typeof(UnityEngine.Camera));
 			obj.ResetReplacementShader();
 			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int GetGateFittedFieldOfView(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 1);
+			UnityEngine.Camera obj = (UnityEngine.Camera)ToLua.CheckObject(L, 1, typeof(UnityEngine.Camera));
+			float o = obj.GetGateFittedFieldOfView();
+			LuaDLL.lua_pushnumber(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int GetGateFittedLensShift(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 1);
+			UnityEngine.Camera obj = (UnityEngine.Camera)ToLua.CheckObject(L, 1, typeof(UnityEngine.Camera));
+			UnityEngine.Vector2 o = obj.GetGateFittedLensShift();
+			ToLua.Push(L, o);
+			return 1;
 		}
 		catch (Exception e)
 		{
@@ -636,15 +678,15 @@ public class UnityEngine_CameraWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int FocalLengthToFOV(IntPtr L)
+	static int FocalLengthToFieldOfView(IntPtr L)
 	{
 		try
 		{
 			ToLua.CheckArgsCount(L, 2);
 			float arg0 = (float)LuaDLL.luaL_checknumber(L, 1);
 			float arg1 = (float)LuaDLL.luaL_checknumber(L, 2);
-			//float o = UnityEngine.Camera.FocalLengthToFOV(arg0, arg1);
-		//	LuaDLL.lua_pushnumber(L, o);
+			float o = UnityEngine.Camera.FocalLengthToFieldOfView(arg0, arg1);
+			LuaDLL.lua_pushnumber(L, o);
 			return 1;
 		}
 		catch (Exception e)
@@ -654,15 +696,51 @@ public class UnityEngine_CameraWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int FOVToFocalLength(IntPtr L)
+	static int FieldOfViewToFocalLength(IntPtr L)
 	{
 		try
 		{
 			ToLua.CheckArgsCount(L, 2);
 			float arg0 = (float)LuaDLL.luaL_checknumber(L, 1);
 			float arg1 = (float)LuaDLL.luaL_checknumber(L, 2);
-			////float o = UnityEngine.Camera.FOVToFocalLength(arg0, arg1);
-			//LuaDLL.lua_pushnumber(L, o);
+			float o = UnityEngine.Camera.FieldOfViewToFocalLength(arg0, arg1);
+			LuaDLL.lua_pushnumber(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int HorizontalToVerticalFieldOfView(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 2);
+			float arg0 = (float)LuaDLL.luaL_checknumber(L, 1);
+			float arg1 = (float)LuaDLL.luaL_checknumber(L, 2);
+			float o = UnityEngine.Camera.HorizontalToVerticalFieldOfView(arg0, arg1);
+			LuaDLL.lua_pushnumber(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int VerticalToHorizontalFieldOfView(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 2);
+			float arg0 = (float)LuaDLL.luaL_checknumber(L, 1);
+			float arg1 = (float)LuaDLL.luaL_checknumber(L, 2);
+			float o = UnityEngine.Camera.VerticalToHorizontalFieldOfView(arg0, arg1);
+			LuaDLL.lua_pushnumber(L, o);
 			return 1;
 		}
 		catch (Exception e)
@@ -940,6 +1018,23 @@ public class UnityEngine_CameraWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int SubmitRenderRequests(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 2);
+			UnityEngine.Camera obj = (UnityEngine.Camera)ToLua.CheckObject(L, 1, typeof(UnityEngine.Camera));
+			System.Collections.Generic.List<UnityEngine.Camera.RenderRequest> arg0 = (System.Collections.Generic.List<UnityEngine.Camera.RenderRequest>)ToLua.CheckObject(L, 2, typeof(System.Collections.Generic.List<UnityEngine.Camera.RenderRequest>));
+			obj.SubmitRenderRequests(arg0);
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int SetupCurrent(IntPtr L)
 	{
 		try
@@ -1071,6 +1166,43 @@ public class UnityEngine_CameraWrap
 			UnityEngine.Rendering.CommandBuffer[] o = obj.GetCommandBuffers(arg0);
 			ToLua.Push(L, o);
 			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int TryGetCullingParameters(IntPtr L)
+	{
+		try
+		{
+			int count = LuaDLL.lua_gettop(L);
+
+			if (count == 2)
+			{
+				UnityEngine.Camera obj = (UnityEngine.Camera)ToLua.CheckObject(L, 1, typeof(UnityEngine.Camera));
+				UnityEngine.Rendering.ScriptableCullingParameters arg0;
+				bool o = obj.TryGetCullingParameters(out arg0);
+				LuaDLL.lua_pushboolean(L, o);
+				ToLua.PushValue(L, arg0);
+				return 2;
+			}
+			else if (count == 3)
+			{
+				UnityEngine.Camera obj = (UnityEngine.Camera)ToLua.CheckObject(L, 1, typeof(UnityEngine.Camera));
+				bool arg0 = LuaDLL.luaL_checkboolean(L, 2);
+				UnityEngine.Rendering.ScriptableCullingParameters arg1;
+				bool o = obj.TryGetCullingParameters(arg0, out arg1);
+				LuaDLL.lua_pushboolean(L, o);
+				ToLua.PushValue(L, arg1);
+				return 2;
+			}
+			else
+			{
+				return LuaDLL.luaL_throw(L, "invalid arguments to method: UnityEngine.Camera.TryGetCullingParameters");
+			}
 		}
 		catch (Exception e)
 		{
@@ -1534,6 +1666,25 @@ public class UnityEngine_CameraWrap
 		catch(Exception e)
 		{
 			return LuaDLL.toluaL_exception(L, e, o, "attempt to index cameraType on a nil value");
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_overrideSceneCullingMask(IntPtr L)
+	{
+		object o = null;
+
+		try
+		{
+			o = ToLua.ToObject(L, 1);
+			UnityEngine.Camera obj = (UnityEngine.Camera)o;
+			ulong ret = obj.overrideSceneCullingMask;
+			LuaDLL.tolua_pushuint64(L, ret);
+			return 1;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e, o, "attempt to index overrideSceneCullingMask on a nil value");
 		}
 	}
 
@@ -2240,6 +2391,25 @@ public class UnityEngine_CameraWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_sceneViewFilterMode(IntPtr L)
+	{
+		object o = null;
+
+		try
+		{
+			o = ToLua.ToObject(L, 1);
+			UnityEngine.Camera obj = (UnityEngine.Camera)o;
+			UnityEngine.Camera.SceneViewFilterMode ret = obj.sceneViewFilterMode;
+			ToLua.Push(L, ret);
+			return 1;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e, o, "attempt to index sceneViewFilterMode on a nil value");
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int get_commandBufferCount(IntPtr L)
 	{
 		object o = null;
@@ -2661,6 +2831,25 @@ public class UnityEngine_CameraWrap
 		catch(Exception e)
 		{
 			return LuaDLL.toluaL_exception(L, e, o, "attempt to index cameraType on a nil value");
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int set_overrideSceneCullingMask(IntPtr L)
+	{
+		object o = null;
+
+		try
+		{
+			o = ToLua.ToObject(L, 1);
+			UnityEngine.Camera obj = (UnityEngine.Camera)o;
+			ulong arg0 = LuaDLL.tolua_checkuint64(L, 2);
+			obj.overrideSceneCullingMask = arg0;
+			return 0;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e, o, "attempt to index overrideSceneCullingMask on a nil value");
 		}
 	}
 
