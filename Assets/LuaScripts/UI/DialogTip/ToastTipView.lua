@@ -4,13 +4,12 @@ local UIPackage = FairyGUI.UIPackage
 local table = table
 ToastTipView.tipItemPool = {}
 ToastTipView.useItemPool = {}
-local tipView
-
+local toastItem
+--local ScreenWidth=UnityEngine.Screen.width*0.5
 
 function ToastTipView:LoadComponent()
     self.uiComs = require('ToolGen.07_DialogTip.ToastTipView'):OnConstruct(self.contentPane)
 end
-
 
 function ToastTipView:SetData(tipTxt, arg)
     if not tipTxt then
@@ -28,7 +27,7 @@ function ToastTipView:GetOrCreateTipItem(tipTxt)
         table.remove(self.tipItemPool, poolCount)
     else
         local obj = UIPackage.CreateObject("07_DialogTip", "ToastItem")
-        item = tipView.new(obj)
+        item = toastItem.new(obj)
         self.contentPane:AddChild(obj)
     end
 
@@ -49,8 +48,8 @@ function ToastTipView:MoveAnimation()
 end
 
 -----------
-tipView = class()
-function tipView:ctor(contentPane)
+toastItem = class()
+function toastItem:ctor(contentPane)
     self.contentPane = contentPane
     self.contentPane.touchable = false
     contentPane.visible = true
@@ -59,11 +58,11 @@ function tipView:ctor(contentPane)
     self.comps.m_titleTxt.emojies = Emoji
 end
 
-function tipView:SetTipText(tipTxt)
+function toastItem:SetTipText(tipTxt)
     self.comps.m_titleTxt.text = tipTxt or"内容"
 end
 
-function tipView:SetAnimation(tipPool, usePool)
+function toastItem:SetAnimation(tipPool, usePool)
     self.comps.m_moveAlpha:PlayReverse()
     self.comps.m_moveAlpha:Play(function()
         self:ResetPos()
@@ -75,11 +74,12 @@ function tipView:SetAnimation(tipPool, usePool)
     end)
 end
 
-function tipView:ResetPos()
-    self.contentPane:SetPosition(572, 180, 0)
+function toastItem:ResetPos()
+    local parent = self.contentPane.parent
+    self.contentPane:SetPosition(parent.width/2 - self.contentPane.width/2,150, 0)
 end
 
-function tipView:MoveAnimation()
+function toastItem:MoveAnimation()
     self.tween = self.contentPane:TweenMoveY(self.contentPane.y - 40, 0.2)
 end
 
