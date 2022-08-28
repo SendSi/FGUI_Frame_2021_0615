@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class AutoSetLabels
 {
-    [MenuItem("FW/Set AB Label")]
+    [MenuItem("Tools/FW/Set AB Label")]
     public static void SetAbLabel()
     {
         string strRoot = string.Empty;
@@ -98,7 +98,7 @@ public class AutoSetLabels
 
 public class BuildAssetBundleFW
 {
-    [MenuItem("FW/BuildAllAssetBundle_windows64")]
+    [MenuItem("Tools/FW/BuildAllAssetBundle_windows64")]
     public static void BuildAllAB()
     {
         string str = PathTools.GetABOutPath();
@@ -108,7 +108,7 @@ public class BuildAssetBundleFW
         }
         BuildPipeline.BuildAssetBundles(str, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
     }
-    [MenuItem("FW/BuildAllAssetBundle_android")]
+    [MenuItem("Tools/FW/BuildAllAssetBundle_android")]
     public static void BuildAllAB_Android()
     {
         string str = PathTools.GetABOutPath();
@@ -121,7 +121,7 @@ public class BuildAssetBundleFW
 }
 public class DeleteAssetBundleFW
 {
-    [MenuItem("FW/DeleteAllAssetBundles")]
+    [MenuItem("Tools/FW/DeleteAllAssetBundles")]
     public static void DeleteAllBundle()
     {
         string str = PathTools.GetABOutPath();

@@ -26,19 +26,19 @@ public class CreateAssetBundles
     }
 
 
-    [MenuItem("ZSX/Labels/标记AB包_FGUI_(已选中的)", false, 80)]
+    [MenuItem("Tools/Labels/标记AB包_FGUI_(已选中的)", false, 80)]
     public static void ShowMenu()
     {
         SetLabels(LABEL_TYPE.FGUI);
     }
-    [MenuItem("ZSX/Labels/标记AB包_Normal_(已选中的)", false, 81)]
+    [MenuItem("Tools/Labels/标记AB包_Normal_(已选中的)", false, 81)]
     public static void ShowMenu_Normal()
     {
         SetLabels(LABEL_TYPE.NORMAL);
     }
 
 
-    [MenuItem("ZSX/清空Label", false, 80)]
+    [MenuItem("Tools/清空Label", false, 80)]
     public static void ClearLabels()
     {
         SetLabels(LABEL_TYPE.NONE);
@@ -104,7 +104,7 @@ public class CreateAssetBundles
     }
 
 
-    [MenuItem("ZSX/打包已设置的Label/Android")]
+    [MenuItem("Tools/打包已设置的Label/Android")]
     static void BuildAllAssetBundles_android()
     {
         //要创建的目录
@@ -116,7 +116,7 @@ public class CreateAssetBundles
         //三个参数：第一个是创建的目录位置，第二个是AssetBundle的压缩方式，第三个是创建的平台。
         BuildPipeline.BuildAssetBundles(Application.streamingAssetsPath, BuildAssetBundleOptions.None, BuildTarget.Android);
     }
-    [MenuItem("ZSX/打包已设置的Label/StandaloneWindows64")]
+    [MenuItem("Tools/打包已设置的Label/StandaloneWindows64")]
     static void BuildAllAssetBundles_window()
     {
         //要创建的目录
@@ -151,23 +151,23 @@ public class UsingEidtorBundle
         PlayerPrefs.SetInt(editorBundle, pBundle ? 1 : 0);
     }
 
-    [MenuItem("ZSX/BundleEditor/Using Bundle", false, 60)]
+    [MenuItem("Tools/BundleEditor/Using Bundle", false, 60)]
     public static void UsingBundle()
     {
         SaveEditorBundle(true);
     }
-    [MenuItem("ZSX/BundleEditor/Using Editor", false, 60)]
+    [MenuItem("Tools/BundleEditor/Using Editor", false, 60)]
     public static void UsingEditor()
     {
         SaveEditorBundle(false);
     }
 
-    [MenuItem("ZSX/BundleEditor/Using Bundle", true, 60)]
+    [MenuItem("Tools/BundleEditor/Using Bundle", true, 60)]
     public static bool UsingBundleValidation()
     {
         return !GetEidtorBundle();
     }
-    [MenuItem("ZSX/BundleEditor/Using Editor", true, 60)]
+    [MenuItem("Tools/BundleEditor/Using Editor", true, 60)]
     public static bool UsingEditorValidation()
     {
         return GetEidtorBundle();

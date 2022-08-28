@@ -197,6 +197,7 @@ namespace LuaInterface
 
                 AddSearchPath(LuaConst.toluaDir);
                 AddSearchPath(LuaConst.luaDir);
+                //AddSearchPath(Application.dataPath + "/LuaScripts/Core/");
 #endif
                 if (LuaFileUtils.Instance.GetType() == typeof(LuaFileUtils))
                 {

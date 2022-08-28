@@ -19,7 +19,7 @@ end
 
 function Update()
     TipsManager:Update()
-    print("update")
+    --print("update")
 end
 
 function Main()

@@ -5,7 +5,7 @@ using UnityEditor;
 
 public class PackTroopLineImage : EditorWindow
 {
-    [MenuItem("GameTools/行军线贴图合并")]
+    [MenuItem("Tools/行军线贴图合并")]
     public static void OpenWindow()
     {
         GetWindow<PackTroopLineImage>().Focus();

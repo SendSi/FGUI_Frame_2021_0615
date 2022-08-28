@@ -12,7 +12,7 @@ local EventName = require("Core.EventName")
 function BagMainView:LoadComponent()
     self.uiComs = require('ToolGen.04_bag.BagMainView'):OnConstruct(self.contentPane)
     self.uiComs.m_tab02.onClick:Add(function()
-        GlobalEvent:Fire(EventName.BagUpdate, 1001,"wqo")
+        GlobalEvent:Fire(EventName.BagUpdate, 1001,"999999")
     end)
 
 end
@@ -23,6 +23,11 @@ end
 
 function BagMainView:OnHide()
     UIWindow.OnHide(self)
+end
+
+function BagMainView:OnInit()
+    UIWindow.OnInit(self)
+    loggZSXError('Window-BagMainView1')
 end
 
 return BagMainView
