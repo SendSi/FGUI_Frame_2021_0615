@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1334,750" opaque="false" designImageAlpha="20" designImageLayer="1">
   <displayList>
-    <component id="n101_xoe1" name="functionsEles" src="xoe1mz" fileName="components/components_new/main/main_right_function.xml" xy="744,644" group="n109_pwz3">
+    <component id="n101_xoe1" name="functionsEles" src="xoe1mz" fileName="components/components_new/main/functionsEles.xml" xy="744,644" group="n109_pwz3">
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </component>
     <image id="n55_b6o0" name="n55" src="yt2t1ygcg8p" fileName="images4/mainhud_btn_icon013.png" xy="0,677" size="568,73" group="n109_pwz3"/>
@@ -33,14 +33,14 @@
       <item title="功能预告" icon="ui://2r331opvil9y1ygcfjg"/>
       <item icon="ui://2r331opvil9y1ygcfjh"/>
     </list>
-    <component id="n34_b6o0" name="playerIcon" src="xoe1n2" fileName="components/components_new/main/main_playerIcon.xml" xy="0,0" group="n132_lvwk">
+    <component id="n34_b6o0" name="playerInfo" src="xoe1n2" fileName="components/components_new/main/main_playerIcon.xml" xy="0,0" group="n132_lvwk">
       <relation target="" sidePair="rightext-right"/>
     </component>
     <component id="n45_b6o0" name="propTopList" src="ykwwkx" fileName="components/components_new/TokenListView.xml" pkg="2r331opv" xy="616,11" size="700,40" group="n132_lvwk">
       <relation target="" sidePair="right-right"/>
     </component>
     <component id="n120_m47y" name="coordItemBtn" src="gj4q1ygcg9m" fileName="panel/topShowPos.xml" xy="363,10" group="n132_lvwk"/>
-    <group id="n132_lvwk" name="topEle" xy="0,0" size="1334,152" advanced="true"/>
+    <group id="n132_lvwk" name="topEles" xy="0,0" size="1334,152" advanced="true"/>
     <component id="n154_quts" name="rightTeam" src="cv8s1qp8vdw" fileName="components/components_new/main/main_team_right00.xml" xy="1113,138">
       <relation target="" sidePair="middle-middle,right-right"/>
     </component>

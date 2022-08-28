@@ -13,10 +13,32 @@ public class TimeLookEditor : EditorWindow
     void OnGUI()
     {
         EditorGUILayout.LongField("当前时间戳(单位为毫秒):", GetNowTime());
+
+
+        GUILayout.Space(5);
+        EditorGUILayout.BeginVertical("Box");
+        {
+            mSecond = EditorGUILayout.LongField("时间戳(秒):", mSecond);
+            if (GUILayout.Button("转换", GUILayout.Height(27)))
+            {
+                mSecondMsg = ShowSecondFormat(mSecond);
+            }
+            if (mSecondMsg != null)
+            {
+                mSecondMsg = EditorGUILayout.TextField("时间格式", mSecondMsg);
+            }
+        }
+        EditorGUILayout.EndVertical();
+
+
+        GUILayout.Space(25);
         EditorGUILayout.BeginVertical("Box");
         {
             mNumFormat = EditorGUILayout.LongField("时间戳(毫秒):", mNumFormat);
-            mTimeFormat = EditorGUILayout.TextField("时间格式", mTimeFormat);
+            if (mTimeFormat != null)
+            {
+                mTimeFormat = EditorGUILayout.TextField("时间格式", mTimeFormat);
+            }
             if (GUILayout.Button("转换", GUILayout.Height(27)))
             {
                 if (mNumFormat != 0 && mNumFormat != mLastNum)
@@ -55,21 +77,6 @@ public class TimeLookEditor : EditorWindow
             }
         }
         this.Repaint();
-        EditorGUILayout.EndVertical();
-
-        GUILayout.Space(12);
-        EditorGUILayout.BeginVertical("Box");
-        {
-            mSecond = EditorGUILayout.LongField("时间戳(秒):", mSecond);
-            if (GUILayout.Button("转换", GUILayout.Height(27)))
-            {
-                mSecondMsg = ShowSecondFormat(mSecond);             
-            }
-            if (mSecondMsg!=null)
-            {
-                mSecondMsg = EditorGUILayout.TextField("时间格式", mSecondMsg);
-            }
-        }
         EditorGUILayout.EndVertical();
     }
     long mSecond;

@@ -32,7 +32,7 @@
 ---@field public m_cancelBtn CS.FairyGUI.GButton
 ---@field public m_closeButton CS.FairyGUI.GButton
 ---@field public m_win CS.FairyGUI.GGroup
----@field public m_playerIcon main_playerIcon
+---@field public m_playerIcon mainTopPlayerInfo
 local ConscriptionView = {};
 
 ConscriptionView.URL = "ui://4ni413lanil";

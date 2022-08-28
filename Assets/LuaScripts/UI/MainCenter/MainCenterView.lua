@@ -13,6 +13,7 @@ function MainCenterView:LoadComponent()
     self.uiComs = require('ToolGen.03_main.MainCenterView'):OnConstruct(self.contentPane)
 
     require("UI.MainCenter.FunctionsEles"):Init(self.uiComs)
+    require("UI.MainCenter.MainTopPlayerInfo"):Init(self.uiComs)
 end
 
 function MainCenterView:AddBindGlobalEvent()
@@ -29,6 +30,9 @@ function MainCenterView:SetData(str)
     loggZSXWarning(str)
 end
 
+function MainCenterView:SetData()
+
+end
 function MainCenterView:OnHide()
     UIWindow.OnHide(self)
 end

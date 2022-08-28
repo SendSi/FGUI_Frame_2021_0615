@@ -14,7 +14,6 @@ function BagMainView:LoadComponent()
     self.uiComs.m_tab02.onClick:Add(function()
         GlobalEvent:Fire(EventName.BagUpdate, 1001,"999999")
     end)
-
 end
 
 function BagMainView:BindRegisterEvent()
@@ -27,7 +26,6 @@ end
 
 function BagMainView:OnInit()
     UIWindow.OnInit(self)
-    loggZSXError('Window-BagMainView1')
 end
 
 return BagMainView

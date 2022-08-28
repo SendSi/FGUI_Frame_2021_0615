@@ -2,8 +2,6 @@ local UIWindow = fgui.window_class()
 local UIPackage = FairyGUI.UIPackage
 local DataCacheMgr = require("Core.DataCacheMgr")
 local GlobalEvent = require("Core.GlobalEvent")
-local EventName = require("Core.EventName")
-local EventName = require("Core.UIConfig")
 local UIHelper=require("Core.UIHelper")
 
 function UIWindow:ctor(uiConfig)

@@ -11,10 +11,10 @@
 ---@field public m_city_out CS.FairyGUI.GList
 ---@field public m_bottomEles CS.FairyGUI.GGroup
 ---@field public m_activityList CS.FairyGUI.GList
----@field public m_playerIcon main_playerIcon
+---@field public m_playerInfo mainTopPlayerInfo
 ---@field public m_propTopList CS.FairyGUI.GComponent
 ---@field public m_coordItemBtn topShowPos
----@field public m_topEle CS.FairyGUI.GGroup
+---@field public m_topEles CS.FairyGUI.GGroup
 ---@field public m_rightTeam main_team_right00
 ---@field public m_leftTask main_taskitem
 ---@field public m_quit CS.FairyGUI.Transition
@@ -36,10 +36,10 @@ function MainCenterView:OnConstruct(windowCom)
 	m_city_out = windowCom:GetChild("city_out"),
 	m_bottomEles = windowCom:GetChild("bottomEles"),
 	m_activityList = windowCom:GetChild("activityList"),
-	m_playerIcon = windowCom:GetChild("playerIcon"),
+	m_playerInfo = windowCom:GetChild("playerInfo"),
 	m_propTopList = windowCom:GetChild("propTopList"),
 	m_coordItemBtn = windowCom:GetChild("coordItemBtn"),
-	m_topEle = windowCom:GetChild("topEle"),
+	m_topEles = windowCom:GetChild("topEles"),
 	m_rightTeam = windowCom:GetChild("rightTeam"),
 	m_leftTask = windowCom:GetChild("leftTask"),
 	m_quit = windowCom:GetTransition("quit"),

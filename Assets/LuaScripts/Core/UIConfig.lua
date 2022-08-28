@@ -52,6 +52,14 @@ local uiConfig = {
         matchMode=0,
     },
 
+    RoleMainView = {
+        className = 'UI.MainRole.RoleMainView',
+        packageName = '05_mainRole',
+        viewName = 'RoleMainView',
+        sortingOrder = 10,
+        matchMode = 0,
+    }, --
+
     ToastTipView = {
         className = "UI.DialogTip.ToastTipView", --飘字.吐司
         packageName = "07_DialogTip",
