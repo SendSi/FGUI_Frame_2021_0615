@@ -149,6 +149,9 @@ public class LuaMgr : LuaClient
     //}
 }
 ```
+```
 1.自动刷新Lua
 2.图形文字
 3.飘字Toast
+4.view代码生成
+```
