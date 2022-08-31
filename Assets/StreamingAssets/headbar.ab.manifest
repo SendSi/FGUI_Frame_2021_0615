@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3408822459
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e25659edb1ef2df7ba097174e7dc03c8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/HeadBar_atlas0.png
+- Assets/_Res/UI/HeadBar_fui.bytes
+Dependencies: []

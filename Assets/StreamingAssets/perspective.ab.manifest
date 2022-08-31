@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3621572
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d260bad41da16fcb5309f202d8522518
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/Perspective_fui.bytes
+- Assets/_Res/UI/Perspective_atlas0.png
+Dependencies: []

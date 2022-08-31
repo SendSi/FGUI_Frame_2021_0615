@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 436427584
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: acd192f3efa1f9ef5dfeccc98e44aa91
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/05_02_building_atlas0.png
+- Assets/_Res/UI/05_mainRole_atlas0.png
+- Assets/_Res/UI/05_02_building_fui.bytes
+- Assets/_Res/UI/05_mainRole_fui.bytes
+Dependencies: []

@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2067339016
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ca1496aaf86518fee817f17ae183fad5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/17_Task_atlas_plmmz.png
+- Assets/_Res/UI/17_Task_atlas_qzkthz9cy8.png
+- Assets/_Res/UI/17_Task_atlas0.png
+- Assets/_Res/UI/17_Task_atlas_qzkthz9cy7.png
+- Assets/_Res/UI/17_Task_atlas_qzkthz9cy4.png
+- Assets/_Res/UI/17_Task_atlas_qzkthz9cy6.png
+- Assets/_Res/UI/17_Task_atlas_plmmy.png
+- Assets/_Res/UI/17_Task_atlas_csb4hz9cxz.png
+- Assets/_Res/UI/17_Task_atlas_qzkthz9cy5.png
+- Assets/_Res/UI/17_Task_fui.bytes
+- Assets/_Res/UI/17_Task_atlas_wyws4.png
+Dependencies: []

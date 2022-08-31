@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2237579319
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 214ccfc02062ed26e2c79b0cb233809c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/35_Checkpoint_atlas0.png
+- Assets/_Res/UI/35_Checkpoint_atlas_lp550.png
+- Assets/_Res/UI/35_Checkpoint_atlas_lc8g1ygcfey.png
+- Assets/_Res/UI/35_Checkpoint_fui.bytes
+Dependencies: []

@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4220118476
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f0d2b88dcef30cc545ec78f0dde0a0a0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/ChaoFanLueShiZhe.png
+Dependencies: []

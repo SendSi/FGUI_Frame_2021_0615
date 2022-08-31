@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 850700920
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5291849efc388f3b2bf56f4083c3b31d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/GuBaoGuanJia_1.atlas.txt
+- Assets/_Res/UI/GuBaoGuanJia_1.skel.bytes
+- Assets/_Res/UI/GuBaoGuanJia_1.png
+- Assets/_Res/UI/GuBaoGuanJia.png
+Dependencies: []

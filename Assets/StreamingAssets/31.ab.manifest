@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1664640007
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3054068ffa7ba3bd0f612521eec39703
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/31_Smithy_atlas0.png
+- Assets/_Res/UI/31_Smithy_fui.bytes
+- Assets/_Res/UI/31_Smithy_atlas_no3v2.png
+Dependencies: []

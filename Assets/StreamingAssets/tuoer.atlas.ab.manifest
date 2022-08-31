@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2961676434
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 99807bd717d9cd77d8964c5f6c202902
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/Tuoer.atlas.txt
+Dependencies: []

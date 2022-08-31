@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2451987768
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9b6535ac83fa8f83da9c191d591fe24e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/29_DefendCity_atlas_qajo1ygcfoo.png
+- Assets/_Res/UI/29_DefendCity_atlas_m5yh1ygcfoy.png
+- Assets/_Res/UI/29_DefendCity_atlas0.png
+- Assets/_Res/UI/29_DefendCity_fui.bytes
+Dependencies: []

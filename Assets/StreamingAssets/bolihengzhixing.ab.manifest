@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2867634311
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7a06127990ef9883dc85692e3a0a6b1a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/BoliHengzhiXing.png
+Dependencies: []

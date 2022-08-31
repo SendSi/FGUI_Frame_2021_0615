@@ -201,7 +201,17 @@ public class UnityEngine_DebugWrap
 		{
 			int count = LuaDLL.lua_gettop(L);
 
-			if (TypeChecker.CheckTypes<UnityEngine.Object, string>(L, 1) && TypeChecker.CheckParamsType<object>(L, 3, count - 2))
+			if (TypeChecker.CheckTypes<UnityEngine.LogType, UnityEngine.LogOption, UnityEngine.Object, string>(L, 1) && TypeChecker.CheckParamsType<object>(L, 5, count - 4))
+			{
+				UnityEngine.LogType arg0 = (UnityEngine.LogType)ToLua.ToObject(L, 1);
+				UnityEngine.LogOption arg1 = (UnityEngine.LogOption)ToLua.ToObject(L, 2);
+				UnityEngine.Object arg2 = (UnityEngine.Object)ToLua.ToObject(L, 3);
+				string arg3 = ToLua.ToString(L, 4);
+				object[] arg4 = ToLua.ToParamsObject(L, 5, count - 4);
+				UnityEngine.Debug.LogFormat(arg0, arg1, arg2, arg3, arg4);
+				return 0;
+			}
+			else if (TypeChecker.CheckTypes<UnityEngine.Object, string>(L, 1) && TypeChecker.CheckParamsType<object>(L, 3, count - 2))
 			{
 				UnityEngine.Object arg0 = (UnityEngine.Object)ToLua.ToObject(L, 1);
 				string arg1 = ToLua.ToString(L, 2);

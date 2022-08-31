@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3632950720
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f69bbd7fadce0bbc24d2d43312d3ea6e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/32_NeutralCity_atlas0.png
+- Assets/_Res/UI/32_NeutralCity_atlas_svx3hz9d7c.png
+- Assets/_Res/UI/32_NeutralCity_fui.bytes
+Dependencies: []

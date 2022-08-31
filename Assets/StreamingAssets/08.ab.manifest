@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2029533012
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fb3ee0322b483b07714c31fba56e944b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/08_Troops_atlas0.png
+- Assets/_Res/UI/08_Troops_fui.bytes
+- Assets/_Res/UI/08_Troops_atlas_l9881ygcfgh.png
+- Assets/_Res/UI/08_Troops_atlas_l9881ygcfgi.png
+- Assets/_Res/UI/08_Troops_atlas_phj41ygcffy.png
+Dependencies: []

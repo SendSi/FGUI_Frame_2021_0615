@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 454271124
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 735540fef7b95d6f856e2fd2f4a83b28
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/HF_atlas0.png
+- Assets/_Res/UI/HF_fui.bytes
+- Assets/_Res/UI/HF_atlas_wizi3.png
+Dependencies: []

@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2561783950
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b6ae628fb4de08140d7f6298b27add01
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/DuoHunLieMoZhe.png
+Dependencies: []

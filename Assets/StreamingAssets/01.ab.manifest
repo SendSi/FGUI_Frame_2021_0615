@@ -1,0 +1,58 @@
+ManifestFileVersion: 0
+CRC: 78382375
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 366f4178eec8217d00a6b893ca0f41ca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2bf1fd7c588d19c593d8f394c8ad6ae2
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/01_common_atlas_91o91ygcfko.png
+- Assets/_Res/UI/01_common_eh1f1ygcglm.wav
+- Assets/_Res/UI/01_common_atlas_e2ps1iy5b98.png
+- Assets/_Res/UI/01_common_atlas0.png
+- Assets/_Res/UI/01_2_ComGeneral2_fui.bytes
+- Assets/_Res/UI/01_common_eh1f1ygcglj.wav
+- Assets/_Res/UI/01_common_atlas1.png
+- Assets/_Res/UI/01_3_Comskill_atlas0.png
+- Assets/_Res/UI/01_common_eh1f1ygcglo.wav
+- Assets/_Res/UI/01_common_atlas0_3.png
+- Assets/_Res/UI/01_common_fui.bytes
+- Assets/_Res/UI/01_2_ComGeneral_atlas0.png
+- Assets/_Res/UI/01_common_eh1f1ygcglt.wav
+- Assets/_Res/UI/01_common_eh1f1ygcglp.wav
+- Assets/_Res/UI/01_common_atlas_c92hhz9cum.png
+- Assets/_Res/UI/01_common_eh1f1ygcgls.wav
+- Assets/_Res/UI/01_3_Comskill_fui.bytes
+- Assets/_Res/UI/01_common_eh1f1ygcglr.wav
+- Assets/_Res/UI/01_2_ComGeneral_fui.bytes
+- Assets/_Res/UI/01_common_atlas_pepa1ygcfnf.png
+- Assets/_Res/UI/01_common_eh1f1ygcglw.wav
+- Assets/_Res/UI/01_common_atlas_ujpqchb.png
+- Assets/_Res/UI/01_4_prop_atlas0_1.png
+- Assets/_Res/UI/01_common_atlas0_2.png
+- Assets/_Res/UI/01_common_atlas0_1.png
+- Assets/_Res/UI/01_common_eh1f1ygcglq.wav
+- Assets/_Res/UI/01_4_prop_atlas0.png
+- Assets/_Res/UI/01_common_eh1f1ygcglx.wav
+- Assets/_Res/UI/01_4_prop_fui.bytes
+- Assets/_Res/UI/01_common_eh1f1ygcglu.wav
+- Assets/_Res/UI/01_common_eh1f1ygcglv.wav
+- Assets/_Res/UI/01_common_atlas_c92hhz9cuk.png
+- Assets/_Res/UI/01_common_atlas_eaahz9co7.png
+- Assets/_Res/UI/01_common_atlas_c92hhz9cul.png
+- Assets/_Res/UI/01_common_eh1f1ygcgll.wav
+- Assets/_Res/UI/01_common_eh1f1ygcgln.wav
+- Assets/_Res/UI/01_common_eh1f1ygcglk.mp3
+- Assets/_Res/UI/01_2_ComGeneral2_atlas0.png
+Dependencies: []

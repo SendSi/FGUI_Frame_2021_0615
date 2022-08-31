@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 4288694107
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8d3b6519426c383c95bd734918701f70
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/30_activity_atlas0_1.png
+- Assets/_Res/UI/30_activity_atlas_w84wo.png
+- Assets/_Res/UI/30_activity_atlas_ha7x1q.png
+- Assets/_Res/UI/30_activity_atlas_gr021ygcfg4.png
+- Assets/_Res/UI/30_activity_atlas_l7h11ygcfs8.png
+- Assets/_Res/UI/30_activity_fui.bytes
+- Assets/_Res/UI/30_activity_atlas_tx7rd.png
+- Assets/_Res/UI/30_activity_atlas_q60q1ygcfha.png
+- Assets/_Res/UI/30_activity_atlas_pdfthz9cyr.png
+- Assets/_Res/UI/30_activity_atlas_pdfthz9cyo.png
+- Assets/_Res/UI/30_activity_atlas0.png
+- Assets/_Res/UI/30_activity_atlas_sp1i1ygcfmz.png
+Dependencies: []

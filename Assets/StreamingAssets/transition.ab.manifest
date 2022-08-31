@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2328502291
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9e20bc76cbcc27031994ba31e1ff4a25
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2bf1fd7c588d19c593d8f394c8ad6ae2
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/Transition_gkq03.wav
+- Assets/_Res/UI/Transition_atlas0.png
+- Assets/_Res/UI/Transition_fui.bytes
+Dependencies: []

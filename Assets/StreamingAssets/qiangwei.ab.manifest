@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 7343786
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e03dd56a2e9af54ad5cd9d9eceead468
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/QiangWei.png
+- Assets/_Res/UI/QiangWei_1.atlas.txt
+- Assets/_Res/UI/QiangWei_1.png
+- Assets/_Res/UI/QiangWei_1.skel.bytes
+Dependencies: []

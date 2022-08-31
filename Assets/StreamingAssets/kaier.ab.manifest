@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 582415736
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2df955b32dd8d2b30dddf278349e15d2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/Kaier.png
+Dependencies: []

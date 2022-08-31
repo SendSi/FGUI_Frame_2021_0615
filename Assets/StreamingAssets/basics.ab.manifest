@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3277501363
+CRC: 4061141647
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 14888b76e7f2891aed15a254c3e3efcd
+    Hash: 84fa78102b96d978c3cf018de9641137
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2fb5e9d95943c36c35f2f3afcdcb21e6
+    Hash: 2bf1fd7c588d19c593d8f394c8ad6ae2
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -15,9 +15,10 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 83
   Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/_Res/UI/Basics_gojg7u.wav
+- Assets/_Res/UI/Basics_fui.bytes
 - Assets/_Res/UI/Basics_atlas0.png
 - Assets/_Res/UI/Basics_o4lt7w.wav
-- Assets/_Res/UI/Basics_fui.bytes
-- Assets/_Res/UI/Basics_gojg7u.wav
 Dependencies: []

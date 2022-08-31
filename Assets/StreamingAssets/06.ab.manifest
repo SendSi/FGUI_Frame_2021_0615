@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 4259298121
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7369a3de04a39452f3d3688f0775c830
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/06_Recruit_atlas_gww7i5.png
+- Assets/_Res/UI/06_Recruit_atlas_k0cc1qp8vfb.png
+- Assets/_Res/UI/06_Recruit_atlas_gww7i4.png
+- Assets/_Res/UI/06_Recruit_fui.bytes
+- Assets/_Res/UI/06_Recruit_atlas_vm4c1qp8vek.png
+- Assets/_Res/UI/06_Recruit_atlas_gww7i6.png
+- Assets/_Res/UI/06_Recruit_atlas0.png
+Dependencies: []

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1310094966
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 52f0a29bab69faf4a8beb088b166da67
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/09_Emoji_atlas0.png
+- Assets/_Res/UI/09_Emoji_fui.bytes
+Dependencies: []

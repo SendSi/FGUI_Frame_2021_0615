@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2601489229
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a74ad0bda793727ed431eaa37fb1f823
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/36_WarOrder_fui.bytes
+- Assets/_Res/UI/36_WarOrder_atlas_z5931ygcfjf.png
+- Assets/_Res/UI/36_WarOrder_atlas0.png
+Dependencies: []

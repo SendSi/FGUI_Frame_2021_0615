@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1070455292
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 24c91fdbd631fd782725c4105e468c07
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/BingshuangTiequan.png
+Dependencies: []

@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2031941117
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 92368d4eb9725028237d20128274dca0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/04_bag_fui.bytes
+- Assets/_Res/UI/04_bag_atlas0.png
+- Assets/_Res/UI/04_general_information_atlas0_2.png
+- Assets/_Res/UI/04_general_information_atlas_kvv41iy5be0.png
+- Assets/_Res/UI/04_general_information_atlas0.png
+- Assets/_Res/UI/04_general_information_fui.bytes
+- Assets/_Res/UI/04_general_information_atlas_kxx21iy5bdm.png
+- Assets/_Res/UI/04_general_information_atlas0_1.png
+- Assets/_Res/UI/04_general_information_atlas_kxx21iy5bdh.png
+Dependencies: []

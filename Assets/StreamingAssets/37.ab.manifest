@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 255706599
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4264251737287c4b0a0b490857055c96
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/37_Welfare_atlas_vsu61ygcfqp.png
+- Assets/_Res/UI/37_Welfare_atlas0.png
+- Assets/_Res/UI/37_Welfare_atlas0_1.png
+- Assets/_Res/UI/37_Welfare_fui.bytes
+- Assets/_Res/UI/37_Welfare_atlas_9sqn1ygcfic.png
+- Assets/_Res/UI/37_Welfare_atlas_qysg1ygcfnf.png
+Dependencies: []

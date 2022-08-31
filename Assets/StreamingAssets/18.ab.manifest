@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 437851097
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0410a7b1cee3d97af1107c7f1c4f7de6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/18_CollegeResearch_atlas0.png
+- Assets/_Res/UI/18_CollegeResearch_atlas_nn2c1ygcfe5.png
+- Assets/_Res/UI/18_CollegeResearch_fui.bytes
+- Assets/_Res/UI/18_CollegeResearch_atlas_nn2c1ygcfea.png
+Dependencies: []

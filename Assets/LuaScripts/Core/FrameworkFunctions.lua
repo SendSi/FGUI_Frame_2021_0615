@@ -165,11 +165,6 @@ local function dump_value_(v)
     return tostring(v)
 end
 
-local Debug = UnityEngine.Debug.Log
-function mylog(tag,str)
-    Debug(tag.."<color=#FFFF00>"..tostring(str).."</color>")
-end  
-
 function dump(value, description, nesting)
     if type(nesting) ~= "number" then nesting = 3 end
 
