@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2074512369
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cf621ed96c25c32ca2195d8d64a79b07
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/DuoHunLieMoZhe.skel.bytes
+Dependencies: []

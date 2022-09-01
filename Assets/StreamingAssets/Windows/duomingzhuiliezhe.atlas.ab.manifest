@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3933098140
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 938122ba7cae783942e4f366eed2bd4b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/DuoMingZhuiLieZhe.atlas.txt
+Dependencies: []

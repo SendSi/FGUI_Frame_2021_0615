@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 608720285
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c05fd7d2ac59efdd23ecb2422782faa7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/BoJueXiaoJie.png
+Dependencies: []

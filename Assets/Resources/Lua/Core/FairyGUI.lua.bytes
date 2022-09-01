@@ -78,7 +78,9 @@ function fgui.window_class(base)
         local ins = FairyGUI.Window.New()
         tolua.setpeer(ins, t)
         ins:SetLuaPeer(t)
-        if t.ctor then t.ctor(ins, ...) end
+        if t.ctor then
+            t.ctor(ins, ...)
+        end
 
         return ins
     end
@@ -125,7 +127,7 @@ myButton2.myProp = 'world'
 
 function fgui.register_extension(url, extension)
     FairyGUI.UIObjectFactory.SetExtension(url, typeof(extension.base),
-                                          extension.Extend)
+            extension.Extend)
 end
 
 function fgui.extension_class(base)
@@ -139,6 +141,10 @@ function fgui.extension_class(base)
         setmetatable(t, o)
         tolua.setpeer(ins, t)
         return t
+    end
+
+    o.HasLuaProperty = function(o, attrName)
+        return tolua.getpeer(o)[attrName] ~= nil
     end
 
     return o

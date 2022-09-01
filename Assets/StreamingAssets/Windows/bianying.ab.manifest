@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2978265910
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c7a8587314ccbdf1344af71fc9648085
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/BiAnying.png
+Dependencies: []

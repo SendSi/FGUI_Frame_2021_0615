@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 682485180
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3bd6cee0042d4306b6bfb67adea41fae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/CanBaoJianDun.png
+Dependencies: []

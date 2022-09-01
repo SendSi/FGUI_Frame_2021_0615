@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3903525796
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc3e49fab807d2f85c99aaec5fe8c131
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/Joystick_atlas0.png
+- Assets/_Res/UI/Joystick_fui.bytes
+Dependencies: []

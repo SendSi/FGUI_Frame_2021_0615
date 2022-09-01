@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2380860168
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3b1dfbc8b016d4e0e7092a0bb2931b09
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/leiouna.atlas.txt
+Dependencies: []

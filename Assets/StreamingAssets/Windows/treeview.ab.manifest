@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 501159225
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 96850c2127b9452484996f51d678d058
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/TreeView_atlas0.png
+- Assets/_Res/UI/TreeView_fui.bytes
+Dependencies: []

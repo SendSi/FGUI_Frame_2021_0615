@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2489830179
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bedb953ce7182caddbe02eb4b77591c4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/Ataier.png
+Dependencies: []

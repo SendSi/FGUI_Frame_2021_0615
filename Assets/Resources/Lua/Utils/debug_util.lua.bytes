@@ -23,18 +23,18 @@ function loginfo(...)
         UnityEngine.Debug.Log(traceback(arg))
     end
 end
+
+function loginfoRed(...)
+    if isDebug then
+        local arg = "<color=red>" .. GetMultyParams(...) .. "</color>"
+        UnityEngine.Debug.Log(traceback(arg))
+    end
+end
 function logwarn(...)
     if isDebug then
         local arg = GetMultyParams(...)
         UnityEngine.Debug.LogWarning(traceback(arg))
     end
-end
-
-function logwarnCCC(...)
-    --if isDebug then
-    --    local arg = "<color=red> ##CCC## </color>" .. GetMultyParams(...)
-    --    UnityEngine.Debug.LogWarning(traceback(arg))
-    --end
 end
 
 function logNetMsg(...)
@@ -46,15 +46,22 @@ end
 
 function loggZSX(...)
     if isDebug then
-        local arg = "<color=green> ##ZSX## </color>" .. os.date("%X") .. " ## " .. GetMultyParams(...)
+        local arg = "<color=green> ##ZSX## </color>" .. " ## " .. GetMultyParams(...)
         UnityEngine.Debug.Log(traceback(arg))
     end
 end
 
 function loggZSXWarning(...)
     if isDebug then
-        local arg = "<color=purple> ##ZSX## </color>" .. os.date("%X") .. " ## " .. GetMultyParams(...)
+        local arg = "<color=purple> ##ZSX## </color>" .. " ## " .. GetMultyParams(...)
         UnityEngine.Debug.LogWarning(traceback(arg))
+    end
+end
+
+function loggZSXError(...)
+    if isDebug then
+        local arg = "<color=blue> ##ZSX## </color>" .. " ## " .. GetMultyParams(...)
+        UnityEngine.Debug.LogError(traceback(arg))
     end
 end
 

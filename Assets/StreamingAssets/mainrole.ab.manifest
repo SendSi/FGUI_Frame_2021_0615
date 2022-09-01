@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3374203537
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 85d48020a6d1ba2777073f19cb361870
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_Res/UI/mainRole_fui.bytes
+- Assets/_Res/UI/mainRole_atlas0.png
+Dependencies: []

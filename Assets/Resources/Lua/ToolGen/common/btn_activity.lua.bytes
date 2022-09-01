@@ -1,0 +1,23 @@
+--- This is an automatically generated class by FairyGUI. Please do not modify it. ---
+
+---@class btn_activity : CS.FairyGUI.GButton
+---@field public __ui CS.FairyGUI.GButton
+---@field public m_button CS.FairyGUI.Controller
+---@field public m_icon CS.FairyGUI.GLoader
+---@field public m_title CS.FairyGUI.GRichTextField
+local btn_activity = {};
+
+btn_activity.URL = "ui://2r331opvnil";
+
+function btn_activity:OnConstruct(windowCom)
+	local tb = {
+	m_button = windowCom:GetController("button"),
+	m_icon = windowCom:GetChild("icon"),
+	m_title = windowCom:GetChild("title"),
+	}
+	return tb
+end
+
+return btn_activity;
+
+--self.uiComs=require('ToolGen.common.btn_activity'):OnConstruct(self.contentPane)
