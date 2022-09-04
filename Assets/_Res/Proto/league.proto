@@ -1,0 +1,368 @@
+package com.manling.common.protobuf.proto;
+option java_package = "com.manling.common.protobuf.proto";
+option java_outer_classname = "ProtoLeague";
+option optimize_for = SPEED;
+
+import "FightOrder.proto";
+import "LeagueRedEnvelope.proto";
+import "LeagueDiplomacy.proto";
+import "LeagueWarehouse.proto";
+
+
+/*联盟占领中立城（圣城）面板请求*/
+message LeagueOccupyNeutralPanelReq{
+    /*msgId = 10912;*/
+}
+
+
+/*联盟占领中立城（圣城）面板响应*/
+message LeagueOccupyNeutralPanelRes{
+    /*msgId = 10913;*/
+    /*占领的中立城信息列表*/
+    repeated OccupiedNeutralCityMsg neutralInfoList = 1;
+}
+
+
+/*中立城（圣城）信息*/
+message NeutralInfo{
+    /*msgId = 10914;*/
+    /*配置id*/
+    optional int32 cfgId = 1;
+    /*占领该中立城的联盟简称*/
+    optional string occupySimpleLeagueName = 3;
+    /*占领该中立城的联盟全称*/
+    optional string occupyLeagueName = 4;
+    /*是否新开启*/
+    optional bool newOpen = 5;
+}
+
+
+/*请求联盟红包列表*/
+message LeagueRedEnvelopeListReq{
+    /*msgId = 11040;*/
+}
+
+
+/*领取红包请求*/
+message LeagueRedEnvelopeReceiveReq{
+    /*msgId = 11041;*/
+    /*红包id*/
+    optional string envelopeId = 1;
+}
+
+
+/*联盟系统红包发送请求*/
+message LeagueRedEnvelopeSysSendReq{
+    /*msgId = 11042;*/
+    /*系统红包唯一id*/
+    optional string envelopeId = 1;
+}
+
+
+/*联盟个人红包发送请求*/
+message LeagueRedEnvelopePerSendReq{
+    /*msgId = 11043;*/
+    /*要发送的道具id*/
+    optional int32 itemId = 1;
+    /*要发送的道具总数量*/
+    optional int32 itemNum = 2;
+    /*要发送的红包个数*/
+    optional int32 packetNum = 3;
+    /*红包祝福语*/
+    optional string greetings = 4;
+}
+
+
+/*领取红包响应*/
+message LeagueRedEnvelopeReceiveRes{
+    /*msgId = 11044;*/
+    /*发送红包玩家头像*/
+    optional int32 icon = 1;
+    /*发送红包玩家名称*/
+    optional string name = 2;
+    /*红包类型-LeagueRedEnvelopeTypeEnums*/
+    optional int32 type = 3;
+    /*红包祝福语*/
+    optional string greetings = 4;
+    /*系统红包祝福语*/
+    optional int32 tipId = 5;
+    /*红包总数量*/
+    optional int32 packetNum = 6;
+    /*道具总数量*/
+    optional int32 itemNum = 7;
+    /*是否抢到红包*/
+    optional bool received = 8;
+    /*抢到道具数量*/
+    optional int32 num = 9;
+    /*领取红包明细列表*/
+    repeated LeagueRedEnvelopeReceivedDetail receivedDetailList = 10;
+    /*道具id*/
+    optional int32 itemId = 11;
+    /*红包uid*/
+    optional string envelopeId = 12;
+    /*发送红包玩家头像框id0:则未佩戴*/
+    optional int32 avatarFrameId = 13;
+}
+
+
+/*联盟红包响应*/
+message LeagueRedEnvelopeListRes{
+    /*msgId = 11046;*/
+    /*联盟红包列表*/
+    repeated LeagueRedEnvelopeMsg redEnvelopeMsgList = 1;
+    /*每日当前发送次数*/
+    optional int32 dailySendNum = 2;
+}
+
+
+/**/
+message LeagueRedEnvelopeSysListRes{
+    /*msgId = 11048;*/
+    /*未发送的系统红包列表*/
+    repeated LeagueRedEnvelopeSysMsg sysMsgList = 1;
+}
+
+
+/*我的红包列表(即未发送的系统红包列表)*/
+message LeagueRedEnvelopeSysListReq{
+    /*msgId = 11050;*/
+}
+
+
+/*联盟红包记录响应*/
+message LeagueRedEnvelopRecordRes{
+    /*msgId = 11062;*/
+    /*发送红包个数*/
+    optional int32 sendNum = 1;
+    /*领取红包个数*/
+    optional int32 receivedNum = 2;
+    /*发出道具详细*/
+    repeated LeagueRedEnvelopeItemDetail sendItemDetailList = 3;
+    /*抢到道具详细*/
+    repeated LeagueRedEnvelopeItemDetail receivedItemDetailList = 4;
+    /*联盟红包记录列表*/
+    repeated LeagueRedEnvelopeRecordMsg recordMsgList = 5;
+}
+
+
+/*联盟红包记录请求*/
+message LeagueRedEnvelopRecordReq{
+    /*msgId = 11065;*/
+}
+
+
+/*联盟外交记录申请*/
+message LeagueDiplomacyRecordReq{
+    /*msgId = 11066;*/
+}
+
+
+/*联盟外交列表请求*/
+message LeagueDiplomacyListReq{
+    /*msgId = 11067;*/
+}
+
+
+/*联盟友盟申请操作请求*/
+message LeagueDiplomacyOperateReq{
+    /*msgId = 11068;*/
+    /*是否同意友盟申请*/
+    optional bool agree = 1;
+    /*联盟id*/
+    optional string leagueId = 2;
+}
+
+
+/*联盟外交关系设置响应*/
+message LeagueDiplomacySetRes{
+    /*msgId = 11069;*/
+    /**/
+    optional LeagueDiplomacyMsg leagueDiplomacyMsg = 1;
+}
+
+
+/*联盟外交列表响应*/
+message LeagueDiplomacyListRes{
+    /*msgId = 11071;*/
+    /**/
+    repeated LeagueDiplomacyMsg diplomacyMsgList = 1;
+}
+
+
+/*联盟友盟申请列表请求*/
+message LeagueDiplomacyApplicationReq{
+    /*msgId = 11072;*/
+}
+
+
+/*联盟友盟申请列表响应*/
+message LeagueDiplomacyApplicationRes{
+    /*msgId = 11073;*/
+    /*联盟友盟申请列表*/
+    repeated LeagueDiplomacyApplicationMsg applicationMsgList = 1;
+}
+
+
+/*联盟外交记录响应*/
+message LeagueDiplomacyRecordRes{
+    /*msgId = 11075;*/
+    /*联盟外交记录*/
+    repeated LeagueDiplomacyRecordMsg recordMsgList = 1;
+}
+
+
+/*联盟外交关系*/
+message LeagueRelationshipListRes{
+    /*msgId = 11077;*/
+    /*联盟外交关系列表*/
+    repeated LeagueRelationshipMsg relationshipMsgList = 1;
+}
+
+
+/*联盟外交关系设置请求*/
+message LeagueDiplomacySetReq{
+    /*msgId = 11079;*/
+    /*要设置的联盟id*/
+    optional string leagueId = 1;
+    /*联盟外交关系，对应LeagueDiplomacyRelationshipEnums枚举*/
+    optional int32 relationship = 2;
+}
+
+
+/*联盟外交关系改变响应*/
+message LeagueDiplomacyChangeRes{
+    /*msgId = 11081;*/
+    /*联盟id*/
+    optional string leagueId = 1;
+    /*修改后的外交关系*/
+    optional int32 relationship = 2;
+}
+
+
+/*任命城主请求*/
+message AppointNeucityCityLordReq{
+    /*msgId = 11136;*/
+    /*中立城配置id*/
+    optional int32 cfgId = 1;
+    /*被任命的玩家*/
+    optional string roleId = 2;
+}
+
+
+/*全服中立城面板展示*/
+message AllNeutralCityPanelReq{
+    /*msgId = 11138;*/
+}
+
+
+/*全服中立城面板响应*/
+message AllNeutralCityPanelRes{
+    /*msgId = 11139;*/
+    /*中立城信息列表*/
+    repeated NeutralInfo neutralInfoList = 1;
+}
+
+
+/*联盟福利面板响应*/
+message LeagueWelfareRes{
+    /*msgId = 11170;*/
+    /*联盟福利数据*/
+    repeated LeagueWelfareData leagueWelfareDataList = 3;
+}
+
+
+/*联盟福利面板请求*/
+message LeagueWelfareReq{
+    /*msgId = 11176;*/
+}
+
+
+/**/
+message LeagueWelfareData{
+    /*msgId = 11179;*/
+    /*联盟福利配置ID*/
+    optional int32 LeagueWelfareCfgId = 1;
+    /*剩余次数-1代表不限制次数*/
+    optional int32 howMany = 2;
+}
+
+
+/*联盟仓库日志信息响应*/
+message LeagueWarehouseLogRes{
+    /*msgId = 11182;*/
+    /*联盟id*/
+    optional string leagueId = 1;
+    /*联盟仓库操作日志列表*/
+    repeated LeagueWarehouseLogMsg logMsgList = 2;
+}
+
+
+/*联盟仓库详情请求*/
+message LeagueWarehouseReq{
+    /*msgId = 11185;*/
+}
+
+
+/*联盟仓库分配请求*/
+message DistributeWarehouseReq{
+    /*msgId = 11186;*/
+    /*需要分配的玩家id*/
+    repeated string idList = 1;
+    /*需要分配的道具信息*/
+    repeated ItemMsg itemList = 2;
+}
+
+
+/*联盟仓库日志信息请求*/
+message LeagueWarehouseLogReq{
+    /*msgId = 11187;*/
+}
+
+
+/*联盟仓库道具详情响应*/
+message LeagueWarehouseRes{
+    /*msgId = 11188;*/
+    /*联盟id*/
+    optional string leagueId = 1;
+    /*联盟仓库存在的道具详情*/
+    repeated ItemMsg itemMsgList = 2;
+}
+
+
+/*联盟资源信息响应*/
+message LeagueResourceCollectMsgRes{
+    /*msgId = 11200;*/
+    /**/
+    repeated LeagueResourceCollectMsg resourceCollectMsgList = 1;
+}
+
+
+/**/
+message LeagueResourceCollectMsg{
+    /*msgId = 11201;*/
+    /*资源类型id*/
+    optional int32 itemId = 1;
+    /*每小时/产量*/
+    optional int32 productNum = 2;
+}
+
+
+/*查看联盟红包信息*/
+message LeagueRedEnvelopeInfoReq{
+    /*msgId = 11316;*/
+    /*联盟红包uid*/
+    optional string uid = 1;
+}
+
+
+/*查看联盟红包信息*/
+message LeagueRedEnvelopeInfoRes{
+    /*msgId = 11317;*/
+    /*获取结果*/
+    optional bool result = 1;
+    /*红包状态-LeagueRedEnvelopeStatusEnums*/
+    optional int32 status = 2;
+    /*红包uid*/
+    optional string uid = 3;
+}
+

@@ -9,7 +9,7 @@ using UnityEngine;
 
 public class CSRequestScripts_New : EditorWindow
 {
-    string mStr_PB_Path { get { return Application.dataPath + "/_Resources/Proto/"; } }
+    string mStr_PB_Path { get { return Application.dataPath + "/_Res/Proto/"; } }
     string mProtocalName = "league";
     /// <summary>   第0位(0.req.cs)(1.res.sc)    第1位.注释      第2位 名字   3名字label  4textShowValue   5单复数  6类型int.string      </summary>
     Dictionary<string, List<string>> mInterfaceDic = new Dictionary<string, List<string>>();//key=接口,value={注释,类型}

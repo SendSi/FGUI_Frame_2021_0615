@@ -49,6 +49,7 @@ public class AssetLoader : MonoBehaviour
         Instance = this;
     }
 
+
     public void AddPackage(string package, Action<List<string>> load)
     {
         if (mIsLoadBundle)

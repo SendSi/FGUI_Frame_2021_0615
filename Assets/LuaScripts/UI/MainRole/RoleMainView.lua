@@ -16,8 +16,7 @@ function RoleMainView:LoadComponent()
         require('UI.MainRole.ProxyMainRoleModule'):CloseRoleMainView()
     end)
 
-    loggZSXError("lua hot 9999")
-
+    loggZSXError("lua 热更 --搜搜热更")
 end
 
 function RoleMainView:AddBindGlobalEvent()

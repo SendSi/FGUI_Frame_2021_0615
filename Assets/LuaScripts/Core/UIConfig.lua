@@ -76,7 +76,21 @@ local uiConfig = {
         matchMode=0,
     },
 
+    BagMainView = {
+    className = 'UI.league.BagMainView',
+     packageName = '07_***',
+     viewName = 'BagMainView',
+     sortingOrder = 10,
+     matchMode = 0,
+        },
 
+    MainModifyView = {
+className = 'UI.MainRole.MainModifyView',
+ packageName = '07_***',
+ viewName = 'MainModifyView',
+ sortingOrder = 10,
+ matchMode = 0,
+    },--
 
 
     ---全局设定
