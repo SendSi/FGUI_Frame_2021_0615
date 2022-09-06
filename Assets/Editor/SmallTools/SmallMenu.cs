@@ -53,10 +53,10 @@ public class SmallMenu : EditorWindow
     {
         EditorWindow.GetWindow(typeof(CSRequestScripts), false, "CS请求", true);
     }
-    [MenuItem("Tools/小工具/CS请求_新 _F8")]
+    [MenuItem("Tools/小工具/F8工具(非Odin版本)")]
     public static void ShowCSNew()
     {
-        EditorWindow.GetWindow(typeof(CSRequestScripts_New), false, "CS请求_新", true);
+        EditorWindow.GetWindow(typeof(CSRequestScripts_New), false, "F8工具(非Odin版本)", true);
     }
 
     [MenuItem("Tools/小工具/Script Null 辅助工具 %&#P")]
