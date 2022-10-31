@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="273,164">
-  <displayList>
-    <text id="n2_aguo" name="title" xy="0,0" size="273,164" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" autoSize="height" text="这里打字描述这里打字描述这里打字描述这里打字描述这里打字描述这里打字描述这里打字描述这里打字描述这里打字描述这里打字描述这里打字描述这里打字描述"/>
-  </displayList>
-  <relation target="n2_aguo" sidePair="bottomext-bottom"/>
-</component>

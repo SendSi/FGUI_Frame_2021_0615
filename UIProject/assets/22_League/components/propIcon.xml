@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="94,96" pivot="0.5,0.5" extention="Button">
-  <displayList>
-    <loader id="n113_n6uq" name="icon_bg" xy="0,0" pivot="0.5,0.5" size="94,96" aspect="true" url="ui://2r331opv94957" fill="scale"/>
-    <loader id="n114_n6uq" name="icon" xy="7,6" pivot="0.5,0.5" size="80,80" url="ui://tsbe09ddmz4w3" fill="scale"/>
-  </displayList>
-  <Button downEffect="scale" downEffectValue=".95"/>
-</component>

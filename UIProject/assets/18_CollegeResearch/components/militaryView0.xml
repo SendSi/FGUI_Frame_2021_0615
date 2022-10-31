@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="1019,551" scroll="horizontal" mask="n1_ekfu">
-  <displayList>
-    <component id="n0_qmic" name="militaryView" src="aklwq" fileName="components/researchTab_Item1.xml" xy="0,0"/>
-    <graph id="n1_ekfu" name="n1" xy="0,0" size="1019,551" type="rect"/>
-  </displayList>
-</component>

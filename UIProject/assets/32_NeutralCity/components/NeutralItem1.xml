@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="392,92">
-  <displayList>
-    <image id="n4_dvd1" name="bg" src="yya01iy5b9h" fileName="images/images_new/windowBg_new/negative_bg08.png" pkg="2r331opv" xy="0,0" size="392,92" aspect="true"/>
-    <text id="n0_hn57" name="title" xy="17,29" size="358,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="[color=#e77917]1-4级[/color]公会可占领"/>
-  </displayList>
-</component>

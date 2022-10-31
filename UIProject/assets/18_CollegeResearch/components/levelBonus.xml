@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="564,50">
-  <displayList>
-    <text id="n0_i8bs" name="attributeBonus" xy="5,4" size="299,42" fontSize="30" color="#dddcae" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" text="x阵营属性加成"/>
-    <text id="n1_i8bs" name="bonusNumber" xy="261,5" size="299,42" fontSize="28" color="#e6e1d6" align="right" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" text="3%   [color=#7ad396]+1%[/color]"/>
-  </displayList>
-</component>

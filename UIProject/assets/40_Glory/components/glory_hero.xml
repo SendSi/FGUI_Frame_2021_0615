@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="72,72" mask="n6_ejjd">
-  <displayList>
-    <graph id="n6_ejjd" name="mask" xy="0,0" size="72,72" type="eclipse" lineSize="0"/>
-    <loader id="n4_fccv" name="iconT" xy="-5,-6" size="88,88" scale="0.9,0.9" url="ui://61bunt4foozhgr" align="center" vAlign="middle" autoSize="true"/>
-  </displayList>
-</component>

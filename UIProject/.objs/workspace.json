@@ -31,7 +31,12 @@
   "auxline2": true,
   "doc.activeDoc": "ui://2r331opvgqih1ygcfgk",
   "libview.twoColumn": false,
-  "libview.expandedNodes": [],
+  "libview.expandedNodes": [
+    "2r331opv",
+    "/",
+    "2r331opv",
+    "/panel/"
+  ],
   "snapToGrid": true,
   "backgroundColor": 6710886,
   "libview.currentGroup": "",

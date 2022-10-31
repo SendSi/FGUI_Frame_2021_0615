@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="136,42" extention="Button">
-  <displayList>
-    <component id="n3_h0om" name="n3" src="h0om1qp8vem" fileName="components/components_new/com_btn_explain3.xml" pkg="2r331opv" xy="0,0"/>
-    <text id="n4_h0om" name="title" xy="36,4" size="100,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#97794f" text="圣火说明"/>
-  </displayList>
-  <Button/>
-</component>

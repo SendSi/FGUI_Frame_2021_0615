@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="72,98" pivot="0.5,0.5" extention="Button">
-  <displayList>
-    <image id="n4_m7tg" name="bg" src="m5yh1ygcfop" fileName="images/kingcity_bg004.png" xy="0,38"/>
-    <loader id="n5_m7tg" name="icon" xy="3,0" size="58,62" url="ui://pvaep77am5yh1ygcfoq" fill="scale" autoSize="true"/>
-  </displayList>
-  <Button downEffect="scale" downEffectValue=".95"/>
-</component>

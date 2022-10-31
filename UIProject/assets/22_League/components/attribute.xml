@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="264,28">
-  <displayList>
-    <text id="n6_n6uq" name="title" xy="0,0" size="264,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#97794f" autoSize="none" singleLine="true" text="部队生命值+1%"/>
-  </displayList>
-</component>

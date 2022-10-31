@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="110,208" extention="Button" designImageOffsetX="-160" designImageOffsetY="-402">
-  <displayList>
-    <image id="n0_vqdv" name="bg" src="nnlhhz9d1i" fileName="images/league_castle.png" xy="0,0"/>
-    <component id="n18_w7az" name="flagIcon" src="nnlhhz9d15" fileName="components/flagIcon.xml" xy="14,12" scale="0.3,0.3"/>
-  </displayList>
-  <Button/>
-</component>

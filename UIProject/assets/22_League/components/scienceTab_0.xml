@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="942,540" scroll="horizontal" mask="n2_uxiw">
-  <displayList>
-    <graph id="n2_uxiw" name="n2" xy="0,0" size="942,540" touchable="false" type="rect" fillColor="#ffcccccc"/>
-    <component id="n0_qmic" name="developView" src="k06chz9d3u" fileName="components/scienceTab_Items0.xml" xy="0,0"/>
-  </displayList>
-</component>

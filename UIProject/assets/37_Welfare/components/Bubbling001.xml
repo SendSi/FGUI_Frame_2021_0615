@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="242,86">
-  <displayList>
-    <image id="n22_k0ke" name="n22" src="mb2b1ygcfmz" fileName="images/LimitShop/LimitShop_bg5.png" xy="0,0"/>
-    <text id="n23_k0ke" name="n23" xy="39,12" size="187,59" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#82614a" align="center" leading="-1" autoSize="none" text="走过路过不要错过，好东西不是天天有！"/>
-  </displayList>
-</component>

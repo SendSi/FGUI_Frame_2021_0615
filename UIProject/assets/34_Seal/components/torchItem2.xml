@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="428,38">
-  <displayList>
-    <image id="n3_h0om" name="n3" src="a4b91qp8veo" fileName="images/images_new/com_change010.png" pkg="2r331opv" xy="0,0" pivot="0.5,0.5" size="428,38" alpha="0.1" color="#000000"/>
-    <text id="n0_hn57" name="attrname" xy="0,0" size="52,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#50382e" align="center" vAlign="middle" ubb="true" text="攻击"/>
-    <text id="n1_hn57" name="number" xy="346,2" pivot="1,0" size="61,34" font="ui://2r331opvno3vhz9d63" fontSize="24" color="#4c9129" align="right" ubb="true" text="+100"/>
-  </displayList>
-</component>

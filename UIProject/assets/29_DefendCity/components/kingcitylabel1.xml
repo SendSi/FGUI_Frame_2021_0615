@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="68,50">
-  <displayList>
-    <image id="n0_i69g" name="bg" src="i69g1ygcfev" fileName="images/kingcity_label1.png" xy="3,1" size="62,49" flip="hz"/>
-    <text id="n1_i69g" name="title" xy="3,4" pivot="0.5,0.5" size="62,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#fffe95" align="center" vAlign="middle" autoSize="none" strokeColor="#902222" shadowColor="#902222" shadowOffset="2,2" text="推荐"/>
-  </displayList>
-</component>

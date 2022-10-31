@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="44,54" pivot="0.5,0.5" extention="Button">
-  <controller name="retur" pages="0,,1," selected="0"/>
-  <displayList>
-    <loader id="n5_nikm" name="icon" xy="-3,2" size="50,50"/>
-  </displayList>
-  <Button downEffect="scale" downEffectValue=".95"/>
-</component>

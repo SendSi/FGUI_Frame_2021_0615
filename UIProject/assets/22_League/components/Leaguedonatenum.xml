@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="180,60">
-  <displayList>
-    <richtext id="n1_to9j" name="num" xy="54,0" size="125,60" font="ui://lp3m5cuhliyxhz9d6b" fontSize="20" vAlign="middle" ubb="true" autoSize="none" text="+1"/>
-    <loader id="n0_to9j" name="icon" xy="0,0" size="96,96" aspect="true" scale="0.6,0.6" url="ui://tsbe09ddmz4w1" align="center" vAlign="middle" fill="scale"/>
-  </displayList>
-</component>

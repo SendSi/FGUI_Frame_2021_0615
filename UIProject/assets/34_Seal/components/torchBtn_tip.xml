@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="294,29" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
-  <displayList>
-    <image id="n3_h0om" name="n3" src="krfh1iy5b93" fileName="images/images_new/com_btn_explain1.png" pkg="2r331opv" xy="0,2"/>
-    <text id="n4_h0om" name="n4" xy="29,0" size="264,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" text="联盟占领城池即可获得征服值"/>
-  </displayList>
-  <Button/>
-</component>

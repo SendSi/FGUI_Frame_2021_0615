@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="400,33">
-  <displayList>
-    <image id="n4_tv5r" name="n4" src="ebe5z9cn2" fileName="images/images_new/line_01.png" pkg="2r331opv" xy="0,29" size="360,4" alpha="0.1"/>
-    <text id="n0_hn57" name="name" xy="0,0" size="130,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" align="center" vAlign="middle" ubb="true" autoClearText="true" text="Lv1. 审判之剑"/>
-    <text id="n1_hn57" name="offi" xy="213,2" size="184,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#50382e" ubb="true" autoClearText="true" text="盟主盟主、盟主盟主"/>
-  </displayList>
-</component>

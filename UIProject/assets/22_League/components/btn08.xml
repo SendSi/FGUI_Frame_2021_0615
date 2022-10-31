@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="52,34" pivot="0.5,0.5" extention="Button" designImageOffsetX="-581" designImageOffsetY="-513" designImageLayer="1">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
-  <displayList>
-    <text id="n3_vqdv" name="title" xy="4,1" pivot="0.5,0.5" size="44,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#3991d3" align="center" vAlign="middle" vars="true" underline="true" singleLine="true" text="友好"/>
-  </displayList>
-  <Button downEffect="scale" downEffectValue=".95"/>
-</component>

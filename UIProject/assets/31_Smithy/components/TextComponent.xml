@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="400,64" overflow="scroll">
-  <displayList>
-    <text id="n0_eer7" name="title" xy="4,4" size="392,29" font="ui://2r331opvno3vhz9d63" fontSize="20" color="#ffffff" autoSize="height" text="xxxx">
-      <relation target="" sidePair="width-width,center-center"/>
-    </text>
-  </displayList>
-</component>
