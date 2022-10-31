@@ -1,3 +1,8 @@
+package.cpath = package.cpath .. ';C:/Users/Administrator/.IntelliJIdea2018.3/config/plugins/intellij-emmylua/classes/debugger/emmy/windows/x64/?.dll'
+local dbg = require('emmy_core')
+dbg.tcpListen('localhost', 9966)
+
+
 --region LuaCodeWriter
 local LuaCodeWriter = fclass()
 
@@ -149,6 +154,7 @@ function genCode(handler)
     handler:SetupCodeFolder(exportCodePath, lua_file_extension_name) --check if target folder exists, and delete old files
     local getMemberByName = settings.getMemberByName
     local classTemplateTxt = CS.System.IO.File.ReadAllText(PluginPath .. "/component_template.txt");
+    local gLabelTemplateTxt = CS.System.IO.File.ReadAllText(PluginPath .. "/view_template.txt");
     if (classTemplateTxt == "") then
         fprint("component_template.txt content null.")
         return ;
@@ -157,10 +163,12 @@ function genCode(handler)
     local classCnt = classes.Count
     local writer = LuaCodeWriter.new({ blockFromNewLine = false, usingTabs = true })
     for i = 0, classCnt - 1 do
-        local _classTemplateTxt = classTemplateTxt;
         local classInfo = classes[i]
+        local _classTemplateTxt =classInfo.superClassName=="GLabel" and gLabelTemplateTxt or classTemplateTxt ;
+
         local members = classInfo.members
         writer:reset()
+        fprint(classInfo.className)
 
         _classTemplateTxt = string.gsub(_classTemplateTxt, "$className", classInfo.className);
         _classTemplateTxt = string.gsub(_classTemplateTxt, "$superClassName", classInfo.superClassName);
@@ -182,7 +190,8 @@ function genCode(handler)
 
         _classTemplateTxt = string.gsub(_classTemplateTxt, "$classFieldAnnotation", _classFieldAnnotation);
 
-        local _urlValue = string.format('"ui://%s%s"', handler.pkg.id, classInfo.classId)
+        -- local _urlValue = string.format('"ui://%s%s"', handler.pkg.id, classInfo.classId)
+        local _urlValue = string.format('"ui://%s/%s"', handler.pkg.name, classInfo.resName)
         _classTemplateTxt = string.gsub(_classTemplateTxt, "$urlValue", _urlValue);
 
         _classTemplateTxt = string.gsub(_classTemplateTxt, "$uiPackageName", handler.pkg.name);
@@ -217,6 +226,24 @@ function genCode(handler)
         end
         _classTemplateTxt = string.gsub(_classTemplateTxt, "$classFieldInstantiation", _classFieldInstatiation);
 
+        local _uiEvents =""
+        local _uiEventMethods=""
+        for j = 0, memberCnt - 1 do
+            local memberInfo = members[j]
+            if string.find(memberInfo.name,"Btn") then
+                _uiEvents = _uiEvents .. ("--   --self.uiComs."..memberInfo.varName..".onClick:Add(function()self:OnClick"..memberInfo.name.."()end)\n");
+                _uiEventMethods = _uiEventMethods .. ("--   --function "..classInfo.resName..":OnClick"..memberInfo.name.."()end\n");
+            elseif string.find(memberInfo.name,"Ctrl") then
+                _uiEvents = _uiEvents .. ("--   --self.uiComs."..memberInfo.varName..".onChanged:Add(function()self:OnChanged"..memberInfo.name.."()end)\n");
+                _uiEventMethods = _uiEventMethods .. ("--   --function "..classInfo.resName..":OnChanged"..memberInfo.name.."()end\n");
+            elseif string.find(memberInfo.name,"List") then
+                _uiEvents = _uiEvents .. ("--   --self.uiComs."..memberInfo.varName..".itemRenderer=function(index,gObject)self:OnRenderer"..memberInfo.name.."(index,gObject)end)\n");
+                _uiEventMethods = _uiEventMethods .. ("--   --function "..classInfo.resName..":OnRenderer"..memberInfo.name.."(index,gObject)end\n");
+            end
+        end
+        _classTemplateTxt = string.gsub(_classTemplateTxt, "$uiEvents", _uiEvents);
+        _classTemplateTxt = string.gsub(_classTemplateTxt, "$uiEventMethods", _uiEventMethods);
+        _classTemplateTxt = string.gsub(_classTemplateTxt, "$createDate",os.date("%Y/%m/%d %H:%M") );
 
  local _bindEventInstatiation = "";
         for j = 0, memberCnt - 1 do
@@ -233,8 +260,7 @@ function genCode(handler)
         end
         _classTemplateTxt = string.gsub(_classTemplateTxt, "$bindEventInstantiation", _bindEventInstatiation);
 
-	    _classTemplateTxt=_classTemplateTxt..string.format("\r\n--self.uiComs=require('ToolGen.%s.%s'):OnConstruct(self.contentPane)",codePkgName,classInfo.className)
-        writer:writeln('%s', _classTemplateTxt);
+	    writer:writeln('%s', _classTemplateTxt);
         writer:save(exportCodePath .. '/' .. classInfo.className .. '.' .. lua_file_extension_name)
     end
 

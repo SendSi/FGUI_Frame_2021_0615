@@ -52,7 +52,7 @@ function OpenViewConfig(str)
     end
 end
 --格式为msg:key,i,value:key,s,value:key....
-function ValueClickSendCS(value)
+function ValueClickSendCSParams(value)
     local dataTest = {}
     local StringUtil = require("Utils.StringUtil")
     local strValues = StringUtil.Split(value, ";")
@@ -65,6 +65,23 @@ function ValueClickSendCS(value)
 
     local NetManager = require("Net.NetManager")
     NetManager.GetInstance():SendData(tonumber(strValues[1]), dataTest)
+end
+
+function ValueClickSendSCParams(values)
+    --values = 'RoleFightOrderPanelRes;{["totalDurability"] = 0,["time"] = 30,["refreshTime"] = 1666834931}'
+    local StringUtil = require("Utils.StringUtil")
+    local strValues = StringUtil.Split(values, ";")
+    local msgId = g_MsgID[strValues[1]]
+    local code = "local data = " .. strValues[2] .. " return data"
+    local luaStr2Tab = loadstring(code)
+    if luaStr2Tab then
+        local data=luaStr2Tab()
+        local EventManager = require('Event.EventManager')
+        EventManager.Dispatch(GLOBAL_EVENT_ON_NET_DATA, msgId, data, "")
+    else
+        logerror("数据不合理,确定是个table?")
+        logerror(values)
+    end
 end
 
 function ShowAccountInfo()

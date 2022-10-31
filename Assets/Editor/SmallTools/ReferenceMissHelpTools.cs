@@ -2,17 +2,18 @@
 using UnityEditor;
 using UnityEngine;
 
-public class ScriptNullHelpTools : GetAssetHelpTools
+public class ReferenceMissHelpTools : GetAssetHelpTools
 {
     private Dictionary<GameObject, List<string>> mDicLookPrefabs = new Dictionary<GameObject, List<string>>();
     private Vector2 scrollPosition = Vector2.zero;
-    private string mSearchPath = @"Assets\_Resource\Effect";
+    private string mSearchPath = @"Assets\_Resources";
     //private string mSearchPath = @"Assets\_Resource\UI\Prefabs";
+    private bool isGenerateHierarchy = false;
 
     void OnGUI()
     {
         mSearchPath = EditorGUILayout.TextField("搜索路径", mSearchPath);
-        if (GUILayout.Button("查看所有prefab的脚本的引用", GUILayout.Height(30)))
+        if (GUILayout.Button("查看所有prefab的Miss引用", GUILayout.Height(30)))
         {
             mDicLookPrefabs = new Dictionary<GameObject, List<string>>();
             if (string.IsNullOrEmpty(mSearchPath) || mSearchPath.StartsWith("Assets") == false)
@@ -33,7 +34,7 @@ public class ScriptNullHelpTools : GetAssetHelpTools
                     var tComs = tTrans[jjj].gameObject.GetComponents<Component>();
                     for (int bbb = 0; bbb < tComs.Length; bbb++)
                     {
-                        if (tComs[bbb] == null)
+                        if (tComs[bbb] == null)//挂上脚本,脚本为miss的
                         {
                             tPath = FindPath(tGo.transform, tTrans[jjj].gameObject.transform);
                             tPathCount++;
@@ -42,16 +43,28 @@ public class ScriptNullHelpTools : GetAssetHelpTools
                                 tListSelectGos.Add(tPath);
                             }
                         }
+                        else
+                        {
+                            if (IsResourceRefMissing(tComs[bbb]))//组件里有Miss的
+                            {
+                                tPath = FindPath(tGo.transform, tTrans[jjj].gameObject.transform);
+                                tPathCount++;
+                                if (tListSelectGos.Contains(tPath) == false)
+                                {
+                                    tListSelectGos.Add(tPath);
+                                }
+                            }
+                        }
                     }
                 }
                 if (tListSelectGos.Count > 0)
                     mDicLookPrefabs[tGo] = tListSelectGos;
             }
-            ShowMsg("空脚本,共 " + mDicLookPrefabs.Keys.Count.ToString() + " 个prefab,共引用" + tPathCount.ToString() + "个脚本引用");
+            ShowMsg("空脚本,共 " + mDicLookPrefabs.Keys.Count.ToString() + " 个prefab,共引用" + tPathCount.ToString() + "个Miss引用");
 
         }
 
-        if (GUILayout.Button("移除弃用的组件", GUILayout.Height(20)))
+        if (GUILayout.Button("移除弃用的组件--慎用", GUILayout.Height(20)))
         {
             foreach (var item in mDicLookPrefabs)
             {
@@ -78,14 +91,21 @@ public class ScriptNullHelpTools : GetAssetHelpTools
             scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
             if (mDicLookPrefabs.Count > 0)
             {
-                GUILayout.Label("点击生成Hierarchy视图中", GUILayout.Height(16));
+                isGenerateHierarchy = GUILayout.Toggle(isGenerateHierarchy, "若勾选-点击后生成在Hierarchy视图中");
                 foreach (var item in mDicLookPrefabs)
                 {
                     for (int i = 0; i < item.Value.Count; i++)
                     {
                         if (GUILayout.Button(item.Key.name + "-->" + item.Value[i], GUILayout.Height(16)))
                         {
-                            GenerateHerarchy(item.Key, item.Value[i], false);
+                            if (isGenerateHierarchy)
+                            {
+                                GenerateHerarchy(item.Key, item.Value[i], false);
+                            }
+                            else
+                            {
+                                Selection.activeObject = item.Key;
+                            }
                         }
                     }
                 }
@@ -94,5 +114,61 @@ public class ScriptNullHelpTools : GetAssetHelpTools
         }
         EditorGUILayout.EndVertical();
         #endregion
+    }
+
+
+
+    /// <summary>
+    /// 检查一组资源是有否丢失，是返回true
+    /// </summary>
+    private static bool IsResourceRefMissing(Component comp)
+    {
+        string propertyName = string.Empty;
+        if (comp is MeshRenderer)
+        {
+            propertyName = "m_Materials";
+        }
+        else if (comp is SkinnedMeshRenderer)
+        {
+            propertyName = "m_Materials";
+        }
+        else if (comp is Animator)
+        {
+            propertyName = "m_Animations";
+        }
+        else if (comp is ParticleSystemRenderer)
+        {
+            propertyName = "m_Materials";
+        }
+
+
+        SerializedObject sObj = new SerializedObject(comp);
+        var sp = sObj.FindProperty(propertyName);
+
+        var refMethod = typeof(SerializedProperty).GetProperty("objectReferenceStringValue",
+            System.Reflection.BindingFlags.Instance |
+            System.Reflection.BindingFlags.NonPublic |
+            System.Reflection.BindingFlags.Public);
+
+        if (sp != null && sp.isArray)
+        {
+            var cnt = sp.arraySize;
+            if (cnt == 0)
+                return false;
+
+            for (int i = 0; i < cnt; i++)
+            {
+                var elmt = sp.GetArrayElementAtIndex(i);
+                if (elmt is null)
+                    continue;
+
+                var refString = (string)refMethod.GetGetMethod(true).Invoke(elmt, null);
+                if (refString.StartsWith("Miss"))
+                    return true;
+            }
+        }
+
+
+        return false;
     }
 }

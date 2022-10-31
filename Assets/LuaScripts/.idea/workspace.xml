@@ -69,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UI/MainRole/ProxyMainRoleModule.lua">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Utils/cFunction.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="460">
+              <caret line="74" column="66" selection-start-line="74" selection-start-column="66" selection-end-line="74" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -211,13 +211,13 @@
         <option value="$PROJECT_DIR$/UI/MainCenter/MainTopPlayerInfo.lua" />
         <option value="$PROJECT_DIR$/UI/MainCenter/MainCenterView.lua" />
         <option value="$PROJECT_DIR$/Core/FrameworkFunctions.lua" />
-        <option value="$PROJECT_DIR$/Utils/cFunction.lua" />
         <option value="$PROJECT_DIR$/UI/MainRole/LeagueMainView.lua" />
         <option value="$PROJECT_DIR$/UI/MainRole/BagMainView.lua" />
         <option value="$PROJECT_DIR$/UI/MainRole/RoleMainView.lua" />
         <option value="$PROJECT_DIR$/Core/UIConfig.lua" />
         <option value="$PROJECT_DIR$/UI/MainRole/MainModifyView.lua" />
         <option value="$PROJECT_DIR$/UI/MainRole/ProxyMainRoleModule.lua" />
+        <option value="$PROJECT_DIR$/Utils/cFunction.lua" />
       </list>
     </option>
   </component>
@@ -381,11 +381,12 @@
       <workItem from="1662129689113" duration="725000" />
       <workItem from="1662286797877" duration="1232000" />
       <workItem from="1664623415079" duration="4000" />
+      <workItem from="1667227939569" duration="667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107517000" />
+    <option name="totallyTimeSpent" value="108184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1862" height="1096" extended-state="6" />
@@ -400,7 +401,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.040511727" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" content_ui="combo" id="Project" order="3" visible="true" weight="0.3665628" />
+      <window_info anchor="bottom" content_ui="combo" id="Project" order="3" weight="0.3665628" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.427066" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -751,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/cFunction.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Core/UIConfig.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
@@ -769,6 +763,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/cFunction.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="74" column="66" selection-start-line="74" selection-start-column="66" selection-end-line="74" selection-end-column="66" />
         </state>
       </provider>
     </entry>

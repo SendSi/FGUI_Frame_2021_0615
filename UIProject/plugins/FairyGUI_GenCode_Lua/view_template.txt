@@ -1,0 +1,70 @@
+---@class $className : $superClassName
+$classFieldAnnotation
+local $className = {};
+
+$className.URL = $urlValue;
+
+function $className:OnConstruct(windowCom)
+	local tb = {
+$classFieldInstantiation
+	}
+	return tb
+end
+
+return $className;
+
+--[[
+@Description: $uiPackageName.$uiResName 工具生成的.匹配标签(窗口).自行copy字符串到文件中去
+@Author:
+@Date: Created in $createDate
+--]]
+--[[
+local EventManager = require('Event.EventManager')
+local GameEvent = require('Event.GameEvent')
+function $uiResName:BindGlobalEvent()
+   return{
+     {GameEvent.cFunctionTest,function()end,999},
+    }
+end
+--]]
+--local UIView = require('UI.UIView')
+--local $uiResName = fgui.window_class(UIView)
+--function $uiResName:OnLoadFinished()
+--    --self.uiComs = require('UI.Packages.$uiPackageName.$className'):OnConstruct(self.contentPane)--self.uiComs在UIView.lua已有定义
+$uiEvents--   --元素事件上,匹配元素名字 *Btn,*Ctrl,*List
+--end
+
+$uiEventMethods
+--function $uiResName:SetData(pDto)
+--end
+--function $uiResName:RefreshViewAll()
+--end
+--function $uiResName:OnNetMessage(msgID, data)
+--end
+--function $uiResName:OnShown()
+--    UIView.OnShown(self)
+--end
+--function $uiResName:OnHide()
+--    UIView.OnHide(self)
+--end
+--return $uiResName
+
+--	$uiResName = {
+--        [CLASS_NAME] = '$uiPackageName.$uiResName',
+--        [PAKAGE_NAME] = '$uiResName',
+--        [PANEL_NAME] = '$uiPackageName',
+--        [PARET_LAYER] = UI_LAYER_MAIN,
+--        [SORTING_ORDER] = 1,
+--   },
+
+--function Proxy$uiPackageNameModule:Open$uiResName()
+--    UIManager.OpenWindow(CustomUIConfig.$uiResName)
+--end
+--function Proxy$uiPackageNameModule:Close$uiResName()
+--    UIManager.CloseWindow(CustomUIConfig.$uiResName, true)
+--end
+--function Proxy$uiPackageNameModule:Open$uiResNameData(data)
+--    UIManager.OpenWindow(CustomUIConfig.$uiResName, function(code, view)
+--        view:SetData(data)
+--    end)
+--end

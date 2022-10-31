@@ -30,8 +30,6 @@ public class SmallMenu : EditorWindow
     }
 
 
-
-
     [MenuItem("Tools/小工具/显示时间戳 %T")]
     public static void ShowTime()
     {
@@ -59,18 +57,10 @@ public class SmallMenu : EditorWindow
         EditorWindow.GetWindow(typeof(CSRequestScripts_New), false, "F8工具(非Odin版本)", true);
     }
 
-    [MenuItem("Tools/小工具/Script Null 辅助工具 %&#P")]
+    [MenuItem("Tools/小工具/Prefab丢失的Miss %&#P")]
     public static void ShowPrefabNullSprite()
     {
-        GetWindow<ScriptNullHelpTools>(false);
-    }
-
-
-    [MenuItem("Tools/小工具/账号信息(飘字) _F2")]
-    public static void ShowAccountInfo()
-    {
-        LuaInterface.LuaState L = LuaClient.GetMainState();
-        L.Call("ShowAccountInfo", "", true);
+        GetWindow<ReferenceMissHelpTools>(false);
     }
 
     //[MenuItem("Tools/小工具/更新svn的aoe2020 _F7")]//若不先更新Logic_BaleLua.txt ([一键同步到svn])很易冲突的
