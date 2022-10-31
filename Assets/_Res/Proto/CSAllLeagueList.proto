@@ -1,0 +1,10 @@
+package com.manling.common.protobuf.proto;
+option java_package = "com.manling.common.protobuf.proto";
+option java_outer_classname = "ProtoCSAllLeagueList";
+option optimize_for = SPEED;
+
+
+/*打开联盟列表*/
+message CSAllLeagueList{
+    /*msgId = 10300;*/
+}

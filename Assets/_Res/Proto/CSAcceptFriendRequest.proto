@@ -1,0 +1,14 @@
+package com.manling.common.protobuf.proto;
+option java_package = "com.manling.common.protobuf.proto";
+option java_outer_classname = "ProtoCSAcceptFriendRequest";
+option optimize_for = SPEED;
+
+
+/*通过好友申请*/
+message CSAcceptFriendRequest{
+    /*msgId = 10013;*/
+    /*好友id*/
+    repeated string friendIds = 1;
+	    /*好友id*/
+    optional bool reface = 2;
+}

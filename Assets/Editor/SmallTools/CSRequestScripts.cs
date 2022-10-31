@@ -10,19 +10,19 @@ using UnityEngine;
 
 public class CSRequestScripts : EditorWindow
 {
-    string mStr_PB_Path { get { return Application.dataPath + "/_Resources/Proto/"; } }
+    string mStr_PB_Path { get { return Application.dataPath + "/_Res/Proto/"; } }
 
     Dictionary<int, List<string>> mCSNames = new Dictionary<int, List<string>>();
-    Dictionary<int, List<string>> mCSTypeNames = new Dictionary<int, List<string>>();
+    Dictionary<int, List<string>> mCS_Params_StartValue = new Dictionary<int, List<string>>();
     Dictionary<int, List<string>> mCSTypes = new Dictionary<int, List<string>>();
-    Dictionary<int, string> mCSProtoName = new Dictionary<int, string>() { { 1, "CSAddSkillPointRequest" } };
+    Dictionary<int, string> mCSProtoName = new Dictionary<int, string>() { { 1, "CSAcceptFriendRequest" } };
     Dictionary<int, bool> mIsHasCSProto = new Dictionary<int, bool>() { { 1, false } };
     int mCSnumber = 1;//编号
 
     private void OnGUI()
     {
-        EditorGUILayout.LabelField("1.若bool填true或false__2.若msgID=nil,让前端git工程更新下,操作下[打包机同步Lua]");
-        GUILayout.Space(15);
+        EditorGUILayout.LabelField("1.若bool填true或false.2.若msgID=nil,让前端git工程更新下,操作下[打包机同步Lua].\r\n3.若repeated就用冒号:分隔", GUILayout.MinHeight(35));
+        GUILayout.Space(10);
         IntGroup(1);
 
         var list = mCSNames.Keys.ToList();
@@ -45,7 +45,7 @@ public class CSRequestScripts : EditorWindow
         {
             if (id == 1) { return; }
             mCSNames.Remove(id);
-            mCSTypeNames.Remove(id);
+            mCS_Params_StartValue.Remove(id);
             mCSTypes.Remove(id);
             mCSProtoName.Remove(id);
             mIsHasCSProto.Remove(id);
@@ -56,7 +56,7 @@ public class CSRequestScripts : EditorWindow
         if (GUILayout.Button("加载", GUILayout.Height(18)))
         {
             mCSNames[id] = new List<string>();
-            mCSTypeNames[id] = new List<string>();
+            mCS_Params_StartValue[id] = new List<string>();
             mCSTypes[id] = new List<string>();
             GetCSNameTypes(id);
             GUI.FocusControl("");
@@ -71,7 +71,7 @@ public class CSRequestScripts : EditorWindow
             var typeCount = mCSTypes[id].Count;
             for (int i = 0; i < typeCount; i++)
             {
-                mCSTypeNames[id][i] = EditorGUILayout.TextField(mCSNames[id][i], mCSTypeNames[id][i]);//value
+                mCS_Params_StartValue[id][i] = EditorGUILayout.TextField(mCSNames[id][i], mCS_Params_StartValue[id][i]);//value
             }
             EditorGUILayout.EndVertical();
         }
@@ -85,13 +85,13 @@ public class CSRequestScripts : EditorWindow
                     var tStr = new StringBuilder();
                     tStr.Append(mCSProtoName[id]);
                     tStr.Append(";");
-                    for (int i = 0; i < mCSTypeNames[id].Count; i++)
+                    for (int i = 0; i < mCS_Params_StartValue[id].Count; i++)
                     {
                         tStr.Append(mCSNames[id][i].Trim());
                         tStr.Append(",");
                         tStr.Append(mCSTypes[id][i].Trim());
                         tStr.Append(",");
-                        tStr.Append(mCSTypeNames[id][i].Trim());
+                        tStr.Append(mCS_Params_StartValue[id][i].Trim());
                         tStr.Append(";");
                     }
                     LuaInterface.LuaState L = LuaClient.GetMainState();
@@ -101,7 +101,7 @@ public class CSRequestScripts : EditorWindow
                 {
                     mCSnumber += 1;
                     mCSNames[mCSnumber] = new List<string>();
-                    mCSTypeNames[mCSnumber] = new List<string>();
+                    mCS_Params_StartValue[mCSnumber] = new List<string>();
                     mCSTypes[mCSnumber] = new List<string>();
                     mIsHasCSProto[mCSnumber] = false;
                     mCSProtoName[mCSnumber] = "newCS";
@@ -125,8 +125,8 @@ public class CSRequestScripts : EditorWindow
                     var reg = Regex.Replace(item, @"[\s]+", "~");
                     var value = reg.Split('~');
                     mCSNames[id].Add(value[3]);//名字
-                    mCSTypeNames[id].Add(value[2] + " " + value[3]);//名字
-                    mCSTypes[id].Add(value[2]); //类型
+                    mCS_Params_StartValue[id].Add(value[1] + " " + value[2]);//名字
+                    mCSTypes[id].Add(value[1] + "," + value[2]); //类型
                 }
             }
             mIsHasCSProto[id] = true;

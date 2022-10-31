@@ -1,0 +1,12 @@
+package com.manling.common.protobuf.proto;
+option java_package = "com.manling.common.protobuf.proto";
+option java_outer_classname = "ProtoCSAddBlackListRequest";
+option optimize_for = SPEED;
+
+
+/*加入黑名单*/
+message CSAddBlackListRequest{
+    /*msgId = 10124;*/
+    /**/
+    repeated string friendIds = 1;
+}
