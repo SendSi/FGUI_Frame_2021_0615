@@ -10,7 +10,7 @@
 ---@field public m_t1 CS.FairyGUI.Transition
 local functionsEles = {};
 
-functionsEles.URL = "ui://4ni413lanil";
+functionsEles.URL = "ui://main/functionsEles";
 
 function functionsEles:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function functionsEles:OnConstruct(windowCom)
 end
 
 return functionsEles;
-
---self.uiComs=require('ToolGen.main.functionsEles'):OnConstruct(self.contentPane)

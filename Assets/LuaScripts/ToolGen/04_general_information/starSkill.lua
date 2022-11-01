@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local starSkill = {};
 
-starSkill.URL = "ui://4hio38umnil";
+starSkill.URL = "ui://04_general_information/starSkill";
 
 function starSkill:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function starSkill:OnConstruct(windowCom)
 end
 
 return starSkill;
-
---self.uiComs=require('ToolGen.04_general_information.starSkill'):OnConstruct(self.contentPane)

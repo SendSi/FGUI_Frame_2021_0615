@@ -10,7 +10,7 @@
 ---@field public m_recommend CS.FairyGUI.GGroup
 local paging = {};
 
-paging.URL = "ui://byy9k3ghnil";
+paging.URL = "ui://login/paging";
 
 function paging:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function paging:OnConstruct(windowCom)
 end
 
 return paging;
-
---self.uiComs=require('ToolGen.login.paging'):OnConstruct(self.contentPane)

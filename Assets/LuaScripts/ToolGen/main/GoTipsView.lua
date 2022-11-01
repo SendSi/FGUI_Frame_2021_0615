@@ -13,7 +13,7 @@
 ---@field public m_icon_map CS.FairyGUI.GLoader
 local GoTipsView = {};
 
-GoTipsView.URL = "ui://4ni413lanil";
+GoTipsView.URL = "ui://main/GoTipsView";
 
 function GoTipsView:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function GoTipsView:OnConstruct(windowCom)
 end
 
 return GoTipsView;
-
---self.uiComs=require('ToolGen.main.GoTipsView'):OnConstruct(self.contentPane)

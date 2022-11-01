@@ -16,7 +16,7 @@
 ---@field public m_approach CS.FairyGUI.Transition
 local MainSearchView = {};
 
-MainSearchView.URL = "ui://4ni413lanil";
+MainSearchView.URL = "ui://main/MainSearchView";
 
 function MainSearchView:OnConstruct(windowCom)
 	local tb = {
@@ -37,5 +37,3 @@ function MainSearchView:OnConstruct(windowCom)
 end
 
 return MainSearchView;
-
---self.uiComs=require('ToolGen.main.MainSearchView'):OnConstruct(self.contentPane)

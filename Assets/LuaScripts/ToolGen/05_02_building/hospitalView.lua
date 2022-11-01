@@ -34,7 +34,7 @@
 ---@field public m_playerIcon CS.FairyGUI.GComponent
 local hospitalView = {};
 
-hospitalView.URL = "ui://fq4ln9nvnil";
+hospitalView.URL = "ui://05_02_building/hospitalView";
 
 function hospitalView:OnConstruct(windowCom)
 	local tb = {
@@ -73,5 +73,3 @@ function hospitalView:OnConstruct(windowCom)
 end
 
 return hospitalView;
-
---self.uiComs=require('ToolGen.05_02_building.hospitalView'):OnConstruct(self.contentPane)

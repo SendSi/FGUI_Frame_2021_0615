@@ -7,7 +7,7 @@
 ---@field public m_n4 CS.FairyGUI.GImage
 local goToBtn = {};
 
-goToBtn.URL = "ui://62wjs2s2nil";
+goToBtn.URL = "ui://14_chat/goToBtn";
 
 function goToBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function goToBtn:OnConstruct(windowCom)
 end
 
 return goToBtn;
-
---self.uiComs=require('ToolGen.14_chat.goToBtn'):OnConstruct(self.contentPane)

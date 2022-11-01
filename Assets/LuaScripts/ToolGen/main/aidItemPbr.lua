@@ -8,7 +8,7 @@
 ---@field public m_n3 CS.FairyGUI.GTextField
 local aidItemPbr = {};
 
-aidItemPbr.URL = "ui://4ni413lanil";
+aidItemPbr.URL = "ui://main/aidItemPbr";
 
 function aidItemPbr:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function aidItemPbr:OnConstruct(windowCom)
 end
 
 return aidItemPbr;
-
---self.uiComs=require('ToolGen.main.aidItemPbr'):OnConstruct(self.contentPane)

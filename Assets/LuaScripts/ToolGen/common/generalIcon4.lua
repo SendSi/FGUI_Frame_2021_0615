@@ -8,7 +8,7 @@
 ---@field public m_reviveTimeLbl CS.FairyGUI.GTextField
 local generalIcon4 = {};
 
-generalIcon4.URL = "ui://2r331opvnil";
+generalIcon4.URL = "ui://common/generalIcon4";
 
 function generalIcon4:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function generalIcon4:OnConstruct(windowCom)
 end
 
 return generalIcon4;
-
---self.uiComs=require('ToolGen.common.generalIcon4'):OnConstruct(self.contentPane)

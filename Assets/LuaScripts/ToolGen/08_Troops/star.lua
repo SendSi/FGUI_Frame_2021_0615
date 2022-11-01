@@ -5,7 +5,7 @@
 
 local star = {};
 
-star.URL = "ui://jqem9egtnil";
+star.URL = "ui://08_Troops/star";
 
 function star:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function star:OnConstruct(windowCom)
 end
 
 return star;
-
---self.uiComs=require('ToolGen.08_Troops.star'):OnConstruct(self.contentPane)

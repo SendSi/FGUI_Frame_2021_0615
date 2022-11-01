@@ -21,7 +21,7 @@
 ---@field public m_tweenText CS.FairyGUI.Transition
 local building_pbr = {};
 
-building_pbr.URL = "ui://4ni413lanil";
+building_pbr.URL = "ui://main/building_pbr";
 
 function building_pbr:OnConstruct(windowCom)
 	local tb = {
@@ -47,5 +47,3 @@ function building_pbr:OnConstruct(windowCom)
 end
 
 return building_pbr;
-
---self.uiComs=require('ToolGen.main.building_pbr'):OnConstruct(self.contentPane)

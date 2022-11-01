@@ -10,7 +10,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local TroopsPropertiesView = {};
 
-TroopsPropertiesView.URL = "ui://jqem9egtnil";
+TroopsPropertiesView.URL = "ui://08_Troops/TroopsPropertiesView";
 
 function TroopsPropertiesView:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function TroopsPropertiesView:OnConstruct(windowCom)
 end
 
 return TroopsPropertiesView;
-
---self.uiComs=require('ToolGen.08_Troops.TroopsPropertiesView'):OnConstruct(self.contentPane)

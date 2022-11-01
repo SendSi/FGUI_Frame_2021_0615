@@ -5,7 +5,7 @@
 ---@field public m_task_list CS.FairyGUI.GList
 local plot_list = {};
 
-plot_list.URL = "ui://4ni413lanil";
+plot_list.URL = "ui://main/plot_list";
 
 function plot_list:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function plot_list:OnConstruct(windowCom)
 end
 
 return plot_list;
-
---self.uiComs=require('ToolGen.main.plot_list'):OnConstruct(self.contentPane)

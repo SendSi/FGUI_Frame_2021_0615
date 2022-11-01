@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local taskTopAdd = {};
 
-taskTopAdd.URL = "ui://zezobey9nil";
+taskTopAdd.URL = "ui://17_Task/taskTopAdd";
 
 function taskTopAdd:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function taskTopAdd:OnConstruct(windowCom)
 end
 
 return taskTopAdd;
-
---self.uiComs=require('ToolGen.17_Task.taskTopAdd'):OnConstruct(self.contentPane)

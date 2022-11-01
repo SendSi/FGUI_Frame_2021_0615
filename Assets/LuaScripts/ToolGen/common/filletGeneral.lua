@@ -8,7 +8,7 @@
 ---@field public m_mask CS.FairyGUI.GGraph
 local filletGeneral = {};
 
-filletGeneral.URL = "ui://2r331opvnil";
+filletGeneral.URL = "ui://common/filletGeneral";
 
 function filletGeneral:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function filletGeneral:OnConstruct(windowCom)
 end
 
 return filletGeneral;
-
---self.uiComs=require('ToolGen.common.filletGeneral'):OnConstruct(self.contentPane)

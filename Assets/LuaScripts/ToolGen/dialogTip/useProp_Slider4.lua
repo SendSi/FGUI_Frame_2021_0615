@@ -4,11 +4,11 @@
 ---@field public __ui CS.FairyGUI.GSlider
 ---@field public m_n0 CS.FairyGUI.GImage
 ---@field public m_bar CS.FairyGUI.GImage
----@field public m_grip CS.FairyGUI.GButton
+---@field public m_grip CS.FairyGUI.GComponent
 ---@field public m_title CS.FairyGUI.GTextField
 local useProp_Slider4 = {};
 
-useProp_Slider4.URL = "ui://utp01xianil";
+useProp_Slider4.URL = "ui://dialogTip/useProp_Slider4";
 
 function useProp_Slider4:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function useProp_Slider4:OnConstruct(windowCom)
 end
 
 return useProp_Slider4;
-
---self.uiComs=require('ToolGen.dialogTip.useProp_Slider4'):OnConstruct(self.contentPane)

@@ -9,7 +9,7 @@
 ---@field public m_view CS.FairyGUI.GGroup
 local attributeAll_tipsView = {};
 
-attributeAll_tipsView.URL = "ui://4hio38umnil";
+attributeAll_tipsView.URL = "ui://04_general_information/attributeAll_tipsView";
 
 function attributeAll_tipsView:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function attributeAll_tipsView:OnConstruct(windowCom)
 end
 
 return attributeAll_tipsView;
-
---self.uiComs=require('ToolGen.04_general_information.attributeAll_tipsView'):OnConstruct(self.contentPane)

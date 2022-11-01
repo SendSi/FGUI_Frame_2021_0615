@@ -15,7 +15,7 @@
 ---@field public m_n10 CS.FairyGUI.GGroup
 local btn_tab01 = {};
 
-btn_tab01.URL = "ui://nf2zagxsnil";
+btn_tab01.URL = "ui://06_Recruit/btn_tab01";
 
 function btn_tab01:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function btn_tab01:OnConstruct(windowCom)
 end
 
 return btn_tab01;
-
---self.uiComs=require('ToolGen.06_Recruit.btn_tab01'):OnConstruct(self.contentPane)

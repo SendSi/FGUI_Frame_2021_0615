@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GRichTextField
 local btn_right = {};
 
-btn_right.URL = "ui://lqu8zv3hnil";
+btn_right.URL = "ui://HF/btn_right";
 
 function btn_right:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function btn_right:OnConstruct(windowCom)
 end
 
 return btn_right;
-
---self.uiComs=require('ToolGen.HF.btn_right'):OnConstruct(self.contentPane)

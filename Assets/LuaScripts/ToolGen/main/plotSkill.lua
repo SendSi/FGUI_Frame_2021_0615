@@ -8,7 +8,7 @@
 ---@field public m_skillBtn plotSkillBtn
 local plotSkill = {};
 
-plotSkill.URL = "ui://4ni413lanil";
+plotSkill.URL = "ui://main/plotSkill";
 
 function plotSkill:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function plotSkill:OnConstruct(windowCom)
 end
 
 return plotSkill;
-
---self.uiComs=require('ToolGen.main.plotSkill'):OnConstruct(self.contentPane)

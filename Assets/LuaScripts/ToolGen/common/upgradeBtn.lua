@@ -7,7 +7,7 @@
 ---@field public m_upgrade_2 CS.FairyGUI.Transition
 local upgradeBtn = {};
 
-upgradeBtn.URL = "ui://2r331opvnil";
+upgradeBtn.URL = "ui://common/upgradeBtn";
 
 function upgradeBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function upgradeBtn:OnConstruct(windowCom)
 end
 
 return upgradeBtn;
-
---self.uiComs=require('ToolGen.common.upgradeBtn'):OnConstruct(self.contentPane)

@@ -28,7 +28,7 @@
 ---@field public m_battle CS.FairyGUI.Transition
 local main_teamItem = {};
 
-main_teamItem.URL = "ui://4ni413lanil";
+main_teamItem.URL = "ui://main/main_teamItem";
 
 function main_teamItem:OnConstruct(windowCom)
 	local tb = {
@@ -61,5 +61,3 @@ function main_teamItem:OnConstruct(windowCom)
 end
 
 return main_teamItem;
-
---self.uiComs=require('ToolGen.main.main_teamItem'):OnConstruct(self.contentPane)

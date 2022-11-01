@@ -9,7 +9,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local settlement_com_001 = {};
 
-settlement_com_001.URL = "ui://2r331opvnil";
+settlement_com_001.URL = "ui://common/settlement_com_001";
 
 function settlement_com_001:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function settlement_com_001:OnConstruct(windowCom)
 end
 
 return settlement_com_001;
-
---self.uiComs=require('ToolGen.common.settlement_com_001'):OnConstruct(self.contentPane)

@@ -14,7 +14,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local targetRewBtn = {};
 
-targetRewBtn.URL = "ui://zezobey9nil";
+targetRewBtn.URL = "ui://17_Task/targetRewBtn";
 
 function targetRewBtn:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function targetRewBtn:OnConstruct(windowCom)
 end
 
 return targetRewBtn;
-
---self.uiComs=require('ToolGen.17_Task.targetRewBtn'):OnConstruct(self.contentPane)

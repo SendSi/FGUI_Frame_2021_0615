@@ -6,7 +6,7 @@
 ---@field public m_n49 CS.FairyGUI.GList
 local main_explore2 = {};
 
-main_explore2.URL = "ui://4ni413lanil";
+main_explore2.URL = "ui://main/main_explore2";
 
 function main_explore2:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function main_explore2:OnConstruct(windowCom)
 end
 
 return main_explore2;
-
---self.uiComs=require('ToolGen.main.main_explore2'):OnConstruct(self.contentPane)

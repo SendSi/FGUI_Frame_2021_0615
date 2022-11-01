@@ -15,7 +15,7 @@
 ---@field public m_genList CS.FairyGUI.GList
 local GeneralSkillTip = {};
 
-GeneralSkillTip.URL = "ui://jqem9egtnil";
+GeneralSkillTip.URL = "ui://08_Troops/GeneralSkillTip";
 
 function GeneralSkillTip:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function GeneralSkillTip:OnConstruct(windowCom)
 end
 
 return GeneralSkillTip;
-
---self.uiComs=require('ToolGen.08_Troops.GeneralSkillTip'):OnConstruct(self.contentPane)

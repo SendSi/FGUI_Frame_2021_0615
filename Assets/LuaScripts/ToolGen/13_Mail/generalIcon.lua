@@ -8,7 +8,7 @@
 ---@field public m_rightLbl CS.FairyGUI.GTextField
 local generalIcon = {};
 
-generalIcon.URL = "ui://ufsajnnznil";
+generalIcon.URL = "ui://13_Mail/generalIcon";
 
 function generalIcon:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function generalIcon:OnConstruct(windowCom)
 end
 
 return generalIcon;
-
---self.uiComs=require('ToolGen.13_Mail.generalIcon'):OnConstruct(self.contentPane)

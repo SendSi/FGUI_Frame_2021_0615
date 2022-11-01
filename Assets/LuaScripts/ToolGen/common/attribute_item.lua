@@ -9,7 +9,7 @@
 ---@field public m_num CS.FairyGUI.GTextField
 local attribute_item = {};
 
-attribute_item.URL = "ui://2r331opvnil";
+attribute_item.URL = "ui://common/attribute_item";
 
 function attribute_item:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function attribute_item:OnConstruct(windowCom)
 end
 
 return attribute_item;
-
---self.uiComs=require('ToolGen.common.attribute_item'):OnConstruct(self.contentPane)

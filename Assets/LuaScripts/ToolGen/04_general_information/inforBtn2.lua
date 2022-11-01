@@ -9,7 +9,7 @@
 ---@field public m_redDot_2 CS.FairyGUI.GButton
 local inforBtn2 = {};
 
-inforBtn2.URL = "ui://4hio38umnil";
+inforBtn2.URL = "ui://04_general_information/inforBtn2";
 
 function inforBtn2:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function inforBtn2:OnConstruct(windowCom)
 end
 
 return inforBtn2;
-
---self.uiComs=require('ToolGen.04_general_information.inforBtn2'):OnConstruct(self.contentPane)

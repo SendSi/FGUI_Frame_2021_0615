@@ -10,7 +10,7 @@
 ---@field public m_additionNum2 CS.FairyGUI.GTextField
 local attribute_item01 = {};
 
-attribute_item01.URL = "ui://2r331opvnil";
+attribute_item01.URL = "ui://common/attribute_item01";
 
 function attribute_item01:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function attribute_item01:OnConstruct(windowCom)
 end
 
 return attribute_item01;
-
---self.uiComs=require('ToolGen.common.attribute_item01'):OnConstruct(self.contentPane)

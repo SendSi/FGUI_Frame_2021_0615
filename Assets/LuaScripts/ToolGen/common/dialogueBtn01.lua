@@ -8,7 +8,7 @@
 ---@field public m_contentLbl CS.FairyGUI.GTextField
 local dialogueBtn01 = {};
 
-dialogueBtn01.URL = "ui://2r331opvnil";
+dialogueBtn01.URL = "ui://common/dialogueBtn01";
 
 function dialogueBtn01:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function dialogueBtn01:OnConstruct(windowCom)
 end
 
 return dialogueBtn01;
-
---self.uiComs=require('ToolGen.common.dialogueBtn01'):OnConstruct(self.contentPane)

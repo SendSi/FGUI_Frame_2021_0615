@@ -7,7 +7,7 @@
 ---@field public m_n1 CS.FairyGUI.GImage
 local fetterine = {};
 
-fetterine.URL = "ui://4hio38umnil";
+fetterine.URL = "ui://04_general_information/fetterine";
 
 function fetterine:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function fetterine:OnConstruct(windowCom)
 end
 
 return fetterine;
-
---self.uiComs=require('ToolGen.04_general_information.fetterine'):OnConstruct(self.contentPane)

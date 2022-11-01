@@ -15,7 +15,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local com_btnAdd_diamonds = {};
 
-com_btnAdd_diamonds.URL = "ui://2r331opvnil";
+com_btnAdd_diamonds.URL = "ui://common/com_btnAdd_diamonds";
 
 function com_btnAdd_diamonds:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function com_btnAdd_diamonds:OnConstruct(windowCom)
 end
 
 return com_btnAdd_diamonds;
-
---self.uiComs=require('ToolGen.common.com_btnAdd_diamonds'):OnConstruct(self.contentPane)

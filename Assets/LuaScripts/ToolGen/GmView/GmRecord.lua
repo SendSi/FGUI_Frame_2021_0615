@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GTextField
 local GmRecord = {};
 
-GmRecord.URL = "ui://21uyefv8nil";
+GmRecord.URL = "ui://GMView/GmRecord";
 
 function GmRecord:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function GmRecord:OnConstruct(windowCom)
 end
 
 return GmRecord;
-
---self.uiComs=require('ToolGen.GMView.GmRecord'):OnConstruct(self.contentPane)

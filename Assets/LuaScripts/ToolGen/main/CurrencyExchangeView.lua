@@ -24,7 +24,7 @@
 ---@field public m_n24 CS.FairyGUI.GGroup
 local CurrencyExchangeView = {};
 
-CurrencyExchangeView.URL = "ui://4ni413lanil";
+CurrencyExchangeView.URL = "ui://main/CurrencyExchangeView";
 
 function CurrencyExchangeView:OnConstruct(windowCom)
 	local tb = {
@@ -53,5 +53,3 @@ function CurrencyExchangeView:OnConstruct(windowCom)
 end
 
 return CurrencyExchangeView;
-
---self.uiComs=require('ToolGen.main.CurrencyExchangeView'):OnConstruct(self.contentPane)

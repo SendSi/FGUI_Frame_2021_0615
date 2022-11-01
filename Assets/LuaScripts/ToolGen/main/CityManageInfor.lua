@@ -16,7 +16,7 @@
 ---@field public m_inforList CS.FairyGUI.GList
 local CityManageInfor = {};
 
-CityManageInfor.URL = "ui://4ni413lanil";
+CityManageInfor.URL = "ui://main/CityManageInfor";
 
 function CityManageInfor:OnConstruct(windowCom)
 	local tb = {
@@ -37,5 +37,3 @@ function CityManageInfor:OnConstruct(windowCom)
 end
 
 return CityManageInfor;
-
---self.uiComs=require('ToolGen.main.CityManageInfor'):OnConstruct(self.contentPane)

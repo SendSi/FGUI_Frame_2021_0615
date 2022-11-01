@@ -9,7 +9,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local nameBtn = {};
 
-nameBtn.URL = "ui://nf2zagxsnil";
+nameBtn.URL = "ui://06_Recruit/nameBtn";
 
 function nameBtn:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function nameBtn:OnConstruct(windowCom)
 end
 
 return nameBtn;
-
---self.uiComs=require('ToolGen.06_Recruit.nameBtn'):OnConstruct(self.contentPane)

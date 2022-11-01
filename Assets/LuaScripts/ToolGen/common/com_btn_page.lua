@@ -7,7 +7,7 @@
 ---@field public m_n1 CS.FairyGUI.GImage
 local com_btn_page = {};
 
-com_btn_page.URL = "ui://2r331opvnil";
+com_btn_page.URL = "ui://common/com_btn_page";
 
 function com_btn_page:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function com_btn_page:OnConstruct(windowCom)
 end
 
 return com_btn_page;
-
---self.uiComs=require('ToolGen.common.com_btn_page'):OnConstruct(self.contentPane)

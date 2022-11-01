@@ -18,7 +18,7 @@
 ---@field public m_text CS.FairyGUI.GGroup
 local genSoulItem = {};
 
-genSoulItem.URL = "ui://4hio38umnil";
+genSoulItem.URL = "ui://04_general_information/genSoulItem";
 
 function genSoulItem:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function genSoulItem:OnConstruct(windowCom)
 end
 
 return genSoulItem;
-
---self.uiComs=require('ToolGen.04_general_information.genSoulItem'):OnConstruct(self.contentPane)

@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local task_main_glory_part = {};
 
-task_main_glory_part.URL = "ui://4ni413lanil";
+task_main_glory_part.URL = "ui://main/task_main_glory_part";
 
 function task_main_glory_part:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function task_main_glory_part:OnConstruct(windowCom)
 end
 
 return task_main_glory_part;
-
---self.uiComs=require('ToolGen.main.task_main_glory_part'):OnConstruct(self.contentPane)

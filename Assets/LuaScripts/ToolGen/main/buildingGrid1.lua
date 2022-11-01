@@ -25,7 +25,7 @@
 ---@field public m_liebiao CS.FairyGUI.GGroup
 local buildingGrid1 = {};
 
-buildingGrid1.URL = "ui://4ni413lanil";
+buildingGrid1.URL = "ui://main/buildingGrid1";
 
 function buildingGrid1:OnConstruct(windowCom)
 	local tb = {
@@ -55,5 +55,3 @@ function buildingGrid1:OnConstruct(windowCom)
 end
 
 return buildingGrid1;
-
---self.uiComs=require('ToolGen.main.buildingGrid1'):OnConstruct(self.contentPane)

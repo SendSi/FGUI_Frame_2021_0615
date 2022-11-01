@@ -45,7 +45,7 @@
 ---@field public m_shakeGroupAnim CS.FairyGUI.Transition
 local ChiefPbr = {};
 
-ChiefPbr.URL = "ui://4ni413lanil";
+ChiefPbr.URL = "ui://main/ChiefPbr";
 
 function ChiefPbr:OnConstruct(windowCom)
 	local tb = {
@@ -95,5 +95,3 @@ function ChiefPbr:OnConstruct(windowCom)
 end
 
 return ChiefPbr;
-
---self.uiComs=require('ToolGen.main.ChiefPbr'):OnConstruct(self.contentPane)

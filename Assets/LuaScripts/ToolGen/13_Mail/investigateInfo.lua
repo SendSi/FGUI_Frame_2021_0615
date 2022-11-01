@@ -12,7 +12,7 @@
 ---@field public m_troopBtn CS.FairyGUI.GButton
 local investigateInfo = {};
 
-investigateInfo.URL = "ui://ufsajnnznil";
+investigateInfo.URL = "ui://13_Mail/investigateInfo";
 
 function investigateInfo:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function investigateInfo:OnConstruct(windowCom)
 end
 
 return investigateInfo;
-
---self.uiComs=require('ToolGen.13_Mail.investigateInfo'):OnConstruct(self.contentPane)

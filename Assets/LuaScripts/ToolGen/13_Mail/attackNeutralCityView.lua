@@ -13,7 +13,7 @@
 ---@field public m_com0 CS.FairyGUI.GGroup
 local attackNeutralCityView = {};
 
-attackNeutralCityView.URL = "ui://ufsajnnznil";
+attackNeutralCityView.URL = "ui://13_Mail/attackNeutralCityView";
 
 function attackNeutralCityView:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function attackNeutralCityView:OnConstruct(windowCom)
 end
 
 return attackNeutralCityView;
-
---self.uiComs=require('ToolGen.13_Mail.attackNeutralCityView'):OnConstruct(self.contentPane)

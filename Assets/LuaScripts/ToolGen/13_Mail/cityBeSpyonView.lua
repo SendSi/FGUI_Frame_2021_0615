@@ -9,7 +9,7 @@
 ---@field public m_n4 CS.FairyGUI.GGroup
 local cityBeSpyonView = {};
 
-cityBeSpyonView.URL = "ui://ufsajnnznil";
+cityBeSpyonView.URL = "ui://13_Mail/cityBeSpyonView";
 
 function cityBeSpyonView:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function cityBeSpyonView:OnConstruct(windowCom)
 end
 
 return cityBeSpyonView;
-
---self.uiComs=require('ToolGen.13_Mail.cityBeSpyonView'):OnConstruct(self.contentPane)

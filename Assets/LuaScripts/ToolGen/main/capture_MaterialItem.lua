@@ -9,7 +9,7 @@
 ---@field public m_title2 CS.FairyGUI.GTextField
 local capture_MaterialItem = {};
 
-capture_MaterialItem.URL = "ui://4ni413lanil";
+capture_MaterialItem.URL = "ui://main/capture_MaterialItem";
 
 function capture_MaterialItem:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function capture_MaterialItem:OnConstruct(windowCom)
 end
 
 return capture_MaterialItem;
-
---self.uiComs=require('ToolGen.main.capture_MaterialItem'):OnConstruct(self.contentPane)

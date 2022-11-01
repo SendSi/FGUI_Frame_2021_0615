@@ -10,7 +10,7 @@
 ---@field public m_disapper CS.FairyGUI.Transition
 local TroopStreamer = {};
 
-TroopStreamer.URL = "ui://jqem9egtnil";
+TroopStreamer.URL = "ui://08_Troops/TroopStreamer";
 
 function TroopStreamer:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function TroopStreamer:OnConstruct(windowCom)
 end
 
 return TroopStreamer;
-
---self.uiComs=require('ToolGen.08_Troops.TroopStreamer'):OnConstruct(self.contentPane)

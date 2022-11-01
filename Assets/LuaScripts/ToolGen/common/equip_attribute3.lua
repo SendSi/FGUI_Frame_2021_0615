@@ -7,7 +7,7 @@
 ---@field public m_title2 CS.FairyGUI.GTextField
 local equip_attribute3 = {};
 
-equip_attribute3.URL = "ui://2r331opvnil";
+equip_attribute3.URL = "ui://common/equip_attribute3";
 
 function equip_attribute3:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function equip_attribute3:OnConstruct(windowCom)
 end
 
 return equip_attribute3;
-
---self.uiComs=require('ToolGen.common.equip_attribute3'):OnConstruct(self.contentPane)

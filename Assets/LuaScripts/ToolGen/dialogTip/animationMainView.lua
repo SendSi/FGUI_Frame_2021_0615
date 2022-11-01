@@ -14,7 +14,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local animationMainView = {};
 
-animationMainView.URL = "ui://utp01xianil";
+animationMainView.URL = "ui://dialogTip/animationMainView";
 
 function animationMainView:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function animationMainView:OnConstruct(windowCom)
 end
 
 return animationMainView;
-
---self.uiComs=require('ToolGen.dialogTip.animationMainView'):OnConstruct(self.contentPane)

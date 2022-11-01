@@ -5,7 +5,7 @@
 ---@field public m_button CS.FairyGUI.Controller
 local blankBtn = {};
 
-blankBtn.URL = "ui://zezobey9nil";
+blankBtn.URL = "ui://17_Task/blankBtn";
 
 function blankBtn:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function blankBtn:OnConstruct(windowCom)
 end
 
 return blankBtn;
-
---self.uiComs=require('ToolGen.17_Task.blankBtn'):OnConstruct(self.contentPane)

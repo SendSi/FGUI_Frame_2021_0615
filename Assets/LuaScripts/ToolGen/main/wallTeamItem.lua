@@ -11,7 +11,7 @@
 ---@field public m_general3 CS.FairyGUI.GButton
 local wallTeamItem = {};
 
-wallTeamItem.URL = "ui://4ni413lanil";
+wallTeamItem.URL = "ui://main/wallTeamItem";
 
 function wallTeamItem:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function wallTeamItem:OnConstruct(windowCom)
 end
 
 return wallTeamItem;
-
---self.uiComs=require('ToolGen.main.wallTeamItem'):OnConstruct(self.contentPane)

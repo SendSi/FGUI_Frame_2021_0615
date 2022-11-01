@@ -10,7 +10,7 @@
 ---@field public m_n12 CS.FairyGUI.GImage
 local skin_cityName = {};
 
-skin_cityName.URL = "ui://4ni413lanil";
+skin_cityName.URL = "ui://main/skin_cityName";
 
 function skin_cityName:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function skin_cityName:OnConstruct(windowCom)
 end
 
 return skin_cityName;
-
---self.uiComs=require('ToolGen.main.skin_cityName'):OnConstruct(self.contentPane)

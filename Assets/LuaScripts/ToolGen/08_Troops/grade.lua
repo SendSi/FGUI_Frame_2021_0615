@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local grade = {};
 
-grade.URL = "ui://jqem9egtnil";
+grade.URL = "ui://08_Troops/grade";
 
 function grade:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function grade:OnConstruct(windowCom)
 end
 
 return grade;
-
---self.uiComs=require('ToolGen.08_Troops.grade'):OnConstruct(self.contentPane)

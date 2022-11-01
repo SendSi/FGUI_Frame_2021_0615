@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local chat = {};
 
-chat.URL = "ui://2r331opvnil";
+chat.URL = "ui://common/chat";
 
 function chat:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function chat:OnConstruct(windowCom)
 end
 
 return chat;
-
---self.uiComs=require('ToolGen.common.chat'):OnConstruct(self.contentPane)

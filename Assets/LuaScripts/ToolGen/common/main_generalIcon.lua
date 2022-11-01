@@ -11,7 +11,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local main_generalIcon = {};
 
-main_generalIcon.URL = "ui://2r331opvnil";
+main_generalIcon.URL = "ui://common/main_generalIcon";
 
 function main_generalIcon:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function main_generalIcon:OnConstruct(windowCom)
 end
 
 return main_generalIcon;
-
---self.uiComs=require('ToolGen.common.main_generalIcon'):OnConstruct(self.contentPane)

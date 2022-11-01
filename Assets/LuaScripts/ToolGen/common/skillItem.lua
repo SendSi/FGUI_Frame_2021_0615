@@ -12,7 +12,7 @@
 ---@field public m_n14 CS.FairyGUI.GImage
 local skillItem = {};
 
-skillItem.URL = "ui://2r331opvnil";
+skillItem.URL = "ui://common/skillItem";
 
 function skillItem:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function skillItem:OnConstruct(windowCom)
 end
 
 return skillItem;
-
---self.uiComs=require('ToolGen.common.skillItem'):OnConstruct(self.contentPane)

@@ -8,7 +8,7 @@
 ---@field public m_line CS.FairyGUI.GImage
 local PlayerNameAndChat = {};
 
-PlayerNameAndChat.URL = "ui://4ni413lanil";
+PlayerNameAndChat.URL = "ui://main/PlayerNameAndChat";
 
 function PlayerNameAndChat:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function PlayerNameAndChat:OnConstruct(windowCom)
 end
 
 return PlayerNameAndChat;
-
---self.uiComs=require('ToolGen.main.PlayerNameAndChat'):OnConstruct(self.contentPane)

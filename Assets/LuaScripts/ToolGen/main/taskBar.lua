@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local taskBar = {};
 
-taskBar.URL = "ui://4ni413lanil";
+taskBar.URL = "ui://main/taskBar";
 
 function taskBar:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function taskBar:OnConstruct(windowCom)
 end
 
 return taskBar;
-
---self.uiComs=require('ToolGen.main.taskBar'):OnConstruct(self.contentPane)

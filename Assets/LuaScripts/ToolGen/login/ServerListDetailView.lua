@@ -24,7 +24,7 @@
 ---@field public m_windows CS.FairyGUI.GGroup
 local ServerListDetailView = {};
 
-ServerListDetailView.URL = "ui://byy9k3ghnil";
+ServerListDetailView.URL = "ui://login/ServerListDetailView";
 
 function ServerListDetailView:OnConstruct(windowCom)
 	local tb = {
@@ -53,5 +53,3 @@ function ServerListDetailView:OnConstruct(windowCom)
 end
 
 return ServerListDetailView;
-
---self.uiComs=require('ToolGen.login.ServerListDetailView'):OnConstruct(self.contentPane)

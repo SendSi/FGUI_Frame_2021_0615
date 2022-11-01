@@ -7,7 +7,7 @@
 ---@field public m_title01 CS.FairyGUI.GTextField
 local satiate_bar = {};
 
-satiate_bar.URL = "ui://4ni413lanil";
+satiate_bar.URL = "ui://main/satiate_bar";
 
 function satiate_bar:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function satiate_bar:OnConstruct(windowCom)
 end
 
 return satiate_bar;
-
---self.uiComs=require('ToolGen.main.satiate_bar'):OnConstruct(self.contentPane)

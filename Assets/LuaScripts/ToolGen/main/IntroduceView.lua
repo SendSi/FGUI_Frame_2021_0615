@@ -48,7 +48,7 @@
 ---@field public m_feature CS.FairyGUI.GGroup
 local IntroduceView = {};
 
-IntroduceView.URL = "ui://4ni413lanil";
+IntroduceView.URL = "ui://main/IntroduceView";
 
 function IntroduceView:OnConstruct(windowCom)
 	local tb = {
@@ -101,5 +101,3 @@ function IntroduceView:OnConstruct(windowCom)
 end
 
 return IntroduceView;
-
---self.uiComs=require('ToolGen.main.IntroduceView'):OnConstruct(self.contentPane)

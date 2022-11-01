@@ -6,7 +6,7 @@
 ---@field public m_list CS.FairyGUI.GList
 local TroopsCbox_popup = {};
 
-TroopsCbox_popup.URL = "ui://jqem9egtnil";
+TroopsCbox_popup.URL = "ui://08_Troops/TroopsCbox_popup";
 
 function TroopsCbox_popup:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function TroopsCbox_popup:OnConstruct(windowCom)
 end
 
 return TroopsCbox_popup;
-
---self.uiComs=require('ToolGen.08_Troops.TroopsCbox_popup'):OnConstruct(self.contentPane)

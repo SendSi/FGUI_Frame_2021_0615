@@ -8,7 +8,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local leaBossBtn = {};
 
-leaBossBtn.URL = "ui://4ni413lanil";
+leaBossBtn.URL = "ui://main/leaBossBtn";
 
 function leaBossBtn:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function leaBossBtn:OnConstruct(windowCom)
 end
 
 return leaBossBtn;
-
---self.uiComs=require('ToolGen.main.leaBossBtn'):OnConstruct(self.contentPane)

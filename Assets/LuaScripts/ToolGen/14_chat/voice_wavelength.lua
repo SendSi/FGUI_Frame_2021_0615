@@ -12,7 +12,7 @@
 ---@field public m_n41 CS.FairyGUI.GTextField
 local voice_wavelength = {};
 
-voice_wavelength.URL = "ui://62wjs2s2nil";
+voice_wavelength.URL = "ui://14_chat/voice_wavelength";
 
 function voice_wavelength:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function voice_wavelength:OnConstruct(windowCom)
 end
 
 return voice_wavelength;
-
---self.uiComs=require('ToolGen.14_chat.voice_wavelength'):OnConstruct(self.contentPane)

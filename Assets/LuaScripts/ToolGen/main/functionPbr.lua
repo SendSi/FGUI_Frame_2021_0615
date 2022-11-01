@@ -8,7 +8,7 @@
 ---@field public m_effectNode CS.FairyGUI.GGraph
 local functionPbr = {};
 
-functionPbr.URL = "ui://4ni413lanil";
+functionPbr.URL = "ui://main/functionPbr";
 
 function functionPbr:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function functionPbr:OnConstruct(windowCom)
 end
 
 return functionPbr;
-
---self.uiComs=require('ToolGen.main.functionPbr'):OnConstruct(self.contentPane)

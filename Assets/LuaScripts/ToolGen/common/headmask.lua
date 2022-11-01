@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local headmask = {};
 
-headmask.URL = "ui://2r331opvnil";
+headmask.URL = "ui://common/headmask";
 
 function headmask:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function headmask:OnConstruct(windowCom)
 end
 
 return headmask;
-
---self.uiComs=require('ToolGen.common.headmask'):OnConstruct(self.contentPane)

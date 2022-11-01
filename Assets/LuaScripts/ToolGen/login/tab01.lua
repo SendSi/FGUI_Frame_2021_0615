@@ -13,7 +13,7 @@
 ---@field public m_n9 CS.FairyGUI.GGroup
 local tab01 = {};
 
-tab01.URL = "ui://byy9k3ghnil";
+tab01.URL = "ui://login/tab01";
 
 function tab01:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function tab01:OnConstruct(windowCom)
 end
 
 return tab01;
-
---self.uiComs=require('ToolGen.login.tab01'):OnConstruct(self.contentPane)

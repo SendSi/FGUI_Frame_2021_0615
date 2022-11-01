@@ -28,7 +28,7 @@
 ---@field public m_n26 CS.FairyGUI.GGroup
 local RoleHeadView = {};
 
-RoleHeadView.URL = "ui://66sh7tc6nil";
+RoleHeadView.URL = "ui://mainRole/RoleHeadView";
 
 function RoleHeadView:OnConstruct(windowCom)
 	local tb = {
@@ -61,5 +61,3 @@ function RoleHeadView:OnConstruct(windowCom)
 end
 
 return RoleHeadView;
-
---self.uiComs=require('ToolGen.mainRole.RoleHeadView'):OnConstruct(self.contentPane)

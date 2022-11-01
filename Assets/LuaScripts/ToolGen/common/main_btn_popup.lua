@@ -6,7 +6,7 @@
 ---@field public m_bg CS.FairyGUI.GGraph
 local main_btn_popup = {};
 
-main_btn_popup.URL = "ui://2r331opvnil";
+main_btn_popup.URL = "ui://common/main_btn_popup";
 
 function main_btn_popup:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function main_btn_popup:OnConstruct(windowCom)
 end
 
 return main_btn_popup;
-
---self.uiComs=require('ToolGen.common.main_btn_popup'):OnConstruct(self.contentPane)

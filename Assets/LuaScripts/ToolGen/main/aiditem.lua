@@ -14,7 +14,7 @@
 ---@field public m_checkBtn CS.FairyGUI.GButton
 local aiditem = {};
 
-aiditem.URL = "ui://4ni413lanil";
+aiditem.URL = "ui://main/aiditem";
 
 function aiditem:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function aiditem:OnConstruct(windowCom)
 end
 
 return aiditem;
-
---self.uiComs=require('ToolGen.main.aiditem'):OnConstruct(self.contentPane)

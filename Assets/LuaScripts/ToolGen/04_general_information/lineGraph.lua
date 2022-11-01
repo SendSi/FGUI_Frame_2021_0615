@@ -7,7 +7,7 @@
 ---@field public m_talentList CS.FairyGUI.GList
 local lineGraph = {};
 
-lineGraph.URL = "ui://4hio38umnil";
+lineGraph.URL = "ui://04_general_information/lineGraph";
 
 function lineGraph:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function lineGraph:OnConstruct(windowCom)
 end
 
 return lineGraph;
-
---self.uiComs=require('ToolGen.04_general_information.lineGraph'):OnConstruct(self.contentPane)

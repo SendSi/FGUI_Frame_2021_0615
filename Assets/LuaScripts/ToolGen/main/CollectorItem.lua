@@ -16,7 +16,7 @@
 ---@field public m_n23 CS.FairyGUI.GImage
 local CollectorItem = {};
 
-CollectorItem.URL = "ui://4ni413lanil";
+CollectorItem.URL = "ui://main/CollectorItem";
 
 function CollectorItem:OnConstruct(windowCom)
 	local tb = {
@@ -37,5 +37,3 @@ function CollectorItem:OnConstruct(windowCom)
 end
 
 return CollectorItem;
-
---self.uiComs=require('ToolGen.main.CollectorItem'):OnConstruct(self.contentPane)

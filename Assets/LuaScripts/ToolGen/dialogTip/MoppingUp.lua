@@ -16,7 +16,7 @@
 ---@field public m_n9 CS.FairyGUI.GGroup
 local MoppingUp = {};
 
-MoppingUp.URL = "ui://utp01xianil";
+MoppingUp.URL = "ui://dialogTip/MoppingUp";
 
 function MoppingUp:OnConstruct(windowCom)
 	local tb = {
@@ -37,5 +37,3 @@ function MoppingUp:OnConstruct(windowCom)
 end
 
 return MoppingUp;
-
---self.uiComs=require('ToolGen.dialogTip.MoppingUp'):OnConstruct(self.contentPane)

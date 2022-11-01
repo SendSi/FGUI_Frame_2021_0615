@@ -9,7 +9,7 @@
 ---@field public m_n4 CS.FairyGUI.GImage
 local bossPbr = {};
 
-bossPbr.URL = "ui://4ni413lanil";
+bossPbr.URL = "ui://main/bossPbr";
 
 function bossPbr:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function bossPbr:OnConstruct(windowCom)
 end
 
 return bossPbr;
-
---self.uiComs=require('ToolGen.main.bossPbr'):OnConstruct(self.contentPane)

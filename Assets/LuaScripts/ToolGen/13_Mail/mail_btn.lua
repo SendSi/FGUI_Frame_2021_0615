@@ -9,7 +9,7 @@
 ---@field public m_red CS.FairyGUI.GButton
 local mail_btn = {};
 
-mail_btn.URL = "ui://ufsajnnznil";
+mail_btn.URL = "ui://13_Mail/mail_btn";
 
 function mail_btn:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function mail_btn:OnConstruct(windowCom)
 end
 
 return mail_btn;
-
---self.uiComs=require('ToolGen.13_Mail.mail_btn'):OnConstruct(self.contentPane)

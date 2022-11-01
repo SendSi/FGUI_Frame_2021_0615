@@ -7,7 +7,7 @@
 ---@field public m_taskList CS.FairyGUI.GList
 local main_taskitem_list = {};
 
-main_taskitem_list.URL = "ui://4ni413lanil";
+main_taskitem_list.URL = "ui://main/main_taskitem_list";
 
 function main_taskitem_list:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function main_taskitem_list:OnConstruct(windowCom)
 end
 
 return main_taskitem_list;
-
---self.uiComs=require('ToolGen.main.main_taskitem_list'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local stuffIcon = {};
 
-stuffIcon.URL = "ui://4hio38umnil";
+stuffIcon.URL = "ui://04_general_information/stuffIcon";
 
 function stuffIcon:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function stuffIcon:OnConstruct(windowCom)
 end
 
 return stuffIcon;
-
---self.uiComs=require('ToolGen.04_general_information.stuffIcon'):OnConstruct(self.contentPane)

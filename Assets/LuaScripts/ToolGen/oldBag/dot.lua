@@ -7,7 +7,7 @@
 ---@field public m_n22 CS.FairyGUI.GGraph
 local dot = {};
 
-dot.URL = "ui://rbw1tv9tnil";
+dot.URL = "ui://oldBag/dot";
 
 function dot:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function dot:OnConstruct(windowCom)
 end
 
 return dot;
-
---self.uiComs=require('ToolGen.oldBag.dot'):OnConstruct(self.contentPane)

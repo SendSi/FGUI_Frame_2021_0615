@@ -32,7 +32,7 @@
 ---@field public m_propTopList CS.FairyGUI.GComponent
 local WarehouseMainView = {};
 
-WarehouseMainView.URL = "ui://b7676vbqnil";
+WarehouseMainView.URL = "ui://Bag/WarehouseMainView";
 
 function WarehouseMainView:OnConstruct(windowCom)
 	local tb = {
@@ -69,5 +69,3 @@ function WarehouseMainView:OnConstruct(windowCom)
 end
 
 return WarehouseMainView;
-
---self.uiComs=require('ToolGen.bag.WarehouseMainView'):OnConstruct(self.contentPane)

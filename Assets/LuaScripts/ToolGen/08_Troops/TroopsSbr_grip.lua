@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local TroopsSbr_grip = {};
 
-TroopsSbr_grip.URL = "ui://jqem9egtnil";
+TroopsSbr_grip.URL = "ui://08_Troops/TroopsSbr_grip";
 
 function TroopsSbr_grip:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function TroopsSbr_grip:OnConstruct(windowCom)
 end
 
 return TroopsSbr_grip;
-
---self.uiComs=require('ToolGen.08_Troops.TroopsSbr_grip'):OnConstruct(self.contentPane)

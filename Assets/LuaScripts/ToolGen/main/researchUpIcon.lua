@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local researchUpIcon = {};
 
-researchUpIcon.URL = "ui://4ni413lanil";
+researchUpIcon.URL = "ui://main/researchUpIcon";
 
 function researchUpIcon:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function researchUpIcon:OnConstruct(windowCom)
 end
 
 return researchUpIcon;
-
---self.uiComs=require('ToolGen.main.researchUpIcon'):OnConstruct(self.contentPane)

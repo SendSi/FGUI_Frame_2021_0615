@@ -19,7 +19,7 @@
 ---@field public m_buyBtn CS.FairyGUI.GButton
 local MoveCityTipsView = {};
 
-MoveCityTipsView.URL = "ui://4ni413lanil";
+MoveCityTipsView.URL = "ui://main/MoveCityTipsView";
 
 function MoveCityTipsView:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function MoveCityTipsView:OnConstruct(windowCom)
 end
 
 return MoveCityTipsView;
-
---self.uiComs=require('ToolGen.main.MoveCityTipsView'):OnConstruct(self.contentPane)

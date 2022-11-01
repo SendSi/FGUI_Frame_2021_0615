@@ -78,7 +78,7 @@
 ---@field public m_leftout_tab4 CS.FairyGUI.Transition
 local GeneralCardListView = {};
 
-GeneralCardListView.URL = "ui://4hio38umnil";
+GeneralCardListView.URL = "ui://04_general_information/GeneralCardListView";
 
 function GeneralCardListView:OnConstruct(windowCom)
 	local tb = {
@@ -161,5 +161,3 @@ function GeneralCardListView:OnConstruct(windowCom)
 end
 
 return GeneralCardListView;
-
---self.uiComs=require('ToolGen.04_general_information.GeneralCardListView'):OnConstruct(self.contentPane)

@@ -7,7 +7,7 @@
 ---@field public m_TimeLbl CS.FairyGUI.GTextField
 local ChatItemView01 = {};
 
-ChatItemView01.URL = "ui://62wjs2s2nil";
+ChatItemView01.URL = "ui://14_chat/ChatItemView01";
 
 function ChatItemView01:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function ChatItemView01:OnConstruct(windowCom)
 end
 
 return ChatItemView01;
-
---self.uiComs=require('ToolGen.14_chat.ChatItemView01'):OnConstruct(self.contentPane)

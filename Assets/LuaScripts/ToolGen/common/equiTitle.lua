@@ -6,7 +6,7 @@
 ---@field public m_propTitle CS.FairyGUI.GTextField
 local equiTitle = {};
 
-equiTitle.URL = "ui://2r331opvnil";
+equiTitle.URL = "ui://common/equiTitle";
 
 function equiTitle:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function equiTitle:OnConstruct(windowCom)
 end
 
 return equiTitle;
-
---self.uiComs=require('ToolGen.common.equiTitle'):OnConstruct(self.contentPane)

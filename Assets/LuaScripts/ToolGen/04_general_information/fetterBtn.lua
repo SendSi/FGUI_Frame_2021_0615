@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local fetterBtn = {};
 
-fetterBtn.URL = "ui://4hio38umnil";
+fetterBtn.URL = "ui://04_general_information/fetterBtn";
 
 function fetterBtn:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function fetterBtn:OnConstruct(windowCom)
 end
 
 return fetterBtn;
-
---self.uiComs=require('ToolGen.04_general_information.fetterBtn'):OnConstruct(self.contentPane)

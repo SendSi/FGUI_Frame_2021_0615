@@ -8,7 +8,7 @@
 ---@field public m_lock1 generalLock
 local wallTeamBtn = {};
 
-wallTeamBtn.URL = "ui://2r331opvnil";
+wallTeamBtn.URL = "ui://common/wallTeamBtn";
 
 function wallTeamBtn:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function wallTeamBtn:OnConstruct(windowCom)
 end
 
 return wallTeamBtn;
-
---self.uiComs=require('ToolGen.common.wallTeamBtn'):OnConstruct(self.contentPane)

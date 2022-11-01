@@ -5,7 +5,7 @@
 ---@field public m_cityTitleLoad CS.FairyGUI.GLoader
 local CityTitle = {};
 
-CityTitle.URL = "ui://4ni413lanil";
+CityTitle.URL = "ui://main/CityTitle";
 
 function CityTitle:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function CityTitle:OnConstruct(windowCom)
 end
 
 return CityTitle;
-
---self.uiComs=require('ToolGen.main.CityTitle'):OnConstruct(self.contentPane)

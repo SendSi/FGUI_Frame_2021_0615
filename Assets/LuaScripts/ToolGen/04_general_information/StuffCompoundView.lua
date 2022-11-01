@@ -43,7 +43,7 @@
 ---@field public m_n83 CS.FairyGUI.GGroup
 local StuffCompoundView = {};
 
-StuffCompoundView.URL = "ui://4hio38umnil";
+StuffCompoundView.URL = "ui://04_general_information/StuffCompoundView";
 
 function StuffCompoundView:OnConstruct(windowCom)
 	local tb = {
@@ -91,5 +91,3 @@ function StuffCompoundView:OnConstruct(windowCom)
 end
 
 return StuffCompoundView;
-
---self.uiComs=require('ToolGen.04_general_information.StuffCompoundView'):OnConstruct(self.contentPane)

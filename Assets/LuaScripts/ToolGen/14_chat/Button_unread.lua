@@ -8,7 +8,7 @@
 ---@field public m_red CS.FairyGUI.GButton
 local Button_unread = {};
 
-Button_unread.URL = "ui://62wjs2s2nil";
+Button_unread.URL = "ui://14_chat/Button_unread";
 
 function Button_unread:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function Button_unread:OnConstruct(windowCom)
 end
 
 return Button_unread;
-
---self.uiComs=require('ToolGen.14_chat.Button_unread'):OnConstruct(self.contentPane)

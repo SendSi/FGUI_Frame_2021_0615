@@ -7,7 +7,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local main_deployBtn = {};
 
-main_deployBtn.URL = "ui://4ni413lanil";
+main_deployBtn.URL = "ui://main/main_deployBtn";
 
 function main_deployBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function main_deployBtn:OnConstruct(windowCom)
 end
 
 return main_deployBtn;
-
---self.uiComs=require('ToolGen.main.main_deployBtn'):OnConstruct(self.contentPane)

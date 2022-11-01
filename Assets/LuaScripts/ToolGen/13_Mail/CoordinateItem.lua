@@ -9,7 +9,7 @@
 ---@field public m_map CS.FairyGUI.GTextField
 local CoordinateItem = {};
 
-CoordinateItem.URL = "ui://ufsajnnznil";
+CoordinateItem.URL = "ui://13_Mail/CoordinateItem";
 
 function CoordinateItem:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function CoordinateItem:OnConstruct(windowCom)
 end
 
 return CoordinateItem;
-
---self.uiComs=require('ToolGen.13_Mail.CoordinateItem'):OnConstruct(self.contentPane)

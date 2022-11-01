@@ -15,7 +15,7 @@
 ---@field public m_n9 CS.FairyGUI.GGroup
 local break_equipmentItem = {};
 
-break_equipmentItem.URL = "ui://4hio38umnil";
+break_equipmentItem.URL = "ui://04_general_information/break_equipmentItem";
 
 function break_equipmentItem:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function break_equipmentItem:OnConstruct(windowCom)
 end
 
 return break_equipmentItem;
-
---self.uiComs=require('ToolGen.04_general_information.break_equipmentItem'):OnConstruct(self.contentPane)

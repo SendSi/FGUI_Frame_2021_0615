@@ -14,7 +14,7 @@
 ---@field public m_sdr searchSdr
 local searchInforItem = {};
 
-searchInforItem.URL = "ui://4ni413lanil";
+searchInforItem.URL = "ui://main/searchInforItem";
 
 function searchInforItem:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function searchInforItem:OnConstruct(windowCom)
 end
 
 return searchInforItem;
-
---self.uiComs=require('ToolGen.main.searchInforItem'):OnConstruct(self.contentPane)

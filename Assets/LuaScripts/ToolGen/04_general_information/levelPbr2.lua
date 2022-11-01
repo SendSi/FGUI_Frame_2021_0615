@@ -9,7 +9,7 @@
 ---@field public m_n1 CS.FairyGUI.GTextField
 local levelPbr2 = {};
 
-levelPbr2.URL = "ui://4hio38umnil";
+levelPbr2.URL = "ui://04_general_information/levelPbr2";
 
 function levelPbr2:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function levelPbr2:OnConstruct(windowCom)
 end
 
 return levelPbr2;
-
---self.uiComs=require('ToolGen.04_general_information.levelPbr2'):OnConstruct(self.contentPane)

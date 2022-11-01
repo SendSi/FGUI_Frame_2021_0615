@@ -11,7 +11,7 @@
 ---@field public m_closeButton CS.FairyGUI.GButton
 local wallInfor = {};
 
-wallInfor.URL = "ui://4ni413lanil";
+wallInfor.URL = "ui://main/wallInfor";
 
 function wallInfor:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function wallInfor:OnConstruct(windowCom)
 end
 
 return wallInfor;
-
---self.uiComs=require('ToolGen.main.wallInfor'):OnConstruct(self.contentPane)

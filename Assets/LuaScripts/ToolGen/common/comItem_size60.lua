@@ -16,7 +16,7 @@
 ---@field public m_n49 CS.FairyGUI.GGroup
 local comItem_size60 = {};
 
-comItem_size60.URL = "ui://2r331opvnil";
+comItem_size60.URL = "ui://common/comItem_size60";
 
 function comItem_size60:OnConstruct(windowCom)
 	local tb = {
@@ -37,5 +37,3 @@ function comItem_size60:OnConstruct(windowCom)
 end
 
 return comItem_size60;
-
---self.uiComs=require('ToolGen.common.comItem_size60'):OnConstruct(self.contentPane)

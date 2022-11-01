@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local interactive = {};
 
-interactive.URL = "ui://byy9k3ghnil";
+interactive.URL = "ui://login/interactive";
 
 function interactive:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function interactive:OnConstruct(windowCom)
 end
 
 return interactive;
-
---self.uiComs=require('ToolGen.login.interactive'):OnConstruct(self.contentPane)

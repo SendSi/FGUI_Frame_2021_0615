@@ -7,7 +7,7 @@
 ---@field public m_inforBtn chatBtn
 local main_chat_item = {};
 
-main_chat_item.URL = "ui://4ni413lanil";
+main_chat_item.URL = "ui://main/main_chat_item";
 
 function main_chat_item:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function main_chat_item:OnConstruct(windowCom)
 end
 
 return main_chat_item;
-
---self.uiComs=require('ToolGen.main.main_chat_item'):OnConstruct(self.contentPane)

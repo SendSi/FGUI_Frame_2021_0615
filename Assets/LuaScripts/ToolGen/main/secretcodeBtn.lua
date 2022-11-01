@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local secretcodeBtn = {};
 
-secretcodeBtn.URL = "ui://4ni413lanil";
+secretcodeBtn.URL = "ui://main/secretcodeBtn";
 
 function secretcodeBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function secretcodeBtn:OnConstruct(windowCom)
 end
 
 return secretcodeBtn;
-
---self.uiComs=require('ToolGen.main.secretcodeBtn'):OnConstruct(self.contentPane)

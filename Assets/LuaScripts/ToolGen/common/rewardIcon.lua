@@ -9,7 +9,7 @@
 ---@field public m_num CS.FairyGUI.GTextField
 local rewardIcon = {};
 
-rewardIcon.URL = "ui://2r331opvnil";
+rewardIcon.URL = "ui://common/rewardIcon";
 
 function rewardIcon:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function rewardIcon:OnConstruct(windowCom)
 end
 
 return rewardIcon;
-
---self.uiComs=require('ToolGen.common.rewardIcon'):OnConstruct(self.contentPane)

@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local skin_quality = {};
 
-skin_quality.URL = "ui://4ni413lanil";
+skin_quality.URL = "ui://main/skin_quality";
 
 function skin_quality:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function skin_quality:OnConstruct(windowCom)
 end
 
 return skin_quality;
-
---self.uiComs=require('ToolGen.main.skin_quality'):OnConstruct(self.contentPane)

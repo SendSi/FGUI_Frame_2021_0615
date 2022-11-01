@@ -11,7 +11,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local GeneralAwakeBtn = {};
 
-GeneralAwakeBtn.URL = "ui://4hio38umnil";
+GeneralAwakeBtn.URL = "ui://04_general_information/GeneralAwakeBtn";
 
 function GeneralAwakeBtn:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function GeneralAwakeBtn:OnConstruct(windowCom)
 end
 
 return GeneralAwakeBtn;
-
---self.uiComs=require('ToolGen.04_general_information.GeneralAwakeBtn'):OnConstruct(self.contentPane)

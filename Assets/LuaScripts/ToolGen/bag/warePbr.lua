@@ -9,7 +9,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local warePbr = {};
 
-warePbr.URL = "ui://b7676vbqnil";
+warePbr.URL = "ui://Bag/warePbr";
 
 function warePbr:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function warePbr:OnConstruct(windowCom)
 end
 
 return warePbr;
-
---self.uiComs=require('ToolGen.bag.warePbr'):OnConstruct(self.contentPane)

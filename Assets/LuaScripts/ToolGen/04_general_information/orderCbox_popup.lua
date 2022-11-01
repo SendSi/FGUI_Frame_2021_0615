@@ -6,7 +6,7 @@
 ---@field public m_list CS.FairyGUI.GList
 local orderCbox_popup = {};
 
-orderCbox_popup.URL = "ui://4hio38umnil";
+orderCbox_popup.URL = "ui://04_general_information/orderCbox_popup";
 
 function orderCbox_popup:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function orderCbox_popup:OnConstruct(windowCom)
 end
 
 return orderCbox_popup;
-
---self.uiComs=require('ToolGen.04_general_information.orderCbox_popup'):OnConstruct(self.contentPane)

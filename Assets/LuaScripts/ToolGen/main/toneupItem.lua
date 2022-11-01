@@ -11,7 +11,7 @@
 ---@field public m_num CS.FairyGUI.GTextField
 local toneupItem = {};
 
-toneupItem.URL = "ui://4ni413lanil";
+toneupItem.URL = "ui://main/toneupItem";
 
 function toneupItem:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function toneupItem:OnConstruct(windowCom)
 end
 
 return toneupItem;
-
---self.uiComs=require('ToolGen.main.toneupItem'):OnConstruct(self.contentPane)

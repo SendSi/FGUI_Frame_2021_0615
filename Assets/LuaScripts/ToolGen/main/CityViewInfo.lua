@@ -12,7 +12,7 @@
 ---@field public m_info CS.FairyGUI.GGroup
 local CityViewInfo = {};
 
-CityViewInfo.URL = "ui://4ni413lanil";
+CityViewInfo.URL = "ui://main/CityViewInfo";
 
 function CityViewInfo:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function CityViewInfo:OnConstruct(windowCom)
 end
 
 return CityViewInfo;
-
---self.uiComs=require('ToolGen.main.CityViewInfo'):OnConstruct(self.contentPane)

@@ -8,7 +8,7 @@
 ---@field public m_title_2 CS.FairyGUI.GTextField
 local red_dot = {};
 
-red_dot.URL = "ui://2r331opvnil";
+red_dot.URL = "ui://common/red_dot";
 
 function red_dot:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function red_dot:OnConstruct(windowCom)
 end
 
 return red_dot;
-
---self.uiComs=require('ToolGen.common.red_dot'):OnConstruct(self.contentPane)

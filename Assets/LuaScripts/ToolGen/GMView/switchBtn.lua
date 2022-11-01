@@ -8,7 +8,7 @@
 ---@field public m_n2 CS.FairyGUI.GGraph
 local switchBtn = {};
 
-switchBtn.URL = "ui://21uyefv8nil";
+switchBtn.URL = "ui://GMView/switchBtn";
 
 function switchBtn:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function switchBtn:OnConstruct(windowCom)
 end
 
 return switchBtn;
-
---self.uiComs=require('ToolGen.GMView.switchBtn'):OnConstruct(self.contentPane)

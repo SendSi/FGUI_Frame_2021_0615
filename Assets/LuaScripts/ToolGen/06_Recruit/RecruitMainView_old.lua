@@ -42,7 +42,7 @@
 ---@field public m_tAlphaLong CS.FairyGUI.Transition
 local RecruitMainView_old = {};
 
-RecruitMainView_old.URL = "ui://nf2zagxsnil";
+RecruitMainView_old.URL = "ui://06_Recruit/RecruitMainView_old";
 
 function RecruitMainView_old:OnConstruct(windowCom)
 	local tb = {
@@ -89,5 +89,3 @@ function RecruitMainView_old:OnConstruct(windowCom)
 end
 
 return RecruitMainView_old;
-
---self.uiComs=require('ToolGen.06_Recruit.RecruitMainView_old'):OnConstruct(self.contentPane)

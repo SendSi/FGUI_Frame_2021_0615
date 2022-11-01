@@ -10,7 +10,7 @@
 ---@field public m_specialAttackR CS.FairyGUI.Transition
 local NormalAttack = {};
 
-NormalAttack.URL = "ui://4ni413lanil";
+NormalAttack.URL = "ui://main/NormalAttack";
 
 function NormalAttack:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function NormalAttack:OnConstruct(windowCom)
 end
 
 return NormalAttack;
-
---self.uiComs=require('ToolGen.main.NormalAttack'):OnConstruct(self.contentPane)

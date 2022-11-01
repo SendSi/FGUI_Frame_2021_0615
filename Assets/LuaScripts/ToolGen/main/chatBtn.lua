@@ -8,7 +8,7 @@
 ---@field public m_red_2 CS.FairyGUI.GButton
 local chatBtn = {};
 
-chatBtn.URL = "ui://4ni413lanil";
+chatBtn.URL = "ui://main/chatBtn";
 
 function chatBtn:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function chatBtn:OnConstruct(windowCom)
 end
 
 return chatBtn;
-
---self.uiComs=require('ToolGen.main.chatBtn'):OnConstruct(self.contentPane)

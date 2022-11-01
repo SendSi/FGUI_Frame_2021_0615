@@ -8,7 +8,7 @@
 ---@field public m_title0 CS.FairyGUI.GTextField
 local warningPbr = {};
 
-warningPbr.URL = "ui://4ni413lanil";
+warningPbr.URL = "ui://main/warningPbr";
 
 function warningPbr:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function warningPbr:OnConstruct(windowCom)
 end
 
 return warningPbr;
-
---self.uiComs=require('ToolGen.main.warningPbr'):OnConstruct(self.contentPane)

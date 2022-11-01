@@ -9,7 +9,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local btnCheck = {};
 
-btnCheck.URL = "ui://zezobey9nil";
+btnCheck.URL = "ui://17_Task/btnCheck";
 
 function btnCheck:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function btnCheck:OnConstruct(windowCom)
 end
 
 return btnCheck;
-
---self.uiComs=require('ToolGen.17_Task.btnCheck'):OnConstruct(self.contentPane)

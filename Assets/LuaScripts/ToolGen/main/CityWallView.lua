@@ -38,7 +38,7 @@
 ---@field public m_wallInfor wallInfor
 local CityWallView = {};
 
-CityWallView.URL = "ui://4ni413lanil";
+CityWallView.URL = "ui://main/CityWallView";
 
 function CityWallView:OnConstruct(windowCom)
 	local tb = {
@@ -81,5 +81,3 @@ function CityWallView:OnConstruct(windowCom)
 end
 
 return CityWallView;
-
---self.uiComs=require('ToolGen.main.CityWallView'):OnConstruct(self.contentPane)

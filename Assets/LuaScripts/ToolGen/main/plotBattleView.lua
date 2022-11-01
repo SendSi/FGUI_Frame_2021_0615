@@ -12,7 +12,7 @@
 ---@field public m_time CS.FairyGUI.GTextField
 local plotBattleView = {};
 
-plotBattleView.URL = "ui://4ni413lanil";
+plotBattleView.URL = "ui://main/plotBattleView";
 
 function plotBattleView:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function plotBattleView:OnConstruct(windowCom)
 end
 
 return plotBattleView;
-
---self.uiComs=require('ToolGen.main.plotBattleView'):OnConstruct(self.contentPane)

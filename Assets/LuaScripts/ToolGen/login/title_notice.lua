@@ -9,7 +9,7 @@
 ---@field public m_bgimg CS.FairyGUI.GLoader
 local title_notice = {};
 
-title_notice.URL = "ui://byy9k3ghnil";
+title_notice.URL = "ui://login/title_notice";
 
 function title_notice:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function title_notice:OnConstruct(windowCom)
 end
 
 return title_notice;
-
---self.uiComs=require('ToolGen.login.title_notice'):OnConstruct(self.contentPane)

@@ -22,7 +22,7 @@
 ---@field public m_t1 CS.FairyGUI.Transition
 local below = {};
 
-below.URL = "ui://62wjs2s2nil";
+below.URL = "ui://14_chat/below";
 
 function below:OnConstruct(windowCom)
 	local tb = {
@@ -49,5 +49,3 @@ function below:OnConstruct(windowCom)
 end
 
 return below;
-
---self.uiComs=require('ToolGen.14_chat.below'):OnConstruct(self.contentPane)

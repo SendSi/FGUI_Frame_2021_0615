@@ -11,7 +11,7 @@
 ---@field public m_text CS.FairyGUI.GRichTextField
 local build_moraleSdr = {};
 
-build_moraleSdr.URL = "ui://4ni413lanil";
+build_moraleSdr.URL = "ui://main/build_moraleSdr";
 
 function build_moraleSdr:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function build_moraleSdr:OnConstruct(windowCom)
 end
 
 return build_moraleSdr;
-
---self.uiComs=require('ToolGen.main.build_moraleSdr'):OnConstruct(self.contentPane)

@@ -8,7 +8,7 @@
 ---@field public m_miniMap CS.FairyGUI.GGroup
 local main_mapMini = {};
 
-main_mapMini.URL = "ui://4ni413lanil";
+main_mapMini.URL = "ui://main/main_mapMini";
 
 function main_mapMini:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function main_mapMini:OnConstruct(windowCom)
 end
 
 return main_mapMini;
-
---self.uiComs=require('ToolGen.main.main_mapMini'):OnConstruct(self.contentPane)

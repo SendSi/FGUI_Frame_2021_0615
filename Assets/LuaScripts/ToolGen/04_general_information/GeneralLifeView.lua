@@ -12,7 +12,7 @@
 ---@field public m_n9 CS.FairyGUI.GGroup
 local GeneralLifeView = {};
 
-GeneralLifeView.URL = "ui://4hio38umnil";
+GeneralLifeView.URL = "ui://04_general_information/GeneralLifeView";
 
 function GeneralLifeView:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function GeneralLifeView:OnConstruct(windowCom)
 end
 
 return GeneralLifeView;
-
---self.uiComs=require('ToolGen.04_general_information.GeneralLifeView'):OnConstruct(self.contentPane)

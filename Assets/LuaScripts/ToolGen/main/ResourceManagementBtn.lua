@@ -18,7 +18,7 @@
 ---@field public m_coordTitle CS.FairyGUI.GTextField
 local ResourceManagementBtn = {};
 
-ResourceManagementBtn.URL = "ui://4ni413lanil";
+ResourceManagementBtn.URL = "ui://main/ResourceManagementBtn";
 
 function ResourceManagementBtn:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function ResourceManagementBtn:OnConstruct(windowCom)
 end
 
 return ResourceManagementBtn;
-
---self.uiComs=require('ToolGen.main.ResourceManagementBtn'):OnConstruct(self.contentPane)

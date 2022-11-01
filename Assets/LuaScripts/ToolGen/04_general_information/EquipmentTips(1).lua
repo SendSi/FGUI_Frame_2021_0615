@@ -22,7 +22,7 @@
 ---@field public m_tip CS.FairyGUI.GGroup
 local EquipmentTips(1) = {};
 
-EquipmentTips(1).URL = "ui://4hio38umnil";
+EquipmentTips(1).URL = "ui://04_general_information/EquipmentTips(1)";
 
 function EquipmentTips(1):OnConstruct(windowCom)
 	local tb = {
@@ -49,5 +49,3 @@ function EquipmentTips(1):OnConstruct(windowCom)
 end
 
 return EquipmentTips(1);
-
---self.uiComs=require('ToolGen.04_general_information.EquipmentTips(1)'):OnConstruct(self.contentPane)

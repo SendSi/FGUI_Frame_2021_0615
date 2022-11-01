@@ -6,7 +6,7 @@
 ---@field public m_list CS.FairyGUI.GList
 local skinCbox_popup = {};
 
-skinCbox_popup.URL = "ui://4ni413lanil";
+skinCbox_popup.URL = "ui://main/skinCbox_popup";
 
 function skinCbox_popup:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function skinCbox_popup:OnConstruct(windowCom)
 end
 
 return skinCbox_popup;
-
---self.uiComs=require('ToolGen.main.skinCbox_popup'):OnConstruct(self.contentPane)

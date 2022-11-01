@@ -10,7 +10,7 @@
 ---@field public m_price CS.FairyGUI.GTextField
 local com_btn_buy3 = {};
 
-com_btn_buy3.URL = "ui://2r331opvnil";
+com_btn_buy3.URL = "ui://common/com_btn_buy3";
 
 function com_btn_buy3:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function com_btn_buy3:OnConstruct(windowCom)
 end
 
 return com_btn_buy3;
-
---self.uiComs=require('ToolGen.common.com_btn_buy3'):OnConstruct(self.contentPane)

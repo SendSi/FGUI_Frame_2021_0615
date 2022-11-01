@@ -8,7 +8,7 @@
 ---@field public m_btnCheck CS.FairyGUI.GButton
 local AddresseeType = {};
 
-AddresseeType.URL = "ui://ufsajnnznil";
+AddresseeType.URL = "ui://13_Mail/AddresseeType";
 
 function AddresseeType:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function AddresseeType:OnConstruct(windowCom)
 end
 
 return AddresseeType;
-
---self.uiComs=require('ToolGen.13_Mail.AddresseeType'):OnConstruct(self.contentPane)

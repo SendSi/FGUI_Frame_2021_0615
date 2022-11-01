@@ -9,7 +9,7 @@
 ---@field public m_n76 CS.FairyGUI.GGroup
 local comItem_BottomNum = {};
 
-comItem_BottomNum.URL = "ui://2r331opvnil";
+comItem_BottomNum.URL = "ui://common/comItem_BottomNum";
 
 function comItem_BottomNum:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function comItem_BottomNum:OnConstruct(windowCom)
 end
 
 return comItem_BottomNum;
-
---self.uiComs=require('ToolGen.common.comItem_BottomNum'):OnConstruct(self.contentPane)

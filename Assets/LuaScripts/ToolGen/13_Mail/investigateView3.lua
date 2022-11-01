@@ -41,7 +41,7 @@
 ---@field public m_n40 CS.FairyGUI.GGroup
 local investigateView3 = {};
 
-investigateView3.URL = "ui://ufsajnnznil";
+investigateView3.URL = "ui://13_Mail/investigateView3";
 
 function investigateView3:OnConstruct(windowCom)
 	local tb = {
@@ -87,5 +87,3 @@ function investigateView3:OnConstruct(windowCom)
 end
 
 return investigateView3;
-
---self.uiComs=require('ToolGen.13_Mail.investigateView3'):OnConstruct(self.contentPane)

@@ -13,7 +13,7 @@
 ---@field public m_price_1 CS.FairyGUI.GTextField
 local sendOutBtn = {};
 
-sendOutBtn.URL = "ui://62wjs2s2nil";
+sendOutBtn.URL = "ui://14_chat/sendOutBtn";
 
 function sendOutBtn:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function sendOutBtn:OnConstruct(windowCom)
 end
 
 return sendOutBtn;
-
---self.uiComs=require('ToolGen.14_chat.sendOutBtn'):OnConstruct(self.contentPane)

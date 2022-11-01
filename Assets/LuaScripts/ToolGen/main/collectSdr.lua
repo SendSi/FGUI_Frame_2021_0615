@@ -8,7 +8,7 @@
 ---@field public m_n4 CS.FairyGUI.GTextField
 local collectSdr = {};
 
-collectSdr.URL = "ui://4ni413lanil";
+collectSdr.URL = "ui://main/collectSdr";
 
 function collectSdr:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function collectSdr:OnConstruct(windowCom)
 end
 
 return collectSdr;
-
---self.uiComs=require('ToolGen.main.collectSdr'):OnConstruct(self.contentPane)

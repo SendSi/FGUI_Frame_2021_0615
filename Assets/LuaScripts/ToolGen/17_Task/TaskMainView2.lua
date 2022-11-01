@@ -55,7 +55,7 @@
 ---@field public m_tipUpdate CS.FairyGUI.Transition
 local TaskMainView2 = {};
 
-TaskMainView2.URL = "ui://zezobey9nil";
+TaskMainView2.URL = "ui://17_Task/TaskMainView2";
 
 function TaskMainView2:OnConstruct(windowCom)
 	local tb = {
@@ -115,5 +115,3 @@ function TaskMainView2:OnConstruct(windowCom)
 end
 
 return TaskMainView2;
-
---self.uiComs=require('ToolGen.17_Task.TaskMainView2'):OnConstruct(self.contentPane)

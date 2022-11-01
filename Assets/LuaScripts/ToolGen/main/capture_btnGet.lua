@@ -7,7 +7,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local capture_btnGet = {};
 
-capture_btnGet.URL = "ui://4ni413lanil";
+capture_btnGet.URL = "ui://main/capture_btnGet";
 
 function capture_btnGet:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function capture_btnGet:OnConstruct(windowCom)
 end
 
 return capture_btnGet;
-
---self.uiComs=require('ToolGen.main.capture_btnGet'):OnConstruct(self.contentPane)

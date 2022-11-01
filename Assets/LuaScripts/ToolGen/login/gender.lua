@@ -8,7 +8,7 @@
 ---@field public m_n2 CS.FairyGUI.GImage
 local gender = {};
 
-gender.URL = "ui://byy9k3ghnil";
+gender.URL = "ui://login/gender";
 
 function gender:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function gender:OnConstruct(windowCom)
 end
 
 return gender;
-
---self.uiComs=require('ToolGen.login.gender'):OnConstruct(self.contentPane)

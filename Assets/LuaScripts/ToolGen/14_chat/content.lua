@@ -5,7 +5,7 @@
 ---@field public m_title_content CS.FairyGUI.GRichTextField
 local content = {};
 
-content.URL = "ui://62wjs2s2nil";
+content.URL = "ui://14_chat/content";
 
 function content:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function content:OnConstruct(windowCom)
 end
 
 return content;
-
---self.uiComs=require('ToolGen.14_chat.content'):OnConstruct(self.contentPane)

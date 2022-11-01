@@ -29,7 +29,7 @@
 ---@field public m_nothing CS.FairyGUI.GTextField
 local MailMainView = {};
 
-MailMainView.URL = "ui://ufsajnnznil";
+MailMainView.URL = "ui://13_Mail/MailMainView";
 
 function MailMainView:OnConstruct(windowCom)
 	local tb = {
@@ -63,5 +63,3 @@ function MailMainView:OnConstruct(windowCom)
 end
 
 return MailMainView;
-
---self.uiComs=require('ToolGen.13_Mail.MailMainView'):OnConstruct(self.contentPane)

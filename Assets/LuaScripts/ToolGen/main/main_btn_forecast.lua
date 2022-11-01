@@ -9,7 +9,7 @@
 ---@field public m_buttomTitle CS.FairyGUI.GTextField
 local main_btn_forecast = {};
 
-main_btn_forecast.URL = "ui://4ni413lanil";
+main_btn_forecast.URL = "ui://main/main_btn_forecast";
 
 function main_btn_forecast:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function main_btn_forecast:OnConstruct(windowCom)
 end
 
 return main_btn_forecast;
-
---self.uiComs=require('ToolGen.main.main_btn_forecast'):OnConstruct(self.contentPane)

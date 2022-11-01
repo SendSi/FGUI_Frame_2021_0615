@@ -9,7 +9,7 @@
 ---@field public m_n4 CS.FairyGUI.GGroup
 local breakAttriItem = {};
 
-breakAttriItem.URL = "ui://4hio38umnil";
+breakAttriItem.URL = "ui://04_general_information/breakAttriItem";
 
 function breakAttriItem:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function breakAttriItem:OnConstruct(windowCom)
 end
 
 return breakAttriItem;
-
---self.uiComs=require('ToolGen.04_general_information.breakAttriItem'):OnConstruct(self.contentPane)

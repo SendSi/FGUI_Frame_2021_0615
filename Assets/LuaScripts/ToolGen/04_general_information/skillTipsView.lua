@@ -7,7 +7,7 @@
 ---@field public m_arrow CS.FairyGUI.GImage
 local skillTipsView = {};
 
-skillTipsView.URL = "ui://4hio38umnil";
+skillTipsView.URL = "ui://04_general_information/skillTipsView";
 
 function skillTipsView:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function skillTipsView:OnConstruct(windowCom)
 end
 
 return skillTipsView;
-
---self.uiComs=require('ToolGen.04_general_information.skillTipsView'):OnConstruct(self.contentPane)

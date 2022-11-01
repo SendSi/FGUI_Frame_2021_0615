@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local cityBuff = {};
 
-cityBuff.URL = "ui://4ni413lanil";
+cityBuff.URL = "ui://main/cityBuff";
 
 function cityBuff:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function cityBuff:OnConstruct(windowCom)
 end
 
 return cityBuff;
-
---self.uiComs=require('ToolGen.main.cityBuff'):OnConstruct(self.contentPane)

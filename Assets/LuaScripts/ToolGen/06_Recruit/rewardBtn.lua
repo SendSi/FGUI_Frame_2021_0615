@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local rewardBtn = {};
 
-rewardBtn.URL = "ui://nf2zagxsnil";
+rewardBtn.URL = "ui://06_Recruit/rewardBtn";
 
 function rewardBtn:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function rewardBtn:OnConstruct(windowCom)
 end
 
 return rewardBtn;
-
---self.uiComs=require('ToolGen.06_Recruit.rewardBtn'):OnConstruct(self.contentPane)

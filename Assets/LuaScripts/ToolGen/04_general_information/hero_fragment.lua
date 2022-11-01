@@ -7,7 +7,7 @@
 ---@field public m_n2 CS.FairyGUI.GTextField
 local hero_fragment = {};
 
-hero_fragment.URL = "ui://4hio38umnil";
+hero_fragment.URL = "ui://04_general_information/hero_fragment";
 
 function hero_fragment:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function hero_fragment:OnConstruct(windowCom)
 end
 
 return hero_fragment;
-
---self.uiComs=require('ToolGen.04_general_information.hero_fragment'):OnConstruct(self.contentPane)

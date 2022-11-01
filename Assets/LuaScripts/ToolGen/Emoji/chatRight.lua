@@ -8,7 +8,7 @@
 ---@field public m_msg CS.FairyGUI.GRichTextField
 local chatRight = {};
 
-chatRight.URL = "ui://y768eypanil";
+chatRight.URL = "ui://Emoji/chatRight";
 
 function chatRight:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function chatRight:OnConstruct(windowCom)
 end
 
 return chatRight;
-
---self.uiComs=require('ToolGen.Emoji.chatRight'):OnConstruct(self.contentPane)

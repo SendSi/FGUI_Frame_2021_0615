@@ -17,7 +17,7 @@
 ---@field public m_n22 CS.FairyGUI.GGroup
 local GetWayView = {};
 
-GetWayView.URL = "ui://4hio38umnil";
+GetWayView.URL = "ui://04_general_information/GetWayView";
 
 function GetWayView:OnConstruct(windowCom)
 	local tb = {
@@ -39,5 +39,3 @@ function GetWayView:OnConstruct(windowCom)
 end
 
 return GetWayView;
-
---self.uiComs=require('ToolGen.04_general_information.GetWayView'):OnConstruct(self.contentPane)

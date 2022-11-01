@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local Slider1 = {};
 
-Slider1.URL = "ui://jqem9egtnil";
+Slider1.URL = "ui://08_Troops/Slider1";
 
 function Slider1:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function Slider1:OnConstruct(windowCom)
 end
 
 return Slider1;
-
---self.uiComs=require('ToolGen.08_Troops.Slider1'):OnConstruct(self.contentPane)

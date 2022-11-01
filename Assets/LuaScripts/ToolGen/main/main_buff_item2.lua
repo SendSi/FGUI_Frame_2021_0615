@@ -5,7 +5,7 @@
 ---@field public m_buff_list CS.FairyGUI.GList
 local main_buff_item2 = {};
 
-main_buff_item2.URL = "ui://4ni413lanil";
+main_buff_item2.URL = "ui://main/main_buff_item2";
 
 function main_buff_item2:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function main_buff_item2:OnConstruct(windowCom)
 end
 
 return main_buff_item2;
-
---self.uiComs=require('ToolGen.main.main_buff_item2'):OnConstruct(self.contentPane)

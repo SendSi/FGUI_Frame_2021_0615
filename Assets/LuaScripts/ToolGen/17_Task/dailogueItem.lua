@@ -23,7 +23,7 @@
 ---@field public m_arrow CS.FairyGUI.Transition
 local dailogueItem = {};
 
-dailogueItem.URL = "ui://zezobey9nil";
+dailogueItem.URL = "ui://17_Task/dailogueItem";
 
 function dailogueItem:OnConstruct(windowCom)
 	local tb = {
@@ -51,5 +51,3 @@ function dailogueItem:OnConstruct(windowCom)
 end
 
 return dailogueItem;
-
---self.uiComs=require('ToolGen.17_Task.dailogueItem'):OnConstruct(self.contentPane)

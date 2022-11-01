@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local ReturnButton = {};
 
-ReturnButton.URL = "ui://4ni413lanil";
+ReturnButton.URL = "ui://main/ReturnButton";
 
 function ReturnButton:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function ReturnButton:OnConstruct(windowCom)
 end
 
 return ReturnButton;
-
---self.uiComs=require('ToolGen.main.ReturnButton'):OnConstruct(self.contentPane)

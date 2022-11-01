@@ -6,7 +6,7 @@
 ---@field public m_bar CS.FairyGUI.GImage
 local ProgressBar1 = {};
 
-ProgressBar1.URL = "ui://lqu8zv3hnil";
+ProgressBar1.URL = "ui://HF/ProgressBar1";
 
 function ProgressBar1:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function ProgressBar1:OnConstruct(windowCom)
 end
 
 return ProgressBar1;
-
---self.uiComs=require('ToolGen.HF.ProgressBar1'):OnConstruct(self.contentPane)

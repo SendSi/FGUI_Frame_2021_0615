@@ -6,7 +6,7 @@
 ---@field public m_n8 CS.FairyGUI.GImage
 local generalAdd = {};
 
-generalAdd.URL = "ui://4ni413lanil";
+generalAdd.URL = "ui://main/generalAdd";
 
 function generalAdd:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function generalAdd:OnConstruct(windowCom)
 end
 
 return generalAdd;
-
---self.uiComs=require('ToolGen.main.generalAdd'):OnConstruct(self.contentPane)

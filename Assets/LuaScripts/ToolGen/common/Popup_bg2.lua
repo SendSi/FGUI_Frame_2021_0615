@@ -5,7 +5,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local Popup_bg2 = {};
 
-Popup_bg2.URL = "ui://2r331opvnil";
+Popup_bg2.URL = "ui://common/Popup_bg2";
 
 function Popup_bg2:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function Popup_bg2:OnConstruct(windowCom)
 end
 
 return Popup_bg2;
-
---self.uiComs=require('ToolGen.common.Popup_bg2'):OnConstruct(self.contentPane)

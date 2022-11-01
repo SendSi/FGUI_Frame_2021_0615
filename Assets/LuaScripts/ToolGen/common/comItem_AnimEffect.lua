@@ -7,7 +7,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local comItem_AnimEffect = {};
 
-comItem_AnimEffect.URL = "ui://2r331opvnil";
+comItem_AnimEffect.URL = "ui://common/comItem_AnimEffect";
 
 function comItem_AnimEffect:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function comItem_AnimEffect:OnConstruct(windowCom)
 end
 
 return comItem_AnimEffect;
-
---self.uiComs=require('ToolGen.common.comItem_AnimEffect'):OnConstruct(self.contentPane)

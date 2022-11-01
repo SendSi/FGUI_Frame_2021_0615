@@ -8,7 +8,7 @@
 ---@field public m_n9 Button_contacts
 local contacts_01 = {};
 
-contacts_01.URL = "ui://62wjs2s2nil";
+contacts_01.URL = "ui://14_chat/contacts_01";
 
 function contacts_01:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function contacts_01:OnConstruct(windowCom)
 end
 
 return contacts_01;
-
---self.uiComs=require('ToolGen.14_chat.contacts_01'):OnConstruct(self.contentPane)

@@ -10,7 +10,7 @@
 ---@field public m_busyBtn CS.FairyGUI.GButton
 local funcQueueItem = {};
 
-funcQueueItem.URL = "ui://4ni413lanil";
+funcQueueItem.URL = "ui://main/funcQueueItem";
 
 function funcQueueItem:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function funcQueueItem:OnConstruct(windowCom)
 end
 
 return funcQueueItem;
-
---self.uiComs=require('ToolGen.main.funcQueueItem'):OnConstruct(self.contentPane)

@@ -17,7 +17,7 @@
 ---@field public m_view1 CS.FairyGUI.GGroup
 local collectionPlace01 = {};
 
-collectionPlace01.URL = "ui://4ni413lanil";
+collectionPlace01.URL = "ui://main/collectionPlace01";
 
 function collectionPlace01:OnConstruct(windowCom)
 	local tb = {
@@ -39,5 +39,3 @@ function collectionPlace01:OnConstruct(windowCom)
 end
 
 return collectionPlace01;
-
---self.uiComs=require('ToolGen.main.collectionPlace01'):OnConstruct(self.contentPane)

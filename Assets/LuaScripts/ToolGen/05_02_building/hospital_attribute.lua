@@ -6,7 +6,7 @@
 ---@field public m_rateNum CS.FairyGUI.GTextField
 local hospital_attribute = {};
 
-hospital_attribute.URL = "ui://fq4ln9nvnil";
+hospital_attribute.URL = "ui://05_02_building/hospital_attribute";
 
 function hospital_attribute:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function hospital_attribute:OnConstruct(windowCom)
 end
 
 return hospital_attribute;
-
---self.uiComs=require('ToolGen.05_02_building.hospital_attribute'):OnConstruct(self.contentPane)

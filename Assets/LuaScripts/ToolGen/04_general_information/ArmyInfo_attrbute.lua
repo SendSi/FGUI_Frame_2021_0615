@@ -16,7 +16,7 @@
 ---@field public m_line CS.FairyGUI.GGraph
 local ArmyInfo_attrbute = {};
 
-ArmyInfo_attrbute.URL = "ui://4hio38umnil";
+ArmyInfo_attrbute.URL = "ui://04_general_information/ArmyInfo_attrbute";
 
 function ArmyInfo_attrbute:OnConstruct(windowCom)
 	local tb = {
@@ -37,5 +37,3 @@ function ArmyInfo_attrbute:OnConstruct(windowCom)
 end
 
 return ArmyInfo_attrbute;
-
---self.uiComs=require('ToolGen.04_general_information.ArmyInfo_attrbute'):OnConstruct(self.contentPane)

@@ -9,7 +9,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local BagGridSub = {};
 
-BagGridSub.URL = "ui://rbw1tv9tnil";
+BagGridSub.URL = "ui://oldBag/BagGridSub";
 
 function BagGridSub:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function BagGridSub:OnConstruct(windowCom)
 end
 
 return BagGridSub;
-
---self.uiComs=require('ToolGen.oldBag.BagGridSub'):OnConstruct(self.contentPane)

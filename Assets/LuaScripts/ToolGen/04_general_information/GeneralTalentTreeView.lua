@@ -11,7 +11,7 @@
 ---@field public m_n26 TalentTreeList
 local GeneralTalentTreeView = {};
 
-GeneralTalentTreeView.URL = "ui://4hio38umnil";
+GeneralTalentTreeView.URL = "ui://04_general_information/GeneralTalentTreeView";
 
 function GeneralTalentTreeView:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function GeneralTalentTreeView:OnConstruct(windowCom)
 end
 
 return GeneralTalentTreeView;
-
---self.uiComs=require('ToolGen.04_general_information.GeneralTalentTreeView'):OnConstruct(self.contentPane)

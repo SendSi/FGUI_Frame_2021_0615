@@ -10,7 +10,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local main_btn_vip = {};
 
-main_btn_vip.URL = "ui://4ni413lanil";
+main_btn_vip.URL = "ui://main/main_btn_vip";
 
 function main_btn_vip:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function main_btn_vip:OnConstruct(windowCom)
 end
 
 return main_btn_vip;
-
---self.uiComs=require('ToolGen.main.main_btn_vip'):OnConstruct(self.contentPane)

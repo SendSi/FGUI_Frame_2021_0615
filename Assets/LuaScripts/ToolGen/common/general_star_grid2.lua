@@ -7,7 +7,7 @@
 ---@field public m_bar CS.FairyGUI.GImage
 local general_star_grid2 = {};
 
-general_star_grid2.URL = "ui://2r331opvnil";
+general_star_grid2.URL = "ui://common/general_star_grid2";
 
 function general_star_grid2:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function general_star_grid2:OnConstruct(windowCom)
 end
 
 return general_star_grid2;
-
---self.uiComs=require('ToolGen.common.general_star_grid2'):OnConstruct(self.contentPane)

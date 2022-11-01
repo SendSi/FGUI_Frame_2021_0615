@@ -10,7 +10,7 @@
 ---@field public m_descLbl CS.FairyGUI.GTextField
 local getPbr = {};
 
-getPbr.URL = "ui://utp01xianil";
+getPbr.URL = "ui://dialogTip/getPbr";
 
 function getPbr:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function getPbr:OnConstruct(windowCom)
 end
 
 return getPbr;
-
---self.uiComs=require('ToolGen.dialogTip.getPbr'):OnConstruct(self.contentPane)

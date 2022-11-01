@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local common_btn_siege = {};
 
-common_btn_siege.URL = "ui://2r331opvnil";
+common_btn_siege.URL = "ui://common/common_btn_siege";
 
 function common_btn_siege:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function common_btn_siege:OnConstruct(windowCom)
 end
 
 return common_btn_siege;
-
---self.uiComs=require('ToolGen.common.common_btn_siege'):OnConstruct(self.contentPane)

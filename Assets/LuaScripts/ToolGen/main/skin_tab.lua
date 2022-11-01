@@ -9,7 +9,7 @@
 ---@field public m_redElement CS.FairyGUI.GButton
 local skin_tab = {};
 
-skin_tab.URL = "ui://4ni413lanil";
+skin_tab.URL = "ui://main/skin_tab";
 
 function skin_tab:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function skin_tab:OnConstruct(windowCom)
 end
 
 return skin_tab;
-
---self.uiComs=require('ToolGen.main.skin_tab'):OnConstruct(self.contentPane)

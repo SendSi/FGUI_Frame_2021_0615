@@ -13,7 +13,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local TaskChapterView = {};
 
-TaskChapterView.URL = "ui://zezobey9nil";
+TaskChapterView.URL = "ui://17_Task/TaskChapterView";
 
 function TaskChapterView:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function TaskChapterView:OnConstruct(windowCom)
 end
 
 return TaskChapterView;
-
---self.uiComs=require('ToolGen.17_Task.TaskChapterView'):OnConstruct(self.contentPane)

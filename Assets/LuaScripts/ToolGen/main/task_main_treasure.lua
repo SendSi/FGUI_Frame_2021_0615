@@ -8,7 +8,7 @@
 ---@field public m_general CS.FairyGUI.GComponent
 local task_main_treasure = {};
 
-task_main_treasure.URL = "ui://4ni413lanil";
+task_main_treasure.URL = "ui://main/task_main_treasure";
 
 function task_main_treasure:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function task_main_treasure:OnConstruct(windowCom)
 end
 
 return task_main_treasure;
-
---self.uiComs=require('ToolGen.main.task_main_treasure'):OnConstruct(self.contentPane)

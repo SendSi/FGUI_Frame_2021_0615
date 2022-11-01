@@ -13,7 +13,7 @@
 ---@field public m_recommend CS.FairyGUI.GGroup
 local com_btn_tab04 = {};
 
-com_btn_tab04.URL = "ui://2r331opvnil";
+com_btn_tab04.URL = "ui://common/com_btn_tab04";
 
 function com_btn_tab04:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function com_btn_tab04:OnConstruct(windowCom)
 end
 
 return com_btn_tab04;
-
---self.uiComs=require('ToolGen.common.com_btn_tab04'):OnConstruct(self.contentPane)

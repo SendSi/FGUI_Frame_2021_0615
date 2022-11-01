@@ -21,7 +21,7 @@
 ---@field public m_n11 CS.FairyGUI.GGroup
 local CheckpointResView = {};
 
-CheckpointResView.URL = "ui://utp01xianil";
+CheckpointResView.URL = "ui://dialogTip/CheckpointResView";
 
 function CheckpointResView:OnConstruct(windowCom)
 	local tb = {
@@ -47,5 +47,3 @@ function CheckpointResView:OnConstruct(windowCom)
 end
 
 return CheckpointResView;
-
---self.uiComs=require('ToolGen.dialogTip.CheckpointResView'):OnConstruct(self.contentPane)

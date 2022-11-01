@@ -6,7 +6,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local com_btnAdd2 = {};
 
-com_btnAdd2.URL = "ui://2r331opvnil";
+com_btnAdd2.URL = "ui://common/com_btnAdd2";
 
 function com_btnAdd2:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function com_btnAdd2:OnConstruct(windowCom)
 end
 
 return com_btnAdd2;
-
---self.uiComs=require('ToolGen.common.com_btnAdd2'):OnConstruct(self.contentPane)

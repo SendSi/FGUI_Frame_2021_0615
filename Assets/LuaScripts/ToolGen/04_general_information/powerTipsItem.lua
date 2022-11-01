@@ -8,7 +8,7 @@
 ---@field public m_n5 CS.FairyGUI.GImage
 local powerTipsItem = {};
 
-powerTipsItem.URL = "ui://4hio38umnil";
+powerTipsItem.URL = "ui://04_general_information/powerTipsItem";
 
 function powerTipsItem:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function powerTipsItem:OnConstruct(windowCom)
 end
 
 return powerTipsItem;
-
---self.uiComs=require('ToolGen.04_general_information.powerTipsItem'):OnConstruct(self.contentPane)

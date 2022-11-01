@@ -18,7 +18,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local main_exploreBtn_item = {};
 
-main_exploreBtn_item.URL = "ui://4ni413lanil";
+main_exploreBtn_item.URL = "ui://main/main_exploreBtn_item";
 
 function main_exploreBtn_item:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function main_exploreBtn_item:OnConstruct(windowCom)
 end
 
 return main_exploreBtn_item;
-
---self.uiComs=require('ToolGen.main.main_exploreBtn_item'):OnConstruct(self.contentPane)

@@ -9,7 +9,7 @@
 ---@field public m_mask CS.FairyGUI.GGraph
 local mainTaskAdvance = {};
 
-mainTaskAdvance.URL = "ui://4ni413lanil";
+mainTaskAdvance.URL = "ui://main/mainTaskAdvance";
 
 function mainTaskAdvance:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function mainTaskAdvance:OnConstruct(windowCom)
 end
 
 return mainTaskAdvance;
-
---self.uiComs=require('ToolGen.main.mainTaskAdvance'):OnConstruct(self.contentPane)

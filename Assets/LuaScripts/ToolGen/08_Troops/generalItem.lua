@@ -15,7 +15,7 @@
 ---@field public m_genListNoneTip CS.FairyGUI.GButton
 local generalItem = {};
 
-generalItem.URL = "ui://jqem9egtnil";
+generalItem.URL = "ui://08_Troops/generalItem";
 
 function generalItem:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function generalItem:OnConstruct(windowCom)
 end
 
 return generalItem;
-
---self.uiComs=require('ToolGen.08_Troops.generalItem'):OnConstruct(self.contentPane)

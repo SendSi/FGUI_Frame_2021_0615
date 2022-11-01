@@ -5,7 +5,7 @@
 ---@field public m_ToastIem ToastItem
 local ToastTipView = {};
 
-ToastTipView.URL = "ui://utp01xianil";
+ToastTipView.URL = "ui://dialogTip/ToastTipView";
 
 function ToastTipView:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function ToastTipView:OnConstruct(windowCom)
 end
 
 return ToastTipView;
-
---self.uiComs=require('ToolGen.dialogTip.ToastTipView'):OnConstruct(self.contentPane)

@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local TickCbtn = {};
 
-TickCbtn.URL = "ui://2r331opvnil";
+TickCbtn.URL = "ui://common/TickCbtn";
 
 function TickCbtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function TickCbtn:OnConstruct(windowCom)
 end
 
 return TickCbtn;
-
---self.uiComs=require('ToolGen.common.TickCbtn'):OnConstruct(self.contentPane)

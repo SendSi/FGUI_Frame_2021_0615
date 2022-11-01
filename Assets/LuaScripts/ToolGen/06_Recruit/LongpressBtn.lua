@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local LongpressBtn = {};
 
-LongpressBtn.URL = "ui://nf2zagxsnil";
+LongpressBtn.URL = "ui://06_Recruit/LongpressBtn";
 
 function LongpressBtn:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function LongpressBtn:OnConstruct(windowCom)
 end
 
 return LongpressBtn;
-
---self.uiComs=require('ToolGen.06_Recruit.LongpressBtn'):OnConstruct(self.contentPane)

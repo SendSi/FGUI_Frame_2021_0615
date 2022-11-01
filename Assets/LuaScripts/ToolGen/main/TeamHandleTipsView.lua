@@ -10,7 +10,7 @@
 ---@field public m_n11 CS.FairyGUI.GGroup
 local TeamHandleTipsView = {};
 
-TeamHandleTipsView.URL = "ui://4ni413lanil";
+TeamHandleTipsView.URL = "ui://main/TeamHandleTipsView";
 
 function TeamHandleTipsView:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function TeamHandleTipsView:OnConstruct(windowCom)
 end
 
 return TeamHandleTipsView;
-
---self.uiComs=require('ToolGen.main.TeamHandleTipsView'):OnConstruct(self.contentPane)

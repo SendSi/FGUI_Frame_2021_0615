@@ -5,7 +5,7 @@
 ---@field public m_n1 CS.FairyGUI.GGraph
 local cutParticle = {};
 
-cutParticle.URL = "ui://2r331opvnil";
+cutParticle.URL = "ui://common/cutParticle";
 
 function cutParticle:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function cutParticle:OnConstruct(windowCom)
 end
 
 return cutParticle;
-
---self.uiComs=require('ToolGen.common.cutParticle'):OnConstruct(self.contentPane)

@@ -11,7 +11,7 @@
 ---@field public m_t1 CS.FairyGUI.Transition
 local chequerEmjioBubble = {};
 
-chequerEmjioBubble.URL = "ui://4ni413lanil";
+chequerEmjioBubble.URL = "ui://main/chequerEmjioBubble";
 
 function chequerEmjioBubble:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function chequerEmjioBubble:OnConstruct(windowCom)
 end
 
 return chequerEmjioBubble;
-
---self.uiComs=require('ToolGen.main.chequerEmjioBubble'):OnConstruct(self.contentPane)

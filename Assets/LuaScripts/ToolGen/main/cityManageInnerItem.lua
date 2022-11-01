@@ -16,7 +16,7 @@
 ---@field public m_n13 CS.FairyGUI.GGroup
 local cityManageInnerItem = {};
 
-cityManageInnerItem.URL = "ui://4ni413lanil";
+cityManageInnerItem.URL = "ui://main/cityManageInnerItem";
 
 function cityManageInnerItem:OnConstruct(windowCom)
 	local tb = {
@@ -37,5 +37,3 @@ function cityManageInnerItem:OnConstruct(windowCom)
 end
 
 return cityManageInnerItem;
-
---self.uiComs=require('ToolGen.main.cityManageInnerItem'):OnConstruct(self.contentPane)

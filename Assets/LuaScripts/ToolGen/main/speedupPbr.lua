@@ -8,7 +8,7 @@
 ---@field public m_n3 CS.FairyGUI.GImage
 local speedupPbr = {};
 
-speedupPbr.URL = "ui://4ni413lanil";
+speedupPbr.URL = "ui://main/speedupPbr";
 
 function speedupPbr:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function speedupPbr:OnConstruct(windowCom)
 end
 
 return speedupPbr;
-
---self.uiComs=require('ToolGen.main.speedupPbr'):OnConstruct(self.contentPane)

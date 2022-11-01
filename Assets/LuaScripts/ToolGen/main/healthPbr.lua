@@ -8,7 +8,7 @@
 ---@field public m_bar2 CS.FairyGUI.GImage
 local healthPbr = {};
 
-healthPbr.URL = "ui://4ni413lanil";
+healthPbr.URL = "ui://main/healthPbr";
 
 function healthPbr:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function healthPbr:OnConstruct(windowCom)
 end
 
 return healthPbr;
-
---self.uiComs=require('ToolGen.main.healthPbr'):OnConstruct(self.contentPane)

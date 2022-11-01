@@ -6,7 +6,7 @@
 ---@field public m_n3 CS.FairyGUI.GImage
 local Button2 = {};
 
-Button2.URL = "ui://y768eypanil";
+Button2.URL = "ui://Emoji/Button2";
 
 function Button2:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function Button2:OnConstruct(windowCom)
 end
 
 return Button2;
-
---self.uiComs=require('ToolGen.Emoji.Button2'):OnConstruct(self.contentPane)

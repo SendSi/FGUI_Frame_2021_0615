@@ -17,7 +17,7 @@
 ---@field public m_task_main_treasure task_main_glory
 local main_taskitem = {};
 
-main_taskitem.URL = "ui://4ni413lanil";
+main_taskitem.URL = "ui://main/main_taskitem";
 
 function main_taskitem:OnConstruct(windowCom)
 	local tb = {
@@ -39,5 +39,3 @@ function main_taskitem:OnConstruct(windowCom)
 end
 
 return main_taskitem;
-
---self.uiComs=require('ToolGen.main.main_taskitem'):OnConstruct(self.contentPane)

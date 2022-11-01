@@ -13,7 +13,7 @@
 ---@field public m_BestKillAnim CS.FairyGUI.Transition
 local Broadcast = {};
 
-Broadcast.URL = "ui://4ni413lanil";
+Broadcast.URL = "ui://main/Broadcast";
 
 function Broadcast:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function Broadcast:OnConstruct(windowCom)
 end
 
 return Broadcast;
-
---self.uiComs=require('ToolGen.main.Broadcast'):OnConstruct(self.contentPane)

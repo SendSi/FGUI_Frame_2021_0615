@@ -1,8 +1,3 @@
-package.cpath = package.cpath .. ';C:/Users/Administrator/.IntelliJIdea2018.3/config/plugins/intellij-emmylua/classes/debugger/emmy/windows/x64/?.dll'
-local dbg = require('emmy_core')
-dbg.tcpListen('localhost', 9966)
-
-
 --region LuaCodeWriter
 local LuaCodeWriter = fclass()
 

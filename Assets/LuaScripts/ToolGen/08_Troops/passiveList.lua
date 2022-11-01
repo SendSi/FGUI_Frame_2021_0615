@@ -8,7 +8,7 @@
 ---@field public m_hero_group03 Position_group
 local passiveList = {};
 
-passiveList.URL = "ui://jqem9egtnil";
+passiveList.URL = "ui://08_Troops/passiveList";
 
 function passiveList:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function passiveList:OnConstruct(windowCom)
 end
 
 return passiveList;
-
---self.uiComs=require('ToolGen.08_Troops.passiveList'):OnConstruct(self.contentPane)

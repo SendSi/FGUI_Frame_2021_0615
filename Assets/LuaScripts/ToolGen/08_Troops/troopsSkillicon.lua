@@ -6,7 +6,7 @@
 ---@field public m_n2 CS.FairyGUI.GGraph
 local troopsSkillicon = {};
 
-troopsSkillicon.URL = "ui://jqem9egtnil";
+troopsSkillicon.URL = "ui://08_Troops/troopsSkillicon";
 
 function troopsSkillicon:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function troopsSkillicon:OnConstruct(windowCom)
 end
 
 return troopsSkillicon;
-
---self.uiComs=require('ToolGen.08_Troops.troopsSkillicon'):OnConstruct(self.contentPane)

@@ -11,7 +11,7 @@
 ---@field public m_quailtyTitle CS.FairyGUI.GLoader
 local information_name_camp = {};
 
-information_name_camp.URL = "ui://2r331opvnil";
+information_name_camp.URL = "ui://common/information_name_camp";
 
 function information_name_camp:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function information_name_camp:OnConstruct(windowCom)
 end
 
 return information_name_camp;
-
---self.uiComs=require('ToolGen.common.information_name_camp'):OnConstruct(self.contentPane)

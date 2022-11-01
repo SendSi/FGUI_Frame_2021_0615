@@ -10,7 +10,7 @@
 ---@field public m_float CS.FairyGUI.Transition
 local chequer_btn = {};
 
-chequer_btn.URL = "ui://4ni413lanil";
+chequer_btn.URL = "ui://main/chequer_btn";
 
 function chequer_btn:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function chequer_btn:OnConstruct(windowCom)
 end
 
 return chequer_btn;
-
---self.uiComs=require('ToolGen.main.chequer_btn'):OnConstruct(self.contentPane)

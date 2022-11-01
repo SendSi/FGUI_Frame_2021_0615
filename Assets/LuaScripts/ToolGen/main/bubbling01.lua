@@ -9,7 +9,7 @@
 ---@field public m_t1 CS.FairyGUI.Transition
 local bubbling01 = {};
 
-bubbling01.URL = "ui://4ni413lanil";
+bubbling01.URL = "ui://main/bubbling01";
 
 function bubbling01:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function bubbling01:OnConstruct(windowCom)
 end
 
 return bubbling01;
-
---self.uiComs=require('ToolGen.main.bubbling01'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local switchBtn = {};
 
-switchBtn.URL = "ui://jqem9egtnil";
+switchBtn.URL = "ui://08_Troops/switchBtn";
 
 function switchBtn:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function switchBtn:OnConstruct(windowCom)
 end
 
 return switchBtn;
-
---self.uiComs=require('ToolGen.08_Troops.switchBtn'):OnConstruct(self.contentPane)

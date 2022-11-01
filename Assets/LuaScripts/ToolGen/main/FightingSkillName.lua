@@ -8,7 +8,7 @@
 ---@field public m_t2 CS.FairyGUI.Transition
 local FightingSkillName = {};
 
-FightingSkillName.URL = "ui://4ni413lanil";
+FightingSkillName.URL = "ui://main/FightingSkillName";
 
 function FightingSkillName:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function FightingSkillName:OnConstruct(windowCom)
 end
 
 return FightingSkillName;
-
---self.uiComs=require('ToolGen.main.FightingSkillName'):OnConstruct(self.contentPane)

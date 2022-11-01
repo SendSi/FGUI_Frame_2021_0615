@@ -7,7 +7,7 @@
 ---@field public m_bar CS.FairyGUI.GImage
 local troopBloodPbr = {};
 
-troopBloodPbr.URL = "ui://2r331opvnil";
+troopBloodPbr.URL = "ui://common/troopBloodPbr";
 
 function troopBloodPbr:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function troopBloodPbr:OnConstruct(windowCom)
 end
 
 return troopBloodPbr;
-
---self.uiComs=require('ToolGen.common.troopBloodPbr'):OnConstruct(self.contentPane)

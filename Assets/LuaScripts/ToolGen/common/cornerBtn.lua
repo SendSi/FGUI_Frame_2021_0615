@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local cornerBtn = {};
 
-cornerBtn.URL = "ui://2r331opvnil";
+cornerBtn.URL = "ui://common/cornerBtn";
 
 function cornerBtn:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function cornerBtn:OnConstruct(windowCom)
 end
 
 return cornerBtn;
-
---self.uiComs=require('ToolGen.common.cornerBtn'):OnConstruct(self.contentPane)

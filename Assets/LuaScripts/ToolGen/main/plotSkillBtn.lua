@@ -9,7 +9,7 @@
 ---@field public m_time CS.FairyGUI.GRichTextField
 local plotSkillBtn = {};
 
-plotSkillBtn.URL = "ui://4ni413lanil";
+plotSkillBtn.URL = "ui://main/plotSkillBtn";
 
 function plotSkillBtn:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function plotSkillBtn:OnConstruct(windowCom)
 end
 
 return plotSkillBtn;
-
---self.uiComs=require('ToolGen.main.plotSkillBtn'):OnConstruct(self.contentPane)

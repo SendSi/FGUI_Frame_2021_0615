@@ -12,7 +12,7 @@
 ---@field public m_goBtn CS.FairyGUI.GButton
 local collectionPlaceItem = {};
 
-collectionPlaceItem.URL = "ui://4ni413lanil";
+collectionPlaceItem.URL = "ui://main/collectionPlaceItem";
 
 function collectionPlaceItem:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function collectionPlaceItem:OnConstruct(windowCom)
 end
 
 return collectionPlaceItem;
-
---self.uiComs=require('ToolGen.main.collectionPlaceItem'):OnConstruct(self.contentPane)

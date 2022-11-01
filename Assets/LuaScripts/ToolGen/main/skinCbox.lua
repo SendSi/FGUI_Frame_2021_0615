@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local skinCbox = {};
 
-skinCbox.URL = "ui://4ni413lanil";
+skinCbox.URL = "ui://main/skinCbox";
 
 function skinCbox:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function skinCbox:OnConstruct(windowCom)
 end
 
 return skinCbox;
-
---self.uiComs=require('ToolGen.main.skinCbox'):OnConstruct(self.contentPane)

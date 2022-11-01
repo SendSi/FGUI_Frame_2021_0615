@@ -13,7 +13,7 @@
 ---@field public m_win CS.FairyGUI.GGroup
 local AssembleView = {};
 
-AssembleView.URL = "ui://ufsajnnznil";
+AssembleView.URL = "ui://13_Mail/AssembleView";
 
 function AssembleView:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function AssembleView:OnConstruct(windowCom)
 end
 
 return AssembleView;
-
---self.uiComs=require('ToolGen.13_Mail.AssembleView'):OnConstruct(self.contentPane)

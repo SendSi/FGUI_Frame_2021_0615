@@ -13,7 +13,7 @@
 ---@field public m_n15 CS.FairyGUI.GImage
 local btn_head5 = {};
 
-btn_head5.URL = "ui://2r331opvnil";
+btn_head5.URL = "ui://common/btn_head5";
 
 function btn_head5:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function btn_head5:OnConstruct(windowCom)
 end
 
 return btn_head5;
-
---self.uiComs=require('ToolGen.common.btn_head5'):OnConstruct(self.contentPane)

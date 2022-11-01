@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local functionSdr_gri = {};
 
-functionSdr_gri.URL = "ui://4ni413lanil";
+functionSdr_gri.URL = "ui://main/functionSdr_gri";
 
 function functionSdr_gri:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function functionSdr_gri:OnConstruct(windowCom)
 end
 
 return functionSdr_gri;
-
---self.uiComs=require('ToolGen.main.functionSdr_gri'):OnConstruct(self.contentPane)

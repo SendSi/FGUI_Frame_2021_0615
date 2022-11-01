@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local shareplace__btn1 = {};
 
-shareplace__btn1.URL = "ui://4ni413lanil";
+shareplace__btn1.URL = "ui://main/shareplace__btn1";
 
 function shareplace__btn1:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function shareplace__btn1:OnConstruct(windowCom)
 end
 
 return shareplace__btn1;
-
---self.uiComs=require('ToolGen.main.shareplace__btn1'):OnConstruct(self.contentPane)

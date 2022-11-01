@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local armsPbr = {};
 
-armsPbr.URL = "ui://jqem9egtnil";
+armsPbr.URL = "ui://08_Troops/armsPbr";
 
 function armsPbr:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function armsPbr:OnConstruct(windowCom)
 end
 
 return armsPbr;
-
---self.uiComs=require('ToolGen.08_Troops.armsPbr'):OnConstruct(self.contentPane)

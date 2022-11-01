@@ -15,7 +15,7 @@
 ---@field public m_propTopList CS.FairyGUI.GComponent
 local FightOrderBuyView = {};
 
-FightOrderBuyView.URL = "ui://b7676vbqnil";
+FightOrderBuyView.URL = "ui://Bag/FightOrderBuyView";
 
 function FightOrderBuyView:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function FightOrderBuyView:OnConstruct(windowCom)
 end
 
 return FightOrderBuyView;
-
---self.uiComs=require('ToolGen.bag.FightOrderBuyView'):OnConstruct(self.contentPane)

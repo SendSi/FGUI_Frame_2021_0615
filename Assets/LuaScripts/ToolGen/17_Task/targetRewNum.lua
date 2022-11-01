@@ -8,7 +8,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local targetRewNum = {};
 
-targetRewNum.URL = "ui://zezobey9nil";
+targetRewNum.URL = "ui://17_Task/targetRewNum";
 
 function targetRewNum:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function targetRewNum:OnConstruct(windowCom)
 end
 
 return targetRewNum;
-
---self.uiComs=require('ToolGen.17_Task.targetRewNum'):OnConstruct(self.contentPane)

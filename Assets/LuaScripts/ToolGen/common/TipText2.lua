@@ -7,7 +7,7 @@
 ---@field public m_arrow CS.FairyGUI.GImage
 local TipText2 = {};
 
-TipText2.URL = "ui://2r331opvnil";
+TipText2.URL = "ui://common/TipText2";
 
 function TipText2:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function TipText2:OnConstruct(windowCom)
 end
 
 return TipText2;
-
---self.uiComs=require('ToolGen.common.TipText2'):OnConstruct(self.contentPane)

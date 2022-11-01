@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local changeNameBtn = {};
 
-changeNameBtn.URL = "ui://66sh7tc6nil";
+changeNameBtn.URL = "ui://mainRole/changeNameBtn";
 
 function changeNameBtn:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function changeNameBtn:OnConstruct(windowCom)
 end
 
 return changeNameBtn;
-
---self.uiComs=require('ToolGen.mainRole.changeNameBtn'):OnConstruct(self.contentPane)

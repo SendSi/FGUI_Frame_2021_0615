@@ -8,7 +8,7 @@
 ---@field public m_mask CS.FairyGUI.GGraph
 local circleGeneral = {};
 
-circleGeneral.URL = "ui://2r331opvnil";
+circleGeneral.URL = "ui://common/circleGeneral";
 
 function circleGeneral:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function circleGeneral:OnConstruct(windowCom)
 end
 
 return circleGeneral;
-
---self.uiComs=require('ToolGen.common.circleGeneral'):OnConstruct(self.contentPane)

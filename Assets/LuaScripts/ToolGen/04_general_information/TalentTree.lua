@@ -18,7 +18,7 @@
 ---@field public m_n11 CS.FairyGUI.GGroup
 local TalentTree = {};
 
-TalentTree.URL = "ui://4hio38umnil";
+TalentTree.URL = "ui://04_general_information/TalentTree";
 
 function TalentTree:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function TalentTree:OnConstruct(windowCom)
 end
 
 return TalentTree;
-
---self.uiComs=require('ToolGen.04_general_information.TalentTree'):OnConstruct(self.contentPane)

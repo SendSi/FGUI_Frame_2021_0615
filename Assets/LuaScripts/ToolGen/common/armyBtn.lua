@@ -15,7 +15,7 @@
 ---@field public m_n22 CS.FairyGUI.GGroup
 local armyBtn = {};
 
-armyBtn.URL = "ui://2r331opvnil";
+armyBtn.URL = "ui://common/armyBtn";
 
 function armyBtn:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function armyBtn:OnConstruct(windowCom)
 end
 
 return armyBtn;
-
---self.uiComs=require('ToolGen.common.armyBtn'):OnConstruct(self.contentPane)

@@ -23,7 +23,7 @@
 ---@field public m_a_worldboss CS.FairyGUI.Transition
 local MainCenterView = {};
 
-MainCenterView.URL = "ui://4ni413lanil";
+MainCenterView.URL = "ui://main/MainCenterView";
 
 function MainCenterView:OnConstruct(windowCom)
 	local tb = {
@@ -51,5 +51,3 @@ function MainCenterView:OnConstruct(windowCom)
 end
 
 return MainCenterView;
-
---self.uiComs=require('ToolGen.main.MainCenterView'):OnConstruct(self.contentPane)

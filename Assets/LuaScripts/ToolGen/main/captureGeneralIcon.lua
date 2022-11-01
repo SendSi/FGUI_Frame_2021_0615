@@ -6,7 +6,7 @@
 ---@field public m_mask CS.FairyGUI.GGraph
 local captureGeneralIcon = {};
 
-captureGeneralIcon.URL = "ui://4ni413lanil";
+captureGeneralIcon.URL = "ui://main/captureGeneralIcon";
 
 function captureGeneralIcon:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function captureGeneralIcon:OnConstruct(windowCom)
 end
 
 return captureGeneralIcon;
-
---self.uiComs=require('ToolGen.main.captureGeneralIcon'):OnConstruct(self.contentPane)

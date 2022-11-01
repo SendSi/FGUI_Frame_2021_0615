@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local Button_chose = {};
 
-Button_chose.URL = "ui://2r331opvnil";
+Button_chose.URL = "ui://common/Button_chose";
 
 function Button_chose:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function Button_chose:OnConstruct(windowCom)
 end
 
 return Button_chose;
-
---self.uiComs=require('ToolGen.common.Button_chose'):OnConstruct(self.contentPane)

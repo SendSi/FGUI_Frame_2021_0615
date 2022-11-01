@@ -35,7 +35,7 @@
 ---@field public m_playerIcon mainTopPlayerInfo
 local ConscriptionView = {};
 
-ConscriptionView.URL = "ui://4ni413lanil";
+ConscriptionView.URL = "ui://main/ConscriptionView";
 
 function ConscriptionView:OnConstruct(windowCom)
 	local tb = {
@@ -75,5 +75,3 @@ function ConscriptionView:OnConstruct(windowCom)
 end
 
 return ConscriptionView;
-
---self.uiComs=require('ToolGen.main.ConscriptionView'):OnConstruct(self.contentPane)

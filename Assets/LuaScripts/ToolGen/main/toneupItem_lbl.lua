@@ -8,7 +8,7 @@
 ---@field public m_n10 CS.FairyGUI.GGraph
 local toneupItem_lbl = {};
 
-toneupItem_lbl.URL = "ui://4ni413lanil";
+toneupItem_lbl.URL = "ui://main/toneupItem_lbl";
 
 function toneupItem_lbl:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function toneupItem_lbl:OnConstruct(windowCom)
 end
 
 return toneupItem_lbl;
-
---self.uiComs=require('ToolGen.main.toneupItem_lbl'):OnConstruct(self.contentPane)

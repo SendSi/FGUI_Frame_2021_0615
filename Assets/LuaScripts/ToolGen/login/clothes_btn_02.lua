@@ -13,7 +13,7 @@
 ---@field public m_title_maintain CS.FairyGUI.GTextField
 local clothes_btn_02 = {};
 
-clothes_btn_02.URL = "ui://byy9k3ghnil";
+clothes_btn_02.URL = "ui://login/clothes_btn_02";
 
 function clothes_btn_02:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function clothes_btn_02:OnConstruct(windowCom)
 end
 
 return clothes_btn_02;
-
---self.uiComs=require('ToolGen.login.clothes_btn_02'):OnConstruct(self.contentPane)

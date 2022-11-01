@@ -13,7 +13,7 @@
 ---@field public m_item3 talentBtn
 local talentItem = {};
 
-talentItem.URL = "ui://4hio38umnil";
+talentItem.URL = "ui://04_general_information/talentItem";
 
 function talentItem:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function talentItem:OnConstruct(windowCom)
 end
 
 return talentItem;
-
---self.uiComs=require('ToolGen.04_general_information.talentItem'):OnConstruct(self.contentPane)

@@ -27,7 +27,7 @@
 ---@field public m_mask CS.FairyGUI.GGraph
 local ArmyInfoView = {};
 
-ArmyInfoView.URL = "ui://4hio38umnil";
+ArmyInfoView.URL = "ui://04_general_information/ArmyInfoView";
 
 function ArmyInfoView:OnConstruct(windowCom)
 	local tb = {
@@ -59,5 +59,3 @@ function ArmyInfoView:OnConstruct(windowCom)
 end
 
 return ArmyInfoView;
-
---self.uiComs=require('ToolGen.04_general_information.ArmyInfoView'):OnConstruct(self.contentPane)

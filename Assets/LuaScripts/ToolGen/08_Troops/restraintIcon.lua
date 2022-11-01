@@ -6,7 +6,7 @@
 ---@field public m_n234 CS.FairyGUI.GLoader
 local restraintIcon = {};
 
-restraintIcon.URL = "ui://jqem9egtnil";
+restraintIcon.URL = "ui://08_Troops/restraintIcon";
 
 function restraintIcon:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function restraintIcon:OnConstruct(windowCom)
 end
 
 return restraintIcon;
-
---self.uiComs=require('ToolGen.08_Troops.restraintIcon'):OnConstruct(self.contentPane)

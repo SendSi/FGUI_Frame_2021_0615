@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local signOutBtn = {};
 
-signOutBtn.URL = "ui://4ni413lanil";
+signOutBtn.URL = "ui://main/signOutBtn";
 
 function signOutBtn:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function signOutBtn:OnConstruct(windowCom)
 end
 
 return signOutBtn;
-
---self.uiComs=require('ToolGen.main.signOutBtn'):OnConstruct(self.contentPane)

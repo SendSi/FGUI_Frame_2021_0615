@@ -13,7 +13,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local DialogBuyView3 = {};
 
-DialogBuyView3.URL = "ui://utp01xianil";
+DialogBuyView3.URL = "ui://dialogTip/DialogBuyView3";
 
 function DialogBuyView3:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function DialogBuyView3:OnConstruct(windowCom)
 end
 
 return DialogBuyView3;
-
---self.uiComs=require('ToolGen.dialogTip.DialogBuyView3'):OnConstruct(self.contentPane)

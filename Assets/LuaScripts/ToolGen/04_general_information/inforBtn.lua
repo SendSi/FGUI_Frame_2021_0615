@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local inforBtn = {};
 
-inforBtn.URL = "ui://4hio38umnil";
+inforBtn.URL = "ui://04_general_information/inforBtn";
 
 function inforBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function inforBtn:OnConstruct(windowCom)
 end
 
 return inforBtn;
-
---self.uiComs=require('ToolGen.04_general_information.inforBtn'):OnConstruct(self.contentPane)

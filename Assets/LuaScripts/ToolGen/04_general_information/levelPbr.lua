@@ -6,7 +6,7 @@
 ---@field public m_bar CS.FairyGUI.GImage
 local levelPbr = {};
 
-levelPbr.URL = "ui://4hio38umnil";
+levelPbr.URL = "ui://04_general_information/levelPbr";
 
 function levelPbr:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function levelPbr:OnConstruct(windowCom)
 end
 
 return levelPbr;
-
---self.uiComs=require('ToolGen.04_general_information.levelPbr'):OnConstruct(self.contentPane)

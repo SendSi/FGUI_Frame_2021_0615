@@ -13,7 +13,7 @@
 ---@field public m_n27 CS.FairyGUI.GGroup
 local limitGiftItem = {};
 
-limitGiftItem.URL = "ui://jylg23gnnil";
+limitGiftItem.URL = "ui://12_LimitGift/limitGiftItem";
 
 function limitGiftItem:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function limitGiftItem:OnConstruct(windowCom)
 end
 
 return limitGiftItem;
-
---self.uiComs=require('ToolGen.12_LimitGift.limitGiftItem'):OnConstruct(self.contentPane)

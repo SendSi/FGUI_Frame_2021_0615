@@ -6,7 +6,7 @@
 ---@field public m_n1 CS.FairyGUI.GGraph
 local main_teamGeneral = {};
 
-main_teamGeneral.URL = "ui://2r331opvnil";
+main_teamGeneral.URL = "ui://common/main_teamGeneral";
 
 function main_teamGeneral:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function main_teamGeneral:OnConstruct(windowCom)
 end
 
 return main_teamGeneral;
-
---self.uiComs=require('ToolGen.common.main_teamGeneral'):OnConstruct(self.contentPane)

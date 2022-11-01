@@ -14,7 +14,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local DialogTipToggleView = {};
 
-DialogTipToggleView.URL = "ui://utp01xianil";
+DialogTipToggleView.URL = "ui://dialogTip/DialogTipToggleView";
 
 function DialogTipToggleView:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function DialogTipToggleView:OnConstruct(windowCom)
 end
 
 return DialogTipToggleView;
-
---self.uiComs=require('ToolGen.dialogTip.DialogTipToggleView'):OnConstruct(self.contentPane)

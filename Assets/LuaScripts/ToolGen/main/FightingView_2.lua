@@ -13,7 +13,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local FightingView_2 = {};
 
-FightingView_2.URL = "ui://4ni413lanil";
+FightingView_2.URL = "ui://main/FightingView_2";
 
 function FightingView_2:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function FightingView_2:OnConstruct(windowCom)
 end
 
 return FightingView_2;
-
---self.uiComs=require('ToolGen.main.FightingView_2'):OnConstruct(self.contentPane)

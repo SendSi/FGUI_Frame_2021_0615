@@ -14,7 +14,7 @@
 ---@field public m_icon CS.FairyGUI.GButton
 local applyItem = {};
 
-applyItem.URL = "ui://ufsajnnznil";
+applyItem.URL = "ui://13_Mail/applyItem";
 
 function applyItem:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function applyItem:OnConstruct(windowCom)
 end
 
 return applyItem;
-
---self.uiComs=require('ToolGen.13_Mail.applyItem'):OnConstruct(self.contentPane)

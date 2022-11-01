@@ -16,7 +16,7 @@
 ---@field public m_progress CS.FairyGUI.GTextField
 local taskItem = {};
 
-taskItem.URL = "ui://zezobey9nil";
+taskItem.URL = "ui://17_Task/taskItem";
 
 function taskItem:OnConstruct(windowCom)
 	local tb = {
@@ -37,5 +37,3 @@ function taskItem:OnConstruct(windowCom)
 end
 
 return taskItem;
-
---self.uiComs=require('ToolGen.17_Task.taskItem'):OnConstruct(self.contentPane)

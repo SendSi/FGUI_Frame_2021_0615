@@ -5,7 +5,7 @@
 ---@field public m_list CS.FairyGUI.GList
 local list_clothes_03 = {};
 
-list_clothes_03.URL = "ui://byy9k3ghnil";
+list_clothes_03.URL = "ui://login/list_clothes_03";
 
 function list_clothes_03:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function list_clothes_03:OnConstruct(windowCom)
 end
 
 return list_clothes_03;
-
---self.uiComs=require('ToolGen.login.list_clothes_03'):OnConstruct(self.contentPane)

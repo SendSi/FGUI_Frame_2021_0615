@@ -14,7 +14,7 @@
 ---@field public m_bossHp CS.FairyGUI.GGroup
 local NoviceBossBattleView = {};
 
-NoviceBossBattleView.URL = "ui://4ni413lanil";
+NoviceBossBattleView.URL = "ui://main/NoviceBossBattleView";
 
 function NoviceBossBattleView:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function NoviceBossBattleView:OnConstruct(windowCom)
 end
 
 return NoviceBossBattleView;
-
---self.uiComs=require('ToolGen.main.NoviceBossBattleView'):OnConstruct(self.contentPane)

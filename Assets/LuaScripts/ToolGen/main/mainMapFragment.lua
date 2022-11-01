@@ -11,7 +11,7 @@
 ---@field public m_stateLbl CS.FairyGUI.GTextField
 local mainMapFragment = {};
 
-mainMapFragment.URL = "ui://4ni413lanil";
+mainMapFragment.URL = "ui://main/mainMapFragment";
 
 function mainMapFragment:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function mainMapFragment:OnConstruct(windowCom)
 end
 
 return mainMapFragment;
-
---self.uiComs=require('ToolGen.main.mainMapFragment'):OnConstruct(self.contentPane)

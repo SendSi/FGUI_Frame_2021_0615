@@ -15,7 +15,7 @@
 ---@field public m_n51 CS.FairyGUI.GButton
 local information_02 = {};
 
-information_02.URL = "ui://dowwulhenil";
+information_02.URL = "ui://16_friends/information_02";
 
 function information_02:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function information_02:OnConstruct(windowCom)
 end
 
 return information_02;
-
---self.uiComs=require('ToolGen.16_friends.information_02'):OnConstruct(self.contentPane)

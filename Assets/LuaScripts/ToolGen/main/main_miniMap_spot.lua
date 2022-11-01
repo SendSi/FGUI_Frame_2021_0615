@@ -9,7 +9,7 @@
 ---@field public m_n2 CS.FairyGUI.GGraph
 local main_miniMap_spot = {};
 
-main_miniMap_spot.URL = "ui://4ni413lanil";
+main_miniMap_spot.URL = "ui://main/main_miniMap_spot";
 
 function main_miniMap_spot:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function main_miniMap_spot:OnConstruct(windowCom)
 end
 
 return main_miniMap_spot;
-
---self.uiComs=require('ToolGen.main.main_miniMap_spot'):OnConstruct(self.contentPane)

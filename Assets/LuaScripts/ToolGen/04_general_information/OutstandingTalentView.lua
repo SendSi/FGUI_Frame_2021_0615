@@ -19,7 +19,7 @@
 ---@field public m_n31 CS.FairyGUI.GGroup
 local OutstandingTalentView = {};
 
-OutstandingTalentView.URL = "ui://4hio38umnil";
+OutstandingTalentView.URL = "ui://04_general_information/OutstandingTalentView";
 
 function OutstandingTalentView:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function OutstandingTalentView:OnConstruct(windowCom)
 end
 
 return OutstandingTalentView;
-
---self.uiComs=require('ToolGen.04_general_information.OutstandingTalentView'):OnConstruct(self.contentPane)

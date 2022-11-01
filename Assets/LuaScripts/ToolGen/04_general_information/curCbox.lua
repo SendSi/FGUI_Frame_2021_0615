@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local curCbox = {};
 
-curCbox.URL = "ui://4hio38umnil";
+curCbox.URL = "ui://04_general_information/curCbox";
 
 function curCbox:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function curCbox:OnConstruct(windowCom)
 end
 
 return curCbox;
-
---self.uiComs=require('ToolGen.04_general_information.curCbox'):OnConstruct(self.contentPane)

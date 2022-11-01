@@ -5,7 +5,7 @@
 ---@field public m_text CS.FairyGUI.GTextField
 local SiegeOrderViewDescText = {};
 
-SiegeOrderViewDescText.URL = "ui://4ni413lanil";
+SiegeOrderViewDescText.URL = "ui://main/SiegeOrderViewDescText";
 
 function SiegeOrderViewDescText:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function SiegeOrderViewDescText:OnConstruct(windowCom)
 end
 
 return SiegeOrderViewDescText;
-
---self.uiComs=require('ToolGen.main.SiegeOrderViewDescText'):OnConstruct(self.contentPane)

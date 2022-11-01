@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local Button_expression = {};
 
-Button_expression.URL = "ui://62wjs2s2nil";
+Button_expression.URL = "ui://14_chat/Button_expression";
 
 function Button_expression:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function Button_expression:OnConstruct(windowCom)
 end
 
 return Button_expression;
-
---self.uiComs=require('ToolGen.14_chat.Button_expression'):OnConstruct(self.contentPane)

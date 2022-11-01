@@ -9,7 +9,7 @@
 ---@field public m_fullTitle CS.FairyGUI.GTextField
 local handbookSkillBtn = {};
 
-handbookSkillBtn.URL = "ui://4hio38umnil";
+handbookSkillBtn.URL = "ui://04_general_information/handbookSkillBtn";
 
 function handbookSkillBtn:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function handbookSkillBtn:OnConstruct(windowCom)
 end
 
 return handbookSkillBtn;
-
---self.uiComs=require('ToolGen.04_general_information.handbookSkillBtn'):OnConstruct(self.contentPane)

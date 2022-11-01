@@ -15,7 +15,7 @@
 ---@field public m_n172 CS.FairyGUI.GGroup
 local AdvanceView = {};
 
-AdvanceView.URL = "ui://4ni413lanil";
+AdvanceView.URL = "ui://main/AdvanceView";
 
 function AdvanceView:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function AdvanceView:OnConstruct(windowCom)
 end
 
 return AdvanceView;
-
---self.uiComs=require('ToolGen.main.AdvanceView'):OnConstruct(self.contentPane)

@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local armIcon = {};
 
-armIcon.URL = "ui://4hio38umnil";
+armIcon.URL = "ui://04_general_information/armIcon";
 
 function armIcon:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function armIcon:OnConstruct(windowCom)
 end
 
 return armIcon;
-
---self.uiComs=require('ToolGen.04_general_information.armIcon'):OnConstruct(self.contentPane)

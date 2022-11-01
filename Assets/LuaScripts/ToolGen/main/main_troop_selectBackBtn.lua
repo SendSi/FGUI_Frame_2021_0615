@@ -9,7 +9,7 @@
 ---@field public m_price CS.FairyGUI.GTextField
 local main_troop_selectBackBtn = {};
 
-main_troop_selectBackBtn.URL = "ui://4ni413lanil";
+main_troop_selectBackBtn.URL = "ui://main/main_troop_selectBackBtn";
 
 function main_troop_selectBackBtn:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function main_troop_selectBackBtn:OnConstruct(windowCom)
 end
 
 return main_troop_selectBackBtn;
-
---self.uiComs=require('ToolGen.main.main_troop_selectBackBtn'):OnConstruct(self.contentPane)

@@ -23,7 +23,7 @@
 ---@field public m_n7 CS.FairyGUI.GGroup
 local toscout_rbtn = {};
 
-toscout_rbtn.URL = "ui://4ni413lanil";
+toscout_rbtn.URL = "ui://main/toscout_rbtn";
 
 function toscout_rbtn:OnConstruct(windowCom)
 	local tb = {
@@ -51,5 +51,3 @@ function toscout_rbtn:OnConstruct(windowCom)
 end
 
 return toscout_rbtn;
-
---self.uiComs=require('ToolGen.main.toscout_rbtn'):OnConstruct(self.contentPane)

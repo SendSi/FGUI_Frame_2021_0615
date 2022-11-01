@@ -7,7 +7,7 @@
 ---@field public m_confirm buildingBtn2
 local CreateBuilding = {};
 
-CreateBuilding.URL = "ui://4ni413lanil";
+CreateBuilding.URL = "ui://main/CreateBuilding";
 
 function CreateBuilding:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function CreateBuilding:OnConstruct(windowCom)
 end
 
 return CreateBuilding;
-
---self.uiComs=require('ToolGen.main.CreateBuilding'):OnConstruct(self.contentPane)

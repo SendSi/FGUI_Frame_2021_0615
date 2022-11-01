@@ -9,7 +9,7 @@
 ---@field public m_t3 CS.FairyGUI.Transition
 local com_tips = {};
 
-com_tips.URL = "ui://2r331opvnil";
+com_tips.URL = "ui://common/com_tips";
 
 function com_tips:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function com_tips:OnConstruct(windowCom)
 end
 
 return com_tips;
-
---self.uiComs=require('ToolGen.common.com_tips'):OnConstruct(self.contentPane)

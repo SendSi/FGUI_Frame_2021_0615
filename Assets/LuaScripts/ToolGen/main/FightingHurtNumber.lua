@@ -7,7 +7,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local FightingHurtNumber = {};
 
-FightingHurtNumber.URL = "ui://4ni413lanil";
+FightingHurtNumber.URL = "ui://main/FightingHurtNumber";
 
 function FightingHurtNumber:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function FightingHurtNumber:OnConstruct(windowCom)
 end
 
 return FightingHurtNumber;
-
---self.uiComs=require('ToolGen.main.FightingHurtNumber'):OnConstruct(self.contentPane)

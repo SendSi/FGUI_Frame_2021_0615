@@ -7,7 +7,7 @@
 ---@field public m_n5 CS.FairyGUI.GImage
 local troopsPointBtn = {};
 
-troopsPointBtn.URL = "ui://jqem9egtnil";
+troopsPointBtn.URL = "ui://08_Troops/troopsPointBtn";
 
 function troopsPointBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function troopsPointBtn:OnConstruct(windowCom)
 end
 
 return troopsPointBtn;
-
---self.uiComs=require('ToolGen.08_Troops.troopsPointBtn'):OnConstruct(self.contentPane)

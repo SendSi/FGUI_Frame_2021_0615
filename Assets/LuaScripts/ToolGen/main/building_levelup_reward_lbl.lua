@@ -9,7 +9,7 @@
 ---@field public m_lable03_after_number CS.FairyGUI.GTextField
 local building_levelup_reward_lbl = {};
 
-building_levelup_reward_lbl.URL = "ui://4ni413lanil";
+building_levelup_reward_lbl.URL = "ui://main/building_levelup_reward_lbl";
 
 function building_levelup_reward_lbl:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function building_levelup_reward_lbl:OnConstruct(windowCom)
 end
 
 return building_levelup_reward_lbl;
-
---self.uiComs=require('ToolGen.main.building_levelup_reward_lbl'):OnConstruct(self.contentPane)

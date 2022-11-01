@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local main_btn_activity__ = {};
 
-main_btn_activity__.URL = "ui://4ni413lanil";
+main_btn_activity__.URL = "ui://main/main_btn_activity__";
 
 function main_btn_activity__:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function main_btn_activity__:OnConstruct(windowCom)
 end
 
 return main_btn_activity__;
-
---self.uiComs=require('ToolGen.main.main_btn_activity__'):OnConstruct(self.contentPane)

@@ -5,7 +5,7 @@
 
 local node = {};
 
-node.URL = "ui://4hio38umnil";
+node.URL = "ui://04_general_information/node";
 
 function node:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function node:OnConstruct(windowCom)
 end
 
 return node;
-
---self.uiComs=require('ToolGen.04_general_information.node'):OnConstruct(self.contentPane)

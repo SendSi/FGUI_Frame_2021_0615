@@ -20,7 +20,7 @@
 ---@field public m_giftBtn com_btn_05
 local right = {};
 
-right.URL = "ui://62wjs2s2nil";
+right.URL = "ui://14_chat/right";
 
 function right:OnConstruct(windowCom)
 	local tb = {
@@ -45,5 +45,3 @@ function right:OnConstruct(windowCom)
 end
 
 return right;
-
---self.uiComs=require('ToolGen.14_chat.right'):OnConstruct(self.contentPane)

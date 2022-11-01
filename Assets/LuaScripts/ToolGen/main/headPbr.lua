@@ -7,7 +7,7 @@
 ---@field public m_n2 CS.FairyGUI.GImage
 local headPbr = {};
 
-headPbr.URL = "ui://4ni413lanil";
+headPbr.URL = "ui://main/headPbr";
 
 function headPbr:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function headPbr:OnConstruct(windowCom)
 end
 
 return headPbr;
-
---self.uiComs=require('ToolGen.main.headPbr'):OnConstruct(self.contentPane)

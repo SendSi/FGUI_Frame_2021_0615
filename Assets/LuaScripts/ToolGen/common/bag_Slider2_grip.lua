@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local bag_Slider2_grip = {};
 
-bag_Slider2_grip.URL = "ui://2r331opvnil";
+bag_Slider2_grip.URL = "ui://common/bag_Slider2_grip";
 
 function bag_Slider2_grip:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function bag_Slider2_grip:OnConstruct(windowCom)
 end
 
 return bag_Slider2_grip;
-
---self.uiComs=require('ToolGen.common.bag_Slider2_grip'):OnConstruct(self.contentPane)

@@ -7,7 +7,7 @@
 ---@field public m_n2 red_dot
 local collect = {};
 
-collect.URL = "ui://2r331opvnil";
+collect.URL = "ui://common/collect";
 
 function collect:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function collect:OnConstruct(windowCom)
 end
 
 return collect;
-
---self.uiComs=require('ToolGen.common.collect'):OnConstruct(self.contentPane)

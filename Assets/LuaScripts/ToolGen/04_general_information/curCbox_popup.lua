@@ -6,7 +6,7 @@
 ---@field public m_list CS.FairyGUI.GList
 local curCbox_popup = {};
 
-curCbox_popup.URL = "ui://4hio38umnil";
+curCbox_popup.URL = "ui://04_general_information/curCbox_popup";
 
 function curCbox_popup:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function curCbox_popup:OnConstruct(windowCom)
 end
 
 return curCbox_popup;
-
---self.uiComs=require('ToolGen.04_general_information.curCbox_popup'):OnConstruct(self.contentPane)

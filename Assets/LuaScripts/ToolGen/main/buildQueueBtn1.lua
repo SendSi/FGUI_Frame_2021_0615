@@ -10,7 +10,7 @@
 ---@field public m_numText CS.FairyGUI.GTextField
 local buildQueueBtn1 = {};
 
-buildQueueBtn1.URL = "ui://4ni413lanil";
+buildQueueBtn1.URL = "ui://main/buildQueueBtn1";
 
 function buildQueueBtn1:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function buildQueueBtn1:OnConstruct(windowCom)
 end
 
 return buildQueueBtn1;
-
---self.uiComs=require('ToolGen.main.buildQueueBtn1'):OnConstruct(self.contentPane)

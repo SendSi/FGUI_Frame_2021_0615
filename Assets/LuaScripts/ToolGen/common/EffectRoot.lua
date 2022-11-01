@@ -5,7 +5,7 @@
 ---@field public m_root CS.FairyGUI.GGraph
 local EffectRoot = {};
 
-EffectRoot.URL = "ui://2r331opvnil";
+EffectRoot.URL = "ui://common/EffectRoot";
 
 function EffectRoot:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function EffectRoot:OnConstruct(windowCom)
 end
 
 return EffectRoot;
-
---self.uiComs=require('ToolGen.common.EffectRoot'):OnConstruct(self.contentPane)

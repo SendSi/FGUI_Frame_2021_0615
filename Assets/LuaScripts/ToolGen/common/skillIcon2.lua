@@ -8,7 +8,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local skillIcon2 = {};
 
-skillIcon2.URL = "ui://2r331opvnil";
+skillIcon2.URL = "ui://common/skillIcon2";
 
 function skillIcon2:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function skillIcon2:OnConstruct(windowCom)
 end
 
 return skillIcon2;
-
---self.uiComs=require('ToolGen.common.skillIcon2'):OnConstruct(self.contentPane)

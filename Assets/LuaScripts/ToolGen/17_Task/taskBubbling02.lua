@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local taskBubbling02 = {};
 
-taskBubbling02.URL = "ui://zezobey9nil";
+taskBubbling02.URL = "ui://17_Task/taskBubbling02";
 
 function taskBubbling02:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function taskBubbling02:OnConstruct(windowCom)
 end
 
 return taskBubbling02;
-
---self.uiComs=require('ToolGen.17_Task.taskBubbling02'):OnConstruct(self.contentPane)

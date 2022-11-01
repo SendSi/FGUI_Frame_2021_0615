@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local faceSub = {};
 
-faceSub.URL = "ui://y768eypanil";
+faceSub.URL = "ui://Emoji/faceSub";
 
 function faceSub:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function faceSub:OnConstruct(windowCom)
 end
 
 return faceSub;
-
---self.uiComs=require('ToolGen.Emoji.faceSub'):OnConstruct(self.contentPane)

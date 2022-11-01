@@ -19,7 +19,7 @@
 ---@field public m_n5 CS.FairyGUI.GTextField
 local btn_head4 = {};
 
-btn_head4.URL = "ui://2r331opvnil";
+btn_head4.URL = "ui://common/btn_head4";
 
 function btn_head4:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function btn_head4:OnConstruct(windowCom)
 end
 
 return btn_head4;
-
---self.uiComs=require('ToolGen.common.btn_head4'):OnConstruct(self.contentPane)

@@ -11,7 +11,7 @@
 ---@field public m_state main_teamStae
 local generalIconBtn = {};
 
-generalIconBtn.URL = "ui://2r331opvnil";
+generalIconBtn.URL = "ui://common/generalIconBtn";
 
 function generalIconBtn:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function generalIconBtn:OnConstruct(windowCom)
 end
 
 return generalIconBtn;
-
---self.uiComs=require('ToolGen.common.generalIconBtn'):OnConstruct(self.contentPane)

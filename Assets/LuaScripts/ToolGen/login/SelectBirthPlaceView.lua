@@ -25,7 +25,7 @@
 ---@field public m_t2 CS.FairyGUI.Transition
 local SelectBirthPlaceView = {};
 
-SelectBirthPlaceView.URL = "ui://byy9k3ghnil";
+SelectBirthPlaceView.URL = "ui://login/SelectBirthPlaceView";
 
 function SelectBirthPlaceView:OnConstruct(windowCom)
 	local tb = {
@@ -55,5 +55,3 @@ function SelectBirthPlaceView:OnConstruct(windowCom)
 end
 
 return SelectBirthPlaceView;
-
---self.uiComs=require('ToolGen.login.SelectBirthPlaceView'):OnConstruct(self.contentPane)

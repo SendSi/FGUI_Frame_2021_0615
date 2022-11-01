@@ -8,7 +8,7 @@
 ---@field public m_lable_reward_number CS.FairyGUI.GTextField
 local list_reward = {};
 
-list_reward.URL = "ui://4ni413lanil";
+list_reward.URL = "ui://main/list_reward";
 
 function list_reward:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function list_reward:OnConstruct(windowCom)
 end
 
 return list_reward;
-
---self.uiComs=require('ToolGen.main.list_reward'):OnConstruct(self.contentPane)

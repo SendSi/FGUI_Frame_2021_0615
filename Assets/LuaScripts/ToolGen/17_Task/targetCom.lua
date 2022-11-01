@@ -11,7 +11,7 @@
 ---@field public m_num_list CS.FairyGUI.GList
 local targetCom = {};
 
-targetCom.URL = "ui://zezobey9nil";
+targetCom.URL = "ui://17_Task/targetCom";
 
 function targetCom:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function targetCom:OnConstruct(windowCom)
 end
 
 return targetCom;
-
---self.uiComs=require('ToolGen.17_Task.targetCom'):OnConstruct(self.contentPane)

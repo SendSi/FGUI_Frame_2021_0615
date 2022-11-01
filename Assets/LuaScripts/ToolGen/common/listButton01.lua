@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local listButton01 = {};
 
-listButton01.URL = "ui://2r331opvnil";
+listButton01.URL = "ui://common/listButton01";
 
 function listButton01:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function listButton01:OnConstruct(windowCom)
 end
 
 return listButton01;
-
---self.uiComs=require('ToolGen.common.listButton01'):OnConstruct(self.contentPane)

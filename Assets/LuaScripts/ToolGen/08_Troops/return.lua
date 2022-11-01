@@ -9,7 +9,7 @@
 ---@field public m_retu CS.FairyGUI.GGroup
 local return = {};
 
-return.URL = "ui://jqem9egtnil";
+return.URL = "ui://08_Troops/return";
 
 function return:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function return:OnConstruct(windowCom)
 end
 
 return return;
-
---self.uiComs=require('ToolGen.08_Troops.return'):OnConstruct(self.contentPane)

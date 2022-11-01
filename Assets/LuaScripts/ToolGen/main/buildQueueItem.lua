@@ -13,7 +13,7 @@
 ---@field public m_buyBtn CS.FairyGUI.GButton
 local buildQueueItem = {};
 
-buildQueueItem.URL = "ui://4ni413lanil";
+buildQueueItem.URL = "ui://main/buildQueueItem";
 
 function buildQueueItem:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function buildQueueItem:OnConstruct(windowCom)
 end
 
 return buildQueueItem;
-
---self.uiComs=require('ToolGen.main.buildQueueItem'):OnConstruct(self.contentPane)

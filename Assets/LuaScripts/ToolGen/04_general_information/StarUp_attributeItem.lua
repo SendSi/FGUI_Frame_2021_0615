@@ -6,7 +6,7 @@
 ---@field public m_number CS.FairyGUI.GTextField
 local StarUp_attributeItem = {};
 
-StarUp_attributeItem.URL = "ui://4hio38umnil";
+StarUp_attributeItem.URL = "ui://04_general_information/StarUp_attributeItem";
 
 function StarUp_attributeItem:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function StarUp_attributeItem:OnConstruct(windowCom)
 end
 
 return StarUp_attributeItem;
-
---self.uiComs=require('ToolGen.04_general_information.StarUp_attributeItem'):OnConstruct(self.contentPane)

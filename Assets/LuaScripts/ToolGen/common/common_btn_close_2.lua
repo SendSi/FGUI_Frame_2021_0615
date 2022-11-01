@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local common_btn_close_2 = {};
 
-common_btn_close_2.URL = "ui://2r331opvnil";
+common_btn_close_2.URL = "ui://common/common_btn_close_2";
 
 function common_btn_close_2:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function common_btn_close_2:OnConstruct(windowCom)
 end
 
 return common_btn_close_2;
-
---self.uiComs=require('ToolGen.common.common_btn_close_2'):OnConstruct(self.contentPane)

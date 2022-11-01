@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local com_btn_max = {};
 
-com_btn_max.URL = "ui://2r331opvnil";
+com_btn_max.URL = "ui://common/com_btn_max";
 
 function com_btn_max:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function com_btn_max:OnConstruct(windowCom)
 end
 
 return com_btn_max;
-
---self.uiComs=require('ToolGen.common.com_btn_max'):OnConstruct(self.contentPane)

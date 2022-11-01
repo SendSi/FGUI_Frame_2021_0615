@@ -7,7 +7,7 @@
 ---@field public m_n1 CS.FairyGUI.GImage
 local Staritem = {};
 
-Staritem.URL = "ui://jqem9egtnil";
+Staritem.URL = "ui://08_Troops/Staritem";
 
 function Staritem:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function Staritem:OnConstruct(windowCom)
 end
 
 return Staritem;
-
---self.uiComs=require('ToolGen.08_Troops.Staritem'):OnConstruct(self.contentPane)

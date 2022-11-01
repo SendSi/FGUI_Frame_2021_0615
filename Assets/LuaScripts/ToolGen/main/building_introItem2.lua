@@ -12,7 +12,7 @@
 ---@field public m_icon CS.FairyGUI.GButton
 local building_introItem2 = {};
 
-building_introItem2.URL = "ui://4ni413lanil";
+building_introItem2.URL = "ui://main/building_introItem2";
 
 function building_introItem2:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function building_introItem2:OnConstruct(windowCom)
 end
 
 return building_introItem2;
-
---self.uiComs=require('ToolGen.main.building_introItem2'):OnConstruct(self.contentPane)

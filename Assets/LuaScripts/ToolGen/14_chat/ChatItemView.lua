@@ -12,7 +12,7 @@
 ---@field public m_n98 CS.FairyGUI.GGroup
 local ChatItemView = {};
 
-ChatItemView.URL = "ui://62wjs2s2nil";
+ChatItemView.URL = "ui://14_chat/ChatItemView";
 
 function ChatItemView:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function ChatItemView:OnConstruct(windowCom)
 end
 
 return ChatItemView;
-
---self.uiComs=require('ToolGen.14_chat.ChatItemView'):OnConstruct(self.contentPane)

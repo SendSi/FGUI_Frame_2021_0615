@@ -7,7 +7,7 @@
 ---@field public m_indent CS.FairyGUI.GGraph
 local suitAddTxt = {};
 
-suitAddTxt.URL = "ui://4hio38umnil";
+suitAddTxt.URL = "ui://04_general_information/suitAddTxt";
 
 function suitAddTxt:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function suitAddTxt:OnConstruct(windowCom)
 end
 
 return suitAddTxt;
-
---self.uiComs=require('ToolGen.04_general_information.suitAddTxt'):OnConstruct(self.contentPane)

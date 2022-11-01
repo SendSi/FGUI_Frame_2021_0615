@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GImage
 local ArmsIcon = {};
 
-ArmsIcon.URL = "ui://jqem9egtnil";
+ArmsIcon.URL = "ui://08_Troops/ArmsIcon";
 
 function ArmsIcon:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function ArmsIcon:OnConstruct(windowCom)
 end
 
 return ArmsIcon;
-
---self.uiComs=require('ToolGen.08_Troops.ArmsIcon'):OnConstruct(self.contentPane)

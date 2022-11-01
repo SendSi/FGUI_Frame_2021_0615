@@ -5,7 +5,7 @@
 ---@field public m_describeLbl CS.FairyGUI.GTextField
 local describeLbl = {};
 
-describeLbl.URL = "ui://4hio38umnil";
+describeLbl.URL = "ui://04_general_information/describeLbl";
 
 function describeLbl:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function describeLbl:OnConstruct(windowCom)
 end
 
 return describeLbl;
-
---self.uiComs=require('ToolGen.04_general_information.describeLbl'):OnConstruct(self.contentPane)

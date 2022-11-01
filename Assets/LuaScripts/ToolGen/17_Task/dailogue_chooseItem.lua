@@ -12,7 +12,7 @@
 ---@field public m_Fade_out CS.FairyGUI.Transition
 local dailogue_chooseItem = {};
 
-dailogue_chooseItem.URL = "ui://zezobey9nil";
+dailogue_chooseItem.URL = "ui://17_Task/dailogue_chooseItem";
 
 function dailogue_chooseItem:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function dailogue_chooseItem:OnConstruct(windowCom)
 end
 
 return dailogue_chooseItem;
-
---self.uiComs=require('ToolGen.17_Task.dailogue_chooseItem'):OnConstruct(self.contentPane)

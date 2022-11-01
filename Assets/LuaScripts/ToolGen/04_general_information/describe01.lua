@@ -8,7 +8,7 @@
 ---@field public m_army_lbl01 CS.FairyGUI.GTextField
 local describe01 = {};
 
-describe01.URL = "ui://4hio38umnil";
+describe01.URL = "ui://04_general_information/describe01";
 
 function describe01:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function describe01:OnConstruct(windowCom)
 end
 
 return describe01;
-
---self.uiComs=require('ToolGen.04_general_information.describe01'):OnConstruct(self.contentPane)

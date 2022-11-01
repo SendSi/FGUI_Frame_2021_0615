@@ -13,7 +13,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local CollectView = {};
 
-CollectView.URL = "ui://4ni413lanil";
+CollectView.URL = "ui://main/CollectView";
 
 function CollectView:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function CollectView:OnConstruct(windowCom)
 end
 
 return CollectView;
-
---self.uiComs=require('ToolGen.main.CollectView'):OnConstruct(self.contentPane)

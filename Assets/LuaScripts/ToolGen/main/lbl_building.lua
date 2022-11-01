@@ -5,7 +5,7 @@
 ---@field public m_lable_introduce CS.FairyGUI.GTextField
 local lbl_building = {};
 
-lbl_building.URL = "ui://4ni413lanil";
+lbl_building.URL = "ui://main/lbl_building";
 
 function lbl_building:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function lbl_building:OnConstruct(windowCom)
 end
 
 return lbl_building;
-
---self.uiComs=require('ToolGen.main.lbl_building'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local preBtnShow = {};
 
-preBtnShow.URL = "ui://nf2zagxsnil";
+preBtnShow.URL = "ui://06_Recruit/preBtnShow";
 
 function preBtnShow:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function preBtnShow:OnConstruct(windowCom)
 end
 
 return preBtnShow;
-
---self.uiComs=require('ToolGen.06_Recruit.preBtnShow'):OnConstruct(self.contentPane)

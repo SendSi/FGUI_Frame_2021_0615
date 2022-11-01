@@ -9,7 +9,7 @@
 ---@field public m_list03 CS.FairyGUI.GList
 local main_mapMini01 = {};
 
-main_mapMini01.URL = "ui://4ni413lanil";
+main_mapMini01.URL = "ui://main/main_mapMini01";
 
 function main_mapMini01:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function main_mapMini01:OnConstruct(windowCom)
 end
 
 return main_mapMini01;
-
---self.uiComs=require('ToolGen.main.main_mapMini01'):OnConstruct(self.contentPane)

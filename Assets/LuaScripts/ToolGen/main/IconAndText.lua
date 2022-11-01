@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GRichTextField
 local IconAndText = {};
 
-IconAndText.URL = "ui://4ni413lanil";
+IconAndText.URL = "ui://main/IconAndText";
 
 function IconAndText:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function IconAndText:OnConstruct(windowCom)
 end
 
 return IconAndText;
-
---self.uiComs=require('ToolGen.main.IconAndText'):OnConstruct(self.contentPane)

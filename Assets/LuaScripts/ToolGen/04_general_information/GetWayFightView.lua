@@ -22,7 +22,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local GetWayFightView = {};
 
-GetWayFightView.URL = "ui://4hio38umnil";
+GetWayFightView.URL = "ui://04_general_information/GetWayFightView";
 
 function GetWayFightView:OnConstruct(windowCom)
 	local tb = {
@@ -49,5 +49,3 @@ function GetWayFightView:OnConstruct(windowCom)
 end
 
 return GetWayFightView;
-
---self.uiComs=require('ToolGen.04_general_information.GetWayFightView'):OnConstruct(self.contentPane)

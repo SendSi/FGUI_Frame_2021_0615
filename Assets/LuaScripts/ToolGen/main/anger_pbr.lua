@@ -7,7 +7,7 @@
 ---@field public m_mask anger_pbr_mask
 local anger_pbr = {};
 
-anger_pbr.URL = "ui://4ni413lanil";
+anger_pbr.URL = "ui://main/anger_pbr";
 
 function anger_pbr:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function anger_pbr:OnConstruct(windowCom)
 end
 
 return anger_pbr;
-
---self.uiComs=require('ToolGen.main.anger_pbr'):OnConstruct(self.contentPane)

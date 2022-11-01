@@ -12,7 +12,7 @@
 ---@field public m_n5 CS.FairyGUI.GImage
 local building_introdLbl = {};
 
-building_introdLbl.URL = "ui://4ni413lanil";
+building_introdLbl.URL = "ui://main/building_introdLbl";
 
 function building_introdLbl:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function building_introdLbl:OnConstruct(windowCom)
 end
 
 return building_introdLbl;
-
---self.uiComs=require('ToolGen.main.building_introdLbl'):OnConstruct(self.contentPane)

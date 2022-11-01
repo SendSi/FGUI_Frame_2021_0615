@@ -6,7 +6,7 @@
 ---@field public m_n3 CS.FairyGUI.GImage
 local completedBtn = {};
 
-completedBtn.URL = "ui://2r331opvnil";
+completedBtn.URL = "ui://common/completedBtn";
 
 function completedBtn:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function completedBtn:OnConstruct(windowCom)
 end
 
 return completedBtn;
-
---self.uiComs=require('ToolGen.common.completedBtn'):OnConstruct(self.contentPane)

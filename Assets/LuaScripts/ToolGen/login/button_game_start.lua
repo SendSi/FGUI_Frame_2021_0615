@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local button_game_start = {};
 
-button_game_start.URL = "ui://byy9k3ghnil";
+button_game_start.URL = "ui://login/button_game_start";
 
 function button_game_start:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function button_game_start:OnConstruct(windowCom)
 end
 
 return button_game_start;
-
---self.uiComs=require('ToolGen.login.button_game_start'):OnConstruct(self.contentPane)

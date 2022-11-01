@@ -14,7 +14,7 @@
 ---@field public m_win CS.FairyGUI.GGroup
 local CheckInDialogTipView = {};
 
-CheckInDialogTipView.URL = "ui://utp01xianil";
+CheckInDialogTipView.URL = "ui://dialogTip/CheckInDialogTipView";
 
 function CheckInDialogTipView:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function CheckInDialogTipView:OnConstruct(windowCom)
 end
 
 return CheckInDialogTipView;
-
---self.uiComs=require('ToolGen.dialogTip.CheckInDialogTipView'):OnConstruct(self.contentPane)

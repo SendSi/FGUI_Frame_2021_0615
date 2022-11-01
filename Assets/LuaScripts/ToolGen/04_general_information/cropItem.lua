@@ -14,7 +14,7 @@
 ---@field public m_n13 CS.FairyGUI.GGroup
 local cropItem = {};
 
-cropItem.URL = "ui://4hio38umnil";
+cropItem.URL = "ui://04_general_information/cropItem";
 
 function cropItem:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function cropItem:OnConstruct(windowCom)
 end
 
 return cropItem;
-
---self.uiComs=require('ToolGen.04_general_information.cropItem'):OnConstruct(self.contentPane)

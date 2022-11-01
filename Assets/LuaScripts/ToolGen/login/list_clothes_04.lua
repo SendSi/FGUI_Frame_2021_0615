@@ -7,7 +7,7 @@
 ---@field public m_list list_clothes_00
 local list_clothes_04 = {};
 
-list_clothes_04.URL = "ui://byy9k3ghnil";
+list_clothes_04.URL = "ui://login/list_clothes_04";
 
 function list_clothes_04:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function list_clothes_04:OnConstruct(windowCom)
 end
 
 return list_clothes_04;
-
---self.uiComs=require('ToolGen.login.list_clothes_04'):OnConstruct(self.contentPane)

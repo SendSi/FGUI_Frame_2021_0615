@@ -10,7 +10,7 @@
 ---@field public m_title_01 CS.FairyGUI.GTextField
 local Button_contacts = {};
 
-Button_contacts.URL = "ui://62wjs2s2nil";
+Button_contacts.URL = "ui://14_chat/Button_contacts";
 
 function Button_contacts:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function Button_contacts:OnConstruct(windowCom)
 end
 
 return Button_contacts;
-
---self.uiComs=require('ToolGen.14_chat.Button_contacts'):OnConstruct(self.contentPane)

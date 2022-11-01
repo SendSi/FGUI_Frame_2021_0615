@@ -6,7 +6,7 @@
 ---@field public m_n36 CS.FairyGUI.GImage
 local voice_size = {};
 
-voice_size.URL = "ui://62wjs2s2nil";
+voice_size.URL = "ui://14_chat/voice_size";
 
 function voice_size:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function voice_size:OnConstruct(windowCom)
 end
 
 return voice_size;
-
---self.uiComs=require('ToolGen.14_chat.voice_size'):OnConstruct(self.contentPane)

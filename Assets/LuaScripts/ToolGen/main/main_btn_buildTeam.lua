@@ -18,7 +18,7 @@
 ---@field public m_timeRemaining CS.FairyGUI.GComponent
 local main_btn_buildTeam = {};
 
-main_btn_buildTeam.URL = "ui://4ni413lanil";
+main_btn_buildTeam.URL = "ui://main/main_btn_buildTeam";
 
 function main_btn_buildTeam:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function main_btn_buildTeam:OnConstruct(windowCom)
 end
 
 return main_btn_buildTeam;
-
---self.uiComs=require('ToolGen.main.main_btn_buildTeam'):OnConstruct(self.contentPane)

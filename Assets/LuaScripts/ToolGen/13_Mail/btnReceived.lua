@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local btnReceived = {};
 
-btnReceived.URL = "ui://ufsajnnznil";
+btnReceived.URL = "ui://13_Mail/btnReceived";
 
 function btnReceived:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function btnReceived:OnConstruct(windowCom)
 end
 
 return btnReceived;
-
---self.uiComs=require('ToolGen.13_Mail.btnReceived'):OnConstruct(self.contentPane)

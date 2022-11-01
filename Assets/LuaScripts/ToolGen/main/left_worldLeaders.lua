@@ -14,7 +14,7 @@
 ---@field public m_focus_btn CS.FairyGUI.GButton
 local left_worldLeaders = {};
 
-left_worldLeaders.URL = "ui://4ni413lanil";
+left_worldLeaders.URL = "ui://main/left_worldLeaders";
 
 function left_worldLeaders:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function left_worldLeaders:OnConstruct(windowCom)
 end
 
 return left_worldLeaders;
-
---self.uiComs=require('ToolGen.main.left_worldLeaders'):OnConstruct(self.contentPane)

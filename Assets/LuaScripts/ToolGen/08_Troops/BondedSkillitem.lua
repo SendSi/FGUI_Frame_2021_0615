@@ -8,7 +8,7 @@
 ---@field public m_n5 CS.FairyGUI.GGraph
 local BondedSkillitem = {};
 
-BondedSkillitem.URL = "ui://jqem9egtnil";
+BondedSkillitem.URL = "ui://08_Troops/BondedSkillitem";
 
 function BondedSkillitem:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function BondedSkillitem:OnConstruct(windowCom)
 end
 
 return BondedSkillitem;
-
---self.uiComs=require('ToolGen.08_Troops.BondedSkillitem'):OnConstruct(self.contentPane)

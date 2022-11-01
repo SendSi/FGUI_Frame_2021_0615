@@ -8,7 +8,7 @@
 ---@field public m_n17 CS.FairyGUI.GLoader
 local troopsSkillItem2 = {};
 
-troopsSkillItem2.URL = "ui://jqem9egtnil";
+troopsSkillItem2.URL = "ui://08_Troops/troopsSkillItem2";
 
 function troopsSkillItem2:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function troopsSkillItem2:OnConstruct(windowCom)
 end
 
 return troopsSkillItem2;
-
---self.uiComs=require('ToolGen.08_Troops.troopsSkillItem2'):OnConstruct(self.contentPane)

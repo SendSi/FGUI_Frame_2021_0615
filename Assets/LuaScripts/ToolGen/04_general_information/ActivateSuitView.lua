@@ -18,7 +18,7 @@
 ---@field public m_n11 CS.FairyGUI.GGroup
 local ActivateSuitView = {};
 
-ActivateSuitView.URL = "ui://4hio38umnil";
+ActivateSuitView.URL = "ui://04_general_information/ActivateSuitView";
 
 function ActivateSuitView:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function ActivateSuitView:OnConstruct(windowCom)
 end
 
 return ActivateSuitView;
-
---self.uiComs=require('ToolGen.04_general_information.ActivateSuitView'):OnConstruct(self.contentPane)

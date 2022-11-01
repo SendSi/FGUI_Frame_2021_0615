@@ -5,7 +5,7 @@
 ---@field public m_n5 CS.FairyGUI.GImage
 local main_btn_right = {};
 
-main_btn_right.URL = "ui://4ni413lanil";
+main_btn_right.URL = "ui://main/main_btn_right";
 
 function main_btn_right:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function main_btn_right:OnConstruct(windowCom)
 end
 
 return main_btn_right;
-
---self.uiComs=require('ToolGen.main.main_btn_right'):OnConstruct(self.contentPane)

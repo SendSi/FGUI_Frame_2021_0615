@@ -13,7 +13,7 @@
 ---@field public m_n27 CS.FairyGUI.GGroup
 local collectionCheck02 = {};
 
-collectionCheck02.URL = "ui://4ni413lanil";
+collectionCheck02.URL = "ui://main/collectionCheck02";
 
 function collectionCheck02:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function collectionCheck02:OnConstruct(windowCom)
 end
 
 return collectionCheck02;
-
---self.uiComs=require('ToolGen.main.collectionCheck02'):OnConstruct(self.contentPane)

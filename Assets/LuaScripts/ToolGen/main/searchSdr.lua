@@ -8,7 +8,7 @@
 ---@field public m_grip searchSdr_grip
 local searchSdr = {};
 
-searchSdr.URL = "ui://4ni413lanil";
+searchSdr.URL = "ui://main/searchSdr";
 
 function searchSdr:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function searchSdr:OnConstruct(windowCom)
 end
 
 return searchSdr;
-
---self.uiComs=require('ToolGen.main.searchSdr'):OnConstruct(self.contentPane)

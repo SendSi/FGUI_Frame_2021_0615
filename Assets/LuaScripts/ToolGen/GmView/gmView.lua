@@ -17,7 +17,7 @@
 ---@field public m_tipToggleTxt CS.FairyGUI.GTextField
 local GMView = {};
 
-GMView.URL = "ui://21uyefv8nil";
+GMView.URL = "ui://GMView/GMView";
 
 function GMView:OnConstruct(windowCom)
 	local tb = {
@@ -39,5 +39,3 @@ function GMView:OnConstruct(windowCom)
 end
 
 return GMView;
-
---self.uiComs=require('ToolGen.GMView.GMView'):OnConstruct(self.contentPane)

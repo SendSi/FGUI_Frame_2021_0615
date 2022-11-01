@@ -9,7 +9,7 @@
 ---@field public m_n4 CS.FairyGUI.GImage
 local CloseButton = {};
 
-CloseButton.URL = "ui://rbw1tv9tnil";
+CloseButton.URL = "ui://oldBag/CloseButton";
 
 function CloseButton:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function CloseButton:OnConstruct(windowCom)
 end
 
 return CloseButton;
-
---self.uiComs=require('ToolGen.oldBag.CloseButton'):OnConstruct(self.contentPane)

@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local switchBtn = {};
 
-switchBtn.URL = "ui://ufsajnnznil";
+switchBtn.URL = "ui://13_Mail/switchBtn";
 
 function switchBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function switchBtn:OnConstruct(windowCom)
 end
 
 return switchBtn;
-
---self.uiComs=require('ToolGen.13_Mail.switchBtn'):OnConstruct(self.contentPane)

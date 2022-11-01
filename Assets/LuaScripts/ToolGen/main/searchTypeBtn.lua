@@ -11,7 +11,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local searchTypeBtn = {};
 
-searchTypeBtn.URL = "ui://4ni413lanil";
+searchTypeBtn.URL = "ui://main/searchTypeBtn";
 
 function searchTypeBtn:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function searchTypeBtn:OnConstruct(windowCom)
 end
 
 return searchTypeBtn;
-
---self.uiComs=require('ToolGen.main.searchTypeBtn'):OnConstruct(self.contentPane)

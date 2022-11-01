@@ -13,7 +13,7 @@
 ---@field public m_n34 CS.FairyGUI.GGroup
 local GameNoticeView = {};
 
-GameNoticeView.URL = "ui://byy9k3ghnil";
+GameNoticeView.URL = "ui://login/GameNoticeView";
 
 function GameNoticeView:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function GameNoticeView:OnConstruct(windowCom)
 end
 
 return GameNoticeView;
-
---self.uiComs=require('ToolGen.login.GameNoticeView'):OnConstruct(self.contentPane)

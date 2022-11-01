@@ -23,7 +23,7 @@
 ---@field public m_btnTestLog CS.FairyGUI.GButton
 local ServerListView = {};
 
-ServerListView.URL = "ui://byy9k3ghnil";
+ServerListView.URL = "ui://login/ServerListView";
 
 function ServerListView:OnConstruct(windowCom)
 	local tb = {
@@ -51,5 +51,3 @@ function ServerListView:OnConstruct(windowCom)
 end
 
 return ServerListView;
-
---self.uiComs=require('ToolGen.login.ServerListView'):OnConstruct(self.contentPane)

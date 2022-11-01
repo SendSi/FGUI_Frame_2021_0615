@@ -8,7 +8,7 @@
 ---@field public m_n5 CS.FairyGUI.GTextField
 local eject_currency = {};
 
-eject_currency.URL = "ui://4ni413lanil";
+eject_currency.URL = "ui://main/eject_currency";
 
 function eject_currency:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function eject_currency:OnConstruct(windowCom)
 end
 
 return eject_currency;
-
---self.uiComs=require('ToolGen.main.eject_currency'):OnConstruct(self.contentPane)

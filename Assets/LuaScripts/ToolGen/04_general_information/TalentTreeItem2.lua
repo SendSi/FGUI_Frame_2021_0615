@@ -11,7 +11,7 @@
 ---@field public m_num2 CS.FairyGUI.GTextField
 local TalentTreeItem2 = {};
 
-TalentTreeItem2.URL = "ui://4hio38umnil";
+TalentTreeItem2.URL = "ui://04_general_information/TalentTreeItem2";
 
 function TalentTreeItem2:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function TalentTreeItem2:OnConstruct(windowCom)
 end
 
 return TalentTreeItem2;
-
---self.uiComs=require('ToolGen.04_general_information.TalentTreeItem2'):OnConstruct(self.contentPane)

@@ -10,7 +10,7 @@
 ---@field public m_bar CS.FairyGUI.GImage
 local functionSdr = {};
 
-functionSdr.URL = "ui://4ni413lanil";
+functionSdr.URL = "ui://main/functionSdr";
 
 function functionSdr:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function functionSdr:OnConstruct(windowCom)
 end
 
 return functionSdr;
-
---self.uiComs=require('ToolGen.main.functionSdr'):OnConstruct(self.contentPane)

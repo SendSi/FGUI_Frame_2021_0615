@@ -5,7 +5,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local transparent_mask = {};
 
-transparent_mask.URL = "ui://2r331opvnil";
+transparent_mask.URL = "ui://common/transparent_mask";
 
 function transparent_mask:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function transparent_mask:OnConstruct(windowCom)
 end
 
 return transparent_mask;
-
---self.uiComs=require('ToolGen.common.transparent_mask'):OnConstruct(self.contentPane)

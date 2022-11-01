@@ -12,7 +12,7 @@
 ---@field public m_btn main_btn_coord2
 local main_btn_coord = {};
 
-main_btn_coord.URL = "ui://4ni413lanil";
+main_btn_coord.URL = "ui://main/main_btn_coord";
 
 function main_btn_coord:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function main_btn_coord:OnConstruct(windowCom)
 end
 
 return main_btn_coord;
-
---self.uiComs=require('ToolGen.main.main_btn_coord'):OnConstruct(self.contentPane)

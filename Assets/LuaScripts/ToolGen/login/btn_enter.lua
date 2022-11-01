@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local btn_enter = {};
 
-btn_enter.URL = "ui://byy9k3ghnil";
+btn_enter.URL = "ui://login/btn_enter";
 
 function btn_enter:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function btn_enter:OnConstruct(windowCom)
 end
 
 return btn_enter;
-
---self.uiComs=require('ToolGen.login.btn_enter'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GImage
 local btnClose = {};
 
-btnClose.URL = "ui://2r331opvnil";
+btnClose.URL = "ui://common/btnClose";
 
 function btnClose:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function btnClose:OnConstruct(windowCom)
 end
 
 return btnClose;
-
---self.uiComs=require('ToolGen.common.btnClose'):OnConstruct(self.contentPane)

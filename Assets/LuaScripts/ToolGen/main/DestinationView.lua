@@ -10,7 +10,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local DestinationView = {};
 
-DestinationView.URL = "ui://4ni413lanil";
+DestinationView.URL = "ui://main/DestinationView";
 
 function DestinationView:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function DestinationView:OnConstruct(windowCom)
 end
 
 return DestinationView;
-
---self.uiComs=require('ToolGen.main.DestinationView'):OnConstruct(self.contentPane)

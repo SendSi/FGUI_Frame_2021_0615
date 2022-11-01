@@ -13,7 +13,7 @@
 ---@field public m_select CS.FairyGUI.GLoader
 local btn_choose = {};
 
-btn_choose.URL = "ui://byy9k3ghnil";
+btn_choose.URL = "ui://login/btn_choose";
 
 function btn_choose:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function btn_choose:OnConstruct(windowCom)
 end
 
 return btn_choose;
-
---self.uiComs=require('ToolGen.login.btn_choose'):OnConstruct(self.contentPane)

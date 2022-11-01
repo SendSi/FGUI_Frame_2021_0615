@@ -14,7 +14,7 @@
 ---@field public m_t2 CS.FairyGUI.Transition
 local hero_bg = {};
 
-hero_bg.URL = "ui://4hio38umnil";
+hero_bg.URL = "ui://04_general_information/hero_bg";
 
 function hero_bg:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function hero_bg:OnConstruct(windowCom)
 end
 
 return hero_bg;
-
---self.uiComs=require('ToolGen.04_general_information.hero_bg'):OnConstruct(self.contentPane)

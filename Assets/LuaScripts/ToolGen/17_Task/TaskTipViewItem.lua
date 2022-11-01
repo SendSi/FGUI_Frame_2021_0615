@@ -10,7 +10,7 @@
 ---@field public m_list CS.FairyGUI.GList
 local TaskTipViewItem = {};
 
-TaskTipViewItem.URL = "ui://zezobey9nil";
+TaskTipViewItem.URL = "ui://17_Task/TaskTipViewItem";
 
 function TaskTipViewItem:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function TaskTipViewItem:OnConstruct(windowCom)
 end
 
 return TaskTipViewItem;
-
---self.uiComs=require('ToolGen.17_Task.TaskTipViewItem'):OnConstruct(self.contentPane)

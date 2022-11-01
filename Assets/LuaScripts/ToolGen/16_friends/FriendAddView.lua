@@ -24,7 +24,7 @@
 ---@field public m_n26 CS.FairyGUI.GGroup
 local FriendAddView = {};
 
-FriendAddView.URL = "ui://dowwulhenil";
+FriendAddView.URL = "ui://16_friends/FriendAddView";
 
 function FriendAddView:OnConstruct(windowCom)
 	local tb = {
@@ -53,5 +53,3 @@ function FriendAddView:OnConstruct(windowCom)
 end
 
 return FriendAddView;
-
---self.uiComs=require('ToolGen.16_friends.FriendAddView'):OnConstruct(self.contentPane)

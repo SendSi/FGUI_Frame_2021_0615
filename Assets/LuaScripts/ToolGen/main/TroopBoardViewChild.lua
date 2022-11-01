@@ -17,7 +17,7 @@
 ---@field public m_shake CS.FairyGUI.Transition
 local TroopBoardViewChild = {};
 
-TroopBoardViewChild.URL = "ui://4ni413lanil";
+TroopBoardViewChild.URL = "ui://main/TroopBoardViewChild";
 
 function TroopBoardViewChild:OnConstruct(windowCom)
 	local tb = {
@@ -39,5 +39,3 @@ function TroopBoardViewChild:OnConstruct(windowCom)
 end
 
 return TroopBoardViewChild;
-
---self.uiComs=require('ToolGen.main.TroopBoardViewChild'):OnConstruct(self.contentPane)

@@ -9,7 +9,7 @@
 ---@field public m_btnCheck CS.FairyGUI.GButton
 local AddresseeMember = {};
 
-AddresseeMember.URL = "ui://ufsajnnznil";
+AddresseeMember.URL = "ui://13_Mail/AddresseeMember";
 
 function AddresseeMember:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function AddresseeMember:OnConstruct(windowCom)
 end
 
 return AddresseeMember;
-
---self.uiComs=require('ToolGen.13_Mail.AddresseeMember'):OnConstruct(self.contentPane)

@@ -7,7 +7,7 @@
 ---@field public m_teamCloseBtn main_rightTeam_CloseBtn
 local main_team_right00 = {};
 
-main_team_right00.URL = "ui://4ni413lanil";
+main_team_right00.URL = "ui://main/main_team_right00";
 
 function main_team_right00:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function main_team_right00:OnConstruct(windowCom)
 end
 
 return main_team_right00;
-
---self.uiComs=require('ToolGen.main.main_team_right00'):OnConstruct(self.contentPane)

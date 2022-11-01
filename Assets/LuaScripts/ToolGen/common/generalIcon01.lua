@@ -30,7 +30,7 @@
 ---@field public m_n32 CS.FairyGUI.GImage
 local generalIcon01 = {};
 
-generalIcon01.URL = "ui://2r331opvnil";
+generalIcon01.URL = "ui://common/generalIcon01";
 
 function generalIcon01:OnConstruct(windowCom)
 	local tb = {
@@ -65,5 +65,3 @@ function generalIcon01:OnConstruct(windowCom)
 end
 
 return generalIcon01;
-
---self.uiComs=require('ToolGen.common.generalIcon01'):OnConstruct(self.contentPane)

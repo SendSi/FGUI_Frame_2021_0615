@@ -5,7 +5,7 @@
 ---@field public m_n0 CS.FairyGUI.GGraph
 local Component_blank = {};
 
-Component_blank.URL = "ui://2r331opvnil";
+Component_blank.URL = "ui://common/Component_blank";
 
 function Component_blank:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function Component_blank:OnConstruct(windowCom)
 end
 
 return Component_blank;
-
---self.uiComs=require('ToolGen.common.Component_blank'):OnConstruct(self.contentPane)

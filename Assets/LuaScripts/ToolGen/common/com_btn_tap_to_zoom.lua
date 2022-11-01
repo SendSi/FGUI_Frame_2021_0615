@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local com_btn_tap_to_zoom = {};
 
-com_btn_tap_to_zoom.URL = "ui://2r331opvnil";
+com_btn_tap_to_zoom.URL = "ui://common/com_btn_tap_to_zoom";
 
 function com_btn_tap_to_zoom:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function com_btn_tap_to_zoom:OnConstruct(windowCom)
 end
 
 return com_btn_tap_to_zoom;
-
---self.uiComs=require('ToolGen.common.com_btn_tap_to_zoom'):OnConstruct(self.contentPane)

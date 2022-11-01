@@ -9,7 +9,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local intoBtn = {};
 
-intoBtn.URL = "ui://2r331opvnil";
+intoBtn.URL = "ui://common/intoBtn";
 
 function intoBtn:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function intoBtn:OnConstruct(windowCom)
 end
 
 return intoBtn;
-
---self.uiComs=require('ToolGen.common.intoBtn'):OnConstruct(self.contentPane)

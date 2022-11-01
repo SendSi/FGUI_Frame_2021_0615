@@ -8,7 +8,7 @@
 ---@field public m_line CS.FairyGUI.GGraph
 local posItem = {};
 
-posItem.URL = "ui://utp01xianil";
+posItem.URL = "ui://dialogTip/posItem";
 
 function posItem:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function posItem:OnConstruct(windowCom)
 end
 
 return posItem;
-
---self.uiComs=require('ToolGen.dialogTip.posItem'):OnConstruct(self.contentPane)

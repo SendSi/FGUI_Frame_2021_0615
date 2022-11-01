@@ -8,7 +8,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local com_btn_tab4 = {};
 
-com_btn_tab4.URL = "ui://2r331opvnil";
+com_btn_tab4.URL = "ui://common/com_btn_tab4";
 
 function com_btn_tab4:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function com_btn_tab4:OnConstruct(windowCom)
 end
 
 return com_btn_tab4;
-
---self.uiComs=require('ToolGen.common.com_btn_tab4'):OnConstruct(self.contentPane)

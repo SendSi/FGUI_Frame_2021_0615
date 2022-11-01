@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local searchSdr_grip = {};
 
-searchSdr_grip.URL = "ui://4ni413lanil";
+searchSdr_grip.URL = "ui://main/searchSdr_grip";
 
 function searchSdr_grip:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function searchSdr_grip:OnConstruct(windowCom)
 end
 
 return searchSdr_grip;
-
---self.uiComs=require('ToolGen.main.searchSdr_grip'):OnConstruct(self.contentPane)

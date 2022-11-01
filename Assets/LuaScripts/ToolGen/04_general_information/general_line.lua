@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GGraph
 local general_line = {};
 
-general_line.URL = "ui://4hio38umnil";
+general_line.URL = "ui://04_general_information/general_line";
 
 function general_line:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function general_line:OnConstruct(windowCom)
 end
 
 return general_line;
-
---self.uiComs=require('ToolGen.04_general_information.general_line'):OnConstruct(self.contentPane)

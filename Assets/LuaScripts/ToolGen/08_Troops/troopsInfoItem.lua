@@ -8,7 +8,7 @@
 ---@field public m_number CS.FairyGUI.GRichTextField
 local troopsInfoItem = {};
 
-troopsInfoItem.URL = "ui://jqem9egtnil";
+troopsInfoItem.URL = "ui://08_Troops/troopsInfoItem";
 
 function troopsInfoItem:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function troopsInfoItem:OnConstruct(windowCom)
 end
 
 return troopsInfoItem;
-
---self.uiComs=require('ToolGen.08_Troops.troopsInfoItem'):OnConstruct(self.contentPane)

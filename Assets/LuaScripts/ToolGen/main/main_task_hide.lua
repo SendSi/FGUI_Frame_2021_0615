@@ -7,7 +7,7 @@
 ---@field public m_n5 CS.FairyGUI.GImage
 local main_task_hide = {};
 
-main_task_hide.URL = "ui://4ni413lanil";
+main_task_hide.URL = "ui://main/main_task_hide";
 
 function main_task_hide:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function main_task_hide:OnConstruct(windowCom)
 end
 
 return main_task_hide;
-
---self.uiComs=require('ToolGen.main.main_task_hide'):OnConstruct(self.contentPane)

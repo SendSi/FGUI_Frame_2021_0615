@@ -9,7 +9,7 @@
 ---@field public m_n3 CS.FairyGUI.GImage
 local capture_comboBox = {};
 
-capture_comboBox.URL = "ui://4ni413lanil";
+capture_comboBox.URL = "ui://main/capture_comboBox";
 
 function capture_comboBox:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function capture_comboBox:OnConstruct(windowCom)
 end
 
 return capture_comboBox;
-
---self.uiComs=require('ToolGen.main.capture_comboBox'):OnConstruct(self.contentPane)

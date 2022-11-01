@@ -12,7 +12,7 @@
 ---@field public m_shake CS.FairyGUI.Transition
 local ResourceManagementItem = {};
 
-ResourceManagementItem.URL = "ui://4ni413lanil";
+ResourceManagementItem.URL = "ui://main/ResourceManagementItem";
 
 function ResourceManagementItem:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function ResourceManagementItem:OnConstruct(windowCom)
 end
 
 return ResourceManagementItem;
-
---self.uiComs=require('ToolGen.main.ResourceManagementItem'):OnConstruct(self.contentPane)

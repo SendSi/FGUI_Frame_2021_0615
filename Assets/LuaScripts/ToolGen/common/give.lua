@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local give = {};
 
-give.URL = "ui://2r331opvnil";
+give.URL = "ui://common/give";
 
 function give:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function give:OnConstruct(windowCom)
 end
 
 return give;
-
---self.uiComs=require('ToolGen.common.give'):OnConstruct(self.contentPane)

@@ -13,7 +13,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local GetWayViewTemp = {};
 
-GetWayViewTemp.URL = "ui://utp01xianil";
+GetWayViewTemp.URL = "ui://dialogTip/GetWayViewTemp";
 
 function GetWayViewTemp:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function GetWayViewTemp:OnConstruct(windowCom)
 end
 
 return GetWayViewTemp;
-
---self.uiComs=require('ToolGen.dialogTip.GetWayViewTemp'):OnConstruct(self.contentPane)

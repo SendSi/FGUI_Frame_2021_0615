@@ -9,7 +9,7 @@
 ---@field public m_armTitle CS.FairyGUI.GTextField
 local armyAwakeBtn = {};
 
-armyAwakeBtn.URL = "ui://2r331opvnil";
+armyAwakeBtn.URL = "ui://common/armyAwakeBtn";
 
 function armyAwakeBtn:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function armyAwakeBtn:OnConstruct(windowCom)
 end
 
 return armyAwakeBtn;
-
---self.uiComs=require('ToolGen.common.armyAwakeBtn'):OnConstruct(self.contentPane)

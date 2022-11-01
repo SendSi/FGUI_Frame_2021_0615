@@ -13,7 +13,7 @@
 ---@field public m_starLevel CS.FairyGUI.GTextField
 local TroopGenItem = {};
 
-TroopGenItem.URL = "ui://2r331opvnil";
+TroopGenItem.URL = "ui://common/TroopGenItem";
 
 function TroopGenItem:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function TroopGenItem:OnConstruct(windowCom)
 end
 
 return TroopGenItem;
-
---self.uiComs=require('ToolGen.common.TroopGenItem'):OnConstruct(self.contentPane)

@@ -14,7 +14,7 @@
 ---@field public m_tab CS.FairyGUI.GGroup
 local scout = {};
 
-scout.URL = "ui://fq4ln9nvnil";
+scout.URL = "ui://05_02_building/scout";
 
 function scout:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function scout:OnConstruct(windowCom)
 end
 
 return scout;
-
---self.uiComs=require('ToolGen.05_02_building.scout'):OnConstruct(self.contentPane)

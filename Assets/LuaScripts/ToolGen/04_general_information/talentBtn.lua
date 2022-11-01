@@ -18,7 +18,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local talentBtn = {};
 
-talentBtn.URL = "ui://4hio38umnil";
+talentBtn.URL = "ui://04_general_information/talentBtn";
 
 function talentBtn:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function talentBtn:OnConstruct(windowCom)
 end
 
 return talentBtn;
-
---self.uiComs=require('ToolGen.04_general_information.talentBtn'):OnConstruct(self.contentPane)

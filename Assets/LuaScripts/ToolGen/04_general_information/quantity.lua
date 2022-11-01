@@ -46,7 +46,7 @@
 ---@field public m_4 CS.FairyGUI.GGroup
 local quantity = {};
 
-quantity.URL = "ui://4hio38umnil";
+quantity.URL = "ui://04_general_information/quantity";
 
 function quantity:OnConstruct(windowCom)
 	local tb = {
@@ -97,5 +97,3 @@ function quantity:OnConstruct(windowCom)
 end
 
 return quantity;
-
---self.uiComs=require('ToolGen.04_general_information.quantity'):OnConstruct(self.contentPane)

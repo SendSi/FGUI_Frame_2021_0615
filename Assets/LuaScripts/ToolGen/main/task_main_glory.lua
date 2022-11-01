@@ -9,7 +9,7 @@
 ---@field public m_redPoint CS.FairyGUI.GButton
 local task_main_glory = {};
 
-task_main_glory.URL = "ui://4ni413lanil";
+task_main_glory.URL = "ui://main/task_main_glory";
 
 function task_main_glory:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function task_main_glory:OnConstruct(windowCom)
 end
 
 return task_main_glory;
-
---self.uiComs=require('ToolGen.main.task_main_glory'):OnConstruct(self.contentPane)

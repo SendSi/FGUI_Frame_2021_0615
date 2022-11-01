@@ -10,7 +10,7 @@
 ---@field public m_win CS.FairyGUI.GGroup
 local ExplainTipView = {};
 
-ExplainTipView.URL = "ui://utp01xianil";
+ExplainTipView.URL = "ui://dialogTip/ExplainTipView";
 
 function ExplainTipView:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function ExplainTipView:OnConstruct(windowCom)
 end
 
 return ExplainTipView;
-
---self.uiComs=require('ToolGen.dialogTip.ExplainTipView'):OnConstruct(self.contentPane)

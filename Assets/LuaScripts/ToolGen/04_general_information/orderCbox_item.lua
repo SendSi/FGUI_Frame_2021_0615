@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local orderCbox_item = {};
 
-orderCbox_item.URL = "ui://4hio38umnil";
+orderCbox_item.URL = "ui://04_general_information/orderCbox_item";
 
 function orderCbox_item:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function orderCbox_item:OnConstruct(windowCom)
 end
 
 return orderCbox_item;
-
---self.uiComs=require('ToolGen.04_general_information.orderCbox_item'):OnConstruct(self.contentPane)

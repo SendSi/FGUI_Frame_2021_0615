@@ -9,7 +9,7 @@
 ---@field public m_num2 CS.FairyGUI.GRichTextField
 local com_item_upgrade2 = {};
 
-com_item_upgrade2.URL = "ui://2r331opvnil";
+com_item_upgrade2.URL = "ui://common/com_item_upgrade2";
 
 function com_item_upgrade2:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function com_item_upgrade2:OnConstruct(windowCom)
 end
 
 return com_item_upgrade2;
-
---self.uiComs=require('ToolGen.common.com_item_upgrade2'):OnConstruct(self.contentPane)

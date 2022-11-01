@@ -15,7 +15,7 @@
 ---@field public m_look CS.FairyGUI.GTextField
 local DialogObtainView = {};
 
-DialogObtainView.URL = "ui://utp01xianil";
+DialogObtainView.URL = "ui://dialogTip/DialogObtainView";
 
 function DialogObtainView:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function DialogObtainView:OnConstruct(windowCom)
 end
 
 return DialogObtainView;
-
---self.uiComs=require('ToolGen.dialogTip.DialogObtainView'):OnConstruct(self.contentPane)

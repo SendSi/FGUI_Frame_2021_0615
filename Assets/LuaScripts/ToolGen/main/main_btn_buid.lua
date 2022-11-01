@@ -12,7 +12,7 @@
 ---@field public m_EffectRoot_05_main_bth_build CS.FairyGUI.GComponent
 local main_btn_buid = {};
 
-main_btn_buid.URL = "ui://4ni413lanil";
+main_btn_buid.URL = "ui://main/main_btn_buid";
 
 function main_btn_buid:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function main_btn_buid:OnConstruct(windowCom)
 end
 
 return main_btn_buid;
-
---self.uiComs=require('ToolGen.main.main_btn_buid'):OnConstruct(self.contentPane)

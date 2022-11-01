@@ -10,7 +10,7 @@
 ---@field public m_heroIcon CS.FairyGUI.GLoader
 local titleBtn2 = {};
 
-titleBtn2.URL = "ui://4hio38umnil";
+titleBtn2.URL = "ui://04_general_information/titleBtn2";
 
 function titleBtn2:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function titleBtn2:OnConstruct(windowCom)
 end
 
 return titleBtn2;
-
---self.uiComs=require('ToolGen.04_general_information.titleBtn2'):OnConstruct(self.contentPane)

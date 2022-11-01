@@ -9,7 +9,7 @@
 ---@field public m_btn_tab2 btn_choose
 local tab_02 = {};
 
-tab_02.URL = "ui://byy9k3ghnil";
+tab_02.URL = "ui://login/tab_02";
 
 function tab_02:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function tab_02:OnConstruct(windowCom)
 end
 
 return tab_02;
-
---self.uiComs=require('ToolGen.login.tab_02'):OnConstruct(self.contentPane)

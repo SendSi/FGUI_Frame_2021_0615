@@ -8,7 +8,7 @@
 ---@field public m_shake CS.FairyGUI.Transition
 local LeagueBossStart = {};
 
-LeagueBossStart.URL = "ui://4ni413lanil";
+LeagueBossStart.URL = "ui://main/LeagueBossStart";
 
 function LeagueBossStart:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function LeagueBossStart:OnConstruct(windowCom)
 end
 
 return LeagueBossStart;
-
---self.uiComs=require('ToolGen.main.LeagueBossStart'):OnConstruct(self.contentPane)

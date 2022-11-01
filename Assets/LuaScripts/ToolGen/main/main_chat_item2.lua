@@ -22,7 +22,7 @@
 ---@field public m_5 CS.FairyGUI.GGroup
 local main_chat_item2 = {};
 
-main_chat_item2.URL = "ui://4ni413lanil";
+main_chat_item2.URL = "ui://main/main_chat_item2";
 
 function main_chat_item2:OnConstruct(windowCom)
 	local tb = {
@@ -49,5 +49,3 @@ function main_chat_item2:OnConstruct(windowCom)
 end
 
 return main_chat_item2;
-
---self.uiComs=require('ToolGen.main.main_chat_item2'):OnConstruct(self.contentPane)

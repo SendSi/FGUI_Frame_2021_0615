@@ -13,7 +13,7 @@
 ---@field public m_n11 CS.FairyGUI.GGroup
 local equipmentIcon3 = {};
 
-equipmentIcon3.URL = "ui://2r331opvnil";
+equipmentIcon3.URL = "ui://common/equipmentIcon3";
 
 function equipmentIcon3:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function equipmentIcon3:OnConstruct(windowCom)
 end
 
 return equipmentIcon3;
-
---self.uiComs=require('ToolGen.common.equipmentIcon3'):OnConstruct(self.contentPane)

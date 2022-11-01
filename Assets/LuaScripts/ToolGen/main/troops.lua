@@ -11,7 +11,7 @@
 ---@field public m_troopBtn05 CS.FairyGUI.GComponent
 local troops = {};
 
-troops.URL = "ui://4ni413lanil";
+troops.URL = "ui://main/troops";
 
 function troops:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function troops:OnConstruct(windowCom)
 end
 
 return troops;
-
---self.uiComs=require('ToolGen.main.troops'):OnConstruct(self.contentPane)

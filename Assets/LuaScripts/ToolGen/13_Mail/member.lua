@@ -10,7 +10,7 @@
 ---@field public m_range02 CS.FairyGUI.GImage
 local member = {};
 
-member.URL = "ui://ufsajnnznil";
+member.URL = "ui://13_Mail/member";
 
 function member:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function member:OnConstruct(windowCom)
 end
 
 return member;
-
---self.uiComs=require('ToolGen.13_Mail.member'):OnConstruct(self.contentPane)

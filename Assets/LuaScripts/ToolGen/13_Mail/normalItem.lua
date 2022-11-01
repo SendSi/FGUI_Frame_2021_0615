@@ -13,7 +13,7 @@
 ---@field public m_infos CS.FairyGUI.GGroup
 local normalItem = {};
 
-normalItem.URL = "ui://ufsajnnznil";
+normalItem.URL = "ui://13_Mail/normalItem";
 
 function normalItem:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function normalItem:OnConstruct(windowCom)
 end
 
 return normalItem;
-
---self.uiComs=require('ToolGen.13_Mail.normalItem'):OnConstruct(self.contentPane)

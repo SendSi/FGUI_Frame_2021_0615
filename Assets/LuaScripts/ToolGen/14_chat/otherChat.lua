@@ -25,7 +25,7 @@
 ---@field public m_redpaBtn redpacketChatother
 local otherChat = {};
 
-otherChat.URL = "ui://62wjs2s2nil";
+otherChat.URL = "ui://14_chat/otherChat";
 
 function otherChat:OnConstruct(windowCom)
 	local tb = {
@@ -55,5 +55,3 @@ function otherChat:OnConstruct(windowCom)
 end
 
 return otherChat;
-
---self.uiComs=require('ToolGen.14_chat.otherChat'):OnConstruct(self.contentPane)

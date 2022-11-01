@@ -9,7 +9,7 @@
 ---@field public m_need_01 CS.FairyGUI.GRichTextField
 local consumeItem = {};
 
-consumeItem.URL = "ui://2r331opvnil";
+consumeItem.URL = "ui://common/consumeItem";
 
 function consumeItem:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function consumeItem:OnConstruct(windowCom)
 end
 
 return consumeItem;
-
---self.uiComs=require('ToolGen.common.consumeItem'):OnConstruct(self.contentPane)

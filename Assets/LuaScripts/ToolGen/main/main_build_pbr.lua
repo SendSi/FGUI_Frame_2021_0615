@@ -8,7 +8,7 @@
 ---@field public m_timeTitle CS.FairyGUI.GTextField
 local main_build_pbr = {};
 
-main_build_pbr.URL = "ui://4ni413lanil";
+main_build_pbr.URL = "ui://main/main_build_pbr";
 
 function main_build_pbr:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function main_build_pbr:OnConstruct(windowCom)
 end
 
 return main_build_pbr;
-
---self.uiComs=require('ToolGen.main.main_build_pbr'):OnConstruct(self.contentPane)

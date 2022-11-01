@@ -9,7 +9,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local general_name_title = {};
 
-general_name_title.URL = "ui://4hio38umnil";
+general_name_title.URL = "ui://04_general_information/general_name_title";
 
 function general_name_title:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function general_name_title:OnConstruct(windowCom)
 end
 
 return general_name_title;
-
---self.uiComs=require('ToolGen.04_general_information.general_name_title'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local FloatItem = {};
 
-FloatItem.URL = "ui://2r331opvnil";
+FloatItem.URL = "ui://common/FloatItem";
 
 function FloatItem:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function FloatItem:OnConstruct(windowCom)
 end
 
 return FloatItem;
-
---self.uiComs=require('ToolGen.common.FloatItem'):OnConstruct(self.contentPane)

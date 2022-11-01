@@ -12,7 +12,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local passiveView = {};
 
-passiveView.URL = "ui://jqem9egtnil";
+passiveView.URL = "ui://08_Troops/passiveView";
 
 function passiveView:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function passiveView:OnConstruct(windowCom)
 end
 
 return passiveView;
-
---self.uiComs=require('ToolGen.08_Troops.passiveView'):OnConstruct(self.contentPane)

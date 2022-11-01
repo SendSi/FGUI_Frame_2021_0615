@@ -8,7 +8,7 @@
 ---@field public m_red_2 CS.FairyGUI.GButton
 local main_btn2 = {};
 
-main_btn2.URL = "ui://4ni413lanil";
+main_btn2.URL = "ui://main/main_btn2";
 
 function main_btn2:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function main_btn2:OnConstruct(windowCom)
 end
 
 return main_btn2;
-
---self.uiComs=require('ToolGen.main.main_btn2'):OnConstruct(self.contentPane)

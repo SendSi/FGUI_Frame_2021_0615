@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local Button_right = {};
 
-Button_right.URL = "ui://62wjs2s2nil";
+Button_right.URL = "ui://14_chat/Button_right";
 
 function Button_right:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function Button_right:OnConstruct(windowCom)
 end
 
 return Button_right;
-
---self.uiComs=require('ToolGen.14_chat.Button_right'):OnConstruct(self.contentPane)

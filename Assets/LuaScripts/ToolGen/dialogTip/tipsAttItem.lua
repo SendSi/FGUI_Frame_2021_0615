@@ -7,7 +7,7 @@
 ---@field public m_n2 CS.FairyGUI.GGraph
 local tipsAttItem = {};
 
-tipsAttItem.URL = "ui://utp01xianil";
+tipsAttItem.URL = "ui://dialogTip/tipsAttItem";
 
 function tipsAttItem:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function tipsAttItem:OnConstruct(windowCom)
 end
 
 return tipsAttItem;
-
---self.uiComs=require('ToolGen.dialogTip.tipsAttItem'):OnConstruct(self.contentPane)

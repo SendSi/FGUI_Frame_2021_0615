@@ -8,7 +8,7 @@
 ---@field public m_Effect_ui_button_tips_produce CS.FairyGUI.GComponent
 local button_tips = {};
 
-button_tips.URL = "ui://4ni413lanil";
+button_tips.URL = "ui://main/button_tips";
 
 function button_tips:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function button_tips:OnConstruct(windowCom)
 end
 
 return button_tips;
-
---self.uiComs=require('ToolGen.main.button_tips'):OnConstruct(self.contentPane)

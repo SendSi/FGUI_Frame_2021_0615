@@ -13,7 +13,7 @@
 ---@field public m_n27 CS.FairyGUI.GGroup
 local RecruitPreviewView = {};
 
-RecruitPreviewView.URL = "ui://nf2zagxsnil";
+RecruitPreviewView.URL = "ui://06_Recruit/RecruitPreviewView";
 
 function RecruitPreviewView:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function RecruitPreviewView:OnConstruct(windowCom)
 end
 
 return RecruitPreviewView;
-
---self.uiComs=require('ToolGen.06_Recruit.RecruitPreviewView'):OnConstruct(self.contentPane)

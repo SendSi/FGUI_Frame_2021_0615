@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GRichTextField
 local main_rightTeam_Reple = {};
 
-main_rightTeam_Reple.URL = "ui://4ni413lanil";
+main_rightTeam_Reple.URL = "ui://main/main_rightTeam_Reple";
 
 function main_rightTeam_Reple:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function main_rightTeam_Reple:OnConstruct(windowCom)
 end
 
 return main_rightTeam_Reple;
-
---self.uiComs=require('ToolGen.main.main_rightTeam_Reple'):OnConstruct(self.contentPane)

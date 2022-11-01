@@ -8,7 +8,7 @@
 ---@field public m_list CS.FairyGUI.GList
 local MainBuffTipsView = {};
 
-MainBuffTipsView.URL = "ui://4ni413lanil";
+MainBuffTipsView.URL = "ui://main/MainBuffTipsView";
 
 function MainBuffTipsView:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function MainBuffTipsView:OnConstruct(windowCom)
 end
 
 return MainBuffTipsView;
-
---self.uiComs=require('ToolGen.main.MainBuffTipsView'):OnConstruct(self.contentPane)

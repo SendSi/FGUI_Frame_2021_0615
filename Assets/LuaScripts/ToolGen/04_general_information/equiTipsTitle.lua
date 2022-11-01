@@ -14,7 +14,7 @@
 ---@field public m_equipNum CS.FairyGUI.GTextField
 local equiTipsTitle = {};
 
-equiTipsTitle.URL = "ui://4hio38umnil";
+equiTipsTitle.URL = "ui://04_general_information/equiTipsTitle";
 
 function equiTipsTitle:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function equiTipsTitle:OnConstruct(windowCom)
 end
 
 return equiTipsTitle;
-
---self.uiComs=require('ToolGen.04_general_information.equiTipsTitle'):OnConstruct(self.contentPane)

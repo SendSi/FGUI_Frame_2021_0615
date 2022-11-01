@@ -19,7 +19,7 @@
 ---@field public m_n14 CS.FairyGUI.GGroup
 local EquipmentWearView = {};
 
-EquipmentWearView.URL = "ui://4hio38umnil";
+EquipmentWearView.URL = "ui://04_general_information/EquipmentWearView";
 
 function EquipmentWearView:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function EquipmentWearView:OnConstruct(windowCom)
 end
 
 return EquipmentWearView;
-
---self.uiComs=require('ToolGen.04_general_information.EquipmentWearView'):OnConstruct(self.contentPane)

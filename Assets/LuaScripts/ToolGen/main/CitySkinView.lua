@@ -70,7 +70,7 @@
 ---@field public m_tip_2 CS.FairyGUI.GGroup
 local CitySkinView = {};
 
-CitySkinView.URL = "ui://4ni413lanil";
+CitySkinView.URL = "ui://main/CitySkinView";
 
 function CitySkinView:OnConstruct(windowCom)
 	local tb = {
@@ -145,5 +145,3 @@ function CitySkinView:OnConstruct(windowCom)
 end
 
 return CitySkinView;
-
---self.uiComs=require('ToolGen.main.CitySkinView'):OnConstruct(self.contentPane)

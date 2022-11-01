@@ -5,7 +5,7 @@
 ---@field public m_button CS.FairyGUI.Controller
 local closeButton = {};
 
-closeButton.URL = "ui://4ni413lanil";
+closeButton.URL = "ui://main/closeButton";
 
 function closeButton:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function closeButton:OnConstruct(windowCom)
 end
 
 return closeButton;
-
---self.uiComs=require('ToolGen.main.closeButton'):OnConstruct(self.contentPane)

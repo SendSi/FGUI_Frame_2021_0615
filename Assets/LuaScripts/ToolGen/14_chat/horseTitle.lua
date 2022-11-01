@@ -5,7 +5,7 @@
 ---@field public m_title CS.FairyGUI.GRichTextField
 local horseTitle = {};
 
-horseTitle.URL = "ui://62wjs2s2nil";
+horseTitle.URL = "ui://14_chat/horseTitle";
 
 function horseTitle:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function horseTitle:OnConstruct(windowCom)
 end
 
 return horseTitle;
-
---self.uiComs=require('ToolGen.14_chat.horseTitle'):OnConstruct(self.contentPane)

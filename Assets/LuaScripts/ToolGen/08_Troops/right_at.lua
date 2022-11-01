@@ -35,7 +35,7 @@
 ---@field public m_right_attr CS.FairyGUI.GGroup
 local right_at = {};
 
-right_at.URL = "ui://jqem9egtnil";
+right_at.URL = "ui://08_Troops/right_at";
 
 function right_at:OnConstruct(windowCom)
 	local tb = {
@@ -75,5 +75,3 @@ function right_at:OnConstruct(windowCom)
 end
 
 return right_at;
-
---self.uiComs=require('ToolGen.08_Troops.right_at'):OnConstruct(self.contentPane)

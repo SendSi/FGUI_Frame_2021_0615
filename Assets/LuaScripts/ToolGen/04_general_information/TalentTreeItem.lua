@@ -6,7 +6,7 @@
 ---@field public m_n1 TalentTreeBtn
 local TalentTreeItem = {};
 
-TalentTreeItem.URL = "ui://4hio38umnil";
+TalentTreeItem.URL = "ui://04_general_information/TalentTreeItem";
 
 function TalentTreeItem:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function TalentTreeItem:OnConstruct(windowCom)
 end
 
 return TalentTreeItem;
-
---self.uiComs=require('ToolGen.04_general_information.TalentTreeItem'):OnConstruct(self.contentPane)

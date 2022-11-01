@@ -5,7 +5,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local main_build_name_root = {};
 
-main_build_name_root.URL = "ui://4ni413lanil";
+main_build_name_root.URL = "ui://main/main_build_name_root";
 
 function main_build_name_root:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function main_build_name_root:OnConstruct(windowCom)
 end
 
 return main_build_name_root;
-
---self.uiComs=require('ToolGen.main.main_build_name_root'):OnConstruct(self.contentPane)

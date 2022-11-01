@@ -6,7 +6,7 @@
 ---@field public m_n8 CS.FairyGUI.GImage
 local main_btn_coord2 = {};
 
-main_btn_coord2.URL = "ui://4ni413lanil";
+main_btn_coord2.URL = "ui://main/main_btn_coord2";
 
 function main_btn_coord2:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function main_btn_coord2:OnConstruct(windowCom)
 end
 
 return main_btn_coord2;
-
---self.uiComs=require('ToolGen.main.main_btn_coord2'):OnConstruct(self.contentPane)

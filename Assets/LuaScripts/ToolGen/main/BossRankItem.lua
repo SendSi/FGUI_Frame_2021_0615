@@ -14,7 +14,7 @@
 ---@field public m_attackBtn Attack_cbtn
 local BossRankItem = {};
 
-BossRankItem.URL = "ui://4ni413lanil";
+BossRankItem.URL = "ui://main/BossRankItem";
 
 function BossRankItem:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function BossRankItem:OnConstruct(windowCom)
 end
 
 return BossRankItem;
-
---self.uiComs=require('ToolGen.main.BossRankItem'):OnConstruct(self.contentPane)

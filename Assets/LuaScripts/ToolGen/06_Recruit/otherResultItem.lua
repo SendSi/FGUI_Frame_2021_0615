@@ -11,7 +11,7 @@
 ---@field public m_item CS.FairyGUI.GGroup
 local otherResultItem = {};
 
-otherResultItem.URL = "ui://nf2zagxsnil";
+otherResultItem.URL = "ui://06_Recruit/otherResultItem";
 
 function otherResultItem:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function otherResultItem:OnConstruct(windowCom)
 end
 
 return otherResultItem;
-
---self.uiComs=require('ToolGen.06_Recruit.otherResultItem'):OnConstruct(self.contentPane)

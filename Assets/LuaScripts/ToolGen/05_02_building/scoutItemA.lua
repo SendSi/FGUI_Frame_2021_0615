@@ -18,7 +18,7 @@
 ---@field public m_n17 CS.FairyGUI.GTextField
 local scoutItemA = {};
 
-scoutItemA.URL = "ui://fq4ln9nvnil";
+scoutItemA.URL = "ui://05_02_building/scoutItemA";
 
 function scoutItemA:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function scoutItemA:OnConstruct(windowCom)
 end
 
 return scoutItemA;
-
---self.uiComs=require('ToolGen.05_02_building.scoutItemA'):OnConstruct(self.contentPane)

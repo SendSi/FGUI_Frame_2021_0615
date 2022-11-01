@@ -9,7 +9,7 @@
 ---@field public m_redDot CS.FairyGUI.GImage
 local cityskin_tab = {};
 
-cityskin_tab.URL = "ui://4ni413lanil";
+cityskin_tab.URL = "ui://main/cityskin_tab";
 
 function cityskin_tab:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function cityskin_tab:OnConstruct(windowCom)
 end
 
 return cityskin_tab;
-
---self.uiComs=require('ToolGen.main.cityskin_tab'):OnConstruct(self.contentPane)

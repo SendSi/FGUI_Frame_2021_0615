@@ -54,7 +54,7 @@
 ---@field public m_n99 CS.FairyGUI.GGroup
 local BuildUpgradeView = {};
 
-BuildUpgradeView.URL = "ui://4ni413lanil";
+BuildUpgradeView.URL = "ui://main/BuildUpgradeView";
 
 function BuildUpgradeView:OnConstruct(windowCom)
 	local tb = {
@@ -113,5 +113,3 @@ function BuildUpgradeView:OnConstruct(windowCom)
 end
 
 return BuildUpgradeView;
-
---self.uiComs=require('ToolGen.main.BuildUpgradeView'):OnConstruct(self.contentPane)

@@ -8,7 +8,7 @@
 ---@field public m_n68 CS.FairyGUI.GImage
 local comItem_Select = {};
 
-comItem_Select.URL = "ui://2r331opvnil";
+comItem_Select.URL = "ui://common/comItem_Select";
 
 function comItem_Select:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function comItem_Select:OnConstruct(windowCom)
 end
 
 return comItem_Select;
-
---self.uiComs=require('ToolGen.common.comItem_Select'):OnConstruct(self.contentPane)

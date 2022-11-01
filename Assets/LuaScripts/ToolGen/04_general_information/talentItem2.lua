@@ -8,7 +8,7 @@
 ---@field public m_lock CS.FairyGUI.GTextField
 local talentItem2 = {};
 
-talentItem2.URL = "ui://4hio38umnil";
+talentItem2.URL = "ui://04_general_information/talentItem2";
 
 function talentItem2:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function talentItem2:OnConstruct(windowCom)
 end
 
 return talentItem2;
-
---self.uiComs=require('ToolGen.04_general_information.talentItem2'):OnConstruct(self.contentPane)

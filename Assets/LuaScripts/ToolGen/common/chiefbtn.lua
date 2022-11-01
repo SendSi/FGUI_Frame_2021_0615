@@ -15,7 +15,7 @@
 ---@field public m_n16 CS.FairyGUI.GTextField
 local chiefbtn = {};
 
-chiefbtn.URL = "ui://2r331opvnil";
+chiefbtn.URL = "ui://common/chiefbtn";
 
 function chiefbtn:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function chiefbtn:OnConstruct(windowCom)
 end
 
 return chiefbtn;
-
---self.uiComs=require('ToolGen.common.chiefbtn'):OnConstruct(self.contentPane)

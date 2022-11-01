@@ -7,7 +7,7 @@
 ---@field public m_n4 CS.FairyGUI.GGraph
 local medal_01 = {};
 
-medal_01.URL = "ui://4ni413lanil";
+medal_01.URL = "ui://main/medal_01";
 
 function medal_01:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function medal_01:OnConstruct(windowCom)
 end
 
 return medal_01;
-
---self.uiComs=require('ToolGen.main.medal_01'):OnConstruct(self.contentPane)

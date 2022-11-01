@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GGraph
 local troopsGeneral_show = {};
 
-troopsGeneral_show.URL = "ui://jqem9egtnil";
+troopsGeneral_show.URL = "ui://08_Troops/troopsGeneral_show";
 
 function troopsGeneral_show:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function troopsGeneral_show:OnConstruct(windowCom)
 end
 
 return troopsGeneral_show;
-
---self.uiComs=require('ToolGen.08_Troops.troopsGeneral_show'):OnConstruct(self.contentPane)

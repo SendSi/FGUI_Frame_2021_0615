@@ -5,7 +5,7 @@
 
 local HurtNumRoot = {};
 
-HurtNumRoot.URL = "ui://4ni413lanil";
+HurtNumRoot.URL = "ui://main/HurtNumRoot";
 
 function HurtNumRoot:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function HurtNumRoot:OnConstruct(windowCom)
 end
 
 return HurtNumRoot;
-
---self.uiComs=require('ToolGen.main.HurtNumRoot'):OnConstruct(self.contentPane)

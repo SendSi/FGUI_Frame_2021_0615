@@ -5,7 +5,7 @@
 ---@field public m_n7 CS.FairyGUI.GList
 local contacts = {};
 
-contacts.URL = "ui://62wjs2s2nil";
+contacts.URL = "ui://14_chat/contacts";
 
 function contacts:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function contacts:OnConstruct(windowCom)
 end
 
 return contacts;
-
---self.uiComs=require('ToolGen.14_chat.contacts'):OnConstruct(self.contentPane)

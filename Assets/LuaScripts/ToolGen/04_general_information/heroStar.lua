@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GImage
 local heroStar = {};
 
-heroStar.URL = "ui://4hio38umnil";
+heroStar.URL = "ui://04_general_information/heroStar";
 
 function heroStar:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function heroStar:OnConstruct(windowCom)
 end
 
 return heroStar;
-
---self.uiComs=require('ToolGen.04_general_information.heroStar'):OnConstruct(self.contentPane)

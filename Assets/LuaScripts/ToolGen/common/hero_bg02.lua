@@ -7,7 +7,7 @@
 ---@field public m_n11 CS.FairyGUI.GImage
 local hero_bg02 = {};
 
-hero_bg02.URL = "ui://2r331opvnil";
+hero_bg02.URL = "ui://common/hero_bg02";
 
 function hero_bg02:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function hero_bg02:OnConstruct(windowCom)
 end
 
 return hero_bg02;
-
---self.uiComs=require('ToolGen.common.hero_bg02'):OnConstruct(self.contentPane)

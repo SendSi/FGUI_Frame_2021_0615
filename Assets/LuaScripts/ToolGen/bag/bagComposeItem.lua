@@ -10,7 +10,7 @@
 ---@field public m_name CS.FairyGUI.GTextField
 local bagComposeItem = {};
 
-bagComposeItem.URL = "ui://b7676vbqnil";
+bagComposeItem.URL = "ui://Bag/bagComposeItem";
 
 function bagComposeItem:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function bagComposeItem:OnConstruct(windowCom)
 end
 
 return bagComposeItem;
-
---self.uiComs=require('ToolGen.bag.bagComposeItem'):OnConstruct(self.contentPane)

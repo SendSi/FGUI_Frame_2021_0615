@@ -7,7 +7,7 @@
 ---@field public m_n13 CS.FairyGUI.GGraph
 local Component1 = {};
 
-Component1.URL = "ui://2r331opvnil";
+Component1.URL = "ui://common/Component1";
 
 function Component1:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function Component1:OnConstruct(windowCom)
 end
 
 return Component1;
-
---self.uiComs=require('ToolGen.common.Component1'):OnConstruct(self.contentPane)

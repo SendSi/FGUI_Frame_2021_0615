@@ -9,7 +9,7 @@
 ---@field public m_name CS.FairyGUI.GTextField
 local chatLeft = {};
 
-chatLeft.URL = "ui://y768eypanil";
+chatLeft.URL = "ui://Emoji/chatLeft";
 
 function chatLeft:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function chatLeft:OnConstruct(windowCom)
 end
 
 return chatLeft;
-
---self.uiComs=require('ToolGen.Emoji.chatLeft'):OnConstruct(self.contentPane)

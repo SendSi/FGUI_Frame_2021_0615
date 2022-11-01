@@ -11,7 +11,7 @@
 ---@field public m_title0 CS.FairyGUI.GTextField
 local levelupPower01 = {};
 
-levelupPower01.URL = "ui://jqem9egtnil";
+levelupPower01.URL = "ui://08_Troops/levelupPower01";
 
 function levelupPower01:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function levelupPower01:OnConstruct(windowCom)
 end
 
 return levelupPower01;
-
---self.uiComs=require('ToolGen.08_Troops.levelupPower01'):OnConstruct(self.contentPane)

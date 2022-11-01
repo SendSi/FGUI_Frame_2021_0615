@@ -10,7 +10,7 @@
 ---@field public m_n4 CS.FairyGUI.GImage
 local skinCbox_item = {};
 
-skinCbox_item.URL = "ui://4ni413lanil";
+skinCbox_item.URL = "ui://main/skinCbox_item";
 
 function skinCbox_item:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function skinCbox_item:OnConstruct(windowCom)
 end
 
 return skinCbox_item;
-
---self.uiComs=require('ToolGen.main.skinCbox_item'):OnConstruct(self.contentPane)

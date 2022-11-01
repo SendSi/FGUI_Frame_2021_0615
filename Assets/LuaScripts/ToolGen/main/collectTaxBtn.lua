@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local collectTaxBtn = {};
 
-collectTaxBtn.URL = "ui://4ni413lanil";
+collectTaxBtn.URL = "ui://main/collectTaxBtn";
 
 function collectTaxBtn:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function collectTaxBtn:OnConstruct(windowCom)
 end
 
 return collectTaxBtn;
-
---self.uiComs=require('ToolGen.main.collectTaxBtn'):OnConstruct(self.contentPane)

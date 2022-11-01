@@ -9,7 +9,7 @@
 ---@field public m_icon CS.FairyGUI.GButton
 local taskTipsItem = {};
 
-taskTipsItem.URL = "ui://zezobey9nil";
+taskTipsItem.URL = "ui://17_Task/taskTipsItem";
 
 function taskTipsItem:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function taskTipsItem:OnConstruct(windowCom)
 end
 
 return taskTipsItem;
-
---self.uiComs=require('ToolGen.17_Task.taskTipsItem'):OnConstruct(self.contentPane)

@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local capture_pbrForce = {};
 
-capture_pbrForce.URL = "ui://4ni413lanil";
+capture_pbrForce.URL = "ui://main/capture_pbrForce";
 
 function capture_pbrForce:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function capture_pbrForce:OnConstruct(windowCom)
 end
 
 return capture_pbrForce;
-
---self.uiComs=require('ToolGen.main.capture_pbrForce'):OnConstruct(self.contentPane)

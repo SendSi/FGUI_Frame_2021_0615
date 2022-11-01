@@ -9,7 +9,7 @@
 ---@field public m_timeNum CS.FairyGUI.GTextField
 local cityManageItem3 = {};
 
-cityManageItem3.URL = "ui://4ni413lanil";
+cityManageItem3.URL = "ui://main/cityManageItem3";
 
 function cityManageItem3:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function cityManageItem3:OnConstruct(windowCom)
 end
 
 return cityManageItem3;
-
---self.uiComs=require('ToolGen.main.cityManageItem3'):OnConstruct(self.contentPane)

@@ -9,7 +9,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local chequerEmjioBtn6 = {};
 
-chequerEmjioBtn6.URL = "ui://4ni413lanil";
+chequerEmjioBtn6.URL = "ui://main/chequerEmjioBtn6";
 
 function chequerEmjioBtn6:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function chequerEmjioBtn6:OnConstruct(windowCom)
 end
 
 return chequerEmjioBtn6;
-
---self.uiComs=require('ToolGen.main.chequerEmjioBtn6'):OnConstruct(self.contentPane)

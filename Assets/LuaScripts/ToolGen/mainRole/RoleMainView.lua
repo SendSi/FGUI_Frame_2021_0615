@@ -34,7 +34,7 @@
 ---@field public m_roleMain CS.FairyGUI.GGroup
 local RoleMainView = {};
 
-RoleMainView.URL = "ui://66sh7tc6nil";
+RoleMainView.URL = "ui://mainRole/RoleMainView";
 
 function RoleMainView:OnConstruct(windowCom)
 	local tb = {
@@ -73,5 +73,3 @@ function RoleMainView:OnConstruct(windowCom)
 end
 
 return RoleMainView;
-
---self.uiComs=require('ToolGen.mainRole.RoleMainView'):OnConstruct(self.contentPane)

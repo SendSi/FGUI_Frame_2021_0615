@@ -12,7 +12,7 @@
 ---@field public m_win CS.FairyGUI.GGroup
 local MailPositionView = {};
 
-MailPositionView.URL = "ui://ufsajnnznil";
+MailPositionView.URL = "ui://13_Mail/MailPositionView";
 
 function MailPositionView:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function MailPositionView:OnConstruct(windowCom)
 end
 
 return MailPositionView;
-
---self.uiComs=require('ToolGen.13_Mail.MailPositionView'):OnConstruct(self.contentPane)

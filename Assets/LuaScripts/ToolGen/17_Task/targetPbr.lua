@@ -6,7 +6,7 @@
 ---@field public m_bar CS.FairyGUI.GGraph
 local targetPbr = {};
 
-targetPbr.URL = "ui://zezobey9nil";
+targetPbr.URL = "ui://17_Task/targetPbr";
 
 function targetPbr:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function targetPbr:OnConstruct(windowCom)
 end
 
 return targetPbr;
-
---self.uiComs=require('ToolGen.17_Task.targetPbr'):OnConstruct(self.contentPane)

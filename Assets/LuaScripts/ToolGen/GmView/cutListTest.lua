@@ -6,7 +6,7 @@
 ---@field public m_itemList CS.FairyGUI.GList
 local cutListTest = {};
 
-cutListTest.URL = "ui://21uyefv8nil";
+cutListTest.URL = "ui://GMView/cutListTest";
 
 function cutListTest:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function cutListTest:OnConstruct(windowCom)
 end
 
 return cutListTest;
-
---self.uiComs=require('ToolGen.GMView.cutListTest'):OnConstruct(self.contentPane)

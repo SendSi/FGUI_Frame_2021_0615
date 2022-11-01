@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local QuickBack = {};
 
-QuickBack.URL = "ui://4ni413lanil";
+QuickBack.URL = "ui://main/QuickBack";
 
 function QuickBack:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function QuickBack:OnConstruct(windowCom)
 end
 
 return QuickBack;
-
---self.uiComs=require('ToolGen.main.QuickBack'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_scal CS.FairyGUI.Transition
 local buidingGrid = {};
 
-buidingGrid.URL = "ui://4ni413lanil";
+buidingGrid.URL = "ui://main/buidingGrid";
 
 function buidingGrid:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function buidingGrid:OnConstruct(windowCom)
 end
 
 return buidingGrid;
-
---self.uiComs=require('ToolGen.main.buidingGrid'):OnConstruct(self.contentPane)

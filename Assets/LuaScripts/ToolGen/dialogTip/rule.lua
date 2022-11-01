@@ -5,7 +5,7 @@
 ---@field public m_contentTitle CS.FairyGUI.GTextField
 local rule = {};
 
-rule.URL = "ui://utp01xianil";
+rule.URL = "ui://dialogTip/rule";
 
 function rule:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function rule:OnConstruct(windowCom)
 end
 
 return rule;
-
---self.uiComs=require('ToolGen.dialogTip.rule'):OnConstruct(self.contentPane)

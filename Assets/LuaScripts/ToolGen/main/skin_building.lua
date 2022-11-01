@@ -13,7 +13,7 @@
 ---@field public m_n12 CS.FairyGUI.GImage
 local skin_building = {};
 
-skin_building.URL = "ui://4ni413lanil";
+skin_building.URL = "ui://main/skin_building";
 
 function skin_building:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function skin_building:OnConstruct(windowCom)
 end
 
 return skin_building;
-
---self.uiComs=require('ToolGen.main.skin_building'):OnConstruct(self.contentPane)

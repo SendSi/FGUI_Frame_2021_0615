@@ -15,7 +15,7 @@
 ---@field public m_btn2 CloseButton
 local BagWin = {};
 
-BagWin.URL = "ui://rbw1tv9tnil";
+BagWin.URL = "ui://oldBag/BagWin";
 
 function BagWin:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function BagWin:OnConstruct(windowCom)
 end
 
 return BagWin;
-
---self.uiComs=require('ToolGen.oldBag.BagWin'):OnConstruct(self.contentPane)

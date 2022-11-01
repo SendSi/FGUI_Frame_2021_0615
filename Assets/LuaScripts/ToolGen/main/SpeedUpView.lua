@@ -19,7 +19,7 @@
 ---@field public m_n12 CS.FairyGUI.GGroup
 local SpeedUpView = {};
 
-SpeedUpView.URL = "ui://4ni413lanil";
+SpeedUpView.URL = "ui://main/SpeedUpView";
 
 function SpeedUpView:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function SpeedUpView:OnConstruct(windowCom)
 end
 
 return SpeedUpView;
-
---self.uiComs=require('ToolGen.main.SpeedUpView'):OnConstruct(self.contentPane)

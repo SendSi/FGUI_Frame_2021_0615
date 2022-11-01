@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local generalCbox = {};
 
-generalCbox.URL = "ui://4hio38umnil";
+generalCbox.URL = "ui://04_general_information/generalCbox";
 
 function generalCbox:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function generalCbox:OnConstruct(windowCom)
 end
 
 return generalCbox;
-
---self.uiComs=require('ToolGen.04_general_information.generalCbox'):OnConstruct(self.contentPane)

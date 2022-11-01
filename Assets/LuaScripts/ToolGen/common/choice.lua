@@ -7,7 +7,7 @@
 ---@field public m_n42 CS.FairyGUI.GGraph
 local choice = {};
 
-choice.URL = "ui://2r331opvnil";
+choice.URL = "ui://common/choice";
 
 function choice:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function choice:OnConstruct(windowCom)
 end
 
 return choice;
-
---self.uiComs=require('ToolGen.common.choice'):OnConstruct(self.contentPane)

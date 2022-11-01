@@ -7,7 +7,7 @@
 ---@field public m_n2 CS.FairyGUI.GImage
 local addTips = {};
 
-addTips.URL = "ui://jqem9egtnil";
+addTips.URL = "ui://08_Troops/addTips";
 
 function addTips:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function addTips:OnConstruct(windowCom)
 end
 
 return addTips;
-
---self.uiComs=require('ToolGen.08_Troops.addTips'):OnConstruct(self.contentPane)

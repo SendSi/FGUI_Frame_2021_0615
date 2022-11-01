@@ -9,7 +9,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local resource_pbr = {};
 
-resource_pbr.URL = "ui://4ni413lanil";
+resource_pbr.URL = "ui://main/resource_pbr";
 
 function resource_pbr:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function resource_pbr:OnConstruct(windowCom)
 end
 
 return resource_pbr;
-
---self.uiComs=require('ToolGen.main.resource_pbr'):OnConstruct(self.contentPane)

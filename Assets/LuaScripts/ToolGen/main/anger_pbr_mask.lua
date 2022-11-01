@@ -5,7 +5,7 @@
 ---@field public m_mask CS.FairyGUI.GImage
 local anger_pbr_mask = {};
 
-anger_pbr_mask.URL = "ui://4ni413lanil";
+anger_pbr_mask.URL = "ui://main/anger_pbr_mask";
 
 function anger_pbr_mask:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function anger_pbr_mask:OnConstruct(windowCom)
 end
 
 return anger_pbr_mask;
-
---self.uiComs=require('ToolGen.main.anger_pbr_mask'):OnConstruct(self.contentPane)

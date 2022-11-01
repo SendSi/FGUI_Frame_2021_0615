@@ -6,7 +6,7 @@
 ---@field public m_n38 CS.FairyGUI.GImage
 local fetterBg = {};
 
-fetterBg.URL = "ui://4hio38umnil";
+fetterBg.URL = "ui://04_general_information/fetterBg";
 
 function fetterBg:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function fetterBg:OnConstruct(windowCom)
 end
 
 return fetterBg;
-
---self.uiComs=require('ToolGen.04_general_information.fetterBg'):OnConstruct(self.contentPane)

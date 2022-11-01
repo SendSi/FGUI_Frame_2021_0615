@@ -10,7 +10,7 @@
 ---@field public m_RechargeBtn CS.FairyGUI.GButton
 local currencyItem = {};
 
-currencyItem.URL = "ui://utp01xianil";
+currencyItem.URL = "ui://dialogTip/currencyItem";
 
 function currencyItem:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function currencyItem:OnConstruct(windowCom)
 end
 
 return currencyItem;
-
---self.uiComs=require('ToolGen.dialogTip.currencyItem'):OnConstruct(self.contentPane)

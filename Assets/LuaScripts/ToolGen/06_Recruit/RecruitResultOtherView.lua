@@ -8,7 +8,7 @@
 ---@field public m_closeButton CS.FairyGUI.GButton
 local RecruitResultOtherView = {};
 
-RecruitResultOtherView.URL = "ui://nf2zagxsnil";
+RecruitResultOtherView.URL = "ui://06_Recruit/RecruitResultOtherView";
 
 function RecruitResultOtherView:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function RecruitResultOtherView:OnConstruct(windowCom)
 end
 
 return RecruitResultOtherView;
-
---self.uiComs=require('ToolGen.06_Recruit.RecruitResultOtherView'):OnConstruct(self.contentPane)

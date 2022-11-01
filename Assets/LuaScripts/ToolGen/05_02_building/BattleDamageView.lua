@@ -23,7 +23,7 @@
 ---@field public m_playerIcon CS.FairyGUI.GComponent
 local BattleDamageView = {};
 
-BattleDamageView.URL = "ui://fq4ln9nvnil";
+BattleDamageView.URL = "ui://05_02_building/BattleDamageView";
 
 function BattleDamageView:OnConstruct(windowCom)
 	local tb = {
@@ -51,5 +51,3 @@ function BattleDamageView:OnConstruct(windowCom)
 end
 
 return BattleDamageView;
-
---self.uiComs=require('ToolGen.05_02_building.BattleDamageView'):OnConstruct(self.contentPane)

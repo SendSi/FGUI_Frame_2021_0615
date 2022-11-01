@@ -17,7 +17,7 @@
 ---@field public m_n14 CS.FairyGUI.GImage
 local skin_Broadcast = {};
 
-skin_Broadcast.URL = "ui://4ni413lanil";
+skin_Broadcast.URL = "ui://main/skin_Broadcast";
 
 function skin_Broadcast:OnConstruct(windowCom)
 	local tb = {
@@ -39,5 +39,3 @@ function skin_Broadcast:OnConstruct(windowCom)
 end
 
 return skin_Broadcast;
-
---self.uiComs=require('ToolGen.main.skin_Broadcast'):OnConstruct(self.contentPane)

@@ -5,7 +5,7 @@
 ---@field public m_contentTxt CS.FairyGUI.GRichTextField
 local contentTxt = {};
 
-contentTxt.URL = "ui://utp01xianil";
+contentTxt.URL = "ui://dialogTip/contentTxt";
 
 function contentTxt:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function contentTxt:OnConstruct(windowCom)
 end
 
 return contentTxt;
-
---self.uiComs=require('ToolGen.dialogTip.contentTxt'):OnConstruct(self.contentPane)

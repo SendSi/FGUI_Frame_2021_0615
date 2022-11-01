@@ -9,7 +9,7 @@
 ---@field public m_n9 CS.FairyGUI.GGraph
 local troopsSkillItem = {};
 
-troopsSkillItem.URL = "ui://jqem9egtnil";
+troopsSkillItem.URL = "ui://08_Troops/troopsSkillItem";
 
 function troopsSkillItem:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function troopsSkillItem:OnConstruct(windowCom)
 end
 
 return troopsSkillItem;
-
---self.uiComs=require('ToolGen.08_Troops.troopsSkillItem'):OnConstruct(self.contentPane)

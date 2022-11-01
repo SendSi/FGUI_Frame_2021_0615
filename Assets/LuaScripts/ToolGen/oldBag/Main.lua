@@ -8,7 +8,7 @@
 ---@field public m_n2 CS.FairyGUI.GTextField
 local Main = {};
 
-Main.URL = "ui://rbw1tv9tnil";
+Main.URL = "ui://oldBag/Main";
 
 function Main:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function Main:OnConstruct(windowCom)
 end
 
 return Main;
-
---self.uiComs=require('ToolGen.oldBag.Main'):OnConstruct(self.contentPane)

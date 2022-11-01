@@ -11,7 +11,7 @@
 ---@field public m_t1 CS.FairyGUI.Transition
 local TalentTreeList = {};
 
-TalentTreeList.URL = "ui://4hio38umnil";
+TalentTreeList.URL = "ui://04_general_information/TalentTreeList";
 
 function TalentTreeList:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function TalentTreeList:OnConstruct(windowCom)
 end
 
 return TalentTreeList;
-
---self.uiComs=require('ToolGen.04_general_information.TalentTreeList'):OnConstruct(self.contentPane)

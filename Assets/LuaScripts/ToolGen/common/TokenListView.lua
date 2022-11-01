@@ -5,7 +5,7 @@
 ---@field public m_propTopList CS.FairyGUI.GList
 local TokenListView = {};
 
-TokenListView.URL = "ui://2r331opvnil";
+TokenListView.URL = "ui://common/TokenListView";
 
 function TokenListView:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function TokenListView:OnConstruct(windowCom)
 end
 
 return TokenListView;
-
---self.uiComs=require('ToolGen.common.TokenListView'):OnConstruct(self.contentPane)

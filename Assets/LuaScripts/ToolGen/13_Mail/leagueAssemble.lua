@@ -13,7 +13,7 @@
 ---@field public m_n83 CS.FairyGUI.GGroup
 local leagueAssemble = {};
 
-leagueAssemble.URL = "ui://ufsajnnznil";
+leagueAssemble.URL = "ui://13_Mail/leagueAssemble";
 
 function leagueAssemble:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function leagueAssemble:OnConstruct(windowCom)
 end
 
 return leagueAssemble;
-
---self.uiComs=require('ToolGen.13_Mail.leagueAssemble'):OnConstruct(self.contentPane)

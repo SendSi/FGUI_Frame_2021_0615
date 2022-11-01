@@ -6,7 +6,7 @@
 ---@field public m_value CS.FairyGUI.GRichTextField
 local talentAttrItem = {};
 
-talentAttrItem.URL = "ui://4hio38umnil";
+talentAttrItem.URL = "ui://04_general_information/talentAttrItem";
 
 function talentAttrItem:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function talentAttrItem:OnConstruct(windowCom)
 end
 
 return talentAttrItem;
-
---self.uiComs=require('ToolGen.04_general_information.talentAttrItem'):OnConstruct(self.contentPane)

@@ -19,7 +19,7 @@
 ---@field public m_hadNum CS.FairyGUI.GTextField
 local warehouseItem = {};
 
-warehouseItem.URL = "ui://b7676vbqnil";
+warehouseItem.URL = "ui://Bag/warehouseItem";
 
 function warehouseItem:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function warehouseItem:OnConstruct(windowCom)
 end
 
 return warehouseItem;
-
---self.uiComs=require('ToolGen.bag.warehouseItem'):OnConstruct(self.contentPane)

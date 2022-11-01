@@ -15,7 +15,7 @@
 ---@field public m_n12 CS.FairyGUI.GGroup
 local main_team_right = {};
 
-main_team_right.URL = "ui://4ni413lanil";
+main_team_right.URL = "ui://main/main_team_right";
 
 function main_team_right:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function main_team_right:OnConstruct(windowCom)
 end
 
 return main_team_right;
-
---self.uiComs=require('ToolGen.main.main_team_right'):OnConstruct(self.contentPane)

@@ -8,7 +8,7 @@
 ---@field public m_n4 CS.FairyGUI.GImage
 local TalentTreeBtn = {};
 
-TalentTreeBtn.URL = "ui://4hio38umnil";
+TalentTreeBtn.URL = "ui://04_general_information/TalentTreeBtn";
 
 function TalentTreeBtn:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function TalentTreeBtn:OnConstruct(windowCom)
 end
 
 return TalentTreeBtn;
-
---self.uiComs=require('ToolGen.04_general_information.TalentTreeBtn'):OnConstruct(self.contentPane)

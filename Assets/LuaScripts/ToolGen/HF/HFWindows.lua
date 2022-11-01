@@ -8,7 +8,7 @@
 ---@field public m_text CS.FairyGUI.GTextField
 local HFWindows = {};
 
-HFWindows.URL = "ui://lqu8zv3hnil";
+HFWindows.URL = "ui://HF/HFWindows";
 
 function HFWindows:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function HFWindows:OnConstruct(windowCom)
 end
 
 return HFWindows;
-
---self.uiComs=require('ToolGen.HF.HFWindows'):OnConstruct(self.contentPane)

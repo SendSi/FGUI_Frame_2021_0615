@@ -20,7 +20,7 @@
 ---@field public m_bloodPbr troopBloodPbr
 local generalLock = {};
 
-generalLock.URL = "ui://2r331opvnil";
+generalLock.URL = "ui://common/generalLock";
 
 function generalLock:OnConstruct(windowCom)
 	local tb = {
@@ -45,5 +45,3 @@ function generalLock:OnConstruct(windowCom)
 end
 
 return generalLock;
-
---self.uiComs=require('ToolGen.common.generalLock'):OnConstruct(self.contentPane)

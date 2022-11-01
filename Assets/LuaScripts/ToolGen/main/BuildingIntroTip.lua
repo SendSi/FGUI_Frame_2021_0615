@@ -15,7 +15,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local BuildingIntroTip = {};
 
-BuildingIntroTip.URL = "ui://4ni413lanil";
+BuildingIntroTip.URL = "ui://main/BuildingIntroTip";
 
 function BuildingIntroTip:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function BuildingIntroTip:OnConstruct(windowCom)
 end
 
 return BuildingIntroTip;
-
---self.uiComs=require('ToolGen.main.BuildingIntroTip'):OnConstruct(self.contentPane)

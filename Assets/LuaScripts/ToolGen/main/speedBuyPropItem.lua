@@ -10,7 +10,7 @@
 ---@field public m_propIcon CS.FairyGUI.GButton
 local speedBuyPropItem = {};
 
-speedBuyPropItem.URL = "ui://4ni413lanil";
+speedBuyPropItem.URL = "ui://main/speedBuyPropItem";
 
 function speedBuyPropItem:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function speedBuyPropItem:OnConstruct(windowCom)
 end
 
 return speedBuyPropItem;
-
---self.uiComs=require('ToolGen.main.speedBuyPropItem'):OnConstruct(self.contentPane)

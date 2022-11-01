@@ -18,7 +18,7 @@
 ---@field public m_pos CS.FairyGUI.GTextField
 local TroopAddItem = {};
 
-TroopAddItem.URL = "ui://jqem9egtnil";
+TroopAddItem.URL = "ui://08_Troops/TroopAddItem";
 
 function TroopAddItem:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function TroopAddItem:OnConstruct(windowCom)
 end
 
 return TroopAddItem;
-
---self.uiComs=require('ToolGen.08_Troops.TroopAddItem'):OnConstruct(self.contentPane)

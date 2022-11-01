@@ -10,7 +10,7 @@
 ---@field public m_brank CS.FairyGUI.GGroup
 local itemTroopShare = {};
 
-itemTroopShare.URL = "ui://62wjs2s2nil";
+itemTroopShare.URL = "ui://14_chat/itemTroopShare";
 
 function itemTroopShare:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function itemTroopShare:OnConstruct(windowCom)
 end
 
 return itemTroopShare;
-
---self.uiComs=require('ToolGen.14_chat.itemTroopShare'):OnConstruct(self.contentPane)

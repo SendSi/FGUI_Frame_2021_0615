@@ -9,7 +9,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local Button = {};
 
-Button.URL = "ui://y768eypanil";
+Button.URL = "ui://Emoji/Button";
 
 function Button:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function Button:OnConstruct(windowCom)
 end
 
 return Button;
-
---self.uiComs=require('ToolGen.Emoji.Button'):OnConstruct(self.contentPane)

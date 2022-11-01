@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local notGetItem = {};
 
-notGetItem.URL = "ui://4hio38umnil";
+notGetItem.URL = "ui://04_general_information/notGetItem";
 
 function notGetItem:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function notGetItem:OnConstruct(windowCom)
 end
 
 return notGetItem;
-
---self.uiComs=require('ToolGen.04_general_information.notGetItem'):OnConstruct(self.contentPane)

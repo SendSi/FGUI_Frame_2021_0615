@@ -10,7 +10,7 @@
 ---@field public m_stateCom CS.FairyGUI.GComponent
 local collectorHead = {};
 
-collectorHead.URL = "ui://4ni413lanil";
+collectorHead.URL = "ui://main/collectorHead";
 
 function collectorHead:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function collectorHead:OnConstruct(windowCom)
 end
 
 return collectorHead;
-
---self.uiComs=require('ToolGen.main.collectorHead'):OnConstruct(self.contentPane)

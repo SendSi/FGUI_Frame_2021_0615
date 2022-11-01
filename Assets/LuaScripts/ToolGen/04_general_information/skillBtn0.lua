@@ -12,7 +12,7 @@
 ---@field public m_EffectRoot_01 CS.FairyGUI.GComponent
 local skillBtn0 = {};
 
-skillBtn0.URL = "ui://4hio38umnil";
+skillBtn0.URL = "ui://04_general_information/skillBtn0";
 
 function skillBtn0:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function skillBtn0:OnConstruct(windowCom)
 end
 
 return skillBtn0;
-
---self.uiComs=require('ToolGen.04_general_information.skillBtn0'):OnConstruct(self.contentPane)

@@ -9,7 +9,7 @@
 ---@field public m_timeLbl CS.FairyGUI.GTextField
 local com_btn_buy6 = {};
 
-com_btn_buy6.URL = "ui://2r331opvnil";
+com_btn_buy6.URL = "ui://common/com_btn_buy6";
 
 function com_btn_buy6:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function com_btn_buy6:OnConstruct(windowCom)
 end
 
 return com_btn_buy6;
-
---self.uiComs=require('ToolGen.common.com_btn_buy6'):OnConstruct(self.contentPane)

@@ -8,7 +8,7 @@
 ---@field public m_n3 CS.FairyGUI.GImage
 local main_build_name = {};
 
-main_build_name.URL = "ui://4ni413lanil";
+main_build_name.URL = "ui://main/main_build_name";
 
 function main_build_name:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function main_build_name:OnConstruct(windowCom)
 end
 
 return main_build_name;
-
---self.uiComs=require('ToolGen.main.main_build_name'):OnConstruct(self.contentPane)

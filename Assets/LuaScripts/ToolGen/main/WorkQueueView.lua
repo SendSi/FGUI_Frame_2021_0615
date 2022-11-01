@@ -21,7 +21,7 @@
 ---@field public m_n25 CS.FairyGUI.GImage
 local WorkQueueView = {};
 
-WorkQueueView.URL = "ui://4ni413lanil";
+WorkQueueView.URL = "ui://main/WorkQueueView";
 
 function WorkQueueView:OnConstruct(windowCom)
 	local tb = {
@@ -47,5 +47,3 @@ function WorkQueueView:OnConstruct(windowCom)
 end
 
 return WorkQueueView;
-
---self.uiComs=require('ToolGen.main.WorkQueueView'):OnConstruct(self.contentPane)

@@ -10,7 +10,7 @@
 ---@field public m_n7 CS.FairyGUI.GGroup
 local WarningMainView = {};
 
-WarningMainView.URL = "ui://4ni413lanil";
+WarningMainView.URL = "ui://main/WarningMainView";
 
 function WarningMainView:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function WarningMainView:OnConstruct(windowCom)
 end
 
 return WarningMainView;
-
---self.uiComs=require('ToolGen.main.WarningMainView'):OnConstruct(self.contentPane)

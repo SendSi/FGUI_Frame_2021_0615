@@ -17,7 +17,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local Left = {};
 
-Left.URL = "ui://nf2zagxsnil";
+Left.URL = "ui://06_Recruit/Left";
 
 function Left:OnConstruct(windowCom)
 	local tb = {
@@ -39,5 +39,3 @@ function Left:OnConstruct(windowCom)
 end
 
 return Left;
-
---self.uiComs=require('ToolGen.06_Recruit.Left'):OnConstruct(self.contentPane)

@@ -10,7 +10,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local ResourceManagementView = {};
 
-ResourceManagementView.URL = "ui://4ni413lanil";
+ResourceManagementView.URL = "ui://main/ResourceManagementView";
 
 function ResourceManagementView:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function ResourceManagementView:OnConstruct(windowCom)
 end
 
 return ResourceManagementView;
-
---self.uiComs=require('ToolGen.main.ResourceManagementView'):OnConstruct(self.contentPane)

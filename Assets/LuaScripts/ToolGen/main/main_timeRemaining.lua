@@ -8,7 +8,7 @@
 ---@field public m_time_2 CS.FairyGUI.Transition
 local main_timeRemaining = {};
 
-main_timeRemaining.URL = "ui://4ni413lanil";
+main_timeRemaining.URL = "ui://main/main_timeRemaining";
 
 function main_timeRemaining:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function main_timeRemaining:OnConstruct(windowCom)
 end
 
 return main_timeRemaining;
-
---self.uiComs=require('ToolGen.main.main_timeRemaining'):OnConstruct(self.contentPane)

@@ -19,7 +19,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local GeneralTipsView = {};
 
-GeneralTipsView.URL = "ui://4hio38umnil";
+GeneralTipsView.URL = "ui://04_general_information/GeneralTipsView";
 
 function GeneralTipsView:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function GeneralTipsView:OnConstruct(windowCom)
 end
 
 return GeneralTipsView;
-
---self.uiComs=require('ToolGen.04_general_information.GeneralTipsView'):OnConstruct(self.contentPane)

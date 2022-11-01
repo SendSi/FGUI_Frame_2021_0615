@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local screen = {};
 
-screen.URL = "ui://byy9k3ghnil";
+screen.URL = "ui://login/screen";
 
 function screen:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function screen:OnConstruct(windowCom)
 end
 
 return screen;
-
---self.uiComs=require('ToolGen.login.screen'):OnConstruct(self.contentPane)

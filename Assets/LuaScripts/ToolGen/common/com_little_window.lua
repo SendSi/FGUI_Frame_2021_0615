@@ -9,7 +9,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local com_little_window = {};
 
-com_little_window.URL = "ui://2r331opvnil";
+com_little_window.URL = "ui://common/com_little_window";
 
 function com_little_window:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function com_little_window:OnConstruct(windowCom)
 end
 
 return com_little_window;
-
---self.uiComs=require('ToolGen.common.com_little_window'):OnConstruct(self.contentPane)

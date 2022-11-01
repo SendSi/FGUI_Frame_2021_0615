@@ -25,7 +25,7 @@
 ---@field public m_n11 CS.FairyGUI.GGroup
 local DialogBarrierView = {};
 
-DialogBarrierView.URL = "ui://utp01xianil";
+DialogBarrierView.URL = "ui://dialogTip/DialogBarrierView";
 
 function DialogBarrierView:OnConstruct(windowCom)
 	local tb = {
@@ -55,5 +55,3 @@ function DialogBarrierView:OnConstruct(windowCom)
 end
 
 return DialogBarrierView;
-
---self.uiComs=require('ToolGen.dialogTip.DialogBarrierView'):OnConstruct(self.contentPane)

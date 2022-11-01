@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local com_btn_closeBlank = {};
 
-com_btn_closeBlank.URL = "ui://2r331opvnil";
+com_btn_closeBlank.URL = "ui://common/com_btn_closeBlank";
 
 function com_btn_closeBlank:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function com_btn_closeBlank:OnConstruct(windowCom)
 end
 
 return com_btn_closeBlank;
-
---self.uiComs=require('ToolGen.common.com_btn_closeBlank'):OnConstruct(self.contentPane)

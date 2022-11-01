@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local com_btn_explain1 = {};
 
-com_btn_explain1.URL = "ui://2r331opvnil";
+com_btn_explain1.URL = "ui://common/com_btn_explain1";
 
 function com_btn_explain1:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function com_btn_explain1:OnConstruct(windowCom)
 end
 
 return com_btn_explain1;
-
---self.uiComs=require('ToolGen.common.com_btn_explain1'):OnConstruct(self.contentPane)

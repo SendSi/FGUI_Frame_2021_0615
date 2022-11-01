@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local troopsExchangeBtn = {};
 
-troopsExchangeBtn.URL = "ui://jqem9egtnil";
+troopsExchangeBtn.URL = "ui://08_Troops/troopsExchangeBtn";
 
 function troopsExchangeBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function troopsExchangeBtn:OnConstruct(windowCom)
 end
 
 return troopsExchangeBtn;
-
---self.uiComs=require('ToolGen.08_Troops.troopsExchangeBtn'):OnConstruct(self.contentPane)

@@ -13,7 +13,7 @@
 ---@field public m_teamWalking CS.FairyGUI.GGroup
 local main_teamWalking = {};
 
-main_teamWalking.URL = "ui://4ni413lanil";
+main_teamWalking.URL = "ui://main/main_teamWalking";
 
 function main_teamWalking:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function main_teamWalking:OnConstruct(windowCom)
 end
 
 return main_teamWalking;
-
---self.uiComs=require('ToolGen.main.main_teamWalking'):OnConstruct(self.contentPane)

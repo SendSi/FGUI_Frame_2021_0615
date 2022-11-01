@@ -6,7 +6,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local ResCollectNumber = {};
 
-ResCollectNumber.URL = "ui://4ni413lanil";
+ResCollectNumber.URL = "ui://main/ResCollectNumber";
 
 function ResCollectNumber:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function ResCollectNumber:OnConstruct(windowCom)
 end
 
 return ResCollectNumber;
-
---self.uiComs=require('ToolGen.main.ResCollectNumber'):OnConstruct(self.contentPane)

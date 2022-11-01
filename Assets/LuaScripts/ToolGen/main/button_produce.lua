@@ -12,7 +12,7 @@
 ---@field public m_Effect_ui_button_tips_produce CS.FairyGUI.GComponent
 local button_produce = {};
 
-button_produce.URL = "ui://4ni413lanil";
+button_produce.URL = "ui://main/button_produce";
 
 function button_produce:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function button_produce:OnConstruct(windowCom)
 end
 
 return button_produce;
-
---self.uiComs=require('ToolGen.main.button_produce'):OnConstruct(self.contentPane)

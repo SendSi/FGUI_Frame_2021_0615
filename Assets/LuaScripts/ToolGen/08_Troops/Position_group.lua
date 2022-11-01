@@ -11,7 +11,7 @@
 ---@field public m_nameLpl CS.FairyGUI.GTextField
 local Position_group = {};
 
-Position_group.URL = "ui://jqem9egtnil";
+Position_group.URL = "ui://08_Troops/Position_group";
 
 function Position_group:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function Position_group:OnConstruct(windowCom)
 end
 
 return Position_group;
-
---self.uiComs=require('ToolGen.08_Troops.Position_group'):OnConstruct(self.contentPane)

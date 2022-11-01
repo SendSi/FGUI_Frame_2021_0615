@@ -7,7 +7,7 @@
 ---@field public m_modelzhu model_zhu
 local GeneralPosPanel = {};
 
-GeneralPosPanel.URL = "ui://jqem9egtnil";
+GeneralPosPanel.URL = "ui://08_Troops/GeneralPosPanel";
 
 function GeneralPosPanel:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function GeneralPosPanel:OnConstruct(windowCom)
 end
 
 return GeneralPosPanel;
-
---self.uiComs=require('ToolGen.08_Troops.GeneralPosPanel'):OnConstruct(self.contentPane)

@@ -5,7 +5,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local siegeItem1 = {};
 
-siegeItem1.URL = "ui://4ni413lanil";
+siegeItem1.URL = "ui://main/siegeItem1";
 
 function siegeItem1:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function siegeItem1:OnConstruct(windowCom)
 end
 
 return siegeItem1;
-
---self.uiComs=require('ToolGen.main.siegeItem1'):OnConstruct(self.contentPane)

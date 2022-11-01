@@ -20,7 +20,7 @@
 ---@field public m_btnAdd CS.FairyGUI.GLoader
 local generalShow_item = {};
 
-generalShow_item.URL = "ui://jqem9egtnil";
+generalShow_item.URL = "ui://08_Troops/generalShow_item";
 
 function generalShow_item:OnConstruct(windowCom)
 	local tb = {
@@ -45,5 +45,3 @@ function generalShow_item:OnConstruct(windowCom)
 end
 
 return generalShow_item;
-
---self.uiComs=require('ToolGen.08_Troops.generalShow_item'):OnConstruct(self.contentPane)

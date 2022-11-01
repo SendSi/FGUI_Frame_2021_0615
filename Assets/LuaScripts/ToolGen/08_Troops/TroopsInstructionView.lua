@@ -15,7 +15,7 @@
 ---@field public m_troopIns CS.FairyGUI.GGroup
 local TroopsInstructionView = {};
 
-TroopsInstructionView.URL = "ui://jqem9egtnil";
+TroopsInstructionView.URL = "ui://08_Troops/TroopsInstructionView";
 
 function TroopsInstructionView:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function TroopsInstructionView:OnConstruct(windowCom)
 end
 
 return TroopsInstructionView;
-
---self.uiComs=require('ToolGen.08_Troops.TroopsInstructionView'):OnConstruct(self.contentPane)

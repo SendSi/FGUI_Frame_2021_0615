@@ -11,7 +11,7 @@
 ---@field public m_n9 CS.FairyGUI.GGroup
 local PowerTipsView = {};
 
-PowerTipsView.URL = "ui://4hio38umnil";
+PowerTipsView.URL = "ui://04_general_information/PowerTipsView";
 
 function PowerTipsView:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function PowerTipsView:OnConstruct(windowCom)
 end
 
 return PowerTipsView;
-
---self.uiComs=require('ToolGen.04_general_information.PowerTipsView'):OnConstruct(self.contentPane)

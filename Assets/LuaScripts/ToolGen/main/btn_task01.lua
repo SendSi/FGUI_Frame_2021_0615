@@ -12,7 +12,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local btn_task01 = {};
 
-btn_task01.URL = "ui://4ni413lanil";
+btn_task01.URL = "ui://main/btn_task01";
 
 function btn_task01:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function btn_task01:OnConstruct(windowCom)
 end
 
 return btn_task01;
-
---self.uiComs=require('ToolGen.main.btn_task01'):OnConstruct(self.contentPane)

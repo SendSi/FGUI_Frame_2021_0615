@@ -23,7 +23,7 @@
 ---@field public m_lock CS.FairyGUI.GImage
 local model_zhu = {};
 
-model_zhu.URL = "ui://jqem9egtnil";
+model_zhu.URL = "ui://08_Troops/model_zhu";
 
 function model_zhu:OnConstruct(windowCom)
 	local tb = {
@@ -51,5 +51,3 @@ function model_zhu:OnConstruct(windowCom)
 end
 
 return model_zhu;
-
---self.uiComs=require('ToolGen.08_Troops.model_zhu'):OnConstruct(self.contentPane)

@@ -18,7 +18,7 @@
 ---@field public m_blank CS.FairyGUI.GGroup
 local GeneralItemIcon = {};
 
-GeneralItemIcon.URL = "ui://ufsajnnznil";
+GeneralItemIcon.URL = "ui://13_Mail/GeneralItemIcon";
 
 function GeneralItemIcon:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function GeneralItemIcon:OnConstruct(windowCom)
 end
 
 return GeneralItemIcon;
-
---self.uiComs=require('ToolGen.13_Mail.GeneralItemIcon'):OnConstruct(self.contentPane)

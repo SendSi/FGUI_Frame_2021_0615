@@ -14,7 +14,7 @@
 ---@field public m_n11 CS.FairyGUI.GImage
 local leftRoleItem = {};
 
-leftRoleItem.URL = "ui://4ni413lanil";
+leftRoleItem.URL = "ui://main/leftRoleItem";
 
 function leftRoleItem:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function leftRoleItem:OnConstruct(windowCom)
 end
 
 return leftRoleItem;
-
---self.uiComs=require('ToolGen.main.leftRoleItem'):OnConstruct(self.contentPane)

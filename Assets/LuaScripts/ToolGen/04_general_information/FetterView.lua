@@ -46,7 +46,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local FetterView = {};
 
-FetterView.URL = "ui://4hio38umnil";
+FetterView.URL = "ui://04_general_information/FetterView";
 
 function FetterView:OnConstruct(windowCom)
 	local tb = {
@@ -97,5 +97,3 @@ function FetterView:OnConstruct(windowCom)
 end
 
 return FetterView;
-
---self.uiComs=require('ToolGen.04_general_information.FetterView'):OnConstruct(self.contentPane)

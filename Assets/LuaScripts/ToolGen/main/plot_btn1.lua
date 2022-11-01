@@ -10,7 +10,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local plot_btn1 = {};
 
-plot_btn1.URL = "ui://4ni413lanil";
+plot_btn1.URL = "ui://main/plot_btn1";
 
 function plot_btn1:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function plot_btn1:OnConstruct(windowCom)
 end
 
 return plot_btn1;
-
---self.uiComs=require('ToolGen.main.plot_btn1'):OnConstruct(self.contentPane)

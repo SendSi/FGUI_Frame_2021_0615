@@ -5,7 +5,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local com_mask = {};
 
-com_mask.URL = "ui://2r331opvnil";
+com_mask.URL = "ui://common/com_mask";
 
 function com_mask:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function com_mask:OnConstruct(windowCom)
 end
 
 return com_mask;
-
---self.uiComs=require('ToolGen.common.com_mask'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local generalFragment = {};
 
-generalFragment.URL = "ui://2r331opvnil";
+generalFragment.URL = "ui://common/generalFragment";
 
 function generalFragment:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function generalFragment:OnConstruct(windowCom)
 end
 
 return generalFragment;
-
---self.uiComs=require('ToolGen.common.generalFragment'):OnConstruct(self.contentPane)

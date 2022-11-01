@@ -29,7 +29,7 @@
 ---@field public m_state1 CS.FairyGUI.GGroup
 local SkillTip = {};
 
-SkillTip.URL = "ui://4hio38umnil";
+SkillTip.URL = "ui://04_general_information/SkillTip";
 
 function SkillTip:OnConstruct(windowCom)
 	local tb = {
@@ -63,5 +63,3 @@ function SkillTip:OnConstruct(windowCom)
 end
 
 return SkillTip;
-
---self.uiComs=require('ToolGen.04_general_information.SkillTip'):OnConstruct(self.contentPane)

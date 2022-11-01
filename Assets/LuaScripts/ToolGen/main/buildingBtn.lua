@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local buildingBtn = {};
 
-buildingBtn.URL = "ui://4ni413lanil";
+buildingBtn.URL = "ui://main/buildingBtn";
 
 function buildingBtn:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function buildingBtn:OnConstruct(windowCom)
 end
 
 return buildingBtn;
-
---self.uiComs=require('ToolGen.main.buildingBtn'):OnConstruct(self.contentPane)

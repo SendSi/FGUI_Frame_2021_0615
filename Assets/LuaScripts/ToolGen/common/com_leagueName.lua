@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local com_leagueName = {};
 
-com_leagueName.URL = "ui://2r331opvnil";
+com_leagueName.URL = "ui://common/com_leagueName";
 
 function com_leagueName:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function com_leagueName:OnConstruct(windowCom)
 end
 
 return com_leagueName;
-
---self.uiComs=require('ToolGen.common.com_leagueName'):OnConstruct(self.contentPane)

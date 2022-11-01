@@ -24,7 +24,7 @@
 ---@field public m_n19 CS.FairyGUI.GGroup
 local warningItem = {};
 
-warningItem.URL = "ui://4ni413lanil";
+warningItem.URL = "ui://main/warningItem";
 
 function warningItem:OnConstruct(windowCom)
 	local tb = {
@@ -53,5 +53,3 @@ function warningItem:OnConstruct(windowCom)
 end
 
 return warningItem;
-
---self.uiComs=require('ToolGen.main.warningItem'):OnConstruct(self.contentPane)

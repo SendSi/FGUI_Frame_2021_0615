@@ -8,7 +8,7 @@
 ---@field public m_title_2 CS.FairyGUI.GTextField
 local word = {};
 
-word.URL = "ui://4ni413lanil";
+word.URL = "ui://main/word";
 
 function word:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function word:OnConstruct(windowCom)
 end
 
 return word;
-
---self.uiComs=require('ToolGen.main.word'):OnConstruct(self.contentPane)

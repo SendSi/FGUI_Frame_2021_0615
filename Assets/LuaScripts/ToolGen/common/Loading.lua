@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local Loading = {};
 
-Loading.URL = "ui://2r331opvnil";
+Loading.URL = "ui://common/Loading";
 
 function Loading:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function Loading:OnConstruct(windowCom)
 end
 
 return Loading;
-
---self.uiComs=require('ToolGen.common.Loading'):OnConstruct(self.contentPane)

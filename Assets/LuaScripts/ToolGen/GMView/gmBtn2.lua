@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local gmBtn2 = {};
 
-gmBtn2.URL = "ui://21uyefv8nil";
+gmBtn2.URL = "ui://GMView/gmBtn2";
 
 function gmBtn2:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function gmBtn2:OnConstruct(windowCom)
 end
 
 return gmBtn2;
-
---self.uiComs=require('ToolGen.GMView.gmBtn2'):OnConstruct(self.contentPane)

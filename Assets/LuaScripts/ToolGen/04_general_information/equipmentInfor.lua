@@ -7,7 +7,7 @@
 ---@field public m_num CS.FairyGUI.GTextField
 local equipmentInfor = {};
 
-equipmentInfor.URL = "ui://4hio38umnil";
+equipmentInfor.URL = "ui://04_general_information/equipmentInfor";
 
 function equipmentInfor:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function equipmentInfor:OnConstruct(windowCom)
 end
 
 return equipmentInfor;
-
---self.uiComs=require('ToolGen.04_general_information.equipmentInfor'):OnConstruct(self.contentPane)

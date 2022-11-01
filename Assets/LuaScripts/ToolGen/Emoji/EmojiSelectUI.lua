@@ -6,7 +6,7 @@
 ---@field public m_list CS.FairyGUI.GList
 local EmojiSelectUI = {};
 
-EmojiSelectUI.URL = "ui://y768eypanil";
+EmojiSelectUI.URL = "ui://Emoji/EmojiSelectUI";
 
 function EmojiSelectUI:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function EmojiSelectUI:OnConstruct(windowCom)
 end
 
 return EmojiSelectUI;
-
---self.uiComs=require('ToolGen.Emoji.EmojiSelectUI'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GRichTextField
 local MoreProperties = {};
 
-MoreProperties.URL = "ui://jqem9egtnil";
+MoreProperties.URL = "ui://08_Troops/MoreProperties";
 
 function MoreProperties:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function MoreProperties:OnConstruct(windowCom)
 end
 
 return MoreProperties;
-
---self.uiComs=require('ToolGen.08_Troops.MoreProperties'):OnConstruct(self.contentPane)

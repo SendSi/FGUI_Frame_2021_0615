@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local Button_delete = {};
 
-Button_delete.URL = "ui://62wjs2s2nil";
+Button_delete.URL = "ui://14_chat/Button_delete";
 
 function Button_delete:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function Button_delete:OnConstruct(windowCom)
 end
 
 return Button_delete;
-
---self.uiComs=require('ToolGen.14_chat.Button_delete'):OnConstruct(self.contentPane)

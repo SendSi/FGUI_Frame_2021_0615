@@ -5,7 +5,7 @@
 
 local Empty = {};
 
-Empty.URL = "ui://4hio38umnil";
+Empty.URL = "ui://04_general_information/Empty";
 
 function Empty:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function Empty:OnConstruct(windowCom)
 end
 
 return Empty;
-
---self.uiComs=require('ToolGen.04_general_information.Empty'):OnConstruct(self.contentPane)

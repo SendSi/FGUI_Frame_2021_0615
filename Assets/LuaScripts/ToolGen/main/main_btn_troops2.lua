@@ -9,7 +9,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local main_btn_troops2 = {};
 
-main_btn_troops2.URL = "ui://4ni413lanil";
+main_btn_troops2.URL = "ui://main/main_btn_troops2";
 
 function main_btn_troops2:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function main_btn_troops2:OnConstruct(windowCom)
 end
 
 return main_btn_troops2;
-
---self.uiComs=require('ToolGen.main.main_btn_troops2'):OnConstruct(self.contentPane)

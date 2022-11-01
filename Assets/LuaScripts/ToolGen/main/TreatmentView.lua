@@ -34,7 +34,7 @@
 ---@field public m_win CS.FairyGUI.GGroup
 local TreatmentView = {};
 
-TreatmentView.URL = "ui://4ni413lanil";
+TreatmentView.URL = "ui://main/TreatmentView";
 
 function TreatmentView:OnConstruct(windowCom)
 	local tb = {
@@ -73,5 +73,3 @@ function TreatmentView:OnConstruct(windowCom)
 end
 
 return TreatmentView;
-
---self.uiComs=require('ToolGen.main.TreatmentView'):OnConstruct(self.contentPane)

@@ -12,7 +12,7 @@
 ---@field public m_icon_logo CS.FairyGUI.GLoader
 local LoginMainView = {};
 
-LoginMainView.URL = "ui://byy9k3ghnil";
+LoginMainView.URL = "ui://login/LoginMainView";
 
 function LoginMainView:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function LoginMainView:OnConstruct(windowCom)
 end
 
 return LoginMainView;
-
---self.uiComs=require('ToolGen.login.LoginMainView'):OnConstruct(self.contentPane)

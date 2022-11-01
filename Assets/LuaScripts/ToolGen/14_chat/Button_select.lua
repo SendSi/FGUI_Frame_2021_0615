@@ -6,7 +6,7 @@
 ---@field public m_n2 CS.FairyGUI.GImage
 local Button_select = {};
 
-Button_select.URL = "ui://62wjs2s2nil";
+Button_select.URL = "ui://14_chat/Button_select";
 
 function Button_select:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function Button_select:OnConstruct(windowCom)
 end
 
 return Button_select;
-
---self.uiComs=require('ToolGen.14_chat.Button_select'):OnConstruct(self.contentPane)

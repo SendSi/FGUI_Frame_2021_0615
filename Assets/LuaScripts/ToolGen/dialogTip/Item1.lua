@@ -6,7 +6,7 @@
 ---@field public m_centerList CS.FairyGUI.GList
 local Item1 = {};
 
-Item1.URL = "ui://utp01xianil";
+Item1.URL = "ui://dialogTip/Item1";
 
 function Item1:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function Item1:OnConstruct(windowCom)
 end
 
 return Item1;
-
---self.uiComs=require('ToolGen.dialogTip.Item1'):OnConstruct(self.contentPane)

@@ -9,7 +9,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local plate03 = {};
 
-plate03.URL = "ui://byy9k3ghnil";
+plate03.URL = "ui://login/plate03";
 
 function plate03:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function plate03:OnConstruct(windowCom)
 end
 
 return plate03;
-
---self.uiComs=require('ToolGen.login.plate03'):OnConstruct(self.contentPane)

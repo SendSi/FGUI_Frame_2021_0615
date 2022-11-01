@@ -5,7 +5,7 @@
 ---@field public m_bar CS.FairyGUI.GImage
 local bar_yellow = {};
 
-bar_yellow.URL = "ui://4ni413lanil";
+bar_yellow.URL = "ui://main/bar_yellow";
 
 function bar_yellow:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function bar_yellow:OnConstruct(windowCom)
 end
 
 return bar_yellow;
-
---self.uiComs=require('ToolGen.main.bar_yellow'):OnConstruct(self.contentPane)

@@ -17,7 +17,7 @@
 ---@field public m_wayBtn CS.FairyGUI.GButton
 local SiegeOrderView = {};
 
-SiegeOrderView.URL = "ui://4ni413lanil";
+SiegeOrderView.URL = "ui://main/SiegeOrderView";
 
 function SiegeOrderView:OnConstruct(windowCom)
 	local tb = {
@@ -39,5 +39,3 @@ function SiegeOrderView:OnConstruct(windowCom)
 end
 
 return SiegeOrderView;
-
---self.uiComs=require('ToolGen.main.SiegeOrderView'):OnConstruct(self.contentPane)

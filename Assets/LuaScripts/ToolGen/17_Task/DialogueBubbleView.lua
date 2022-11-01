@@ -11,7 +11,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local DialogueBubbleView = {};
 
-DialogueBubbleView.URL = "ui://zezobey9nil";
+DialogueBubbleView.URL = "ui://17_Task/DialogueBubbleView";
 
 function DialogueBubbleView:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function DialogueBubbleView:OnConstruct(windowCom)
 end
 
 return DialogueBubbleView;
-
---self.uiComs=require('ToolGen.17_Task.DialogueBubbleView'):OnConstruct(self.contentPane)

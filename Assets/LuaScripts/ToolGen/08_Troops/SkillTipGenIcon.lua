@@ -11,7 +11,7 @@
 ---@field public m_name CS.FairyGUI.GTextField
 local SkillTipGenIcon = {};
 
-SkillTipGenIcon.URL = "ui://jqem9egtnil";
+SkillTipGenIcon.URL = "ui://08_Troops/SkillTipGenIcon";
 
 function SkillTipGenIcon:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function SkillTipGenIcon:OnConstruct(windowCom)
 end
 
 return SkillTipGenIcon;
-
---self.uiComs=require('ToolGen.08_Troops.SkillTipGenIcon'):OnConstruct(self.contentPane)

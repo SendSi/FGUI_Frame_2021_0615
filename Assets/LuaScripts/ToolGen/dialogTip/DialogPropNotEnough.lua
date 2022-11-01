@@ -14,7 +14,7 @@
 ---@field public m_n9 CS.FairyGUI.GGroup
 local DialogPropNotEnough = {};
 
-DialogPropNotEnough.URL = "ui://utp01xianil";
+DialogPropNotEnough.URL = "ui://dialogTip/DialogPropNotEnough";
 
 function DialogPropNotEnough:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function DialogPropNotEnough:OnConstruct(windowCom)
 end
 
 return DialogPropNotEnough;
-
---self.uiComs=require('ToolGen.dialogTip.DialogPropNotEnough'):OnConstruct(self.contentPane)

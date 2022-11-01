@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local noticeItem = {};
 
-noticeItem.URL = "ui://byy9k3ghnil";
+noticeItem.URL = "ui://login/noticeItem";
 
 function noticeItem:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function noticeItem:OnConstruct(windowCom)
 end
 
 return noticeItem;
-
---self.uiComs=require('ToolGen.login.noticeItem'):OnConstruct(self.contentPane)

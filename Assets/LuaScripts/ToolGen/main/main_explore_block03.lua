@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local main_explore_block03 = {};
 
-main_explore_block03.URL = "ui://4ni413lanil";
+main_explore_block03.URL = "ui://main/main_explore_block03";
 
 function main_explore_block03:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function main_explore_block03:OnConstruct(windowCom)
 end
 
 return main_explore_block03;
-
---self.uiComs=require('ToolGen.main.main_explore_block03'):OnConstruct(self.contentPane)

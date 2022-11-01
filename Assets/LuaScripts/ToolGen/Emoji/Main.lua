@@ -16,7 +16,7 @@
 ---@field public m_n18 CS.FairyGUI.GTextField
 local Main = {};
 
-Main.URL = "ui://y768eypanil";
+Main.URL = "ui://Emoji/Main";
 
 function Main:OnConstruct(windowCom)
 	local tb = {
@@ -37,5 +37,3 @@ function Main:OnConstruct(windowCom)
 end
 
 return Main;
-
---self.uiComs=require('ToolGen.Emoji.Main'):OnConstruct(self.contentPane)

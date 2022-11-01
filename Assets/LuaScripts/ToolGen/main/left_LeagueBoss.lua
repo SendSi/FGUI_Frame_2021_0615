@@ -9,7 +9,7 @@
 ---@field public m_focusBtn CS.FairyGUI.GButton
 local left_LeagueBoss = {};
 
-left_LeagueBoss.URL = "ui://4ni413lanil";
+left_LeagueBoss.URL = "ui://main/left_LeagueBoss";
 
 function left_LeagueBoss:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function left_LeagueBoss:OnConstruct(windowCom)
 end
 
 return left_LeagueBoss;
-
---self.uiComs=require('ToolGen.main.left_LeagueBoss'):OnConstruct(self.contentPane)

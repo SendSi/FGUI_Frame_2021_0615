@@ -13,7 +13,7 @@
 ---@field public m_Star1 CS.FairyGUI.GImage
 local chief = {};
 
-chief.URL = "ui://4ni413lanil";
+chief.URL = "ui://main/chief";
 
 function chief:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function chief:OnConstruct(windowCom)
 end
 
 return chief;
-
---self.uiComs=require('ToolGen.main.chief'):OnConstruct(self.contentPane)

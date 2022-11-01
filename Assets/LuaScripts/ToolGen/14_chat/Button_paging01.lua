@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local Button_paging01 = {};
 
-Button_paging01.URL = "ui://62wjs2s2nil";
+Button_paging01.URL = "ui://14_chat/Button_paging01";
 
 function Button_paging01:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function Button_paging01:OnConstruct(windowCom)
 end
 
 return Button_paging01;
-
---self.uiComs=require('ToolGen.14_chat.Button_paging01'):OnConstruct(self.contentPane)

@@ -12,7 +12,7 @@
 ---@field public m_n7 CS.FairyGUI.GImage
 local equipmentIcon2_2 = {};
 
-equipmentIcon2_2.URL = "ui://2r331opvnil";
+equipmentIcon2_2.URL = "ui://common/equipmentIcon2_2";
 
 function equipmentIcon2_2:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function equipmentIcon2_2:OnConstruct(windowCom)
 end
 
 return equipmentIcon2_2;
-
---self.uiComs=require('ToolGen.common.equipmentIcon2_2'):OnConstruct(self.contentPane)

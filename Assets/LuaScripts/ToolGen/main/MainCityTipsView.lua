@@ -27,7 +27,7 @@
 ---@field public m_otherBtn CS.FairyGUI.GGroup
 local MainCityTipsView = {};
 
-MainCityTipsView.URL = "ui://4ni413lanil";
+MainCityTipsView.URL = "ui://main/MainCityTipsView";
 
 function MainCityTipsView:OnConstruct(windowCom)
 	local tb = {
@@ -59,5 +59,3 @@ function MainCityTipsView:OnConstruct(windowCom)
 end
 
 return MainCityTipsView;
-
---self.uiComs=require('ToolGen.main.MainCityTipsView'):OnConstruct(self.contentPane)

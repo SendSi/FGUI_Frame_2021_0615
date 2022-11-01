@@ -8,7 +8,7 @@
 ---@field public m_t1 CS.FairyGUI.Transition
 local attribute001 = {};
 
-attribute001.URL = "ui://utp01xianil";
+attribute001.URL = "ui://dialogTip/attribute001";
 
 function attribute001:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function attribute001:OnConstruct(windowCom)
 end
 
 return attribute001;
-
---self.uiComs=require('ToolGen.dialogTip.attribute001'):OnConstruct(self.contentPane)

@@ -28,7 +28,7 @@
 ---@field public m_win CS.FairyGUI.GGroup
 local MoraleView = {};
 
-MoraleView.URL = "ui://4ni413lanil";
+MoraleView.URL = "ui://main/MoraleView";
 
 function MoraleView:OnConstruct(windowCom)
 	local tb = {
@@ -61,5 +61,3 @@ function MoraleView:OnConstruct(windowCom)
 end
 
 return MoraleView;
-
---self.uiComs=require('ToolGen.main.MoraleView'):OnConstruct(self.contentPane)

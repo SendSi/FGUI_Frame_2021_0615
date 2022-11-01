@@ -18,7 +18,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local DialogCityUpgradeView = {};
 
-DialogCityUpgradeView.URL = "ui://utp01xianil";
+DialogCityUpgradeView.URL = "ui://dialogTip/DialogCityUpgradeView";
 
 function DialogCityUpgradeView:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function DialogCityUpgradeView:OnConstruct(windowCom)
 end
 
 return DialogCityUpgradeView;
-
---self.uiComs=require('ToolGen.dialogTip.DialogCityUpgradeView'):OnConstruct(self.contentPane)

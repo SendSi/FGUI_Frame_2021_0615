@@ -8,7 +8,7 @@
 ---@field public m_show CS.FairyGUI.Transition
 local ExploreBoard = {};
 
-ExploreBoard.URL = "ui://4ni413lanil";
+ExploreBoard.URL = "ui://main/ExploreBoard";
 
 function ExploreBoard:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function ExploreBoard:OnConstruct(windowCom)
 end
 
 return ExploreBoard;
-
---self.uiComs=require('ToolGen.main.ExploreBoard'):OnConstruct(self.contentPane)

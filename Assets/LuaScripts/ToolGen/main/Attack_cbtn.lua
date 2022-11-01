@@ -8,7 +8,7 @@
 ---@field public m_bg01 CS.FairyGUI.GImage
 local Attack_cbtn = {};
 
-Attack_cbtn.URL = "ui://4ni413lanil";
+Attack_cbtn.URL = "ui://main/Attack_cbtn";
 
 function Attack_cbtn:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function Attack_cbtn:OnConstruct(windowCom)
 end
 
 return Attack_cbtn;
-
---self.uiComs=require('ToolGen.main.Attack_cbtn'):OnConstruct(self.contentPane)

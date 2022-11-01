@@ -12,7 +12,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local monsterHp = {};
 
-monsterHp.URL = "ui://4ni413lanil";
+monsterHp.URL = "ui://main/monsterHp";
 
 function monsterHp:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function monsterHp:OnConstruct(windowCom)
 end
 
 return monsterHp;
-
---self.uiComs=require('ToolGen.main.monsterHp'):OnConstruct(self.contentPane)

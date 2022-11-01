@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local redPoint = {};
 
-redPoint.URL = "ui://2r331opvnil";
+redPoint.URL = "ui://common/redPoint";
 
 function redPoint:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function redPoint:OnConstruct(windowCom)
 end
 
 return redPoint;
-
---self.uiComs=require('ToolGen.common.redPoint'):OnConstruct(self.contentPane)

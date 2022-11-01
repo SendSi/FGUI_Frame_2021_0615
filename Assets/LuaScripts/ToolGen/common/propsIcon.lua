@@ -9,7 +9,7 @@
 ---@field public m_number CS.FairyGUI.GTextField
 local propsIcon = {};
 
-propsIcon.URL = "ui://2r331opvnil";
+propsIcon.URL = "ui://common/propsIcon";
 
 function propsIcon:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function propsIcon:OnConstruct(windowCom)
 end
 
 return propsIcon;
-
---self.uiComs=require('ToolGen.common.propsIcon'):OnConstruct(self.contentPane)

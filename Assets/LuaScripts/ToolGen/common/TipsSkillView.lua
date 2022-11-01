@@ -12,7 +12,7 @@
 ---@field public m_view CS.FairyGUI.GGroup
 local TipsSkillView = {};
 
-TipsSkillView.URL = "ui://2r331opvnil";
+TipsSkillView.URL = "ui://common/TipsSkillView";
 
 function TipsSkillView:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function TipsSkillView:OnConstruct(windowCom)
 end
 
 return TipsSkillView;
-
---self.uiComs=require('ToolGen.common.TipsSkillView'):OnConstruct(self.contentPane)

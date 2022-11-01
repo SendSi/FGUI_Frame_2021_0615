@@ -6,7 +6,7 @@
 ---@field public m_active_skill CS.FairyGUI.GButton
 local skill = {};
 
-skill.URL = "ui://jqem9egtnil";
+skill.URL = "ui://08_Troops/skill";
 
 function skill:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function skill:OnConstruct(windowCom)
 end
 
 return skill;
-
---self.uiComs=require('ToolGen.08_Troops.skill'):OnConstruct(self.contentPane)

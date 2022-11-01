@@ -9,7 +9,7 @@
 ---@field public m_chief CS.FairyGUI.GGroup
 local comItem_FirstReward = {};
 
-comItem_FirstReward.URL = "ui://2r331opvnil";
+comItem_FirstReward.URL = "ui://common/comItem_FirstReward";
 
 function comItem_FirstReward:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function comItem_FirstReward:OnConstruct(windowCom)
 end
 
 return comItem_FirstReward;
-
---self.uiComs=require('ToolGen.common.comItem_FirstReward'):OnConstruct(self.contentPane)

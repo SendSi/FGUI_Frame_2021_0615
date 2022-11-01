@@ -10,7 +10,7 @@
 ---@field public m_n8 CS.FairyGUI.GImage
 local collection_btn_check = {};
 
-collection_btn_check.URL = "ui://4ni413lanil";
+collection_btn_check.URL = "ui://main/collection_btn_check";
 
 function collection_btn_check:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function collection_btn_check:OnConstruct(windowCom)
 end
 
 return collection_btn_check;
-
---self.uiComs=require('ToolGen.main.collection_btn_check'):OnConstruct(self.contentPane)

@@ -19,7 +19,7 @@
 ---@field public m_emjio2 CS.FairyGUI.Transition
 local ChequerSelectView = {};
 
-ChequerSelectView.URL = "ui://4ni413lanil";
+ChequerSelectView.URL = "ui://main/ChequerSelectView";
 
 function ChequerSelectView:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function ChequerSelectView:OnConstruct(windowCom)
 end
 
 return ChequerSelectView;
-
---self.uiComs=require('ToolGen.main.ChequerSelectView'):OnConstruct(self.contentPane)

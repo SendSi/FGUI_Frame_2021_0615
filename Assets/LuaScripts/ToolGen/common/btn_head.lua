@@ -10,7 +10,7 @@
 ---@field public m_red_2 red_dot
 local btn_head = {};
 
-btn_head.URL = "ui://2r331opvnil";
+btn_head.URL = "ui://common/btn_head";
 
 function btn_head:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function btn_head:OnConstruct(windowCom)
 end
 
 return btn_head;
-
---self.uiComs=require('ToolGen.common.btn_head'):OnConstruct(self.contentPane)

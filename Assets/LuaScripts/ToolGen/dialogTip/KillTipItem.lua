@@ -8,7 +8,7 @@
 ---@field public m_moveAlpha CS.FairyGUI.Transition
 local KillTipItem = {};
 
-KillTipItem.URL = "ui://utp01xianil";
+KillTipItem.URL = "ui://dialogTip/KillTipItem";
 
 function KillTipItem:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function KillTipItem:OnConstruct(windowCom)
 end
 
 return KillTipItem;
-
---self.uiComs=require('ToolGen.dialogTip.KillTipItem'):OnConstruct(self.contentPane)

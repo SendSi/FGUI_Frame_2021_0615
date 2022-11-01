@@ -9,7 +9,7 @@
 ---@field public m_red_2 CS.FairyGUI.GButton
 local main_btn_switch = {};
 
-main_btn_switch.URL = "ui://4ni413lanil";
+main_btn_switch.URL = "ui://main/main_btn_switch";
 
 function main_btn_switch:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function main_btn_switch:OnConstruct(windowCom)
 end
 
 return main_btn_switch;
-
---self.uiComs=require('ToolGen.main.main_btn_switch'):OnConstruct(self.contentPane)

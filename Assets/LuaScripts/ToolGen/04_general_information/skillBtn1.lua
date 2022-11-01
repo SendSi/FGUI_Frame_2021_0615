@@ -9,7 +9,7 @@
 ---@field public m_n80 CS.FairyGUI.GImage
 local skillBtn1 = {};
 
-skillBtn1.URL = "ui://4hio38umnil";
+skillBtn1.URL = "ui://04_general_information/skillBtn1";
 
 function skillBtn1:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function skillBtn1:OnConstruct(windowCom)
 end
 
 return skillBtn1;
-
---self.uiComs=require('ToolGen.04_general_information.skillBtn1'):OnConstruct(self.contentPane)

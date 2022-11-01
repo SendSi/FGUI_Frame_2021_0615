@@ -5,7 +5,7 @@
 ---@field public m_list CS.FairyGUI.GList
 local main_right_function2 = {};
 
-main_right_function2.URL = "ui://4ni413lanil";
+main_right_function2.URL = "ui://main/main_right_function2";
 
 function main_right_function2:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function main_right_function2:OnConstruct(windowCom)
 end
 
 return main_right_function2;
-
---self.uiComs=require('ToolGen.main.main_right_function2'):OnConstruct(self.contentPane)

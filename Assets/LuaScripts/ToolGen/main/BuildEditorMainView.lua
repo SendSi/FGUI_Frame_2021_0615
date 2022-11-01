@@ -17,7 +17,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local BuildEditorMainView = {};
 
-BuildEditorMainView.URL = "ui://4ni413lanil";
+BuildEditorMainView.URL = "ui://main/BuildEditorMainView";
 
 function BuildEditorMainView:OnConstruct(windowCom)
 	local tb = {
@@ -39,5 +39,3 @@ function BuildEditorMainView:OnConstruct(windowCom)
 end
 
 return BuildEditorMainView;
-
---self.uiComs=require('ToolGen.main.BuildEditorMainView'):OnConstruct(self.contentPane)

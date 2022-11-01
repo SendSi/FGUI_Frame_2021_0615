@@ -13,7 +13,7 @@
 ---@field public m_state main_teamStae
 local generalIcon1 = {};
 
-generalIcon1.URL = "ui://2r331opvnil";
+generalIcon1.URL = "ui://common/generalIcon1";
 
 function generalIcon1:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function generalIcon1:OnConstruct(windowCom)
 end
 
 return generalIcon1;
-
---self.uiComs=require('ToolGen.common.generalIcon1'):OnConstruct(self.contentPane)

@@ -7,7 +7,7 @@
 ---@field public m_closeButton CS.FairyGUI.GButton
 local VideoView = {};
 
-VideoView.URL = "ui://tw3a0vqxnil";
+VideoView.URL = "ui://Video/VideoView";
 
 function VideoView:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function VideoView:OnConstruct(windowCom)
 end
 
 return VideoView;
-
---self.uiComs=require('ToolGen.Video.VideoView'):OnConstruct(self.contentPane)

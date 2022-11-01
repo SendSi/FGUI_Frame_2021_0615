@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GComponent
 local main_trboard_wrap = {};
 
-main_trboard_wrap.URL = "ui://4ni413lanil";
+main_trboard_wrap.URL = "ui://main/main_trboard_wrap";
 
 function main_trboard_wrap:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function main_trboard_wrap:OnConstruct(windowCom)
 end
 
 return main_trboard_wrap;
-
---self.uiComs=require('ToolGen.main.main_trboard_wrap'):OnConstruct(self.contentPane)

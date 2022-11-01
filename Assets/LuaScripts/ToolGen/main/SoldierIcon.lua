@@ -6,7 +6,7 @@
 ---@field public m_soldier CS.FairyGUI.GLoader
 local SoldierIcon = {};
 
-SoldierIcon.URL = "ui://4ni413lanil";
+SoldierIcon.URL = "ui://main/SoldierIcon";
 
 function SoldierIcon:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function SoldierIcon:OnConstruct(windowCom)
 end
 
 return SoldierIcon;
-
---self.uiComs=require('ToolGen.main.SoldierIcon'):OnConstruct(self.contentPane)

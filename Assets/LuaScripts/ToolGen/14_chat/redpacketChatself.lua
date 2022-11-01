@@ -12,7 +12,7 @@
 ---@field public m_oth CS.FairyGUI.Transition
 local redpacketChatself = {};
 
-redpacketChatself.URL = "ui://62wjs2s2nil";
+redpacketChatself.URL = "ui://14_chat/redpacketChatself";
 
 function redpacketChatself:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function redpacketChatself:OnConstruct(windowCom)
 end
 
 return redpacketChatself;
-
---self.uiComs=require('ToolGen.14_chat.redpacketChatself'):OnConstruct(self.contentPane)

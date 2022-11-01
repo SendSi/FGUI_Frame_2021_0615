@@ -29,7 +29,7 @@
 ---@field public m_tipShow CS.FairyGUI.GTextField
 local comItem = {};
 
-comItem.URL = "ui://2r331opvnil";
+comItem.URL = "ui://common/comItem";
 
 function comItem:OnConstruct(windowCom)
 	local tb = {
@@ -63,5 +63,3 @@ function comItem:OnConstruct(windowCom)
 end
 
 return comItem;
-
---self.uiComs=require('ToolGen.common.comItem'):OnConstruct(self.contentPane)

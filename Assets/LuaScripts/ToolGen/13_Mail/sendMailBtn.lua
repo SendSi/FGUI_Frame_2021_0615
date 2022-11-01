@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local sendMailBtn = {};
 
-sendMailBtn.URL = "ui://ufsajnnznil";
+sendMailBtn.URL = "ui://13_Mail/sendMailBtn";
 
 function sendMailBtn:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function sendMailBtn:OnConstruct(windowCom)
 end
 
 return sendMailBtn;
-
---self.uiComs=require('ToolGen.13_Mail.sendMailBtn'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_n10 CS.FairyGUI.GLoader
 local main_btn_weather = {};
 
-main_btn_weather.URL = "ui://4ni413lanil";
+main_btn_weather.URL = "ui://main/main_btn_weather";
 
 function main_btn_weather:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function main_btn_weather:OnConstruct(windowCom)
 end
 
 return main_btn_weather;
-
---self.uiComs=require('ToolGen.main.main_btn_weather'):OnConstruct(self.contentPane)

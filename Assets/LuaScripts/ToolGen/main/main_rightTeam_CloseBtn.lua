@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local main_rightTeam_CloseBtn = {};
 
-main_rightTeam_CloseBtn.URL = "ui://4ni413lanil";
+main_rightTeam_CloseBtn.URL = "ui://main/main_rightTeam_CloseBtn";
 
 function main_rightTeam_CloseBtn:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function main_rightTeam_CloseBtn:OnConstruct(windowCom)
 end
 
 return main_rightTeam_CloseBtn;
-
---self.uiComs=require('ToolGen.main.main_rightTeam_CloseBtn'):OnConstruct(self.contentPane)

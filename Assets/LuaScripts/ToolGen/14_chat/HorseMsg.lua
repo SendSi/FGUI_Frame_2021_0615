@@ -7,7 +7,7 @@
 ---@field public m_horse_race_lamp CS.FairyGUI.GGroup
 local HorseMsg = {};
 
-HorseMsg.URL = "ui://62wjs2s2nil";
+HorseMsg.URL = "ui://14_chat/HorseMsg";
 
 function HorseMsg:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function HorseMsg:OnConstruct(windowCom)
 end
 
 return HorseMsg;
-
---self.uiComs=require('ToolGen.14_chat.HorseMsg'):OnConstruct(self.contentPane)

@@ -12,7 +12,7 @@
 ---@field public m_boxani CS.FairyGUI.Transition
 local com_limit_btn = {};
 
-com_limit_btn.URL = "ui://2r331opvnil";
+com_limit_btn.URL = "ui://common/com_limit_btn";
 
 function com_limit_btn:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function com_limit_btn:OnConstruct(windowCom)
 end
 
 return com_limit_btn;
-
---self.uiComs=require('ToolGen.common.com_limit_btn'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local com_btn_switch = {};
 
-com_btn_switch.URL = "ui://2r331opvnil";
+com_btn_switch.URL = "ui://common/com_btn_switch";
 
 function com_btn_switch:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function com_btn_switch:OnConstruct(windowCom)
 end
 
 return com_btn_switch;
-
---self.uiComs=require('ToolGen.common.com_btn_switch'):OnConstruct(self.contentPane)

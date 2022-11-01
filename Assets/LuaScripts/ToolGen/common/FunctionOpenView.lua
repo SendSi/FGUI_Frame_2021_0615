@@ -13,7 +13,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local FunctionOpenView = {};
 
-FunctionOpenView.URL = "ui://2r331opvnil";
+FunctionOpenView.URL = "ui://common/FunctionOpenView";
 
 function FunctionOpenView:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function FunctionOpenView:OnConstruct(windowCom)
 end
 
 return FunctionOpenView;
-
---self.uiComs=require('ToolGen.common.FunctionOpenView'):OnConstruct(self.contentPane)

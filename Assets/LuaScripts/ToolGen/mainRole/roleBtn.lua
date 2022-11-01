@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local roleBtn = {};
 
-roleBtn.URL = "ui://66sh7tc6nil";
+roleBtn.URL = "ui://mainRole/roleBtn";
 
 function roleBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function roleBtn:OnConstruct(windowCom)
 end
 
 return roleBtn;
-
---self.uiComs=require('ToolGen.mainRole.roleBtn'):OnConstruct(self.contentPane)

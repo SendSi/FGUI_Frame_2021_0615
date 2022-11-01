@@ -48,7 +48,7 @@
 ---@field public m_propTopList CS.FairyGUI.GComponent
 local SendMailView = {};
 
-SendMailView.URL = "ui://ufsajnnznil";
+SendMailView.URL = "ui://13_Mail/SendMailView";
 
 function SendMailView:OnConstruct(windowCom)
 	local tb = {
@@ -101,5 +101,3 @@ function SendMailView:OnConstruct(windowCom)
 end
 
 return SendMailView;
-
---self.uiComs=require('ToolGen.13_Mail.SendMailView'):OnConstruct(self.contentPane)

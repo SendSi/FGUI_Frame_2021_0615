@@ -8,7 +8,7 @@
 ---@field public m_n21 CS.FairyGUI.GButton
 local posItem = {};
 
-posItem.URL = "ui://ufsajnnznil";
+posItem.URL = "ui://13_Mail/posItem";
 
 function posItem:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function posItem:OnConstruct(windowCom)
 end
 
 return posItem;
-
---self.uiComs=require('ToolGen.13_Mail.posItem'):OnConstruct(self.contentPane)

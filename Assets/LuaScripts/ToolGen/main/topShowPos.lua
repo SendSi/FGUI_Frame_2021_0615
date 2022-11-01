@@ -7,7 +7,7 @@
 ---@field public m_weather main_btn_weather
 local topShowPos = {};
 
-topShowPos.URL = "ui://4ni413lanil";
+topShowPos.URL = "ui://main/topShowPos";
 
 function topShowPos:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function topShowPos:OnConstruct(windowCom)
 end
 
 return topShowPos;
-
---self.uiComs=require('ToolGen.main.topShowPos'):OnConstruct(self.contentPane)

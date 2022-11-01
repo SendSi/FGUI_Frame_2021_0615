@@ -29,7 +29,7 @@
 ---@field public m_closeButton CS.FairyGUI.GButton
 local BreakSuccessView = {};
 
-BreakSuccessView.URL = "ui://4hio38umnil";
+BreakSuccessView.URL = "ui://04_general_information/BreakSuccessView";
 
 function BreakSuccessView:OnConstruct(windowCom)
 	local tb = {
@@ -63,5 +63,3 @@ function BreakSuccessView:OnConstruct(windowCom)
 end
 
 return BreakSuccessView;
-
---self.uiComs=require('ToolGen.04_general_information.BreakSuccessView'):OnConstruct(self.contentPane)

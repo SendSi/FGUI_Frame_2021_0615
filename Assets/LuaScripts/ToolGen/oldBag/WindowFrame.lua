@@ -8,7 +8,7 @@
 ---@field public m_closeButton CloseButton
 local WindowFrame = {};
 
-WindowFrame.URL = "ui://rbw1tv9tnil";
+WindowFrame.URL = "ui://oldBag/WindowFrame";
 
 function WindowFrame:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function WindowFrame:OnConstruct(windowCom)
 end
 
 return WindowFrame;
-
---self.uiComs=require('ToolGen.oldBag.WindowFrame'):OnConstruct(self.contentPane)

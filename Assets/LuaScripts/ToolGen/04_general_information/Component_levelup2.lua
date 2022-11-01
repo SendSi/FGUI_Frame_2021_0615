@@ -110,7 +110,7 @@
 ---@field public m_equipGroup CS.FairyGUI.GGroup
 local Component_levelup2 = {};
 
-Component_levelup2.URL = "ui://4hio38umnil";
+Component_levelup2.URL = "ui://04_general_information/Component_levelup2";
 
 function Component_levelup2:OnConstruct(windowCom)
 	local tb = {
@@ -225,5 +225,3 @@ function Component_levelup2:OnConstruct(windowCom)
 end
 
 return Component_levelup2;
-
---self.uiComs=require('ToolGen.04_general_information.Component_levelup2'):OnConstruct(self.contentPane)

@@ -12,7 +12,7 @@
 ---@field public m_nameLbl CS.FairyGUI.GTextField
 local mapNameBtn = {};
 
-mapNameBtn.URL = "ui://4ni413lanil";
+mapNameBtn.URL = "ui://main/mapNameBtn";
 
 function mapNameBtn:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function mapNameBtn:OnConstruct(windowCom)
 end
 
 return mapNameBtn;
-
---self.uiComs=require('ToolGen.main.mapNameBtn'):OnConstruct(self.contentPane)

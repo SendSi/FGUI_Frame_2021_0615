@@ -23,7 +23,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local MailItem = {};
 
-MailItem.URL = "ui://ufsajnnznil";
+MailItem.URL = "ui://13_Mail/MailItem";
 
 function MailItem:OnConstruct(windowCom)
 	local tb = {
@@ -51,5 +51,3 @@ function MailItem:OnConstruct(windowCom)
 end
 
 return MailItem;
-
---self.uiComs=require('ToolGen.13_Mail.MailItem'):OnConstruct(self.contentPane)

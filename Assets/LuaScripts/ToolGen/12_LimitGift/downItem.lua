@@ -7,7 +7,7 @@
 ---@field public m_n2 CS.FairyGUI.GGraph
 local downItem = {};
 
-downItem.URL = "ui://jylg23gnnil";
+downItem.URL = "ui://12_LimitGift/downItem";
 
 function downItem:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function downItem:OnConstruct(windowCom)
 end
 
 return downItem;
-
---self.uiComs=require('ToolGen.12_LimitGift.downItem'):OnConstruct(self.contentPane)

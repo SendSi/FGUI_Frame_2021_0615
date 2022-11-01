@@ -7,7 +7,7 @@
 ---@field public m_childRoot TroopBoardViewChild
 local TroopBoardView = {};
 
-TroopBoardView.URL = "ui://4ni413lanil";
+TroopBoardView.URL = "ui://main/TroopBoardView";
 
 function TroopBoardView:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function TroopBoardView:OnConstruct(windowCom)
 end
 
 return TroopBoardView;
-
---self.uiComs=require('ToolGen.main.TroopBoardView'):OnConstruct(self.contentPane)

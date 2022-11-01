@@ -19,7 +19,7 @@
 ---@field public m_view1 CS.FairyGUI.GGroup
 local sharePlaceView = {};
 
-sharePlaceView.URL = "ui://4ni413lanil";
+sharePlaceView.URL = "ui://main/sharePlaceView";
 
 function sharePlaceView:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function sharePlaceView:OnConstruct(windowCom)
 end
 
 return sharePlaceView;
-
---self.uiComs=require('ToolGen.main.sharePlaceView'):OnConstruct(self.contentPane)

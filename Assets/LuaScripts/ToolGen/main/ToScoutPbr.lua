@@ -7,7 +7,7 @@
 ---@field public m_title1 CS.FairyGUI.GTextField
 local ToScoutPbr = {};
 
-ToScoutPbr.URL = "ui://4ni413lanil";
+ToScoutPbr.URL = "ui://main/ToScoutPbr";
 
 function ToScoutPbr:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function ToScoutPbr:OnConstruct(windowCom)
 end
 
 return ToScoutPbr;
-
---self.uiComs=require('ToolGen.main.ToScoutPbr'):OnConstruct(self.contentPane)

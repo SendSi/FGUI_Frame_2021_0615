@@ -9,7 +9,7 @@
 ---@field public m_redPoint CS.FairyGUI.GButton
 local main_btn = {};
 
-main_btn.URL = "ui://4ni413lanil";
+main_btn.URL = "ui://main/main_btn";
 
 function main_btn:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function main_btn:OnConstruct(windowCom)
 end
 
 return main_btn;
-
---self.uiComs=require('ToolGen.main.main_btn'):OnConstruct(self.contentPane)

@@ -13,7 +13,7 @@
 ---@field public m_base_colour CS.FairyGUI.GLoader
 local flagIcon = {};
 
-flagIcon.URL = "ui://2r331opvnil";
+flagIcon.URL = "ui://common/flagIcon";
 
 function flagIcon:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function flagIcon:OnConstruct(windowCom)
 end
 
 return flagIcon;
-
---self.uiComs=require('ToolGen.common.flagIcon'):OnConstruct(self.contentPane)

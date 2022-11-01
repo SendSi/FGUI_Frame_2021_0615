@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local Emoji_Button_bg = {};
 
-Emoji_Button_bg.URL = "ui://2r331opvnil";
+Emoji_Button_bg.URL = "ui://common/Emoji_Button_bg";
 
 function Emoji_Button_bg:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function Emoji_Button_bg:OnConstruct(windowCom)
 end
 
 return Emoji_Button_bg;
-
---self.uiComs=require('ToolGen.common.Emoji_Button_bg'):OnConstruct(self.contentPane)

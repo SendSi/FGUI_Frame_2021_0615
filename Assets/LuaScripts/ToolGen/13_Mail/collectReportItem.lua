@@ -13,7 +13,7 @@
 ---@field public m_new_2 CS.FairyGUI.GTextField
 local collectReportItem = {};
 
-collectReportItem.URL = "ui://ufsajnnznil";
+collectReportItem.URL = "ui://13_Mail/collectReportItem";
 
 function collectReportItem:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function collectReportItem:OnConstruct(windowCom)
 end
 
 return collectReportItem;
-
---self.uiComs=require('ToolGen.13_Mail.collectReportItem'):OnConstruct(self.contentPane)

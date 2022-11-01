@@ -13,7 +13,7 @@
 ---@field public m_propIcon CS.FairyGUI.GButton
 local skin_prop = {};
 
-skin_prop.URL = "ui://4ni413lanil";
+skin_prop.URL = "ui://main/skin_prop";
 
 function skin_prop:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function skin_prop:OnConstruct(windowCom)
 end
 
 return skin_prop;
-
---self.uiComs=require('ToolGen.main.skin_prop'):OnConstruct(self.contentPane)

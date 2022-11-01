@@ -10,7 +10,7 @@
 ---@field public m_newbuildBtn com_btn_tab3
 local com_item_upgrade1 = {};
 
-com_item_upgrade1.URL = "ui://2r331opvnil";
+com_item_upgrade1.URL = "ui://common/com_item_upgrade1";
 
 function com_item_upgrade1:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function com_item_upgrade1:OnConstruct(windowCom)
 end
 
 return com_item_upgrade1;
-
---self.uiComs=require('ToolGen.common.com_item_upgrade1'):OnConstruct(self.contentPane)

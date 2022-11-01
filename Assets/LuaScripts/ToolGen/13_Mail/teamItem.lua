@@ -7,7 +7,7 @@
 ---@field public m_general CS.FairyGUI.GButton
 local teamItem = {};
 
-teamItem.URL = "ui://ufsajnnznil";
+teamItem.URL = "ui://13_Mail/teamItem";
 
 function teamItem:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function teamItem:OnConstruct(windowCom)
 end
 
 return teamItem;
-
---self.uiComs=require('ToolGen.13_Mail.teamItem'):OnConstruct(self.contentPane)

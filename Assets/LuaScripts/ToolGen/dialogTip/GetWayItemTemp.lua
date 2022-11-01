@@ -12,7 +12,7 @@
 ---@field public m_desc CS.FairyGUI.GTextField
 local GetWayItemTemp = {};
 
-GetWayItemTemp.URL = "ui://utp01xianil";
+GetWayItemTemp.URL = "ui://dialogTip/GetWayItemTemp";
 
 function GetWayItemTemp:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function GetWayItemTemp:OnConstruct(windowCom)
 end
 
 return GetWayItemTemp;
-
---self.uiComs=require('ToolGen.dialogTip.GetWayItemTemp'):OnConstruct(self.contentPane)

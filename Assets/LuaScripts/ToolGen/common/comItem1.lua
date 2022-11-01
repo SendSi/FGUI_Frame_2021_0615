@@ -29,7 +29,7 @@
 ---@field public m_chief CS.FairyGUI.GGroup
 local comItem1 = {};
 
-comItem1.URL = "ui://2r331opvnil";
+comItem1.URL = "ui://common/comItem1";
 
 function comItem1:OnConstruct(windowCom)
 	local tb = {
@@ -63,5 +63,3 @@ function comItem1:OnConstruct(windowCom)
 end
 
 return comItem1;
-
---self.uiComs=require('ToolGen.common.comItem1'):OnConstruct(self.contentPane)

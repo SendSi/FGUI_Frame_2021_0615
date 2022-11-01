@@ -18,7 +18,7 @@
 ---@field public m_batchUse CS.FairyGUI.GGroup
 local SpeedUpItem = {};
 
-SpeedUpItem.URL = "ui://4ni413lanil";
+SpeedUpItem.URL = "ui://main/SpeedUpItem";
 
 function SpeedUpItem:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function SpeedUpItem:OnConstruct(windowCom)
 end
 
 return SpeedUpItem;
-
---self.uiComs=require('ToolGen.main.SpeedUpItem'):OnConstruct(self.contentPane)

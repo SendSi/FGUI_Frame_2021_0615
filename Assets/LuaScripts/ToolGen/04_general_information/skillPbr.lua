@@ -8,7 +8,7 @@
 ---@field public m_n1 CS.FairyGUI.GTextField
 local skillPbr = {};
 
-skillPbr.URL = "ui://4hio38umnil";
+skillPbr.URL = "ui://04_general_information/skillPbr";
 
 function skillPbr:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function skillPbr:OnConstruct(windowCom)
 end
 
 return skillPbr;
-
---self.uiComs=require('ToolGen.04_general_information.skillPbr'):OnConstruct(self.contentPane)

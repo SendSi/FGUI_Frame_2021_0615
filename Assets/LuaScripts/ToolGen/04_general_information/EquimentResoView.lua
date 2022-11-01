@@ -35,7 +35,7 @@
 ---@field public m_n30 CS.FairyGUI.GGroup
 local EquimentResoView = {};
 
-EquimentResoView.URL = "ui://4hio38umnil";
+EquimentResoView.URL = "ui://04_general_information/EquimentResoView";
 
 function EquimentResoView:OnConstruct(windowCom)
 	local tb = {
@@ -75,5 +75,3 @@ function EquimentResoView:OnConstruct(windowCom)
 end
 
 return EquimentResoView;
-
---self.uiComs=require('ToolGen.04_general_information.EquimentResoView'):OnConstruct(self.contentPane)

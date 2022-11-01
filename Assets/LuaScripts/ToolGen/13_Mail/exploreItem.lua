@@ -14,7 +14,7 @@
 ---@field public m_btnRight See
 local exploreItem = {};
 
-exploreItem.URL = "ui://ufsajnnznil";
+exploreItem.URL = "ui://13_Mail/exploreItem";
 
 function exploreItem:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function exploreItem:OnConstruct(windowCom)
 end
 
 return exploreItem;
-
---self.uiComs=require('ToolGen.13_Mail.exploreItem'):OnConstruct(self.contentPane)

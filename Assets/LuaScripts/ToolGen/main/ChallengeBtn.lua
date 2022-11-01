@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local ChallengeBtn = {};
 
-ChallengeBtn.URL = "ui://4ni413lanil";
+ChallengeBtn.URL = "ui://main/ChallengeBtn";
 
 function ChallengeBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function ChallengeBtn:OnConstruct(windowCom)
 end
 
 return ChallengeBtn;
-
---self.uiComs=require('ToolGen.main.ChallengeBtn'):OnConstruct(self.contentPane)

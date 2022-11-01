@@ -24,7 +24,7 @@
 ---@field public m_n11 CS.FairyGUI.GGroup
 local DialogRewardView = {};
 
-DialogRewardView.URL = "ui://utp01xianil";
+DialogRewardView.URL = "ui://dialogTip/DialogRewardView";
 
 function DialogRewardView:OnConstruct(windowCom)
 	local tb = {
@@ -53,5 +53,3 @@ function DialogRewardView:OnConstruct(windowCom)
 end
 
 return DialogRewardView;
-
---self.uiComs=require('ToolGen.dialogTip.DialogRewardView'):OnConstruct(self.contentPane)

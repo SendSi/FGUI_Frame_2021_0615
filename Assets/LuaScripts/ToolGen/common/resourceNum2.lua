@@ -8,7 +8,7 @@
 ---@field public m_num CS.FairyGUI.GTextField
 local resourceNum2 = {};
 
-resourceNum2.URL = "ui://2r331opvnil";
+resourceNum2.URL = "ui://common/resourceNum2";
 
 function resourceNum2:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function resourceNum2:OnConstruct(windowCom)
 end
 
 return resourceNum2;
-
---self.uiComs=require('ToolGen.common.resourceNum2'):OnConstruct(self.contentPane)

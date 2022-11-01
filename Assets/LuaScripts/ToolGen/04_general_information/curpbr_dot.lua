@@ -10,7 +10,7 @@
 ---@field public m_n4 CS.FairyGUI.GImage
 local curpbr_dot = {};
 
-curpbr_dot.URL = "ui://4hio38umnil";
+curpbr_dot.URL = "ui://04_general_information/curpbr_dot";
 
 function curpbr_dot:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function curpbr_dot:OnConstruct(windowCom)
 end
 
 return curpbr_dot;
-
---self.uiComs=require('ToolGen.04_general_information.curpbr_dot'):OnConstruct(self.contentPane)

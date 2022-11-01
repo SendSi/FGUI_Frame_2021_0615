@@ -19,7 +19,7 @@
 ---@field public m_numTxt CS.FairyGUI.GTextField
 local TalentPoint = {};
 
-TalentPoint.URL = "ui://4hio38umnil";
+TalentPoint.URL = "ui://04_general_information/TalentPoint";
 
 function TalentPoint:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function TalentPoint:OnConstruct(windowCom)
 end
 
 return TalentPoint;
-
---self.uiComs=require('ToolGen.04_general_information.TalentPoint'):OnConstruct(self.contentPane)

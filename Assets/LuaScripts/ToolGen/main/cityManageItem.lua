@@ -7,7 +7,7 @@
 ---@field public m_itemList CS.FairyGUI.GList
 local cityManageItem = {};
 
-cityManageItem.URL = "ui://4ni413lanil";
+cityManageItem.URL = "ui://main/cityManageItem";
 
 function cityManageItem:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function cityManageItem:OnConstruct(windowCom)
 end
 
 return cityManageItem;
-
---self.uiComs=require('ToolGen.main.cityManageItem'):OnConstruct(self.contentPane)

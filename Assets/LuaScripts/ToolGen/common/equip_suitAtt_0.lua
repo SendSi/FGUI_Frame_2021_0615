@@ -9,7 +9,7 @@
 ---@field public m_n7 CS.FairyGUI.GGroup
 local equip_suitAtt_0 = {};
 
-equip_suitAtt_0.URL = "ui://2r331opvnil";
+equip_suitAtt_0.URL = "ui://common/equip_suitAtt_0";
 
 function equip_suitAtt_0:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function equip_suitAtt_0:OnConstruct(windowCom)
 end
 
 return equip_suitAtt_0;
-
---self.uiComs=require('ToolGen.common.equip_suitAtt_0'):OnConstruct(self.contentPane)

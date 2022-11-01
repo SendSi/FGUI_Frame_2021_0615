@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local RechargeBtn = {};
 
-RechargeBtn.URL = "ui://4ni413lanil";
+RechargeBtn.URL = "ui://main/RechargeBtn";
 
 function RechargeBtn:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function RechargeBtn:OnConstruct(windowCom)
 end
 
 return RechargeBtn;
-
---self.uiComs=require('ToolGen.main.RechargeBtn'):OnConstruct(self.contentPane)

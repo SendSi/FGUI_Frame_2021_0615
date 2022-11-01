@@ -8,7 +8,7 @@
 ---@field public m_titlePbr CS.FairyGUI.GTextField
 local taskNextBtn = {};
 
-taskNextBtn.URL = "ui://zezobey9nil";
+taskNextBtn.URL = "ui://17_Task/taskNextBtn";
 
 function taskNextBtn:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function taskNextBtn:OnConstruct(windowCom)
 end
 
 return taskNextBtn;
-
---self.uiComs=require('ToolGen.17_Task.taskNextBtn'):OnConstruct(self.contentPane)

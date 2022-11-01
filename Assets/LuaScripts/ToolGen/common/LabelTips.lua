@@ -7,7 +7,7 @@
 ---@field public m_tip CS.FairyGUI.GGroup
 local LabelTips = {};
 
-LabelTips.URL = "ui://2r331opvnil";
+LabelTips.URL = "ui://common/LabelTips";
 
 function LabelTips:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function LabelTips:OnConstruct(windowCom)
 end
 
 return LabelTips;
-
---self.uiComs=require('ToolGen.common.LabelTips'):OnConstruct(self.contentPane)

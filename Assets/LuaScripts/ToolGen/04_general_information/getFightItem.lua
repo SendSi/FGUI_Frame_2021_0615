@@ -11,7 +11,7 @@
 ---@field public m_line CS.FairyGUI.GGraph
 local getFightItem = {};
 
-getFightItem.URL = "ui://4hio38umnil";
+getFightItem.URL = "ui://04_general_information/getFightItem";
 
 function getFightItem:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function getFightItem:OnConstruct(windowCom)
 end
 
 return getFightItem;
-
---self.uiComs=require('ToolGen.04_general_information.getFightItem'):OnConstruct(self.contentPane)

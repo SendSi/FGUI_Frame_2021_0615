@@ -8,7 +8,7 @@
 ---@field public m_red_2 CS.FairyGUI.GButton
 local mask_btn_task = {};
 
-mask_btn_task.URL = "ui://4ni413lanil";
+mask_btn_task.URL = "ui://main/mask_btn_task";
 
 function mask_btn_task:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function mask_btn_task:OnConstruct(windowCom)
 end
 
 return mask_btn_task;
-
---self.uiComs=require('ToolGen.main.mask_btn_task'):OnConstruct(self.contentPane)

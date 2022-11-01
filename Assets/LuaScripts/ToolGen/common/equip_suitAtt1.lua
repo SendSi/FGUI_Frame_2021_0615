@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local equip_suitAtt1 = {};
 
-equip_suitAtt1.URL = "ui://2r331opvnil";
+equip_suitAtt1.URL = "ui://common/equip_suitAtt1";
 
 function equip_suitAtt1:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function equip_suitAtt1:OnConstruct(windowCom)
 end
 
 return equip_suitAtt1;
-
---self.uiComs=require('ToolGen.common.equip_suitAtt1'):OnConstruct(self.contentPane)

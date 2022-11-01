@@ -9,7 +9,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local Information = {};
 
-Information.URL = "ui://4ni413lanil";
+Information.URL = "ui://main/Information";
 
 function Information:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function Information:OnConstruct(windowCom)
 end
 
 return Information;
-
---self.uiComs=require('ToolGen.main.Information'):OnConstruct(self.contentPane)

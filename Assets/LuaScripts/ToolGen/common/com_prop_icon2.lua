@@ -29,7 +29,7 @@
 ---@field public m_n40 CS.FairyGUI.GImage
 local com_prop_icon2 = {};
 
-com_prop_icon2.URL = "ui://2r331opvnil";
+com_prop_icon2.URL = "ui://common/com_prop_icon2";
 
 function com_prop_icon2:OnConstruct(windowCom)
 	local tb = {
@@ -63,5 +63,3 @@ function com_prop_icon2:OnConstruct(windowCom)
 end
 
 return com_prop_icon2;
-
---self.uiComs=require('ToolGen.common.com_prop_icon2'):OnConstruct(self.contentPane)

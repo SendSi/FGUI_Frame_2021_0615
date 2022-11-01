@@ -6,7 +6,7 @@
 ---@field public m_mask CS.FairyGUI.GGraph
 local fighting_headPortrait = {};
 
-fighting_headPortrait.URL = "ui://2r331opvnil";
+fighting_headPortrait.URL = "ui://common/fighting_headPortrait";
 
 function fighting_headPortrait:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function fighting_headPortrait:OnConstruct(windowCom)
 end
 
 return fighting_headPortrait;
-
---self.uiComs=require('ToolGen.common.fighting_headPortrait'):OnConstruct(self.contentPane)

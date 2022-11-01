@@ -11,7 +11,7 @@
 ---@field public m_n5 CS.FairyGUI.GImage
 local tabButton = {};
 
-tabButton.URL = "ui://jqem9egtnil";
+tabButton.URL = "ui://08_Troops/tabButton";
 
 function tabButton:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function tabButton:OnConstruct(windowCom)
 end
 
 return tabButton;
-
---self.uiComs=require('ToolGen.08_Troops.tabButton'):OnConstruct(self.contentPane)

@@ -26,7 +26,7 @@
 ---@field public m_t2 CS.FairyGUI.Transition
 local DialogueMainView = {};
 
-DialogueMainView.URL = "ui://zezobey9nil";
+DialogueMainView.URL = "ui://17_Task/DialogueMainView";
 
 function DialogueMainView:OnConstruct(windowCom)
 	local tb = {
@@ -57,5 +57,3 @@ function DialogueMainView:OnConstruct(windowCom)
 end
 
 return DialogueMainView;
-
---self.uiComs=require('ToolGen.17_Task.DialogueMainView'):OnConstruct(self.contentPane)

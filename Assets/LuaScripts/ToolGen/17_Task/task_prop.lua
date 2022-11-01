@@ -8,7 +8,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local task_prop = {};
 
-task_prop.URL = "ui://zezobey9nil";
+task_prop.URL = "ui://17_Task/task_prop";
 
 function task_prop:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function task_prop:OnConstruct(windowCom)
 end
 
 return task_prop;
-
---self.uiComs=require('ToolGen.17_Task.task_prop'):OnConstruct(self.contentPane)

@@ -17,7 +17,7 @@
 ---@field public m_n22 CS.FairyGUI.GGroup
 local UsePropView = {};
 
-UsePropView.URL = "ui://utp01xianil";
+UsePropView.URL = "ui://dialogTip/UsePropView";
 
 function UsePropView:OnConstruct(windowCom)
 	local tb = {
@@ -39,5 +39,3 @@ function UsePropView:OnConstruct(windowCom)
 end
 
 return UsePropView;
-
---self.uiComs=require('ToolGen.dialogTip.UsePropView'):OnConstruct(self.contentPane)

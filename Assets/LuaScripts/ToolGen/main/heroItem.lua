@@ -6,7 +6,7 @@
 ---@field public m_heroName CS.FairyGUI.GTextField
 local heroItem = {};
 
-heroItem.URL = "ui://4ni413lanil";
+heroItem.URL = "ui://main/heroItem";
 
 function heroItem:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function heroItem:OnConstruct(windowCom)
 end
 
 return heroItem;
-
---self.uiComs=require('ToolGen.main.heroItem'):OnConstruct(self.contentPane)

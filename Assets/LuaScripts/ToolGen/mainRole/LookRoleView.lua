@@ -32,7 +32,7 @@
 ---@field public m_n20 CS.FairyGUI.GGroup
 local LookRoleView = {};
 
-LookRoleView.URL = "ui://66sh7tc6nil";
+LookRoleView.URL = "ui://mainRole/LookRoleView";
 
 function LookRoleView:OnConstruct(windowCom)
 	local tb = {
@@ -69,5 +69,3 @@ function LookRoleView:OnConstruct(windowCom)
 end
 
 return LookRoleView;
-
---self.uiComs=require('ToolGen.mainRole.LookRoleView'):OnConstruct(self.contentPane)

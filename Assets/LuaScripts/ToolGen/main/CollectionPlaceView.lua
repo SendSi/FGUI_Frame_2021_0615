@@ -10,7 +10,7 @@
 ---@field public m_closeButton CS.FairyGUI.GButton
 local CollectionPlaceView = {};
 
-CollectionPlaceView.URL = "ui://4ni413lanil";
+CollectionPlaceView.URL = "ui://main/CollectionPlaceView";
 
 function CollectionPlaceView:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function CollectionPlaceView:OnConstruct(windowCom)
 end
 
 return CollectionPlaceView;
-
---self.uiComs=require('ToolGen.main.CollectionPlaceView'):OnConstruct(self.contentPane)

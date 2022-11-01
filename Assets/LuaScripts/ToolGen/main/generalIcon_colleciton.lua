@@ -9,7 +9,7 @@
 ---@field public m_icon CS.FairyGUI.GComponent
 local generalIcon_colleciton = {};
 
-generalIcon_colleciton.URL = "ui://4ni413lanil";
+generalIcon_colleciton.URL = "ui://main/generalIcon_colleciton";
 
 function generalIcon_colleciton:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function generalIcon_colleciton:OnConstruct(windowCom)
 end
 
 return generalIcon_colleciton;
-
---self.uiComs=require('ToolGen.main.generalIcon_colleciton'):OnConstruct(self.contentPane)

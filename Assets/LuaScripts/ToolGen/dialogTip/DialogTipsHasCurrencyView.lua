@@ -8,7 +8,7 @@
 ---@field public m_view CS.FairyGUI.GGroup
 local DialogTipsHasCurrencyView = {};
 
-DialogTipsHasCurrencyView.URL = "ui://utp01xianil";
+DialogTipsHasCurrencyView.URL = "ui://dialogTip/DialogTipsHasCurrencyView";
 
 function DialogTipsHasCurrencyView:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function DialogTipsHasCurrencyView:OnConstruct(windowCom)
 end
 
 return DialogTipsHasCurrencyView;
-
---self.uiComs=require('ToolGen.dialogTip.DialogTipsHasCurrencyView'):OnConstruct(self.contentPane)

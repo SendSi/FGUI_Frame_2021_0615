@@ -10,7 +10,7 @@
 ---@field public m_com0 CS.FairyGUI.GGroup
 local activeSpyOnLeagueView = {};
 
-activeSpyOnLeagueView.URL = "ui://ufsajnnznil";
+activeSpyOnLeagueView.URL = "ui://13_Mail/activeSpyOnLeagueView";
 
 function activeSpyOnLeagueView:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function activeSpyOnLeagueView:OnConstruct(windowCom)
 end
 
 return activeSpyOnLeagueView;
-
---self.uiComs=require('ToolGen.13_Mail.activeSpyOnLeagueView'):OnConstruct(self.contentPane)

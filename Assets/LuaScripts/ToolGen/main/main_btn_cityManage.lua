@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local main_btn_cityManage = {};
 
-main_btn_cityManage.URL = "ui://4ni413lanil";
+main_btn_cityManage.URL = "ui://main/main_btn_cityManage";
 
 function main_btn_cityManage:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function main_btn_cityManage:OnConstruct(windowCom)
 end
 
 return main_btn_cityManage;
-
---self.uiComs=require('ToolGen.main.main_btn_cityManage'):OnConstruct(self.contentPane)

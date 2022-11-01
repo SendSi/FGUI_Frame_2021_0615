@@ -8,7 +8,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local tokenItem = {};
 
-tokenItem.URL = "ui://2r331opvnil";
+tokenItem.URL = "ui://common/tokenItem";
 
 function tokenItem:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function tokenItem:OnConstruct(windowCom)
 end
 
 return tokenItem;
-
---self.uiComs=require('ToolGen.common.tokenItem'):OnConstruct(self.contentPane)

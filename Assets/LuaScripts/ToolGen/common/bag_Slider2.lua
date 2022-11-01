@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local bag_Slider2 = {};
 
-bag_Slider2.URL = "ui://2r331opvnil";
+bag_Slider2.URL = "ui://common/bag_Slider2";
 
 function bag_Slider2:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function bag_Slider2:OnConstruct(windowCom)
 end
 
 return bag_Slider2;
-
---self.uiComs=require('ToolGen.common.bag_Slider2'):OnConstruct(self.contentPane)

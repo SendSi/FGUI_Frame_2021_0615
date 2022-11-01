@@ -7,7 +7,7 @@
 ---@field public m_name CS.FairyGUI.GTextField
 local resourcetip_item01 = {};
 
-resourcetip_item01.URL = "ui://4ni413lanil";
+resourcetip_item01.URL = "ui://main/resourcetip_item01";
 
 function resourcetip_item01:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function resourcetip_item01:OnConstruct(windowCom)
 end
 
 return resourcetip_item01;
-
---self.uiComs=require('ToolGen.main.resourcetip_item01'):OnConstruct(self.contentPane)

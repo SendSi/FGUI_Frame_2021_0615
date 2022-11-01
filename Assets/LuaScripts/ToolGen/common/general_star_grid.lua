@@ -9,7 +9,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local general_star_grid = {};
 
-general_star_grid.URL = "ui://2r331opvnil";
+general_star_grid.URL = "ui://common/general_star_grid";
 
 function general_star_grid:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function general_star_grid:OnConstruct(windowCom)
 end
 
 return general_star_grid;
-
---self.uiComs=require('ToolGen.common.general_star_grid'):OnConstruct(self.contentPane)

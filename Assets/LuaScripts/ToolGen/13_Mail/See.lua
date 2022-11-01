@@ -6,7 +6,7 @@
 ---@field public m_n0 CS.FairyGUI.GImage
 local See = {};
 
-See.URL = "ui://ufsajnnznil";
+See.URL = "ui://13_Mail/See";
 
 function See:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function See:OnConstruct(windowCom)
 end
 
 return See;
-
---self.uiComs=require('ToolGen.13_Mail.See'):OnConstruct(self.contentPane)

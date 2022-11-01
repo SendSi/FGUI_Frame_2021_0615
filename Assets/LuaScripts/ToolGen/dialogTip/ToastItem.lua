@@ -8,7 +8,7 @@
 ---@field public m_moveAlpha CS.FairyGUI.Transition
 local ToastItem = {};
 
-ToastItem.URL = "ui://utp01xianil";
+ToastItem.URL = "ui://dialogTip/ToastItem";
 
 function ToastItem:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function ToastItem:OnConstruct(windowCom)
 end
 
 return ToastItem;
-
---self.uiComs=require('ToolGen.dialogTip.ToastItem'):OnConstruct(self.contentPane)

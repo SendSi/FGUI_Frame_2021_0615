@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local GenSortPopup_item = {};
 
-GenSortPopup_item.URL = "ui://jqem9egtnil";
+GenSortPopup_item.URL = "ui://08_Troops/GenSortPopup_item";
 
 function GenSortPopup_item:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function GenSortPopup_item:OnConstruct(windowCom)
 end
 
 return GenSortPopup_item;
-
---self.uiComs=require('ToolGen.08_Troops.GenSortPopup_item'):OnConstruct(self.contentPane)

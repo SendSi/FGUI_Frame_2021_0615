@@ -8,7 +8,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local taskTypeIcon = {};
 
-taskTypeIcon.URL = "ui://zezobey9nil";
+taskTypeIcon.URL = "ui://17_Task/taskTypeIcon";
 
 function taskTypeIcon:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function taskTypeIcon:OnConstruct(windowCom)
 end
 
 return taskTypeIcon;
-
---self.uiComs=require('ToolGen.17_Task.taskTypeIcon'):OnConstruct(self.contentPane)

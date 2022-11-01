@@ -8,7 +8,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local propItem = {};
 
-propItem.URL = "ui://fq4ln9nvnil";
+propItem.URL = "ui://05_02_building/propItem";
 
 function propItem:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function propItem:OnConstruct(windowCom)
 end
 
 return propItem;
-
---self.uiComs=require('ToolGen.05_02_building.propItem'):OnConstruct(self.contentPane)

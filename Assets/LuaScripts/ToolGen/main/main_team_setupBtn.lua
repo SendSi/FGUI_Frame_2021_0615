@@ -13,7 +13,7 @@
 ---@field public m_lockTxt CS.FairyGUI.GTextField
 local main_team_setupBtn = {};
 
-main_team_setupBtn.URL = "ui://4ni413lanil";
+main_team_setupBtn.URL = "ui://main/main_team_setupBtn";
 
 function main_team_setupBtn:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function main_team_setupBtn:OnConstruct(windowCom)
 end
 
 return main_team_setupBtn;
-
---self.uiComs=require('ToolGen.main.main_team_setupBtn'):OnConstruct(self.contentPane)

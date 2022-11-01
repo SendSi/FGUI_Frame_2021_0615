@@ -12,7 +12,7 @@
 ---@field public m_fantasticBtn CS.FairyGUI.GButton
 local explore_reward = {};
 
-explore_reward.URL = "ui://4ni413lanil";
+explore_reward.URL = "ui://main/explore_reward";
 
 function explore_reward:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function explore_reward:OnConstruct(windowCom)
 end
 
 return explore_reward;
-
---self.uiComs=require('ToolGen.main.explore_reward'):OnConstruct(self.contentPane)

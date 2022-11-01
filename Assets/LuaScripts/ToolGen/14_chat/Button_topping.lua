@@ -7,7 +7,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local Button_topping = {};
 
-Button_topping.URL = "ui://62wjs2s2nil";
+Button_topping.URL = "ui://14_chat/Button_topping";
 
 function Button_topping:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function Button_topping:OnConstruct(windowCom)
 end
 
 return Button_topping;
-
---self.uiComs=require('ToolGen.14_chat.Button_topping'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_n2 CS.FairyGUI.GImage
 local removeBtn = {};
 
-removeBtn.URL = "ui://jqem9egtnil";
+removeBtn.URL = "ui://08_Troops/removeBtn";
 
 function removeBtn:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function removeBtn:OnConstruct(windowCom)
 end
 
 return removeBtn;
-
---self.uiComs=require('ToolGen.08_Troops.removeBtn'):OnConstruct(self.contentPane)

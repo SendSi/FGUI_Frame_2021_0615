@@ -8,7 +8,7 @@
 ---@field public m_redElement redPoint
 local com_btn_00_redPoint = {};
 
-com_btn_00_redPoint.URL = "ui://2r331opvnil";
+com_btn_00_redPoint.URL = "ui://common/com_btn_00_redPoint";
 
 function com_btn_00_redPoint:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function com_btn_00_redPoint:OnConstruct(windowCom)
 end
 
 return com_btn_00_redPoint;
-
---self.uiComs=require('ToolGen.common.com_btn_00_redPoint'):OnConstruct(self.contentPane)

@@ -16,7 +16,7 @@
 ---@field public m_in CS.FairyGUI.Transition
 local CityPowerView = {};
 
-CityPowerView.URL = "ui://4ni413lanil";
+CityPowerView.URL = "ui://main/CityPowerView";
 
 function CityPowerView:OnConstruct(windowCom)
 	local tb = {
@@ -37,5 +37,3 @@ function CityPowerView:OnConstruct(windowCom)
 end
 
 return CityPowerView;
-
---self.uiComs=require('ToolGen.main.CityPowerView'):OnConstruct(self.contentPane)

@@ -11,7 +11,7 @@
 ---@field public m_BuildingName CS.FairyGUI.GGroup
 local buildname1 = {};
 
-buildname1.URL = "ui://4ni413lanil";
+buildname1.URL = "ui://main/buildname1";
 
 function buildname1:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function buildname1:OnConstruct(windowCom)
 end
 
 return buildname1;
-
---self.uiComs=require('ToolGen.main.buildname1'):OnConstruct(self.contentPane)

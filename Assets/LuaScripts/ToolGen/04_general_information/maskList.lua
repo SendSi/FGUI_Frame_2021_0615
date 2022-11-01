@@ -6,7 +6,7 @@
 ---@field public m_talentList CS.FairyGUI.GList
 local maskList = {};
 
-maskList.URL = "ui://4hio38umnil";
+maskList.URL = "ui://04_general_information/maskList";
 
 function maskList:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function maskList:OnConstruct(windowCom)
 end
 
 return maskList;
-
---self.uiComs=require('ToolGen.04_general_information.maskList'):OnConstruct(self.contentPane)

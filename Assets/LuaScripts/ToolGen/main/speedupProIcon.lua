@@ -9,7 +9,7 @@
 ---@field public m_0_prop CS.FairyGUI.GGroup
 local speedupProIcon = {};
 
-speedupProIcon.URL = "ui://4ni413lanil";
+speedupProIcon.URL = "ui://main/speedupProIcon";
 
 function speedupProIcon:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function speedupProIcon:OnConstruct(windowCom)
 end
 
 return speedupProIcon;
-
---self.uiComs=require('ToolGen.main.speedupProIcon'):OnConstruct(self.contentPane)

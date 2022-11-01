@@ -29,7 +29,7 @@
 ---@field public m_goOut CS.FairyGUI.GGroup
 local ExchangeGeneral = {};
 
-ExchangeGeneral.URL = "ui://jqem9egtnil";
+ExchangeGeneral.URL = "ui://08_Troops/ExchangeGeneral";
 
 function ExchangeGeneral:OnConstruct(windowCom)
 	local tb = {
@@ -63,5 +63,3 @@ function ExchangeGeneral:OnConstruct(windowCom)
 end
 
 return ExchangeGeneral;
-
---self.uiComs=require('ToolGen.08_Troops.ExchangeGeneral'):OnConstruct(self.contentPane)

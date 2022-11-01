@@ -18,7 +18,7 @@
 ---@field public m_icon CS.FairyGUI.GComponent
 local clothes_btn_01 = {};
 
-clothes_btn_01.URL = "ui://byy9k3ghnil";
+clothes_btn_01.URL = "ui://login/clothes_btn_01";
 
 function clothes_btn_01:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function clothes_btn_01:OnConstruct(windowCom)
 end
 
 return clothes_btn_01;
-
---self.uiComs=require('ToolGen.login.clothes_btn_01'):OnConstruct(self.contentPane)

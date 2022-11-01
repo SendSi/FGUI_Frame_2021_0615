@@ -39,10 +39,10 @@
 ---@field public m_right1 CS.FairyGUI.GGroup
 ---@field public m_right CS.FairyGUI.GGroup
 ---@field public m_offset CS.FairyGUI.GButton
----@field public m_guideBtn CS.FairyGUI.GButton
+---@field public m_guideBtn CS.FairyGUI.GComponent
 local HandBookInfoView = {};
 
-HandBookInfoView.URL = "ui://4hio38umnil";
+HandBookInfoView.URL = "ui://04_general_information/HandBookInfoView";
 
 function HandBookInfoView:OnConstruct(windowCom)
 	local tb = {
@@ -89,5 +89,3 @@ function HandBookInfoView:OnConstruct(windowCom)
 end
 
 return HandBookInfoView;
-
---self.uiComs=require('ToolGen.04_general_information.HandBookInfoView'):OnConstruct(self.contentPane)

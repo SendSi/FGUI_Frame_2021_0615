@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local buffPbr = {};
 
-buffPbr.URL = "ui://4ni413lanil";
+buffPbr.URL = "ui://main/buffPbr";
 
 function buffPbr:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function buffPbr:OnConstruct(windowCom)
 end
 
 return buffPbr;
-
---self.uiComs=require('ToolGen.main.buffPbr'):OnConstruct(self.contentPane)

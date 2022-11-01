@@ -9,7 +9,7 @@
 ---@field public m_t2 CS.FairyGUI.Transition
 local Break = {};
 
-Break.URL = "ui://4ni413lanil";
+Break.URL = "ui://main/Break";
 
 function Break:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function Break:OnConstruct(windowCom)
 end
 
 return Break;
-
---self.uiComs=require('ToolGen.main.Break'):OnConstruct(self.contentPane)

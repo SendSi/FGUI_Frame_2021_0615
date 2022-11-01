@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local jionBtn = {};
 
-jionBtn.URL = "ui://jqem9egtnil";
+jionBtn.URL = "ui://08_Troops/jionBtn";
 
 function jionBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function jionBtn:OnConstruct(windowCom)
 end
 
 return jionBtn;
-
---self.uiComs=require('ToolGen.08_Troops.jionBtn'):OnConstruct(self.contentPane)

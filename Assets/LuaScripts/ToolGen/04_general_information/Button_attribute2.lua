@@ -13,7 +13,7 @@
 ---@field public m_tipName CS.FairyGUI.GTextField
 local Button_attribute2 = {};
 
-Button_attribute2.URL = "ui://4hio38umnil";
+Button_attribute2.URL = "ui://04_general_information/Button_attribute2";
 
 function Button_attribute2:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function Button_attribute2:OnConstruct(windowCom)
 end
 
 return Button_attribute2;
-
---self.uiComs=require('ToolGen.04_general_information.Button_attribute2'):OnConstruct(self.contentPane)

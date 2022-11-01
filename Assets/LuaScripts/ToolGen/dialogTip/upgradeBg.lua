@@ -10,7 +10,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local upgradeBg = {};
 
-upgradeBg.URL = "ui://utp01xianil";
+upgradeBg.URL = "ui://dialogTip/upgradeBg";
 
 function upgradeBg:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function upgradeBg:OnConstruct(windowCom)
 end
 
 return upgradeBg;
-
---self.uiComs=require('ToolGen.dialogTip.upgradeBg'):OnConstruct(self.contentPane)

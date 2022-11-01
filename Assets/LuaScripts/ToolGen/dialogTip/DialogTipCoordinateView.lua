@@ -14,7 +14,7 @@
 ---@field public m_window CS.FairyGUI.GGroup
 local DialogTipCoordinateView = {};
 
-DialogTipCoordinateView.URL = "ui://utp01xianil";
+DialogTipCoordinateView.URL = "ui://dialogTip/DialogTipCoordinateView";
 
 function DialogTipCoordinateView:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function DialogTipCoordinateView:OnConstruct(windowCom)
 end
 
 return DialogTipCoordinateView;
-
---self.uiComs=require('ToolGen.dialogTip.DialogTipCoordinateView'):OnConstruct(self.contentPane)

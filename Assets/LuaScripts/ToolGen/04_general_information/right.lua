@@ -36,7 +36,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local right = {};
 
-right.URL = "ui://4hio38umnil";
+right.URL = "ui://04_general_information/right";
 
 function right:OnConstruct(windowCom)
 	local tb = {
@@ -77,5 +77,3 @@ function right:OnConstruct(windowCom)
 end
 
 return right;
-
---self.uiComs=require('ToolGen.04_general_information.right'):OnConstruct(self.contentPane)

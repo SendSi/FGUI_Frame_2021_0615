@@ -6,7 +6,7 @@
 ---@field public m_list CS.FairyGUI.GList
 local generalCbox_popup = {};
 
-generalCbox_popup.URL = "ui://4hio38umnil";
+generalCbox_popup.URL = "ui://04_general_information/generalCbox_popup";
 
 function generalCbox_popup:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function generalCbox_popup:OnConstruct(windowCom)
 end
 
 return generalCbox_popup;
-
---self.uiComs=require('ToolGen.04_general_information.generalCbox_popup'):OnConstruct(self.contentPane)

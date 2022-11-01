@@ -7,7 +7,7 @@
 ---@field public m_queue2 BuildCommandItem
 local BuildCommandView = {};
 
-BuildCommandView.URL = "ui://4ni413lanil";
+BuildCommandView.URL = "ui://main/BuildCommandView";
 
 function BuildCommandView:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function BuildCommandView:OnConstruct(windowCom)
 end
 
 return BuildCommandView;
-
---self.uiComs=require('ToolGen.main.BuildCommandView'):OnConstruct(self.contentPane)

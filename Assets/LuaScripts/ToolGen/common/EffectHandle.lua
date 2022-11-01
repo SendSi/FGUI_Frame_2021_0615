@@ -5,7 +5,7 @@
 ---@field public m_handle CS.FairyGUI.GGraph
 local EffectHandle = {};
 
-EffectHandle.URL = "ui://2r331opvnil";
+EffectHandle.URL = "ui://common/EffectHandle";
 
 function EffectHandle:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function EffectHandle:OnConstruct(windowCom)
 end
 
 return EffectHandle;
-
---self.uiComs=require('ToolGen.common.EffectHandle'):OnConstruct(self.contentPane)

@@ -12,7 +12,7 @@
 ---@field public m_LevelupBtn LevelUpBtn
 local levelup_needBuilding = {};
 
-levelup_needBuilding.URL = "ui://4ni413lanil";
+levelup_needBuilding.URL = "ui://main/levelup_needBuilding";
 
 function levelup_needBuilding:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function levelup_needBuilding:OnConstruct(windowCom)
 end
 
 return levelup_needBuilding;
-
---self.uiComs=require('ToolGen.main.levelup_needBuilding'):OnConstruct(self.contentPane)

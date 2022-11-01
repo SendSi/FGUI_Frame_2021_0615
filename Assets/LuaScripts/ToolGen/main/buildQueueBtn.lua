@@ -18,7 +18,7 @@
 ---@field public m_t2 CS.FairyGUI.Transition
 local buildQueueBtn = {};
 
-buildQueueBtn.URL = "ui://4ni413lanil";
+buildQueueBtn.URL = "ui://main/buildQueueBtn";
 
 function buildQueueBtn:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function buildQueueBtn:OnConstruct(windowCom)
 end
 
 return buildQueueBtn;
-
---self.uiComs=require('ToolGen.main.buildQueueBtn'):OnConstruct(self.contentPane)

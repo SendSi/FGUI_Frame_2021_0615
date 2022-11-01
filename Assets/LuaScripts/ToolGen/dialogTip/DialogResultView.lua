@@ -31,7 +31,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local DialogResultView = {};
 
-DialogResultView.URL = "ui://utp01xianil";
+DialogResultView.URL = "ui://dialogTip/DialogResultView";
 
 function DialogResultView:OnConstruct(windowCom)
 	local tb = {
@@ -67,5 +67,3 @@ function DialogResultView:OnConstruct(windowCom)
 end
 
 return DialogResultView;
-
---self.uiComs=require('ToolGen.dialogTip.DialogResultView'):OnConstruct(self.contentPane)

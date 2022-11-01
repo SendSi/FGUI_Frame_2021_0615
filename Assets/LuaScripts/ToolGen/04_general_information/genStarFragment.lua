@@ -8,7 +8,7 @@
 ---@field public m_n3 CS.FairyGUI.GImage
 local genStarFragment = {};
 
-genStarFragment.URL = "ui://4hio38umnil";
+genStarFragment.URL = "ui://04_general_information/genStarFragment";
 
 function genStarFragment:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function genStarFragment:OnConstruct(windowCom)
 end
 
 return genStarFragment;
-
---self.uiComs=require('ToolGen.04_general_information.genStarFragment'):OnConstruct(self.contentPane)

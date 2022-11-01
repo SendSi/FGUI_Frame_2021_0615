@@ -8,7 +8,7 @@
 ---@field public m_tip CS.FairyGUI.GRichTextField
 local EffectCutListView = {};
 
-EffectCutListView.URL = "ui://21uyefv8nil";
+EffectCutListView.URL = "ui://GMView/EffectCutListView";
 
 function EffectCutListView:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function EffectCutListView:OnConstruct(windowCom)
 end
 
 return EffectCutListView;
-
---self.uiComs=require('ToolGen.GMView.EffectCutListView'):OnConstruct(self.contentPane)

@@ -14,7 +14,7 @@
 ---@field public m_win CS.FairyGUI.GGroup
 local DialogCheckInputView = {};
 
-DialogCheckInputView.URL = "ui://utp01xianil";
+DialogCheckInputView.URL = "ui://dialogTip/DialogCheckInputView";
 
 function DialogCheckInputView:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function DialogCheckInputView:OnConstruct(windowCom)
 end
 
 return DialogCheckInputView;
-
---self.uiComs=require('ToolGen.dialogTip.DialogCheckInputView'):OnConstruct(self.contentPane)

@@ -19,7 +19,7 @@
 ---@field public m_state0 CS.FairyGUI.Transition
 local main_teamStae = {};
 
-main_teamStae.URL = "ui://2r331opvnil";
+main_teamStae.URL = "ui://common/main_teamStae";
 
 function main_teamStae:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function main_teamStae:OnConstruct(windowCom)
 end
 
 return main_teamStae;
-
---self.uiComs=require('ToolGen.common.main_teamStae'):OnConstruct(self.contentPane)

@@ -14,7 +14,7 @@
 ---@field public m_useBtn CS.FairyGUI.GButton
 local cityManageItem2 = {};
 
-cityManageItem2.URL = "ui://4ni413lanil";
+cityManageItem2.URL = "ui://main/cityManageItem2";
 
 function cityManageItem2:OnConstruct(windowCom)
 	local tb = {
@@ -33,5 +33,3 @@ function cityManageItem2:OnConstruct(windowCom)
 end
 
 return cityManageItem2;
-
---self.uiComs=require('ToolGen.main.cityManageItem2'):OnConstruct(self.contentPane)

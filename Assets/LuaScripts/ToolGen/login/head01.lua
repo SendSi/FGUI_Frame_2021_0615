@@ -6,7 +6,7 @@
 ---@field public m_head01 CS.FairyGUI.GLoader
 local head01 = {};
 
-head01.URL = "ui://byy9k3ghnil";
+head01.URL = "ui://login/head01";
 
 function head01:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function head01:OnConstruct(windowCom)
 end
 
 return head01;
-
---self.uiComs=require('ToolGen.login.head01'):OnConstruct(self.contentPane)

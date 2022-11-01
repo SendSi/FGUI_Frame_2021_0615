@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local skillBtn = {};
 
-skillBtn.URL = "ui://jqem9egtnil";
+skillBtn.URL = "ui://08_Troops/skillBtn";
 
 function skillBtn:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function skillBtn:OnConstruct(windowCom)
 end
 
 return skillBtn;
-
---self.uiComs=require('ToolGen.08_Troops.skillBtn'):OnConstruct(self.contentPane)

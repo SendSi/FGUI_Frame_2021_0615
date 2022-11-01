@@ -10,7 +10,7 @@
 ---@field public m_guide CS.FairyGUI.Transition
 local Button_guide_1 = {};
 
-Button_guide_1.URL = "ui://2r331opvnil";
+Button_guide_1.URL = "ui://common/Button_guide_1";
 
 function Button_guide_1:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function Button_guide_1:OnConstruct(windowCom)
 end
 
 return Button_guide_1;
-
---self.uiComs=require('ToolGen.common.Button_guide_1'):OnConstruct(self.contentPane)

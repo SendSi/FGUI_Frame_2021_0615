@@ -10,7 +10,7 @@
 ---@field public m_btn com_cbtn_icon
 local equip_suitAtt2 = {};
 
-equip_suitAtt2.URL = "ui://2r331opvnil";
+equip_suitAtt2.URL = "ui://common/equip_suitAtt2";
 
 function equip_suitAtt2:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function equip_suitAtt2:OnConstruct(windowCom)
 end
 
 return equip_suitAtt2;
-
---self.uiComs=require('ToolGen.common.equip_suitAtt2'):OnConstruct(self.contentPane)

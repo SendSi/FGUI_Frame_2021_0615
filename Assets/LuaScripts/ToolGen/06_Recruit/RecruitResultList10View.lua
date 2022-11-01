@@ -10,7 +10,7 @@
 ---@field public m_btnNext CS.FairyGUI.GButton
 local RecruitResultList10View = {};
 
-RecruitResultList10View.URL = "ui://nf2zagxsnil";
+RecruitResultList10View.URL = "ui://06_Recruit/RecruitResultList10View";
 
 function RecruitResultList10View:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function RecruitResultList10View:OnConstruct(windowCom)
 end
 
 return RecruitResultList10View;
-
---self.uiComs=require('ToolGen.06_Recruit.RecruitResultList10View'):OnConstruct(self.contentPane)

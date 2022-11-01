@@ -39,13 +39,13 @@
 ---@field public m_monsterIcon CS.FairyGUI.GLoader
 ---@field public m_bossIcon CS.FairyGUI.GButton
 ---@field public m_roleHead CS.FairyGUI.GButton
----@field public m_leagueFlag CS.FairyGUI.GButton
+---@field public m_leagueFlag CS.FairyGUI.GComponent
 ---@field public m_n78 CS.FairyGUI.GImage
 ---@field public m_coordTitle CS.FairyGUI.GTextField
 ---@field public m_n77 CS.FairyGUI.GGroup
 local ResourceTipsView = {};
 
-ResourceTipsView.URL = "ui://4ni413lanil";
+ResourceTipsView.URL = "ui://main/ResourceTipsView";
 
 function ResourceTipsView:OnConstruct(windowCom)
 	local tb = {
@@ -95,5 +95,3 @@ function ResourceTipsView:OnConstruct(windowCom)
 end
 
 return ResourceTipsView;
-
---self.uiComs=require('ToolGen.main.ResourceTipsView'):OnConstruct(self.contentPane)

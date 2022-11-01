@@ -19,7 +19,7 @@
 ---@field public m_star6 general_star_grid
 local generalIcon2 = {};
 
-generalIcon2.URL = "ui://2r331opvnil";
+generalIcon2.URL = "ui://common/generalIcon2";
 
 function generalIcon2:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function generalIcon2:OnConstruct(windowCom)
 end
 
 return generalIcon2;
-
---self.uiComs=require('ToolGen.common.generalIcon2'):OnConstruct(self.contentPane)

@@ -33,7 +33,7 @@
 ---@field public m_btnAdd CS.FairyGUI.GButton
 local FriendMainView = {};
 
-FriendMainView.URL = "ui://dowwulhenil";
+FriendMainView.URL = "ui://16_friends/FriendMainView";
 
 function FriendMainView:OnConstruct(windowCom)
 	local tb = {
@@ -71,5 +71,3 @@ function FriendMainView:OnConstruct(windowCom)
 end
 
 return FriendMainView;
-
---self.uiComs=require('ToolGen.16_friends.FriendMainView'):OnConstruct(self.contentPane)

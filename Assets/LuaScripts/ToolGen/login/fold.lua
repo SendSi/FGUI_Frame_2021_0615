@@ -8,7 +8,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local fold = {};
 
-fold.URL = "ui://byy9k3ghnil";
+fold.URL = "ui://login/fold";
 
 function fold:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function fold:OnConstruct(windowCom)
 end
 
 return fold;
-
---self.uiComs=require('ToolGen.login.fold'):OnConstruct(self.contentPane)

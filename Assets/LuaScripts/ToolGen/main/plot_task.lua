@@ -8,7 +8,7 @@
 ---@field public m_LevelLbl CS.FairyGUI.GTextField
 local plot_task = {};
 
-plot_task.URL = "ui://4ni413lanil";
+plot_task.URL = "ui://main/plot_task";
 
 function plot_task:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function plot_task:OnConstruct(windowCom)
 end
 
 return plot_task;
-
---self.uiComs=require('ToolGen.main.plot_task'):OnConstruct(self.contentPane)

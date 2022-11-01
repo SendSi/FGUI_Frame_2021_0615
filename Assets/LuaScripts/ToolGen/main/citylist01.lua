@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local citylist01 = {};
 
-citylist01.URL = "ui://4ni413lanil";
+citylist01.URL = "ui://main/citylist01";
 
 function citylist01:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function citylist01:OnConstruct(windowCom)
 end
 
 return citylist01;
-
---self.uiComs=require('ToolGen.main.citylist01'):OnConstruct(self.contentPane)

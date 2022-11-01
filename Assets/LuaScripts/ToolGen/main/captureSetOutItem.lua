@@ -19,7 +19,7 @@
 ---@field public m_city CS.FairyGUI.GGroup
 local captureSetOutItem = {};
 
-captureSetOutItem.URL = "ui://4ni413lanil";
+captureSetOutItem.URL = "ui://main/captureSetOutItem";
 
 function captureSetOutItem:OnConstruct(windowCom)
 	local tb = {
@@ -43,5 +43,3 @@ function captureSetOutItem:OnConstruct(windowCom)
 end
 
 return captureSetOutItem;
-
---self.uiComs=require('ToolGen.main.captureSetOutItem'):OnConstruct(self.contentPane)

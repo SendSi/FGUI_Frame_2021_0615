@@ -11,7 +11,7 @@
 ---@field public m_num3 CS.FairyGUI.GTextField
 local building_introItem = {};
 
-building_introItem.URL = "ui://4ni413lanil";
+building_introItem.URL = "ui://main/building_introItem";
 
 function building_introItem:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function building_introItem:OnConstruct(windowCom)
 end
 
 return building_introItem;
-
---self.uiComs=require('ToolGen.main.building_introItem'):OnConstruct(self.contentPane)

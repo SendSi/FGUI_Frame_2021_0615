@@ -10,7 +10,7 @@
 ---@field public m_n1 CS.FairyGUI.GImage
 local com_cbtn_icon01 = {};
 
-com_cbtn_icon01.URL = "ui://2r331opvnil";
+com_cbtn_icon01.URL = "ui://common/com_cbtn_icon01";
 
 function com_cbtn_icon01:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function com_cbtn_icon01:OnConstruct(windowCom)
 end
 
 return com_cbtn_icon01;
-
---self.uiComs=require('ToolGen.common.com_cbtn_icon01'):OnConstruct(self.contentPane)

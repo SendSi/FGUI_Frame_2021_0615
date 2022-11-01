@@ -10,7 +10,7 @@
 ---@field public m_btn CS.FairyGUI.GButton
 local main_buff_item = {};
 
-main_buff_item.URL = "ui://4ni413lanil";
+main_buff_item.URL = "ui://main/main_buff_item";
 
 function main_buff_item:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function main_buff_item:OnConstruct(windowCom)
 end
 
 return main_buff_item;
-
---self.uiComs=require('ToolGen.main.main_buff_item'):OnConstruct(self.contentPane)

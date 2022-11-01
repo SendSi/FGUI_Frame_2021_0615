@@ -5,7 +5,7 @@
 ---@field public m_item TaskTipViewItem
 local taskTipsView = {};
 
-taskTipsView.URL = "ui://zezobey9nil";
+taskTipsView.URL = "ui://17_Task/taskTipsView";
 
 function taskTipsView:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function taskTipsView:OnConstruct(windowCom)
 end
 
 return taskTipsView;
-
---self.uiComs=require('ToolGen.17_Task.taskTipsView'):OnConstruct(self.contentPane)

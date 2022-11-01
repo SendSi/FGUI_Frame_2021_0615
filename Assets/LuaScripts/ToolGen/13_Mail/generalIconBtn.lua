@@ -10,7 +10,7 @@
 ---@field public m_icon CS.FairyGUI.GComponent
 local generalIconBtn = {};
 
-generalIconBtn.URL = "ui://ufsajnnznil";
+generalIconBtn.URL = "ui://13_Mail/generalIconBtn";
 
 function generalIconBtn:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function generalIconBtn:OnConstruct(windowCom)
 end
 
 return generalIconBtn;
-
---self.uiComs=require('ToolGen.13_Mail.generalIconBtn'):OnConstruct(self.contentPane)

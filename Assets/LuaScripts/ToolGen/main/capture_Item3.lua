@@ -6,7 +6,7 @@
 ---@field public m_number CS.FairyGUI.GTextField
 local capture_Item3 = {};
 
-capture_Item3.URL = "ui://4ni413lanil";
+capture_Item3.URL = "ui://main/capture_Item3";
 
 function capture_Item3:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function capture_Item3:OnConstruct(windowCom)
 end
 
 return capture_Item3;
-
---self.uiComs=require('ToolGen.main.capture_Item3'):OnConstruct(self.contentPane)

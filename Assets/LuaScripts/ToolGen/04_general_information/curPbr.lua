@@ -13,7 +13,7 @@
 ---@field public m_dot6 curpbr_dot
 local curPbr = {};
 
-curPbr.URL = "ui://4hio38umnil";
+curPbr.URL = "ui://04_general_information/curPbr";
 
 function curPbr:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function curPbr:OnConstruct(windowCom)
 end
 
 return curPbr;
-
---self.uiComs=require('ToolGen.04_general_information.curPbr'):OnConstruct(self.contentPane)

@@ -31,7 +31,7 @@
 ---@field public m_gradient CS.FairyGUI.Transition
 local BuildView = {};
 
-BuildView.URL = "ui://4ni413lanil";
+BuildView.URL = "ui://main/BuildView";
 
 function BuildView:OnConstruct(windowCom)
 	local tb = {
@@ -67,5 +67,3 @@ function BuildView:OnConstruct(windowCom)
 end
 
 return BuildView;
-
---self.uiComs=require('ToolGen.main.BuildView'):OnConstruct(self.contentPane)

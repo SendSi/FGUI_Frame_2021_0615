@@ -12,7 +12,7 @@
 ---@field public m_lvLbl CS.FairyGUI.GTextField
 local mainTopPlayerInfo = {};
 
-mainTopPlayerInfo.URL = "ui://4ni413lanil";
+mainTopPlayerInfo.URL = "ui://main/mainTopPlayerInfo";
 
 function mainTopPlayerInfo:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function mainTopPlayerInfo:OnConstruct(windowCom)
 end
 
 return mainTopPlayerInfo;
-
---self.uiComs=require('ToolGen.main.mainTopPlayerInfo'):OnConstruct(self.contentPane)

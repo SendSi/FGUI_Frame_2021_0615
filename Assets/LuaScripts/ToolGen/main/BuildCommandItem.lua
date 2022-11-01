@@ -11,7 +11,7 @@
 ---@field public m_timeLbl CS.FairyGUI.GTextField
 local BuildCommandItem = {};
 
-BuildCommandItem.URL = "ui://4ni413lanil";
+BuildCommandItem.URL = "ui://main/BuildCommandItem";
 
 function BuildCommandItem:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function BuildCommandItem:OnConstruct(windowCom)
 end
 
 return BuildCommandItem;
-
---self.uiComs=require('ToolGen.main.BuildCommandItem'):OnConstruct(self.contentPane)

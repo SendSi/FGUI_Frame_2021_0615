@@ -6,7 +6,7 @@
 ---@field public m_n6 CS.FairyGUI.GLoader
 local main_task_hide2 = {};
 
-main_task_hide2.URL = "ui://4ni413lanil";
+main_task_hide2.URL = "ui://main/main_task_hide2";
 
 function main_task_hide2:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function main_task_hide2:OnConstruct(windowCom)
 end
 
 return main_task_hide2;
-
---self.uiComs=require('ToolGen.main.main_task_hide2'):OnConstruct(self.contentPane)

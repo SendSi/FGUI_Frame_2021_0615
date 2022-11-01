@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local com_ProgressBar4 = {};
 
-com_ProgressBar4.URL = "ui://2r331opvnil";
+com_ProgressBar4.URL = "ui://common/com_ProgressBar4";
 
 function com_ProgressBar4:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function com_ProgressBar4:OnConstruct(windowCom)
 end
 
 return com_ProgressBar4;
-
---self.uiComs=require('ToolGen.common.com_ProgressBar4'):OnConstruct(self.contentPane)

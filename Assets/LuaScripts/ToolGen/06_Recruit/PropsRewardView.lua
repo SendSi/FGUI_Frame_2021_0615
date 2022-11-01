@@ -13,7 +13,7 @@
 ---@field public m_n27 CS.FairyGUI.GGroup
 local PropsRewardView = {};
 
-PropsRewardView.URL = "ui://nf2zagxsnil";
+PropsRewardView.URL = "ui://06_Recruit/PropsRewardView";
 
 function PropsRewardView:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function PropsRewardView:OnConstruct(windowCom)
 end
 
 return PropsRewardView;
-
---self.uiComs=require('ToolGen.06_Recruit.PropsRewardView'):OnConstruct(self.contentPane)

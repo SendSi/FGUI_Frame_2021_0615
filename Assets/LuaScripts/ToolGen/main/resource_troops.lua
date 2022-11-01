@@ -8,7 +8,7 @@
 ---@field public m_icon3 CS.FairyGUI.GComponent
 local resource_troops = {};
 
-resource_troops.URL = "ui://4ni413lanil";
+resource_troops.URL = "ui://main/resource_troops";
 
 function resource_troops:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function resource_troops:OnConstruct(windowCom)
 end
 
 return resource_troops;
-
---self.uiComs=require('ToolGen.main.resource_troops'):OnConstruct(self.contentPane)

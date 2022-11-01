@@ -7,7 +7,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local LevelUpBtn = {};
 
-LevelUpBtn.URL = "ui://4ni413lanil";
+LevelUpBtn.URL = "ui://main/LevelUpBtn";
 
 function LevelUpBtn:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function LevelUpBtn:OnConstruct(windowCom)
 end
 
 return LevelUpBtn;
-
---self.uiComs=require('ToolGen.main.LevelUpBtn'):OnConstruct(self.contentPane)

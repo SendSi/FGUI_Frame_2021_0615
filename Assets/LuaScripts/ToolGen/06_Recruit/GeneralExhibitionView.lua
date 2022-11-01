@@ -11,7 +11,7 @@
 ---@field public m_roleDynamic CS.FairyGUI.Transition
 local GeneralExhibitionView = {};
 
-GeneralExhibitionView.URL = "ui://nf2zagxsnil";
+GeneralExhibitionView.URL = "ui://06_Recruit/GeneralExhibitionView";
 
 function GeneralExhibitionView:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function GeneralExhibitionView:OnConstruct(windowCom)
 end
 
 return GeneralExhibitionView;
-
---self.uiComs=require('ToolGen.06_Recruit.GeneralExhibitionView'):OnConstruct(self.contentPane)

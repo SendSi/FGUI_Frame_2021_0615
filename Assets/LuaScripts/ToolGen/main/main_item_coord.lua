@@ -10,7 +10,7 @@
 ---@field public m_n6 CS.FairyGUI.GImage
 local main_item_coord = {};
 
-main_item_coord.URL = "ui://4ni413lanil";
+main_item_coord.URL = "ui://main/main_item_coord";
 
 function main_item_coord:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function main_item_coord:OnConstruct(windowCom)
 end
 
 return main_item_coord;
-
---self.uiComs=require('ToolGen.main.main_item_coord'):OnConstruct(self.contentPane)

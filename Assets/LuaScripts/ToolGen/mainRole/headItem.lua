@@ -18,7 +18,7 @@
 ---@field public m_n5 CS.FairyGUI.GTextField
 local headItem = {};
 
-headItem.URL = "ui://66sh7tc6nil";
+headItem.URL = "ui://mainRole/headItem";
 
 function headItem:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function headItem:OnConstruct(windowCom)
 end
 
 return headItem;
-
---self.uiComs=require('ToolGen.mainRole.headItem'):OnConstruct(self.contentPane)

@@ -9,7 +9,7 @@
 ---@field public m_button_spot red_dot
 local common_btn_tab3 = {};
 
-common_btn_tab3.URL = "ui://2r331opvnil";
+common_btn_tab3.URL = "ui://common/common_btn_tab3";
 
 function common_btn_tab3:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function common_btn_tab3:OnConstruct(windowCom)
 end
 
 return common_btn_tab3;
-
---self.uiComs=require('ToolGen.common.common_btn_tab3'):OnConstruct(self.contentPane)

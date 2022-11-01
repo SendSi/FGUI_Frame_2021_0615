@@ -20,7 +20,7 @@
 ---@field public m_n31 CS.FairyGUI.GGroup
 local FriendBlackView = {};
 
-FriendBlackView.URL = "ui://dowwulhenil";
+FriendBlackView.URL = "ui://16_friends/FriendBlackView";
 
 function FriendBlackView:OnConstruct(windowCom)
 	local tb = {
@@ -45,5 +45,3 @@ function FriendBlackView:OnConstruct(windowCom)
 end
 
 return FriendBlackView;
-
---self.uiComs=require('ToolGen.16_friends.FriendBlackView'):OnConstruct(self.contentPane)

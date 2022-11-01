@@ -12,7 +12,7 @@
 ---@field public m_curve CS.FairyGUI.GImage
 local TroopsMainSliderItem = {};
 
-TroopsMainSliderItem.URL = "ui://jqem9egtnil";
+TroopsMainSliderItem.URL = "ui://08_Troops/TroopsMainSliderItem";
 
 function TroopsMainSliderItem:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function TroopsMainSliderItem:OnConstruct(windowCom)
 end
 
 return TroopsMainSliderItem;
-
---self.uiComs=require('ToolGen.08_Troops.TroopsMainSliderItem'):OnConstruct(self.contentPane)

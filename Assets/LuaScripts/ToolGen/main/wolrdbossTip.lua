@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local wolrdbossTip = {};
 
-wolrdbossTip.URL = "ui://4ni413lanil";
+wolrdbossTip.URL = "ui://main/wolrdbossTip";
 
 function wolrdbossTip:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function wolrdbossTip:OnConstruct(windowCom)
 end
 
 return wolrdbossTip;
-
---self.uiComs=require('ToolGen.main.wolrdbossTip'):OnConstruct(self.contentPane)

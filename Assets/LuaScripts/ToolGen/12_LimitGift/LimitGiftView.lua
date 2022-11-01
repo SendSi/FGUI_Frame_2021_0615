@@ -12,7 +12,7 @@
 ---@field public m_windows CS.FairyGUI.GGroup
 local LimitGiftView = {};
 
-LimitGiftView.URL = "ui://jylg23gnnil";
+LimitGiftView.URL = "ui://12_LimitGift/LimitGiftView";
 
 function LimitGiftView:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function LimitGiftView:OnConstruct(windowCom)
 end
 
 return LimitGiftView;
-
---self.uiComs=require('ToolGen.12_LimitGift.LimitGiftView'):OnConstruct(self.contentPane)

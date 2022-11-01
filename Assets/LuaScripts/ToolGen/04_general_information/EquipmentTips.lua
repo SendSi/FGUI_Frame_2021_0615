@@ -7,7 +7,7 @@
 ---@field public m_window EquipmentTips_1
 local EquipmentTips = {};
 
-EquipmentTips.URL = "ui://4hio38umnil";
+EquipmentTips.URL = "ui://04_general_information/EquipmentTips";
 
 function EquipmentTips:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function EquipmentTips:OnConstruct(windowCom)
 end
 
 return EquipmentTips;
-
---self.uiComs=require('ToolGen.04_general_information.EquipmentTips'):OnConstruct(self.contentPane)

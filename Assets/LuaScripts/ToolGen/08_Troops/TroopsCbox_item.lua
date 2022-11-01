@@ -9,7 +9,7 @@
 ---@field public m_n4 CS.FairyGUI.GImage
 local TroopsCbox_item = {};
 
-TroopsCbox_item.URL = "ui://jqem9egtnil";
+TroopsCbox_item.URL = "ui://08_Troops/TroopsCbox_item";
 
 function TroopsCbox_item:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function TroopsCbox_item:OnConstruct(windowCom)
 end
 
 return TroopsCbox_item;
-
---self.uiComs=require('ToolGen.08_Troops.TroopsCbox_item'):OnConstruct(self.contentPane)

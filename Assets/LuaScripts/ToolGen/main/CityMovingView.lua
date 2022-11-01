@@ -11,7 +11,7 @@
 ---@field public m_n15 CS.FairyGUI.GGroup
 local CityMovingView = {};
 
-CityMovingView.URL = "ui://4ni413lanil";
+CityMovingView.URL = "ui://main/CityMovingView";
 
 function CityMovingView:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function CityMovingView:OnConstruct(windowCom)
 end
 
 return CityMovingView;
-
---self.uiComs=require('ToolGen.main.CityMovingView'):OnConstruct(self.contentPane)

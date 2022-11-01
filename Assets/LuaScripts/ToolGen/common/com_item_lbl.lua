@@ -7,7 +7,7 @@
 ---@field public m_title2 CS.FairyGUI.GRichTextField
 local com_item_lbl = {};
 
-com_item_lbl.URL = "ui://2r331opvnil";
+com_item_lbl.URL = "ui://common/com_item_lbl";
 
 function com_item_lbl:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function com_item_lbl:OnConstruct(windowCom)
 end
 
 return com_item_lbl;
-
---self.uiComs=require('ToolGen.common.com_item_lbl'):OnConstruct(self.contentPane)

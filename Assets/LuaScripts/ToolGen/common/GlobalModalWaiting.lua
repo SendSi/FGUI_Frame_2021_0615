@@ -7,7 +7,7 @@
 ---@field public m_t0 CS.FairyGUI.Transition
 local GlobalModalWaiting = {};
 
-GlobalModalWaiting.URL = "ui://2r331opvnil";
+GlobalModalWaiting.URL = "ui://common/GlobalModalWaiting";
 
 function GlobalModalWaiting:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function GlobalModalWaiting:OnConstruct(windowCom)
 end
 
 return GlobalModalWaiting;
-
---self.uiComs=require('ToolGen.common.GlobalModalWaiting'):OnConstruct(self.contentPane)

@@ -7,7 +7,7 @@
 ---@field public m_n1 CS.FairyGUI.GImage
 local chequer_btn2 = {};
 
-chequer_btn2.URL = "ui://4ni413lanil";
+chequer_btn2.URL = "ui://main/chequer_btn2";
 
 function chequer_btn2:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function chequer_btn2:OnConstruct(windowCom)
 end
 
 return chequer_btn2;
-
---self.uiComs=require('ToolGen.main.chequer_btn2'):OnConstruct(self.contentPane)

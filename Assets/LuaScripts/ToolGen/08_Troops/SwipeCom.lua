@@ -5,7 +5,7 @@
 
 local SwipeCom = {};
 
-SwipeCom.URL = "ui://jqem9egtnil";
+SwipeCom.URL = "ui://08_Troops/SwipeCom";
 
 function SwipeCom:OnConstruct(windowCom)
 	local tb = {
@@ -15,5 +15,3 @@ function SwipeCom:OnConstruct(windowCom)
 end
 
 return SwipeCom;
-
---self.uiComs=require('ToolGen.08_Troops.SwipeCom'):OnConstruct(self.contentPane)

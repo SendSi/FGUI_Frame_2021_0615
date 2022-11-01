@@ -6,7 +6,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local armsPbr_grip = {};
 
-armsPbr_grip.URL = "ui://jqem9egtnil";
+armsPbr_grip.URL = "ui://08_Troops/armsPbr_grip";
 
 function armsPbr_grip:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function armsPbr_grip:OnConstruct(windowCom)
 end
 
 return armsPbr_grip;
-
---self.uiComs=require('ToolGen.08_Troops.armsPbr_grip'):OnConstruct(self.contentPane)

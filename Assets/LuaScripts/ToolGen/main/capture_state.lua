@@ -8,7 +8,7 @@
 ---@field public m_text CS.FairyGUI.GTextField
 local capture_state = {};
 
-capture_state.URL = "ui://4ni413lanil";
+capture_state.URL = "ui://main/capture_state";
 
 function capture_state:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function capture_state:OnConstruct(windowCom)
 end
 
 return capture_state;
-
---self.uiComs=require('ToolGen.main.capture_state'):OnConstruct(self.contentPane)

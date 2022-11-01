@@ -6,7 +6,7 @@
 ---@field public m_text CS.FairyGUI.GRichTextField
 local dropItem = {};
 
-dropItem.URL = "ui://utp01xianil";
+dropItem.URL = "ui://dialogTip/dropItem";
 
 function dropItem:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function dropItem:OnConstruct(windowCom)
 end
 
 return dropItem;
-
---self.uiComs=require('ToolGen.dialogTip.dropItem'):OnConstruct(self.contentPane)

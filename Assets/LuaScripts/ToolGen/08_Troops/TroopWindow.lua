@@ -18,7 +18,7 @@
 ---@field public m_choose CS.FairyGUI.Transition
 local TroopWindow = {};
 
-TroopWindow.URL = "ui://jqem9egtnil";
+TroopWindow.URL = "ui://08_Troops/TroopWindow";
 
 function TroopWindow:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function TroopWindow:OnConstruct(windowCom)
 end
 
 return TroopWindow;
-
---self.uiComs=require('ToolGen.08_Troops.TroopWindow'):OnConstruct(self.contentPane)

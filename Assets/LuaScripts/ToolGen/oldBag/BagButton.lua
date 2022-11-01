@@ -7,7 +7,7 @@
 ---@field public m_n2 CS.FairyGUI.GMovieClip
 local BagButton = {};
 
-BagButton.URL = "ui://rbw1tv9tnil";
+BagButton.URL = "ui://oldBag/BagButton";
 
 function BagButton:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function BagButton:OnConstruct(windowCom)
 end
 
 return BagButton;
-
---self.uiComs=require('ToolGen.oldBag.BagButton'):OnConstruct(self.contentPane)

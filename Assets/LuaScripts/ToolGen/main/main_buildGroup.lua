@@ -24,7 +24,7 @@
 ---@field public m_approach CS.FairyGUI.Transition
 local main_buildGroup = {};
 
-main_buildGroup.URL = "ui://4ni413lanil";
+main_buildGroup.URL = "ui://main/main_buildGroup";
 
 function main_buildGroup:OnConstruct(windowCom)
 	local tb = {
@@ -53,5 +53,3 @@ function main_buildGroup:OnConstruct(windowCom)
 end
 
 return main_buildGroup;
-
---self.uiComs=require('ToolGen.main.main_buildGroup'):OnConstruct(self.contentPane)

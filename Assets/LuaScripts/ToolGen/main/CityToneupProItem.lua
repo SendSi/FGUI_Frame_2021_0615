@@ -15,7 +15,7 @@
 ---@field public m_bug CS.FairyGUI.GGroup
 local CityToneupProItem = {};
 
-CityToneupProItem.URL = "ui://4ni413lanil";
+CityToneupProItem.URL = "ui://main/CityToneupProItem";
 
 function CityToneupProItem:OnConstruct(windowCom)
 	local tb = {
@@ -35,5 +35,3 @@ function CityToneupProItem:OnConstruct(windowCom)
 end
 
 return CityToneupProItem;
-
---self.uiComs=require('ToolGen.main.CityToneupProItem'):OnConstruct(self.contentPane)

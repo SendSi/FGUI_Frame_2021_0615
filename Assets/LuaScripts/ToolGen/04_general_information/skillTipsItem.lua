@@ -11,7 +11,7 @@
 ---@field public m_color_2 CS.FairyGUI.GGroup
 local skillTipsItem = {};
 
-skillTipsItem.URL = "ui://4hio38umnil";
+skillTipsItem.URL = "ui://04_general_information/skillTipsItem";
 
 function skillTipsItem:OnConstruct(windowCom)
 	local tb = {
@@ -27,5 +27,3 @@ function skillTipsItem:OnConstruct(windowCom)
 end
 
 return skillTipsItem;
-
---self.uiComs=require('ToolGen.04_general_information.skillTipsItem'):OnConstruct(self.contentPane)

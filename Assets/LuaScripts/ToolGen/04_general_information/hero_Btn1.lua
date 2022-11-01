@@ -12,7 +12,7 @@
 ---@field public m_title CS.FairyGUI.GTextField
 local hero_Btn1 = {};
 
-hero_Btn1.URL = "ui://4hio38umnil";
+hero_Btn1.URL = "ui://04_general_information/hero_Btn1";
 
 function hero_Btn1:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function hero_Btn1:OnConstruct(windowCom)
 end
 
 return hero_Btn1;
-
---self.uiComs=require('ToolGen.04_general_information.hero_Btn1'):OnConstruct(self.contentPane)

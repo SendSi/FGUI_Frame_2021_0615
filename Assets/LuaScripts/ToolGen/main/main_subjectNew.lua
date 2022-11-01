@@ -64,7 +64,7 @@
 ---@field public m_a_worldboss CS.FairyGUI.Transition
 local main_subjectNew = {};
 
-main_subjectNew.URL = "ui://4ni413lanil";
+main_subjectNew.URL = "ui://main/main_subjectNew";
 
 function main_subjectNew:OnConstruct(windowCom)
 	local tb = {
@@ -133,5 +133,3 @@ function main_subjectNew:OnConstruct(windowCom)
 end
 
 return main_subjectNew;
-
---self.uiComs=require('ToolGen.main.main_subjectNew'):OnConstruct(self.contentPane)

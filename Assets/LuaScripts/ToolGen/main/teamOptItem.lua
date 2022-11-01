@@ -10,7 +10,7 @@
 ---@field public m_icon CS.FairyGUI.GLoader
 local teamOptItem = {};
 
-teamOptItem.URL = "ui://4ni413lanil";
+teamOptItem.URL = "ui://main/teamOptItem";
 
 function teamOptItem:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function teamOptItem:OnConstruct(windowCom)
 end
 
 return teamOptItem;
-
---self.uiComs=require('ToolGen.main.teamOptItem'):OnConstruct(self.contentPane)

@@ -17,7 +17,7 @@
 ---@field public m_n17 CS.FairyGUI.GGroup
 local BagComposeView = {};
 
-BagComposeView.URL = "ui://b7676vbqnil";
+BagComposeView.URL = "ui://Bag/BagComposeView";
 
 function BagComposeView:OnConstruct(windowCom)
 	local tb = {
@@ -39,5 +39,3 @@ function BagComposeView:OnConstruct(windowCom)
 end
 
 return BagComposeView;
-
---self.uiComs=require('ToolGen.bag.BagComposeView'):OnConstruct(self.contentPane)

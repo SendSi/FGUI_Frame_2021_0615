@@ -7,7 +7,7 @@
 ---@field public m_otherTitle CS.FairyGUI.GTextField
 local breakAttriItem2 = {};
 
-breakAttriItem2.URL = "ui://4hio38umnil";
+breakAttriItem2.URL = "ui://04_general_information/breakAttriItem2";
 
 function breakAttriItem2:OnConstruct(windowCom)
 	local tb = {
@@ -19,5 +19,3 @@ function breakAttriItem2:OnConstruct(windowCom)
 end
 
 return breakAttriItem2;
-
---self.uiComs=require('ToolGen.04_general_information.breakAttriItem2'):OnConstruct(self.contentPane)

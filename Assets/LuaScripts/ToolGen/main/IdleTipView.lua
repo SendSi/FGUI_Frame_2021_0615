@@ -6,7 +6,7 @@
 ---@field public m_title CS.FairyGUI.GRichTextField
 local IdleTipView = {};
 
-IdleTipView.URL = "ui://4ni413lanil";
+IdleTipView.URL = "ui://main/IdleTipView";
 
 function IdleTipView:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function IdleTipView:OnConstruct(windowCom)
 end
 
 return IdleTipView;
-
---self.uiComs=require('ToolGen.main.IdleTipView'):OnConstruct(self.contentPane)

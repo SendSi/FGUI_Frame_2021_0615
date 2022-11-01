@@ -9,7 +9,7 @@
 ---@field public m_title CS.FairyGUI.GImage
 local skin_cbtnDay = {};
 
-skin_cbtnDay.URL = "ui://4ni413lanil";
+skin_cbtnDay.URL = "ui://main/skin_cbtnDay";
 
 function skin_cbtnDay:OnConstruct(windowCom)
 	local tb = {
@@ -23,5 +23,3 @@ function skin_cbtnDay:OnConstruct(windowCom)
 end
 
 return skin_cbtnDay;
-
---self.uiComs=require('ToolGen.main.skin_cbtnDay'):OnConstruct(self.contentPane)

@@ -10,7 +10,7 @@
 ---@field public m_n53 main_btn_popup
 local sort = {};
 
-sort.URL = "ui://2r331opvnil";
+sort.URL = "ui://common/sort";
 
 function sort:OnConstruct(windowCom)
 	local tb = {
@@ -25,5 +25,3 @@ function sort:OnConstruct(windowCom)
 end
 
 return sort;
-
---self.uiComs=require('ToolGen.common.sort'):OnConstruct(self.contentPane)

@@ -12,7 +12,7 @@
 ---@field public m_n6 CS.FairyGUI.GButton
 local levelupPower = {};
 
-levelupPower.URL = "ui://4hio38umnil";
+levelupPower.URL = "ui://04_general_information/levelupPower";
 
 function levelupPower:OnConstruct(windowCom)
 	local tb = {
@@ -29,5 +29,3 @@ function levelupPower:OnConstruct(windowCom)
 end
 
 return levelupPower;
-
---self.uiComs=require('ToolGen.04_general_information.levelupPower'):OnConstruct(self.contentPane)

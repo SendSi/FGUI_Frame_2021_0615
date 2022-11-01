@@ -13,7 +13,7 @@
 ---@field public m_tShake CS.FairyGUI.Transition
 local Recruit_bg01 = {};
 
-Recruit_bg01.URL = "ui://nf2zagxsnil";
+Recruit_bg01.URL = "ui://06_Recruit/Recruit_bg01";
 
 function Recruit_bg01:OnConstruct(windowCom)
 	local tb = {
@@ -31,5 +31,3 @@ function Recruit_bg01:OnConstruct(windowCom)
 end
 
 return Recruit_bg01;
-
---self.uiComs=require('ToolGen.06_Recruit.Recruit_bg01'):OnConstruct(self.contentPane)

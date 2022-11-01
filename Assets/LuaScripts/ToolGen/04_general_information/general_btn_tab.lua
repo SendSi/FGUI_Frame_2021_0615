@@ -8,7 +8,7 @@
 ---@field public m_title2 CS.FairyGUI.GTextField
 local general_btn_tab = {};
 
-general_btn_tab.URL = "ui://4hio38umnil";
+general_btn_tab.URL = "ui://04_general_information/general_btn_tab";
 
 function general_btn_tab:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function general_btn_tab:OnConstruct(windowCom)
 end
 
 return general_btn_tab;
-
---self.uiComs=require('ToolGen.04_general_information.general_btn_tab'):OnConstruct(self.contentPane)

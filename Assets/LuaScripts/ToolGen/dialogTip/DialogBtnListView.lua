@@ -8,7 +8,7 @@
 ---@field public m_view CS.FairyGUI.GGroup
 local DialogBtnListView = {};
 
-DialogBtnListView.URL = "ui://utp01xianil";
+DialogBtnListView.URL = "ui://dialogTip/DialogBtnListView";
 
 function DialogBtnListView:OnConstruct(windowCom)
 	local tb = {
@@ -21,5 +21,3 @@ function DialogBtnListView:OnConstruct(windowCom)
 end
 
 return DialogBtnListView;
-
---self.uiComs=require('ToolGen.dialogTip.DialogBtnListView'):OnConstruct(self.contentPane)

@@ -6,7 +6,7 @@
 ---@field public m_bar CS.FairyGUI.GImage
 local capture_ProgressBar1 = {};
 
-capture_ProgressBar1.URL = "ui://4ni413lanil";
+capture_ProgressBar1.URL = "ui://main/capture_ProgressBar1";
 
 function capture_ProgressBar1:OnConstruct(windowCom)
 	local tb = {
@@ -17,5 +17,3 @@ function capture_ProgressBar1:OnConstruct(windowCom)
 end
 
 return capture_ProgressBar1;
-
---self.uiComs=require('ToolGen.main.capture_ProgressBar1'):OnConstruct(self.contentPane)

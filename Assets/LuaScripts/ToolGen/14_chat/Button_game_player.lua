@@ -18,7 +18,7 @@
 ---@field public m_n10 CS.FairyGUI.GImage
 local Button_game_player = {};
 
-Button_game_player.URL = "ui://62wjs2s2nil";
+Button_game_player.URL = "ui://14_chat/Button_game_player";
 
 function Button_game_player:OnConstruct(windowCom)
 	local tb = {
@@ -41,5 +41,3 @@ function Button_game_player:OnConstruct(windowCom)
 end
 
 return Button_game_player;
-
---self.uiComs=require('ToolGen.14_chat.Button_game_player'):OnConstruct(self.contentPane)
